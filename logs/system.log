@@ -1,0 +1,668 @@
+2025-11-04 10:39:01,206 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\data
+2025-11-04 10:39:02,733 - system - INFO - __init__ - Trading Dashboard initialized
+2025-11-04 10:39:02,795 - system - INFO - __init__ - Trading Dashboard initialized
+2025-11-04 10:39:02,795 - system - INFO - __init__ - ============================================================
+2025-11-04 10:39:02,796 - system - INFO - __init__ - NQ FUTURES TRADING BOT INITIALIZED
+2025-11-04 10:39:02,796 - system - INFO - __init__ - ============================================================
+2025-11-04 10:39:02,796 - system - INFO - __init__ - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-04 10:39:02,797 - system - INFO - __init__ - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-04 10:39:02,797 - system - INFO - __init__ - Health check: http://0.0.0.0:8050/health
+2025-11-04 10:39:02,797 - system - INFO - __init__ - ============================================================
+2025-11-04 10:39:02,798 - system - INFO - run - Starting NQ Trading Bot...
+2025-11-04 10:47:12,771 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\data
+2025-11-04 10:47:13,175 - system - INFO - __init__ - Trading Dashboard initialized
+2025-11-04 10:47:13,215 - system - INFO - __init__ - Trading Dashboard initialized
+2025-11-04 10:47:13,216 - system - INFO - __init__ - ============================================================
+2025-11-04 10:47:13,216 - system - INFO - __init__ - NQ FUTURES TRADING BOT INITIALIZED
+2025-11-04 10:47:13,216 - system - INFO - __init__ - ============================================================
+2025-11-04 10:47:13,217 - system - INFO - __init__ - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-04 10:47:13,217 - system - INFO - __init__ - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-04 10:47:13,217 - system - INFO - __init__ - Health check: http://0.0.0.0:8050/health
+2025-11-04 10:47:13,217 - system - INFO - __init__ - ============================================================
+2025-11-04 10:47:13,218 - system - INFO - run - Starting NQ Trading Bot...
+2025-11-04 10:47:13,219 - system - INFO - run - Bot is running on http://0.0.0.0:8050
+2025-11-04 10:47:13,219 - system - INFO - run - Access dashboard at: http://0.0.0.0:8050/dashboard/
+2025-11-04 10:47:13,219 - system - INFO - run - Webhook ready at: http://0.0.0.0:8050/webhook
+2025-11-04 11:06:20,281 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\data
+2025-11-04 11:06:20,671 - system - INFO - __init__ - Trading Dashboard initialized
+2025-11-04 11:10:37,575 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\data
+2025-11-04 11:10:37,968 - system - INFO - __init__ - Trading Dashboard initialized
+2025-11-04 11:15:04,636 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\data
+2025-11-04 11:15:04,995 - system - INFO - __init__ - Trading Dashboard initialized
+2025-11-04 11:23:39,420 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\data
+2025-11-04 11:23:39,810 - system - INFO - __init__ - Trading Dashboard initialized
+2025-11-04 11:23:39,850 - system - INFO - __init__ - Trading Dashboard initialized
+2025-11-04 11:27:59,898 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\data
+2025-11-04 11:28:00,293 - system - INFO - __init__ - Dashboard attached to Flask server
+2025-11-04 11:28:00,295 - system - INFO - __init__ - Trading Dashboard initialized successfully
+2025-11-04 11:28:00,296 - system - INFO - __init__ - ============================================================
+2025-11-04 11:28:00,296 - system - INFO - __init__ - NQ FUTURES TRADING BOT INITIALIZED
+2025-11-04 11:28:00,296 - system - INFO - __init__ - ============================================================
+2025-11-04 11:28:00,297 - system - INFO - __init__ - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-04 11:28:00,297 - system - INFO - __init__ - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-04 11:28:00,297 - system - INFO - __init__ - Health check: http://0.0.0.0:8050/health
+2025-11-04 11:28:00,298 - system - INFO - __init__ - ============================================================
+2025-11-04 11:28:00,298 - system - INFO - run - Starting NQ Trading Bot...
+2025-11-04 11:28:00,298 - system - INFO - run - Bot is running on http://0.0.0.0:8050
+2025-11-04 11:28:00,299 - system - INFO - run - Access dashboard at: http://0.0.0.0:8050/dashboard/
+2025-11-04 11:28:00,299 - system - INFO - run - Webhook ready at: http://0.0.0.0:8050/webhook
+2025-11-04 12:57:33,650 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\data
+2025-11-04 12:57:34,371 - system - INFO - __init__ - Dashboard attached to Flask server
+2025-11-04 12:57:34,373 - system - INFO - __init__ - Trading Dashboard initialized successfully
+2025-11-04 12:57:34,374 - system - INFO - __init__ - ============================================================
+2025-11-04 12:57:34,374 - system - INFO - __init__ - NQ FUTURES TRADING BOT INITIALIZED
+2025-11-04 12:57:34,374 - system - INFO - __init__ - ============================================================
+2025-11-04 12:57:34,375 - system - INFO - __init__ - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-04 12:57:34,375 - system - INFO - __init__ - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-04 12:57:34,375 - system - INFO - __init__ - Health check: http://0.0.0.0:8050/health
+2025-11-04 12:57:34,375 - system - INFO - __init__ - ============================================================
+2025-11-04 12:57:34,376 - system - INFO - run - Starting NQ Trading Bot...
+2025-11-04 12:57:34,376 - system - INFO - run - Bot is running on http://0.0.0.0:8050
+2025-11-04 12:57:34,376 - system - INFO - run - Access dashboard at: http://0.0.0.0:8050/dashboard/
+2025-11-04 12:57:34,377 - system - INFO - run - Webhook ready at: http://0.0.0.0:8050/webhook
+2025-11-04 14:00:14,859 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\data
+2025-11-04 14:00:16,331 - system - INFO - __init__ - Dashboard attached to Flask server
+2025-11-04 14:00:16,333 - system - INFO - __init__ - Trading Dashboard initialized successfully
+2025-11-04 14:00:16,333 - system - INFO - __init__ - ============================================================
+2025-11-04 14:00:16,334 - system - INFO - __init__ - NQ FUTURES TRADING BOT INITIALIZED
+2025-11-04 14:00:16,334 - system - INFO - __init__ - ============================================================
+2025-11-04 14:00:16,334 - system - INFO - __init__ - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-04 14:00:16,334 - system - INFO - __init__ - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-04 14:00:16,334 - system - INFO - __init__ - Health check: http://0.0.0.0:8050/health
+2025-11-04 14:00:16,334 - system - INFO - __init__ - ============================================================
+2025-11-04 14:00:16,334 - system - INFO - run - Starting NQ Trading Bot...
+2025-11-04 14:00:16,335 - system - INFO - run - Bot is running on http://0.0.0.0:8050
+2025-11-04 14:00:16,335 - system - INFO - run - Access dashboard at: http://0.0.0.0:8050/dashboard/
+2025-11-04 14:00:16,335 - system - INFO - run - Webhook ready at: http://0.0.0.0:8050/webhook
+2025-11-04 14:27:34,438 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\data
+2025-11-04 14:27:34,897 - system - INFO - __init__ - Dashboard attached to Flask server
+2025-11-04 14:27:34,899 - system - INFO - __init__ - Trading Dashboard initialized successfully
+2025-11-04 14:27:34,900 - system - INFO - __init__ - ============================================================
+2025-11-04 14:27:34,900 - system - INFO - __init__ - NQ FUTURES TRADING BOT INITIALIZED
+2025-11-04 14:27:34,900 - system - INFO - __init__ - ============================================================
+2025-11-04 14:27:34,901 - system - INFO - __init__ - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-04 14:27:34,901 - system - INFO - __init__ - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-04 14:27:34,901 - system - INFO - __init__ - Health check: http://0.0.0.0:8050/health
+2025-11-04 14:27:34,902 - system - INFO - __init__ - ============================================================
+2025-11-04 14:27:34,902 - system - INFO - run - Starting NQ Trading Bot...
+2025-11-04 14:27:34,902 - system - INFO - run - Bot is running on http://0.0.0.0:8050
+2025-11-04 14:27:34,902 - system - INFO - run - Access dashboard at: http://0.0.0.0:8050/dashboard/
+2025-11-04 14:27:34,903 - system - INFO - run - Webhook ready at: http://0.0.0.0:8050/webhook
+2025-11-04 14:30:00,788 - system - ERROR - add_bar - Error adding bar: [Errno 13] Permission denied: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\utils\data_handler.py", line 78, in add_bar
+    df.to_csv(LIVE_DATA_FILE, index=False)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\core\generic.py", line 3989, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        path_or_buf,
+        ^^^^^^^^^^^^
+    ...<14 lines>...
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ~~~~~~~~~~^
+        self.filepath_or_buffer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        storage_options=self.storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handles:
+    ^
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+2025-11-04 14:30:00,848 - system - ERROR - log_error - ERROR in DataHandler.add_bar: [Errno 13] Permission denied: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\utils\data_handler.py", line 78, in add_bar
+    df.to_csv(LIVE_DATA_FILE, index=False)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\core\generic.py", line 3989, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        path_or_buf,
+        ^^^^^^^^^^^^
+    ...<14 lines>...
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ~~~~~~~~~~^
+        self.filepath_or_buffer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        storage_options=self.storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handles:
+    ^
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+2025-11-04 14:33:54,694 - system - ERROR - get_latest_bars - Error getting latest bars: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+2025-11-04 14:33:54,697 - system - ERROR - get_latest_bars - Error getting latest bars: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+2025-11-04 14:34:00,755 - system - ERROR - add_bar - Error adding bar: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\utils\data_handler.py", line 64, in add_bar
+    df = pd.read_csv(LIVE_DATA_FILE)
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+2025-11-04 14:34:00,781 - system - ERROR - log_error - ERROR in DataHandler.add_bar: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\utils\data_handler.py", line 64, in add_bar
+    df = pd.read_csv(LIVE_DATA_FILE)
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+2025-11-04 14:34:04,709 - system - ERROR - get_latest_bars - Error getting latest bars: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+2025-11-04 14:34:04,709 - system - ERROR - get_latest_bars - Error getting latest bars: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+2025-11-04 14:34:14,711 - system - ERROR - get_latest_bars - Error getting latest bars: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+2025-11-04 14:34:14,711 - system - ERROR - get_latest_bars - Error getting latest bars: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+2025-11-04 14:34:24,697 - system - ERROR - get_latest_bars - Error getting latest bars: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+2025-11-04 14:34:24,697 - system - ERROR - get_latest_bars - Error getting latest bars: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+2025-11-04 14:34:34,696 - system - ERROR - get_latest_bars - Error getting latest bars: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+2025-11-04 14:34:34,697 - system - ERROR - get_latest_bars - Error getting latest bars: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+2025-11-04 14:34:46,142 - system - ERROR - get_latest_bars - Error getting latest bars: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+2025-11-04 14:34:46,144 - system - ERROR - get_latest_bars - Error getting latest bars: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+2025-11-04 14:34:56,153 - system - ERROR - get_latest_bars - Error getting latest bars: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+2025-11-04 14:34:56,158 - system - ERROR - get_latest_bars - Error getting latest bars: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+2025-11-04 14:35:00,757 - system - ERROR - add_bar - Error adding bar: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\utils\data_handler.py", line 64, in add_bar
+    df = pd.read_csv(LIVE_DATA_FILE)
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+2025-11-04 14:35:00,759 - system - ERROR - log_error - ERROR in DataHandler.add_bar: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\utils\data_handler.py", line 64, in add_bar
+    df = pd.read_csv(LIVE_DATA_FILE)
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+2025-11-04 14:38:04,729 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:38:04,752 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:38:14,722 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:38:14,739 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:38:24,717 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:38:24,740 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:38:36,155 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:38:36,157 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:38:46,152 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:38:46,180 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:38:56,153 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:38:56,160 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:39:06,149 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:39:06,158 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:39:16,155 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:39:16,157 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:39:26,153 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:39:26,155 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:39:42,167 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:39:42,169 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:39:46,153 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:39:46,170 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:40:42,160 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:40:42,163 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:40:46,158 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:40:46,160 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:41:42,169 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:41:42,170 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:41:44,719 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:41:44,752 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:41:45,760 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:41:45,764 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:41:55,756 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:41:55,782 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:42:05,765 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:42:05,770 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:42:15,773 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:42:15,775 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:42:25,761 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:42:25,763 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:42:35,775 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:42:35,779 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:42:45,772 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:42:45,777 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:42:55,772 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:42:55,775 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:43:02,057 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:43:02,082 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:43:12,155 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:43:12,157 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:43:22,156 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:43:22,157 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:43:32,152 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:43:32,171 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:43:42,152 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:43:42,159 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:43:52,187 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:43:52,191 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:44:03,156 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:44:03,161 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:44:42,164 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:44:42,172 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:44:42,509 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:44:42,518 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 14:45:07,806 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\data
+2025-11-04 14:45:08,217 - system - INFO - __init__ - Dashboard attached to Flask server
+2025-11-04 14:45:08,220 - system - INFO - __init__ - Trading Dashboard initialized successfully
+2025-11-04 14:45:08,220 - system - INFO - __init__ - ============================================================
+2025-11-04 14:45:08,220 - system - INFO - __init__ - NQ FUTURES TRADING BOT INITIALIZED
+2025-11-04 14:45:08,220 - system - INFO - __init__ - ============================================================
+2025-11-04 14:45:08,221 - system - INFO - __init__ - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-04 14:45:08,221 - system - INFO - __init__ - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-04 14:45:08,221 - system - INFO - __init__ - Health check: http://0.0.0.0:8050/health
+2025-11-04 14:45:08,221 - system - INFO - __init__ - ============================================================
+2025-11-04 14:45:08,221 - system - INFO - run - Starting NQ Trading Bot...
+2025-11-04 14:45:08,222 - system - INFO - run - Bot is running on http://0.0.0.0:8050
+2025-11-04 14:45:08,222 - system - INFO - run - Access dashboard at: http://0.0.0.0:8050/dashboard/
+2025-11-04 14:45:08,222 - system - INFO - run - Webhook ready at: http://0.0.0.0:8050/webhook
+2025-11-04 16:58:42,220 - system - ERROR - get_latest_bars - Error getting latest bars: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+2025-11-04 16:58:42,222 - system - ERROR - get_all_trades - Error getting trades: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\trades.csv'
+2025-11-04 16:58:42,223 - system - ERROR - get_all_signals - Error getting signals: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\signals.csv'
+2025-11-04 16:58:42,228 - system - ERROR - get_latest_bars - Error getting latest bars: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+2025-11-04 16:58:42,231 - system - ERROR - get_all_trades - Error getting trades: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\trades.csv'
+2025-11-04 16:59:00,321 - system - ERROR - add_bar - Error adding bar: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\utils\data_handler.py", line 64, in add_bar
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+2025-11-04 16:59:00,331 - system - ERROR - log_error - ERROR in DataHandler.add_bar: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\utils\data_handler.py", line 64, in add_bar
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\bschm\anaconda3\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDrive\\Documents\\nq_trading_bot\\data\\nq_live_data.csv'
+2025-11-04 17:03:15,948 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-04 17:03:17,699 - system - INFO - __init__ - Dashboard attached to Flask server
+2025-11-04 17:03:17,701 - system - INFO - __init__ - Trading Dashboard initialized successfully
+2025-11-04 17:03:17,701 - system - INFO - __init__ - ============================================================
+2025-11-04 17:03:17,701 - system - INFO - __init__ - NQ FUTURES TRADING BOT - COMPLETE VERSION
+2025-11-04 17:03:17,702 - system - INFO - __init__ - ============================================================
+2025-11-04 17:03:17,702 - system - INFO - __init__ - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-04 17:03:17,702 - system - INFO - __init__ - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-04 17:03:17,702 - system - INFO - __init__ - Health check: http://0.0.0.0:8050/health
+2025-11-04 17:03:17,703 - system - INFO - __init__ - Positions API: http://0.0.0.0:8050/positions
+2025-11-04 17:03:17,703 - system - INFO - __init__ - Stats API: http://0.0.0.0:8050/stats
+2025-11-04 17:03:17,703 - system - INFO - __init__ - ============================================================
+2025-11-04 17:03:17,716 - system - INFO - __init__ - ============================================================
+2025-11-04 17:03:17,716 - system - INFO - run - Starting NQ Trading Bot...
+2025-11-04 17:03:17,716 - system - INFO - run - Bot is running on http://0.0.0.0:8050
+2025-11-04 17:03:17,717 - system - INFO - run - Access dashboard at: http://0.0.0.0:8050/dashboard/
+2025-11-04 17:03:17,717 - system - INFO - run - Webhook ready at: http://0.0.0.0:8050/webhook
+2025-11-04 17:03:42,249 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:03:42,250 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:04:42,245 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:04:42,264 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:05:42,243 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:05:42,248 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:06:42,251 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:06:42,252 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
