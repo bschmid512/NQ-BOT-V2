@@ -666,3 +666,364 @@ FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDr
     - passing `format` if your strings have a consistent format;
     - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
     - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:07:06,554 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:07:06,559 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:07:09,180 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:07:09,181 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:07:19,191 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:07:19,208 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:07:29,195 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:07:29,201 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:07:39,195 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:07:39,223 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:07:49,190 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:07:49,211 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:07:59,188 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:07:59,191 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:08:10,238 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:08:10,241 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:08:20,243 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:08:20,269 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:08:30,251 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:08:30,277 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:08:40,238 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:08:40,242 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:08:50,254 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:08:50,256 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:09:00,240 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:09:00,247 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:09:42,240 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:09:42,264 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:10:42,242 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:10:42,243 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:11:42,238 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:11:42,268 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:12:42,246 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:12:42,266 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:13:42,238 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:13:42,241 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:14:42,255 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:14:42,257 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:15:42,234 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:15:42,255 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:16:42,242 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:16:42,245 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:17:42,240 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:17:42,260 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:18:42,251 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:18:42,256 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:19:42,240 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:19:42,243 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:20:42,252 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:20:42,257 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:21:42,248 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:21:42,265 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:22:42,253 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:22:42,255 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:23:42,253 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:23:42,254 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:24:42,247 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:24:42,264 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:25:42,251 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:25:42,253 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:26:42,251 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:26:42,256 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:27:42,258 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:27:42,260 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:28:42,247 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:28:42,275 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:29:42,250 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:29:42,271 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:30:42,249 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:30:42,252 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:31:42,250 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:31:42,267 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:32:42,250 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:32:42,251 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:33:32,609 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:33:32,611 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:33:35,128 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:33:35,131 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:33:45,145 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:33:45,147 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:33:55,135 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:33:55,153 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:34:05,122 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:34:05,130 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:34:15,141 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:34:15,145 - system - ERROR - get_latest_bars - Error getting latest bars: unconverted data remains when parsing with format "%Y-%m-%d %H:%M:%S": ".626901", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-11-04 17:34:39,675 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-04 17:34:40,078 - system - INFO - __init__ - Dashboard attached to Flask server
+2025-11-04 17:34:40,080 - system - INFO - __init__ - Trading Dashboard initialized successfully
+2025-11-04 17:34:40,081 - system - INFO - __init__ - ============================================================
+2025-11-04 17:34:40,081 - system - INFO - __init__ - NQ FUTURES TRADING BOT - COMPLETE VERSION
+2025-11-04 17:34:40,081 - system - INFO - __init__ - ============================================================
+2025-11-04 17:34:40,081 - system - INFO - __init__ - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-04 17:34:40,082 - system - INFO - __init__ - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-04 17:34:40,082 - system - INFO - __init__ - Health check: http://0.0.0.0:8050/health
+2025-11-04 17:34:40,082 - system - INFO - __init__ - Positions API: http://0.0.0.0:8050/positions
+2025-11-04 17:34:40,082 - system - INFO - __init__ - Stats API: http://0.0.0.0:8050/stats
+2025-11-04 17:34:40,083 - system - INFO - __init__ - ============================================================
+2025-11-04 17:34:40,089 - system - INFO - __init__ - ============================================================
+2025-11-04 17:34:40,089 - system - INFO - run - Starting NQ Trading Bot...
+2025-11-04 17:34:40,090 - system - INFO - run - Bot is running on http://0.0.0.0:8050
+2025-11-04 17:34:40,090 - system - INFO - run - Access dashboard at: http://0.0.0.0:8050/dashboard/
+2025-11-04 17:34:40,090 - system - INFO - run - Webhook ready at: http://0.0.0.0:8050/webhook

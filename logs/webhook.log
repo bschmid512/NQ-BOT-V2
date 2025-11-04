@@ -427,3 +427,10 @@
 2025-11-04 16:58:00,550 - webhook - WARNING - receive_webhook - Invalid passphrase attempt from 127.0.0.1
 2025-11-04 16:59:00,333 - webhook - INFO - receive_webhook - Bar received: 2025-11-04T16:59:00.321308 | O:25576.50 H:25580.50 L:25574.75 C:25577.75 V:365.0
 2025-11-04 16:59:00,425 - webhook - WARNING - receive_webhook - Invalid passphrase attempt from 127.0.0.1
+2025-11-04 18:01:01,276 - webhook - INFO - receive_webhook - Bar received: 2025-11-04 18:01:01.237396 | O:25545.00 H:25571.25 L:25545.00 C:25559.25 V:1756.0
+2025-11-04 18:02:01,493 - webhook - INFO - receive_webhook - Bar received: 2025-11-04 18:02:01.487813 | O:25560.25 H:25574.50 L:25555.25 C:25565.25 V:997.0
+2025-11-04 18:03:00,872 - webhook - INFO - receive_webhook - Bar received: 2025-11-04 18:03:00.866366 | O:25565.75 H:25566.00 L:25548.50 C:25550.50 V:743.0
+2025-11-04 18:04:00,884 - webhook - INFO - receive_webhook - Bar received: 2025-11-04 18:04:00.875609 | O:25551.50 H:25552.25 L:25538.25 C:25539.00 V:968.0
+2025-11-04 18:05:00,969 - webhook - INFO - receive_webhook - Bar received: 2025-11-04 18:05:00.963117 | O:25540.25 H:25541.25 L:25534.00 C:25535.25 V:564.0
+2025-11-04 18:06:00,904 - webhook - INFO - receive_webhook - Bar received: 2025-11-04 18:06:00.898667 | O:25536.00 H:25541.00 L:25532.50 C:25538.00 V:583.0
+2025-11-04 18:07:00,714 - webhook - INFO - receive_webhook - Bar received: 2025-11-04 18:07:00.708185 | O:25538.00 H:25541.00 L:25517.25 C:25519.25 V:916.0

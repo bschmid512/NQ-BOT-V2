@@ -95,21 +95,16 @@ class OpeningRangeBreakout:
             self.logger.error(f"Error calculating opening range: {e}")
             return None
     
-    def generate_signal(self, current_bar: pd.Series, or_data: Dict = None) -> Optional[Dict]:
-        """
-        Generate trading signal based on OR breakout
-        
-        Args:
-            current_bar: Current price bar
-            or_data: Opening range data (if already calculated)
-            
-        Returns:
-            Signal dict or None
-        """
-        try:
-            # Skip if trade already taken today
-            if self.trade_taken_today:
-                return None
+# In opening_range.py:
+    def generate_signal(self, current_bar, or_data=None, levels=None, context=None):
+    # Add checks:
+        if levels and 'pdh' in levels:
+            pdh = levels['pdh']
+        if signal_direction == 'LONG' and current_price < pdh:
+            # Still below PDH, good setup
+            pass
+        elif signal_direction == 'LONG' and abs(current_price - pdh) < 10:
+            return None  # Too close to resistance
             
             # Check if we have OR data
             if or_data is None:

@@ -95,9 +95,9 @@ class DataHandler:
         try:
             df = pd.read_csv(LIVE_DATA_FILE)
             
-            # FIXED: Use flexible datetime parsing without format specification
-            # This handles both formats: "2024-11-04 14:28:00" and "2024-11-04 14:28:00.626901"
-            df['timestamp'] = pd.to_datetime(df['timestamp'])
+            # FIXED: Use format='mixed' to handle both timestamp formats
+            # This handles both: "2024-11-04 14:28:00" and "2024-11-04 14:28:00.626901"
+            df['timestamp'] = pd.to_datetime(df['timestamp'], format='mixed')
             
             df = df.sort_values('timestamp').tail(n)
             df = df.set_index('timestamp')
@@ -110,7 +110,7 @@ class DataHandler:
         """Get bars within a specific time range"""
         try:
             df = pd.read_csv(LIVE_DATA_FILE)
-            df['timestamp'] = pd.to_datetime(df['timestamp'])
+            df['timestamp'] = pd.to_datetime(df['timestamp'], format='mixed')
             mask = (df['timestamp'] >= start_time) & (df['timestamp'] <= end_time)
             df = df[mask].set_index('timestamp')
             return df
@@ -186,7 +186,7 @@ class DataHandler:
         try:
             df = pd.read_csv(TRADES_FILE)
             if not df.empty:
-                df['timestamp'] = pd.to_datetime(df['timestamp'])
+                df['timestamp'] = pd.to_datetime(df['timestamp'], format='mixed')
             return df
         except Exception as e:
             self.logger.error(f"Error getting trades: {e}")
@@ -197,7 +197,7 @@ class DataHandler:
         try:
             df = pd.read_csv(SIGNALS_FILE)
             if not df.empty:
-                df['timestamp'] = pd.to_datetime(df['timestamp'])
+                df['timestamp'] = pd.to_datetime(df['timestamp'], format='mixed')
             return df
         except Exception as e:
             self.logger.error(f"Error getting signals: {e}")

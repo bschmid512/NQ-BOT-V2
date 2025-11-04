@@ -27,10 +27,17 @@ TICK_SIZE = 0.25  # NQ tick size in points (0.25 points = 1 tick)
 TICK_VALUE = 5.00  # $20/point × 0.25 = $5 per tick
 
 # Realistic costs
-COMMISSION = 2.50  # Per contract round trip (varies by broker: $0.50-$4.20)
-SLIPPAGE_TICKS = 2  # Realistic: 2 ticks ($10) per fill
-TOTAL_COST_PER_RT = COMMISSION + (SLIPPAGE_TICKS * TICK_VALUE)  # ~$12.50
-
+COMMISSION = 6.00  # Realistic retail commission
+SLIPPAGE_TICKS = 3  # Average slippage in NQ
+TOTAL_COST_PER_RT = 21.00  # Real cost
+REALISTIC_COSTS = True
+SLIPPAGE_BY_SESSION = {
+    'PREMARKET': 4,      # 4 ticks = $20
+    'OPENING': 3,        # 3 ticks = $15
+    'MIDDAY': 2,         # 2 ticks = $10
+    'AFTERNOON': 2,
+    'CLOSE': 3
+}
 # Risk Management - REALISTIC VALUES
 MAX_POSITION_SIZE = 1  # Start with 1 contract for testing
 MAX_DAILY_LOSS = -1000  # Halt trading if daily loss exceeds $1000

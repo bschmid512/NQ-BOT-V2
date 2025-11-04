@@ -10,7 +10,7 @@ from utils.logger import trading_logger
 from utils.data_handler import data_handler
 from strategies.opening_range import orb_strategy
 from strategies.mean_reversion import mean_reversion_strategy
-
+from utils.market_levels import market_levels
 
 class StrategyEngine:
     """
@@ -101,11 +101,14 @@ class StrategyEngine:
                 return signals
             
             # Get recent bars for strategy analysis
-            df = data_handler.get_latest_bars(100)
+    # ADD THIS:
+            df = data_handler.get_latest_bars(200)  # Get more bars
+            levels = market_levels.update_levels(df)
+            context = market_levels.get_context(bar_data['close'])
             
-            if df.empty or len(df) < 50:
-                self.logger.debug(f"Insufficient data: {len(df)} bars")
-                return signals
+            # Log levels once per day
+            if should_log_levels:  # Add logic to log once at open
+                market_levels.print_levels()
             
             self.logger.info(f"Processing bar at {timestamp} | Close: {bar_data['close']:.2f} | Bars: {len(df)}")
             
