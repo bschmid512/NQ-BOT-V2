@@ -6,3 +6,15 @@
 2025-11-04 17:34:40,027 - strategy - INFO - __init__ - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
 2025-11-04 17:34:40,028 - strategy - INFO - __init__ - Strategy Engine initialized
 2025-11-04 17:34:40,028 - strategy - INFO - __init__ - Active strategies: ['orb', 'mean_reversion']
+2025-11-04 19:20:27,757 - strategy - INFO - __init__ - ORB Strategy initialized: 15min period, 50.0% target
+2025-11-04 19:20:27,765 - strategy - INFO - __init__ - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-04 19:20:27,765 - strategy - INFO - __init__ - Strategy Engine initialized
+2025-11-04 19:20:27,766 - strategy - INFO - __init__ - Active strategies: ['orb', 'mean_reversion']
+2025-11-04 19:22:18,145 - strategy - INFO - __init__ - ORB Strategy initialized: 15min period, 50.0% target
+2025-11-04 19:22:18,146 - strategy - INFO - __init__ - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-04 19:22:18,147 - strategy - INFO - __init__ - Strategy Engine initialized
+2025-11-04 19:22:18,147 - strategy - INFO - __init__ - Active strategies: ['orb', 'mean_reversion']
+2025-11-04 19:38:45,351 - strategy - INFO - __init__ - ORB Strategy initialized: 15min period, 50.0% target
+2025-11-04 19:38:45,355 - strategy - INFO - __init__ - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-04 19:38:45,356 - strategy - INFO - __init__ - Strategy Engine initialized
+2025-11-04 19:38:45,356 - strategy - INFO - __init__ - Active strategies: ['orb', 'mean_reversion']

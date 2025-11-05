@@ -2,13 +2,15 @@
 Market Context Manager
 Runs in a background thread to fetch and analyze context data (ES, VIX)
 to provide a "why" for the strategy engine.
+
+** VERSION 1.1 - LESS STRICT FILTERS **
 """
 import yfinance as yf
 import pandas as pd
 import threading
 import time
 from typing import Dict, Any
-from utils.logger import trading_logger
+from utils.logger import trading_logger # Assuming your logger is here
 
 class ContextManager:
     
@@ -38,7 +40,7 @@ class ContextManager:
         
         self.running = False
         self.thread = None
-        self.logger.info("ContextManager initialized.")
+        self.logger.info("ContextManager initialized (v1.1 - Less Strict).")
 
     def fetch_data(self) -> Dict[str, pd.DataFrame]:
         """Fetches the latest 1-day data for context tickers"""
@@ -49,7 +51,7 @@ class ContextManager:
             data['es'] = self.tickers['es'].history(period='2d', interval='1m')
             data['vix'] = self.tickers['vix'].history(period='2d', interval='1m')
         except Exception as e:
-            self.logger.warning(f"yfinance fetch failed: {e}")
+            self.logger.warning(f"[ContextManager] yfinance fetch failed: {e}")
         return data
 
     def analyze_context(self, data: Dict[str, pd.DataFrame]) -> Dict[str, Any]:
@@ -67,9 +69,13 @@ class ContextManager:
                 ema_fast = es_data.ewm(span=10).mean().iloc[-1]
                 ema_slow = es_data.ewm(span=30).mean().iloc[-1]
                 
-                if ema_fast > ema_slow * 1.0005:  # 0.05% buffer
+                # --- MODIFIED LOGIC ---
+                # We will be in "CHOP" more often, allowing more signals
+                buffer = 0.0010  # Was 0.0005. We now need a 0.1% move to be "trending"
+                
+                if ema_fast > ema_slow * (1 + buffer):
                     new_state['es_trend'] = 'STRONG_UP'
-                elif ema_fast < ema_slow * 0.9995:
+                elif ema_fast < ema_slow * (1 - buffer):
                     new_state['es_trend'] = 'STRONG_DOWN'
                 else:
                     new_state['es_trend'] = 'CHOP'
@@ -80,7 +86,9 @@ class ContextManager:
                 vix_current = vix_data.iloc[-1]
                 vix_avg = vix_data.rolling(30).mean().iloc[-1] # 30-min avg
                 
-                if vix_current > vix_avg * 1.10: # Spiking 10%
+                # --- MODIFIED LOGIC ---
+                # VIX needs to spike 15% now (was 10%)
+                if vix_current > vix_avg * 1.15: # Was 1.10
                     new_state['vix_status'] = 'SPIKING'
                 elif vix_current < 15: # Arbitrary "calm" level
                     new_state['vix_status'] = 'CALM'
@@ -91,7 +99,7 @@ class ContextManager:
             return new_state
 
         except Exception as e:
-            self.logger.error(f"Context analysis failed: {e}", exc_info=True)
+            self.logger.error(f"[ContextManager] Context analysis failed: {e}", exc_info=True)
             return {}
 
     def run_loop(self):
@@ -111,13 +119,13 @@ class ContextManager:
                     if new_state:
                         with self.lock:
                             self.market_state.update(new_state)
-                        self.logger.debug(f"Context updated: {self.market_state}")
+                        self.logger.debug(f"[ContextManager] Context updated: {self.market_state}")
                 
                 # 4. Sleep
                 time.sleep(self.update_interval)
                 
             except Exception as e:
-                self.logger.error(f"ContextManager loop error: {e}", exc_info=True)
+                self.logger.error(f"[ContextManager] ContextManager loop error: {e}", exc_info=True)
                 time.sleep(60) # Longer sleep on error
 
     def start(self):
