@@ -95,37 +95,52 @@ class OpeningRangeBreakout:
             self.logger.error(f"Error calculating opening range: {e}")
             return None
     
-# In opening_range.py:
-    def generate_signal(self, current_bar, or_data=None, levels=None, context=None):
-    # Add checks:
-        if levels and 'pdh' in levels:
-            pdh = levels['pdh']
-        if signal_direction == 'LONG' and current_price < pdh:
-            # Still below PDH, good setup
-            pass
-        elif signal_direction == 'LONG' and abs(current_price - pdh) < 10:
-            return None  # Too close to resistance
+    # <-- UPDATED SIGNATURE (removed levels, added context)
+    def generate_signal(self, current_bar, or_data=None, context: Dict = None) -> Optional[Dict]:
+        """
+        Generate ORB signal
+        
+        Args:
+            current_bar: The latest price bar
+            or_data (Optional): Provided by engine if calculated just-in-time
+            context (Dict): Market context (ES trend, VIX status)
+        """
+        try:
+            # Check if we should trade today
+            today = pd.to_datetime(current_bar.name if hasattr(current_bar, 'name') else datetime.now()).weekday()
+            if today not in self.optimal_days:
+                self.logger.debug(f"ORB: Skipping trade, not an optimal day ({today})")
+                self.trade_taken_today = True # Prevent trades
+                return None
+
+            # Check if a trade was already taken
+            if self.trade_taken_today:
+                return None
             
             # Check if we have OR data
             if or_data is None:
                 if self.or_high is None:
-                    return None
+                    return None # Still waiting for OR to be set by engine
+                # Use state set by engine
                 or_data = {
                     'high': self.or_high,
                     'low': self.or_low,
                     'size': self.or_size
                 }
-            else:
-                # Store OR data for later use
-                self.or_high = or_data['high']
-                self.or_low = or_data['low']
-                self.or_size = or_data['size']
             
             current_price = current_bar['close']
             
-            # Require strong breakout (close beyond range, not just wick)
+            # Get context
+            es_trend = context.get('es_trend', 'NEUTRAL') if context else 'NEUTRAL'
+            
             # Long breakout above OR high
             if current_price > or_data['high']:
+                
+                # ⭐⭐⭐ NEW CONTEXT FILTER ("WHY") ⭐⭐⭐
+                if es_trend == 'STRONG_DOWN':
+                    self.logger.info("ORB LONG rejected: ES trend is STRONG_DOWN.")
+                    return None
+                
                 # Stop at OR low, but cap at max points
                 stop_distance = or_data['size']
                 if stop_distance > self.max_sl_points:
@@ -164,6 +179,12 @@ class OpeningRangeBreakout:
             
             # Short breakout below OR low
             elif current_price < or_data['low']:
+                
+                # ⭐⭐⭐ NEW CONTEXT FILTER ("WHY") ⭐⭐⭐
+                if es_trend == 'STRONG_UP':
+                    self.logger.info("ORB SHORT rejected: ES trend is STRONG_UP.")
+                    return None
+                
                 # Stop at OR high, but cap at max points
                 stop_distance = or_data['size']
                 if stop_distance > self.max_sl_points:

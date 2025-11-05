@@ -18,7 +18,8 @@ from utils.logger import trading_logger
 from dashboard.trading_dashboard import TradingDashboard
 from strategy_engine import strategy_engine
 from position_manager import position_manager
-from utils.context_manager import context_manager  # <--- 1. IMPORT IT
+from utils.context_manager import context_manager # <-- 1. IMPORT IT
+
 # Create Flask server first
 server = Flask(__name__)
 logger = trading_logger.webhook_logger
@@ -75,11 +76,14 @@ def receive_webhook():
         # ⭐⭐⭐ THIS IS THE KEY ADDITION ⭐⭐⭐
         # Update existing positions first (check stops/targets)
         position_manager.update_positions(current_price, current_time)
-        # ⭐ GET CONTEXT from our new manager
+        
+        # <-- 2. GET CONTEXT from our new manager
         current_context = context_manager.get_market_context()
         logger.debug(f"Current Context: {current_context}")
+        
         # Run strategy engine to generate new signals
-        signals = strategy_engine.process_new_bar(bar_data)
+        # <-- 3. PASS CONTEXT to the engine
+        signals = strategy_engine.process_new_bar(bar_data, current_context)
         
         # If we got signals and can open positions, do it
         if signals:
@@ -211,11 +215,14 @@ class NQTradingBot:
         
         # Initialize Dash app with the Flask server
         self.dashboard = TradingDashboard(server=self.server)
+        
+        # <-- 4. START THE CONTEXT MANAGER THREAD
         try:
             context_manager.start()
             self.logger.info("✅ Market Context Manager thread: ACTIVE")
         except Exception as e:
             self.logger.error(f"Failed to start Context Manager: {e}")
+        
         self.logger.info("=" * 60)
         self.logger.info("NQ FUTURES TRADING BOT - COMPLETE VERSION")
         self.logger.info("=" * 60)
@@ -251,6 +258,7 @@ class NQTradingBot:
             print("✅ Strategies ACTIVE and will execute on incoming data")
             print("✅ Position management ENABLED")
             print("✅ Paper trading mode: ON")
+            print("✅ Market Context (ES/VIX): ACTIVE") # <-- New status
             print("=" * 60)
             print("Press CTRL+C to stop\n")
             
@@ -259,7 +267,7 @@ class NQTradingBot:
                 host=host,
                 port=port,
                 debug=debug,
-                threaded=True,
+                threaded=True, # Must be True for context manager
                 use_reloader=False
             )
             
@@ -273,7 +281,7 @@ class NQTradingBot:
             except:
                 pass
             
-            # ⭐ 3. STOP THE CONTEXT MANAGER
+            # <-- 5. STOP THE CONTEXT MANAGER
             self.logger.info("Stopping Context Manager...")
             context_manager.stop()
             
@@ -281,8 +289,11 @@ class NQTradingBot:
             sys.exit(0)
         except Exception as e:
             self.logger.error(f"Error starting bot: {e}", exc_info=True)
-            # ⭐ 3. STOP THE CONTEXT MANAGER
+            
+            # <-- 5. STOP THE CONTEXT MANAGER
+            self.logger.info("Stopping Context Manager...")
             context_manager.stop()
+            
             sys.exit(1)
 
 

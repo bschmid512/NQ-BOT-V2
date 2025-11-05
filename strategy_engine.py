@@ -10,7 +10,7 @@ from utils.logger import trading_logger
 from utils.data_handler import data_handler
 from strategies.opening_range import orb_strategy
 from strategies.mean_reversion import mean_reversion_strategy
-from utils.market_levels import market_levels
+# from utils.market_levels import market_levels # <-- We are replacing this with ContextManager
 
 class StrategyEngine:
     """
@@ -38,9 +38,9 @@ class StrategyEngine:
         self.logger.info("Strategy Engine initialized")
         self.logger.info(f"Active strategies: {list(self.strategies.keys())}")
     
-    def should_trade_now(self, timestamp: datetime) -> tuple[bool, str]:
+    def should_trade_now(self, timestamp: datetime, context: Dict) -> tuple[bool, str]: # <-- Add context
         """
-        Determine if we should trade based on time/session/events
+        Determine if we should trade based on time/session/events/context
         
         Returns:
             (bool, str): (should_trade, reason_if_not)
@@ -64,6 +64,11 @@ class StrategyEngine:
         # Avoid early European session (2am-6am ET) - very thin
         if 2 <= current_hour < 6:
             return False, "Early European session - too thin"
+            
+        # <-- NEW CONTEXT-BASED CHECK
+        # Do not trade if VIX is spiking (market is in panic)
+        if context.get('vix_status') == 'SPIKING':
+            return False, f"VIX is spiking - market too volatile, staying flat"
         
         # Allow late European + US pre-market (6am-9:30am ET) - ORB setup period
         if 6 <= current_hour < 9:
@@ -79,12 +84,13 @@ class StrategyEngine:
         
         return False, "Outside trading hours"
     
-    def process_new_bar(self, bar_data: Dict) -> List[Dict]:
+    def process_new_bar(self, bar_data: Dict, context: Dict) -> List[Dict]: # <-- Add context
         """
         Process a new price bar through all strategies
         
         Args:
             bar_data: Latest OHLCV bar
+            context: Latest market context (from ContextManager)
             
         Returns:
             List of generated signals
@@ -94,21 +100,18 @@ class StrategyEngine:
         try:
             # Check if we should trade
             timestamp = pd.to_datetime(bar_data['timestamp'])
-            should_trade, reason = self.should_trade_now(timestamp)
+            
+            # Pass context to should_trade_now
+            should_trade, reason = self.should_trade_now(timestamp, context)
             
             if not should_trade:
                 self.logger.debug(f"Not trading: {reason}")
                 return signals
             
             # Get recent bars for strategy analysis
-    # ADD THIS:
             df = data_handler.get_latest_bars(200)  # Get more bars
-            levels = market_levels.update_levels(df)
-            context = market_levels.get_context(bar_data['close'])
             
-            # Log levels once per day
-            if should_log_levels:  # Add logic to log once at open
-                market_levels.print_levels()
+            # <-- REMOVED market_levels logic
             
             self.logger.info(f"Processing bar at {timestamp} | Close: {bar_data['close']:.2f} | Bars: {len(df)}")
             
@@ -122,11 +125,13 @@ class StrategyEngine:
                     
                     # Special handling for ORB strategy
                     if strategy_name == 'orb':
-                        signal = self._process_orb_strategy(strategy, df, timestamp)
+                        # Pass context to the orb processor
+                        signal = self._process_orb_strategy(strategy, df, timestamp, context)
                     
                     # Standard processing for other strategies
                     else:
-                        signal = strategy.generate_signal(df)
+                        # Pass context to the strategy
+                        signal = strategy.generate_signal(df, context)
                     
                     if signal:
                         signals.append(signal)
@@ -147,7 +152,7 @@ class StrategyEngine:
             self.logger.error(f"Error in strategy engine: {e}", exc_info=True)
             return signals
     
-    def _process_orb_strategy(self, strategy, df: pd.DataFrame, timestamp: datetime) -> Optional[Dict]:
+    def _process_orb_strategy(self, strategy, df: pd.DataFrame, timestamp: datetime, context: Dict) -> Optional[Dict]: # <-- Add context
         """
         Special processing for Opening Range Breakout strategy
         Handles daily state reset and OR calculation
@@ -156,7 +161,7 @@ class StrategyEngine:
         strategy.reset_daily_state(timestamp.date())
         
         et_tz = pytz.timezone('US/Eastern')
-        et_time = timestamp.astimezone(et_tz) if timestamp.tzinfo else et_tz.localize(timestamp)
+        et_time = timestamp.astimezone(et_tz) if timestamp.tzinfo else et_tz.localize(timestamp).time()
         current_time = et_time.time()
         
         # Check if we're in the opening range period (9:30-9:45 AM ET)
@@ -194,7 +199,10 @@ class StrategyEngine:
         
         # Generate signal based on OR breakout
         current_bar = df.iloc[-1]
-        return strategy.generate_signal(current_bar)
+        
+        # Pass context to the strategy.
+        # We pass or_data=None because we've set the internal state (or_high, or_low)
+        return strategy.generate_signal(current_bar, or_data=None, context=context)
     
     def get_active_signals(self) -> pd.DataFrame:
         """Get all signals from current session"""

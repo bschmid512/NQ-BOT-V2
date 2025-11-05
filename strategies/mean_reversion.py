@@ -50,12 +50,13 @@ class MeanReversionStrategy:
         
         return df
     
-    def generate_signal(self, df: pd.DataFrame) -> Optional[Dict]:
+    def generate_signal(self, df: pd.DataFrame, context: Dict) -> Optional[Dict]: # <-- Add context
         """
         Generate mean reversion signal
         
         Args:
             df: DataFrame with OHLCV and indicators
+            context: Market context (ES trend, VIX status)
             
         Returns:
             Signal dict or None
@@ -82,6 +83,14 @@ class MeanReversionStrategy:
             if (current_bar['low'] <= current_bar['bb_lower'] and
                 current_bar['rsi'] < self.rsi_oversold and
                 current_bar['close'] > prev_bar['close']):  # Bullish reversal candle
+                
+                # ⭐⭐⭐ NEW CONTEXT FILTER ("WHY") ⭐⭐⭐
+                # Do not take a long if the broad market (ES) is in a STRONG_DOWN trend
+                es_trend = context.get('es_trend', 'NEUTRAL')
+                if es_trend == 'STRONG_DOWN':
+                    self.logger.info(f"Mean Reversion LONG rejected: ES trend is STRONG_DOWN.")
+                    return None
+                # ⭐⭐⭐ END OF FILTER ⭐⭐⭐
                 
                 stop_loss = current_price - 10.0  # 10 points stop
                 take_profit = current_bar['bb_middle']  # Target middle band
@@ -117,6 +126,14 @@ class MeanReversionStrategy:
             elif (current_bar['high'] >= current_bar['bb_upper'] and
                   current_bar['rsi'] > self.rsi_overbought and
                   current_bar['close'] < prev_bar['close']):  # Bearish reversal candle
+                
+                # ⭐⭐⭐ NEW CONTEXT FILTER ("WHY") ⭐⭐⭐
+                # Do not take a short if the broad market (ES) is in a STRONG_UP trend
+                es_trend = context.get('es_trend', 'NEUTRAL')
+                if es_trend == 'STRONG_UP':
+                    self.logger.info(f"Mean Reversion SHORT rejected: ES trend is STRONG_UP.")
+                    return None
+                # ⭐⭐⭐ END OF FILTER ⭐⭐⭐
                 
                 stop_loss = current_price + 10.0  # 10 points stop
                 take_profit = current_bar['bb_middle']  # Target middle band
