@@ -2808,3 +2808,21 @@ NameError: name 'current_date' is not defined. Did you mean: 'current_time'?
 2025-11-05 14:40:01,461 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 14:40:01.290649 | Close: 25869.75 | Bars: 200
 2025-11-05 14:41:01,284 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 14:41:01.110267 | Close: 25866.25 | Bars: 200
 2025-11-05 14:42:01,257 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 14:42:01.050530 | Close: 25868.75 | Bars: 200
+2025-11-05 14:43:01,057 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 14:43:00.958599 | Close: 25866.75 | Bars: 200
+2025-11-05 14:44:01,194 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 14:44:01.083731 | Close: 25861.75 | Bars: 200
+2025-11-05 14:45:01,492 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 14:45:01.344868 | Close: 25860.75 | Bars: 200
+2025-11-05 14:46:02,005 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 14:46:01.915830 | Close: 25858.75 | Bars: 200
+2025-11-05 14:47:01,601 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 14:47:01.496143 | Close: 25861.75 | Bars: 200
+2025-11-05 14:48:01,471 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 14:48:01.385445 | Close: 25857.75 | Bars: 200
+2025-11-05 14:49:01,058 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 14:49:00.942723 | Close: 25855.25 | Bars: 200
+2025-11-05 14:50:01,871 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 14:50:01.712594 | Close: 25854.25 | Bars: 200
+2025-11-05 14:51:01,025 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 14:51:00.889131 | Close: 25862.25 | Bars: 200
+2025-11-05 14:52:03,820 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 14:52:03.676456 | Close: 25866.25 | Bars: 200
+2025-11-05 14:53:01,548 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 14:53:01.111542 | Close: 25864.50 | Bars: 200
+2025-11-05 14:54:03,059 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 14:54:02.784942 | Close: 25865.00 | Bars: 200
+2025-11-05 14:55:01,366 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 14:55:01.210979 | Close: 25870.25 | Bars: 200
+2025-11-05 14:56:01,157 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 14:56:01.062249 | Close: 25868.00 | Bars: 200
+2025-11-05 14:57:00,119 - strategy - INFO - __init__ - ORB Strategy initialized: 15min period, 50.0% target
+2025-11-05 14:57:00,142 - strategy - INFO - __init__ - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-05 15:47:56,173 - strategy - INFO - __init__ - ORB Strategy initialized: 15min period, 50.0% target
+2025-11-05 15:47:56,175 - strategy - INFO - __init__ - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)

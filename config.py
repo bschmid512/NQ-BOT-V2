@@ -80,6 +80,23 @@ STRATEGIES = {
         'min_reward_risk': 1.5,  # Minimum 1.5:1 R:R ratio
         'weight': 0.25
     },
+        # ← ADD THESE TWO:
+    'trend_following': {
+        'enabled': True,
+        'weight': 35,
+        'fast_ema': 9,
+        'medium_ema': 21,
+        'slow_ema': 50,
+        'cooldown_minutes': 5
+    },
+    'breakout': {
+        'enabled': True,
+        'weight': 40,
+        'bb_period': 20,
+        'bb_std_dev': 2,
+        'volume_multiplier': 1.5,
+        'cooldown_minutes': 10
+    },
     'fvg': {
         'enabled': False,  # Disabled until implemented
         'min_gap_points': 3,

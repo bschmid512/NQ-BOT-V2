@@ -10,7 +10,8 @@ from utils.logger import trading_logger
 from utils.data_handler import data_handler
 from strategies.opening_range import orb_strategy
 from strategies.mean_reversion import mean_reversion_strategy
-
+from strategies.trend_following import trend_following_strategy  # ← ADD THIS
+from strategies.breakout import breakout_strategy              # ← ADD THIS
 class StrategyEngine:
     """
     Main strategy execution engine
@@ -21,7 +22,9 @@ class StrategyEngine:
         self.logger = trading_logger.strategy_logger
         self.strategies = {
             'orb': orb_strategy,
-            'mean_reversion': mean_reversion_strategy
+            'mean_reversion': mean_reversion_strategy,
+            'trend_following': trend_following_strategy,  # ← ADD THIS
+            'breakout': breakout_strategy                 # ← ADD THIS
         }
         
         # High-impact economic events (update monthly)
