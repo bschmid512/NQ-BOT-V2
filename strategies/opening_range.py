@@ -71,7 +71,6 @@ class OpeningRangeBreakout:
             or_size = or_high - or_low
             
             # FIXED: More realistic range filter
-            # At 25,600: 0.15% = 38 points, 0.4% = 102 points
             or_pct = or_size / df['close'].iloc[-1]
             
             if or_pct < self.min_range_pct:
@@ -95,7 +94,6 @@ class OpeningRangeBreakout:
             self.logger.error(f"Error calculating opening range: {e}")
             return None
     
-    # <-- UPDATED SIGNATURE (removed levels, added context)
     def generate_signal(self, current_bar, or_data=None, context: Dict = None) -> Optional[Dict]:
         """
         Generate ORB signal
@@ -136,7 +134,7 @@ class OpeningRangeBreakout:
             # Long breakout above OR high
             if current_price > or_data['high']:
                 
-                # ⭐⭐⭐ NEW CONTEXT FILTER ("WHY") ⭐⭐⭐
+                # ⭐ CONTEXT FILTER
                 if es_trend == 'STRONG_DOWN':
                     self.logger.info("ORB LONG rejected: ES trend is STRONG_DOWN.")
                     return None
@@ -148,12 +146,14 @@ class OpeningRangeBreakout:
                 
                 stop_loss = current_price - stop_distance
                 
-                # Target: 50% of range or minimum 1.5:1 R:R
+                # ⭐⭐⭐ CORRECTED R:R LOGIC ⭐⭐⭐
                 target_distance = or_data['size'] * self.target_pct
                 min_target = stop_distance * 1.5  # Minimum 1.5:1 R:R
                 
                 if target_distance < min_target:
+                    self.logger.debug(f"ORB: Target {target_distance:.2f} < Min R:R. Adjusting to {min_target:.2f}")
                     target_distance = min_target
+                # ⭐⭐⭐ END OF FIX ⭐⭐⭐
                 
                 take_profit = current_price + target_distance
                 
@@ -180,7 +180,7 @@ class OpeningRangeBreakout:
             # Short breakout below OR low
             elif current_price < or_data['low']:
                 
-                # ⭐⭐⭐ NEW CONTEXT FILTER ("WHY") ⭐⭐⭐
+                # ⭐ CONTEXT FILTER
                 if es_trend == 'STRONG_UP':
                     self.logger.info("ORB SHORT rejected: ES trend is STRONG_UP.")
                     return None
@@ -192,12 +192,14 @@ class OpeningRangeBreakout:
                 
                 stop_loss = current_price + stop_distance
                 
-                # Target: 50% of range or minimum 1.5:1 R:R
+                # ⭐⭐⭐ CORRECTED R:R LOGIC ⭐⭐⭐
                 target_distance = or_data['size'] * self.target_pct
                 min_target = stop_distance * 1.5
                 
                 if target_distance < min_target:
+                    self.logger.debug(f"ORB: Target {target_distance:.2f} < Min R:R. Adjusting to {min_target:.2f}")
                     target_distance = min_target
+                # ⭐⭐⭐ END OF FIX ⭐⭐⭐
                 
                 take_profit = current_price - target_distance
                 
