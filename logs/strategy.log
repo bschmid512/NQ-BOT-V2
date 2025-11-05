@@ -2686,3 +2686,11 @@ NameError: name 'current_date' is not defined. Did you mean: 'current_time'?
 2025-11-05 12:37:01,182 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:37:01.076926 | Close: 25814.75 | Bars: 200
 2025-11-05 12:38:01,040 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:38:00.969324 | Close: 25817.75 | Bars: 200
 2025-11-05 12:39:00,955 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:39:00.876756 | Close: 25819.25 | Bars: 200
+2025-11-05 12:40:01,722 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:40:01.668478 | Close: 25818.25 | Bars: 200
+2025-11-05 12:41:00,937 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:41:00.817237 | Close: 25817.25 | Bars: 200
+2025-11-05 12:42:01,041 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:42:00.972110 | Close: 25816.50 | Bars: 200
+2025-11-05 12:43:00,950 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:43:00.907345 | Close: 25813.75 | Bars: 200
+2025-11-05 12:44:01,052 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:44:00.989974 | Close: 25818.50 | Bars: 200
+2025-11-05 12:45:01,115 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:45:00.950993 | Close: 25825.75 | Bars: 200
+2025-11-05 12:46:00,906 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:46:00.873301 | Close: 25820.00 | Bars: 200
+2025-11-05 12:47:01,600 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:47:01.557923 | Close: 25817.00 | Bars: 200
