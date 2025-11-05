@@ -1,1 +1,2 @@
-timestamp,ticker,action,price,size,signal,stop_loss,take_profit,pnl,status
+timestamp,ticker,action,price,size,signal,stop_loss,take_profit,pnl,status,exit_price,exit_time,exit_reason,pnl_points,confidence,mfe,mae
+2025-11-05 11:03:11.317630,NQ,BUY,25716.5,1,orb,25666.5,25791.5,-1125.0,CLOSED,25660.5,2025-11-05 11:18:00.825618,STOP_LOSS,-56.0,0.3,1.25,-42.25

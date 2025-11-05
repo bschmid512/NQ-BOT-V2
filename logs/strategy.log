@@ -734,3 +734,1955 @@ Traceback (most recent call last):
     current_time = et_time.time()
                    ^^^^^^^^^^^^
 AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:19:00,966 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:19:00.908719 | Close: 25495.50 | Bars: 200
+2025-11-05 07:19:00,968 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:20:02,920 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:20:02.872586 | Close: 25503.00 | Bars: 200
+2025-11-05 07:20:02,922 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:21:01,080 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:21:00.901691 | Close: 25509.75 | Bars: 200
+2025-11-05 07:21:01,081 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:22:00,965 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:22:00.901280 | Close: 25512.75 | Bars: 200
+2025-11-05 07:22:00,966 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:23:01,030 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:23:00.915118 | Close: 25511.75 | Bars: 200
+2025-11-05 07:23:01,033 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:24:00,884 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:24:00.852706 | Close: 25507.50 | Bars: 200
+2025-11-05 07:24:00,885 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:25:01,815 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:25:01.793635 | Close: 25511.00 | Bars: 200
+2025-11-05 07:25:01,816 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:26:00,988 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:26:00.939051 | Close: 25517.25 | Bars: 200
+2025-11-05 07:26:00,989 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:27:01,058 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:27:01.013172 | Close: 25514.00 | Bars: 200
+2025-11-05 07:27:01,059 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:28:00,957 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:28:00.909699 | Close: 25505.00 | Bars: 200
+2025-11-05 07:28:00,958 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:29:00,811 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:29:00.785422 | Close: 25506.00 | Bars: 200
+2025-11-05 07:29:00,811 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:30:01,062 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:30:01.036667 | Close: 25503.75 | Bars: 200
+2025-11-05 07:30:01,063 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:31:01,143 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:31:01.115650 | Close: 25503.25 | Bars: 200
+2025-11-05 07:31:01,144 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:32:00,984 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:32:00.956648 | Close: 25508.25 | Bars: 200
+2025-11-05 07:32:00,986 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:33:00,692 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:33:00.653901 | Close: 25508.75 | Bars: 200
+2025-11-05 07:33:00,694 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:34:00,669 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:34:00.642351 | Close: 25515.75 | Bars: 200
+2025-11-05 07:34:00,670 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:35:00,906 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:35:00.881391 | Close: 25510.50 | Bars: 200
+2025-11-05 07:35:00,907 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:36:00,667 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:36:00.635188 | Close: 25511.50 | Bars: 200
+2025-11-05 07:36:00,671 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:37:00,657 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:37:00.630291 | Close: 25514.75 | Bars: 200
+2025-11-05 07:37:00,658 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:38:00,672 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:38:00.643596 | Close: 25520.50 | Bars: 200
+2025-11-05 07:38:00,673 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:39:00,651 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:39:00.629789 | Close: 25514.00 | Bars: 200
+2025-11-05 07:39:00,652 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:40:00,684 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:40:00.661684 | Close: 25525.00 | Bars: 200
+2025-11-05 07:40:00,685 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:41:00,919 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:41:00.891935 | Close: 25531.50 | Bars: 200
+2025-11-05 07:41:00,920 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:42:00,630 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:42:00.595717 | Close: 25531.50 | Bars: 200
+2025-11-05 07:42:00,631 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:43:00,665 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:43:00.643724 | Close: 25531.50 | Bars: 200
+2025-11-05 07:43:00,666 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:44:00,994 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:44:00.913617 | Close: 25531.25 | Bars: 200
+2025-11-05 07:44:00,997 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:45:00,969 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:45:00.893745 | Close: 25530.00 | Bars: 200
+2025-11-05 07:45:00,970 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:46:01,460 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:46:01.418632 | Close: 25519.50 | Bars: 200
+2025-11-05 07:46:01,461 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:47:01,081 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:47:01.037763 | Close: 25509.00 | Bars: 200
+2025-11-05 07:47:01,082 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:48:01,679 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:48:01.646000 | Close: 25513.25 | Bars: 200
+2025-11-05 07:48:01,681 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:49:00,662 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:49:00.631752 | Close: 25505.25 | Bars: 200
+2025-11-05 07:49:00,663 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:50:00,763 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:50:00.735111 | Close: 25503.50 | Bars: 200
+2025-11-05 07:50:00,764 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:51:01,287 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:51:01.261817 | Close: 25512.50 | Bars: 200
+2025-11-05 07:51:01,290 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:52:00,812 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:52:00.785152 | Close: 25513.00 | Bars: 200
+2025-11-05 07:52:00,813 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:53:00,945 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:53:00.913741 | Close: 25505.50 | Bars: 200
+2025-11-05 07:53:00,947 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:54:01,201 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:54:01.155681 | Close: 25510.25 | Bars: 200
+2025-11-05 07:54:01,202 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:55:00,763 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:55:00.735665 | Close: 25507.25 | Bars: 200
+2025-11-05 07:55:00,764 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:56:01,359 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:56:01.329612 | Close: 25507.50 | Bars: 200
+2025-11-05 07:56:01,361 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:57:00,714 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:57:00.678771 | Close: 25519.00 | Bars: 200
+2025-11-05 07:57:00,715 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:58:00,706 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:58:00.677212 | Close: 25524.75 | Bars: 200
+2025-11-05 07:58:00,707 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 07:59:00,737 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 07:59:00.677495 | Close: 25527.50 | Bars: 200
+2025-11-05 07:59:00,738 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:00:00,914 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:00:00.888527 | Close: 25529.25 | Bars: 200
+2025-11-05 08:00:00,915 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:01:01,311 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:01:01.285083 | Close: 25525.75 | Bars: 200
+2025-11-05 08:01:01,312 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    current_time = et_time.time()
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:02:01,025 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:02:00.894097 | Close: 25524.75 | Bars: 200
+2025-11-05 08:02:01,027 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:03:01,426 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:03:01.357901 | Close: 25524.25 | Bars: 200
+2025-11-05 08:03:01,430 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:04:00,981 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:04:00.948700 | Close: 25521.75 | Bars: 200
+2025-11-05 08:04:00,983 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:05:00,765 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:05:00.736108 | Close: 25534.75 | Bars: 200
+2025-11-05 08:05:00,766 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:06:00,850 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:06:00.822886 | Close: 25537.00 | Bars: 200
+2025-11-05 08:06:00,852 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:07:00,953 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:07:00.906864 | Close: 25514.75 | Bars: 200
+2025-11-05 08:07:00,954 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:08:00,933 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:08:00.902372 | Close: 25518.25 | Bars: 200
+2025-11-05 08:08:00,933 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:09:00,740 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:09:00.716764 | Close: 25521.25 | Bars: 200
+2025-11-05 08:09:00,741 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:10:00,833 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:10:00.802618 | Close: 25514.25 | Bars: 200
+2025-11-05 08:10:00,834 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:11:02,988 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:11:02.962240 | Close: 25515.25 | Bars: 200
+2025-11-05 08:11:02,989 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:12:00,806 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:12:00.778857 | Close: 25510.25 | Bars: 200
+2025-11-05 08:12:00,807 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:13:00,752 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:13:00.725786 | Close: 25514.00 | Bars: 200
+2025-11-05 08:13:00,753 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:14:01,014 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:14:00.961011 | Close: 25520.75 | Bars: 200
+2025-11-05 08:14:01,016 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:15:00,999 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:15:00.866801 | Close: 25519.75 | Bars: 200
+2025-11-05 08:15:01,001 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:16:00,739 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:16:00.715311 | Close: 25527.00 | Bars: 200
+2025-11-05 08:16:00,740 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:17:01,873 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:17:01.835439 | Close: 25525.75 | Bars: 200
+2025-11-05 08:17:01,874 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:18:00,695 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:18:00.666606 | Close: 25522.00 | Bars: 200
+2025-11-05 08:18:00,696 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:19:01,697 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:19:01.670505 | Close: 25524.75 | Bars: 200
+2025-11-05 08:19:01,697 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:20:01,052 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:20:00.912901 | Close: 25525.75 | Bars: 200
+2025-11-05 08:20:01,054 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:21:01,072 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:21:00.832365 | Close: 25518.75 | Bars: 200
+2025-11-05 08:21:01,073 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:22:01,191 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:22:01.148722 | Close: 25518.00 | Bars: 200
+2025-11-05 08:22:01,192 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:23:00,855 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:23:00.810066 | Close: 25530.75 | Bars: 200
+2025-11-05 08:23:00,857 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:24:01,186 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:24:01.160776 | Close: 25534.25 | Bars: 200
+2025-11-05 08:24:01,187 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:25:00,839 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:25:00.808068 | Close: 25532.75 | Bars: 200
+2025-11-05 08:25:00,841 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:26:00,861 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:26:00.822142 | Close: 25540.50 | Bars: 200
+2025-11-05 08:26:00,862 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:27:00,755 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:27:00.727743 | Close: 25545.50 | Bars: 200
+2025-11-05 08:27:00,756 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:28:00,765 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:28:00.719092 | Close: 25550.50 | Bars: 200
+2025-11-05 08:28:00,766 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:29:00,946 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:29:00.912289 | Close: 25557.00 | Bars: 200
+2025-11-05 08:29:00,946 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:30:00,994 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:30:00.968680 | Close: 25561.25 | Bars: 200
+2025-11-05 08:30:00,995 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:31:01,033 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:31:01.007462 | Close: 25554.75 | Bars: 200
+2025-11-05 08:31:01,033 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:32:00,733 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:32:00.694861 | Close: 25568.75 | Bars: 200
+2025-11-05 08:32:00,734 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:33:00,876 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:33:00.844889 | Close: 25559.25 | Bars: 200
+2025-11-05 08:33:00,877 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:34:00,748 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:34:00.713877 | Close: 25550.25 | Bars: 200
+2025-11-05 08:34:00,749 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:35:00,836 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:35:00.799494 | Close: 25544.00 | Bars: 200
+2025-11-05 08:35:00,837 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:36:00,863 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:36:00.820822 | Close: 25548.75 | Bars: 200
+2025-11-05 08:36:00,864 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:37:00,958 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:37:00.875663 | Close: 25556.75 | Bars: 200
+2025-11-05 08:37:00,959 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:38:00,998 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:38:00.941875 | Close: 25567.50 | Bars: 200
+2025-11-05 08:38:00,999 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:39:00,792 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:39:00.757457 | Close: 25578.50 | Bars: 200
+2025-11-05 08:39:00,792 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:40:00,749 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:40:00.721301 | Close: 25571.25 | Bars: 200
+2025-11-05 08:40:00,750 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:41:00,732 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:41:00.706500 | Close: 25578.00 | Bars: 200
+2025-11-05 08:41:00,733 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:42:00,756 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:42:00.717956 | Close: 25586.50 | Bars: 200
+2025-11-05 08:42:00,757 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:43:00,874 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:43:00.819273 | Close: 25593.00 | Bars: 200
+2025-11-05 08:43:00,875 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:44:00,707 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:44:00.677654 | Close: 25588.25 | Bars: 200
+2025-11-05 08:44:00,708 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:45:01,021 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:45:00.847958 | Close: 25591.00 | Bars: 200
+2025-11-05 08:45:01,022 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:46:01,087 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:46:01.060128 | Close: 25586.75 | Bars: 200
+2025-11-05 08:46:01,087 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:47:01,064 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:47:01.022694 | Close: 25593.25 | Bars: 200
+2025-11-05 08:47:01,065 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:48:01,059 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:48:01.011873 | Close: 25580.00 | Bars: 200
+2025-11-05 08:48:01,061 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:49:00,908 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:49:00.884515 | Close: 25591.00 | Bars: 200
+2025-11-05 08:49:00,910 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:50:00,794 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:50:00.765284 | Close: 25594.00 | Bars: 200
+2025-11-05 08:50:00,795 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:51:01,049 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:51:01.022460 | Close: 25589.50 | Bars: 200
+2025-11-05 08:51:01,049 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:52:01,020 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:52:00.988312 | Close: 25586.00 | Bars: 200
+2025-11-05 08:52:01,020 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:53:00,940 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:53:00.905281 | Close: 25584.25 | Bars: 200
+2025-11-05 08:53:00,941 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:54:00,871 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:54:00.832168 | Close: 25586.00 | Bars: 200
+2025-11-05 08:54:00,872 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:55:01,511 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:55:01.478150 | Close: 25591.25 | Bars: 200
+2025-11-05 08:55:01,512 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:56:01,107 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:56:01.081141 | Close: 25589.25 | Bars: 200
+2025-11-05 08:56:01,108 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:57:01,827 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:57:01.801947 | Close: 25591.75 | Bars: 200
+2025-11-05 08:57:01,828 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:58:00,995 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:58:00.957277 | Close: 25588.00 | Bars: 200
+2025-11-05 08:58:01,023 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 08:59:00,713 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 08:59:00.684480 | Close: 25589.50 | Bars: 200
+2025-11-05 08:59:00,714 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:00:03,116 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:00:03.089881 | Close: 25587.50 | Bars: 200
+2025-11-05 09:00:03,117 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:01:01,223 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:01:01.190275 | Close: 25575.50 | Bars: 200
+2025-11-05 09:01:01,224 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:02:00,892 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:02:00.844648 | Close: 25578.00 | Bars: 200
+2025-11-05 09:02:00,894 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:03:00,885 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:03:00.840536 | Close: 25569.75 | Bars: 200
+2025-11-05 09:03:00,886 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:04:00,986 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:04:00.874089 | Close: 25568.00 | Bars: 200
+2025-11-05 09:04:00,987 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:05:00,694 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:05:00.665477 | Close: 25565.25 | Bars: 200
+2025-11-05 09:05:00,695 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:06:00,790 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:06:00.750224 | Close: 25574.75 | Bars: 200
+2025-11-05 09:06:00,791 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:07:01,141 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:07:01.089198 | Close: 25581.00 | Bars: 200
+2025-11-05 09:07:01,143 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:08:00,874 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:08:00.846852 | Close: 25585.75 | Bars: 200
+2025-11-05 09:08:00,875 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:09:00,730 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:09:00.669157 | Close: 25576.25 | Bars: 200
+2025-11-05 09:09:00,731 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:10:00,755 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:10:00.710379 | Close: 25573.75 | Bars: 200
+2025-11-05 09:10:00,755 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:11:00,745 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:11:00.703913 | Close: 25566.75 | Bars: 200
+2025-11-05 09:11:00,746 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:12:00,883 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:12:00.839330 | Close: 25573.00 | Bars: 200
+2025-11-05 09:12:00,884 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:13:01,591 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:13:01.539695 | Close: 25575.00 | Bars: 200
+2025-11-05 09:13:01,592 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:13:42,330 - strategy - INFO - __init__ - ORB Strategy initialized: 15min period, 50.0% target
+2025-11-05 09:13:44,323 - strategy - INFO - __init__ - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-05 09:14:00,736 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:14:00.703090 | Close: 25575.00 | Bars: 200
+2025-11-05 09:14:00,737 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:15:00,752 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:15:00.709342 | Close: 25569.25 | Bars: 200
+2025-11-05 09:15:00,753 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:16:00,990 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:16:00.943746 | Close: 25562.25 | Bars: 200
+2025-11-05 09:16:00,991 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:17:00,962 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:17:00.853984 | Close: 25559.50 | Bars: 200
+2025-11-05 09:17:00,964 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:18:00,801 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:18:00.764978 | Close: 25566.75 | Bars: 200
+2025-11-05 09:18:00,801 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:19:00,687 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:19:00.659206 | Close: 25559.75 | Bars: 200
+2025-11-05 09:19:00,687 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:20:00,907 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:20:00.881283 | Close: 25559.50 | Bars: 200
+2025-11-05 09:20:00,907 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:21:00,736 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:21:00.708954 | Close: 25558.75 | Bars: 200
+2025-11-05 09:21:00,737 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:22:01,299 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:22:01.247191 | Close: 25563.25 | Bars: 200
+2025-11-05 09:22:01,301 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:23:00,968 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:23:00.938470 | Close: 25558.75 | Bars: 200
+2025-11-05 09:23:00,969 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:24:00,689 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:24:00.660921 | Close: 25558.50 | Bars: 200
+2025-11-05 09:24:00,690 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:25:00,792 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:25:00.765893 | Close: 25554.25 | Bars: 200
+2025-11-05 09:25:00,793 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:26:00,713 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:26:00.684806 | Close: 25541.25 | Bars: 200
+2025-11-05 09:26:00,714 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:27:00,783 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:27:00.743115 | Close: 25549.75 | Bars: 200
+2025-11-05 09:27:00,786 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:28:00,949 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:28:00.921228 | Close: 25533.00 | Bars: 200
+2025-11-05 09:28:00,950 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:29:00,759 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:29:00.716070 | Close: 25545.75 | Bars: 200
+2025-11-05 09:29:00,760 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:30:02,241 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:30:02.215153 | Close: 25542.00 | Bars: 200
+2025-11-05 09:30:02,242 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:31:01,108 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:31:01.080538 | Close: 25569.00 | Bars: 200
+2025-11-05 09:31:01,109 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:32:01,039 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:32:01.009002 | Close: 25527.50 | Bars: 200
+2025-11-05 09:32:01,040 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:33:00,862 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:33:00.818131 | Close: 25538.75 | Bars: 200
+2025-11-05 09:33:00,890 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:34:01,057 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:34:00.851819 | Close: 25539.50 | Bars: 200
+2025-11-05 09:34:01,058 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:35:01,360 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:35:01.337579 | Close: 25502.00 | Bars: 200
+2025-11-05 09:35:01,361 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:36:01,029 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:36:00.932077 | Close: 25514.00 | Bars: 200
+2025-11-05 09:36:01,030 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:37:00,729 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:37:00.701906 | Close: 25494.00 | Bars: 200
+2025-11-05 09:37:00,730 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:38:01,033 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:38:01.005932 | Close: 25533.00 | Bars: 200
+2025-11-05 09:38:01,034 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:39:01,032 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:39:00.978550 | Close: 25551.25 | Bars: 200
+2025-11-05 09:39:01,033 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:40:01,764 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:40:01.741956 | Close: 25554.75 | Bars: 200
+2025-11-05 09:40:01,765 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:41:00,638 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:41:00.611330 | Close: 25546.00 | Bars: 200
+2025-11-05 09:41:00,639 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:42:01,042 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:42:00.884848 | Close: 25528.75 | Bars: 200
+2025-11-05 09:42:01,043 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:43:00,693 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:43:00.666586 | Close: 25515.00 | Bars: 200
+2025-11-05 09:43:00,693 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:44:00,657 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:44:00.632385 | Close: 25541.75 | Bars: 200
+2025-11-05 09:44:00,658 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:45:01,075 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:45:01.052893 | Close: 25526.25 | Bars: 200
+2025-11-05 09:45:01,076 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:46:01,031 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:46:01.001771 | Close: 25553.75 | Bars: 200
+2025-11-05 09:46:01,033 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:47:01,070 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:47:01.002649 | Close: 25568.00 | Bars: 200
+2025-11-05 09:47:01,072 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:48:01,113 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:48:01.086401 | Close: 25600.50 | Bars: 200
+2025-11-05 09:48:01,114 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:49:01,024 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:49:00.988796 | Close: 25612.25 | Bars: 200
+2025-11-05 09:49:01,025 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:50:01,435 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:50:01.385063 | Close: 25608.50 | Bars: 200
+2025-11-05 09:50:01,436 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:51:00,898 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:51:00.855376 | Close: 25624.25 | Bars: 200
+2025-11-05 09:51:00,899 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:52:01,014 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:52:00.979126 | Close: 25633.25 | Bars: 200
+2025-11-05 09:52:01,016 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:53:00,852 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:53:00.806239 | Close: 25638.25 | Bars: 200
+2025-11-05 09:53:00,853 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:54:01,099 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:54:01.024768 | Close: 25658.25 | Bars: 200
+2025-11-05 09:54:01,101 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:55:00,969 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:55:00.909591 | Close: 25667.75 | Bars: 200
+2025-11-05 09:55:00,971 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:56:00,744 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:56:00.701702 | Close: 25666.50 | Bars: 200
+2025-11-05 09:56:00,746 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:57:00,829 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:57:00.775053 | Close: 25677.25 | Bars: 200
+2025-11-05 09:57:00,833 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:58:00,942 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:58:00.902464 | Close: 25680.25 | Bars: 200
+2025-11-05 09:58:00,943 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 09:59:00,769 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 09:59:00.731292 | Close: 25678.75 | Bars: 200
+2025-11-05 09:59:00,770 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 10:00:03,018 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:00:02.957097 | Close: 25686.75 | Bars: 200
+2025-11-05 10:00:03,020 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    if strategy_name == 'orb':
+                 ^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+    et_tz = pytz.timezone('US/Eastern')
+                   ^^^^^^^^^^^^
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 10:01:01,619 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:01:01.566063 | Close: 25683.00 | Bars: 200
+2025-11-05 10:01:01,621 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 10:02:00,731 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:02:00.673549 | Close: 25667.25 | Bars: 200
+2025-11-05 10:02:00,732 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 10:03:00,787 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:03:00.721831 | Close: 25659.75 | Bars: 200
+2025-11-05 10:03:00,789 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 10:04:00,870 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:04:00.830348 | Close: 25666.50 | Bars: 200
+2025-11-05 10:04:00,871 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 10:05:00,811 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:05:00.767386 | Close: 25654.50 | Bars: 200
+2025-11-05 10:05:00,812 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 10:06:00,767 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:06:00.721216 | Close: 25686.75 | Bars: 200
+2025-11-05 10:06:00,768 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 10:07:00,986 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:07:00.947446 | Close: 25704.25 | Bars: 200
+2025-11-05 10:07:00,987 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 10:08:00,934 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:08:00.906007 | Close: 25679.00 | Bars: 200
+2025-11-05 10:08:00,935 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 10:09:00,731 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:09:00.699570 | Close: 25673.25 | Bars: 200
+2025-11-05 10:09:00,731 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 10:10:00,956 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:10:00.898972 | Close: 25679.75 | Bars: 200
+2025-11-05 10:10:00,958 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 10:11:01,597 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:11:01.565344 | Close: 25666.25 | Bars: 200
+2025-11-05 10:11:01,598 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 10:12:00,817 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:12:00.786318 | Close: 25660.50 | Bars: 200
+2025-11-05 10:12:00,819 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 10:13:00,918 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:13:00.878641 | Close: 25659.00 | Bars: 200
+2025-11-05 10:13:00,919 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 10:14:00,859 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:14:00.830071 | Close: 25658.00 | Bars: 200
+2025-11-05 10:14:00,860 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 10:15:01,228 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:15:01.111557 | Close: 25648.00 | Bars: 200
+2025-11-05 10:15:01,230 - strategy - ERROR - process_new_bar - Error running orb strategy: 'datetime.time' object has no attribute 'time'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 129, in process_new_bar
+    signal = self._process_orb_strategy(strategy, df, timestamp, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 165, in _process_orb_strategy
+AttributeError: 'datetime.time' object has no attribute 'time'
+2025-11-05 10:16:51,022 - strategy - INFO - __init__ - ORB Strategy initialized: 15min period, 50.0% target
+2025-11-05 10:16:51,024 - strategy - INFO - __init__ - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-05 10:16:51,025 - strategy - INFO - __init__ - Strategy Engine initialized
+2025-11-05 10:16:51,025 - strategy - INFO - __init__ - Active strategies: ['orb', 'mean_reversion']
+2025-11-05 10:17:00,857 - strategy - ERROR - process_new_bar - Error in strategy engine: name 'current_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 108, in process_new_bar
+    should_trade, reason = self.should_trade_now(timestamp, context)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 59, in should_trade_now
+    if event_date.date() == current_date:
+                            ^^^^^^^^^^^^
+NameError: name 'current_date' is not defined. Did you mean: 'current_time'?
+2025-11-05 10:18:00,981 - strategy - ERROR - process_new_bar - Error in strategy engine: name 'current_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 108, in process_new_bar
+    should_trade, reason = self.should_trade_now(timestamp, context)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 59, in should_trade_now
+    if event_date.date() == current_date:
+                            ^^^^^^^^^^^^
+NameError: name 'current_date' is not defined. Did you mean: 'current_time'?
+2025-11-05 10:19:00,816 - strategy - ERROR - process_new_bar - Error in strategy engine: name 'current_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 108, in process_new_bar
+    should_trade, reason = self.should_trade_now(timestamp, context)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 59, in should_trade_now
+    if event_date.date() == current_date:
+                            ^^^^^^^^^^^^
+NameError: name 'current_date' is not defined. Did you mean: 'current_time'?
+2025-11-05 10:20:01,105 - strategy - ERROR - process_new_bar - Error in strategy engine: name 'current_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 108, in process_new_bar
+    should_trade, reason = self.should_trade_now(timestamp, context)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 59, in should_trade_now
+    if event_date.date() == current_date:
+                            ^^^^^^^^^^^^
+NameError: name 'current_date' is not defined. Did you mean: 'current_time'?
+2025-11-05 10:21:01,010 - strategy - ERROR - process_new_bar - Error in strategy engine: name 'current_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 108, in process_new_bar
+    should_trade, reason = self.should_trade_now(timestamp, context)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 59, in should_trade_now
+    if event_date.date() == current_date:
+                            ^^^^^^^^^^^^
+NameError: name 'current_date' is not defined. Did you mean: 'current_time'?
+2025-11-05 10:22:00,824 - strategy - ERROR - process_new_bar - Error in strategy engine: name 'current_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 108, in process_new_bar
+    should_trade, reason = self.should_trade_now(timestamp, context)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 59, in should_trade_now
+    if event_date.date() == current_date:
+                            ^^^^^^^^^^^^
+NameError: name 'current_date' is not defined. Did you mean: 'current_time'?
+2025-11-05 10:23:00,936 - strategy - ERROR - process_new_bar - Error in strategy engine: name 'current_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 108, in process_new_bar
+    should_trade, reason = self.should_trade_now(timestamp, context)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 59, in should_trade_now
+    if event_date.date() == current_date:
+                            ^^^^^^^^^^^^
+NameError: name 'current_date' is not defined. Did you mean: 'current_time'?
+2025-11-05 10:24:01,284 - strategy - ERROR - process_new_bar - Error in strategy engine: name 'current_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 108, in process_new_bar
+    should_trade, reason = self.should_trade_now(timestamp, context)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 59, in should_trade_now
+    if event_date.date() == current_date:
+                            ^^^^^^^^^^^^
+NameError: name 'current_date' is not defined. Did you mean: 'current_time'?
+2025-11-05 10:25:00,922 - strategy - ERROR - process_new_bar - Error in strategy engine: name 'current_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 108, in process_new_bar
+    should_trade, reason = self.should_trade_now(timestamp, context)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 59, in should_trade_now
+    if event_date.date() == current_date:
+                            ^^^^^^^^^^^^
+NameError: name 'current_date' is not defined. Did you mean: 'current_time'?
+2025-11-05 10:26:02,255 - strategy - ERROR - process_new_bar - Error in strategy engine: name 'current_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 108, in process_new_bar
+    should_trade, reason = self.should_trade_now(timestamp, context)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 59, in should_trade_now
+    if event_date.date() == current_date:
+                            ^^^^^^^^^^^^
+NameError: name 'current_date' is not defined. Did you mean: 'current_time'?
+2025-11-05 10:27:00,876 - strategy - ERROR - process_new_bar - Error in strategy engine: name 'current_date' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 108, in process_new_bar
+    should_trade, reason = self.should_trade_now(timestamp, context)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 59, in should_trade_now
+    if event_date.date() == current_date:
+                            ^^^^^^^^^^^^
+NameError: name 'current_date' is not defined. Did you mean: 'current_time'?
+2025-11-05 10:28:22,846 - strategy - INFO - __init__ - ORB Strategy initialized: 15min period, 50.0% target
+2025-11-05 10:28:22,849 - strategy - INFO - __init__ - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-05 10:28:22,850 - strategy - INFO - __init__ - Strategy Engine initialized
+2025-11-05 10:28:22,850 - strategy - INFO - __init__ - Active strategies: ['orb', 'mean_reversion']
+2025-11-05 10:29:00,782 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:29:00.710898 | Close: 25713.50 | Bars: 200
+2025-11-05 10:29:00,783 - strategy - INFO - reset_daily_state - ORB state reset for 2025-11-05
+2025-11-05 10:30:01,175 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:30:01.128503 | Close: 25688.50 | Bars: 200
+2025-11-05 10:31:01,570 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:31:01.523829 | Close: 25681.50 | Bars: 200
+2025-11-05 10:32:00,717 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:32:00.690837 | Close: 25694.25 | Bars: 200
+2025-11-05 10:33:00,905 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:33:00.861198 | Close: 25697.50 | Bars: 200
+2025-11-05 10:34:00,685 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:34:00.645436 | Close: 25705.25 | Bars: 200
+2025-11-05 10:35:00,809 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:35:00.767664 | Close: 25696.00 | Bars: 200
+2025-11-05 10:36:00,753 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:36:00.728941 | Close: 25709.75 | Bars: 200
+2025-11-05 10:37:00,699 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:37:00.675468 | Close: 25707.75 | Bars: 200
+2025-11-05 10:38:00,798 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:38:00.764585 | Close: 25699.75 | Bars: 200
+2025-11-05 10:39:00,843 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:39:00.783050 | Close: 25697.50 | Bars: 200
+2025-11-05 10:40:00,984 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:40:00.947256 | Close: 25703.75 | Bars: 200
+2025-11-05 10:43:05,218 - strategy - INFO - __init__ - ORB Strategy initialized: 15min period, 50.0% target
+2025-11-05 10:43:05,221 - strategy - INFO - __init__ - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-05 10:43:05,221 - strategy - INFO - __init__ - Strategy Engine initialized
+2025-11-05 10:43:05,221 - strategy - INFO - __init__ - Active strategies: ['orb', 'mean_reversion']
+2025-11-05 10:43:06,075 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:43:05.982780 | Close: 25712.75 | Bars: 200
+2025-11-05 10:43:06,075 - strategy - INFO - reset_daily_state - ORB state reset for 2025-11-05
+2025-11-05 10:43:06,086 - strategy - INFO - calculate_opening_range - Valid OR: High=25577.25, Low=25487.75, Size=89.50 (0.350%)
+2025-11-05 10:43:06,087 - strategy - INFO - _process_orb_strategy - Opening Range set: High=25577.25, Low=25487.75, Size=89.50
+2025-11-05 10:43:06,087 - strategy - INFO - generate_signal - ORB LONG: Entry=25712.75, Target=25787.75 (+75.00), Stop=25662.75 (-50.00), R:R=1.50:1
+2025-11-05 10:43:06,172 - strategy - INFO - log_signal - SIGNAL | Strategy: orb | LONG | Confidence: 30.00% | Price: 25712.75
+2025-11-05 10:44:00,829 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:44:00.785409 | Close: 25716.75 | Bars: 200
+2025-11-05 10:45:00,972 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:45:00.925936 | Close: 25702.50 | Bars: 200
+2025-11-05 10:46:01,280 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:46:01.256783 | Close: 25704.50 | Bars: 200
+2025-11-05 10:47:00,727 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:47:00.682226 | Close: 25719.00 | Bars: 200
+2025-11-05 10:48:00,795 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:48:00.762321 | Close: 25724.25 | Bars: 200
+2025-11-05 10:49:00,705 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:49:00.679353 | Close: 25718.00 | Bars: 200
+2025-11-05 10:50:01,020 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:50:00.993063 | Close: 25703.25 | Bars: 200
+2025-11-05 10:51:01,857 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:51:01.816976 | Close: 25695.25 | Bars: 200
+2025-11-05 10:52:00,936 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:52:00.889307 | Close: 25717.25 | Bars: 200
+2025-11-05 10:53:00,694 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:53:00.665319 | Close: 25697.00 | Bars: 200
+2025-11-05 10:54:01,049 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:54:00.975883 | Close: 25696.75 | Bars: 200
+2025-11-05 10:55:00,838 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:55:00.789564 | Close: 25704.50 | Bars: 200
+2025-11-05 10:56:00,836 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:56:00.791711 | Close: 25690.00 | Bars: 200
+2025-11-05 10:57:00,709 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:57:00.666607 | Close: 25695.75 | Bars: 200
+2025-11-05 10:58:01,241 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:58:01.198764 | Close: 25702.25 | Bars: 200
+2025-11-05 10:59:00,839 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 10:59:00.795527 | Close: 25720.00 | Bars: 200
+2025-11-05 11:00:01,213 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:00:01.164238 | Close: 25719.75 | Bars: 200
+2025-11-05 11:01:01,176 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:01:01.137146 | Close: 25709.25 | Bars: 200
+2025-11-05 11:02:01,300 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:02:01.251695 | Close: 25725.75 | Bars: 200
+2025-11-05 11:03:07,217 - strategy - INFO - __init__ - ORB Strategy initialized: 15min period, 50.0% target
+2025-11-05 11:03:07,232 - strategy - INFO - __init__ - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-05 11:03:07,233 - strategy - INFO - __init__ - Strategy Engine initialized
+2025-11-05 11:03:07,233 - strategy - INFO - __init__ - Active strategies: ['orb', 'mean_reversion']
+2025-11-05 11:03:11,370 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:03:11.317630 | Close: 25716.50 | Bars: 200
+2025-11-05 11:03:11,370 - strategy - INFO - reset_daily_state - ORB state reset for 2025-11-05
+2025-11-05 11:03:11,379 - strategy - INFO - calculate_opening_range - Valid OR: High=25577.25, Low=25487.75, Size=89.50 (0.350%)
+2025-11-05 11:03:11,379 - strategy - INFO - _process_orb_strategy - Opening Range set: High=25577.25, Low=25487.75, Size=89.50
+2025-11-05 11:03:11,380 - strategy - INFO - generate_signal - ORB LONG: Entry=25716.50, Target=25791.50 (+75.00), Stop=25666.50 (-50.00), R:R=1.50:1
+2025-11-05 11:03:11,394 - strategy - INFO - log_signal - SIGNAL | Strategy: orb | LONG | Confidence: 30.00% | Price: 25716.5
+2025-11-05 11:04:00,966 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:04:00.925081 | Close: 25687.00 | Bars: 200
+2025-11-05 11:05:00,898 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:05:00.869994 | Close: 25709.00 | Bars: 200
+2025-11-05 11:06:00,946 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:06:00.909807 | Close: 25717.75 | Bars: 200
+2025-11-05 11:07:00,728 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:07:00.685053 | Close: 25706.75 | Bars: 200
+2025-11-05 11:08:00,707 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:08:00.681782 | Close: 25701.50 | Bars: 200
+2025-11-05 11:09:00,742 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:09:00.712845 | Close: 25701.00 | Bars: 200
+2025-11-05 11:10:00,809 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:10:00.766389 | Close: 25711.50 | Bars: 200
+2025-11-05 11:11:00,833 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:11:00.792245 | Close: 25690.00 | Bars: 200
+2025-11-05 11:12:00,904 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:12:00.863106 | Close: 25700.50 | Bars: 200
+2025-11-05 11:13:00,952 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:13:00.914003 | Close: 25700.75 | Bars: 200
+2025-11-05 11:14:00,792 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:14:00.753623 | Close: 25694.50 | Bars: 200
+2025-11-05 11:15:04,064 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:15:04.039945 | Close: 25679.00 | Bars: 200
+2025-11-05 11:16:00,933 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:16:00.896644 | Close: 25686.75 | Bars: 200
+2025-11-05 11:17:01,029 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:17:00.997625 | Close: 25674.25 | Bars: 200
+2025-11-05 11:18:00,898 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:18:00.809345 | Close: 25660.50 | Bars: 200
+2025-11-05 11:19:00,738 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:19:00.699381 | Close: 25672.50 | Bars: 200
+2025-11-05 11:20:00,898 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:20:00.851109 | Close: 25672.50 | Bars: 200
+2025-11-05 11:21:00,831 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:21:00.773654 | Close: 25664.50 | Bars: 200
+2025-11-05 11:22:00,819 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:22:00.774867 | Close: 25677.25 | Bars: 200
+2025-11-05 11:23:00,861 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:23:00.808885 | Close: 25689.50 | Bars: 200
+2025-11-05 11:24:00,859 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:24:00.822090 | Close: 25692.50 | Bars: 200
+2025-11-05 11:25:01,015 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:25:00.989362 | Close: 25711.75 | Bars: 200
+2025-11-05 11:26:00,907 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:26:00.864180 | Close: 25722.25 | Bars: 200
+2025-11-05 11:27:01,108 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:27:01.069577 | Close: 25735.50 | Bars: 200
+2025-11-05 11:28:00,786 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:28:00.758665 | Close: 25732.00 | Bars: 200
+2025-11-05 11:29:01,038 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:29:01.007251 | Close: 25735.25 | Bars: 200
+2025-11-05 11:30:00,906 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:30:00.861266 | Close: 25742.50 | Bars: 200
+2025-11-05 11:31:00,995 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:31:00.946918 | Close: 25736.50 | Bars: 200
+2025-11-05 11:32:00,876 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:32:00.852550 | Close: 25738.50 | Bars: 200
+2025-11-05 11:33:00,724 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:33:00.700914 | Close: 25738.25 | Bars: 200
+2025-11-05 11:34:00,743 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:34:00.718132 | Close: 25743.50 | Bars: 200
+2025-11-05 11:35:00,720 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:35:00.696006 | Close: 25745.25 | Bars: 200
+2025-11-05 11:36:01,205 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:36:01.172187 | Close: 25734.00 | Bars: 200
+2025-11-05 11:37:01,093 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:37:01.027599 | Close: 25735.75 | Bars: 200
+2025-11-05 11:38:01,973 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:38:01.919548 | Close: 25740.25 | Bars: 200
+2025-11-05 11:39:00,783 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:39:00.742838 | Close: 25741.75 | Bars: 200
+2025-11-05 11:40:00,873 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:40:00.826377 | Close: 25740.75 | Bars: 200
+2025-11-05 11:41:01,095 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:41:01.034477 | Close: 25742.75 | Bars: 200
+2025-11-05 11:42:00,758 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:42:00.729758 | Close: 25737.25 | Bars: 200
+2025-11-05 11:43:00,818 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:43:00.774500 | Close: 25749.50 | Bars: 200
+2025-11-05 11:44:00,985 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:44:00.942873 | Close: 25760.25 | Bars: 200
+2025-11-05 11:45:00,772 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:45:00.745408 | Close: 25765.75 | Bars: 200
+2025-11-05 11:46:01,223 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:46:01.187350 | Close: 25766.25 | Bars: 200
+2025-11-05 11:47:00,617 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:47:00.583020 | Close: 25770.50 | Bars: 200
+2025-11-05 11:48:00,973 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:48:00.947197 | Close: 25766.75 | Bars: 200
+2025-11-05 11:49:00,734 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:49:00.697215 | Close: 25776.50 | Bars: 200
+2025-11-05 11:50:00,829 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:50:00.803696 | Close: 25778.25 | Bars: 200
+2025-11-05 11:51:00,716 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:51:00.668911 | Close: 25780.00 | Bars: 200
+2025-11-05 11:52:00,999 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:52:00.926355 | Close: 25779.00 | Bars: 200
+2025-11-05 11:53:01,001 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:53:00.960754 | Close: 25780.00 | Bars: 200
+2025-11-05 11:54:01,350 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:54:01.280035 | Close: 25780.75 | Bars: 200
+2025-11-05 11:55:00,754 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:55:00.687775 | Close: 25783.50 | Bars: 200
+2025-11-05 11:56:01,027 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:56:00.975713 | Close: 25782.50 | Bars: 200
+2025-11-05 11:57:00,706 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:57:00.664597 | Close: 25787.00 | Bars: 200
+2025-11-05 11:58:00,986 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:58:00.895591 | Close: 25786.75 | Bars: 200
+2025-11-05 11:59:00,875 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 11:59:00.827828 | Close: 25779.75 | Bars: 200
+2025-11-05 12:00:01,211 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:00:01.172408 | Close: 25774.50 | Bars: 200
+2025-11-05 12:00:45,409 - strategy - INFO - __init__ - ORB Strategy initialized: 15min period, 50.0% target
+2025-11-05 12:00:45,411 - strategy - INFO - __init__ - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-05 12:00:45,412 - strategy - INFO - __init__ - Strategy Engine initialized
+2025-11-05 12:00:45,412 - strategy - INFO - __init__ - Active strategies: ['orb', 'mean_reversion']
+2025-11-05 12:01:01,423 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:01:01.355625 | Close: 25772.75 | Bars: 200
+2025-11-05 12:01:01,425 - strategy - INFO - reset_daily_state - ORB state reset for 2025-11-05
+2025-11-05 12:01:01,437 - strategy - INFO - calculate_opening_range - Valid OR: High=25577.25, Low=25487.75, Size=89.50 (0.350%)
+2025-11-05 12:01:01,438 - strategy - INFO - _process_orb_strategy - Opening Range set: High=25577.25, Low=25487.75, Size=89.50
+2025-11-05 12:01:01,439 - strategy - INFO - generate_signal - ORB LONG: Entry=25772.75, Target=25847.75 (+75.00), Stop=25722.75 (-50.00), R:R=1.50:1
+2025-11-05 12:01:01,465 - strategy - INFO - log_signal - SIGNAL | Strategy: orb | LONG | Confidence: 30.00% | Price: 25772.75
+2025-11-05 12:02:01,055 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:02:00.987843 | Close: 25774.25 | Bars: 200
+2025-11-05 12:03:01,057 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:03:00.969389 | Close: 25770.75 | Bars: 200
+2025-11-05 12:04:01,045 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:04:01.000392 | Close: 25770.00 | Bars: 200
+2025-11-05 12:05:00,905 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:05:00.868385 | Close: 25761.25 | Bars: 200
+2025-11-05 12:06:00,838 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:06:00.782090 | Close: 25768.25 | Bars: 200
+2025-11-05 12:07:00,703 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:07:00.676490 | Close: 25773.00 | Bars: 200
+2025-11-05 12:08:00,702 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:08:00.659212 | Close: 25768.00 | Bars: 200
+2025-11-05 12:09:00,723 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:09:00.675700 | Close: 25752.25 | Bars: 200
+2025-11-05 12:10:01,573 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:10:01.545178 | Close: 25752.00 | Bars: 200
+2025-11-05 12:11:00,835 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:11:00.809140 | Close: 25750.50 | Bars: 200
+2025-11-05 12:12:00,690 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:12:00.664999 | Close: 25755.25 | Bars: 200
+2025-11-05 12:12:00,703 - strategy - INFO - generate_signal - Mean Reversion LONG: Entry=25755.25, Target=25771.15, Stop=25745.25, RSI=26.7
+2025-11-05 12:12:00,741 - strategy - INFO - log_signal - SIGNAL | Strategy: mean_reversion | LONG | Confidence: 25.00% | Price: 25755.25
+2025-11-05 12:13:00,985 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:13:00.951410 | Close: 25765.25 | Bars: 200
+2025-11-05 12:14:00,737 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:14:00.708074 | Close: 25765.25 | Bars: 200
+2025-11-05 12:15:00,853 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:15:00.830788 | Close: 25766.25 | Bars: 200
+2025-11-05 12:16:01,077 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:16:01.050057 | Close: 25765.00 | Bars: 200
+2025-11-05 12:17:00,762 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:17:00.719665 | Close: 25770.25 | Bars: 200
+2025-11-05 12:18:00,727 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:18:00.685226 | Close: 25767.50 | Bars: 200
+2025-11-05 12:19:00,757 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:19:00.707267 | Close: 25770.25 | Bars: 200
+2025-11-05 12:20:00,724 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:20:00.696556 | Close: 25771.00 | Bars: 200
+2025-11-05 12:21:00,991 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:21:00.942560 | Close: 25778.75 | Bars: 200
+2025-11-05 12:22:00,721 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:22:00.668238 | Close: 25777.25 | Bars: 200
+2025-11-05 12:23:00,721 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:23:00.682514 | Close: 25773.25 | Bars: 200
+2025-11-05 12:24:00,919 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:24:00.892472 | Close: 25773.25 | Bars: 200
+2025-11-05 12:25:01,051 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:25:01.012035 | Close: 25771.50 | Bars: 200
+2025-11-05 12:26:00,642 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:26:00.612761 | Close: 25776.50 | Bars: 200
+2025-11-05 12:27:00,612 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:27:00.586347 | Close: 25780.50 | Bars: 200
+2025-11-05 12:28:00,765 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:28:00.732036 | Close: 25789.00 | Bars: 200
+2025-11-05 12:29:01,010 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:29:00.974960 | Close: 25787.50 | Bars: 200
+2025-11-05 12:29:01,043 - strategy - INFO - generate_signal - Mean Reversion SHORT: Entry=25787.50, Target=25770.30, Stop=25797.50, RSI=72.7
+2025-11-05 12:29:01,112 - strategy - INFO - log_signal - SIGNAL | Strategy: mean_reversion | SHORT | Confidence: 25.00% | Price: 25787.5
+2025-11-05 12:30:06,206 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:30:06.138893 | Close: 25788.50 | Bars: 200
+2025-11-05 12:31:01,718 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:31:01.663815 | Close: 25796.25 | Bars: 200
+2025-11-05 12:32:00,971 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:32:00.916333 | Close: 25798.50 | Bars: 200
+2025-11-05 12:33:00,757 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:33:00.713190 | Close: 25798.50 | Bars: 200
+2025-11-05 12:34:00,855 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:34:00.809775 | Close: 25786.50 | Bars: 200
+2025-11-05 12:35:00,909 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:35:00.827708 | Close: 25802.50 | Bars: 200
+2025-11-05 12:36:01,720 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:36:01.621288 | Close: 25811.50 | Bars: 200
+2025-11-05 12:37:01,182 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:37:01.076926 | Close: 25814.75 | Bars: 200
+2025-11-05 12:38:01,040 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:38:00.969324 | Close: 25817.75 | Bars: 200
+2025-11-05 12:39:00,955 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 12:39:00.876756 | Close: 25819.25 | Bars: 200

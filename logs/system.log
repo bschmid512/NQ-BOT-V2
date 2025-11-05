@@ -1089,3 +1089,113 @@ FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDr
 2025-11-05 03:58:00,546 - system - ERROR - get_latest_bars - Error getting latest bars: No columns to parse from file
 2025-11-05 06:18:00,621 - system - ERROR - get_latest_bars - Error getting latest bars: No columns to parse from file
 2025-11-05 06:34:00,659 - system - ERROR - get_latest_bars - Error getting latest bars: No columns to parse from file
+2025-11-05 09:13:42,325 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-05 09:13:45,494 - system - INFO - __init__ - ContextManager initialized (v1.1 - Less Strict).
+2025-11-05 10:16:50,071 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-05 10:16:51,488 - system - INFO - __init__ - ContextManager initialized (v1.1 - Less Strict).
+2025-11-05 10:16:51,594 - system - INFO - __init__ - Dashboard attached to Flask server
+2025-11-05 10:16:51,598 - system - INFO - __init__ - Trading Dashboard initialized successfully
+2025-11-05 10:16:51,599 - system - INFO - run_loop - ContextManager thread started.
+2025-11-05 10:16:51,613 - system - INFO - __init__ - ============================================================
+2025-11-05 10:16:51,614 - system - INFO - __init__ - NQ FUTURES TRADING BOT - COMPLETE VERSION
+2025-11-05 10:16:51,614 - system - INFO - __init__ - ============================================================
+2025-11-05 10:16:51,614 - system - INFO - __init__ - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-05 10:16:51,615 - system - INFO - __init__ - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-05 10:16:51,615 - system - INFO - __init__ - Health check: http://0.0.0.0:8050/health
+2025-11-05 10:16:51,615 - system - INFO - __init__ - Positions API: http://0.0.0.0:8050/positions
+2025-11-05 10:16:51,615 - system - INFO - __init__ - Stats API: http://0.0.0.0:8050/stats
+2025-11-05 10:16:51,616 - system - INFO - __init__ - ============================================================
+2025-11-05 10:16:51,621 - system - INFO - __init__ - ============================================================
+2025-11-05 10:16:51,621 - system - INFO - run - Starting NQ Trading Bot...
+2025-11-05 10:16:51,621 - system - INFO - run - Bot is running on http://0.0.0.0:8050
+2025-11-05 10:16:51,622 - system - INFO - run - Access dashboard at: http://0.0.0.0:8050/dashboard/
+2025-11-05 10:16:51,622 - system - INFO - run - Webhook ready at: http://0.0.0.0:8050/webhook
+2025-11-05 10:28:21,942 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-05 10:28:23,230 - system - INFO - __init__ - ContextManager initialized (v1.1 - Less Strict).
+2025-11-05 10:28:23,313 - system - INFO - __init__ - Dashboard attached to Flask server
+2025-11-05 10:28:23,317 - system - INFO - __init__ - Trading Dashboard initialized successfully
+2025-11-05 10:28:23,318 - system - INFO - run_loop - ContextManager thread started.
+2025-11-05 10:28:23,324 - system - INFO - __init__ - ============================================================
+2025-11-05 10:28:23,325 - system - INFO - __init__ - NQ FUTURES TRADING BOT - COMPLETE VERSION
+2025-11-05 10:28:23,325 - system - INFO - __init__ - ============================================================
+2025-11-05 10:28:23,325 - system - INFO - __init__ - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-05 10:28:23,325 - system - INFO - __init__ - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-05 10:28:23,326 - system - INFO - __init__ - Health check: http://0.0.0.0:8050/health
+2025-11-05 10:28:23,326 - system - INFO - __init__ - Positions API: http://0.0.0.0:8050/positions
+2025-11-05 10:28:23,326 - system - INFO - __init__ - Stats API: http://0.0.0.0:8050/stats
+2025-11-05 10:28:23,326 - system - INFO - __init__ - ============================================================
+2025-11-05 10:28:23,333 - system - INFO - __init__ - ============================================================
+2025-11-05 10:28:23,333 - system - INFO - run - Starting NQ Trading Bot...
+2025-11-05 10:28:23,333 - system - INFO - run - Bot is running on http://0.0.0.0:8050
+2025-11-05 10:28:23,333 - system - INFO - run - Access dashboard at: http://0.0.0.0:8050/dashboard/
+2025-11-05 10:28:23,334 - system - INFO - run - Webhook ready at: http://0.0.0.0:8050/webhook
+2025-11-05 10:29:00,790 - system - ERROR - get_bars_between - Error getting bars between times: Invalid comparison between dtype=datetime64[ns] and datetime
+2025-11-05 10:30:01,182 - system - ERROR - get_bars_between - Error getting bars between times: Invalid comparison between dtype=datetime64[ns] and datetime
+2025-11-05 10:31:01,577 - system - ERROR - get_bars_between - Error getting bars between times: Invalid comparison between dtype=datetime64[ns] and datetime
+2025-11-05 10:32:00,723 - system - ERROR - get_bars_between - Error getting bars between times: Invalid comparison between dtype=datetime64[ns] and datetime
+2025-11-05 10:33:00,913 - system - ERROR - get_bars_between - Error getting bars between times: Invalid comparison between dtype=datetime64[ns] and datetime
+2025-11-05 10:34:00,692 - system - ERROR - get_bars_between - Error getting bars between times: Invalid comparison between dtype=datetime64[ns] and datetime
+2025-11-05 10:35:00,816 - system - ERROR - get_bars_between - Error getting bars between times: Invalid comparison between dtype=datetime64[ns] and datetime
+2025-11-05 10:36:00,758 - system - ERROR - get_bars_between - Error getting bars between times: Invalid comparison between dtype=datetime64[ns] and datetime
+2025-11-05 10:37:00,704 - system - ERROR - get_bars_between - Error getting bars between times: Invalid comparison between dtype=datetime64[ns] and datetime
+2025-11-05 10:38:00,804 - system - ERROR - get_bars_between - Error getting bars between times: Invalid comparison between dtype=datetime64[ns] and datetime
+2025-11-05 10:39:00,851 - system - ERROR - get_bars_between - Error getting bars between times: Invalid comparison between dtype=datetime64[ns] and datetime
+2025-11-05 10:40:00,991 - system - ERROR - get_bars_between - Error getting bars between times: Invalid comparison between dtype=datetime64[ns] and datetime
+2025-11-05 10:43:04,277 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-05 10:43:05,687 - system - INFO - __init__ - ContextManager initialized (v1.1 - Less Strict).
+2025-11-05 10:43:05,774 - system - INFO - __init__ - Dashboard attached to Flask server
+2025-11-05 10:43:05,778 - system - INFO - __init__ - Trading Dashboard initialized successfully
+2025-11-05 10:43:05,779 - system - INFO - run_loop - ContextManager thread started.
+2025-11-05 10:43:05,785 - system - INFO - __init__ - ============================================================
+2025-11-05 10:43:05,785 - system - INFO - __init__ - NQ FUTURES TRADING BOT - COMPLETE VERSION
+2025-11-05 10:43:05,785 - system - INFO - __init__ - ============================================================
+2025-11-05 10:43:05,786 - system - INFO - __init__ - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-05 10:43:05,786 - system - INFO - __init__ - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-05 10:43:05,787 - system - INFO - __init__ - Health check: http://0.0.0.0:8050/health
+2025-11-05 10:43:05,787 - system - INFO - __init__ - Positions API: http://0.0.0.0:8050/positions
+2025-11-05 10:43:05,787 - system - INFO - __init__ - Stats API: http://0.0.0.0:8050/stats
+2025-11-05 10:43:05,787 - system - INFO - __init__ - ============================================================
+2025-11-05 10:43:05,794 - system - INFO - __init__ - ============================================================
+2025-11-05 10:43:05,794 - system - INFO - run - Starting NQ Trading Bot...
+2025-11-05 10:43:05,795 - system - INFO - run - Bot is running on http://0.0.0.0:8050
+2025-11-05 10:43:05,795 - system - INFO - run - Access dashboard at: http://0.0.0.0:8050/dashboard/
+2025-11-05 10:43:05,796 - system - INFO - run - Webhook ready at: http://0.0.0.0:8050/webhook
+2025-11-05 11:03:06,129 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-05 11:03:07,698 - system - INFO - __init__ - ContextManager initialized (v1.1 - Less Strict).
+2025-11-05 11:03:07,823 - system - INFO - __init__ - Dashboard attached to Flask server
+2025-11-05 11:03:07,827 - system - INFO - __init__ - Trading Dashboard initialized successfully
+2025-11-05 11:03:07,828 - system - INFO - run_loop - ContextManager thread started.
+2025-11-05 11:03:07,834 - system - INFO - __init__ - ============================================================
+2025-11-05 11:03:07,835 - system - INFO - __init__ - NQ FUTURES TRADING BOT - COMPLETE VERSION
+2025-11-05 11:03:07,835 - system - INFO - __init__ - ============================================================
+2025-11-05 11:03:07,835 - system - INFO - __init__ - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-05 11:03:07,835 - system - INFO - __init__ - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-05 11:03:07,835 - system - INFO - __init__ - Health check: http://0.0.0.0:8050/health
+2025-11-05 11:03:07,836 - system - INFO - __init__ - Positions API: http://0.0.0.0:8050/positions
+2025-11-05 11:03:07,836 - system - INFO - __init__ - Stats API: http://0.0.0.0:8050/stats
+2025-11-05 11:03:07,836 - system - INFO - __init__ - ============================================================
+2025-11-05 11:03:07,842 - system - INFO - __init__ - ============================================================
+2025-11-05 11:03:07,842 - system - INFO - run - Starting NQ Trading Bot...
+2025-11-05 11:03:07,843 - system - INFO - run - Bot is running on http://0.0.0.0:8050
+2025-11-05 11:03:07,843 - system - INFO - run - Access dashboard at: http://0.0.0.0:8050/dashboard/
+2025-11-05 11:03:07,843 - system - INFO - run - Webhook ready at: http://0.0.0.0:8050/webhook
+2025-11-05 11:18:00,887 - system - INFO - add_trade - Trade recorded: BUY @ 25716.5
+2025-11-05 12:00:44,114 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-05 12:00:45,908 - system - INFO - __init__ - ContextManager initialized (v1.1 - Less Strict).
+2025-11-05 12:00:45,988 - system - INFO - __init__ - Dashboard attached to Flask server
+2025-11-05 12:00:45,991 - system - INFO - __init__ - Trading Dashboard initialized successfully
+2025-11-05 12:00:45,993 - system - INFO - run_loop - ContextManager thread started.
+2025-11-05 12:00:45,999 - system - INFO - __init__ - ============================================================
+2025-11-05 12:00:45,999 - system - INFO - __init__ - NQ FUTURES TRADING BOT - COMPLETE VERSION
+2025-11-05 12:00:46,000 - system - INFO - __init__ - ============================================================
+2025-11-05 12:00:46,000 - system - INFO - __init__ - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-05 12:00:46,000 - system - INFO - __init__ - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-05 12:00:46,000 - system - INFO - __init__ - Health check: http://0.0.0.0:8050/health
+2025-11-05 12:00:46,001 - system - INFO - __init__ - Positions API: http://0.0.0.0:8050/positions
+2025-11-05 12:00:46,001 - system - INFO - __init__ - Stats API: http://0.0.0.0:8050/stats
+2025-11-05 12:00:46,001 - system - INFO - __init__ - ============================================================
+2025-11-05 12:00:46,005 - system - INFO - __init__ - ============================================================
+2025-11-05 12:00:46,006 - system - INFO - run - Starting NQ Trading Bot...
+2025-11-05 12:00:46,006 - system - INFO - run - Bot is running on http://0.0.0.0:8050
+2025-11-05 12:00:46,006 - system - INFO - run - Access dashboard at: http://0.0.0.0:8050/dashboard/
+2025-11-05 12:00:46,006 - system - INFO - run - Webhook ready at: http://0.0.0.0:8050/webhook

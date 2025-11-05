@@ -310,7 +310,11 @@ class TradingDashboard:
                 if signals.empty:
                     return html.Div("No signals generated yet", className="text-muted")
                 
-                latest_signals = signals.tail(5)
+                # Only show signals from last 15 minutes
+                from datetime import timedelta
+                cutoff_time = datetime.now() - timedelta(minutes=15)
+                recent_signals = signals[signals['timestamp'] > cutoff_time]
+                latest_signals = recent_signals.tail(5) if not recent_signals.empty else signals.tail(5)
                 signal_cards = []
                 
                 for _, signal in latest_signals.iterrows():

@@ -5,3 +5,10 @@
 2025-11-04 19:38:45,360 - trades - INFO - __init__ - Position Manager initialized: Max positions=1, Max daily loss=$-1000
 2025-11-04 19:42:44,646 - trades - INFO - __init__ - Position Manager initialized: Max positions=1, Max daily loss=$-1000
 2025-11-05 00:00:02,522 - trades - INFO - reset_daily_counters - Daily reset: Previous P&L=$0.00, Trades=0
+2025-11-05 09:13:45,499 - trades - INFO - __init__ - Position Manager initialized: Max positions=1, Max daily loss=$-1000
+2025-11-05 10:16:51,029 - trades - INFO - __init__ - Position Manager initialized: Max positions=1, Max daily loss=$-1000
+2025-11-05 10:28:22,853 - trades - INFO - __init__ - Position Manager initialized: Max positions=1, Max daily loss=$-1000
+2025-11-05 10:43:05,239 - trades - INFO - __init__ - Position Manager initialized: Max positions=1, Max daily loss=$-1000
+2025-11-05 11:03:07,241 - trades - INFO - __init__ - Position Manager initialized: Max positions=1, Max daily loss=$-1000
+2025-11-05 11:18:00,886 - trades - INFO - log_trade - TRADE | 2025-11-05 11:03:11.317630 | BUY | Price: 25716.5 | Size: 1 | Signal: orb
+2025-11-05 12:00:45,414 - trades - INFO - __init__ - Position Manager initialized: Max positions=1, Max daily loss=$-1000

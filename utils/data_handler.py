@@ -111,6 +111,13 @@ class DataHandler:
         try:
             df = pd.read_csv(LIVE_DATA_FILE)
             df['timestamp'] = pd.to_datetime(df['timestamp'], format='mixed')
+            
+            # ⭐ FIX: Convert to timezone-naive for comparison
+            if start_time.tzinfo is not None:
+                start_time = start_time.replace(tzinfo=None)
+            if end_time.tzinfo is not None:
+                end_time = end_time.replace(tzinfo=None)
+            
             mask = (df['timestamp'] >= start_time) & (df['timestamp'] <= end_time)
             df = df[mask].set_index('timestamp')
             return df

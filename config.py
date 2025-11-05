@@ -67,7 +67,7 @@ STRATEGIES = {
         'min_range_pct': 0.0015,  # Min 0.15% range (40 points @ 25,600)
         'max_range_pct': 0.004,   # Max 0.4% range (100 points @ 25,600)
         'weight': 0.30,
-        'optimal_days': [0, 2, 4]  # Mon, Wed, Fri
+        'optimal_days': [0, 1, 2, 3, 4]  # Mon-Fri
     },
     'mean_reversion': {
         'enabled': True,
