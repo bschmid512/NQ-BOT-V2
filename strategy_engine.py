@@ -10,7 +10,8 @@ from utils.logger import trading_logger
 from utils.data_handler import data_handler
 from strategies.opening_range import orb_strategy
 from strategies.mean_reversion import mean_reversion_strategy
-from strategies.trend_following import trend_following_strategy  # ← ADD THIS
+# line 13
+from strategies.trend_following_strategy import trend_following_strategy  # ← ADD THIS
 from strategies.breakout import breakout_strategy              # ← ADD THIS
 class StrategyEngine:
     """

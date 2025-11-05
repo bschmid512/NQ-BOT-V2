@@ -2826,3 +2826,5 @@ NameError: name 'current_date' is not defined. Did you mean: 'current_time'?
 2025-11-05 14:57:00,142 - strategy - INFO - __init__ - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
 2025-11-05 15:47:56,173 - strategy - INFO - __init__ - ORB Strategy initialized: 15min period, 50.0% target
 2025-11-05 15:47:56,175 - strategy - INFO - __init__ - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-05 16:06:39,624 - strategy - INFO - __init__ - ORB Strategy initialized: 15min period, 50.0% target
+2025-11-05 16:06:39,626 - strategy - INFO - __init__ - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
