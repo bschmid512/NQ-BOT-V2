@@ -2870,3 +2870,1059 @@ Traceback (most recent call last):
     if self.stop_loss is not None and current_price >= self.stop_loss:
     ^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:39:00,781 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:39:00.748914 | O:25728.25 H:25729.25 L:25726.00 C:25726.00 V:163.0
+2025-11-05 16:39:00,783 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:39:06,026 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:39:06.006652 | O:25728.25 H:25729.25 L:25726.00 C:25726.00 V:163.0
+2025-11-05 16:39:06,026 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:39:11,307 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:39:11.288644 | O:25728.25 H:25729.25 L:25726.00 C:25726.00 V:163.0
+2025-11-05 16:39:11,307 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:39:16,570 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:39:16.548244 | O:25728.25 H:25729.25 L:25726.00 C:25726.00 V:163.0
+2025-11-05 16:39:16,571 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:40:00,919 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:40:00.884927 | O:25726.75 H:25730.00 L:25725.00 C:25728.75 V:225.0
+2025-11-05 16:40:00,922 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:40:06,215 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:40:06.200686 | O:25726.75 H:25730.00 L:25725.00 C:25728.75 V:225.0
+2025-11-05 16:40:06,215 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:40:11,447 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:40:11.429893 | O:25726.75 H:25730.00 L:25725.00 C:25728.75 V:225.0
+2025-11-05 16:40:11,448 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:40:16,710 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:40:16.692845 | O:25726.75 H:25730.00 L:25725.00 C:25728.75 V:225.0
+2025-11-05 16:40:16,710 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:41:00,809 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:41:00.743901 | O:25728.50 H:25730.00 L:25728.00 C:25728.50 V:184.0
+2025-11-05 16:41:00,814 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:41:06,194 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:41:06.178392 | O:25728.50 H:25730.00 L:25728.00 C:25728.50 V:184.0
+2025-11-05 16:41:06,195 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:41:11,445 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:41:11.425235 | O:25728.50 H:25730.00 L:25728.00 C:25728.50 V:184.0
+2025-11-05 16:41:11,445 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:41:16,699 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:41:16.677438 | O:25728.50 H:25730.00 L:25728.00 C:25728.50 V:184.0
+2025-11-05 16:41:16,700 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:42:01,173 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:42:01.110330 | O:25728.25 H:25734.00 L:25728.25 C:25732.50 V:283.0
+2025-11-05 16:42:01,181 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:42:06,555 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:42:06.534000 | O:25728.25 H:25734.00 L:25728.25 C:25732.50 V:283.0
+2025-11-05 16:42:06,556 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:42:11,807 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:42:11.787535 | O:25728.25 H:25734.00 L:25728.25 C:25732.50 V:283.0
+2025-11-05 16:42:11,807 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:42:17,043 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:42:17.025071 | O:25728.25 H:25734.00 L:25728.25 C:25732.50 V:283.0
+2025-11-05 16:42:17,044 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:43:00,937 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:43:00.916411 | O:25732.75 H:25733.00 L:25728.50 C:25731.50 V:333.0
+2025-11-05 16:43:00,938 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:43:06,204 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:43:06.182886 | O:25732.75 H:25733.00 L:25728.50 C:25731.50 V:333.0
+2025-11-05 16:43:06,204 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:43:11,513 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:43:11.475705 | O:25732.75 H:25733.00 L:25728.50 C:25731.50 V:333.0
+2025-11-05 16:43:11,516 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:43:16,811 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:43:16.791157 | O:25732.75 H:25733.00 L:25728.50 C:25731.50 V:333.0
+2025-11-05 16:43:16,812 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:44:00,767 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:44:00.743402 | O:25730.75 H:25731.50 L:25729.50 C:25730.25 V:188.0
+2025-11-05 16:44:00,768 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:44:06,051 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:44:06.032724 | O:25730.75 H:25731.50 L:25729.50 C:25730.25 V:188.0
+2025-11-05 16:44:06,051 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:44:11,333 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:44:11.316412 | O:25730.75 H:25731.50 L:25729.50 C:25730.25 V:188.0
+2025-11-05 16:44:11,333 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:44:16,572 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:44:16.554056 | O:25730.75 H:25731.50 L:25729.50 C:25730.25 V:188.0
+2025-11-05 16:44:16,573 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:45:01,133 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:45:01.063942 | O:25730.00 H:25731.25 L:25728.25 C:25730.50 V:235.0
+2025-11-05 16:45:01,137 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:45:06,546 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:45:06.526762 | O:25730.00 H:25731.25 L:25728.25 C:25730.50 V:235.0
+2025-11-05 16:45:06,546 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:45:11,780 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:45:11.759175 | O:25730.00 H:25731.25 L:25728.25 C:25730.50 V:235.0
+2025-11-05 16:45:11,780 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:45:17,172 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:45:17.156380 | O:25730.00 H:25731.25 L:25728.25 C:25730.50 V:235.0
+2025-11-05 16:45:17,173 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:46:01,848 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:46:01.807734 | O:25731.00 H:25732.00 L:25726.00 C:25729.00 V:808.0
+2025-11-05 16:46:01,857 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:46:07,136 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:46:07.119257 | O:25731.00 H:25732.00 L:25726.00 C:25729.00 V:808.0
+2025-11-05 16:46:07,137 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:46:12,427 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:46:12.410363 | O:25731.00 H:25732.00 L:25726.00 C:25729.00 V:808.0
+2025-11-05 16:46:12,427 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:46:17,672 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:46:17.641544 | O:25731.00 H:25732.00 L:25726.00 C:25729.00 V:808.0
+2025-11-05 16:46:17,673 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:47:00,903 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:47:00.875178 | O:25729.00 H:25731.00 L:25728.25 C:25729.75 V:223.0
+2025-11-05 16:47:00,905 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:47:06,133 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:47:06.119251 | O:25729.00 H:25731.00 L:25728.25 C:25729.75 V:223.0
+2025-11-05 16:47:06,134 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:47:11,367 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:47:11.349214 | O:25729.00 H:25731.00 L:25728.25 C:25729.75 V:223.0
+2025-11-05 16:47:11,367 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:47:16,705 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:47:16.669687 | O:25729.00 H:25731.00 L:25728.25 C:25729.75 V:223.0
+2025-11-05 16:47:16,706 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:48:01,128 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:48:01.107406 | O:25729.75 H:25732.75 L:25729.75 C:25732.50 V:253.0
+2025-11-05 16:48:01,129 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:48:06,427 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:48:06.409364 | O:25729.75 H:25732.75 L:25729.75 C:25732.50 V:253.0
+2025-11-05 16:48:06,428 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:48:11,686 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:48:11.667807 | O:25729.75 H:25732.75 L:25729.75 C:25732.50 V:253.0
+2025-11-05 16:48:11,686 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:48:17,039 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:48:17.005997 | O:25729.75 H:25732.75 L:25729.75 C:25732.50 V:253.0
+2025-11-05 16:48:17,039 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:49:01,355 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:49:01.336252 | O:25731.75 H:25733.75 L:25731.00 C:25732.50 V:210.0
+2025-11-05 16:49:01,356 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:49:06,591 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:49:06.573109 | O:25731.75 H:25733.75 L:25731.00 C:25732.50 V:210.0
+2025-11-05 16:49:06,592 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:49:11,819 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:49:11.802489 | O:25731.75 H:25733.75 L:25731.00 C:25732.50 V:210.0
+2025-11-05 16:49:11,820 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:49:17,072 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:49:17.051008 | O:25731.75 H:25733.75 L:25731.00 C:25732.50 V:210.0
+2025-11-05 16:49:17,072 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:50:00,749 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:50:00.730585 | O:25732.50 H:25734.00 L:25730.50 C:25731.75 V:199.0
+2025-11-05 16:50:00,749 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:50:06,056 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:50:06.032331 | O:25732.50 H:25734.00 L:25730.50 C:25731.75 V:199.0
+2025-11-05 16:50:06,057 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:50:11,369 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:50:11.349593 | O:25732.50 H:25734.00 L:25730.50 C:25731.75 V:199.0
+2025-11-05 16:50:11,369 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:50:16,632 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:50:16.613503 | O:25732.50 H:25734.00 L:25730.50 C:25731.75 V:199.0
+2025-11-05 16:50:16,632 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:51:00,903 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:51:00.877631 | O:25731.75 H:25732.75 L:25728.00 C:25728.75 V:300.0
+2025-11-05 16:51:00,906 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:51:06,202 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:51:06.180991 | O:25731.75 H:25732.75 L:25728.00 C:25728.75 V:300.0
+2025-11-05 16:51:06,203 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:51:11,454 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:51:11.439807 | O:25731.75 H:25732.75 L:25728.00 C:25728.75 V:300.0
+2025-11-05 16:51:11,454 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:51:16,755 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:51:16.738220 | O:25731.75 H:25732.75 L:25728.00 C:25728.75 V:300.0
+2025-11-05 16:51:16,756 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:52:02,045 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:52:02.011781 | O:25728.25 H:25730.00 L:25725.25 C:25730.00 V:221.0
+2025-11-05 16:52:02,048 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:52:07,342 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:52:07.322804 | O:25728.25 H:25730.00 L:25725.25 C:25730.00 V:221.0
+2025-11-05 16:52:07,343 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:52:12,814 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:52:12.794457 | O:25728.25 H:25730.00 L:25725.25 C:25730.00 V:221.0
+2025-11-05 16:52:12,815 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:52:18,226 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:52:18.198608 | O:25728.25 H:25730.00 L:25725.25 C:25730.00 V:221.0
+2025-11-05 16:52:18,227 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:53:04,174 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:53:03.979244 | O:25729.50 H:25735.25 L:25729.00 C:25733.75 V:308.0
+2025-11-05 16:53:04,179 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:53:09,466 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:53:09.442687 | O:25729.50 H:25735.25 L:25729.00 C:25733.75 V:308.0
+2025-11-05 16:53:09,467 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:53:14,870 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:53:14.852001 | O:25729.50 H:25735.25 L:25729.00 C:25733.75 V:308.0
+2025-11-05 16:53:14,871 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:53:20,096 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:53:20.080814 | O:25729.50 H:25735.25 L:25729.00 C:25733.75 V:308.0
+2025-11-05 16:53:20,096 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:54:01,069 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:54:01.050223 | O:25733.50 H:25736.25 L:25729.75 C:25731.25 V:204.0
+2025-11-05 16:54:01,071 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:54:06,327 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:54:06.308951 | O:25733.50 H:25736.25 L:25729.75 C:25731.25 V:204.0
+2025-11-05 16:54:06,327 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:54:11,640 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:54:11.620657 | O:25733.50 H:25736.25 L:25729.75 C:25731.25 V:204.0
+2025-11-05 16:54:11,641 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:54:16,880 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:54:16.862063 | O:25733.50 H:25736.25 L:25729.75 C:25731.25 V:204.0
+2025-11-05 16:54:16,881 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:55:01,131 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:55:01.108929 | O:25731.00 H:25734.25 L:25729.75 C:25731.00 V:248.0
+2025-11-05 16:55:01,133 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:55:06,511 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:55:06.491285 | O:25731.00 H:25734.25 L:25729.75 C:25731.00 V:248.0
+2025-11-05 16:55:06,511 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:55:11,760 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:55:11.727179 | O:25731.00 H:25734.25 L:25729.75 C:25731.00 V:248.0
+2025-11-05 16:55:11,761 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:55:17,591 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:55:17.572128 | O:25731.00 H:25734.25 L:25729.75 C:25731.00 V:248.0
+2025-11-05 16:55:17,592 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:56:00,816 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:56:00.787923 | O:25730.75 H:25734.25 L:25729.00 C:25733.50 V:197.0
+2025-11-05 16:56:00,818 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:56:06,091 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:56:06.073300 | O:25730.75 H:25734.25 L:25729.00 C:25733.50 V:197.0
+2025-11-05 16:56:06,092 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:56:11,396 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:56:11.379222 | O:25730.75 H:25734.25 L:25729.00 C:25733.50 V:197.0
+2025-11-05 16:56:11,397 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:56:16,824 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:56:16.798339 | O:25730.75 H:25734.25 L:25729.00 C:25733.50 V:197.0
+2025-11-05 16:56:16,825 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:57:00,825 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:57:00.788825 | O:25733.00 H:25737.25 L:25732.50 C:25735.00 V:306.0
+2025-11-05 16:57:00,828 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:57:06,253 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:57:06.225467 | O:25733.00 H:25737.25 L:25732.50 C:25735.00 V:306.0
+2025-11-05 16:57:06,254 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:57:11,523 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:57:11.494647 | O:25733.00 H:25737.25 L:25732.50 C:25735.00 V:306.0
+2025-11-05 16:57:11,525 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:57:16,804 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:57:16.764859 | O:25733.00 H:25737.25 L:25732.50 C:25735.00 V:306.0
+2025-11-05 16:57:16,807 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:58:00,780 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:58:00.763049 | O:25735.25 H:25736.00 L:25732.50 C:25733.25 V:162.0
+2025-11-05 16:58:00,780 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:58:06,044 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:58:06.014633 | O:25735.25 H:25736.00 L:25732.50 C:25733.25 V:162.0
+2025-11-05 16:58:06,045 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:58:11,518 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:58:11.500290 | O:25735.25 H:25736.00 L:25732.50 C:25733.25 V:162.0
+2025-11-05 16:58:11,519 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:58:16,811 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:58:16.795390 | O:25735.25 H:25736.00 L:25732.50 C:25733.25 V:162.0
+2025-11-05 16:58:16,812 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:59:00,721 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:59:00.696350 | O:25732.75 H:25734.50 L:25731.00 C:25731.00 V:112.0
+2025-11-05 16:59:00,723 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:59:05,957 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:59:05.936290 | O:25732.75 H:25734.50 L:25731.00 C:25731.00 V:112.0
+2025-11-05 16:59:05,958 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:59:11,225 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:59:11.186523 | O:25732.75 H:25734.50 L:25731.00 C:25731.00 V:112.0
+2025-11-05 16:59:11,226 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 16:59:16,707 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 16:59:16.687108 | O:25732.75 H:25734.50 L:25731.00 C:25731.00 V:112.0
+2025-11-05 16:59:16,707 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 17:01:03,212 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 17:01:03.186771 | O:25730.75 H:25732.25 L:25727.00 C:25728.75 V:436.0
+2025-11-05 17:01:03,214 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 17:01:08,637 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 17:01:08.612162 | O:25730.75 H:25732.25 L:25727.00 C:25728.75 V:436.0
+2025-11-05 17:01:08,638 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 17:01:13,887 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 17:01:13.872291 | O:25730.75 H:25732.25 L:25727.00 C:25728.75 V:436.0
+2025-11-05 17:01:13,887 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'
+2025-11-05 17:01:19,184 - webhook - INFO - receive_webhook - Bar received: 2025-11-05 17:01:19.163446 | O:25730.75 H:25732.25 L:25727.00 C:25728.75 V:436.0
+2025-11-05 17:01:19,184 - webhook - ERROR - receive_webhook - Error processing webhook: '>=' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 224, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 64, in update
+    if self.stop_loss is not None and current_price >= self.stop_loss:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'float' and 'NoneType'

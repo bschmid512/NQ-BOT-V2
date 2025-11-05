@@ -205,9 +205,12 @@ class PositionManager:
         
         self.daily_trades += 1
         
+        stop_str = f"{position.stop_loss:.2f}" if position.stop_loss is not None else "None"
+        target_str = f"{position.take_profit:.2f}" if position.take_profit is not None else "None"
+        
         self.logger.info(
             f"🔵 POSITION OPENED #{position.id} | {position.direction} @ {entry_price:.2f} | "
-            f"Stop: {position.stop_loss:.2f} | Target: {position.take_profit:.2f} | "
+            f"Stop: {stop_str} | Target: {target_str} | "
             f"Strategy: {position.strategy}"
         )
         

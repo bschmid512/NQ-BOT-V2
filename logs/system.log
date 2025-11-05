@@ -1223,3 +1223,41 @@ FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDr
 2025-11-05 16:13:56,689 - system - INFO - run - Bot is running on http://0.0.0.0:8050
 2025-11-05 16:13:56,690 - system - INFO - run - Access dashboard at: http://0.0.0.0:8050/dashboard/
 2025-11-05 16:13:56,690 - system - INFO - run - Webhook ready at: http://0.0.0.0:8050/webhook
+2025-11-05 17:11:32,706 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-05 17:11:34,238 - system - INFO - __init__ - ContextManager initialized (v1.1 - Less Strict).
+2025-11-05 17:11:34,326 - system - INFO - __init__ - Dashboard attached to Flask server
+2025-11-05 17:11:34,330 - system - INFO - __init__ - Trading Dashboard initialized successfully
+2025-11-05 17:11:34,331 - system - INFO - run_loop - ContextManager thread started.
+2025-11-05 17:11:34,337 - system - INFO - __init__ - ============================================================
+2025-11-05 17:11:34,338 - system - INFO - __init__ - NQ FUTURES TRADING BOT - COMPLETE VERSION
+2025-11-05 17:11:34,338 - system - INFO - __init__ - ============================================================
+2025-11-05 17:11:34,338 - system - INFO - __init__ - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-05 17:11:34,338 - system - INFO - __init__ - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-05 17:11:34,339 - system - INFO - __init__ - Health check: http://0.0.0.0:8050/health
+2025-11-05 17:11:34,339 - system - INFO - __init__ - Positions API: http://0.0.0.0:8050/positions
+2025-11-05 17:11:34,339 - system - INFO - __init__ - Stats API: http://0.0.0.0:8050/stats
+2025-11-05 17:11:34,339 - system - INFO - __init__ - ============================================================
+2025-11-05 17:11:34,343 - system - INFO - __init__ - ============================================================
+2025-11-05 17:11:34,344 - system - INFO - run - Starting NQ Trading Bot...
+2025-11-05 17:11:34,345 - system - INFO - run - Bot is running on http://0.0.0.0:8050
+2025-11-05 17:11:34,345 - system - INFO - run - Access dashboard at: http://0.0.0.0:8050/dashboard/
+2025-11-05 17:11:34,346 - system - INFO - run - Webhook ready at: http://0.0.0.0:8050/webhook
+2025-11-05 17:26:06,449 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-05 17:26:07,792 - system - INFO - __init__ - ContextManager initialized (v1.1 - Less Strict).
+2025-11-05 17:26:07,854 - system - INFO - __init__ - Dashboard attached to Flask server
+2025-11-05 17:26:07,858 - system - INFO - __init__ - Trading Dashboard initialized successfully
+2025-11-05 17:26:07,859 - system - INFO - run_loop - ContextManager thread started.
+2025-11-05 17:26:07,865 - system - INFO - __init__ - ============================================================
+2025-11-05 17:26:07,865 - system - INFO - __init__ - NQ FUTURES TRADING BOT - COMPLETE VERSION
+2025-11-05 17:26:07,865 - system - INFO - __init__ - ============================================================
+2025-11-05 17:26:07,866 - system - INFO - __init__ - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-05 17:26:07,866 - system - INFO - __init__ - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-05 17:26:07,866 - system - INFO - __init__ - Health check: http://0.0.0.0:8050/health
+2025-11-05 17:26:07,866 - system - INFO - __init__ - Positions API: http://0.0.0.0:8050/positions
+2025-11-05 17:26:07,867 - system - INFO - __init__ - Stats API: http://0.0.0.0:8050/stats
+2025-11-05 17:26:07,867 - system - INFO - __init__ - ============================================================
+2025-11-05 17:26:07,871 - system - INFO - __init__ - ============================================================
+2025-11-05 17:26:07,871 - system - INFO - run - Starting NQ Trading Bot...
+2025-11-05 17:26:07,871 - system - INFO - run - Bot is running on http://0.0.0.0:8050
+2025-11-05 17:26:07,871 - system - INFO - run - Access dashboard at: http://0.0.0.0:8050/dashboard/
+2025-11-05 17:26:07,872 - system - INFO - run - Webhook ready at: http://0.0.0.0:8050/webhook
