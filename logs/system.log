@@ -1199,3 +1199,5 @@ FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDr
 2025-11-05 12:00:46,006 - system - INFO - run - Bot is running on http://0.0.0.0:8050
 2025-11-05 12:00:46,006 - system - INFO - run - Access dashboard at: http://0.0.0.0:8050/dashboard/
 2025-11-05 12:00:46,006 - system - INFO - run - Webhook ready at: http://0.0.0.0:8050/webhook
+2025-11-05 13:37:01,000 - system - INFO - add_trade - Trade recorded: BUY @ 25772.75
+2025-11-05 14:11:01,007 - system - INFO - add_trade - Trade recorded: BUY @ 25834.0

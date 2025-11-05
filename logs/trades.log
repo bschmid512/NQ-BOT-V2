@@ -12,3 +12,5 @@
 2025-11-05 11:03:07,241 - trades - INFO - __init__ - Position Manager initialized: Max positions=1, Max daily loss=$-1000
 2025-11-05 11:18:00,886 - trades - INFO - log_trade - TRADE | 2025-11-05 11:03:11.317630 | BUY | Price: 25716.5 | Size: 1 | Signal: orb
 2025-11-05 12:00:45,414 - trades - INFO - __init__ - Position Manager initialized: Max positions=1, Max daily loss=$-1000
+2025-11-05 13:37:00,996 - trades - INFO - log_trade - TRADE | 2025-11-05 12:01:01.355625 | BUY | Price: 25772.75 | Size: 1 | Signal: orb
+2025-11-05 14:11:01,006 - trades - INFO - log_trade - TRADE | 2025-11-05 14:10:03.402865 | BUY | Price: 25834.0 | Size: 1 | Signal: mean_reversion

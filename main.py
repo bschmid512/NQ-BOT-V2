@@ -20,6 +20,9 @@ from strategy_engine import strategy_engine
 from position_manager import position_manager
 from utils.context_manager import context_manager # <-- 1. IMPORT IT
 import io
+# Add these lines with your other strategy imports
+from strategies.trend_following_strategy import TrendFollowingStrategy
+from strategies.breakout_strategy import BreakoutStrategy
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 # Create Flask server first
