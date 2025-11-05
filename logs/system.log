@@ -1085,3 +1085,7 @@ FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDr
 2025-11-04 19:42:45,101 - system - INFO - run - Bot is running on http://0.0.0.0:8050
 2025-11-04 19:42:45,101 - system - INFO - run - Access dashboard at: http://0.0.0.0:8050/dashboard/
 2025-11-04 19:42:45,101 - system - INFO - run - Webhook ready at: http://0.0.0.0:8050/webhook
+2025-11-05 03:58:00,535 - system - ERROR - get_latest_bars - Error getting latest bars: No columns to parse from file
+2025-11-05 03:58:00,546 - system - ERROR - get_latest_bars - Error getting latest bars: No columns to parse from file
+2025-11-05 06:18:00,621 - system - ERROR - get_latest_bars - Error getting latest bars: No columns to parse from file
+2025-11-05 06:34:00,659 - system - ERROR - get_latest_bars - Error getting latest bars: No columns to parse from file
