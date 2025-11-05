@@ -33,7 +33,7 @@ class TrendFollowingStrategy:
         self.cooldown_minutes = cooldown_minutes
         self.last_signal_time = None
         
-    def generate_signal(self, df, current_price):
+    def generate_signal(self, df, context):
         """
         Generate trading signal based on EMA crossovers
         
@@ -106,7 +106,8 @@ class TrendFollowingStrategy:
         """Reset strategy state (useful for backtesting)"""
         self.last_signal_time = None
 
-
+# Create global strategy instance
+trend_following_strategy = TrendFollowingStrategy()
 # Example usage and testing
 if __name__ == "__main__":
     import numpy as np

@@ -2828,3 +2828,19 @@ NameError: name 'current_date' is not defined. Did you mean: 'current_time'?
 2025-11-05 15:47:56,175 - strategy - INFO - __init__ - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
 2025-11-05 16:06:39,624 - strategy - INFO - __init__ - ORB Strategy initialized: 15min period, 50.0% target
 2025-11-05 16:06:39,626 - strategy - INFO - __init__ - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-05 16:13:56,012 - strategy - INFO - __init__ - ORB Strategy initialized: 15min period, 50.0% target
+2025-11-05 16:13:56,015 - strategy - INFO - __init__ - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-05 16:13:56,102 - strategy - INFO - __init__ - Strategy Engine initialized
+2025-11-05 16:13:56,102 - strategy - INFO - __init__ - Active strategies: ['orb', 'mean_reversion', 'trend_following', 'breakout']
+2025-11-05 16:14:01,106 - strategy - INFO - process_new_bar - Processing bar at 2025-11-05 16:14:01.062185 | Close: 25703.00 | Bars: 200
+2025-11-05 16:14:01,107 - strategy - INFO - reset_daily_state - ORB state reset for 2025-11-05
+2025-11-05 16:14:01,117 - strategy - INFO - calculate_opening_range - Valid OR: High=25577.25, Low=25487.75, Size=89.50 (0.350%)
+2025-11-05 16:14:01,117 - strategy - INFO - _process_orb_strategy - Opening Range set: High=25577.25, Low=25487.75, Size=89.50
+2025-11-05 16:14:01,118 - strategy - INFO - generate_signal - ORB LONG rejected: ES trend is STRONG_DOWN.
+2025-11-05 16:14:01,133 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-05 16:14:01,159 - strategy - INFO - log_signal - SIGNAL | Strategy: breakout | SHORT | Confidence: 40.00% | Price: 25703.0

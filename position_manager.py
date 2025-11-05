@@ -45,28 +45,28 @@ class Position:
         if self.status != 'OPEN':
             return None
         
-        # Calculate current P&L
+
         if self.direction == 'LONG':
-            points = current_price - self.entry_price
-            
-            # Check stop loss
-            if current_price <= self.stop_loss:
-                return 'STOP_LOSS'
-            
-            # Check take profit
-            if current_price >= self.take_profit:
-                return 'TAKE_PROFIT'
-            
+                    points = current_price - self.entry_price
+                    
+                    # Check stop loss
+                    if self.stop_loss is not None and current_price <= self.stop_loss:
+                        return 'STOP_LOSS'
+                    
+                    # Check take profit
+                    if self.take_profit is not None and current_price >= self.take_profit:
+                        return 'TAKE_PROFIT'
+                    
         else:  # SHORT
-            points = self.entry_price - current_price
-            
-            # Check stop loss
-            if current_price >= self.stop_loss:
-                return 'STOP_LOSS'
-            
-            # Check take profit
-            if current_price <= self.take_profit:
-                return 'TAKE_PROFIT'
+                    points = self.entry_price - current_price
+                    
+                    # Check stop loss
+                    if self.stop_loss is not None and current_price >= self.stop_loss:
+                        return 'STOP_LOSS'
+                    
+                    # Check take profit
+                    if self.take_profit is not None and current_price <= self.take_profit:
+                        return 'TAKE_PROFIT'
         
         # Update MFE/MAE
         if points > self.mfe:
