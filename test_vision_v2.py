@@ -5,7 +5,8 @@ Verifies all components are working correctly
 import sys
 import cv2
 import numpy as np
-
+import pytesseract
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 def check_imports():
     """Check if all required packages are installed"""
     print("\n" + "="*70)
@@ -164,7 +165,7 @@ def test_capture_instance():
         from screen_capture_v2 import TradingViewCaptureV2
         
         # Create instance
-        capture = TradingViewCaptureV2(monitor_number=1)
+        capture = TradingViewCaptureV2(monitor_number=1, display_mode=False)
         print("✓ Created TradingViewCaptureV2 instance")
         
         # Test capture

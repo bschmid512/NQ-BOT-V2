@@ -28,7 +28,7 @@ class TradingViewCaptureV2:
     Enhanced TradingView screen capture with improved detection
     """
     
-    def __init__(self, monitor_number: int = 1, capture_region: Dict = None):
+    def __init__(self, monitor_number: int = 1, capture_region: Dict = None, display_mode: bool = True):
         """
         Initialize screen capture
         
