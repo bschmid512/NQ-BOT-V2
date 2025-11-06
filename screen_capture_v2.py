@@ -196,14 +196,16 @@ class TradingViewCaptureV2:
                     config='--psm 7 -c tessedit_char_whitelist=0123456789.,'
                 )
                 text = text.strip().replace(',', '').replace(' ', '')
-                
-                if text and text.replace('.', '').isdigit():
+            except ValueError:
+                    continue
+            if text:
+                try:
                     price = float(text)
-                    if 10000 < price < 30000:  # Reasonable NQ price range
-                        self.logger.info(f"OCR Success with {name}")
+                    if 10000 < price < 30000:
+                        self.logger.info(f"OCR Success with {name}: {price}")
                         return price
-            except Exception as e:
-                continue
+                except ValueError:
+                    continue
                 
         return None
     

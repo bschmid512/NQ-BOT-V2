@@ -20,13 +20,45 @@ class PatternRecognizerV2:
     """
     Enhanced AI-based pattern recognition for trading charts
     """
+    def _filter_recent_candles(self, 
+                          candlesticks: List[Dict], 
+                          img_width: Optional[int] = None) -> List[Dict]:
+        """
+        Filter candlesticks to only include recent ones
+        
+        Args:
+            candlesticks: All detected candlesticks
+            img_width: Width of chart image
+            
+        Returns:
+            List of recent candlesticks only
+        """
+        if not candlesticks:
+            return []
+        
+        # Sort by x position (left to right)
+        sorted_candles = sorted(candlesticks, key=lambda c: c.get('x', 0))
+        
+        # FILTER 1: Spatial - only rightmost portion of chart
+        if img_width:
+            min_x = img_width * self.recent_candle_threshold
+            sorted_candles = [c for c in sorted_candles if c.get('x', 0) >= min_x]
+            self.logger.debug(f"Spatial filter: keeping candles with x >= {min_x:.0f}")
+        
+        # FILTER 2: Temporal - only last N candles
+        if len(sorted_candles) > self.max_recent_candles:
+            sorted_candles = sorted_candles[-self.max_recent_candles:]
+            self.logger.debug(f"Temporal filter: keeping last {self.max_recent_candles} candles")
+        
+        return sorted_candles
     
     def __init__(self):
         self.logger = logging.getLogger(__name__)
         
         # Pattern confidence thresholds
         self.min_confidence = 0.6
-        
+        self.recent_candle_threshold = 0.85  # Only analyze rightmost 15% of chart
+        self.max_recent_candles = 15  # Limit to last N candles
         # Support/Resistance parameters
         self.sr_tolerance = 20  # pixels
         self.sr_min_touches = 2  # minimum touches for valid level
@@ -45,7 +77,6 @@ class PatternRecognizerV2:
         Returns:
             Dict with entry, stop_loss, take_profit, risk/reward info
         """
-        # --- START MODIFICATION ---
         # Estimate current price
         if current_price:
             estimated_price = current_price
@@ -53,7 +84,6 @@ class PatternRecognizerV2:
         else:
             estimated_price = 20500  # NQ default fallback
             self.logger.warning(f"Using FALLBACK price for levels: {estimated_price}")
-        # --- END MODIFICATION ---
         
         # Define stop loss distances based on pattern (in points)
         stop_distances = {
@@ -127,7 +157,9 @@ class PatternRecognizerV2:
             'risk_reward_ratio': round(risk_reward, 1)
         }
 
-    def analyze_candlesticks(self, candlesticks: List[Dict], current_price: Optional[float] = None) -> List[Dict]:
+    def analyze_candlesticks(self, candlesticks: List[Dict], 
+                            current_price: Optional[float] = None,
+                            img_width: Optional[int] = None) -> List[Dict]:
         """
         Analyze candlestick patterns with enhanced detection
         
@@ -142,10 +174,29 @@ class PatternRecognizerV2:
             return []
         
         patterns_found = []
+
+        # --- START SYNTAX FIX ---
+        # This block was previously indented incorrectly, causing a crash
         
-        # Sort by x position (time)
-        sorted_candles = sorted(candlesticks, key=lambda c: c['x'])
+        # ========== NEW: SPATIAL FILTERING BLOCK ==========
+        # Filter to recent candles only (rightmost portion of chart)
+        original_count = len(candlesticks)
+        recent_candles = self._filter_recent_candles(candlesticks, img_width)
         
+        if len(recent_candles) < 2:
+            self.logger.debug(f"Not enough recent candles for candlestick patterns: {len(recent_candles)}")
+            return []
+    
+        self.logger.info(
+            f"✅ Analyzing {len(recent_candles)} RECENT candles for patterns "
+            f"(filtered from {original_count} total)"
+        )
+        # Use recent_candles instead of all candlesticks
+        sorted_candles = sorted(recent_candles, key=lambda c: c['x'])
+        # ========== END NEW BLOCK ==========
+
+        # --- END SYNTAX FIX ---
+    
         # BULLISH ENGULFING
         patterns_found.extend(self._detect_engulfing_pattern(sorted_candles, 'bullish'))
         
@@ -156,7 +207,6 @@ class PatternRecognizerV2:
         patterns_found.extend(self._detect_reversal_candles(sorted_candles))
         
         # THREE WHITE SOLDIERS / THREE BLACK CROWS
-        # --- MODIFICATION: Pass current_price ---
         patterns_found.extend(self._detect_three_soldiers_crows(sorted_candles, current_price))
         
         # MORNING STAR / EVENING STAR
@@ -286,7 +336,6 @@ class PatternRecognizerV2:
                 # Check if generally increasing in height
                 avg_area = (c1['area'] + c2['area'] + c3['area']) / 3
                 if all(c['area'] > avg_area * 0.7 for c in [c1, c2, c3]):
-                    # --- MODIFICATION: Pass current_price ---
                     levels = self.calculate_signal_levels('LONG', 'three_white_soldiers', 0.75, current_price)
                     patterns.append({
                         'pattern': 'three_white_soldiers',
@@ -305,7 +354,6 @@ class PatternRecognizerV2:
                             
                             avg_area = (c1['area'] + c2['area'] + c3['area']) / 3
                             if all(c['area'] > avg_area * 0.7 for c in [c1, c2, c3]):
-                                # --- MODIFICATION: Pass current_price ---
                                 levels = self.calculate_signal_levels('SHORT', 'three_black_crows', 0.75, current_price)
                                 patterns.append({
                                     'pattern': 'three_black_crows',
@@ -439,25 +487,51 @@ class PatternRecognizerV2:
             'all_levels': valid_levels
         }
     
-    def detect_chart_patterns(self, candles: List[Dict], sr_levels: Dict) -> List[Dict]:
+    def detect_chart_patterns(self, 
+                             candlesticks: List[Dict], 
+                             sr_levels: Dict,
+                             img_width: Optional[int] = None) -> List[Dict]:
         """
-        Detect larger chart patterns (triangles, double tops/bottoms, etc.)
+        Detect chart patterns like double tops/bottoms, triangles, head & shoulders
         
         Args:
-            candles: List of candlesticks
+            candlesticks: List of detected candlesticks
             sr_levels: Support/resistance levels
+            img_width: Width of chart image for spatial filtering (NEW)
             
         Returns:
             List of detected chart patterns
         """
+        if not candlesticks:
+            return []
+        
+        # ========== NEW: SPATIAL FILTERING BLOCK ==========
+        if img_width:
+            original_count = len(candlesticks)
+            recent_candles = self._filter_recent_candles(candlesticks, img_width)
+            
+            if len(recent_candles) < 5:  # Chart patterns need more candles
+                self.logger.debug(f"Not enough recent candles for chart patterns: {len(recent_candles)}")
+                return []
+            
+            self.logger.info(
+                f"✅ Analyzing {len(recent_candles)} RECENT candles for chart patterns "
+                f"(filtered from {original_count} total)"
+            )
+            candlesticks = recent_candles
+        # ========== END NEW BLOCK ==========
+        
         patterns = []
+            
+        if len(candlesticks) < 10:
+                return patterns
+            
+        # Sort candles by position
+        sorted_candles = sorted(candlesticks, key=lambda c: c['x'])
         
-        if len(candles) < 10:
-            return patterns
-        
-        # Get high and low points
-        highs = [c for c in candles if c['type'] == 'bearish']  # Bearish candles often at highs
-        lows = [c for c in candles if c['type'] == 'bullish']  # Bullish candles often at lows
+        # Extract highs and lows
+        highs = [c for c in sorted_candles if c.get('type') == 'bullish']
+        lows = [c for c in sorted_candles if c.get('type') == 'bearish']
         
         # DOUBLE TOP PATTERN
         if len(highs) >= 2:
@@ -513,14 +587,21 @@ class PatternRecognizerV2:
         """
         signals = []
         
-        # --- START MODIFICATION ---
-        # Get the price from analysis to pass to pattern functions
+        # Get the price and chart width from analysis
         current_price = analysis.get('current_price')
-        # --- END MODIFICATION ---
+        img_width = analysis.get('chart_width')  # ← NEW: Get chart width for filtering
+        
+        if img_width:
+            self.logger.info(f"📊 Chart width: {img_width}px - spatial filtering enabled")
+        else:
+            self.logger.warning("⚠️  No chart width provided - filtering disabled")
 
-        # Analyze candlestick patterns
-        # --- MODIFICATION: Pass current_price ---
-        candle_patterns = self.analyze_candlesticks(analysis.get('candlesticks', []), current_price)
+        # Analyze candlestick patterns WITH spatial filtering
+        candle_patterns = self.analyze_candlesticks(
+            analysis.get('candlesticks', []), 
+            current_price,
+            img_width  # ← NEW: Pass width for spatial filtering
+        )
         signals.extend(candle_patterns)
         
         # Detect support/resistance
@@ -529,10 +610,11 @@ class PatternRecognizerV2:
             analysis.get('candlesticks', [])
         )
         
-        # Detect chart patterns
+        # Detect chart patterns WITH spatial filtering
         chart_patterns = self.detect_chart_patterns(
             analysis.get('candlesticks', []),
-            sr_levels
+            sr_levels,
+            img_width  # ← NEW: Pass width for spatial filtering
         )
         signals.extend(chart_patterns)
         
