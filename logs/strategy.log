@@ -2852,3 +2852,397 @@ AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
 2025-11-05 17:26:07,327 - strategy - INFO - __init__ - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
 2025-11-05 17:26:07,332 - strategy - INFO - __init__ - Strategy Engine initialized
 2025-11-05 17:26:07,332 - strategy - INFO - __init__ - Active strategies: ['orb', 'mean_reversion', 'trend_following', 'breakout']
+2025-11-06 06:00:00,896 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:00:00.835202 | Close: 25752.00 | Bars: 200
+2025-11-06 06:00:00,900 - strategy - INFO - reset_daily_state - ORB state reset for 2025-11-06
+2025-11-06 06:00:00,936 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:01:01,119 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:01:01.046014 | Close: 25755.00 | Bars: 200
+2025-11-06 06:01:01,149 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:02:01,129 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:02:00.934280 | Close: 25759.25 | Bars: 200
+2025-11-06 06:02:01,158 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:03:01,055 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:03:00.950255 | Close: 25758.00 | Bars: 200
+2025-11-06 06:03:01,083 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:04:01,187 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:04:01.108376 | Close: 25757.25 | Bars: 200
+2025-11-06 06:04:01,215 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:05:01,183 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:05:01.099257 | Close: 25756.25 | Bars: 200
+2025-11-06 06:05:01,209 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:06:01,618 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:06:01.546240 | Close: 25761.00 | Bars: 200
+2025-11-06 06:06:01,643 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:07:01,604 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:07:01.444631 | Close: 25757.00 | Bars: 200
+2025-11-06 06:07:01,643 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:08:01,139 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:08:01.035956 | Close: 25747.25 | Bars: 200
+2025-11-06 06:08:01,164 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:09:00,882 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:09:00.760319 | Close: 25755.25 | Bars: 200
+2025-11-06 06:09:00,913 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:10:01,009 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:10:00.937322 | Close: 25754.00 | Bars: 200
+2025-11-06 06:10:01,031 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:12:01,016 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:12:00.938146 | Close: 25746.50 | Bars: 200
+2025-11-06 06:12:01,043 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:13:00,816 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:13:00.728396 | Close: 25748.25 | Bars: 200
+2025-11-06 06:13:00,840 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:14:00,852 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:14:00.748977 | Close: 25746.50 | Bars: 200
+2025-11-06 06:14:00,878 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:15:00,787 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:15:00.724741 | Close: 25749.00 | Bars: 200
+2025-11-06 06:15:00,809 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:16:02,716 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:16:02.630919 | Close: 25752.25 | Bars: 200
+2025-11-06 06:16:02,738 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:17:01,036 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:17:00.920386 | Close: 25752.00 | Bars: 200
+2025-11-06 06:17:01,064 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:18:01,074 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:18:01.002023 | Close: 25759.50 | Bars: 200
+2025-11-06 06:18:01,118 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:19:01,624 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:19:01.554183 | Close: 25758.00 | Bars: 200
+2025-11-06 06:19:01,646 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:21:01,038 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:21:00.946330 | Close: 25767.00 | Bars: 200
+2025-11-06 06:21:01,061 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:22:00,896 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:22:00.821985 | Close: 25770.50 | Bars: 200
+2025-11-06 06:22:00,921 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:23:01,017 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:23:00.897349 | Close: 25765.25 | Bars: 200
+2025-11-06 06:23:01,044 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:24:01,155 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:24:01.078535 | Close: 25750.00 | Bars: 200
+2025-11-06 06:24:01,178 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:25:01,098 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:25:01.010716 | Close: 25754.50 | Bars: 200
+2025-11-06 06:25:01,121 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:26:02,748 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:26:02.653522 | Close: 25756.25 | Bars: 200
+2025-11-06 06:26:02,774 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:28:00,900 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:28:00.756037 | Close: 25765.50 | Bars: 200
+2025-11-06 06:28:00,930 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:29:02,388 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:29:02.310182 | Close: 25765.00 | Bars: 200
+2025-11-06 06:29:02,423 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:30:00,830 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:30:00.714425 | Close: 25769.00 | Bars: 200
+2025-11-06 06:30:00,858 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:31:01,437 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:31:01.334994 | Close: 25766.75 | Bars: 200
+2025-11-06 06:31:01,466 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:32:00,897 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:32:00.808073 | Close: 25765.25 | Bars: 200
+2025-11-06 06:32:00,921 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:33:02,520 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:33:02.399812 | Close: 25762.50 | Bars: 200
+2025-11-06 06:33:02,548 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:34:01,170 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:34:01.092225 | Close: 25752.00 | Bars: 200
+2025-11-06 06:34:01,193 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:35:01,582 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:35:01.311204 | Close: 25754.25 | Bars: 200
+2025-11-06 06:35:01,628 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:36:01,486 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:36:01.387995 | Close: 25761.25 | Bars: 200
+2025-11-06 06:36:01,518 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:37:01,959 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:37:01.909015 | Close: 25765.00 | Bars: 200
+2025-11-06 06:37:01,980 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:38:01,298 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:38:01.225723 | Close: 25764.00 | Bars: 200
+2025-11-06 06:38:01,318 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:39:01,293 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:39:01.062738 | Close: 25764.75 | Bars: 200
+2025-11-06 06:39:01,335 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:40:01,228 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:40:01.123371 | Close: 25763.25 | Bars: 200
+2025-11-06 06:40:01,308 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:41:01,160 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:41:01.094445 | Close: 25761.50 | Bars: 200
+2025-11-06 06:41:01,187 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:42:01,730 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:42:01.597762 | Close: 25763.50 | Bars: 200
+2025-11-06 06:42:01,768 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:43:01,003 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:43:00.909955 | Close: 25770.25 | Bars: 200
+2025-11-06 06:43:01,027 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:44:00,962 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:44:00.848273 | Close: 25770.25 | Bars: 200
+2025-11-06 06:44:00,990 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:45:04,177 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:45:04.108240 | Close: 25763.50 | Bars: 200
+2025-11-06 06:45:04,204 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:46:00,989 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:46:00.851490 | Close: 25763.50 | Bars: 200
+2025-11-06 06:46:01,025 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:47:02,150 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:47:02.063105 | Close: 25764.25 | Bars: 200
+2025-11-06 06:47:02,174 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:49:01,136 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:49:01.039673 | Close: 25766.25 | Bars: 200
+2025-11-06 06:49:01,171 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:50:01,989 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:50:01.904848 | Close: 25761.50 | Bars: 200
+2025-11-06 06:50:02,009 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:51:01,121 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:51:00.984385 | Close: 25758.75 | Bars: 200
+2025-11-06 06:51:01,151 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:52:01,120 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:52:01.036929 | Close: 25755.75 | Bars: 200
+2025-11-06 06:52:01,146 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:53:01,107 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:53:00.975277 | Close: 25760.75 | Bars: 200
+2025-11-06 06:53:01,135 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:55:04,822 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:55:04.746447 | Close: 25760.00 | Bars: 200
+2025-11-06 06:55:04,848 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:56:02,748 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:56:02.552166 | Close: 25756.00 | Bars: 200
+2025-11-06 06:56:02,772 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:57:02,089 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:57:01.840965 | Close: 25757.75 | Bars: 200
+2025-11-06 06:57:02,142 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:58:04,088 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:58:03.476281 | Close: 25756.75 | Bars: 200
+2025-11-06 06:58:04,204 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 06:59:01,900 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 06:59:01.596881 | Close: 25752.75 | Bars: 200
+2025-11-06 06:59:01,992 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 07:00:01,427 - strategy - INFO - process_new_bar - Processing bar at 2025-11-06 07:00:01.197962 | Close: 25747.25 | Bars: 200
+2025-11-06 07:00:01,469 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+    if not strategy.config.get('enabled', False):
+           ^^^^^^^^^^^^^^^
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-06 07:00:01,692 - strategy - INFO - log_signal - SIGNAL | Strategy: breakout | SHORT | Confidence: 40.00% | Price: 25747.25
