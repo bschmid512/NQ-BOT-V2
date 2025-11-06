@@ -491,10 +491,13 @@ class TradingViewCaptureV2:
         # Count line types
         horizontal_lines = sum(1 for l in trend_lines if l['type'] == 'horizontal')
         diagonal_lines = sum(1 for l in trend_lines if l['type'] == 'diagonal')
+        # Get chart dimensions for spatial filtering
+        chart_height, chart_width = img_chart.shape[:2]
         
         return {
             'timestamp': datetime.now().isoformat(),
             'current_price': current_price,
+            'chart_width': chart_width,  # ← MOVED TO TOP LEVEL (was inside statistics)
             'candlesticks': candlesticks,
             'trend_lines': trend_lines,
             'statistics': {

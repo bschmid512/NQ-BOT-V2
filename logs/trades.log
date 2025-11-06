@@ -45,3 +45,11 @@
 2025-11-06 14:07:21,268 - trades - INFO - __init__ - Position Manager initialized: Max positions=1, Max daily loss=$-1000
 2025-11-06 15:02:09,003 - trades - INFO - __init__ - Position Manager initialized: Max positions=1, Max daily loss=$-1000
 2025-11-06 15:02:21,211 - trades - INFO - __init__ - Position Manager initialized: Max positions=1, Max daily loss=$-1000
+2025-11-06 15:13:53,709 - trades - INFO - __init__ - Position Manager initialized: Max positions=1, Max daily loss=$-1000
+2025-11-06 15:24:55,642 - trades - INFO - __init__ - Position Manager initialized: Max positions=1, Max daily loss=$-1000
+2025-11-06 15:30:31,495 - trades - INFO - __init__ - Position Manager initialized: Max positions=1, Max daily loss=$-1000
+2025-11-06 15:42:15,826 - trades - INFO - __init__ - Position Manager initialized: Max positions=1, Max daily loss=$-1000
+2025-11-06 15:44:25,262 - trades - INFO - __init__ - Position Manager initialized: Max positions=1, Max daily loss=$-1000
+2025-11-06 15:46:22,413 - trades - INFO - __init__ - Position Manager initialized: Max positions=1, Max daily loss=$-1000
+2025-11-06 15:59:34,865 - trades - INFO - __init__ - Position Manager initialized: Max positions=1, Max daily loss=$-1000
+2025-11-06 16:02:57,815 - trades - INFO - __init__ - Position Manager initialized: Max positions=1, Max daily loss=$-1000
