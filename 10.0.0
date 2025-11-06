@@ -1,0 +1,10 @@
+Requirement already satisfied: Pillow in c:\users\bschm\anaconda3\lib\site-packages (11.1.0)
+Collecting Pillow
+  Using cached pillow-12.0.0-cp313-cp313-win_amd64.whl.metadata (9.0 kB)
+Using cached pillow-12.0.0-cp313-cp313-win_amd64.whl (7.0 MB)
+Installing collected packages: Pillow
+  Attempting uninstall: Pillow
+    Found existing installation: pillow 11.1.0
+    Uninstalling pillow-11.1.0:
+      Successfully uninstalled pillow-11.1.0
+Successfully installed Pillow-12.0.0

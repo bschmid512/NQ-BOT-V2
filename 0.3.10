@@ -1,0 +1,12 @@
+Requirement already satisfied: pytesseract in c:\users\bschm\anaconda3\lib\site-packages (0.3.10)
+Collecting pytesseract
+  Using cached pytesseract-0.3.13-py3-none-any.whl.metadata (11 kB)
+Requirement already satisfied: packaging>=21.3 in c:\users\bschm\anaconda3\lib\site-packages (from pytesseract) (24.2)
+Requirement already satisfied: Pillow>=8.0.0 in c:\users\bschm\anaconda3\lib\site-packages (from pytesseract) (12.0.0)
+Using cached pytesseract-0.3.13-py3-none-any.whl (14 kB)
+Installing collected packages: pytesseract
+  Attempting uninstall: pytesseract
+    Found existing installation: pytesseract 0.3.10
+    Uninstalling pytesseract-0.3.10:
+      Successfully uninstalled pytesseract-0.3.10
+Successfully installed pytesseract-0.3.13

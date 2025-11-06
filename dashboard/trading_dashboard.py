@@ -190,7 +190,7 @@ class TradingDashboard:
         def update_chart(n):
             """Update main price chart"""
             try:
-                df = data_handler.get_latest_bars(200)
+                df = data_handler.get_latest_bars(10000)
                 
                 if df.empty:
                     return self._create_empty_chart()

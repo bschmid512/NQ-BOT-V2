@@ -7,3 +7,4 @@ timestamp,strategy,signal,confidence,price,target,stop,or_high,or_low,or_size,rs
 2025-11-05 14:10:03.402865,mean_reversion,LONG,0.25,25834.0,25853.4875,25824.0,,,,20.52401746724891,57.48544438104,49.9373540498354,,
 16:14:01,breakout,SHORT,0.4,25703.0,,,,,,,,,40.0,High volume breakdown below BB lower (25783.31)
 07:00:01,breakout,SHORT,0.4,25747.25,,,,,,,,,40.0,High volume breakdown below BB lower (25749.75)
+09:32:01,breakout,SHORT,0.4,25637.75,,,,,,,,,40.0,High volume breakdown below BB lower (25643.08)

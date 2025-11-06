@@ -1,0 +1,10 @@
+Requirement already satisfied: numpy in c:\users\bschm\anaconda3\lib\site-packages (2.2.1)
+Collecting numpy
+  Using cached numpy-2.3.4-cp313-cp313-win_amd64.whl.metadata (60 kB)
+Using cached numpy-2.3.4-cp313-cp313-win_amd64.whl (12.8 MB)
+Installing collected packages: numpy
+  Attempting uninstall: numpy
+    Found existing installation: numpy 2.2.1
+    Uninstalling numpy-2.2.1:
+      Successfully uninstalled numpy-2.2.1
+Successfully installed numpy-2.2.6

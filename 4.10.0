@@ -1,0 +1,8 @@
+Requirement already satisfied: opencv-python in c:\users\bschm\anaconda3\lib\site-packages (4.10.0)
+Collecting opencv-python
+  Using cached opencv_python-4.12.0.88-cp37-abi3-win_amd64.whl.metadata (19 kB)
+Requirement already satisfied: numpy<2.3.0,>=2 in c:\users\bschm\anaconda3\lib\site-packages (from opencv-python) (2.2.6)
+Using cached opencv_python-4.12.0.88-cp37-abi3-win_amd64.whl (39.0 MB)
+Installing collected packages: opencv-python
+  Attempting uninstall: opencv-python
+    Found existing installation: opencv-python 4.10.0

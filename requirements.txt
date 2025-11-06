@@ -1,6 +1,6 @@
 # Core Data and ML Libraries
 pandas>=1.5.0
-numpy>=1.23.0
+numpy<=2.2
 scikit-learn>=1.3.0
 
 # Machine Learning Models

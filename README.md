@@ -1,342 +1,280 @@
-# NQ Futures Trading Bot 🚀
+# Vision System V2.0 - Improved Screen Vision for Your NQ Trading Bot 🎯
 
-An ML-powered algorithmic trading system for NQ (Nasdaq-100) E-mini futures with real-time signal generation, multiple trading strategies, and live Plotly Dash dashboard.
+## 📦 What You Received
 
-## Features ✨
+This package contains enhanced computer vision capabilities for your trading bot with **fixed threading issues** and **improved pattern detection**.
 
-- **Real-time Data Processing**: Receives 1-minute bars from TradingView webhooks
-- **Multiple Trading Strategies**:
-  - Opening Range Breakout (74% win rate)
-  - Mean Reversion (Bollinger Bands + RSI)
-  - Fair Value Gap (FVG) Detection
-  - Pivot Point Scalping
-  - Trend Pullback Strategies
-- **ML-Powered Predictions**: XGBoost + LSTM ensemble for directional signals
-- **Live Dashboard**: Interactive Plotly Dash interface with real-time charts
-- **Comprehensive Technical Indicators**: VWAP, EMAs, RSI, MACD, Bollinger Bands, ATR, ADX, Standard Error Bands
-- **Risk Management**: Position sizing, stop losses, profit targets
-- **Performance Tracking**: Win rate, profit factor, Sharpe ratio, max drawdown
+### Files Included:
 
-## Quick Start 🏃
+1. **screen_capture_v2.py** - Enhanced screen capture module
+   - ✅ Fixed threading issues (no more MSS errors!)
+   - ✅ Better candlestick detection with morphology
+   - ✅ Enhanced price extraction (multiple OCR methods)
+   - ✅ Interactive region selection
+   - ✅ Improved line detection
 
-### 1. Installation
+2. **pattern_recognition_v2.py** - Advanced pattern recognition
+   - 🎨 Multiple candlestick patterns (engulfing, hammers, stars)
+   - 📊 Chart patterns (double tops/bottoms)
+   - 📈 Support/resistance level detection
+   - 🎯 Confidence scoring for signals
 
-```bash
-# Clone the repository
-cd nq_trading_bot
+3. **vision_integration_v2.py** - Complete integration system
+   - 🔗 Connects enhanced vision to your trading bot
+   - 🎮 Analysis mode and Live trading mode
+   - ⚙️ Easy configuration
+   - 📊 Performance tracking
 
-# Install Python dependencies
-pip install -r requirements.txt
+4. **test_vision_v2.py** - Diagnostic test script
+   - ✅ Verifies all packages installed
+   - ✅ Tests capture functionality
+   - ✅ Validates modules
+   - 🔧 Helpful for troubleshooting
 
-# Note: ta-lib requires binary installation
-# For Ubuntu/Debian:
-sudo apt-get install ta-lib
-# For macOS:
-brew install ta-lib
-# For Windows: download from https://github.com/mrjbq7/ta-lib
+5. **VISION_V2_GUIDE.md** - Complete documentation
+   - 📖 Installation instructions
+   - 🚀 Quick start guide
+   - ⚙️ Configuration options
+   - 🎯 Best practices
+   - 🔧 Troubleshooting
+
+## 🚀 Quick Setup (5 Minutes)
+
+### Step 1: Copy Files
+Copy all these files to your main bot directory (where `main.py` is located):
+
+```
+your-bot-directory/
+├── screen_capture_v2.py          ← NEW
+├── pattern_recognition_v2.py     ← NEW
+├── vision_integration_v2.py      ← NEW
+├── test_vision_v2.py             ← NEW
+├── VISION_V2_GUIDE.md            ← NEW
+├── main.py                       (existing)
+├── position_manager.py           (existing)
+└── ... (your other bot files)
 ```
 
-### 2. Configuration
+### Step 2: Test Your Setup
 
-Edit `config.py` to customize your settings:
+```bash
+python test_vision_v2.py
+```
 
+This will verify everything is working correctly.
+
+### Step 3: Test Screen Capture
+
+```bash
+python screen_capture_v2.py
+```
+
+- Select a region around your TradingView chart
+- Watch it detect candlesticks in real-time
+- Press 'q' to quit, 's' to save frames
+
+### Step 4: Run the Full System
+
+```bash
+python vision_integration_v2.py
+```
+
+Follow the prompts to:
+- Select capture region
+- Choose Analysis Mode (safe) or Trading Mode (live)
+- Configure settings
+- Start analyzing!
+
+## 🎯 What's Fixed
+
+### Major Bug Fixes
+- **Threading Error Fixed**: The `'_thread._local' object has no attribute 'srcdc'` error is completely resolved
+- **Better Thread Safety**: Each thread gets its own MSS instance
+- **Improved Error Handling**: More graceful handling of capture errors
+
+### Improvements
+- **Better Detection**: Enhanced candlestick and pattern detection
+- **More Patterns**: Added multiple new pattern types
+- **Higher Accuracy**: Improved confidence scoring
+- **Better Performance**: Region selection for faster processing
+- **Clearer Output**: Better logging and visualization
+
+## 📊 New Patterns Detected
+
+Your bot can now detect:
+
+**Candlestick Patterns:**
+- Bullish/Bearish Engulfing
+- Hammer & Shooting Star
+- Three White Soldiers / Three Black Crows
+- Morning Star / Evening Star
+
+**Chart Patterns:**
+- Double Tops & Double Bottoms
+- Support & Resistance Levels
+- Trend Lines (horizontal, diagonal)
+
+**Sentiment Analysis:**
+- Bullish/Bearish candle ratios
+- Momentum indicators
+- Pattern confidence scoring
+
+## ⚙️ Key Configuration Options
+
+### Basic Setup
 ```python
-# Trading Parameters
-MAX_POSITION_SIZE = 3  # Maximum contracts
-RISK_PER_TRADE = 0.02  # 2% risk per trade
-WEBHOOK_PASSPHRASE = 'your_secure_passphrase'  # Change this!
+# In vision_integration_v2.py or your own script
+from vision_integration_v2 import VisionTradingV2
 
-# Strategy Weights (must sum to 1.0)
-STRATEGIES = {
-    'orb': {'weight': 0.30},
-    'mean_reversion': {'weight': 0.25},
-    'fvg': {'weight': 0.25},
-    'pivot': {'weight': 0.10},
-    'pullback': {'weight': 0.10}
-}
+system = VisionTradingV2(
+    monitor_number=1,           # Which monitor
+    capture_region=None,        # None for full screen, or specific region
+    capture_interval=2.0,       # Capture every 2 seconds
+    min_confidence=0.75,        # 75% confidence minimum
+    trading_enabled=False       # True to execute trades
+)
+
+system.run(duration_minutes=60)  # Run for 60 minutes
 ```
 
-### 3. Run the Bot
-
-```bash
-python main.py
-```
-
-The bot will start:
-- **Webhook Server**: http://localhost:8050/webhook
-- **Dashboard**: http://localhost:8050/dashboard/
-- **Health Check**: http://localhost:8050/health
-
-## TradingView Setup 📈
-
-### 1. Create Alert
-
-1. Open NQ futures chart on TradingView (1-minute timeframe)
-2. Click "Alerts" button
-3. Set "Condition" to "On bar close"
-4. Enable "Webhook URL"
-
-### 2. Webhook Configuration
-
-**Webhook URL:**
-```
-http://your-server-ip:8050/webhook
-```
-
-**Message (JSON format):**
-```json
-{
-  "passphrase": "your_secure_passphrase",
-  "ticker": "NQ",
-  "open": {{open}},
-  "high": {{high}},
-  "low": {{low}},
-  "close": {{close}},
-  "volume": {{volume}},
-  "timestamp": "{{time}}"
-}
-```
-
-### 3. Test the Connection
-
-```bash
-# Send test webhook
-curl -X POST http://localhost:8050/webhook \
-  -H "Content-Type: application/json" \
-  -d '{
-    "passphrase": "your_secure_passphrase",
-    "ticker": "NQ",
-    "open": 16500,
-    "high": 16510,
-    "low": 16495,
-    "close": 16505,
-    "volume": 1000
-  }'
-```
-
-## Project Structure 📁
-
-```
-nq_trading_bot/
-├── config.py                   # Configuration settings
-├── main.py                     # Main application entry point
-├── requirements.txt            # Python dependencies
-├── webhook_server.py           # Flask webhook receiver
-│
-├── data/                       # Data storage (CSV files)
-│   ├── nq_live_data.csv       # Real-time price data
-│   ├── trades.csv             # Trade history
-│   └── signals.csv            # Generated signals
-│
-├── strategies/                 # Trading strategies
-│   ├── opening_range.py       # ORB strategy
-│   ├── mean_reversion.py      # Mean reversion strategy
-│   └── fair_value_gap.py      # FVG strategy (coming soon)
-│
-├── models/                     # ML models
-│   ├── ml_ensemble.py         # Ensemble model
-│   └── trained_models/        # Saved model files
-│
-├── dashboard/                  # Plotly Dash UI
-│   └── trading_dashboard.py   # Main dashboard
-│
-├── utils/                      # Utilities
-│   ├── logger.py              # Logging system
-│   ├── data_handler.py        # Data management
-│   └── indicators.py          # Technical indicators
-│
-├── backtest/                   # Backtesting framework
-│   └── backtest_engine.py     # Backtrader integration
-│
-└── logs/                       # Log files
-    ├── system.log
-    ├── trades.log
-    └── strategy.log
-```
-
-## Trading Strategies 📊
-
-### Opening Range Breakout (ORB)
-- **Win Rate**: ~74%
-- **Logic**: Trade breakouts of 15-minute opening range (9:30-9:45 ET)
-- **Entry**: Price closes outside OR on 5-min candle
-- **Target**: 50% of OR size
-- **Stop**: Opposite side of OR or 50 points max
-
-### Mean Reversion
-- **Win Rate**: ~62%
-- **Logic**: Fade overextensions using Bollinger Bands + RSI
-- **Entry**: Price touches BB band + RSI confirmation + reversal candle
-- **Target**: Middle Bollinger Band (20 SMA)
-- **Stop**: 10 points from entry
-- **Filter**: Only in ranging markets (ADX < 25)
-
-### Fair Value Gap (FVG)
-- **Win Rate**: ~67%
-- **Logic**: Trade price returning to unfilled gaps
-- **Detection**: 3-candle pattern with gap between candle 1 and 3
-- **Entry**: Price returns to FVG zone + confirmation
-- **Enhanced**: Use NQ-ES divergence for confluence
-
-## Dashboard Features 📺
-
-The live dashboard displays:
-
-1. **Performance Metrics**
-   - Total P&L
-   - Win Rate
-   - Profit Factor
-   - Maximum Drawdown
-
-2. **Price Chart**
-   - Candlestick chart with volume
-   - Technical indicators (VWAP, EMAs, Bollinger Bands)
-   - Signal markers (entry points)
-   - Support/Resistance zones
-
-3. **Signal Indicators**
-   - Current active signals
-   - Strategy confidence scores
-   - Entry/exit prices
-
-4. **Recent Trades Table**
-   - Trade history
-   - P&L per trade
-   - Win/loss status
-
-## Risk Management 🛡️
-
-The bot implements strict risk controls:
-
-- **Position Sizing**: Half-Kelly criterion (0.5x Kelly)
-- **Per-Trade Risk**: 2% of capital maximum
-- **Daily Loss Limit**: 5% of capital (halts trading)
-- **Maximum Drawdown**: 15% threshold
-- **Stop Losses**: Every trade has defined stop
-- **Profit Targets**: Minimum 1.5:1 reward-to-risk ratio
-
-## Performance Metrics 📈
-
-The system tracks:
-
-- **Win Rate**: Percentage of profitable trades
-- **Profit Factor**: Gross profit / Gross loss
-- **Sharpe Ratio**: Risk-adjusted return
-- **Sortino Ratio**: Downside risk-adjusted return
-- **Maximum Drawdown**: Largest peak-to-trough decline
-- **Average Win/Loss**: Mean profit and loss per trade
-- **Expectancy**: Expected value per trade
-
-## Logging 📝
-
-All activities are logged to separate files:
-
-- `system.log`: System events and errors
-- `trades.log`: Trade executions
-- `strategy.log`: Signal generation
-- `ml.log`: ML model predictions
-- `webhook.log`: Incoming data
-
-View logs in real-time:
-```bash
-tail -f logs/system.log
-```
-
-## Production Deployment 🚀
-
-### Using Gunicorn (Recommended)
-
-```bash
-gunicorn -w 4 -b 0.0.0.0:8050 main:server --timeout 120
-```
-
-### Using Docker
-
-```dockerfile
-FROM python:3.9-slim
-
-WORKDIR /app
-COPY . .
-
-RUN pip install -r requirements.txt
-
-EXPOSE 8050
-
-CMD ["python", "main.py"]
-```
-
-Build and run:
-```bash
-docker build -t nq-trading-bot .
-docker run -p 8050:8050 nq-trading-bot
-```
-
-## Backtesting 🔬
-
-Test strategies with historical data:
-
+### Region Selection
 ```python
-from backtest.backtest_engine import BacktestEngine
+# Select region interactively
+from screen_capture_v2 import TradingViewCaptureV2
 
-# Initialize backtester
-bt = BacktestEngine()
-
-# Load historical data
-bt.load_data('nq_historical.csv')
-
-# Run backtest
-results = bt.run_strategy('orb', start_date='2023-01-01', end_date='2024-01-01')
-
-# Print results
-print(f"Total Return: {results['total_return']:.2%}")
-print(f"Sharpe Ratio: {results['sharpe_ratio']:.2f}")
-print(f"Max Drawdown: {results['max_drawdown']:.2%}")
+region = TradingViewCaptureV2.select_capture_region()
+# Then use this region when creating your system
 ```
 
-## Troubleshooting 🔧
+## 🎮 Usage Modes
 
-### Webhook Not Receiving Data
+### Analysis Mode (Recommended for Testing)
+- Captures and analyzes charts
+- Generates trading signals
+- Logs everything
+- **Does NOT execute trades**
 
-1. Check firewall settings
-2. Verify TradingView alert is active
-3. Check passphrase matches
-4. Review `logs/webhook.log`
+**Use this to:**
+- Test the system
+- Learn what patterns it detects
+- Compare with your own analysis
+- Build confidence before going live
 
-### Dashboard Not Loading
+### Trading Mode (Advanced)
+- Everything from Analysis Mode
+- **Automatically executes trades** via your `position_manager`
+- Only trades high-confidence signals
+- Respects cooldown periods
 
-1. Ensure port 8050 is available
-2. Check browser console for errors
-3. Verify all dependencies installed
+**⚠️ Only use after thorough testing!**
 
-### No Signals Generated
+## 📈 Performance Tips
 
-1. Confirm strategies are enabled in config
-2. Check if market conditions meet criteria
-3. Review `logs/strategy.log`
+### For Best Results:
+1. **Use Region Selection** - Capture only your TradingView chart
+2. **Clean Chart** - Minimal indicators, standard candlesticks
+3. **Good Contrast** - Dark theme works best
+4. **Proper Timeframe** - 1-minute or 5-minute charts recommended
+5. **Start with Analysis Mode** - Test thoroughly before trading
 
-## Support & Resources 📚
+### Optimize Speed:
+```python
+# Faster capture (less frequent)
+capture_interval=3.0  # Every 3 seconds instead of 2
 
-- **Issues**: GitHub Issues
-- **Documentation**: See `/docs` folder
-- **Community**: Discord/Telegram (links)
+# Higher confidence (fewer but better signals)
+min_confidence=0.80   # 80% instead of 75%
+```
 
-## Disclaimer ⚠️
+## 🔧 Troubleshooting
 
-This software is for educational purposes only. Trading futures involves substantial risk of loss. Past performance does not guarantee future results. Always test thoroughly in paper trading before using real capital.
+### Common Issues
 
-## License 📄
+**"Module not found"**
+```bash
+pip install opencv-python numpy Pillow mss pytesseract --break-system-packages
+```
 
-MIT License - See LICENSE file
+**Threading errors still occurring**
+- Make sure you're using `screen_capture_v2.py` (not the old version)
+- Try increasing `capture_interval` to 3.0 or 4.0
 
-## Acknowledgments 🙏
+**No candlesticks detected**
+- Use region selection to focus on chart area
+- Check that TradingView uses red/green candles
+- Verify chart is visible and not obscured
 
-Built with:
-- Plotly Dash
-- XGBoost & TensorFlow
-- Backtrader
-- pandas-ta
-- Flask
+**Poor performance**
+- Select a specific region (don't capture full screen)
+- Increase `capture_interval`
+- Close other applications
 
----
+## 📖 Documentation
 
-**Happy Trading! 🎯**
+See **VISION_V2_GUIDE.md** for:
+- Detailed installation instructions
+- Complete feature documentation
+- Advanced configuration options
+- Pattern recognition details
+- Troubleshooting guide
+
+## 🆕 Comparison with Old System
+
+| Feature | Old System | V2.0 System |
+|---------|-----------|-------------|
+| Threading | ❌ Errors | ✅ Fixed |
+| Candlestick Detection | Basic | Enhanced |
+| Pattern Types | 3 | 10+ |
+| Support/Resistance | No | Yes |
+| Region Selection | No | Yes |
+| Confidence Scoring | Simple | Advanced |
+| Error Handling | Basic | Robust |
+
+## 🎯 Next Steps
+
+1. **Test the system**: 
+   ```bash
+   python test_vision_v2.py
+   ```
+
+2. **Try screen capture**:
+   ```bash
+   python screen_capture_v2.py
+   ```
+
+3. **Run analysis mode**:
+   ```bash
+   python vision_integration_v2.py
+   ```
+   Choose Analysis Mode (option 1)
+
+4. **Compare with charts**: 
+   - Watch what patterns it detects
+   - Compare with your own analysis
+   - Adjust confidence thresholds
+
+5. **Go live** (when ready):
+   - Enable Trading Mode
+   - Start with small duration
+   - Monitor closely
+
+## 💡 Pro Tips
+
+- **Keep your old files as backup** - Don't delete `vision/screen_capture.py` etc.
+- **Start with Analysis Mode** - Get comfortable before trading
+- **Use region selection** - Dramatically improves performance
+- **Monitor the first hour** - Watch how it performs
+- **Adjust confidence** - Higher = safer but fewer trades
+- **Check the logs** - `logs/vision_trading_v2.log` has details
+
+## 🎉 You're All Set!
+
+Your vision system is now significantly improved with:
+- ✅ Fixed threading issues
+- ✅ Better pattern detection
+- ✅ More trading signals
+- ✅ Enhanced reliability
+
+Start with `test_vision_v2.py` and work your way up to the full system.
+
+Happy trading! 📊🚀
