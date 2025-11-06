@@ -1,0 +1,73 @@
+2025-11-05 21:02:37,207 - __main__ - INFO - ======================================================================
+2025-11-05 21:02:37,208 - __main__ - INFO - Vision Trading Integration initialized
+2025-11-05 21:02:37,208 - __main__ - INFO - ======================================================================
+2025-11-05 21:02:37,209 - __main__ - INFO - Bot integration: DISABLED (logs only)
+2025-11-05 21:02:37,209 - __main__ - INFO - Capture interval: 2.0s
+2025-11-05 21:02:37,209 - __main__ - INFO - Min confidence: 70.0%
+2025-11-05 21:02:37,209 - __main__ - INFO - Stop loss: 20 points
+2025-11-05 21:02:37,210 - __main__ - INFO - Take profit: 40 points
+2025-11-05 21:02:37,210 - __main__ - INFO - ======================================================================
+2025-11-05 21:02:37,210 - __main__ - INFO - 
+2025-11-05 21:02:37,210 - __main__ - INFO - ======================================================================
+2025-11-05 21:02:37,222 - __main__ - INFO - ======================================================================
+2025-11-05 21:02:37,222 - __main__ - INFO - 
+2025-11-05 21:02:37,222 - __main__ - INFO - IMPORTANT:
+2025-11-05 21:02:37,222 - __main__ - INFO -   - Make sure TradingView is visible on your screen
+2025-11-05 21:02:37,222 - __main__ - INFO -   - Chart should be clearly visible and not obscured
+2025-11-05 21:02:37,223 - __main__ - INFO -   - Keep this window open while trading
+2025-11-05 21:02:37,223 - __main__ - INFO - 
+2025-11-05 21:02:37,224 - __main__ - INFO -   Running in analysis mode (logs only)
+2025-11-05 21:02:37,225 - __main__ - INFO - 
+2025-11-05 21:02:37,225 - __main__ - INFO - ======================================================================
+2025-11-05 21:02:37,225 - __main__ - INFO - System is running. Press Ctrl+C to stop.
+2025-11-05 21:02:37,225 - __main__ - INFO - ======================================================================
+2025-11-05 21:02:37,225 - __main__ - INFO - 
+2025-11-05 21:02:37,226 - vision.screen_capture - INFO - Screen capture started
+2025-11-05 21:02:37,227 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:02:39,227 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:02:41,228 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:02:43,229 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:02:45,230 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:02:47,231 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:02:49,232 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:02:51,233 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:02:53,234 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:02:55,235 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:02:57,236 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:02:59,237 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:01,257 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:03,303 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:05,322 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:07,323 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:09,570 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:11,603 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:13,608 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:15,641 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:17,646 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:19,651 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:21,652 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:23,653 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:25,654 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:27,655 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:29,655 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:31,658 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:33,659 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:35,662 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:37,663 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:39,664 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:41,665 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:43,666 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:45,682 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:47,698 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:49,699 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:51,700 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:53,701 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:55,702 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:57,703 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:03:59,704 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:04:01,705 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:04:03,706 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:04:05,708 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:04:07,715 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:04:09,716 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'
+2025-11-05 21:04:11,717 - vision.screen_capture - ERROR - Capture error: '_thread._local' object has no attribute 'srcdc'

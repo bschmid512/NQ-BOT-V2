@@ -1,0 +1,22 @@
+# Computer Vision Trading System Requirements
+
+# Core CV and Image Processing
+opencv-python==4.8.1.78
+numpy==1.26.2
+Pillow==10.1.0
+
+# Screen Capture
+mss==9.0.1
+
+# OCR (Optical Character Recognition)
+pytesseract==0.3.10
+
+# Existing bot dependencies (if not already installed)
+flask==3.0.0
+flask-cors==4.0.0
+pandas==2.1.4
+
+# Optional: Deep Learning (for advanced pattern recognition)
+# tensorflow==2.15.0  # Uncomment for ML-based pattern detection
+# torch==2.1.0        # Alternative to TensorFlow
+# scikit-learn==1.3.2 # For classical ML algorithms
