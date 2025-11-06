@@ -5841,3 +5841,1098 @@
 2025-11-06 11:48:19,803 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
 2025-11-06 11:48:19,803 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
 2025-11-06 11:48:19,804 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:48:25,003 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:48:25,003 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 11:48:25,003 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:48:25,003 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:48:25,004 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:48:25,004 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:48:25,004 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:48:30,194 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:48:30,194 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (17 touches)
+2025-11-06 11:48:30,195 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:48:30,195 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:48:30,195 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:48:30,195 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:48:30,196 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:48:35,407 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:48:35,407 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (20 touches)
+2025-11-06 11:48:35,407 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:48:35,408 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:48:35,408 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:48:35,408 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:48:35,408 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:48:40,595 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:48:40,596 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (20 touches)
+2025-11-06 11:48:40,596 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:48:40,596 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:48:40,596 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:48:40,597 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:48:40,597 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:48:45,791 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:48:45,792 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (14 touches)
+2025-11-06 11:48:45,792 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:48:45,792 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:48:45,792 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:48:45,793 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:48:45,793 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:48:50,967 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:48:50,968 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (17 touches)
+2025-11-06 11:48:50,968 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:48:50,968 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:48:50,968 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:48:50,969 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:48:50,969 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:48:56,158 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:48:56,158 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (17 touches)
+2025-11-06 11:48:56,159 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:48:56,159 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:48:56,159 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:48:56,159 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:48:56,160 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:49:01,354 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:49:01,355 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 11:49:01,355 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:49:01,355 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:49:01,355 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:49:01,356 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:49:01,356 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:49:06,577 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:49:06,577 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (15 touches)
+2025-11-06 11:49:06,578 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:49:06,578 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:49:06,578 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:49:06,578 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:49:06,579 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:49:11,832 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:49:11,832 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (17 touches)
+2025-11-06 11:49:11,833 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:49:11,833 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:49:11,833 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:49:11,834 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:49:11,834 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:49:17,015 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:49:17,015 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (17 touches)
+2025-11-06 11:49:17,015 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:49:17,015 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:49:17,015 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:49:17,016 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:49:17,016 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:49:17,016 - VisionTradingV2 - INFO - ======================================================================
+2025-11-06 11:49:17,016 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-06 11:49:17,017 - VisionTradingV2 - INFO -   Pattern: three_black_crows
+2025-11-06 11:49:17,017 - VisionTradingV2 - INFO -   Direction: SHORT
+2025-11-06 11:49:17,017 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-06 11:49:17,017 - VisionTradingV2 - INFO -   Reason: Three consecutive bearish candles
+2025-11-06 11:49:17,018 - VisionTradingV2 - INFO - ======================================================================
+2025-11-06 11:49:22,204 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:49:22,205 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (19 touches)
+2025-11-06 11:49:22,205 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:49:22,205 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:49:22,205 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:49:22,206 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:49:22,206 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:49:27,436 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:49:27,436 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (15 touches)
+2025-11-06 11:49:27,436 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:49:27,436 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:49:27,437 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:49:27,437 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:49:27,437 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:49:32,629 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:49:32,629 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 11:49:32,630 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:49:32,630 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:49:32,630 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:49:32,630 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:49:32,630 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:49:37,826 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:49:37,827 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 11:49:37,827 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:49:37,827 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:49:37,827 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:49:37,827 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:49:37,827 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:49:43,000 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:49:43,000 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 11:49:43,000 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:49:43,001 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:49:43,001 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:49:43,001 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:49:43,001 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:49:48,068 - VisionTradingV2 - INFO - Generated 1 trading signals:
+2025-11-06 11:49:48,068 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (6 touches)
+2025-11-06 11:49:53,257 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:49:53,257 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (19 touches)
+2025-11-06 11:49:53,258 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:49:53,258 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:49:53,258 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:49:53,259 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:49:53,259 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:49:58,481 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:49:58,482 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (14 touches)
+2025-11-06 11:49:58,482 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:49:58,482 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:49:58,483 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:49:58,483 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:49:58,483 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:50:03,648 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:50:03,648 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (21 touches)
+2025-11-06 11:50:03,649 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:50:03,649 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:50:03,649 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:50:03,649 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:50:03,649 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:50:08,836 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:50:08,836 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 11:50:08,836 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:50:08,837 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:50:08,838 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:50:08,839 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:50:08,839 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:50:14,056 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:50:14,056 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (17 touches)
+2025-11-06 11:50:14,056 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:50:14,057 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:50:14,057 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:50:14,057 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:50:14,057 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:50:19,285 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:50:19,285 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 11:50:19,286 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:50:19,286 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:50:19,287 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:50:19,287 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:50:19,287 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:50:19,287 - VisionTradingV2 - INFO - ======================================================================
+2025-11-06 11:50:19,288 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-06 11:50:19,288 - VisionTradingV2 - INFO -   Pattern: three_black_crows
+2025-11-06 11:50:19,289 - VisionTradingV2 - INFO -   Direction: SHORT
+2025-11-06 11:50:19,290 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-06 11:50:19,290 - VisionTradingV2 - INFO -   Reason: Three consecutive bearish candles
+2025-11-06 11:50:19,290 - VisionTradingV2 - INFO - ======================================================================
+2025-11-06 11:50:24,496 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:50:24,496 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (19 touches)
+2025-11-06 11:50:24,497 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:50:24,497 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:50:24,497 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:50:24,498 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:50:24,498 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:50:29,750 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:50:29,751 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (13 touches)
+2025-11-06 11:50:29,751 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:50:29,752 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:50:29,752 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:50:29,752 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:50:29,752 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:50:34,960 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:50:34,960 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (17 touches)
+2025-11-06 11:50:34,961 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:50:34,961 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:50:34,961 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:50:34,962 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:50:34,962 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:50:40,144 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:50:40,145 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 11:50:40,145 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:50:40,145 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:50:40,145 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:50:40,146 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:50:40,146 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:50:45,381 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:50:45,381 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 11:50:45,382 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:50:45,382 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:50:45,382 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:50:45,383 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:50:45,383 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:50:50,557 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:50:50,558 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (14 touches)
+2025-11-06 11:50:50,558 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:50:50,558 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:50:50,559 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:50:50,559 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:50:50,559 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:50:55,748 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:50:55,748 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (17 touches)
+2025-11-06 11:50:55,748 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:50:55,748 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:50:55,748 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:50:55,749 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:50:55,749 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:51:00,960 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:51:00,960 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 11:51:00,961 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:51:00,961 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:51:00,961 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:51:00,961 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:51:00,961 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:51:06,165 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:51:06,165 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 11:51:06,165 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:51:06,166 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:51:06,166 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:51:06,166 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:51:06,167 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:51:11,340 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:51:11,341 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (15 touches)
+2025-11-06 11:51:11,341 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:51:11,341 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:51:11,341 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:51:11,341 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:51:11,342 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:51:16,531 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:51:16,531 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (11 touches)
+2025-11-06 11:51:16,531 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:51:16,531 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:51:16,532 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:51:16,532 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:51:16,532 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:51:21,756 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:51:21,757 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 11:51:21,757 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:51:21,757 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:51:21,758 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:51:21,758 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:51:21,758 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:51:21,759 - VisionTradingV2 - INFO - ======================================================================
+2025-11-06 11:51:21,759 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-06 11:51:21,759 - VisionTradingV2 - INFO -   Pattern: three_black_crows
+2025-11-06 11:51:21,759 - VisionTradingV2 - INFO -   Direction: SHORT
+2025-11-06 11:51:21,759 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-06 11:51:21,760 - VisionTradingV2 - INFO -   Reason: Three consecutive bearish candles
+2025-11-06 11:51:21,760 - VisionTradingV2 - INFO - ======================================================================
+2025-11-06 11:51:26,927 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:51:26,927 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 11:51:26,928 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:51:26,928 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:51:26,928 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:51:26,928 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:51:26,929 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:51:32,338 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:51:32,341 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (19 touches)
+2025-11-06 11:51:32,343 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:51:32,344 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:51:32,345 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:51:32,345 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:51:32,346 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:51:37,505 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:51:37,506 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 11:51:37,506 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:51:37,506 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:51:37,506 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:51:37,507 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:51:37,507 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:51:42,706 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:51:42,706 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 11:51:42,707 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:51:42,707 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:51:42,707 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:51:42,707 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:51:42,708 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:51:47,951 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:51:47,952 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (13 touches)
+2025-11-06 11:51:47,952 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:51:47,952 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:51:47,952 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:51:47,952 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:51:47,953 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:51:53,145 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:51:53,145 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (19 touches)
+2025-11-06 11:51:53,145 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:51:53,146 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:51:53,146 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:51:53,146 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:51:53,146 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:51:58,362 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:51:58,362 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (19 touches)
+2025-11-06 11:51:58,362 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:51:58,363 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:51:58,363 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:51:58,363 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:51:58,363 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:52:03,578 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:52:03,578 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (17 touches)
+2025-11-06 11:52:03,578 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:52:03,578 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:52:03,579 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:52:03,579 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:52:03,580 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:52:08,787 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:52:08,787 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 11:52:08,788 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:52:08,788 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:52:08,788 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:52:08,788 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:52:08,789 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:52:13,992 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:52:13,993 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (15 touches)
+2025-11-06 11:52:13,993 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:52:13,993 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:52:13,993 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:52:13,994 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:52:13,994 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:52:19,189 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:52:19,189 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 11:52:19,190 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:52:19,190 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:52:19,190 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:52:19,191 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:52:19,191 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:52:24,345 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:52:24,346 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (17 touches)
+2025-11-06 11:52:24,346 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:52:24,346 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:52:24,347 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:52:24,347 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:52:24,347 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:52:24,348 - VisionTradingV2 - INFO - ======================================================================
+2025-11-06 11:52:24,348 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-06 11:52:24,348 - VisionTradingV2 - INFO -   Pattern: three_black_crows
+2025-11-06 11:52:24,349 - VisionTradingV2 - INFO -   Direction: SHORT
+2025-11-06 11:52:24,349 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-06 11:52:24,350 - VisionTradingV2 - INFO -   Reason: Three consecutive bearish candles
+2025-11-06 11:52:24,350 - VisionTradingV2 - INFO - ======================================================================
+2025-11-06 11:52:29,544 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:52:29,544 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (19 touches)
+2025-11-06 11:52:29,544 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:52:29,544 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:52:29,545 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:52:29,545 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:52:29,545 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:52:34,725 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:52:34,725 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (21 touches)
+2025-11-06 11:52:34,726 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:52:34,726 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:52:34,726 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:52:34,726 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:52:34,727 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:52:39,921 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:52:39,921 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 11:52:39,921 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:52:39,921 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:52:39,922 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:52:39,922 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:52:39,922 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:52:45,125 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:52:45,125 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (19 touches)
+2025-11-06 11:52:45,125 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:52:45,126 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:52:45,126 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:52:45,126 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:52:45,126 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:52:50,277 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:52:50,278 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 11:52:50,278 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:52:50,278 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:52:50,279 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:52:50,279 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:52:50,279 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:52:55,501 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:52:55,501 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (19 touches)
+2025-11-06 11:52:55,501 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:52:55,501 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:52:55,502 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:52:55,502 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:52:55,502 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:53:00,690 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:53:00,690 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (17 touches)
+2025-11-06 11:53:00,691 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:53:00,691 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:53:00,691 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:53:00,692 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:53:00,692 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:53:05,914 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:53:05,914 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (15 touches)
+2025-11-06 11:53:05,914 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:53:05,914 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:53:05,916 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:53:05,919 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:53:05,923 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:53:11,105 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:53:11,105 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (15 touches)
+2025-11-06 11:53:11,106 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:53:11,106 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:53:11,106 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:53:11,106 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:53:11,107 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:53:16,316 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:53:16,316 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 11:53:16,317 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:53:16,318 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:53:16,318 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:53:16,318 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:53:16,318 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:53:21,504 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:53:21,504 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (17 touches)
+2025-11-06 11:53:21,504 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:53:21,505 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:53:21,505 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:53:21,505 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:53:21,505 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:53:26,836 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:53:26,837 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 11:53:26,838 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:53:26,838 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:53:26,838 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:53:26,838 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:53:26,838 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:53:26,839 - VisionTradingV2 - INFO - ======================================================================
+2025-11-06 11:53:26,839 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-06 11:53:26,839 - VisionTradingV2 - INFO -   Pattern: three_black_crows
+2025-11-06 11:53:26,839 - VisionTradingV2 - INFO -   Direction: SHORT
+2025-11-06 11:53:26,839 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-06 11:53:26,840 - VisionTradingV2 - INFO -   Reason: Three consecutive bearish candles
+2025-11-06 11:53:26,840 - VisionTradingV2 - INFO - ======================================================================
+2025-11-06 11:53:32,067 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:53:32,067 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (15 touches)
+2025-11-06 11:53:32,068 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:53:32,068 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:53:32,068 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:53:32,069 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:53:32,069 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:53:37,240 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:53:37,240 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (17 touches)
+2025-11-06 11:53:37,240 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:53:37,240 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:53:37,241 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:53:37,241 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:53:37,241 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:53:42,450 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:53:42,451 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (19 touches)
+2025-11-06 11:53:42,451 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:53:42,451 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:53:42,451 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:53:42,451 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:53:42,452 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:53:47,638 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:53:47,638 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (19 touches)
+2025-11-06 11:53:47,639 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:53:47,639 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:53:47,639 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:53:47,640 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:53:47,640 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:53:52,802 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:53:52,802 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (17 touches)
+2025-11-06 11:53:52,802 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:53:52,802 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:53:52,803 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:53:52,803 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:53:52,803 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:53:57,991 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:53:57,991 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 11:53:57,991 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:53:57,992 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:53:57,992 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:53:57,992 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:53:57,992 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:54:03,182 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:54:03,182 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 11:54:03,183 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:54:03,183 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:54:03,183 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:54:03,183 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:54:03,184 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:54:08,394 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:54:08,394 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (15 touches)
+2025-11-06 11:54:08,395 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:54:08,395 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:54:08,395 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:54:08,395 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:54:08,396 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:54:13,631 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:54:13,631 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 11:54:13,632 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:54:13,632 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:54:13,632 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:54:13,632 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:54:13,633 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:54:18,873 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:54:18,873 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (14 touches)
+2025-11-06 11:54:18,874 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:54:18,874 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:54:18,874 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:54:18,875 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:54:18,875 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:54:24,044 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:54:24,044 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 11:54:24,044 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:54:24,045 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:54:24,045 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:54:24,045 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:54:24,046 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:54:29,241 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:54:29,241 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 11:54:29,241 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:54:29,242 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:54:29,242 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:54:29,242 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:54:29,242 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:54:29,243 - VisionTradingV2 - INFO - ======================================================================
+2025-11-06 11:54:29,243 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-06 11:54:29,243 - VisionTradingV2 - INFO -   Pattern: three_black_crows
+2025-11-06 11:54:29,243 - VisionTradingV2 - INFO -   Direction: SHORT
+2025-11-06 11:54:29,243 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-06 11:54:29,244 - VisionTradingV2 - INFO -   Reason: Three consecutive bearish candles
+2025-11-06 11:54:29,244 - VisionTradingV2 - INFO - ======================================================================
+2025-11-06 11:54:34,459 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:54:34,459 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 11:54:34,460 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:54:34,460 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:54:34,461 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:54:34,461 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:54:34,461 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:54:39,637 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:54:39,637 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (15 touches)
+2025-11-06 11:54:39,638 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:54:39,638 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:54:39,638 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:54:39,638 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:54:39,639 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:54:44,899 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:54:44,899 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (19 touches)
+2025-11-06 11:54:44,900 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:54:44,900 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:54:44,900 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:54:44,901 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:54:44,901 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:54:50,085 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:54:50,085 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 11:54:50,085 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:54:50,085 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:54:50,086 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:54:50,086 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:54:50,086 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:54:55,276 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:54:55,277 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (14 touches)
+2025-11-06 11:54:55,277 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:54:55,277 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:54:55,277 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:54:55,278 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:54:55,278 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:55:00,476 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:55:00,477 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (17 touches)
+2025-11-06 11:55:00,477 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:55:00,477 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:55:00,477 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:55:00,478 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:55:00,478 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:55:05,644 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:55:05,645 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (20 touches)
+2025-11-06 11:55:05,645 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:55:05,646 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:55:05,646 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:55:05,646 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:55:05,646 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:55:10,839 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:55:10,840 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 11:55:10,840 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:55:10,840 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:55:10,841 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:55:10,841 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:55:10,841 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:55:16,044 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:55:16,045 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 11:55:16,045 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:55:16,045 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:55:16,045 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:55:16,046 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:55:16,046 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:55:21,259 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:55:21,260 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (20 touches)
+2025-11-06 11:55:21,260 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:55:21,260 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:55:21,260 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:55:21,260 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:55:21,261 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:55:26,453 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:55:26,454 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 11:55:26,454 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:55:26,454 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:55:26,454 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:55:26,454 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:55:26,455 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:55:31,669 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:55:31,669 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 11:55:31,669 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:55:31,670 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:55:31,670 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:55:31,670 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:55:31,670 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:55:31,671 - VisionTradingV2 - INFO - ======================================================================
+2025-11-06 11:55:31,671 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-06 11:55:31,672 - VisionTradingV2 - INFO -   Pattern: three_black_crows
+2025-11-06 11:55:31,672 - VisionTradingV2 - INFO -   Direction: SHORT
+2025-11-06 11:55:31,672 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-06 11:55:31,672 - VisionTradingV2 - INFO -   Reason: Three consecutive bearish candles
+2025-11-06 11:55:31,673 - VisionTradingV2 - INFO - ======================================================================
+2025-11-06 11:55:36,867 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:55:36,867 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 11:55:36,867 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:55:36,868 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:55:36,868 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:55:36,868 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:55:36,868 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:55:42,046 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:55:42,047 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (20 touches)
+2025-11-06 11:55:42,047 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:55:42,047 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:55:42,048 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:55:42,048 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:55:42,048 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:55:47,256 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:55:47,257 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 11:55:47,257 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:55:47,258 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:55:47,259 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:55:47,259 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:55:47,259 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:55:52,465 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:55:52,465 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 11:55:52,465 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:55:52,465 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:55:52,466 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:55:52,466 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:55:52,466 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:55:57,632 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:55:57,632 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (14 touches)
+2025-11-06 11:55:57,633 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:55:57,633 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:55:57,634 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:55:57,634 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:55:57,634 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:56:02,813 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:56:02,813 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (14 touches)
+2025-11-06 11:56:02,814 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:56:02,814 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:56:02,814 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:56:02,815 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:56:02,815 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:56:07,976 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:56:07,976 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 11:56:07,977 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:56:07,977 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:56:07,977 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:56:07,977 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:56:07,977 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:56:13,151 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:56:13,151 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 11:56:13,151 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:56:13,152 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:56:13,152 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:56:13,152 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:56:13,152 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:56:18,243 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:56:18,243 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 11:56:18,243 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:56:18,243 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:56:18,244 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:56:18,244 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:56:18,244 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:56:23,387 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:56:23,388 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (17 touches)
+2025-11-06 11:56:23,388 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:56:23,388 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:56:23,388 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:56:23,389 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:56:23,389 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:56:28,561 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:56:28,561 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (21 touches)
+2025-11-06 11:56:28,561 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:56:28,562 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:56:28,562 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:56:28,563 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:56:28,563 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:56:33,790 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:56:33,791 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (19 touches)
+2025-11-06 11:56:33,792 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:56:33,793 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:56:33,794 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:56:33,794 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:56:33,795 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:56:33,795 - VisionTradingV2 - INFO - ======================================================================
+2025-11-06 11:56:33,795 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-06 11:56:33,796 - VisionTradingV2 - INFO -   Pattern: three_black_crows
+2025-11-06 11:56:33,796 - VisionTradingV2 - INFO -   Direction: SHORT
+2025-11-06 11:56:33,797 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-06 11:56:33,797 - VisionTradingV2 - INFO -   Reason: Three consecutive bearish candles
+2025-11-06 11:56:33,797 - VisionTradingV2 - INFO - ======================================================================
+2025-11-06 11:56:39,003 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:56:39,003 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (17 touches)
+2025-11-06 11:56:39,003 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:56:39,004 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:56:39,004 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:56:39,004 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:56:39,004 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:56:44,183 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:56:44,183 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 11:56:44,184 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:56:44,184 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:56:44,184 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:56:44,184 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:56:44,184 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:56:49,342 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:56:49,342 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (17 touches)
+2025-11-06 11:56:49,343 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:56:49,343 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:56:49,343 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:56:49,343 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:56:49,344 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:56:54,520 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:56:54,520 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (19 touches)
+2025-11-06 11:56:54,521 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:56:54,521 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:56:54,521 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:56:54,521 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:56:54,522 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:56:59,663 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:56:59,664 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 11:56:59,664 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:56:59,664 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:56:59,664 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:56:59,665 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:56:59,665 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:57:04,765 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:57:04,765 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 11:57:04,765 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:57:04,765 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:57:04,766 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:57:04,766 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:57:04,766 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:57:09,906 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:57:09,906 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (17 touches)
+2025-11-06 11:57:09,907 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:57:09,907 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:57:09,907 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:57:09,907 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:57:09,908 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:57:15,059 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:57:15,060 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 11:57:15,060 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:57:15,060 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:57:15,060 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:57:15,061 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:57:15,061 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:57:20,235 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:57:20,236 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 11:57:20,236 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:57:20,236 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:57:20,237 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:57:20,237 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:57:20,237 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:57:25,403 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:57:25,403 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (15 touches)
+2025-11-06 11:57:25,403 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:57:25,404 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:57:25,404 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:57:25,404 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:57:25,404 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:57:30,557 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:57:30,558 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 11:57:30,558 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:57:30,559 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:57:30,559 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:57:30,559 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:57:30,560 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:57:35,782 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:57:35,782 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (20 touches)
+2025-11-06 11:57:35,783 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:57:35,783 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:57:35,783 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:57:35,783 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:57:35,783 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:57:35,783 - VisionTradingV2 - INFO - ======================================================================
+2025-11-06 11:57:35,784 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-06 11:57:35,784 - VisionTradingV2 - INFO -   Pattern: three_black_crows
+2025-11-06 11:57:35,784 - VisionTradingV2 - INFO -   Direction: SHORT
+2025-11-06 11:57:35,784 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-06 11:57:35,784 - VisionTradingV2 - INFO -   Reason: Three consecutive bearish candles
+2025-11-06 11:57:35,784 - VisionTradingV2 - INFO - ======================================================================
+2025-11-06 11:57:40,988 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:57:40,989 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 11:57:40,989 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:57:40,989 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:57:40,990 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:57:40,990 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:57:40,990 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:57:46,189 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:57:46,190 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (19 touches)
+2025-11-06 11:57:46,190 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:57:46,190 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:57:46,190 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:57:46,191 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:57:46,191 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:57:51,401 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:57:51,401 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (15 touches)
+2025-11-06 11:57:51,402 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:57:51,402 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:57:51,402 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:57:51,402 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:57:51,403 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:57:56,609 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:57:56,609 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 11:57:56,609 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:57:56,609 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:57:56,610 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:57:56,610 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:57:56,610 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:58:01,774 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:58:01,774 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 11:58:01,774 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:58:01,774 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:58:01,775 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:58:01,775 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:58:01,775 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 11:58:06,945 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 11:58:06,945 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 11:58:06,945 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 11:58:06,945 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 11:58:06,946 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 11:58:06,946 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 11:58:06,946 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:00:14,071 - VisionTradingV2 - INFO - Vision Trading V2.0 initialized
+2025-11-06 12:00:14,071 - VisionTradingV2 - INFO - Trading mode: ANALYSIS ONLY
+2025-11-06 12:00:14,071 - VisionTradingV2 - INFO - ======================================================================
+2025-11-06 12:00:14,072 - VisionTradingV2 - INFO - VISION TRADING V2.0 - STARTING
+2025-11-06 12:00:14,072 - VisionTradingV2 - INFO - ======================================================================
+2025-11-06 12:00:14,072 - VisionTradingV2 - INFO - Capture interval: 5.0s
+2025-11-06 12:00:14,072 - VisionTradingV2 - INFO - Min confidence: 75%
+2025-11-06 12:00:14,073 - VisionTradingV2 - INFO - Trading: ANALYSIS ONLY
+2025-11-06 12:00:14,073 - VisionTradingV2 - INFO - Duration: Unlimited (press Ctrl+C to stop)
+2025-11-06 12:00:14,073 - VisionTradingV2 - INFO - ======================================================================
+2025-11-06 12:00:14,312 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:00:14,313 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (19 touches)
+2025-11-06 12:00:14,313 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:00:14,313 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:00:14,313 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:00:14,313 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:00:14,314 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:00:14,314 - VisionTradingV2 - INFO - ======================================================================
+2025-11-06 12:00:14,314 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-06 12:00:14,316 - VisionTradingV2 - INFO -   Pattern: three_black_crows
+2025-11-06 12:00:14,316 - VisionTradingV2 - INFO -   Direction: SHORT
+2025-11-06 12:00:14,318 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-06 12:00:14,318 - VisionTradingV2 - INFO -   Entry: 20500.00
+2025-11-06 12:00:14,319 - VisionTradingV2 - INFO -   Stop Loss: 20531.00 (31 pts)
+2025-11-06 12:00:14,319 - VisionTradingV2 - INFO -   Take Profit: 20423.00 (77 pts)
+2025-11-06 12:00:14,320 - VisionTradingV2 - INFO -   Risk/Reward: 1:2.5
+2025-11-06 12:00:14,321 - VisionTradingV2 - INFO -   Reason: Three consecutive bearish candles
+2025-11-06 12:00:14,324 - VisionTradingV2 - INFO - ======================================================================
+2025-11-06 12:00:19,509 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:00:19,509 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (22 touches)
+2025-11-06 12:00:19,509 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:00:19,509 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:00:19,510 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:00:19,510 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:00:19,510 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:00:24,697 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:00:24,698 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (17 touches)
+2025-11-06 12:00:24,698 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:00:24,698 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:00:24,698 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:00:24,699 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:00:24,699 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:00:29,901 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:00:29,901 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 12:00:29,902 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:00:29,902 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:00:29,902 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:00:29,902 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:00:29,903 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:00:35,128 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:00:35,128 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 12:00:35,129 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:00:35,129 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:00:35,129 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:00:35,130 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:00:35,130 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:00:40,330 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:00:40,331 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 12:00:40,331 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:00:40,331 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:00:40,331 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:00:40,331 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:00:40,332 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:00:45,545 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:00:45,545 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (15 touches)
+2025-11-06 12:00:45,546 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:00:45,546 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:00:45,546 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:00:45,547 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:00:45,547 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:00:50,737 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:00:50,737 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (17 touches)
+2025-11-06 12:00:50,737 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:00:50,738 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:00:50,738 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:00:50,738 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:00:50,738 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:00:55,892 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:00:55,892 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (14 touches)
+2025-11-06 12:00:55,893 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:00:55,893 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:00:55,893 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:00:55,894 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:00:55,894 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:01:01,068 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:01:01,068 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (17 touches)
+2025-11-06 12:01:01,068 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:01:01,069 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:01:01,069 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:01:01,069 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:01:01,069 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:01:06,170 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:01:06,170 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (17 touches)
+2025-11-06 12:01:06,171 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:01:06,171 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:01:06,171 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:01:06,171 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:01:06,171 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:01:11,259 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:01:11,259 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (22 touches)
+2025-11-06 12:01:11,260 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:01:11,260 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:01:11,260 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:01:11,261 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:01:11,261 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:01:16,450 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:01:16,450 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 12:01:16,451 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:01:16,451 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:01:16,451 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:01:16,452 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:01:16,452 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:01:16,452 - VisionTradingV2 - INFO - ======================================================================
+2025-11-06 12:01:16,453 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-06 12:01:16,453 - VisionTradingV2 - INFO -   Pattern: three_black_crows
+2025-11-06 12:01:16,453 - VisionTradingV2 - INFO -   Direction: SHORT
+2025-11-06 12:01:16,454 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-06 12:01:16,454 - VisionTradingV2 - INFO -   Entry: 20500.00
+2025-11-06 12:01:16,454 - VisionTradingV2 - INFO -   Stop Loss: 20531.00 (31 pts)
+2025-11-06 12:01:16,454 - VisionTradingV2 - INFO -   Take Profit: 20423.00 (77 pts)
+2025-11-06 12:01:16,454 - VisionTradingV2 - INFO -   Risk/Reward: 1:2.5
+2025-11-06 12:01:16,454 - VisionTradingV2 - INFO -   Reason: Three consecutive bearish candles
+2025-11-06 12:01:16,454 - VisionTradingV2 - INFO - ======================================================================
+2025-11-06 12:01:21,635 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:01:21,635 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 12:01:21,636 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:01:21,636 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:01:21,636 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:01:21,636 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:01:21,636 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:01:26,779 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:01:26,779 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (20 touches)
+2025-11-06 12:01:26,779 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:01:26,779 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:01:26,780 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:01:26,780 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:01:26,780 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:01:32,019 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:01:32,019 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 12:01:32,020 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:01:32,020 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:01:32,020 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:01:32,020 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:01:32,021 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:01:37,196 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:01:37,196 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (20 touches)
+2025-11-06 12:01:37,196 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:01:37,197 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:01:37,197 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:01:37,197 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:01:37,198 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:01:42,406 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:01:42,406 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (17 touches)
+2025-11-06 12:01:42,406 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:01:42,407 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:01:42,407 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:01:42,407 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:01:42,407 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:01:47,599 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:01:47,600 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (19 touches)
+2025-11-06 12:01:47,600 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:01:47,600 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:01:47,600 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:01:47,601 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:01:47,601 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:01:52,787 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:01:52,787 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 12:01:52,787 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:01:52,788 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:01:52,788 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:01:52,788 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:01:52,789 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:01:57,983 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:01:57,984 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (17 touches)
+2025-11-06 12:01:57,984 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:01:57,984 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:01:57,984 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:01:57,985 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:01:57,985 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:02:03,123 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:02:03,123 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (18 touches)
+2025-11-06 12:02:03,123 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:02:03,123 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:02:03,123 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:02:03,123 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:02:03,124 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:02:08,242 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:02:08,242 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (20 touches)
+2025-11-06 12:02:08,243 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:02:08,243 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:02:08,243 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:02:08,243 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:02:08,243 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:02:13,437 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:02:13,437 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (17 touches)
+2025-11-06 12:02:13,437 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:02:13,438 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:02:13,438 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:02:13,438 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:02:13,438 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:02:18,544 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:02:18,544 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (21 touches)
+2025-11-06 12:02:18,544 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:02:18,545 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:02:18,545 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:02:18,545 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:02:18,545 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:02:18,545 - VisionTradingV2 - INFO - ======================================================================
+2025-11-06 12:02:18,545 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-06 12:02:18,545 - VisionTradingV2 - INFO -   Pattern: three_black_crows
+2025-11-06 12:02:18,545 - VisionTradingV2 - INFO -   Direction: SHORT
+2025-11-06 12:02:18,546 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-06 12:02:18,546 - VisionTradingV2 - INFO -   Entry: 20500.00
+2025-11-06 12:02:18,546 - VisionTradingV2 - INFO -   Stop Loss: 20531.00 (31 pts)
+2025-11-06 12:02:18,546 - VisionTradingV2 - INFO -   Take Profit: 20423.00 (77 pts)
+2025-11-06 12:02:18,546 - VisionTradingV2 - INFO -   Risk/Reward: 1:2.5
+2025-11-06 12:02:18,546 - VisionTradingV2 - INFO -   Reason: Three consecutive bearish candles
+2025-11-06 12:02:18,546 - VisionTradingV2 - INFO - ======================================================================
+2025-11-06 12:02:23,651 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:02:23,651 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (16 touches)
+2025-11-06 12:02:23,652 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:02:23,652 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:02:23,652 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:02:23,652 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:02:23,652 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:02:28,776 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:02:28,776 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (20 touches)
+2025-11-06 12:02:28,776 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:02:28,776 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:02:28,777 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:02:28,777 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:02:28,777 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:02:33,957 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:02:33,958 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (15 touches)
+2025-11-06 12:02:33,958 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:02:33,958 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:02:33,959 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:02:33,959 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:02:33,959 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)
+2025-11-06 12:02:39,175 - VisionTradingV2 - INFO - Generated 6 trading signals:
+2025-11-06 12:02:39,175 - VisionTradingV2 - INFO -   1. support_resistance_level: WATCH (confidence: 100%) - Strong S/R level (20 touches)
+2025-11-06 12:02:39,176 - VisionTradingV2 - INFO -   2. three_black_crows: SHORT (confidence: 75%) - Three consecutive bearish candles
+2025-11-06 12:02:39,176 - VisionTradingV2 - INFO -   3. double_top: SHORT (confidence: 75%) - Double top resistance pattern
+2025-11-06 12:02:39,176 - VisionTradingV2 - INFO -   4. bearish_engulfing: SHORT (confidence: 74%) - Bearish engulfing (size ratio: 2.22)
+2025-11-06 12:02:39,177 - VisionTradingV2 - INFO -   5. shooting_star: SHORT (confidence: 65%) - Shooting star (AR: 19.0)
+2025-11-06 12:02:39,177 - VisionTradingV2 - INFO -   6. hammer: LONG (confidence: 65%) - Hammer candlestick (AR: 17.7)

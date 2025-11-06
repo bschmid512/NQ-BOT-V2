@@ -16468,3 +16468,675 @@ Traceback (most recent call last):
     if (current_time - self.entry_time).total_seconds() > 7200:
         ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
 TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:49:00,872 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:49:00.829918 | O:25237.50 H:25246.00 L:25232.50 C:25233.75 V:2584.0
+2025-11-06 11:49:00,873 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:49:06,316 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:49:06.279834 | O:25237.50 H:25246.00 L:25232.50 C:25233.75 V:2584.0
+2025-11-06 11:49:06,317 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:49:11,709 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:49:11.659560 | O:25237.50 H:25246.00 L:25232.50 C:25233.75 V:2584.0
+2025-11-06 11:49:11,710 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:49:17,050 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:49:17.018673 | O:25237.50 H:25246.00 L:25232.50 C:25233.75 V:2584.0
+2025-11-06 11:49:17,050 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:50:01,138 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:50:01.103017 | O:25233.50 H:25239.75 L:25227.25 C:25235.00 V:2577.0
+2025-11-06 11:50:01,138 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:50:06,505 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:50:06.470353 | O:25233.50 H:25239.75 L:25227.25 C:25235.00 V:2577.0
+2025-11-06 11:50:06,506 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:50:11,954 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:50:11.912213 | O:25233.50 H:25239.75 L:25227.25 C:25235.00 V:2577.0
+2025-11-06 11:50:11,955 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:50:17,315 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:50:17.273555 | O:25233.50 H:25239.75 L:25227.25 C:25235.00 V:2577.0
+2025-11-06 11:50:17,316 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:51:00,827 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:51:00.793329 | O:25235.00 H:25251.75 L:25226.25 C:25241.50 V:4482.0
+2025-11-06 11:51:00,828 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:51:06,267 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:51:06.233736 | O:25235.00 H:25251.75 L:25226.25 C:25241.50 V:4482.0
+2025-11-06 11:51:06,267 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:51:11,609 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:51:11.578049 | O:25235.00 H:25251.75 L:25226.25 C:25241.50 V:4482.0
+2025-11-06 11:51:11,610 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:51:16,956 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:51:16.923748 | O:25235.00 H:25251.75 L:25226.25 C:25241.50 V:4482.0
+2025-11-06 11:51:16,956 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:52:01,220 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:52:01.173073 | O:25241.25 H:25258.50 L:25240.75 C:25253.75 V:4069.0
+2025-11-06 11:52:01,220 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:52:06,641 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:52:06.613105 | O:25241.25 H:25258.50 L:25240.75 C:25253.75 V:4069.0
+2025-11-06 11:52:06,641 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:52:12,009 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:52:11.976798 | O:25241.25 H:25258.50 L:25240.75 C:25253.75 V:4069.0
+2025-11-06 11:52:12,010 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:52:17,358 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:52:17.320320 | O:25241.25 H:25258.50 L:25240.75 C:25253.75 V:4069.0
+2025-11-06 11:52:17,358 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:53:00,956 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:53:00.923713 | O:25254.25 H:25278.50 L:25253.25 C:25278.00 V:6013.0
+2025-11-06 11:53:00,956 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:53:06,347 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:53:06.317954 | O:25254.25 H:25278.50 L:25253.25 C:25278.00 V:6013.0
+2025-11-06 11:53:06,348 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:53:11,686 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:53:11.657665 | O:25254.25 H:25278.50 L:25253.25 C:25278.00 V:6013.0
+2025-11-06 11:53:11,687 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:53:17,067 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:53:17.034297 | O:25254.25 H:25278.50 L:25253.25 C:25278.00 V:6013.0
+2025-11-06 11:53:17,068 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:54:00,904 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:54:00.871318 | O:25277.75 H:25284.75 L:25252.25 C:25257.50 V:5526.0
+2025-11-06 11:54:00,905 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:54:06,269 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:54:06.212098 | O:25277.75 H:25284.75 L:25252.25 C:25257.50 V:5526.0
+2025-11-06 11:54:06,270 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:54:11,610 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:54:11.574127 | O:25277.75 H:25284.75 L:25252.25 C:25257.50 V:5526.0
+2025-11-06 11:54:11,610 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:54:17,120 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:54:17.085718 | O:25277.75 H:25284.75 L:25252.25 C:25257.50 V:5526.0
+2025-11-06 11:54:17,120 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:55:00,926 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:55:00.890385 | O:25257.50 H:25276.50 L:25254.50 C:25273.00 V:3550.0
+2025-11-06 11:55:00,926 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:55:06,274 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:55:06.244794 | O:25257.50 H:25276.50 L:25254.50 C:25273.00 V:3550.0
+2025-11-06 11:55:06,275 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:55:11,715 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:55:11.685458 | O:25257.50 H:25276.50 L:25254.50 C:25273.00 V:3550.0
+2025-11-06 11:55:11,716 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:55:17,055 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:55:17.022505 | O:25257.50 H:25276.50 L:25254.50 C:25273.00 V:3550.0
+2025-11-06 11:55:17,055 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:56:00,958 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:56:00.926028 | O:25272.00 H:25272.00 L:25229.00 C:25233.25 V:5883.0
+2025-11-06 11:56:00,959 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:56:06,421 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:56:06.387131 | O:25272.00 H:25272.00 L:25229.00 C:25233.25 V:5883.0
+2025-11-06 11:56:06,421 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:56:11,756 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:56:11.727288 | O:25272.00 H:25272.00 L:25229.00 C:25233.25 V:5883.0
+2025-11-06 11:56:11,757 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:56:17,080 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:56:17.055597 | O:25272.00 H:25272.00 L:25229.00 C:25233.25 V:5883.0
+2025-11-06 11:56:17,081 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:57:01,035 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:57:01.000330 | O:25233.50 H:25245.25 L:25201.50 C:25206.25 V:9017.0
+2025-11-06 11:57:01,035 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:57:06,506 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:57:06.478380 | O:25233.50 H:25245.25 L:25201.50 C:25206.25 V:9017.0
+2025-11-06 11:57:06,506 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:57:11,854 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:57:11.822568 | O:25233.50 H:25245.25 L:25201.50 C:25206.25 V:9017.0
+2025-11-06 11:57:11,854 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:57:17,213 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:57:17.181810 | O:25233.50 H:25245.25 L:25201.50 C:25206.25 V:9017.0
+2025-11-06 11:57:17,213 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:58:00,952 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:58:00.918923 | O:25206.50 H:25232.00 L:25205.25 C:25230.00 V:5068.0
+2025-11-06 11:58:00,952 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:58:06,308 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:58:06.281524 | O:25206.50 H:25232.00 L:25205.25 C:25230.00 V:5068.0
+2025-11-06 11:58:06,309 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:58:11,637 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:58:11.603705 | O:25206.50 H:25232.00 L:25205.25 C:25230.00 V:5068.0
+2025-11-06 11:58:11,638 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:58:16,986 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:58:16.952257 | O:25206.50 H:25232.00 L:25205.25 C:25230.00 V:5068.0
+2025-11-06 11:58:16,987 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:59:00,849 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:59:00.804537 | O:25230.25 H:25237.50 L:25223.25 C:25228.50 V:3861.0
+2025-11-06 11:59:00,849 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:59:06,300 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:59:06.266165 | O:25230.25 H:25237.50 L:25223.25 C:25228.50 V:3861.0
+2025-11-06 11:59:06,300 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:59:11,648 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:59:11.619125 | O:25230.25 H:25237.50 L:25223.25 C:25228.50 V:3861.0
+2025-11-06 11:59:11,649 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 11:59:17,005 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 11:59:16.971767 | O:25230.25 H:25237.50 L:25223.25 C:25228.50 V:3861.0
+2025-11-06 11:59:17,005 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 12:00:01,138 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 12:00:01.108202 | O:25227.25 H:25232.00 L:25210.50 C:25221.00 V:4185.0
+2025-11-06 12:00:01,139 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 12:00:16,258 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 12:00:16.227098 | O:25227.25 H:25232.00 L:25210.50 C:25221.00 V:4185.0
+2025-11-06 12:00:16,259 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 12:00:22,231 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 12:00:22.196824 | O:25227.25 H:25232.00 L:25210.50 C:25221.00 V:4185.0
+2025-11-06 12:00:22,231 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 12:00:27,618 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 12:00:27.588852 | O:25227.25 H:25232.00 L:25210.50 C:25221.00 V:4185.0
+2025-11-06 12:00:27,618 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 12:01:00,906 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 12:01:00.875831 | O:25220.50 H:25263.75 L:25220.25 C:25259.25 V:8055.0
+2025-11-06 12:01:00,906 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 12:01:06,429 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 12:01:06.399556 | O:25220.50 H:25263.75 L:25220.25 C:25259.25 V:8055.0
+2025-11-06 12:01:06,430 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 12:01:11,773 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 12:01:11.740883 | O:25220.50 H:25263.75 L:25220.25 C:25259.25 V:8055.0
+2025-11-06 12:01:11,773 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 12:01:17,110 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 12:01:17.078782 | O:25220.50 H:25263.75 L:25220.25 C:25259.25 V:8055.0
+2025-11-06 12:01:17,111 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 12:02:01,030 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 12:02:00.996564 | O:25260.00 H:25273.50 L:25255.00 C:25258.00 V:4422.0
+2025-11-06 12:02:01,031 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 12:02:06,395 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 12:02:06.366598 | O:25260.00 H:25273.50 L:25255.00 C:25258.00 V:4422.0
+2025-11-06 12:02:06,395 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 12:02:11,765 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 12:02:11.732956 | O:25260.00 H:25273.50 L:25255.00 C:25258.00 V:4422.0
+2025-11-06 12:02:11,765 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 12:02:17,319 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 12:02:17.288754 | O:25260.00 H:25273.50 L:25255.00 C:25258.00 V:4422.0
+2025-11-06 12:02:17,319 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'

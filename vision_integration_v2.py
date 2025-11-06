@@ -162,6 +162,14 @@ class VisionTradingV2:
         self.logger.info(f"  Pattern: {best_signal['pattern']}")
         self.logger.info(f"  Direction: {best_signal['signal']}")
         self.logger.info(f"  Confidence: {best_signal['confidence']:.1%}")
+        
+        # Display Entry, TP, SL
+        if best_signal.get('entry'):
+            self.logger.info(f"  Entry: {best_signal['entry']:.2f}")
+            self.logger.info(f"  Stop Loss: {best_signal['stop_loss']:.2f} ({best_signal['risk_points']} pts)")
+            self.logger.info(f"  Take Profit: {best_signal['take_profit']:.2f} ({best_signal['reward_points']} pts)")
+            self.logger.info(f"  Risk/Reward: 1:{best_signal['risk_reward_ratio']}")
+        
         self.logger.info(f"  Reason: {best_signal['reason']}")
         self.logger.info("="*70)
         

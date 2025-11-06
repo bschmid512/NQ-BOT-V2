@@ -275,30 +275,34 @@ class PatternRecognizerV2:
                 # Check if generally increasing in height
                 avg_area = (c1['area'] + c2['area'] + c3['area']) / 3
                 if all(c['area'] > avg_area * 0.7 for c in [c1, c2, c3]):
+                    levels = self.calculate_signal_levels('LONG', 'three_white_soldiers', 0.75)
                     patterns.append({
                         'pattern': 'three_white_soldiers',
                         'signal': 'LONG',
                         'confidence': 0.75,
                         'location': (c3['x'], c3['y']),
                         'reason': 'Three consecutive bullish candles',
-                        'candle_index': i + 2
+                        'candle_index': i + 2,
+                        **levels
                     })
             
             # THREE BLACK CROWS - three consecutive bearish candles
             elif (c1['type'] == 'bearish' and 
-                  c2['type'] == 'bearish' and 
-                  c3['type'] == 'bearish'):
-                
-                avg_area = (c1['area'] + c2['area'] + c3['area']) / 3
-                if all(c['area'] > avg_area * 0.7 for c in [c1, c2, c3]):
-                    patterns.append({
-                        'pattern': 'three_black_crows',
-                        'signal': 'SHORT',
-                        'confidence': 0.75,
-                        'location': (c3['x'], c3['y']),
-                        'reason': 'Three consecutive bearish candles',
-                        'candle_index': i + 2
-                    })
+                            c2['type'] == 'bearish' and 
+                            c3['type'] == 'bearish'):
+                            
+                            avg_area = (c1['area'] + c2['area'] + c3['area']) / 3
+                            if all(c['area'] > avg_area * 0.7 for c in [c1, c2, c3]):
+                                levels = self.calculate_signal_levels('SHORT', 'three_black_crows', 0.75)
+                                patterns.append({
+                                    'pattern': 'three_black_crows',
+                                    'signal': 'SHORT',
+                                    'confidence': 0.75,
+                                    'location': (c3['x'], c3['y']),
+                                    'reason': 'Three consecutive bearish candles',
+                                    'candle_index': i + 2,
+                                    **levels
+                                })
         
         return patterns
     
