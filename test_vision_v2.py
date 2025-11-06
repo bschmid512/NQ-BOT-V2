@@ -1,12 +1,14 @@
 """
 Quick Test Script for Vision System V2.0
 Verifies all components are working correctly
+FIXED: No visual overlays during testing
 """
 import sys
 import cv2
 import numpy as np
 import pytesseract
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+
 def check_imports():
     """Check if all required packages are installed"""
     print("\n" + "="*70)
@@ -32,7 +34,7 @@ def check_imports():
             all_good = False
     
     if not all_good:
-        print("\n❌ Some packages are missing!")
+        print("\n⚠ Some packages are missing!")
         print("Install with: pip install <package> --break-system-packages")
         return False
     
@@ -156,7 +158,7 @@ def test_vision_modules():
 
 
 def test_capture_instance():
-    """Test creating capture instance"""
+    """Test creating capture instance (no visual overlays)"""
     print("\n" + "="*70)
     print("TESTING CAPTURE INSTANCE")
     print("="*70 + "\n")
@@ -164,9 +166,9 @@ def test_capture_instance():
     try:
         from screen_capture_v2 import TradingViewCaptureV2
         
-        # Create instance
+        # Create instance with display_mode=False for testing (no overlays)
         capture = TradingViewCaptureV2(monitor_number=1, display_mode=False)
-        print("✓ Created TradingViewCaptureV2 instance")
+        print("✓ Created TradingViewCaptureV2 instance (display disabled)")
         
         # Test capture
         print("  Attempting single capture...")
@@ -280,7 +282,7 @@ def main():
     if passed_count == total_count:
         print("\n🎉 ALL TESTS PASSED!")
         print("\nYou're ready to run:")
-        print("  python screen_capture_v2.py        (Test capture)")
+        print("  python screen_capture_v2.py        (Interactive test with display)")
         print("  python vision_integration_v2.py    (Full system)")
     else:
         print("\n⚠ Some tests failed - check the output above")

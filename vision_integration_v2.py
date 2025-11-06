@@ -18,6 +18,7 @@ from datetime import datetime, timedelta
 import logging
 from typing import Dict, Optional, List
 import json
+import cv2
 
 # Add parent directory for imports
 bot_dir = Path(__file__).parent
@@ -64,7 +65,7 @@ class VisionTradingV2:
         self.logger = self._setup_logging()
         
         # Initialize vision components
-        self.capture = TradingViewCaptureV2(monitor_number, capture_region)
+        self.capture = TradingViewCaptureV2(monitor_number, capture_region, display_mode=False)
         self.ai = TradingViewAIV2()
         
         # Configuration
@@ -129,6 +130,11 @@ class VisionTradingV2:
             return
         
         self.signals_generated += len(signals)
+        
+        # Log signals
+        self.logger.info(f"Generated {len(signals)} trading signals:")
+        for i, sig in enumerate(signals, 1):
+            self.logger.info(f"  {i}. {sig['pattern']}: {sig['signal']} (confidence: {sig['confidence']:.0%}) - {sig['reason']}")
         
         # Filter high-confidence actionable signals
         actionable = [
@@ -195,122 +201,98 @@ class VisionTradingV2:
             position_manager.open_position(trade_signal)
             
             self.trades_executed += 1
-            self.logger.info(f"✓ Trade executed successfully")
-            
-            # Log to trading logger if available
-            if 'trading_logger' in globals():
-                trading_logger.log_signal(
-                    strategy='vision',
-                    signal=signal['signal'],
-                    price=0,  # Updated by position_manager
-                    confidence=signal['confidence']
-                )
+            self.logger.info(f"✓ Trade executed successfully (Total: {self.trades_executed})")
             
         except Exception as e:
-            self.logger.error(f"Error executing trade: {e}", exc_info=True)
+            self.logger.error(f"Failed to execute trade: {e}", exc_info=True)
     
-    def run(self, duration_minutes: int = None):
+    def run(self, duration_minutes: Optional[int] = None):
         """
-        Start the vision trading system
+        Run the vision trading system
         
         Args:
-            duration_minutes: Run for specified minutes (None = run until stopped)
+            duration_minutes: How long to run (None = unlimited)
         """
         self.logger.info("="*70)
         self.logger.info("VISION TRADING V2.0 - STARTING")
         self.logger.info("="*70)
-        self.logger.info(f"Mode: {'TRADING' if self.trading_enabled else 'ANALYSIS'}")
         self.logger.info(f"Capture interval: {self.capture_interval}s")
         self.logger.info(f"Min confidence: {self.min_confidence:.0%}")
-        self.logger.info(f"Signal cooldown: {self.signal_cooldown}s")
+        self.logger.info(f"Trading: {'ENABLED' if self.trading_enabled else 'ANALYSIS ONLY'}")
         if duration_minutes:
             self.logger.info(f"Duration: {duration_minutes} minutes")
+        else:
+            self.logger.info("Duration: Unlimited (press Ctrl+C to stop)")
         self.logger.info("="*70)
         
-        # Calculate end time if duration specified
         end_time = None
         if duration_minutes:
             end_time = datetime.now() + timedelta(minutes=duration_minutes)
-            self.logger.info(f"Will run until: {end_time.strftime('%H:%M:%S')}")
-        
-        # Start capture with callback
-        self.capture.start_capture_loop(
-            interval=self.capture_interval,
-            callback=self.process_analysis
-        )
-        
-        self.logger.info("✓ Vision system running")
-        self.logger.info("Press Ctrl+C to stop\n")
         
         try:
-            # Main loop - just keep running and displaying
             while True:
-                # Check if we should stop
+                # Check duration
                 if end_time and datetime.now() >= end_time:
-                    self.logger.info("Duration limit reached, stopping...")
+                    self.logger.info("Duration elapsed - stopping")
                     break
                 
-                # Display current frame if available
-                if self.capture.current_frame is not None:
-                    # Get latest analysis
-                    analysis = self.capture.analyze_frame_enhanced(self.capture.current_frame)
-                    
-                    # Display with overlays
-                    self.capture.display_frame(
-                        analysis=analysis,
-                        window_name="Vision Trading V2.0"
-                    )
-                    
-                    # Check for quit key
-                    key = cv2.waitKey(100) & 0xFF
-                    if key == ord('q'):
-                        self.logger.info("Quit key pressed")
-                        break
-                    elif key == ord('s'):
-                        # Save screenshot
-                        filename = f"vision_capture_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png"
-                        self.capture.save_frame(filename)
+                # Capture and analyze
+                img = self.capture.capture_screen()
+                analysis = self.capture.analyze_frame_enhanced(img)
                 
-                time.sleep(0.1)
+                # Process signals
+                self.process_analysis(analysis)
                 
+                # Wait for next capture
+                time.sleep(self.capture_interval)
+        
         except KeyboardInterrupt:
-            self.logger.info("\n\nStopping vision system...")
+            self.logger.info("\nInterrupted by user")
+        
+        except Exception as e:
+            self.logger.error(f"Error in run loop: {e}", exc_info=True)
         
         finally:
-            self.stop()
-    
-    def stop(self):
-        """Stop the vision system"""
-        self.capture.stop_capture()
+            self._print_summary()
+            self._cleanup()
         
-        # Print session summary
-        duration = (datetime.now() - self.session_start).total_seconds() / 60
+        self.logger.info("Vision system stopped")
+    
+    def _cleanup(self):
+        """Clean up resources safely"""
+        try:
+            # Stop capture thread
+            if hasattr(self.capture, 'running') and self.capture.running:
+                self.capture.running = False
+                
+            # Give thread time to finish
+            time.sleep(0.5)
+            
+            # Close windows
+            try:
+                cv2.destroyAllWindows()
+            except:
+                pass
+                
+        except Exception as e:
+            self.logger.error(f"Cleanup error: {e}")
+
+    
+    def _print_summary(self):
+        """Print session summary"""
+        duration = datetime.now() - self.session_start
         
         self.logger.info("\n" + "="*70)
         self.logger.info("SESSION SUMMARY")
         self.logger.info("="*70)
-        self.logger.info(f"Duration: {duration:.1f} minutes")
+        self.logger.info(f"Duration: {duration}")
         self.logger.info(f"Signals generated: {self.signals_generated}")
         self.logger.info(f"Trades executed: {self.trades_executed}")
-        
-        # Get AI stats
-        ai_stats = self.ai.get_stats()
-        self.logger.info(f"LONG signals: {ai_stats.get('long_signals', 0)}")
-        self.logger.info(f"SHORT signals: {ai_stats.get('short_signals', 0)}")
-        self.logger.info(f"WATCH signals: {ai_stats.get('watch_signals', 0)}")
         self.logger.info("="*70)
-        
-        # Close windows
-        import cv2
-        cv2.destroyAllWindows()
-        
-        self.logger.info("✓ Vision system stopped")
 
 
 def main():
     """Main entry point"""
-    import cv2  # Import here to ensure it's available
-    
     print("\n" + "="*70)
     print("VISION TRADING SYSTEM V2.0")
     print("="*70)

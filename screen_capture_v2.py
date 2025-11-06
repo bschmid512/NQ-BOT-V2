@@ -7,6 +7,7 @@ IMPROVEMENTS:
 - Improved pattern recognition
 - Better error handling
 - Region selection helper
+- ADDED: Display mode control to prevent unwanted overlays
 """
 import cv2
 import numpy as np
@@ -35,9 +36,11 @@ class TradingViewCaptureV2:
         Args:
             monitor_number: Which monitor to capture (1, 2, etc.)
             capture_region: Specific region {'top': y, 'left': x, 'width': w, 'height': h}
+            display_mode: Enable/disable visual overlays (False for testing)
         """
         self.monitor_number = monitor_number
         self.capture_region = capture_region
+        self.display_mode = display_mode  # NEW: Control visualization
         self.running = False
         self.current_frame = None
         self.logger = logging.getLogger(__name__)
@@ -224,7 +227,6 @@ class TradingViewCaptureV2:
             if self.min_candle_area < area < self.max_candle_area:
                 x, y, w, h = cv2.boundingRect(contour)
                 
-                # Filter by aspect ratio
                 if h > w * 0.5:
                     candlesticks.append({
                         'type': 'bearish',
@@ -236,11 +238,14 @@ class TradingViewCaptureV2:
                         'aspect_ratio': h / w if w > 0 else 0
                     })
         
+        # Sort by x-coordinate (left to right)
+        candlesticks.sort(key=lambda c: c['x'])
+        
         return candlesticks
     
-    def detect_trend_lines_enhanced(self, img: np.ndarray) -> List[Dict]:
+    def detect_trend_lines(self, img: np.ndarray) -> List[Dict]:
         """
-        Enhanced trend line detection with better filtering
+        Detect horizontal and diagonal lines (support/resistance, trendlines)
         
         Args:
             img: Image array
@@ -251,23 +256,17 @@ class TradingViewCaptureV2:
         # Convert to grayscale
         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         
-        # Apply bilateral filter to reduce noise but keep edges
-        bilateral = cv2.bilateralFilter(gray, 9, 75, 75)
+        # Edge detection
+        edges = cv2.Canny(gray, 50, 150, apertureSize=3)
         
-        # Edge detection with auto-threshold
-        median_val = np.median(bilateral)
-        lower = int(max(0, 0.7 * median_val))
-        upper = int(min(255, 1.3 * median_val))
-        edges = cv2.Canny(bilateral, lower, upper, apertureSize=3)
-        
-        # Detect lines using Probabilistic Hough Transform
+        # Detect lines using HoughLines
         lines = cv2.HoughLinesP(
-            edges, 
-            rho=1, 
-            theta=np.pi/180, 
-            threshold=80,  # Lower threshold for more lines
-            minLineLength=80,  # Shorter minimum
-            maxLineGap=15
+            edges,
+            rho=1,
+            theta=np.pi/180,
+            threshold=100,
+            minLineLength=100,
+            maxLineGap=10
         )
         
         detected_lines = []
@@ -276,94 +275,110 @@ class TradingViewCaptureV2:
             for line in lines:
                 x1, y1, x2, y2 = line[0]
                 
-                # Calculate properties
-                length = np.sqrt((x2-x1)**2 + (y2-y1)**2)
-                angle = np.degrees(np.arctan2(y2 - y1, x2 - x1))
-                
-                # Normalize angle to 0-180
-                if angle < 0:
-                    angle += 180
+                # Calculate angle
+                if x2 - x1 != 0:
+                    angle = np.degrees(np.arctan2(y2 - y1, x2 - x1))
+                else:
+                    angle = 90
                 
                 # Classify line type
-                line_type = 'diagonal'
-                if abs(angle) < 10 or abs(angle - 180) < 10:
+                if abs(angle) < 5:  # Nearly horizontal
                     line_type = 'horizontal'
-                elif 80 < abs(angle) < 100:
-                    line_type = 'vertical'
+                elif abs(angle) > 85:  # Nearly vertical (ignore)
+                    continue
+                else:
+                    line_type = 'diagonal'
                 
                 detected_lines.append({
                     'type': line_type,
-                    'angle': angle,
-                    'x1': int(x1), 'y1': int(y1),
-                    'x2': int(x2), 'y2': int(y2),
-                    'length': length,
-                    'midpoint': ((x1+x2)/2, (y1+y2)/2)
+                    'x1': int(x1),
+                    'y1': int(y1),
+                    'x2': int(x2),
+                    'y2': int(y2),
+                    'angle': float(angle),
+                    'length': float(np.sqrt((x2-x1)**2 + (y2-y1)**2))
                 })
         
         return detected_lines
     
     def analyze_frame_enhanced(self, img: np.ndarray) -> Dict:
         """
-        Enhanced frame analysis with better detection
+        Comprehensive frame analysis with enhanced detection
         
         Args:
-            img: Image array
+            img: Image array to analyze
             
         Returns:
-            Dictionary with comprehensive analysis
+            Dictionary with analysis results
         """
-        analysis = {
-            'timestamp': datetime.now().isoformat(),
-            'image_shape': img.shape,
-            'candlesticks': [],
-            'trend_lines': [],
-            'patterns': [],
-            'statistics': {}
-        }
+        # Detect candlesticks
+        candlesticks = self.detect_candlesticks_enhanced(img)
         
-        # Detect candlesticks with enhanced method
-        analysis['candlesticks'] = self.detect_candlesticks_enhanced(img)
-        
-        # Detect trend lines with enhanced method
-        analysis['trend_lines'] = self.detect_trend_lines_enhanced(img)
+        # Detect trend lines
+        trend_lines = self.detect_trend_lines(img)
         
         # Calculate statistics
-        bullish_count = sum(1 for c in analysis['candlesticks'] if c['type'] == 'bullish')
-        bearish_count = sum(1 for c in analysis['candlesticks'] if c['type'] == 'bearish')
+        bullish_count = sum(1 for c in candlesticks if c['type'] == 'bullish')
+        bearish_count = sum(1 for c in candlesticks if c['type'] == 'bearish')
+        total_candles = len(candlesticks)
         
-        total_candles = bullish_count + bearish_count
+        if total_candles > 0:
+            bullish_pct = (bullish_count / total_candles) * 100
+            bearish_pct = (bearish_count / total_candles) * 100
+            
+            # Determine sentiment (requires >60% for strong signal)
+            if bullish_pct > 60:
+                sentiment = 'bullish'
+            elif bearish_pct > 60:
+                sentiment = 'bearish'
+            else:
+                sentiment = 'neutral'
+        else:
+            bullish_pct = 0
+            bearish_pct = 0
+            sentiment = 'neutral'
         
-        analysis['statistics'] = {
-            'total_candles': total_candles,
-            'bullish_count': bullish_count,
-            'bearish_count': bearish_count,
-            'bullish_percentage': (bullish_count / total_candles * 100) if total_candles > 0 else 0,
-            'bearish_percentage': (bearish_count / total_candles * 100) if total_candles > 0 else 0,
-            'sentiment': 'bullish' if bullish_count > bearish_count else 'bearish' if bearish_count > bullish_count else 'neutral',
-            'horizontal_lines': len([l for l in analysis['trend_lines'] if l['type'] == 'horizontal']),
-            'diagonal_lines': len([l for l in analysis['trend_lines'] if l['type'] == 'diagonal'])
+        # Count line types
+        horizontal_lines = sum(1 for l in trend_lines if l['type'] == 'horizontal')
+        diagonal_lines = sum(1 for l in trend_lines if l['type'] == 'diagonal')
+        
+        return {
+            'timestamp': datetime.now().isoformat(),
+            'candlesticks': candlesticks,
+            'trend_lines': trend_lines,
+            'statistics': {
+                'total_candles': total_candles,
+                'bullish_count': bullish_count,
+                'bearish_count': bearish_count,
+                'bullish_percentage': bullish_pct,
+                'bearish_percentage': bearish_pct,
+                'sentiment': sentiment,
+                'horizontal_lines': horizontal_lines,
+                'diagonal_lines': diagonal_lines
+            }
         }
-        
-        return analysis
     
     def display_frame(self, img: np.ndarray = None, analysis: Dict = None, window_name: str = "TradingView Analysis"):
         """
-        Display frame with analysis overlays
+        Display frame with optional overlays (only if display_mode is enabled)
         
         Args:
             img: Image to display (uses current_frame if None)
             analysis: Analysis results to overlay
-            window_name: Window name
+            window_name: Name for the display window
         """
+        # SKIP if display mode is disabled
+        if not self.display_mode:
+            return
+        
         if img is None:
             img = self.current_frame
-        
         if img is None:
             return
         
-        # Create copy for drawing
         display_img = img.copy()
         
+        # Draw analysis overlays if provided
         if analysis:
             # Draw candlesticks
             for candle in analysis.get('candlesticks', []):
@@ -477,9 +492,12 @@ class TradingViewCaptureV2:
         if hasattr(self, 'capture_thread'):
             self.capture_thread.join(timeout=5)
         
-        # Clean up MSS instances
-        for sct in self._sct_instances.values():
-            sct.close()
+        # Clean up MSS instances safely
+        for thread_id, sct in list(self._sct_instances.items()):
+            try:
+                sct.close()
+            except Exception as e:
+                self.logger.debug(f"Error closing MSS instance: {e}")
         self._sct_instances.clear()
         
         self.logger.info("Screen capture stopped")
@@ -509,6 +527,8 @@ class TradingViewCaptureV2:
             img = cv2.cvtColor(img, cv2.COLOR_BGRA2BGR)
         
         # Let user select ROI
+        print("\nSelect a ROI and then press SPACE or ENTER button!")
+        print("Cancel the selection process by pressing c button!")
         roi = cv2.selectROI("Select TradingView Chart Area", img, False)
         cv2.destroyAllWindows()
         
@@ -539,27 +559,34 @@ if __name__ == "__main__":
     print("  ✓ Enhanced pattern recognition")
     print("  ✓ Improved price extraction")
     print("="*70)
-    print("\nMake sure TradingView is visible on your screen!")
-    print("\nControls:")
-    print("  'q' - Quit")
-    print("  's' - Save current frame")
-    print("  'r' - Select new region")
+    print("\nMake sure TradingView is visible!")
+    print("="*70)
+    print("\nSelect a ROI and then press SPACE or ENTER button!")
+    print("Cancel the selection process by pressing c button!")
     print("="*70 + "\n")
     
-    # Ask about region selection
-    choice = input("Select specific region? (y/n): ").lower()
-    capture_region = None
+    # Region selection
+    capture_region = TradingViewCaptureV2.select_capture_region()
     
-    if choice == 'y':
-        capture_region = TradingViewCaptureV2.select_capture_region()
+    if not capture_region:
+        print("\n✗ No region selected, exiting...")
+        exit()
     
-    # Create capture instance
-    capture = TradingViewCaptureV2(monitor_number=1, capture_region=capture_region)
+    print("\n" + "="*70)
+    print("ENHANCED SCREEN CAPTURE STARTED")
+    print("="*70 + "\n")
+    
+    # Create capture instance with display enabled
+    capture = TradingViewCaptureV2(
+        monitor_number=1, 
+        capture_region=capture_region,
+        display_mode=True  # Enable visualization for interactive mode
+    )
     
     # Start capture
     capture.start_capture_loop(interval=2.0)
     
-    print("\n✓ Capture started! Watch the analysis window...")
+    print("✓ Capture started! Watch the analysis window...")
     print("  Press 'q' in the window to quit\n")
     
     try:
@@ -579,11 +606,6 @@ if __name__ == "__main__":
                     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
                     capture.save_frame(f'tradingview_{timestamp}.png')
                     print(f"✓ Frame saved: tradingview_{timestamp}.png")
-                elif key == ord('r'):
-                    print("\nSelecting new region...")
-                    new_region = TradingViewCaptureV2.select_capture_region()
-                    if new_region:
-                        capture.capture_region = new_region
             
             time.sleep(0.1)
     
