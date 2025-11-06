@@ -49,6 +49,7 @@ class VisionTradingV2:
     def __init__(self,
                  monitor_number: int = 1,
                  capture_region: Dict = None,
+                 price_region: Dict = None, # --- MODIFICATION: Added price_region ---
                  capture_interval: float = 2.0,
                  min_confidence: float = 0.75,
                  trading_enabled: bool = False):
@@ -58,14 +59,20 @@ class VisionTradingV2:
         Args:
             monitor_number: Which monitor to capture
             capture_region: Specific region to capture
+            price_region: Specific region for price OCR
             capture_interval: Seconds between captures
             min_confidence: Minimum signal confidence to act on
             trading_enabled: Enable automatic trading
         """
         self.logger = self._setup_logging()
         
-        # Initialize vision components
-        self.capture = TradingViewCaptureV2(monitor_number, capture_region, display_mode=False)
+        # --- MODIFICATION: Pass price_region to capture class ---
+        self.capture = TradingViewCaptureV2(
+            monitor_number, 
+            capture_region, 
+            price_region, 
+            display_mode=False
+        )
         self.ai = TradingViewAIV2()
         
         # Configuration
@@ -90,6 +97,13 @@ class VisionTradingV2:
         """Setup logging configuration"""
         logger = logging.getLogger('VisionTradingV2')
         logger.setLevel(logging.INFO)
+        
+        # Stop logs from propagating to the root logger (which causes duplicates)
+        logger.propagate = False
+        
+        # Avoid duplicate handlers if this class is initialized multiple times
+        if logger.handlers:
+            return logger
         
         # File handler
         log_dir = Path('logs')
@@ -130,11 +144,6 @@ class VisionTradingV2:
             return
         
         self.signals_generated += len(signals)
-        
-        # Log signals
-        self.logger.info(f"Generated {len(signals)} trading signals:")
-        for i, sig in enumerate(signals, 1):
-            self.logger.info(f"  {i}. {sig['pattern']}: {sig['signal']} (confidence: {sig['confidence']:.0%}) - {sig['reason']}")
         
         # Filter high-confidence actionable signals
         actionable = [
@@ -326,19 +335,26 @@ def main():
     print("SETUP")
     print("="*70)
     
+    # --- START MODIFICATION ---
     # Region selection
     print("\nWould you like to:")
-    print("  [1] Capture full screen")
-    print("  [2] Select specific region (recommended for better performance)")
+    print("  [1] Capture full screen (Price OCR may fail)")
+    print("  [2] Select specific regions (Recommended)")
     
     choice = input("\nChoice (1 or 2): ").strip()
     
     capture_region = None
+    price_region = None
     if choice == '2':
         print("\nOpening region selector...")
-        capture_region = TradingViewCaptureV2.select_capture_region()
+        # Now returns two values
+        (capture_region, price_region) = TradingViewCaptureV2.select_capture_regions()
         if not capture_region:
             print("Using full screen capture")
+        if not price_region:
+            print("⚠ WARNING: No price region selected. OCR will likely fail.")
+    
+    # --- END MODIFICATION ---
     
     # Trading mode
     trading_enabled = False
@@ -384,9 +400,11 @@ def main():
     
     input("\nPress ENTER to start...")
     
+    # --- MODIFICATION: Pass price_region ---
     system = VisionTradingV2(
         monitor_number=1,
         capture_region=capture_region,
+        price_region=price_region,
         capture_interval=capture_interval,
         min_confidence=min_confidence,
         trading_enabled=trading_enabled

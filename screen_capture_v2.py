@@ -29,34 +29,41 @@ class TradingViewCaptureV2:
     Enhanced TradingView screen capture with improved detection
     """
     
-    def __init__(self, monitor_number: int = 1, capture_region: Dict = None, display_mode: bool = True):
+    # --- START DEBUGGING ---
+    # This will ensure we only save the debug images once per run
+    debug_ocr_saved = False
+    debug_candle_saved = False # NEW
+    # --- END DEBUGGING ---
+    
+    def __init__(self, 
+                 monitor_number: int = 1, 
+                 capture_region: Dict = None,  # This will be treated as the CHART region
+                 price_region: Dict = None, 
+                 display_mode: bool = True):
         """
         Initialize screen capture
         
         Args:
             monitor_number: Which monitor to capture (1, 2, etc.)
-            capture_region: Specific region {'top': y, 'left': x, 'width': w, 'height': h}
+            capture_region: Specific region for the CHART
+            price_region: Specific region for price OCR
             display_mode: Enable/disable visual overlays (False for testing)
         """
         self.monitor_number = monitor_number
-        self.capture_region = capture_region
-        self.display_mode = display_mode  # NEW: Control visualization
+        self.chart_region = capture_region  # User's chart selection
+        self.price_region = price_region # User's price selection
+        self.display_mode = display_mode
         self.running = False
         self.current_frame = None
         self.logger = logging.getLogger(__name__)
-        
-        # Create MSS instance per thread (FIX for threading issue)
         self._sct_instances = {}
         
+        # This is the new region that MSS will capture, combining both chart and price
+        self.combined_capture_region = self._calculate_combined_region()
+
         # Detection parameters
         self.min_candle_area = 100  # Minimum area for valid candle
         self.max_candle_area = 50000  # Maximum area to filter out noise
-        
-        # Setup logging
-        logging.basicConfig(
-            level=logging.INFO,
-            format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-        )
         
     def _get_sct(self):
         """Get MSS instance for current thread (fixes threading issue)"""
@@ -64,20 +71,45 @@ class TradingViewCaptureV2:
         if thread_id not in self._sct_instances:
             self._sct_instances[thread_id] = mss.mss()
         return self._sct_instances[thread_id]
-    
+
+    def _calculate_combined_region(self) -> Dict:
+        """Calculates a single bounding box to capture all selected regions."""
+        
+        regions = []
+        if self.chart_region:
+            regions.append(self.chart_region)
+        if self.price_region:
+            regions.append(self.price_region)
+
+        # If no regions, capture primary monitor
+        if not regions:
+            self.logger.info("No regions selected, capturing full monitor.")
+            with mss.mss() as sct:
+                return sct.monitors[self.monitor_number]
+            
+        # If regions exist, calculate combined bounding box
+        
+        left = min(r['left'] for r in regions)
+        top = min(r['top'] for r in regions)
+        
+        right = max(r['left'] + r['width'] for r in regions)
+        bottom = max(r['top'] + r['height'] for r in regions)
+        
+        combined = {
+            'left': left,
+            'top': top,
+            'width': right - left,
+            'height': bottom - top
+        }
+        self.logger.info(f"Chart region: {self.chart_region}")
+        self.logger.info(f"Price region: {self.price_region}")
+        self.logger.info(f"Combined capture region calculated: {combined}")
+        return combined
+
     def get_monitor_region(self) -> Dict:
         """Get the monitor region to capture"""
-        if self.capture_region:
-            return self.capture_region
-        
-        sct = self._get_sct()
-        monitors = sct.monitors
-        
-        if self.monitor_number >= len(monitors):
-            self.logger.warning(f"Monitor {self.monitor_number} not found, using primary")
-            self.monitor_number = 1
-            
-        return monitors[self.monitor_number]
+        # This function now returns the new combined region
+        return self.combined_capture_region
     
     def capture_screen(self) -> np.ndarray:
         """
@@ -87,6 +119,7 @@ class TradingViewCaptureV2:
             numpy array in BGR format (OpenCV compatible)
         """
         sct = self._get_sct()
+        # Grabs the new combined_capture_region
         monitor = self.get_monitor_region()
         
         # Capture screen
@@ -112,16 +145,50 @@ class TradingViewCaptureV2:
             Extracted price as float or None
         """
         x, y, w, h = region
+        
+        # Ensure region is valid
+        if w <= 0 or h <= 0:
+            self.logger.warning(f"Invalid OCR region: {region}")
+            return None
+        
+        # Ensure region is within the image dimensions
+        img_h, img_w = img.shape[:2]
+        if x < 0 or y < 0 or (x + w) > img_w or (y + h) > img_h:
+            self.logger.warning(f"OCR region {region} is outside image bounds ({img_w}x{img_h})")
+            # Try to clip it
+            x = max(0, x)
+            y = max(0, y)
+            w = min(w, img_w - x)
+            h = min(h, img_h - y)
+            if w <= 0 or h <= 0:
+                self.logger.error("Clipped OCR region is invalid.")
+                return None
+            self.logger.warning(f"Using clipped OCR region: {(x,y,w,h)}")
+        
         roi = img[y:y+h, x:x+w]
         
-        # Try multiple preprocessing methods
         methods = [
-            self._preprocess_method1,
-            self._preprocess_method2,
-            self._preprocess_method3
+            ("method1_otsu", self._preprocess_method1),
+            ("method2_adaptive", self._preprocess_method2),
+            ("method3_morph", self._preprocess_method3),
+            ("method4_grayscale", self._preprocess_method4),
+            ("method5_inverted", self._preprocess_method5),
         ]
         
-        for method in methods:
+        # Save debug images on the first run
+        if not TradingViewCaptureV2.debug_ocr_saved:
+            try:
+                cv2.imwrite("debug_ocr_raw_region.png", roi)
+                self.logger.info("Saved 'debug_ocr_raw_region.png'")
+                for name, func in methods:
+                    preprocessed_img = func(roi)
+                    cv2.imwrite(f"debug_ocr_{name}.png", preprocessed_img)
+                self.logger.info("Saved all preprocessed debug images.")
+                TradingViewCaptureV2.debug_ocr_saved = True
+            except Exception as e:
+                self.logger.error(f"Failed to save debug OCR image: {e}")
+        
+        for name, method in methods:
             try:
                 preprocessed = method(roi)
                 text = pytesseract.image_to_string(
@@ -133,21 +200,38 @@ class TradingViewCaptureV2:
                 if text and text.replace('.', '').isdigit():
                     price = float(text)
                     if 10000 < price < 30000:  # Reasonable NQ price range
+                        self.logger.info(f"OCR Success with {name}")
                         return price
             except Exception as e:
                 continue
                 
         return None
     
+    def _resize_for_ocr(self, img: np.ndarray, target_height: int = 50) -> np.ndarray:
+        """Resize image to a target height for better OCR, maintaining aspect ratio."""
+        try:
+            h, w = img.shape[:2]
+            if h == 0 or h == target_height:
+                return img
+            scale = target_height / h
+            target_width = int(w * scale)
+            resized = cv2.resize(img, (target_width, target_height), interpolation=cv2.INTER_CUBIC)
+            return resized
+        except Exception as e:
+            self.logger.warning(f"Could not resize OCR image: {e}")
+            return img
+
     def _preprocess_method1(self, roi: np.ndarray) -> np.ndarray:
         """Standard preprocessing - grayscale + threshold"""
-        gray = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
+        resized = self._resize_for_ocr(roi)
+        gray = cv2.cvtColor(resized, cv2.COLOR_BGR2GRAY)
         _, thresh = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
         return thresh
     
     def _preprocess_method2(self, roi: np.ndarray) -> np.ndarray:
         """Adaptive threshold"""
-        gray = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
+        resized = self._resize_for_ocr(roi)
+        gray = cv2.cvtColor(resized, cv2.COLOR_BGR2GRAY)
         thresh = cv2.adaptiveThreshold(
             gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 11, 2
         )
@@ -155,7 +239,8 @@ class TradingViewCaptureV2:
     
     def _preprocess_method3(self, roi: np.ndarray) -> np.ndarray:
         """Enhanced with morphology"""
-        gray = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
+        resized = self._resize_for_ocr(roi)
+        gray = cv2.cvtColor(resized, cv2.COLOR_BGR2GRAY)
         # Denoise
         denoised = cv2.fastNlMeansDenoising(gray)
         # Threshold
@@ -165,12 +250,25 @@ class TradingViewCaptureV2:
         morph = cv2.morphologyEx(thresh, cv2.MORPH_CLOSE, kernel)
         return morph
     
+    def _preprocess_method4(self, roi: np.ndarray) -> np.ndarray:
+        """Simple grayscale"""
+        resized = self._resize_for_ocr(roi)
+        gray = cv2.cvtColor(resized, cv2.COLOR_BGR2GRAY)
+        return gray
+    
+    def _preprocess_method5(self, roi: np.ndarray) -> np.ndarray:
+        """Inverted binary threshold (good for light text on dark bg)"""
+        resized = self._resize_for_ocr(roi)
+        gray = cv2.cvtColor(resized, cv2.COLOR_BGR2GRAY)
+        _, thresh = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
+        return thresh
+    
     def detect_candlesticks_enhanced(self, img: np.ndarray) -> List[Dict]:
         """
         Enhanced candlestick detection with better filtering
         
         Args:
-            img: Image array
+            img: Image array (THIS SHOULD BE THE CROPPED CHART IMAGE)
             
         Returns:
             List of detected candlesticks with properties
@@ -196,6 +294,19 @@ class TradingViewCaptureV2:
         green_mask = cv2.morphologyEx(green_mask, cv2.MORPH_OPEN, kernel)
         red_mask = cv2.morphologyEx(red_mask, cv2.MORPH_CLOSE, kernel)
         red_mask = cv2.morphologyEx(red_mask, cv2.MORPH_OPEN, kernel)
+        
+        # --- START NEW DEBUGGING CODE ---
+        # Save debug images on the first run
+        if not TradingViewCaptureV2.debug_candle_saved:
+            try:
+                cv2.imwrite("debug_chart_image_raw.png", img) # Save the cropped chart
+                cv2.imwrite("debug_candle_green_mask.png", green_mask)
+                cv2.imwrite("debug_candle_red_mask.png", red_mask)
+                self.logger.info("Saved candle detection debug images.")
+                TradingViewCaptureV2.debug_candle_saved = True
+            except Exception as e:
+                self.logger.error(f"Failed to save candle debug images: {e}")
+        # --- END NEW DEBUGGING CODE ---
         
         # Find contours
         green_contours, _ = cv2.findContours(green_mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
@@ -248,7 +359,7 @@ class TradingViewCaptureV2:
         Detect horizontal and diagonal lines (support/resistance, trendlines)
         
         Args:
-            img: Image array
+            img: Image array (THIS SHOULD BE THE CROPPED CHART IMAGE)
             
         Returns:
             List of detected lines
@@ -306,16 +417,53 @@ class TradingViewCaptureV2:
         Comprehensive frame analysis with enhanced detection
         
         Args:
-            img: Image array to analyze
+            img: Image array to analyze (THIS IS THE *COMBINED* IMAGE)
             
         Returns:
             Dictionary with analysis results
         """
+        
+        # 1. Extract Price from the combined image
+        current_price = None
+        if self.price_region:
+            # Calculate price region's coordinates *relative* to the combined image
+            relative_price_x = self.price_region['left'] - self.combined_capture_region['left']
+            relative_price_y = self.price_region['top'] - self.combined_capture_region['top']
+            
+            price_region_coords = (
+                relative_price_x,
+                relative_price_y,
+                self.price_region['width'],
+                self.price_region['height']
+            )
+            current_price = self.extract_price_from_region(img, price_region_coords)
+        
+        if current_price:
+            self.logger.info(f"Extracted price: {current_price}")
+        else:
+            self.logger.warning("Could not extract price. OCR failed or price not in region.")
+
+        # 2. Extract Chart from the combined image
+        if self.chart_region:
+            relative_chart_x = self.chart_region['left'] - self.combined_capture_region['left']
+            relative_chart_y = self.chart_region['top'] - self.combined_capture_region['top']
+            
+            # Crop the combined image to get *only* the chart
+            img_chart = img[
+                relative_chart_y : relative_chart_y + self.chart_region['height'],
+                relative_chart_x : relative_chart_x + self.chart_region['width']
+            ]
+        else:
+            # If no chart region specified, just use the whole image
+            img_chart = img
+
+        # 3. Run all analysis on the *chart image* (img_chart)
+        
         # Detect candlesticks
-        candlesticks = self.detect_candlesticks_enhanced(img)
+        candlesticks = self.detect_candlesticks_enhanced(img_chart)
         
         # Detect trend lines
-        trend_lines = self.detect_trend_lines(img)
+        trend_lines = self.detect_trend_lines(img_chart)
         
         # Calculate statistics
         bullish_count = sum(1 for c in candlesticks if c['type'] == 'bullish')
@@ -344,6 +492,7 @@ class TradingViewCaptureV2:
         
         return {
             'timestamp': datetime.now().isoformat(),
+            'current_price': current_price,
             'candlesticks': candlesticks,
             'trend_lines': trend_lines,
             'statistics': {
@@ -378,15 +527,23 @@ class TradingViewCaptureV2:
         
         display_img = img.copy()
         
-        # Draw analysis overlays if provided
+        # All analysis coordinates (candlesticks, lines) are relative to the chart,
+        # so we must offset them to draw on the combined image.
+        
+        offset_x = 0
+        offset_y = 0
+        if self.chart_region:
+            offset_x = self.chart_region['left'] - self.combined_capture_region['left']
+            offset_y = self.chart_region['top'] - self.combined_capture_region['top']
+
         if analysis:
             # Draw candlesticks
             for candle in analysis.get('candlesticks', []):
                 color = (0, 255, 0) if candle['type'] == 'bullish' else (0, 0, 255)
                 cv2.rectangle(
                     display_img,
-                    (candle['x'], candle['y']),
-                    (candle['x'] + candle['width'], candle['y'] + candle['height']),
+                    (candle['x'] + offset_x, candle['y'] + offset_y),
+                    (candle['x'] + candle['width'] + offset_x, candle['y'] + candle['height'] + offset_y),
                     color, 2
                 )
             
@@ -395,8 +552,8 @@ class TradingViewCaptureV2:
                 color = (255, 255, 0) if line['type'] == 'horizontal' else (255, 0, 255)
                 cv2.line(
                     display_img,
-                    (line['x1'], line['y1']),
-                    (line['x2'], line['y2']),
+                    (line['x1'] + offset_x, line['y1'] + offset_y),
+                    (line['x2'] + offset_x, line['y2'] + offset_y),
                     color, 2
                 )
             
@@ -414,6 +571,11 @@ class TradingViewCaptureV2:
                 f"D-Lines: {stats.get('diagonal_lines', 0)}"
             ]
             
+            if analysis.get('current_price'):
+                info_lines.append(f"Price: {analysis['current_price']:.2f}")
+            else:
+                info_lines.append("Price: N/A")
+
             for i, line in enumerate(info_lines):
                 cv2.putText(
                     display_img, line, (10, y_offset + i*25),
@@ -503,49 +665,70 @@ class TradingViewCaptureV2:
         self.logger.info("Screen capture stopped")
     
     @staticmethod
-    def select_capture_region():
+    def select_capture_regions():
         """
-        Interactive region selection tool
-        Returns region dict for initialization
+        Interactive region selection tool for CHART and PRICE AXIS
+        Returns a tuple of (chart_region, price_region)
         """
         print("\n" + "="*70)
-        print("CAPTURE REGION SELECTOR")
+        print("CAPTURE REGION SELECTOR (2-STEP)")
         print("="*70)
         print("\nInstructions:")
-        print("1. A window will open showing your full screen")
-        print("2. Click and drag to select the TradingView chart area")
-        print("3. Press ENTER to confirm, ESC to cancel")
+        print("1. You will be asked to select the CHART area.")
+        print("2. Then, you will be asked to select the PRICE AXIS area.")
+        print("3. Press ENTER to confirm each selection, ESC to cancel")
         print("\nMake sure TradingView is visible!")
         print("="*70)
         input("\nPress ENTER to continue...")
         
+        chart_region = None
+        price_region = None
+        
         # Capture full screen first
         with mss.mss() as sct:
-            monitor = sct.monitors[1]
+            monitor = sct.monitors[1] # Use monitor 1 (primary)
             screenshot = sct.grab(monitor)
             img = np.array(screenshot)
             img = cv2.cvtColor(img, cv2.COLOR_BGRA2BGR)
         
-        # Let user select ROI
-        print("\nSelect a ROI and then press SPACE or ENTER button!")
-        print("Cancel the selection process by pressing c button!")
-        roi = cv2.selectROI("Select TradingView Chart Area", img, False)
-        cv2.destroyAllWindows()
+        # 1. Select CHART Region
+        print("\nSTEP 1: Select the CHART Area (the candlesticks)")
+        print("Press SPACE or ENTER to confirm.")
+        roi_chart = cv2.selectROI("STEP 1: Select CHART Area", img, False)
         
-        if roi[2] > 0 and roi[3] > 0:
-            region = {
-                'left': int(roi[0]) + monitor['left'],
-                'top': int(roi[1]) + monitor['top'],
-                'width': int(roi[2]),
-                'height': int(roi[3])
+        if roi_chart[2] > 0 and roi_chart[3] > 0:
+            chart_region = {
+                'left': int(roi_chart[0]) + monitor['left'],
+                'top': int(roi_chart[1]) + monitor['top'],
+                'width': int(roi_chart[2]),
+                'height': int(roi_chart[3])
             }
-            print(f"\n✓ Region selected: {region}")
-            print("\nAdd this to your code:")
-            print(f"capture_region = {region}")
-            return region
+            print(f"✓ Chart region selected: {chart_region}")
         else:
             print("\n✗ Selection cancelled")
-            return None
+            cv2.destroyAllWindows()
+            return None, None
+        
+        # 2. Select PRICE Region
+        print("\nSTEP 2: Select the PRICE AXIS Area (the updating price number)")
+        print("Press SPACE or ENTER to confirm.")
+        # Re-show the image for the second selection
+        roi_price = cv2.selectROI("STEP 2: Select PRICE AXIS Area", img, False)
+        
+        if roi_price[2] > 0 and roi_price[3] > 0:
+            price_region = {
+                'left': int(roi_price[0]) + monitor['left'],
+                'top': int(roi_price[1]) + monitor['top'],
+                'width': int(roi_price[2]),
+                'height': int(roi_price[3])
+            }
+            print(f"✓ Price region selected: {price_region}")
+        else:
+            print("\n✗ Price region selection cancelled")
+        
+        cv2.destroyAllWindows()
+        
+        return chart_region, price_region
 
 
 # Test function
@@ -559,18 +742,16 @@ if __name__ == "__main__":
     print("  ✓ Enhanced pattern recognition")
     print("  ✓ Improved price extraction")
     print("="*70)
-    print("\nMake sure TradingView is visible!")
-    print("="*70)
-    print("\nSelect a ROI and then press SPACE or ENTER button!")
-    print("Cancel the selection process by pressing c button!")
-    print("="*70 + "\n")
     
     # Region selection
-    capture_region = TradingViewCaptureV2.select_capture_region()
+    (capture_region, price_region) = TradingViewCaptureV2.select_capture_regions()
     
     if not capture_region:
-        print("\n✗ No region selected, exiting...")
+        print("\n✗ No chart region selected, exiting...")
         exit()
+    
+    if not price_region:
+        print("\n⚠ WARNING: No price region selected. OCR will fail.")
     
     print("\n" + "="*70)
     print("ENHANCED SCREEN CAPTURE STARTED")
@@ -580,6 +761,7 @@ if __name__ == "__main__":
     capture = TradingViewCaptureV2(
         monitor_number=1, 
         capture_region=capture_region,
+        price_region=price_region,
         display_mode=True  # Enable visualization for interactive mode
     )
     

@@ -31,7 +31,7 @@ class PatternRecognizerV2:
         self.sr_tolerance = 20  # pixels
         self.sr_min_touches = 2  # minimum touches for valid level
         
-    def calculate_signal_levels(self, signal_type, pattern, confidence, candles=None):
+    def calculate_signal_levels(self, signal_type, pattern, confidence, current_price: Optional[float] = None, candles=None):
         """
         Calculate entry, stop loss, and take profit levels for a signal
         
@@ -39,13 +39,21 @@ class PatternRecognizerV2:
             signal_type: 'LONG' or 'SHORT' or 'WATCH'
             pattern: Pattern name
             confidence: Signal confidence (0.0-1.0)
+            current_price: Optional current price from OCR
             candles: Candlestick data (to estimate price)
             
         Returns:
             Dict with entry, stop_loss, take_profit, risk/reward info
         """
-        # Estimate current price (you can improve this with OCR later)
-        estimated_price = 20500  # NQ default
+        # --- START MODIFICATION ---
+        # Estimate current price
+        if current_price:
+            estimated_price = current_price
+            self.logger.info(f"Using OCR price for levels: {estimated_price}")
+        else:
+            estimated_price = 20500  # NQ default fallback
+            self.logger.warning(f"Using FALLBACK price for levels: {estimated_price}")
+        # --- END MODIFICATION ---
         
         # Define stop loss distances based on pattern (in points)
         stop_distances = {
@@ -119,12 +127,13 @@ class PatternRecognizerV2:
             'risk_reward_ratio': round(risk_reward, 1)
         }
 
-    def analyze_candlesticks(self, candlesticks: List[Dict]) -> List[Dict]:
+    def analyze_candlesticks(self, candlesticks: List[Dict], current_price: Optional[float] = None) -> List[Dict]:
         """
         Analyze candlestick patterns with enhanced detection
         
         Args:
             candlesticks: List of detected candlesticks
+            current_price: Optional current price from OCR
             
         Returns:
             List of detected patterns with confidence scores
@@ -147,7 +156,8 @@ class PatternRecognizerV2:
         patterns_found.extend(self._detect_reversal_candles(sorted_candles))
         
         # THREE WHITE SOLDIERS / THREE BLACK CROWS
-        patterns_found.extend(self._detect_three_soldiers_crows(sorted_candles))
+        # --- MODIFICATION: Pass current_price ---
+        patterns_found.extend(self._detect_three_soldiers_crows(sorted_candles, current_price))
         
         # MORNING STAR / EVENING STAR
         patterns_found.extend(self._detect_star_patterns(sorted_candles))
@@ -252,12 +262,13 @@ class PatternRecognizerV2:
         
         return patterns
     
-    def _detect_three_soldiers_crows(self, candles: List[Dict]) -> List[Dict]:
+    def _detect_three_soldiers_crows(self, candles: List[Dict], current_price: Optional[float] = None) -> List[Dict]:
         """
         Detect three white soldiers (bullish) or three black crows (bearish)
         
         Args:
             candles: Sorted list of candlesticks
+            current_price: Optional current price from OCR
             
         Returns:
             List of detected patterns
@@ -275,7 +286,8 @@ class PatternRecognizerV2:
                 # Check if generally increasing in height
                 avg_area = (c1['area'] + c2['area'] + c3['area']) / 3
                 if all(c['area'] > avg_area * 0.7 for c in [c1, c2, c3]):
-                    levels = self.calculate_signal_levels('LONG', 'three_white_soldiers', 0.75)
+                    # --- MODIFICATION: Pass current_price ---
+                    levels = self.calculate_signal_levels('LONG', 'three_white_soldiers', 0.75, current_price)
                     patterns.append({
                         'pattern': 'three_white_soldiers',
                         'signal': 'LONG',
@@ -293,7 +305,8 @@ class PatternRecognizerV2:
                             
                             avg_area = (c1['area'] + c2['area'] + c3['area']) / 3
                             if all(c['area'] > avg_area * 0.7 for c in [c1, c2, c3]):
-                                levels = self.calculate_signal_levels('SHORT', 'three_black_crows', 0.75)
+                                # --- MODIFICATION: Pass current_price ---
+                                levels = self.calculate_signal_levels('SHORT', 'three_black_crows', 0.75, current_price)
                                 patterns.append({
                                     'pattern': 'three_black_crows',
                                     'signal': 'SHORT',
@@ -500,8 +513,14 @@ class PatternRecognizerV2:
         """
         signals = []
         
+        # --- START MODIFICATION ---
+        # Get the price from analysis to pass to pattern functions
+        current_price = analysis.get('current_price')
+        # --- END MODIFICATION ---
+
         # Analyze candlestick patterns
-        candle_patterns = self.analyze_candlesticks(analysis.get('candlesticks', []))
+        # --- MODIFICATION: Pass current_price ---
+        candle_patterns = self.analyze_candlesticks(analysis.get('candlesticks', []), current_price)
         signals.extend(candle_patterns)
         
         # Detect support/resistance
