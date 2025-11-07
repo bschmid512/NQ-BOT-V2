@@ -3888,3 +3888,1077 @@ FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDr
 2025-11-07 14:55:53,956 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
 2025-11-07 14:55:53,957 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
 2025-11-07 14:55:53,960 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:55:58,951 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:55:58,952 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:55:58,953 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:56:00,725 - system - DEBUG - Added bar: 2025-11-07 14:56:00.683902 | Close: 25073.0
+2025-11-07 14:56:03,954 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:56:03,960 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:56:03,965 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:56:08,961 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:56:08,961 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:56:08,967 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:56:50,961 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:56:50,962 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:56:50,966 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:56:55,955 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:56:55,957 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:56:55,961 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:56:59,959 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:56:59,960 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:56:59,967 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:57:01,116 - system - DEBUG - Added bar: 2025-11-07 14:57:00.571348 | Close: 25094.0
+2025-11-07 14:57:03,959 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:57:03,961 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:57:03,964 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:57:06,424 - system - DEBUG - Added bar: 2025-11-07 14:57:06.369530 | Close: 25094.0
+2025-11-07 14:57:08,967 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:57:08,968 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:57:08,975 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:57:13,964 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:57:13,966 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:57:13,970 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:57:18,965 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:57:18,966 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:57:18,967 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:57:23,956 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:57:23,960 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:57:23,964 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:57:28,963 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:57:28,965 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:57:28,970 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:57:33,955 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:57:33,961 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:57:33,965 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:57:38,958 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:57:38,961 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:57:38,967 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:57:43,957 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:57:43,959 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:57:43,963 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:57:48,958 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:57:48,959 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:57:48,964 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:57:53,956 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:57:53,958 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:57:53,963 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:57:58,959 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:57:58,959 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:57:58,964 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:58:01,026 - system - DEBUG - Added bar: 2025-11-07 14:58:00.986403 | Close: 25088.25
+2025-11-07 14:58:03,955 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:58:03,957 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:58:03,962 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:58:08,962 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:58:08,963 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:58:08,970 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:58:13,958 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:58:13,960 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:58:13,961 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:58:18,962 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:58:18,962 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:58:18,969 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:58:23,962 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:58:23,963 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:58:23,969 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:58:28,955 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:58:28,956 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:58:28,963 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:58:33,958 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:58:33,959 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:58:33,965 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:58:38,956 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:58:38,957 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:58:38,965 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:58:43,955 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:58:43,956 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:58:43,959 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:58:48,959 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:58:48,961 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:58:48,966 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:58:53,967 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:58:53,968 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:58:53,974 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:58:58,966 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:58:58,967 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:58:58,971 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:59:00,674 - system - DEBUG - Added bar: 2025-11-07 14:59:00.633398 | Close: 25095.0
+2025-11-07 14:59:03,960 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:59:03,962 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:59:03,970 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:59:08,957 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:59:08,958 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:59:08,963 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:59:13,962 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:59:13,963 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:59:13,966 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:59:18,961 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:59:18,963 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:59:18,968 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:59:23,953 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:59:23,958 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:59:23,964 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:59:28,966 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:59:28,968 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:59:28,971 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:59:33,958 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:59:33,961 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:59:33,962 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:59:38,965 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:59:38,966 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:59:38,966 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:59:43,962 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:59:43,962 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:59:43,965 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:59:48,959 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:59:48,964 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:59:48,969 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:59:53,967 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:59:53,968 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:59:53,974 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 14:59:58,962 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 14:59:58,964 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 14:59:58,966 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:00:01,326 - system - DEBUG - Added bar: 2025-11-07 15:00:01.283902 | Close: 25113.5
+2025-11-07 15:00:03,954 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:00:03,956 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:00:03,963 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:00:08,974 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:00:08,977 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:00:08,980 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:00:13,959 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:00:13,960 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:00:13,964 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:00:18,953 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:00:18,954 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:00:18,958 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:00:23,969 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:00:23,970 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:00:23,974 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:00:28,960 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:00:28,961 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:00:28,964 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:00:33,966 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:00:33,967 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:00:33,972 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:00:38,967 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:00:38,968 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:00:38,972 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:00:43,959 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:00:43,963 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:00:43,969 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:00:48,956 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:00:48,958 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:00:48,960 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:00:53,959 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:00:53,960 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:00:53,965 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:00:58,955 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:00:58,956 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:00:58,961 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:01:01,029 - system - DEBUG - Added bar: 2025-11-07 15:01:00.990717 | Close: 25104.75
+2025-11-07 15:01:03,957 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:01:03,960 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:01:03,965 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:01:08,968 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:01:08,969 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:01:08,973 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:01:13,961 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:01:13,963 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:01:13,968 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:01:18,968 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:01:18,968 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:01:18,969 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:01:23,967 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:01:23,969 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:01:23,972 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:01:28,955 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:01:28,956 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:01:28,957 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:01:33,953 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:01:33,956 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:01:33,962 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:01:38,964 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:01:38,965 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:01:38,970 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:01:43,966 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:01:43,966 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:01:43,971 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:01:48,969 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:01:48,970 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:01:48,974 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:01:53,957 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:01:53,958 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:01:53,963 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:01:58,963 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:01:58,963 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:01:58,970 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:02:00,653 - system - DEBUG - Added bar: 2025-11-07 15:02:00.622293 | Close: 25098.75
+2025-11-07 15:02:03,954 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:02:03,959 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:02:03,965 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:02:08,961 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:02:08,963 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:02:08,968 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:02:13,960 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:02:13,963 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:02:13,969 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:02:18,959 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:02:18,960 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:02:18,961 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:02:23,969 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:02:23,971 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:02:23,973 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:02:28,962 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:02:28,964 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:02:28,968 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:02:33,953 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:02:33,957 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:02:33,963 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:02:38,966 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:02:38,967 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:02:38,971 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:02:43,968 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:02:43,969 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:02:43,973 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:02:48,964 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:02:48,968 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:02:48,972 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:02:53,957 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:02:53,958 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:02:53,961 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:02:58,961 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:02:58,963 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:02:58,966 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:03:00,671 - system - DEBUG - Added bar: 2025-11-07 15:03:00.621081 | Close: 25113.25
+2025-11-07 15:03:03,953 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:03:03,957 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:03:03,967 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:03:08,968 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:03:08,968 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:03:08,973 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:03:13,961 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:03:13,964 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:03:13,968 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:03:18,957 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:03:18,958 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:03:18,963 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:03:23,968 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:03:23,969 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:03:23,970 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:03:28,969 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:03:28,971 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:03:28,974 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:03:33,966 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:03:33,967 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:03:33,973 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:03:38,964 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:03:38,964 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:03:38,966 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:03:43,970 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:03:43,972 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:03:43,978 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:03:48,956 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:03:48,960 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:03:48,965 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:03:53,966 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:03:53,967 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:03:53,969 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:03:58,960 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:03:58,961 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:03:58,963 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:04:00,689 - system - DEBUG - Added bar: 2025-11-07 15:04:00.654730 | Close: 25111.25
+2025-11-07 15:04:03,956 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:04:03,961 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:04:03,968 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:04:08,968 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:04:08,969 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:04:08,972 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:04:13,973 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:04:13,974 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:04:13,978 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:04:18,972 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:04:18,973 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:04:18,978 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:04:23,969 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:04:23,971 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:04:23,976 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:04:28,962 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:04:28,963 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:04:28,969 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:04:33,971 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:04:33,972 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:04:33,979 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:04:38,967 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:04:38,968 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:04:38,973 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:04:44,013 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:04:44,014 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:04:44,018 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:04:48,957 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:04:48,958 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:04:48,964 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:04:53,964 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:04:53,965 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:04:53,970 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:04:58,972 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:04:58,974 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:04:58,978 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:05:00,650 - system - DEBUG - Added bar: 2025-11-07 15:05:00.611301 | Close: 25104.25
+2025-11-07 15:05:03,968 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:05:03,970 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:05:03,972 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:05:08,968 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:05:08,969 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:05:08,975 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:05:13,965 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:05:13,969 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:05:13,974 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:05:18,966 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:05:18,967 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:05:18,970 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:05:23,969 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:05:23,970 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:05:23,974 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:05:28,966 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:05:28,968 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:05:28,972 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:05:33,962 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:05:33,962 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:05:33,966 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:05:38,967 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:05:38,968 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:05:38,968 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:05:43,965 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:05:43,966 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:05:43,969 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:05:48,962 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:05:48,963 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:05:48,970 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:05:53,970 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:05:53,970 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:05:53,975 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:05:58,977 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:05:58,979 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:05:58,984 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:06:00,833 - system - DEBUG - Added bar: 2025-11-07 15:06:00.784692 | Close: 25096.0
+2025-11-07 15:06:03,964 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:06:03,968 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:06:03,973 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:06:08,977 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:06:08,978 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:06:08,984 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:06:13,968 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:06:13,970 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:06:13,974 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:06:18,967 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:06:18,967 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:06:18,973 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:06:23,971 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:06:23,973 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:06:23,975 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:06:28,963 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:06:28,967 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:06:28,974 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:06:33,972 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:06:33,974 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:06:33,978 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:06:38,975 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:06:38,976 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:06:38,976 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:06:43,969 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:06:43,970 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:06:43,975 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:06:48,964 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:06:48,965 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:06:48,972 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:06:53,959 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:06:53,961 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:06:53,967 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:06:58,976 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:06:58,977 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:06:58,982 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:07:00,565 - system - DEBUG - Added bar: 2025-11-07 15:07:00.515929 | Close: 25076.25
+2025-11-07 15:07:03,968 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:07:03,969 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:07:03,975 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:07:08,982 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:07:08,986 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:07:08,991 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:07:13,973 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:07:13,974 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:07:13,977 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:07:18,965 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:07:18,966 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:07:18,972 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:07:23,960 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:07:23,961 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:07:23,968 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:07:28,974 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:07:28,975 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:07:28,977 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:07:33,962 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:07:33,965 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:07:33,969 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:07:38,971 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:07:38,972 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:07:38,976 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:07:43,964 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:07:43,969 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:07:43,974 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:07:48,978 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:07:48,979 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:07:48,985 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:07:53,968 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:07:53,972 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:07:53,977 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:07:58,973 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:07:58,975 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:07:58,982 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:08:00,726 - system - DEBUG - Added bar: 2025-11-07 15:08:00.677486 | Close: 25075.5
+2025-11-07 15:08:03,969 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:08:03,970 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:08:03,973 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:08:08,960 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:08:08,964 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:08:08,970 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:08:13,969 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:08:13,973 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:08:13,979 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:08:18,964 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:08:18,965 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:08:18,972 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:08:23,975 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:08:23,977 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:08:23,978 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:08:28,975 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:08:28,976 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:08:28,980 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:08:33,968 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:08:33,969 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:08:33,976 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:08:38,969 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:08:38,970 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:08:38,975 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:08:43,972 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:08:43,973 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:08:43,980 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:08:48,975 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:08:48,977 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:08:48,980 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:08:53,966 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:08:53,971 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:08:53,976 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:08:58,976 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:08:58,977 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:08:58,984 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:09:00,856 - system - DEBUG - Added bar: 2025-11-07 15:09:00.815374 | Close: 25101.0
+2025-11-07 15:09:03,978 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:09:03,979 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:09:03,986 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:09:06,142 - system - DEBUG - Added bar: 2025-11-07 15:09:06.094123 | Close: 25101.0
+2025-11-07 15:09:08,966 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:09:08,966 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:09:08,971 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:09:13,977 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:09:13,978 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:09:13,984 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:09:18,971 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:09:18,976 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:09:18,981 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:09:23,960 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:09:23,965 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:09:23,969 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:09:28,966 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:09:28,968 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:09:28,970 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:09:33,965 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:09:33,966 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:09:33,973 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:09:38,966 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:09:38,968 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:09:38,972 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:09:43,973 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:09:43,976 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:09:43,978 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:09:48,968 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:09:48,968 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:09:48,973 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:09:53,969 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:09:53,972 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:09:53,979 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:09:58,970 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:09:58,971 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:09:58,971 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:10:00,851 - system - DEBUG - Added bar: 2025-11-07 15:10:00.804467 | Close: 25108.75
+2025-11-07 15:10:03,963 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:10:03,963 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:10:03,969 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:10:08,976 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:10:08,977 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:10:08,981 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:10:13,979 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:10:13,980 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:10:13,984 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:10:18,972 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:10:18,973 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:10:18,980 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:10:23,974 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:10:23,976 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:10:23,979 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:10:28,975 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:10:28,977 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:10:28,982 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:10:33,968 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:10:33,969 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:10:33,973 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:10:38,961 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:10:38,965 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:10:38,971 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:10:43,979 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:10:43,980 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:10:43,983 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:10:48,970 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:10:48,970 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:10:48,971 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:10:53,974 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:10:53,974 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:10:53,979 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:10:58,967 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:10:58,972 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:10:58,977 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:11:00,580 - system - DEBUG - Added bar: 2025-11-07 15:11:00.542880 | Close: 25106.75
+2025-11-07 15:11:03,967 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:11:03,968 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:11:03,969 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:11:08,978 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:11:08,979 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:11:08,986 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:11:13,978 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:11:13,979 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:11:13,984 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:11:18,979 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:11:18,981 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:11:18,985 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:11:23,980 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:11:23,981 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:11:23,989 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:11:28,971 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:11:28,972 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:11:28,974 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:11:33,970 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:11:33,973 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:11:33,975 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:11:38,970 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:11:38,972 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:11:38,972 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:11:43,972 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:11:43,972 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:11:43,976 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:11:48,981 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:11:48,982 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:11:48,983 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:11:53,983 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:11:53,984 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:11:53,990 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:11:58,972 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:11:58,973 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:11:58,980 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:12:00,765 - system - DEBUG - Added bar: 2025-11-07 15:12:00.718697 | Close: 25104.25
+2025-11-07 15:12:03,974 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:12:03,978 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:12:03,983 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:12:08,968 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:12:08,969 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:12:08,974 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:12:13,977 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:12:13,978 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:12:13,979 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:12:18,983 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:12:18,984 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:12:18,990 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:12:23,970 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:12:23,971 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:12:23,977 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:12:28,969 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:12:28,975 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:12:28,980 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:12:33,981 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:12:33,984 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:12:33,986 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:12:38,968 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:12:38,969 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:12:38,972 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:12:42,883 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:12:42,884 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:12:42,885 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:12:48,983 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:12:48,984 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:12:48,993 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:12:53,970 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:12:53,973 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:12:53,981 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:12:58,976 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:12:58,976 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:12:58,981 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:13:00,780 - system - DEBUG - Added bar: 2025-11-07 15:13:00.737741 | Close: 25112.75
+2025-11-07 15:13:03,971 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:13:03,974 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:13:03,979 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:13:08,972 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-07 15:13:08,973 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-07 15:13:08,976 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-07 15:13:19,708 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-07 15:13:19,712 - system - INFO - Created trades file: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data\trades.csv
+2025-11-07 15:13:19,714 - system - INFO - Created signals file: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data\signals.csv
+2025-11-07 15:13:20,136 - system - INFO - Dashboard attached to Flask server
+2025-11-07 15:13:20,138 - system - INFO - Trading Dashboard initialized successfully
+2025-11-07 15:13:20,139 - system - INFO - ============================================================
+2025-11-07 15:13:20,139 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-07 15:13:20,139 - system - INFO - ============================================================
+2025-11-07 15:13:20,139 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-07 15:13:20,139 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-07 15:13:20,140 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-07 15:13:20,140 - system - INFO - ============================================================
+2025-11-07 15:13:20,140 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-07 15:13:20,140 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-07 15:13:20,140 - system - INFO -  Position Manager: ACTIVE
+2025-11-07 15:13:20,140 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-07 15:13:20,141 - system - INFO -  Paper trading: ENABLED
+2025-11-07 15:13:20,141 - system - INFO - ============================================================
+2025-11-07 15:13:20,141 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-07 15:13:20,507 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:13:20,523 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:13:24,984 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:13:24,996 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:13:28,986 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:13:28,997 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:13:33,986 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:13:34,002 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:13:38,997 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:13:39,002 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:13:43,984 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:13:43,996 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:13:47,992 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:13:48,000 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:14:00,668 - system - DEBUG - Added bar: 2025-11-07 15:14:00.638138 | Close: 25110.5
+2025-11-07 15:14:36,357 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:14:36,367 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:14:36,376 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:14:38,015 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:14:38,025 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:14:39,649 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:14:39,660 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:14:39,702 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:14:44,578 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:14:44,583 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:14:44,597 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:14:49,998 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:14:50,001 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:14:50,012 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:14:54,991 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:14:54,995 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:14:55,006 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:14:59,989 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:14:59,994 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:14:59,996 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:15:01,353 - system - DEBUG - Added bar: 2025-11-07 15:15:00.612048 | Close: 25106.0
+2025-11-07 15:15:04,981 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:15:04,986 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:15:04,996 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:15:10,978 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:15:10,989 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:15:10,999 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:15:15,984 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:15:15,985 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:15:15,996 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:15:20,992 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:15:20,998 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:15:21,007 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:15:25,987 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:15:25,991 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:15:26,003 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:15:30,985 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:15:30,992 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:15:31,003 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:15:35,987 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:15:35,995 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:15:36,004 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:15:40,987 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:15:40,993 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:15:41,004 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:15:45,986 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:15:45,988 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:15:45,997 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:15:50,984 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:15:50,986 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:15:50,992 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:15:55,982 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:15:55,993 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:15:56,002 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:16:00,943 - system - DEBUG - Added bar: 2025-11-07 15:16:00.883142 | Close: 25094.75
+2025-11-07 15:16:00,993 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:16:01,022 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:16:01,043 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:16:06,008 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:16:06,058 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:16:06,068 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:16:10,982 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:16:10,991 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:16:10,999 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:16:15,983 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:16:15,991 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:16:15,997 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:16:20,997 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:16:21,003 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:16:21,018 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:16:25,991 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:16:25,995 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:16:26,003 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:16:30,997 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:16:31,005 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:16:31,013 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:16:35,999 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:16:36,004 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:16:36,009 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:16:40,993 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:16:41,005 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:16:41,013 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:16:45,996 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:16:46,002 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:16:46,012 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:16:50,985 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:16:50,989 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:16:50,990 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:16:55,989 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:16:55,996 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:16:56,006 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:17:00,960 - system - DEBUG - Added bar: 2025-11-07 15:17:00.909012 | Close: 25094.25
+2025-11-07 15:17:01,035 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:17:01,047 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:17:01,066 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:17:06,000 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:17:06,002 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:17:06,022 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:17:11,995 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:17:12,000 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:17:12,006 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:17:16,991 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:17:17,003 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:17:17,013 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:17:21,988 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:17:21,996 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:17:22,016 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:17:26,996 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:17:27,001 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:17:27,009 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:17:31,990 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:17:31,995 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:17:32,004 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:17:36,985 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:17:36,997 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:17:37,006 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:17:41,978 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:17:41,993 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:17:42,002 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:17:46,983 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:17:46,993 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:17:47,013 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:17:52,000 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:17:52,010 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:17:52,031 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:17:56,990 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:17:56,996 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:17:56,999 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:18:00,802 - system - DEBUG - Added bar: 2025-11-07 15:18:00.767639 | Close: 25082.75
+2025-11-07 15:18:01,998 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:18:02,003 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:18:02,010 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:18:06,974 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:18:06,982 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:18:06,997 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:18:11,996 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:18:12,009 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:18:12,027 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:18:16,982 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:18:16,987 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:18:16,998 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:18:21,981 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:18:21,985 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:18:21,997 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:18:26,989 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:18:26,995 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:18:27,000 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:18:31,995 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:18:32,004 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:18:32,010 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:18:36,986 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:18:36,993 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:18:37,005 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:18:40,997 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:18:41,003 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:18:41,014 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:18:45,990 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:18:46,001 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:18:46,004 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:18:50,989 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:18:50,992 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:18:50,998 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:18:55,995 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:18:55,998 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:18:56,003 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:19:00,752 - system - DEBUG - Added bar: 2025-11-07 15:19:00.717891 | Close: 25063.75
+2025-11-07 15:19:00,983 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:19:00,990 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:19:00,998 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:19:05,993 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:19:05,997 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:19:06,010 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:19:11,004 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:19:11,013 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:19:11,018 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:19:15,983 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:19:15,990 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:19:15,997 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:19:20,993 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:19:21,001 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:19:21,014 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:19:25,988 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:19:25,991 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:19:26,009 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:19:30,989 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:19:30,998 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:19:31,008 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:19:35,990 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:19:35,995 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:19:36,004 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:19:40,996 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:19:41,000 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:19:41,006 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:19:46,004 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:19:46,010 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:19:46,013 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:19:50,999 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:19:51,004 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:19:51,009 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:19:56,000 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:19:56,005 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:19:56,012 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:20:00,889 - system - DEBUG - Added bar: 2025-11-07 15:20:00.859350 | Close: 25073.0
+2025-11-07 15:20:00,989 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:20:00,992 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:20:01,004 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:20:05,999 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:20:06,003 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:20:06,012 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:20:10,984 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:20:10,990 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:20:11,000 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:20:15,998 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:20:16,002 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:20:16,010 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:20:20,990 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:20:20,994 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:20:21,002 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:20:25,992 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:20:25,999 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:20:26,009 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:20:30,991 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:20:30,999 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:20:31,005 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:20:36,005 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:20:36,011 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:20:36,020 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:20:40,985 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:20:40,994 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:20:41,000 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:20:45,993 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:20:45,999 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:20:46,005 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:20:51,005 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:20:51,005 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:20:51,013 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:20:55,992 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:20:56,003 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:20:56,016 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:21:00,716 - system - DEBUG - Added bar: 2025-11-07 15:21:00.685320 | Close: 25054.5
+2025-11-07 15:21:00,984 - system - ERROR - Error calculating metrics: 'Series' object has no attribute 'upper'
+2025-11-07 15:21:00,990 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:21:01,002 - system - ERROR - Error updating trades table: 'Series' object has no attribute 'upper'
+2025-11-07 15:21:13,283 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-07 15:21:13,706 - system - INFO - Dashboard attached to Flask server
+2025-11-07 15:21:13,708 - system - INFO - Trading Dashboard initialized successfully
+2025-11-07 15:21:13,709 - system - INFO - ============================================================
+2025-11-07 15:21:13,709 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-07 15:21:13,710 - system - INFO - ============================================================
+2025-11-07 15:21:13,710 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-07 15:21:13,710 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-07 15:21:13,711 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-07 15:21:13,711 - system - INFO - ============================================================
+2025-11-07 15:21:13,711 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-07 15:21:13,711 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-07 15:21:13,712 - system - INFO -  Position Manager: ACTIVE
+2025-11-07 15:21:13,712 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-07 15:21:13,712 - system - INFO -  Paper trading: ENABLED
+2025-11-07 15:21:13,713 - system - INFO - ============================================================
+2025-11-07 15:21:13,713 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-07 15:21:15,988 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:21:20,997 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:21:25,993 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:21:30,989 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:21:35,992 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:21:40,989 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:21:46,010 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:21:50,998 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:21:56,007 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:22:00,978 - system - DEBUG - Added bar: 2025-11-07 15:22:00.947212 | Close: 25060.0
+2025-11-07 15:22:01,044 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:22:06,013 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:22:11,004 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:22:16,000 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:22:20,991 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:22:25,999 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:22:30,995 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:22:35,984 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:22:40,990 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:22:45,991 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:22:50,995 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:22:55,999 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:23:00,751 - system - DEBUG - Added bar: 2025-11-07 15:23:00.720770 | Close: 25058.75
+2025-11-07 15:23:00,999 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:23:06,001 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:23:11,000 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:23:16,002 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:23:20,995 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:23:26,008 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:23:41,364 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-07 15:23:41,782 - system - INFO - Dashboard attached to Flask server
+2025-11-07 15:23:41,784 - system - INFO - Trading Dashboard initialized successfully
+2025-11-07 15:23:41,784 - system - INFO - ============================================================
+2025-11-07 15:23:41,785 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-07 15:23:41,785 - system - INFO - ============================================================
+2025-11-07 15:23:41,785 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-07 15:23:41,786 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-07 15:23:41,786 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-07 15:23:41,786 - system - INFO - ============================================================
+2025-11-07 15:23:41,787 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-07 15:23:41,787 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-07 15:23:41,787 - system - INFO -  Position Manager: ACTIVE
+2025-11-07 15:23:41,787 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-07 15:23:41,788 - system - INFO -  Paper trading: ENABLED
+2025-11-07 15:23:41,788 - system - INFO - ============================================================
+2025-11-07 15:23:41,788 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-07 15:23:42,042 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:23:46,997 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:23:51,000 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:23:55,995 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:24:00,565 - system - DEBUG - Added bar: 2025-11-07 15:24:00.535241 | Close: 25053.75
+2025-11-07 15:24:01,002 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:24:05,994 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:24:10,998 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:24:16,006 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:24:20,995 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:24:25,999 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:24:31,004 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:24:35,996 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:24:40,997 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:24:45,993 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:24:50,996 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:24:56,007 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:25:00,639 - system - DEBUG - Added bar: 2025-11-07 15:25:00.594306 | Close: 25042.75
+2025-11-07 15:25:01,008 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:25:06,002 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:25:10,991 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:25:16,999 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:25:22,008 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:25:27,014 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:25:32,004 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:25:35,993 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:25:41,003 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:25:46,005 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:25:51,003 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:25:56,005 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:26:00,818 - system - DEBUG - Added bar: 2025-11-07 15:26:00.790381 | Close: 25032.25
+2025-11-07 15:26:01,003 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:26:06,008 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:26:11,000 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:26:15,996 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:26:20,999 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:26:26,002 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:26:30,994 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:26:36,011 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:26:41,010 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:26:45,996 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:26:51,000 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:26:56,021 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:27:00,532 - system - DEBUG - Added bar: 2025-11-07 15:27:00.505614 | Close: 25032.5
+2025-11-07 15:27:01,006 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:27:05,994 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:27:11,012 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:27:16,000 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:27:20,993 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:27:26,000 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:27:31,005 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:27:35,999 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:27:40,998 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:27:45,996 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:27:50,996 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:27:56,013 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:28:00,716 - system - DEBUG - Added bar: 2025-11-07 15:28:00.685701 | Close: 25061.5
+2025-11-07 15:28:01,001 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:28:05,997 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:28:10,995 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:28:16,004 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:28:20,995 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:28:25,991 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:28:30,995 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:28:58,948 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-07 15:28:58,954 - system - INFO - Created trades file: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data\trades.csv
+2025-11-07 15:28:58,956 - system - INFO - Created signals file: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data\signals.csv
+2025-11-07 15:28:59,404 - system - INFO - Dashboard attached to Flask server
+2025-11-07 15:28:59,406 - system - INFO - Trading Dashboard initialized successfully
+2025-11-07 15:28:59,407 - system - INFO - ============================================================
+2025-11-07 15:28:59,407 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-07 15:28:59,407 - system - INFO - ============================================================
+2025-11-07 15:28:59,407 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-07 15:28:59,408 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-07 15:28:59,408 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-07 15:28:59,408 - system - INFO - ============================================================
+2025-11-07 15:28:59,408 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-07 15:28:59,409 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-07 15:28:59,409 - system - INFO -  Position Manager: ACTIVE
+2025-11-07 15:28:59,409 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-07 15:28:59,409 - system - INFO -  Paper trading: ENABLED
+2025-11-07 15:28:59,410 - system - INFO - ============================================================
+2025-11-07 15:28:59,410 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-07 15:29:00,710 - system - DEBUG - Added bar: 2025-11-07 15:29:00.682369 | Close: 25069.5
+2025-11-07 15:30:01,085 - system - DEBUG - Added bar: 2025-11-07 15:30:01.017279 | Close: 25055.5
+2025-11-07 15:31:00,985 - system - DEBUG - Added bar: 2025-11-07 15:31:00.955640 | Close: 25087.25
+2025-11-07 15:32:00,800 - system - DEBUG - Added bar: 2025-11-07 15:32:00.750401 | Close: 25083.0
+2025-11-07 15:32:04,008 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:32:24,310 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-07 15:32:24,752 - system - INFO - Dashboard attached to Flask server
+2025-11-07 15:32:24,757 - system - INFO - Trading Dashboard initialized successfully
+2025-11-07 15:32:24,758 - system - INFO - ============================================================
+2025-11-07 15:32:24,758 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-07 15:32:24,758 - system - INFO - ============================================================
+2025-11-07 15:32:24,758 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-07 15:32:24,759 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-07 15:32:24,759 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-07 15:32:24,759 - system - INFO - ============================================================
+2025-11-07 15:32:24,760 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-07 15:32:24,760 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-07 15:32:24,760 - system - INFO -  Position Manager: ACTIVE
+2025-11-07 15:32:24,761 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-07 15:32:24,761 - system - INFO -  Paper trading: ENABLED
+2025-11-07 15:32:24,761 - system - INFO - ============================================================
+2025-11-07 15:32:24,761 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-07 15:32:25,020 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:32:30,000 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:32:33,994 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:32:39,000 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:32:44,005 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:32:48,999 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:32:54,012 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:32:59,009 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:33:00,942 - system - DEBUG - Added bar: 2025-11-07 15:33:00.905796 | Close: 25093.25

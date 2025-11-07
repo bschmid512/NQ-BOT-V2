@@ -1,378 +1,334 @@
 """
-Data Handler for NQ Trading Bot - FIXED VERSION
-Manages CSV data ingestion, storage, and retrieval
+Data Handler for NQ Trading Bot — robust version
+Manages CSV data ingestion, storage, and retrieval for dashboard + engine.
 """
+from __future__ import annotations
+
+import os
+import csv
+import math
+from pathlib import Path
+from datetime import datetime, timedelta, timezone
+from typing import Optional, Dict
+
 import pandas as pd
 import numpy as np
-from pathlib import Path
-from datetime import datetime, timedelta
 import pytz
-from typing import Optional, Dict, List
+
 from config import DATA_DIR, LIVE_DATA_FILE, TRADES_FILE, SIGNALS_FILE
 from utils.logger import trading_logger
 
 
 class DataHandler:
-    """Handle all data operations for the trading system"""
-    
+    """Handle all data operations for the trading system."""
+
+    # ─────────────────────────── init / setup ─────────────────────────── #
+
     def __init__(self):
-        self.logger = trading_logger.system_logger
+        self.system_logger = trading_logger.system_logger
         self._ensure_data_directory()
         self._initialize_data_files()
-    
+
     def _ensure_data_directory(self):
-        """Create data directory if it doesn't exist"""
         DATA_DIR.mkdir(parents=True, exist_ok=True)
-        self.logger.info(f"Data directory initialized: {DATA_DIR}")
-    
+        self.system_logger.info(f"Data directory initialized: {DATA_DIR}")
+
     def _initialize_data_files(self):
-        """Initialize CSV files with headers if they don't exist"""
-        # Live data file
+        # Live bars
         if not LIVE_DATA_FILE.exists():
-            df = pd.DataFrame(columns=[
-                'timestamp', 'open', 'high', 'low', 'close', 'volume'
-            ])
-            df.to_csv(LIVE_DATA_FILE, index=False)
-            self.logger.info(f"Created live data file: {LIVE_DATA_FILE}")
-        
-        # Trades file
+            pd.DataFrame(
+                columns=["timestamp", "open", "high", "low", "close", "volume"]
+            ).to_csv(LIVE_DATA_FILE, index=False)
+            self.system_logger.info(f"Created live data file: {LIVE_DATA_FILE}")
+
+        # Trades
         if not TRADES_FILE.exists():
-            df = pd.DataFrame(columns=[
-                'timestamp', 'ticker', 'action', 'price', 'size', 
-                'signal', 'stop_loss', 'take_profit', 'pnl', 'status'
-            ])
-            df.to_csv(TRADES_FILE, index=False)
-            self.logger.info(f"Created trades file: {TRADES_FILE}")
-        
-        # Signals file
+            pd.DataFrame(
+                columns=[
+                    "timestamp", "ticker", "action", "price", "size",
+                    "signal", "stop_loss", "take_profit", "pnl", "status",
+                    "entry_price", "exit_price", "entry_time", "exit_time", "r_multiple",
+                ]
+            ).to_csv(TRADES_FILE, index=False)
+            self.system_logger.info(f"Created trades file: {TRADES_FILE}")
+
+        # Signals
         if not SIGNALS_FILE.exists():
-            df = pd.DataFrame(columns=[
-                'timestamp', 'strategy', 'signal', 'confidence', 
-                'price', 'target', 'stop'
-            ])
-            df.to_csv(SIGNALS_FILE, index=False)
-            self.logger.info(f"Created signals file: {SIGNALS_FILE}")
-    
+            pd.DataFrame(
+                columns=["timestamp", "strategy", "signal", "confidence", "price", "target", "stop"]
+            ).to_csv(SIGNALS_FILE, index=False)
+            self.system_logger.info(f"Created signals file: {SIGNALS_FILE}")
+
+    # ───────────────────────────── bars I/O ───────────────────────────── #
+
     def add_bar(self, bar_data: Dict):
-        """
-        Add a new price bar from TradingView webhook
-        
-        Args:
-            bar_data: Dict with keys: timestamp, open, high, low, close, volume
-        """
+        """Append a new OHLCV bar from the webhook."""
         try:
             df = pd.read_csv(LIVE_DATA_FILE)
-            
-            # Convert timestamp to datetime if it's a string
-            if isinstance(bar_data['timestamp'], str):
-                bar_data['timestamp'] = pd.to_datetime(bar_data['timestamp'])
-            
-            # Append new bar
+
+            ts = bar_data.get("timestamp")
+            if isinstance(ts, str):
+                bar_data["timestamp"] = pd.to_datetime(ts, format="mixed")
+
             new_row = pd.DataFrame([bar_data])
             df = pd.concat([df, new_row], ignore_index=True)
-            
-            # Keep only last 10,000 bars to manage file size
+
+            # keep last N rows to avoid huge file
             if len(df) > 10000:
                 df = df.tail(10000)
-            
+
             df.to_csv(LIVE_DATA_FILE, index=False)
-            self.logger.debug(f"Added bar: {bar_data['timestamp']} | Close: {bar_data['close']}")
-            
+            self.system_logger.debug(f"Added bar: {bar_data['timestamp']} | Close: {bar_data['close']}")
         except Exception as e:
-            self.logger.error(f"Error adding bar: {e}", exc_info=True)
+            self.system_logger.error(f"Error adding bar: {e}", exc_info=True)
             trading_logger.log_error("DataHandler.add_bar", e)
-    
+
     def get_latest_bars(self, n: int = 100) -> pd.DataFrame:
-        """
-        Get the most recent N bars
-        
-        Args:
-            n: Number of bars to retrieve
-            
-        Returns:
-            DataFrame with OHLCV data
-        """
         try:
             df = pd.read_csv(LIVE_DATA_FILE)
-            
-            # FIXED: Use format='mixed' to handle both timestamp formats
-            # This handles both: "2024-11-04 14:28:00" and "2024-11-04 14:28:00.626901"
-            df['timestamp'] = pd.to_datetime(df['timestamp'], format='mixed')
-            
-            df = df.sort_values('timestamp').tail(n)
-            df = df.set_index('timestamp')
-            return df
+            df["timestamp"] = pd.to_datetime(df["timestamp"], format="mixed")
+            return df.sort_values("timestamp").tail(n).set_index("timestamp")
         except Exception as e:
-            self.logger.error(f"Error getting latest bars: {e}")
+            self.system_logger.error(f"Error getting latest bars: {e}")
             return pd.DataFrame()
-    
+
     def get_bars_between(self, start_time: datetime, end_time: datetime) -> pd.DataFrame:
-        """Get bars within a specific time range"""
         try:
             df = pd.read_csv(LIVE_DATA_FILE)
-            df['timestamp'] = pd.to_datetime(df['timestamp'], format='mixed')
-            
-            # ⭐ FIX: Convert to timezone-naive for comparison
+            df["timestamp"] = pd.to_datetime(df["timestamp"], format="mixed")
+
+            # compare as naive
             if start_time.tzinfo is not None:
                 start_time = start_time.replace(tzinfo=None)
             if end_time.tzinfo is not None:
                 end_time = end_time.replace(tzinfo=None)
-            
-            mask = (df['timestamp'] >= start_time) & (df['timestamp'] <= end_time)
-            df = df[mask].set_index('timestamp')
-            return df
+
+            m = (df["timestamp"] >= start_time) & (df["timestamp"] <= end_time)
+            return df.loc[m].set_index("timestamp")
         except Exception as e:
-            self.logger.error(f"Error getting bars between times: {e}")
+            self.system_logger.error(f"Error getting bars between times: {e}")
             return pd.DataFrame()
-    
+
     def get_opening_range_bars(self, date: datetime, or_minutes: int = 15) -> pd.DataFrame:
-        """
-        Get bars for the opening range period
-        
-        Args:
-            date: Trading date
-            or_minutes: Opening range duration in minutes
-        """
-        et_tz = pytz.timezone('US/Eastern')
-        
-        # Handle timezone-aware and naive datetimes
+        et = pytz.timezone("US/Eastern")
         if date.tzinfo is None:
-            market_open = et_tz.localize(datetime.combine(date.date(), datetime.strptime('09:30', '%H:%M').time()))
+            market_open = et.localize(datetime.combine(date.date(), datetime.strptime("09:30", "%H:%M").time()))
         else:
-            market_open = date.replace(hour=9, minute=30, second=0, microsecond=0)
-        
+            market_open = date.astimezone(et).replace(hour=9, minute=30, second=0, microsecond=0)
         or_end = market_open + timedelta(minutes=or_minutes)
-        
         return self.get_bars_between(market_open, or_end)
-    
+
+    # ─────────────────────── trades & signals (writers) ─────────────────────── #
+
     def add_trade(self, trade_data: Dict):
-        """
-        Record a trade execution
-        
-        Args:
-            trade_data: Dict with trade details
-        """
+        """Legacy writer: RMW (read/modify/write)."""
         try:
             df = pd.read_csv(TRADES_FILE)
-            new_trade = pd.DataFrame([trade_data])
-            df = pd.concat([df, new_trade], ignore_index=True)
+            df = pd.concat([df, pd.DataFrame([trade_data])], ignore_index=True)
             df.to_csv(TRADES_FILE, index=False)
-            
             trading_logger.log_trade(trade_data)
-            self.logger.info(f"Trade recorded: {trade_data['action']} @ {trade_data['price']}")
-            
+            self.system_logger.info(f"Trade recorded: {trade_data.get('action')} @ {trade_data.get('price')}")
         except Exception as e:
-            self.logger.error(f"Error adding trade: {e}")
+            self.system_logger.error(f"Error adding trade: {e}")
             trading_logger.log_error("DataHandler.add_trade", e)
-    
+
     def add_signal(self, signal_data: Dict):
-        """
-        Record a trading signal
-        
-        Args:
-            signal_data: Dict with signal details
-        """
+        """Legacy writer: RMW (read/modify/write)."""
         try:
             df = pd.read_csv(SIGNALS_FILE)
-            new_signal = pd.DataFrame([signal_data])
-            df = pd.concat([df, new_signal], ignore_index=True)
+            df = pd.concat([df, pd.DataFrame([signal_data])], ignore_index=True)
             df.to_csv(SIGNALS_FILE, index=False)
-            
             trading_logger.log_signal(
-                signal_data['strategy'],
-                signal_data['signal'],
-                signal_data['confidence'],
-                signal_data['price']
+                signal_data.get("strategy", ""),
+                signal_data.get("signal", ""),
+                signal_data.get("confidence", 0.0),
+                signal_data.get("price", 0.0),
             )
-            
         except Exception as e:
-            self.logger.error(f"Error adding signal: {e}")
-    
-def get_all_trades(self) -> pd.DataFrame:
-    """Read trades.csv safely, tolerate old/bad rows, and ensure new columns exist."""
-    try:
-        # Skip malformed lines instead of crashing
-        df = pd.read_csv(TRADES_FILE, on_bad_lines='skip')
+            self.system_logger.error(f"Error adding signal: {e}")
 
-        # Canonical schema (add any missing)
+    # New, safe append methods (used by main.py / webhook)
+
+    def append_signal(self, row: Dict) -> None:
+        """Append one signal row without RMW; keeps the schema the dashboard expects."""
+        try:
+            cols = ["timestamp", "strategy", "signal", "confidence", "price", "target", "stop"]
+            rec = {
+                "timestamp": row.get("timestamp") or datetime.now(timezone.utc).isoformat(),
+                "strategy": row.get("strategy", "fusion"),
+                "signal": (row.get("direction") or row.get("signal") or ""),
+                "confidence": float(row.get("confidence", 0.0)),
+                "price": float(row.get("price", 0.0)),
+                "target": row.get("target"),
+                "stop": row.get("stop"),
+            }
+            header_needed = (not SIGNALS_FILE.exists()) or os.path.getsize(SIGNALS_FILE) == 0
+            with open(SIGNALS_FILE, "a", newline="") as f:
+                w = csv.DictWriter(f, fieldnames=cols)
+                if header_needed:
+                    w.writeheader()
+                w.writerow(rec)
+        except Exception as e:
+            self.system_logger.error(f"Error appending signal: {e}")
+
+    def append_trade(self, row: Dict) -> None:
+        """Append one trade row without RMW; keeps the schema the dashboard expects."""
+        try:
+            cols = [
+                "timestamp", "ticker", "action", "price", "size", "signal",
+                "stop_loss", "take_profit", "pnl", "status",
+                "entry_price", "exit_price", "entry_time", "exit_time", "r_multiple",
+            ]
+            rec = {
+                "timestamp": row.get("timestamp") or datetime.now(timezone.utc).isoformat(),
+                "ticker": row.get("ticker", "NQ"),
+                "action": row.get("action", ""),
+                "price": float(row.get("price", 0.0)),
+                "size": int(row.get("size", 1)),
+                "signal": row.get("signal", ""),
+                "stop_loss": row.get("stop_loss", ""),
+                "take_profit": row.get("take_profit", ""),
+                "pnl": float(row.get("pnl", 0.0)),
+                "status": row.get("status", ""),
+                "entry_price": row.get("entry_price"),
+                "exit_price": row.get("exit_price"),
+                "entry_time": row.get("entry_time"),
+                "exit_time": row.get("exit_time"),
+                "r_multiple": row.get("r_multiple"),
+            }
+            header_needed = (not TRADES_FILE.exists()) or os.path.getsize(TRADES_FILE) == 0
+            with open(TRADES_FILE, "a", newline="") as f:
+                w = csv.DictWriter(f, fieldnames=cols)
+                if header_needed:
+                    w.writeheader()
+                w.writerow(rec)
+        except Exception as e:
+            self.system_logger.error(f"Error appending trade: {e}")
+
+    # ───────────────────────────── readers for UI ───────────────────────────── #
+
+    def get_all_trades(self) -> pd.DataFrame:
+        """Read trades safely; tolerate bad rows and ensure expected columns."""
         cols = [
-            'timestamp','ticker','action','price','size','signal','stop_loss','take_profit',
-            'pnl','status','entry_price','exit_price','entry_time','exit_time','r_multiple'
+            "timestamp", "ticker", "action", "price", "size", "signal", "stop_loss", "take_profit",
+            "pnl", "status", "entry_price", "exit_price", "entry_time", "exit_time", "r_multiple",
         ]
+        try:
+            df = pd.read_csv(TRADES_FILE, on_bad_lines="skip")
+        except FileNotFoundError:
+            return pd.DataFrame(columns=cols)
+
         for c in cols:
             if c not in df.columns:
                 df[c] = None
 
-        # Parse timestamps; drop rows where timestamp isn't a date (e.g., 'fusion')
-        df['timestamp'] = pd.to_datetime(df['timestamp'], errors='coerce', utc=True)
-        df = df.dropna(subset=['timestamp'])
+        df["timestamp"] = pd.to_datetime(df["timestamp"], errors="coerce", utc=True)
+        df = df.dropna(subset=["timestamp"])
 
-        # Optional: sort newest first
-        df = df.sort_values('timestamp', ascending=False).reset_index(drop=True)
-        return df[cols]
-    except Exception as e:
-        self.logger.error(f"Error getting trades: {e}")
-        return pd.DataFrame(columns=[
-            'timestamp','ticker','action','price','size','signal','stop_loss','take_profit',
-            'pnl','status','entry_price','exit_price','entry_time','exit_time','r_multiple'
-        ])
+        # numeric coercions
+        for c in ["price", "size", "stop_loss", "take_profit", "pnl", "entry_price", "exit_price", "r_multiple"]:
+            if c in df.columns:
+                df[c] = pd.to_numeric(df[c], errors="coerce")
 
-    
-    def get_all_signals(self) -> pd.DataFrame:
-        """Get all recorded signals"""
+        # text normalization (Series-safe)
+        for c in ["ticker", "action", "signal", "status"]:
+            if c in df.columns:
+                df[c] = df[c].astype("string")
+        if "status" in df.columns:
+            df["status"] = df["status"].str.upper()
+
+        return df.sort_values("timestamp", ascending=False).reset_index(drop=True)[cols]
+
+    def get_all_signals(self, minutes: int | None = None) -> pd.DataFrame:
+        """Read signals for Current Signals panel; optional minute filter."""
+        cols = ["timestamp", "strategy", "signal", "confidence", "price", "target", "stop"]
         try:
-            df = pd.read_csv(SIGNALS_FILE)
-            if not df.empty:
-                df['timestamp'] = pd.to_datetime(df['timestamp'], format='mixed')
-            return df
-        except Exception as e:
-            self.logger.error(f"Error getting signals: {e}")
-            return pd.DataFrame()
-    
+            df = pd.read_csv(SIGNALS_FILE, dtype={"signal": "string"}, on_bad_lines="skip")
+        except FileNotFoundError:
+            return pd.DataFrame(columns=cols)
+
+        for c in cols:
+            if c not in df.columns:
+                df[c] = None
+
+        # Make the series timezone-aware (UTC)
+        df["timestamp"]  = pd.to_datetime(df["timestamp"], errors="coerce", utc=True)
+        df["confidence"] = pd.to_numeric(df["confidence"], errors="coerce")
+        df["price"]      = pd.to_numeric(df["price"], errors="coerce")
+        df["strategy"]   = df["strategy"].astype("string")
+        df["signal"]     = df["signal"].astype("string")
+
+        df = df.dropna(subset=["timestamp"]).sort_values("timestamp", ascending=False)
+
+        if minutes:
+            # Compare on NAIVE UTC to avoid tz-aware/naive mismatch
+            cutoff_naive = pd.Timestamp.utcnow() - pd.Timedelta(minutes=minutes)
+            ts_naive = df["timestamp"].dt.tz_convert("UTC").dt.tz_localize(None)
+            df = df[ts_naive >= cutoff_naive]
+
+        return df.reset_index(drop=True)[cols]
+
+
     def get_daily_pnl(self, date: Optional[datetime] = None) -> float:
-        """Calculate PnL for a specific date"""
-        if date is None:
-            date = datetime.now()
-        
+        date = date or datetime.now()
         try:
             df = self.get_all_trades()
             if df.empty:
                 return 0.0
-            
-            df['date'] = df['timestamp'].dt.date
-            daily_trades = df[df['date'] == date.date()]
-            
-            return daily_trades['pnl'].sum() if 'pnl' in daily_trades.columns else 0.0
+            df["date"] = df["timestamp"].dt.date
+            return float(df.loc[df["date"] == date.date(), "pnl"].sum())
         except Exception as e:
-            self.logger.error(f"Error calculating daily PnL: {e}")
+            self.system_logger.error(f"Error calculating daily PnL: {e}")
             return 0.0
-    
+
     def calculate_performance_metrics(self) -> Dict:
-        """Calculate comprehensive performance metrics"""
+        """Totals for the KPI cards (P&L, Win Rate, Profit Factor, Max DD)."""
         try:
             df = self.get_all_trades()
-            
-            if df.empty or len(df) < 5:
-                return {
-                    'total_trades': 0,
-                    'win_rate': 0.0,
-                    'profit_factor': 0.0,
-                    'avg_win': 0.0,
-                    'avg_loss': 0.0,
-                    'total_pnl': 0.0,
-                    'sharpe_ratio': 0.0,
-                    'max_drawdown': 0.0
-                }
-            
-            # Basic metrics
-            winning_trades = df[df['pnl'] > 0]
-            losing_trades = df[df['pnl'] < 0]
-            
-            total_trades = len(df)
-            win_rate = len(winning_trades) / total_trades if total_trades > 0 else 0
-            
-            gross_profit = winning_trades['pnl'].sum() if len(winning_trades) > 0 else 0
-            gross_loss = abs(losing_trades['pnl'].sum()) if len(losing_trades) > 0 else 0
-            profit_factor = gross_profit / gross_loss if gross_loss > 0 else 0
-            
-            avg_win = winning_trades['pnl'].mean() if len(winning_trades) > 0 else 0
-            avg_loss = losing_trades['pnl'].mean() if len(losing_trades) > 0 else 0
-            
-            total_pnl = df['pnl'].sum()
-            
-            # Sharpe ratio (simplified)
-            if len(df) > 1:
-                returns = df['pnl'].pct_change().dropna()
-                sharpe_ratio = returns.mean() / returns.std() * np.sqrt(252) if returns.std() > 0 else 0
+            if df.empty:
+                return {"total_pnl": 0.0, "win_rate": 0.0, "profit_factor": 0.0, "max_drawdown": 0.0}
+
+            closed = df[df["status"].eq("CLOSED")] if "status" in df.columns else df
+            if closed.empty:
+                return {"total_pnl": 0.0, "win_rate": 0.0, "profit_factor": 0.0, "max_drawdown": 0.0}
+
+            pnl = pd.to_numeric(closed["pnl"], errors="coerce").fillna(0.0)
+            total_pnl = float(pnl.sum())
+
+            wins = int((pnl > 0).sum())
+            losses = int((pnl < 0).sum())
+            win_rate = float(wins / (wins + losses)) if (wins + losses) > 0 else 0.0
+
+            gross_profit = float(pnl[pnl > 0].sum())
+            gross_loss = float(-pnl[pnl < 0].sum())
+            if gross_loss == 0.0:
+                profit_factor = float("inf") if gross_profit > 0 else 0.0
             else:
-                sharpe_ratio = 0
-            
-            # Max drawdown
-            cumulative_pnl = df['pnl'].cumsum()
-            running_max = cumulative_pnl.expanding().max()
-            drawdown = (cumulative_pnl - running_max) / running_max.replace(0, 1)  # Avoid division by zero
-            max_drawdown = drawdown.min() if len(drawdown) > 0 else 0
-            
-            metrics = {
-                'total_trades': total_trades,
-                'win_rate': win_rate,
-                'profit_factor': profit_factor,
-                'avg_win': avg_win,
-                'avg_loss': avg_loss,
-                'total_pnl': total_pnl,
-                'sharpe_ratio': sharpe_ratio,
-                'max_drawdown': max_drawdown
+                profit_factor = gross_profit / gross_loss
+
+            equity = pnl.cumsum()
+            run_max = equity.cummax()
+            max_drawdown = float(abs((equity - run_max).min())) if not equity.empty else 0.0
+
+            return {
+                "total_pnl": round(total_pnl, 2),
+                "win_rate": round(win_rate, 4),  # 0..1 (UI formats as %)
+                "profit_factor": 0.0 if math.isinf(profit_factor) else round(profit_factor, 2),
+                "max_drawdown": round(max_drawdown, 2),
             }
-            
-            trading_logger.log_performance(metrics)
-            return metrics
-            
         except Exception as e:
-            self.logger.error(f"Error calculating metrics: {e}")
-            return {}
-    
+            self.system_logger.error(f"Error calculating metrics: {e}")
+            return {"total_pnl": 0.0, "win_rate": 0.0, "profit_factor": 0.0, "max_drawdown": 0.0}
+
+    # ───────────────────────────── utilities ───────────────────────────── #
+
     def export_to_csv(self, df: pd.DataFrame, filename: str):
-        """Export dataframe to CSV in data directory"""
         try:
-            filepath = DATA_DIR / filename
-            df.to_csv(filepath, index=False)
-            self.logger.info(f"Data exported to {filepath}")
+            (DATA_DIR / filename).write_text(df.to_csv(index=False))
+            self.system_logger.info(f"Data exported to {DATA_DIR/filename}")
         except Exception as e:
-            self.logger.error(f"Error exporting CSV: {e}")
+            self.system_logger.error(f"Error exporting CSV: {e}")
 
 
-
-    def append_signal(self, row: Dict):
-        """Append a single signal row to SIGNALS_FILE safely."""
-        try:
-            cols = ['timestamp','strategy','signal','price','confidence']
-            rec = {
-                'timestamp': row.get('timestamp') or datetime.now().isoformat(),
-                'strategy': row.get('strategy', 'unknown'),
-                'signal': row.get('direction') or row.get('signal', ''),
-                'price': float(row.get('price', 0.0)),
-                'confidence': float(row.get('confidence', 0.0)),
-            }
-            import os, csv
-            header_needed = not SIGNALS_FILE.exists() or os.path.getsize(SIGNALS_FILE) == 0
-            with open(SIGNALS_FILE, 'a', newline='') as f:
-                writer = csv.DictWriter(f, fieldnames=cols)
-                if header_needed:
-                    writer.writeheader()
-                writer.writerow(rec)
-        except Exception as e:
-            self.logger.error(f"Error appending signal: {e}")
-
-    def append_trade(self, row: Dict):
-        """Append a single trade row to TRADES_FILE safely (for dashboard)."""
-        try:
-            cols = ['timestamp','ticker','action','price','size','signal','stop_loss','take_profit','pnl','status',
-                    'entry_price','exit_price','entry_time','exit_time','r_multiple']
-            rec = {
-                'timestamp': row.get('timestamp') or datetime.now().isoformat(),
-                'ticker': row.get('ticker', 'NQ'),
-                'action': row.get('action', ''),
-                'price': float(row.get('price', 0.0)),
-                'size': int(row.get('size', 1)),
-                'signal': row.get('signal', ''),
-                'stop_loss': row.get('stop_loss', ''),
-                'take_profit': row.get('take_profit', ''),
-                'pnl': float(row.get('pnl', 0.0)),
-                'status': row.get('status', ''),
-                'entry_price': row.get('entry_price'),
-                'exit_price': row.get('exit_price'),
-                'entry_time': row.get('entry_time'),
-                'exit_time': row.get('exit_time'),
-                'r_multiple': row.get('r_multiple'),
-            }
-            import os, csv
-            header_needed = not TRADES_FILE.exists() or os.path.getsize(TRADES_FILE) == 0
-            with open(TRADES_FILE, 'a', newline='') as f:
-                writer = csv.DictWriter(f, fieldnames=cols)
-                if header_needed:
-                    writer.writeheader()
-                writer.writerow(rec)
-        except Exception as e:
-            self.logger.error(f"Error appending trade: {e}")
-# Create global data handler instance
+# Global singleton
 data_handler = DataHandler()
