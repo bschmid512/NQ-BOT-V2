@@ -120,9 +120,10 @@ class EnhancedStrategyEngine:
                 # We'll assume you update your old strategies
                 # (mean_reversion, etc.) to accept `current_price` as well.
                 
-                signal = call_generate_signal(strategy, df=df, current_price=current_price, context=context,
-    current_bar=bar_data)
-                
+                signal = call_generate_signal(strategy, df=df, current_price=current_price, context=context, current_bar=bar_data)
+                if signal:
+                    signal = self._apply_divergence_confluence(signal, context)
+
                 if signal:
                     strategy_signals.append(signal)
                     print(f"   ✓ {name}: {signal.get('direction', signal.get('signal'))} (confidence: {signal.get('confidence', 0):.2f})")
@@ -143,7 +144,7 @@ class EnhancedStrategyEngine:
     def _log_context(self, context: Dict):
         """Log market context for debugging"""
         print(f"\n{'─'*60}")
-        print(f"📊 Market Context Update")
+        print(f" Market Context Update")
         print(f"   Price: ${context.get('current_price', 0):.2f}")
         print(f"   Regime: {context.get('market_regime', 'unknown')} ({context.get('regime_confidence', 0):.1%})")
         print(f"   Momentum: {context.get('momentum', 'neutral')}")
@@ -170,6 +171,25 @@ class EnhancedStrategyEngine:
         """Get fusion engine statistics"""
         return signal_fusion_engine.get_fusion_stats()
 
+    def _apply_divergence_confluence(self, signal: dict, context: dict) -> dict:
+        """Adjust signal confidence by divergence alignment (+/- 0.10)."""
+        try:
+            if not signal or not context:
+                return signal
+            score = float(context.get('divergence_score', 0.0))
+            direction = signal.get('direction')
+            adj = 0.0
+            if direction == 'LONG':
+                adj = 0.10 if score > 0 else (-0.10 if score < 0 else 0.0)
+            elif direction == 'SHORT':
+                adj = 0.10 if score < 0 else (-0.10 if score > 0 else 0.0)
+            conf = float(signal.get('confidence', 0.5))
+            conf = max(0.0, min(1.0, conf + adj))
+            signal['confidence'] = round(conf, 3)
+            signal['divergence_score'] = score
+            return signal
+        except Exception:
+            return signal
 
 # Create global instance
 enhanced_strategy_engine = EnhancedStrategyEngine()

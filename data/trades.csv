@@ -1,5 +1,1 @@
-timestamp,ticker,action,price,size,signal,stop_loss,take_profit,pnl,status,entry_price,exit_price,entry_time,exit_time,r_multiple
-2025-11-07T11:58:00.703541,NQ,SELL,24721.0,1,fusion,24803.30322215776,24681.0,-32.75,CLOSED,,,,,-26750000000.0
-2025-11-07T12:19:00.652018,NQ,BUY,24795.5,1,fusion,24749.642202070267,24850.14285714286,0.0,OPEN,,,,,
-2025-11-07T12:27:00.637329,NQ,SELL,24852.5,1,fusion,24749.642202070267,24850.14285714286,51.0,CLOSED,,,,,1.24
-2025-11-07T12:27:00.690477,NQ,BUY,24852.5,1,fusion,24802.1753300871,24910.303571428572,0.0,OPEN,,,,,
+timestamp,ticker,action,price,size,signal,stop_loss,take_profit,pnl,status

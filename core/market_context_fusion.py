@@ -9,6 +9,7 @@ import numpy as np
 import pandas as pd
 from config import ATR_PERIOD
 from core.comprehensive_logger import comprehensive_logger # <-- ADD THIS
+from indicators.divergence import analyze_divergence
 
 class MarketContextFusion:
     """
@@ -145,7 +146,16 @@ class MarketContextFusion:
         
         # FUSION: Determine market regime using BOTH sources
         context['market_regime'], context['regime_confidence'] = self._determine_market_regime(context)
-        
+        # --- divergence analysis (safe) ---
+        try:
+            _div = analyze_divergence(df)
+        except Exception:
+            _div = {'bullish_rsi': False, 'bearish_rsi': False,
+                    'bullish_macd': False, 'bearish_macd': False,
+                    'score': 0.0, 'details': {}}
+        context['divergence'] = _div
+        context['divergence_score'] = float(_div.get('score', 0.0))
+
         return context
     
     def _determine_market_regime(self, context: Dict) -> tuple[str, float]:

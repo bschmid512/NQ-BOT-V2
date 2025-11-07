@@ -188,23 +188,35 @@ class DataHandler:
         except Exception as e:
             self.logger.error(f"Error adding signal: {e}")
     
-    def get_all_trades(self) -> pd.DataFrame:
-        """Get all recorded trades"""
-        try:
-            df = pd.read_csv(TRADES_FILE)
-            if not df.empty:
-                df['timestamp'] = pd.to_datetime(df['timestamp'], format='mixed')
-                # Ensure new columns exist for display
-                for col in ['entry_price','exit_price','entry_time','exit_time','r_multiple']:
-                    if col not in df.columns:
-                        df[col] = None
-            return df
-        except Exception as e:
-            self.logger.error(f"Error getting trades: {e}")
-            return pd.DataFrame()
-        except Exception as e:
-            self.logger.error(f"Error getting trades: {e}")
-            return pd.DataFrame()
+def get_all_trades(self) -> pd.DataFrame:
+    """Read trades.csv safely, tolerate old/bad rows, and ensure new columns exist."""
+    try:
+        # Skip malformed lines instead of crashing
+        df = pd.read_csv(TRADES_FILE, on_bad_lines='skip')
+
+        # Canonical schema (add any missing)
+        cols = [
+            'timestamp','ticker','action','price','size','signal','stop_loss','take_profit',
+            'pnl','status','entry_price','exit_price','entry_time','exit_time','r_multiple'
+        ]
+        for c in cols:
+            if c not in df.columns:
+                df[c] = None
+
+        # Parse timestamps; drop rows where timestamp isn't a date (e.g., 'fusion')
+        df['timestamp'] = pd.to_datetime(df['timestamp'], errors='coerce', utc=True)
+        df = df.dropna(subset=['timestamp'])
+
+        # Optional: sort newest first
+        df = df.sort_values('timestamp', ascending=False).reset_index(drop=True)
+        return df[cols]
+    except Exception as e:
+        self.logger.error(f"Error getting trades: {e}")
+        return pd.DataFrame(columns=[
+            'timestamp','ticker','action','price','size','signal','stop_loss','take_profit',
+            'pnl','status','entry_price','exit_price','entry_time','exit_time','r_multiple'
+        ])
+
     
     def get_all_signals(self) -> pd.DataFrame:
         """Get all recorded signals"""

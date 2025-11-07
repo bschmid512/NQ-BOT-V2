@@ -3484,3 +3484,13 @@ AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
 2025-11-07 12:19:00,647 - strategy - DEBUG - Mean Reversion SHORT: Low confidence (18%), skipping
 2025-11-07 12:30:43,826 - strategy - INFO - ORB Strategy initialized: 15min period, 150.0% target
 2025-11-07 12:30:43,827 - strategy - INFO - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-07 13:04:08,188 - strategy - INFO - ORB Strategy initialized: period=15m, target_pct=1.50, max_sl=40.0
+2025-11-07 13:04:08,189 - strategy - INFO - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-07 13:28:00,556 - strategy - DEBUG - Confidence breakdown: RSI=0.00, BB=0.12, Vol=0.10, Rev=0.05, ADX=0.05 | Total=0.31
+2025-11-07 13:28:00,556 - strategy - DEBUG - Mean Reversion SHORT: Low confidence (31%), skipping
+2025-11-07 14:09:56,895 - strategy - INFO - ORB Strategy initialized: period=15m, target_pct=1.50, max_sl=40.0
+2025-11-07 14:09:56,898 - strategy - INFO - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-07 14:34:00,649 - strategy - DEBUG - Confidence breakdown: RSI=0.08, BB=0.19, Vol=0.10, Rev=0.04, ADX=0.04 | Total=0.44
+2025-11-07 14:34:00,650 - strategy - INFO - Mean Reversion SHORT: Entry=25000.00, Target=24957.01, Stop=25010.00, RSI=77.7, Confidence=44%
+2025-11-07 14:47:23,486 - strategy - INFO - ORB Strategy initialized: period=15m, target_pct=1.50, max_sl=40.0
+2025-11-07 14:47:23,487 - strategy - INFO - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)

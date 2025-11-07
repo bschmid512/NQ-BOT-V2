@@ -242,3 +242,229 @@
 2025-11-07 10:48:55,522 - VisionTradingV2 - INFO - Trading: ANALYSIS ONLY
 2025-11-07 10:48:55,522 - VisionTradingV2 - INFO - Duration: Unlimited (press Ctrl+C to stop)
 2025-11-07 10:48:55,523 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:18:08,073 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:18:08,074 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 12:18:08,074 - VisionTradingV2 - INFO -   Pattern: bullish_engulfing
+2025-11-07 12:18:08,074 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 12:18:08,074 - VisionTradingV2 - INFO -   Confidence: 75.6%
+2025-11-07 12:18:08,074 - VisionTradingV2 - INFO -   Reason: Bullish engulfing (size ratio: 2.36)
+2025-11-07 12:18:08,074 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:32:08,808 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:32:08,808 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 12:32:08,808 - VisionTradingV2 - INFO -   Pattern: three_white_soldiers
+2025-11-07 12:32:08,808 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 12:32:08,809 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-07 12:32:08,809 - VisionTradingV2 - INFO -   Entry: 24845.50
+2025-11-07 12:32:08,809 - VisionTradingV2 - INFO -   Stop Loss: 24814.50 (31 pts)
+2025-11-07 12:32:08,809 - VisionTradingV2 - INFO -   Take Profit: 24922.50 (77 pts)
+2025-11-07 12:32:08,810 - VisionTradingV2 - INFO -   Risk/Reward: 1:2.5
+2025-11-07 12:32:08,810 - VisionTradingV2 - INFO -   Reason: Three consecutive bullish candles
+2025-11-07 12:32:08,810 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:33:10,418 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:33:10,418 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 12:33:10,419 - VisionTradingV2 - INFO -   Pattern: three_white_soldiers
+2025-11-07 12:33:10,419 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 12:33:10,419 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-07 12:33:10,419 - VisionTradingV2 - INFO -   Entry: 24840.75
+2025-11-07 12:33:10,419 - VisionTradingV2 - INFO -   Stop Loss: 24809.75 (31 pts)
+2025-11-07 12:33:10,419 - VisionTradingV2 - INFO -   Take Profit: 24917.75 (77 pts)
+2025-11-07 12:33:10,420 - VisionTradingV2 - INFO -   Risk/Reward: 1:2.5
+2025-11-07 12:33:10,420 - VisionTradingV2 - INFO -   Reason: Three consecutive bullish candles
+2025-11-07 12:33:10,420 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:34:12,617 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:34:12,618 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 12:34:12,618 - VisionTradingV2 - INFO -   Pattern: three_white_soldiers
+2025-11-07 12:34:12,618 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 12:34:12,618 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-07 12:34:12,618 - VisionTradingV2 - INFO -   Entry: 24849.25
+2025-11-07 12:34:12,618 - VisionTradingV2 - INFO -   Stop Loss: 24818.25 (31 pts)
+2025-11-07 12:34:12,619 - VisionTradingV2 - INFO -   Take Profit: 24926.25 (77 pts)
+2025-11-07 12:34:12,619 - VisionTradingV2 - INFO -   Risk/Reward: 1:2.5
+2025-11-07 12:34:12,619 - VisionTradingV2 - INFO -   Reason: Three consecutive bullish candles
+2025-11-07 12:34:12,619 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:35:12,687 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:35:12,687 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 12:35:12,687 - VisionTradingV2 - INFO -   Pattern: three_white_soldiers
+2025-11-07 12:35:12,687 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 12:35:12,688 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-07 12:35:12,688 - VisionTradingV2 - INFO -   Entry: 24827.75
+2025-11-07 12:35:12,688 - VisionTradingV2 - INFO -   Stop Loss: 24796.75 (31 pts)
+2025-11-07 12:35:12,688 - VisionTradingV2 - INFO -   Take Profit: 24904.75 (77 pts)
+2025-11-07 12:35:12,688 - VisionTradingV2 - INFO -   Risk/Reward: 1:2.5
+2025-11-07 12:35:12,688 - VisionTradingV2 - INFO -   Reason: Three consecutive bullish candles
+2025-11-07 12:35:12,689 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:36:13,069 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:36:13,070 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 12:36:13,070 - VisionTradingV2 - INFO -   Pattern: three_white_soldiers
+2025-11-07 12:36:13,070 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 12:36:13,070 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-07 12:36:13,071 - VisionTradingV2 - INFO -   Entry: 24853.75
+2025-11-07 12:36:13,071 - VisionTradingV2 - INFO -   Stop Loss: 24822.75 (31 pts)
+2025-11-07 12:36:13,071 - VisionTradingV2 - INFO -   Take Profit: 24930.75 (77 pts)
+2025-11-07 12:36:13,071 - VisionTradingV2 - INFO -   Risk/Reward: 1:2.5
+2025-11-07 12:36:13,072 - VisionTradingV2 - INFO -   Reason: Three consecutive bullish candles
+2025-11-07 12:36:13,072 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:37:13,199 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:37:13,199 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 12:37:13,199 - VisionTradingV2 - INFO -   Pattern: three_white_soldiers
+2025-11-07 12:37:13,199 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 12:37:13,199 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-07 12:37:13,200 - VisionTradingV2 - INFO -   Entry: 24849.75
+2025-11-07 12:37:13,200 - VisionTradingV2 - INFO -   Stop Loss: 24818.75 (31 pts)
+2025-11-07 12:37:13,200 - VisionTradingV2 - INFO -   Take Profit: 24926.75 (77 pts)
+2025-11-07 12:37:13,200 - VisionTradingV2 - INFO -   Risk/Reward: 1:2.5
+2025-11-07 12:37:13,200 - VisionTradingV2 - INFO -   Reason: Three consecutive bullish candles
+2025-11-07 12:37:13,200 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:38:15,176 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:38:15,176 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 12:38:15,177 - VisionTradingV2 - INFO -   Pattern: three_white_soldiers
+2025-11-07 12:38:15,177 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 12:38:15,177 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-07 12:38:15,177 - VisionTradingV2 - INFO -   Entry: 24839.00
+2025-11-07 12:38:15,177 - VisionTradingV2 - INFO -   Stop Loss: 24808.00 (31 pts)
+2025-11-07 12:38:15,178 - VisionTradingV2 - INFO -   Take Profit: 24916.00 (77 pts)
+2025-11-07 12:38:15,178 - VisionTradingV2 - INFO -   Risk/Reward: 1:2.5
+2025-11-07 12:38:15,178 - VisionTradingV2 - INFO -   Reason: Three consecutive bullish candles
+2025-11-07 12:38:15,179 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:39:17,272 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:39:17,272 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 12:39:17,272 - VisionTradingV2 - INFO -   Pattern: three_white_soldiers
+2025-11-07 12:39:17,272 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 12:39:17,273 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-07 12:39:17,273 - VisionTradingV2 - INFO -   Entry: 24818.25
+2025-11-07 12:39:17,273 - VisionTradingV2 - INFO -   Stop Loss: 24787.25 (31 pts)
+2025-11-07 12:39:17,273 - VisionTradingV2 - INFO -   Take Profit: 24895.25 (77 pts)
+2025-11-07 12:39:17,273 - VisionTradingV2 - INFO -   Risk/Reward: 1:2.5
+2025-11-07 12:39:17,273 - VisionTradingV2 - INFO -   Reason: Three consecutive bullish candles
+2025-11-07 12:39:17,274 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:40:19,265 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:40:19,266 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 12:40:19,266 - VisionTradingV2 - INFO -   Pattern: three_white_soldiers
+2025-11-07 12:40:19,266 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 12:40:19,266 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-07 12:40:19,266 - VisionTradingV2 - INFO -   Entry: 24824.50
+2025-11-07 12:40:19,266 - VisionTradingV2 - INFO -   Stop Loss: 24793.50 (31 pts)
+2025-11-07 12:40:19,266 - VisionTradingV2 - INFO -   Take Profit: 24901.50 (77 pts)
+2025-11-07 12:40:19,266 - VisionTradingV2 - INFO -   Risk/Reward: 1:2.5
+2025-11-07 12:40:19,267 - VisionTradingV2 - INFO -   Reason: Three consecutive bullish candles
+2025-11-07 12:40:19,267 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:41:21,331 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:41:21,332 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 12:41:21,332 - VisionTradingV2 - INFO -   Pattern: three_white_soldiers
+2025-11-07 12:41:21,332 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 12:41:21,332 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-07 12:41:21,333 - VisionTradingV2 - INFO -   Entry: 24814.00
+2025-11-07 12:41:21,333 - VisionTradingV2 - INFO -   Stop Loss: 24783.00 (31 pts)
+2025-11-07 12:41:21,333 - VisionTradingV2 - INFO -   Take Profit: 24891.00 (77 pts)
+2025-11-07 12:41:21,333 - VisionTradingV2 - INFO -   Risk/Reward: 1:2.5
+2025-11-07 12:41:21,333 - VisionTradingV2 - INFO -   Reason: Three consecutive bullish candles
+2025-11-07 12:41:21,334 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:42:23,505 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:42:23,505 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 12:42:23,506 - VisionTradingV2 - INFO -   Pattern: three_white_soldiers
+2025-11-07 12:42:23,506 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 12:42:23,506 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-07 12:42:23,507 - VisionTradingV2 - INFO -   Entry: 24806.00
+2025-11-07 12:42:23,507 - VisionTradingV2 - INFO -   Stop Loss: 24775.00 (31 pts)
+2025-11-07 12:42:23,507 - VisionTradingV2 - INFO -   Take Profit: 24883.00 (77 pts)
+2025-11-07 12:42:23,507 - VisionTradingV2 - INFO -   Risk/Reward: 1:2.5
+2025-11-07 12:42:23,507 - VisionTradingV2 - INFO -   Reason: Three consecutive bullish candles
+2025-11-07 12:42:23,507 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:43:25,556 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:43:25,556 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 12:43:25,556 - VisionTradingV2 - INFO -   Pattern: three_white_soldiers
+2025-11-07 12:43:25,556 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 12:43:25,557 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-07 12:43:25,557 - VisionTradingV2 - INFO -   Entry: 24809.50
+2025-11-07 12:43:25,557 - VisionTradingV2 - INFO -   Stop Loss: 24778.50 (31 pts)
+2025-11-07 12:43:25,557 - VisionTradingV2 - INFO -   Take Profit: 24886.50 (77 pts)
+2025-11-07 12:43:25,558 - VisionTradingV2 - INFO -   Risk/Reward: 1:2.5
+2025-11-07 12:43:25,558 - VisionTradingV2 - INFO -   Reason: Three consecutive bullish candles
+2025-11-07 12:43:25,558 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:44:27,637 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:44:27,637 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 12:44:27,637 - VisionTradingV2 - INFO -   Pattern: three_white_soldiers
+2025-11-07 12:44:27,638 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 12:44:27,638 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-07 12:44:27,638 - VisionTradingV2 - INFO -   Entry: 24810.50
+2025-11-07 12:44:27,638 - VisionTradingV2 - INFO -   Stop Loss: 24779.50 (31 pts)
+2025-11-07 12:44:27,639 - VisionTradingV2 - INFO -   Take Profit: 24887.50 (77 pts)
+2025-11-07 12:44:27,639 - VisionTradingV2 - INFO -   Risk/Reward: 1:2.5
+2025-11-07 12:44:27,639 - VisionTradingV2 - INFO -   Reason: Three consecutive bullish candles
+2025-11-07 12:44:27,639 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:45:27,953 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:45:27,953 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 12:45:27,953 - VisionTradingV2 - INFO -   Pattern: three_white_soldiers
+2025-11-07 12:45:27,954 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 12:45:27,954 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-07 12:45:27,954 - VisionTradingV2 - INFO -   Entry: 24817.00
+2025-11-07 12:45:27,954 - VisionTradingV2 - INFO -   Stop Loss: 24786.00 (31 pts)
+2025-11-07 12:45:27,954 - VisionTradingV2 - INFO -   Take Profit: 24894.00 (77 pts)
+2025-11-07 12:45:27,954 - VisionTradingV2 - INFO -   Risk/Reward: 1:2.5
+2025-11-07 12:45:27,954 - VisionTradingV2 - INFO -   Reason: Three consecutive bullish candles
+2025-11-07 12:45:27,954 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:46:30,031 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:46:30,031 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 12:46:30,031 - VisionTradingV2 - INFO -   Pattern: three_white_soldiers
+2025-11-07 12:46:30,031 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 12:46:30,032 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-07 12:46:30,032 - VisionTradingV2 - INFO -   Entry: 24814.25
+2025-11-07 12:46:30,032 - VisionTradingV2 - INFO -   Stop Loss: 24783.25 (31 pts)
+2025-11-07 12:46:30,032 - VisionTradingV2 - INFO -   Take Profit: 24891.25 (77 pts)
+2025-11-07 12:46:30,032 - VisionTradingV2 - INFO -   Risk/Reward: 1:2.5
+2025-11-07 12:46:30,032 - VisionTradingV2 - INFO -   Reason: Three consecutive bullish candles
+2025-11-07 12:46:30,032 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:47:31,938 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:47:31,938 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 12:47:31,938 - VisionTradingV2 - INFO -   Pattern: three_white_soldiers
+2025-11-07 12:47:31,939 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 12:47:31,939 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-07 12:47:31,939 - VisionTradingV2 - INFO -   Entry: 24801.50
+2025-11-07 12:47:31,939 - VisionTradingV2 - INFO -   Stop Loss: 24770.50 (31 pts)
+2025-11-07 12:47:31,940 - VisionTradingV2 - INFO -   Take Profit: 24878.50 (77 pts)
+2025-11-07 12:47:31,940 - VisionTradingV2 - INFO -   Risk/Reward: 1:2.5
+2025-11-07 12:47:31,940 - VisionTradingV2 - INFO -   Reason: Three consecutive bullish candles
+2025-11-07 12:47:31,940 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:48:33,739 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:48:33,739 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 12:48:33,740 - VisionTradingV2 - INFO -   Pattern: three_white_soldiers
+2025-11-07 12:48:33,740 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 12:48:33,740 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-07 12:48:33,740 - VisionTradingV2 - INFO -   Entry: 24788.50
+2025-11-07 12:48:33,740 - VisionTradingV2 - INFO -   Stop Loss: 24757.50 (31 pts)
+2025-11-07 12:48:33,740 - VisionTradingV2 - INFO -   Take Profit: 24865.50 (77 pts)
+2025-11-07 12:48:33,741 - VisionTradingV2 - INFO -   Risk/Reward: 1:2.5
+2025-11-07 12:48:33,741 - VisionTradingV2 - INFO -   Reason: Three consecutive bullish candles
+2025-11-07 12:48:33,741 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:49:35,500 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:49:35,501 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 12:49:35,501 - VisionTradingV2 - INFO -   Pattern: three_white_soldiers
+2025-11-07 12:49:35,501 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 12:49:35,501 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-07 12:49:35,502 - VisionTradingV2 - INFO -   Entry: 24774.75
+2025-11-07 12:49:35,502 - VisionTradingV2 - INFO -   Stop Loss: 24743.75 (31 pts)
+2025-11-07 12:49:35,502 - VisionTradingV2 - INFO -   Take Profit: 24851.75 (77 pts)
+2025-11-07 12:49:35,502 - VisionTradingV2 - INFO -   Risk/Reward: 1:2.5
+2025-11-07 12:49:35,502 - VisionTradingV2 - INFO -   Reason: Three consecutive bullish candles
+2025-11-07 12:49:35,502 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:50:37,162 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:50:37,162 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 12:50:37,163 - VisionTradingV2 - INFO -   Pattern: three_white_soldiers
+2025-11-07 12:50:37,163 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 12:50:37,163 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-07 12:50:37,164 - VisionTradingV2 - INFO -   Entry: 24763.50
+2025-11-07 12:50:37,164 - VisionTradingV2 - INFO -   Stop Loss: 24732.50 (31 pts)
+2025-11-07 12:50:37,164 - VisionTradingV2 - INFO -   Take Profit: 24840.50 (77 pts)
+2025-11-07 12:50:37,164 - VisionTradingV2 - INFO -   Risk/Reward: 1:2.5
+2025-11-07 12:50:37,164 - VisionTradingV2 - INFO -   Reason: Three consecutive bullish candles
+2025-11-07 12:50:37,165 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:52:06,554 - VisionTradingV2 - INFO - Vision Trading V2.0 initialized
+2025-11-07 12:52:06,555 - VisionTradingV2 - INFO - Trading mode: ANALYSIS ONLY
+2025-11-07 12:52:06,555 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:52:06,555 - VisionTradingV2 - INFO - VISION TRADING V2.0 - STARTING
+2025-11-07 12:52:06,556 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 12:52:06,556 - VisionTradingV2 - INFO - Capture interval: 2.0s
+2025-11-07 12:52:06,556 - VisionTradingV2 - INFO - Min confidence: 75%
+2025-11-07 12:52:06,556 - VisionTradingV2 - INFO - Trading: ANALYSIS ONLY
+2025-11-07 12:52:06,557 - VisionTradingV2 - INFO - Duration: Unlimited (press Ctrl+C to stop)
+2025-11-07 12:52:06,557 - VisionTradingV2 - INFO - ======================================================================
