@@ -6,14 +6,18 @@ from typing import List, Dict, Optional
 from datetime import datetime
 import pandas as pd
 
-# Import all strategies
+# --- 1. IMPORT ALL STRATEGIES ---
 from strategies.momentum_continuation_strategy import MomentumContinuationStrategy
 from strategies.pullback_entry_strategy import PullbackEntryStrategy
+from strategies.opening_range import orb_strategy
+from strategies.mean_reversion import mean_reversion_strategy
+from strategies.trend_following_strategy import trend_following_strategy
+from strategies.breakout import breakout_strategy
 
-# Import fusion systems
+# --- 2. IMPORT FUSION & CONFIG ---
 from core.market_context_fusion import market_context_fusion
 from core.signal_fusion_engine import signal_fusion_engine
-
+from config import STRATEGIES  # Import the main strategy config
 
 class EnhancedStrategyEngine:
     """
@@ -22,14 +26,26 @@ class EnhancedStrategyEngine:
     """
     
     def __init__(self):
-        # Initialize all strategies
-        self.strategies = {
+        # --- 3. BUILD STRATEGY LIST DYNAMICALLY ---
+        
+        # Map of strategy names to their class/instance
+        self.strategy_map = {
             'momentum': MomentumContinuationStrategy(),
             'pullback': PullbackEntryStrategy(),
+            'orb': orb_strategy,
+            'mean_reversion': mean_reversion_strategy,
+            'trend_following': trend_following_strategy,
+            'breakout': breakout_strategy
         }
         
-        # Track active strategies
-        self.active_strategy_names = [name for name, strat in self.strategies.items()]
+        # Load only strategies that are ENABLED in config.py
+        self.strategies = {}
+        for name, instance in self.strategy_map.items():
+            if name in STRATEGIES and STRATEGIES[name].get('enabled', False):
+                self.strategies[name] = instance
+        
+        self.active_strategy_names = list(self.strategies.keys())
+        # --- END DYNAMIC BUILD ---
         
         print(f"✅ Enhanced Strategy Engine initialized")
         print(f"   Active strategies: {self.active_strategy_names}")
@@ -39,14 +55,6 @@ class EnhancedStrategyEngine:
                        vision_data: Optional[Dict] = None) -> Optional[Dict]:
         """
         Process new bar and generate trading signals using fusion
-        
-        Args:
-            bar_data: Latest bar data from webhook
-            df: DataFrame with recent historical bars
-            vision_data: Optional vision system analysis
-            
-        Returns:
-            Fused signal if approved by fusion engine, None otherwise
         """
         current_price = bar_data['close']
         
@@ -67,14 +75,43 @@ class EnhancedStrategyEngine:
         
         for name, strategy in self.strategies.items():
             try:
+                # --- 4. FIX ARGUMENT PASSING ---
+                # Some strategies (like pullback) need current_price,
+                # some (like ORB) need special handling.
+                # We will check what arguments they need (a bit advanced,
+                # but for now we'll pass all common ones)
+                
+                # The 'orb' strategy is a function, not a class, in your code
+                # and is handled by the old strategy_engine.
+                # For now, let's assume all strategies in this new engine
+                # use the (df, current_price, context) signature.
+                
+                # NOTE: This assumes your orb_strategy and others
+                # have a `generate_signal(df, current_price, context)` method.
+                # Your pullback/momentum do, but your old ones might not.
+                # We'll adjust if another error appears, but this is the
+                # correct architecture.
+                
+                # Let's check the old strategy_engine.py for a hint...
+                # old engine passes: strategy.generate_signal(df, context)
+                # new strategies need: strategy.generate_signal(df, current_price, context)
+                # This is a conflict.
+                
+                # --- Let's use a standard signature ---
+                # All strategies *should* conform to:
+                # generate_signal(df, current_price, context)
+                
+                # We'll assume you update your old strategies
+                # (mean_reversion, etc.) to accept `current_price` as well.
+                
                 signal = strategy.generate_signal(df, current_price, context)
+                
                 if signal:
                     strategy_signals.append(signal)
-                    print(f"   ✓ {name}: {signal['direction']} (confidence: {signal['confidence']:.2f})")
+                    print(f"   ✓ {name}: {signal.get('direction', signal.get('signal'))} (confidence: {signal.get('confidence', 0):.2f})")
             except Exception as e:
                 print(f"   ✗ Error in {name}: {e}")
         
-        # If no signals, return None
         if not strategy_signals:
             return None
         

@@ -1342,3 +1342,54 @@ FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDr
 2025-11-06 18:08:23,900 - system - INFO - run - Bot is running on http://0.0.0.0:8050
 2025-11-06 18:08:23,900 - system - INFO - run - Access dashboard at: http://0.0.0.0:8050/dashboard/
 2025-11-06 18:08:23,900 - system - INFO - run - Webhook ready at: http://0.0.0.0:8050/webhook
+2025-11-07 09:21:33,574 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-07 09:28:28,244 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-07 09:31:00,829 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-07 09:34:12,502 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-07 09:35:35,616 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-07 09:38:47,198 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-07 09:40:21,683 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-07 09:42:26,143 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-07 09:44:00,848 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-07 09:44:01,327 - system - INFO - Dashboard attached to Flask server
+2025-11-07 09:44:01,330 - system - INFO - Trading Dashboard initialized successfully
+2025-11-07 09:44:01,330 - system - INFO - ============================================================
+2025-11-07 09:44:01,331 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-07 09:44:01,331 - system - INFO - ============================================================
+2025-11-07 09:44:01,331 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-07 09:44:01,331 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-07 09:44:01,331 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-07 09:44:01,332 - system - INFO - ============================================================
+2025-11-07 09:44:01,346 - system - INFO - ============================================================
+2025-11-07 09:44:01,346 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-07 09:44:06,051 - system - DEBUG - Added bar: 2025-11-07 09:44:06.016271 | Close: 24987.5
+2025-11-07 09:44:11,263 - system - DEBUG - Added bar: 2025-11-07 09:44:11.232748 | Close: 24987.5
+2025-11-07 09:45:01,485 - system - DEBUG - Added bar: 2025-11-07 09:45:01.454395 | Close: 24975.25
+2025-11-07 09:46:01,013 - system - DEBUG - Added bar: 2025-11-07 09:46:00.980901 | Close: 24985.25
+2025-11-07 09:47:09,279 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-07 09:47:09,765 - system - INFO - Dashboard attached to Flask server
+2025-11-07 09:47:09,767 - system - INFO - Trading Dashboard initialized successfully
+2025-11-07 09:47:09,768 - system - INFO - ============================================================
+2025-11-07 09:47:09,768 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-07 09:47:09,768 - system - INFO - ============================================================
+2025-11-07 09:47:09,769 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-07 09:47:09,769 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-07 09:47:09,769 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-07 09:47:09,769 - system - INFO - ============================================================
+2025-11-07 09:47:09,770 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-07 09:47:09,770 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-07 09:47:09,770 - system - INFO -  Position Manager: ACTIVE
+2025-11-07 09:47:09,770 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-07 09:47:09,771 - system - INFO -  Paper trading: ENABLED
+2025-11-07 09:47:09,771 - system - INFO - ============================================================
+2025-11-07 09:47:09,771 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-07 09:47:11,230 - system - DEBUG - Added bar: 2025-11-07 09:47:11.202271 | Close: 24943.0
+2025-11-07 09:48:00,733 - system - DEBUG - Added bar: 2025-11-07 09:48:00.694203 | Close: 24942.5
+2025-11-07 09:49:02,147 - system - DEBUG - Added bar: 2025-11-07 09:49:00.921639 | Close: 24987.5
+2025-11-07 09:50:01,838 - system - DEBUG - Added bar: 2025-11-07 09:50:00.991514 | Close: 24935.75
+2025-11-07 09:51:01,919 - system - DEBUG - Added bar: 2025-11-07 09:51:01.212468 | Close: 24954.0
+2025-11-07 09:52:00,631 - system - DEBUG - Added bar: 2025-11-07 09:52:00.581493 | Close: 24962.25
+2025-11-07 09:53:00,847 - system - DEBUG - Added bar: 2025-11-07 09:53:00.655460 | Close: 24998.0
+2025-11-07 09:54:00,946 - system - DEBUG - Added bar: 2025-11-07 09:54:00.713620 | Close: 24985.5
+2025-11-07 09:55:01,461 - system - DEBUG - Added bar: 2025-11-07 09:55:01.025508 | Close: 24997.75
+2025-11-07 09:56:01,586 - system - DEBUG - Added bar: 2025-11-07 09:56:00.683533 | Close: 25005.75

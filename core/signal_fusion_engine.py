@@ -101,7 +101,65 @@ class SignalFusionEngine:
             })
             
             return fused_result
-    
+
+
+# ... (This function goes INSIDE the SignalFusionEngine class)
+
+    def _fuse_signals(self, signals: List[Dict], context: Dict) -> Optional[Dict]:
+        """
+        Advanced fusion logic.
+        This is the "brain" that combines signals and checks for confluence.
+        """
+        # --- 1. Separate signals by direction ---
+        long_signals = [s for s in signals if s.get('direction', s.get('signal')) == 'LONG']
+        short_signals = [s for s in signals if s.get('direction', s.get('signal')) == 'SHORT']
+
+        # --- 2. Reject if signals are conflicting ---
+        if long_signals and short_signals:
+            self.logger.log_trade_rejected(signals, "Conflicting signals (LONG and SHORT)", context)
+            return None
+        
+        if not long_signals and not short_signals:
+            return None # No signals to fuse
+        
+        target_signals = long_signals if long_signals else short_signals
+        direction = 'LONG' if long_signals else 'SHORT'
+        
+        # --- 3. Calculate fused weight and confidence ---
+        fused_weight = sum(s['weight'] for s in target_signals)
+        fused_confidence = sum(s.get('confidence', 0.5) for s in target_signals) / len(target_signals) # Use 0.5 as default
+        
+        # --- 4. Check for Vision Confirmation ---
+        vision_sentiment = context.get('vision_sentiment', 'neutral')
+        vision_confirmed = False
+        
+        if (direction == 'LONG' and vision_sentiment == 'bullish') or \
+           (direction == 'SHORT' and vision_sentiment == 'bearish'):
+            vision_confirmed = True
+            fused_weight *= self.vision_weight_multiplier # Apply 20% boost
+            fused_weight = min(fused_weight, self.max_weight) # Cap at max
+        
+        # --- 5. Check for Convergence Bonus ---
+        if len(target_signals) > 1:
+            fused_weight += self.convergence_bonus
+            fused_weight = min(fused_weight, self.max_weight) # Cap at max
+        
+        # --- 6. Build the final, approved signal ---
+        # We take the price/stop/target from the *highest confidence* signal
+        best_signal = max(target_signals, key=lambda s: s.get('confidence', 0))
+        
+        return {
+            'strategy': 'fusion',
+            'direction': direction,
+            'price': best_signal.get('price'),
+            'stop': best_signal.get('stop'),   # Will be overwritten by dynamic stops
+            'target': best_signal.get('target'),
+            'weight': fused_weight,
+            'confidence': fused_confidence,
+            'vision_confirmed': vision_confirmed,
+            'source_signals': [s['strategy'] for s in target_signals],
+            'reason': f"Fused {len(target_signals)} signals. Vision: {vision_confirmed}"
+        }
     # ... (Your _fuse_signals, _in_cooldown_period, get_fusion_stats methods are here) ...
     # (No changes needed to them)
     

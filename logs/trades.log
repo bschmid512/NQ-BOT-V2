@@ -58,3 +58,4 @@
 2025-11-06 16:17:38,155 - trades - INFO - __init__ - Position Manager initialized: Max positions=1, Max daily loss=$-1000
 2025-11-06 16:20:37,574 - trades - INFO - __init__ - Position Manager initialized: Max positions=1, Max daily loss=$-1000
 2025-11-06 18:08:23,115 - trades - INFO - __init__ - Position Manager initialized: Max positions=1, Max daily loss=$-1000
+2025-11-07 00:00:00,506 - trades - INFO - reset_daily_counters - Daily reset: Previous P&L=$0.00, Trades=0
