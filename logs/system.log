@@ -1319,3 +1319,26 @@ FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDr
 2025-11-06 15:46:22,412 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
 2025-11-06 15:59:34,864 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
 2025-11-06 16:02:57,814 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-06 16:12:42,927 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-06 16:16:44,147 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-06 16:17:38,153 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-06 16:20:37,573 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-06 18:08:21,466 - system - INFO - _ensure_data_directory - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-06 18:08:23,801 - system - INFO - __init__ - ContextManager initialized (v1.1 - Less Strict).
+2025-11-06 18:08:23,881 - system - INFO - __init__ - Dashboard attached to Flask server
+2025-11-06 18:08:23,883 - system - INFO - __init__ - Trading Dashboard initialized successfully
+2025-11-06 18:08:23,884 - system - INFO - run_loop - ContextManager thread started.
+2025-11-06 18:08:23,895 - system - INFO - __init__ - ============================================================
+2025-11-06 18:08:23,895 - system - INFO - __init__ - NQ FUTURES TRADING BOT - COMPLETE VERSION
+2025-11-06 18:08:23,895 - system - INFO - __init__ - ============================================================
+2025-11-06 18:08:23,896 - system - INFO - __init__ - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-06 18:08:23,896 - system - INFO - __init__ - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-06 18:08:23,896 - system - INFO - __init__ - Health check: http://0.0.0.0:8050/health
+2025-11-06 18:08:23,897 - system - INFO - __init__ - Positions API: http://0.0.0.0:8050/positions
+2025-11-06 18:08:23,897 - system - INFO - __init__ - Stats API: http://0.0.0.0:8050/stats
+2025-11-06 18:08:23,897 - system - INFO - __init__ - ============================================================
+2025-11-06 18:08:23,900 - system - INFO - __init__ - ============================================================
+2025-11-06 18:08:23,900 - system - INFO - run - Starting NQ Trading Bot...
+2025-11-06 18:08:23,900 - system - INFO - run - Bot is running on http://0.0.0.0:8050
+2025-11-06 18:08:23,900 - system - INFO - run - Access dashboard at: http://0.0.0.0:8050/dashboard/
+2025-11-06 18:08:23,900 - system - INFO - run - Webhook ready at: http://0.0.0.0:8050/webhook

@@ -28756,3 +28756,159 @@ Traceback (most recent call last):
     if (current_time - self.entry_time).total_seconds() > 7200:
         ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
 TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 16:05:11,741 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 16:05:11.690334 | O:25264.00 H:25271.25 L:25260.75 C:25266.00 V:1193.0
+2025-11-06 16:05:11,741 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 16:05:17,293 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 16:05:17.250836 | O:25264.00 H:25271.25 L:25260.75 C:25266.00 V:1193.0
+2025-11-06 16:05:17,293 - webhook - ERROR - receive_webhook - Error processing webhook: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 83, in receive_webhook
+    position_manager.update_positions(current_price, current_time)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 227, in update_positions
+    exit_reason = position.update(current_price, current_time)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\position_manager.py", line 78, in update
+    if (current_time - self.entry_time).total_seconds() > 7200:
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'str'
+2025-11-06 18:23:00,832 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:23:00.775833 | O:25302.25 H:25306.75 L:25302.00 C:25305.00 V:226.0
+2025-11-06 18:24:00,534 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:24:00.489634 | O:25305.25 H:25316.00 L:25304.50 C:25312.25 V:700.0
+2025-11-06 18:25:00,524 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:25:00.497612 | O:25313.25 H:25314.50 L:25304.25 C:25310.25 V:484.0
+2025-11-06 18:26:00,691 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:26:00.653064 | O:25310.25 H:25312.25 L:25305.25 C:25307.25 V:280.0
+2025-11-06 18:27:00,412 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:27:00.376942 | O:25307.00 H:25313.00 L:25306.75 C:25310.00 V:285.0
+2025-11-06 18:28:00,798 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:28:00.767649 | O:25310.00 H:25312.25 L:25307.25 C:25308.25 V:309.0
+2025-11-06 18:29:01,986 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:29:01.950044 | O:25308.00 H:25312.00 L:25302.00 C:25311.75 V:399.0
+2025-11-06 18:30:00,428 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:30:00.377109 | O:25312.00 H:25312.00 L:25306.50 C:25307.00 V:238.0
+2025-11-06 18:31:02,989 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:31:02.957304 | O:25307.75 H:25313.25 L:25305.00 C:25306.00 V:309.0
+2025-11-06 18:32:00,598 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:32:00.556769 | O:25306.50 H:25311.50 L:25305.50 C:25306.75 V:266.0
+2025-11-06 18:33:00,428 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:33:00.393738 | O:25308.25 H:25308.25 L:25302.75 C:25306.50 V:262.0
+2025-11-06 18:34:02,412 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:34:02.374024 | O:25307.00 H:25309.50 L:25305.75 C:25305.75 V:235.0
+2025-11-06 18:35:00,587 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:35:00.553122 | O:25305.50 H:25306.50 L:25295.25 C:25301.50 V:846.0
+2025-11-06 18:36:01,334 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:36:01.296382 | O:25301.50 H:25304.25 L:25295.75 C:25297.25 V:377.0
+2025-11-06 18:37:00,442 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:37:00.402413 | O:25297.00 H:25302.75 L:25293.50 C:25301.75 V:546.0
+2025-11-06 18:38:00,430 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:38:00.392690 | O:25301.25 H:25310.50 L:25301.00 C:25309.50 V:507.0
+2025-11-06 18:39:00,299 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:39:00.268911 | O:25309.75 H:25313.50 L:25306.00 C:25312.00 V:364.0
+2025-11-06 18:40:00,347 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:40:00.316391 | O:25311.75 H:25313.00 L:25309.25 C:25311.00 V:178.0
+2025-11-06 18:41:00,415 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:41:00.378302 | O:25310.50 H:25311.50 L:25306.25 C:25309.75 V:307.0
+2025-11-06 18:42:00,469 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:42:00.436431 | O:25309.50 H:25313.00 L:25307.25 C:25311.25 V:283.0
+2025-11-06 18:43:00,569 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:43:00.531665 | O:25311.25 H:25323.50 L:25311.25 C:25320.00 V:1104.0
+2025-11-06 18:44:01,277 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:44:01.239752 | O:25320.00 H:25322.00 L:25313.00 C:25321.75 V:664.0
+2025-11-06 18:45:00,535 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:45:00.499969 | O:25321.00 H:25328.25 L:25318.75 C:25326.25 V:651.0
+2025-11-06 18:46:00,471 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:46:00.436659 | O:25326.75 H:25336.00 L:25326.75 C:25332.50 V:1061.0
+2025-11-06 18:47:01,139 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:47:01.100981 | O:25332.50 H:25332.75 L:25325.50 C:25328.75 V:542.0
+2025-11-06 18:48:00,349 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:48:00.305338 | O:25328.75 H:25329.75 L:25322.25 C:25327.75 V:499.0
+2025-11-06 18:49:00,502 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:49:00.472745 | O:25327.50 H:25330.75 L:25323.50 C:25327.50 V:434.0
+2025-11-06 18:50:00,429 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:50:00.394561 | O:25327.00 H:25329.00 L:25320.25 C:25322.00 V:579.0
+2025-11-06 18:51:00,466 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:51:00.432971 | O:25321.75 H:25325.00 L:25316.25 C:25318.50 V:584.0
+2025-11-06 18:52:00,380 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:52:00.339048 | O:25317.75 H:25321.25 L:25316.50 C:25320.00 V:266.0
+2025-11-06 18:53:00,336 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:53:00.296127 | O:25320.00 H:25322.75 L:25318.25 C:25320.25 V:278.0
+2025-11-06 18:54:00,311 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:54:00.270314 | O:25320.00 H:25323.75 L:25315.00 C:25323.75 V:288.0
+2025-11-06 18:55:00,421 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:55:00.386806 | O:25323.50 H:25329.50 L:25321.75 C:25326.75 V:516.0
+2025-11-06 18:56:00,317 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:56:00.277273 | O:25326.75 H:25328.25 L:25315.00 C:25318.00 V:746.0
+2025-11-06 18:57:00,282 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:57:00.245710 | O:25317.50 H:25322.00 L:25316.50 C:25319.50 V:301.0
+2025-11-06 18:58:00,312 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:58:00.272585 | O:25318.75 H:25324.00 L:25317.50 C:25323.75 V:189.0
+2025-11-06 18:59:00,455 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 18:59:00.416031 | O:25322.50 H:25326.00 L:25321.00 C:25321.00 V:303.0
+2025-11-06 19:01:01,399 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:01:01.360691 | O:25316.75 H:25318.25 L:25285.25 C:25289.75 V:2655.0
+2025-11-06 19:02:00,513 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:02:00.475665 | O:25290.50 H:25299.25 L:25279.50 C:25298.75 V:1718.0
+2025-11-06 19:03:00,263 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:03:00.224954 | O:25299.00 H:25308.50 L:25290.75 C:25297.75 V:1374.0
+2025-11-06 19:04:00,660 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:04:00.624543 | O:25297.50 H:25314.00 L:25296.00 C:25312.00 V:1262.0
+2025-11-06 19:05:00,348 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:05:00.311684 | O:25312.00 H:25327.00 L:25310.25 C:25324.50 V:1412.0
+2025-11-06 19:06:00,576 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:06:00.539444 | O:25324.25 H:25328.75 L:25319.00 C:25326.50 V:746.0
+2025-11-06 19:07:00,237 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:07:00.194513 | O:25326.75 H:25342.75 L:25326.00 C:25342.00 V:1739.0
+2025-11-06 19:08:00,639 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:08:00.597545 | O:25342.00 H:25342.50 L:25333.00 C:25333.50 V:766.0
+2025-11-06 19:09:00,349 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:09:00.311517 | O:25333.00 H:25337.00 L:25324.25 C:25327.00 V:659.0
+2025-11-06 19:10:00,563 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:10:00.529834 | O:25327.00 H:25334.50 L:25316.25 C:25325.00 V:1199.0
+2025-11-06 19:11:00,445 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:11:00.403343 | O:25324.75 H:25327.50 L:25319.25 C:25320.00 V:636.0
+2025-11-06 19:12:00,452 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:12:00.412719 | O:25320.25 H:25326.00 L:25318.25 C:25319.25 V:445.0
+2025-11-06 19:13:00,313 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:13:00.270154 | O:25319.25 H:25323.25 L:25305.00 C:25310.25 V:1223.0
+2025-11-06 19:14:00,418 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:14:00.374316 | O:25309.75 H:25322.00 L:25300.25 C:25316.00 V:1549.0
+2025-11-06 19:15:00,327 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:15:00.301389 | O:25315.75 H:25320.25 L:25308.25 C:25313.50 V:571.0
+2025-11-06 19:16:00,971 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:16:00.936810 | O:25313.50 H:25317.25 L:25310.75 C:25311.25 V:569.0
+2025-11-06 19:17:00,366 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:17:00.330040 | O:25311.75 H:25318.50 L:25310.50 C:25318.00 V:465.0
+2025-11-06 19:18:00,269 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:18:00.233364 | O:25317.50 H:25318.50 L:25304.25 C:25305.25 V:545.0
+2025-11-06 19:19:00,377 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:19:00.332073 | O:25305.50 H:25306.75 L:25296.25 C:25305.00 V:1376.0
+2025-11-06 19:20:00,303 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:20:00.265159 | O:25305.25 H:25305.25 L:25298.00 C:25298.50 V:535.0
+2025-11-06 19:21:00,362 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:21:00.318864 | O:25298.50 H:25311.00 L:25295.25 C:25310.00 V:723.0
+2025-11-06 19:22:00,453 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:22:00.407313 | O:25311.00 H:25322.75 L:25307.50 C:25320.25 V:830.0
+2025-11-06 19:23:00,461 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:23:00.430880 | O:25320.00 H:25323.50 L:25315.75 C:25319.25 V:573.0
+2025-11-06 19:24:00,458 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:24:00.415664 | O:25318.00 H:25323.25 L:25315.25 C:25316.00 V:332.0
+2025-11-06 19:25:00,430 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:25:00.392639 | O:25316.00 H:25328.00 L:25315.75 C:25326.75 V:592.0
+2025-11-06 19:26:00,972 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:26:00.941808 | O:25326.50 H:25328.25 L:25322.50 C:25325.00 V:450.0
+2025-11-06 19:27:00,499 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:27:00.456297 | O:25325.25 H:25326.00 L:25314.50 C:25318.75 V:570.0
+2025-11-06 19:28:00,692 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:28:00.656856 | O:25319.75 H:25321.00 L:25313.50 C:25316.25 V:463.0
+2025-11-06 19:29:00,786 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:29:00.744971 | O:25316.50 H:25323.00 L:25315.00 C:25319.50 V:456.0
+2025-11-06 19:30:00,309 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:30:00.275928 | O:25319.50 H:25323.25 L:25316.50 C:25322.00 V:299.0
+2025-11-06 19:31:00,541 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:31:00.504912 | O:25322.25 H:25328.75 L:25319.50 C:25327.25 V:459.0
+2025-11-06 19:32:00,495 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:32:00.456061 | O:25326.75 H:25332.25 L:25325.50 C:25329.50 V:575.0
+2025-11-06 19:33:00,295 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:33:00.250397 | O:25330.25 H:25334.50 L:25329.00 C:25332.75 V:569.0
+2025-11-06 19:34:00,423 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:34:00.376957 | O:25333.25 H:25336.00 L:25330.75 C:25334.75 V:564.0
+2025-11-06 19:35:00,305 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:35:00.271234 | O:25335.00 H:25342.75 L:25333.25 C:25342.25 V:669.0
+2025-11-06 19:36:00,264 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:36:00.220490 | O:25342.50 H:25344.00 L:25336.50 C:25338.00 V:679.0
+2025-11-06 19:37:00,368 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:37:00.328455 | O:25338.00 H:25345.00 L:25338.00 C:25343.00 V:759.0
+2025-11-06 19:38:00,289 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:38:00.252544 | O:25343.00 H:25345.75 L:25341.25 C:25343.00 V:582.0
+2025-11-06 19:39:00,555 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:39:00.515994 | O:25343.50 H:25346.25 L:25340.75 C:25342.75 V:510.0
+2025-11-06 19:40:00,437 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:40:00.407374 | O:25342.75 H:25344.50 L:25339.00 C:25340.75 V:514.0
+2025-11-06 19:41:00,351 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:41:00.317897 | O:25341.25 H:25346.75 L:25340.75 C:25345.50 V:476.0
+2025-11-06 19:42:00,310 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:42:00.272022 | O:25346.00 H:25347.50 L:25343.50 C:25344.25 V:652.0
+2025-11-06 19:43:00,477 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:43:00.426226 | O:25344.50 H:25347.25 L:25342.75 C:25344.50 V:513.0
+2025-11-06 19:44:00,443 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:44:00.406059 | O:25344.75 H:25346.75 L:25343.50 C:25346.25 V:238.0
+2025-11-06 19:45:00,341 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:45:00.307448 | O:25346.00 H:25347.00 L:25343.50 C:25345.00 V:191.0
+2025-11-06 19:46:00,345 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:46:00.309912 | O:25345.50 H:25348.25 L:25343.75 C:25345.75 V:428.0
+2025-11-06 19:47:00,235 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:47:00.200008 | O:25346.25 H:25348.75 L:25345.00 C:25347.00 V:344.0
+2025-11-06 19:48:00,261 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:48:00.217709 | O:25347.00 H:25348.50 L:25346.00 C:25346.25 V:205.0
+2025-11-06 19:49:00,316 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:49:00.278062 | O:25346.75 H:25349.50 L:25346.25 C:25347.00 V:196.0
+2025-11-06 19:50:00,564 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:50:00.525399 | O:25347.50 H:25348.50 L:25343.25 C:25345.00 V:467.0
+2025-11-06 19:51:00,315 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:51:00.275818 | O:25344.75 H:25345.25 L:25339.00 C:25340.50 V:568.0
+2025-11-06 19:52:00,343 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:52:00.312973 | O:25341.00 H:25348.00 L:25340.00 C:25342.75 V:364.0
+2025-11-06 19:53:00,361 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:53:00.328716 | O:25343.25 H:25348.25 L:25342.75 C:25347.00 V:375.0
+2025-11-06 19:54:00,356 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:54:00.322653 | O:25346.75 H:25348.75 L:25345.75 C:25348.25 V:215.0
+2025-11-06 19:55:00,329 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:55:00.288197 | O:25348.50 H:25350.00 L:25346.75 C:25348.00 V:341.0
+2025-11-06 19:56:00,464 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:56:00.425656 | O:25348.00 H:25348.25 L:25341.25 C:25342.00 V:383.0
+2025-11-06 19:57:00,580 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:57:00.539985 | O:25342.00 H:25346.25 L:25329.25 C:25330.75 V:1042.0
+2025-11-06 19:58:00,344 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:58:00.299740 | O:25330.75 H:25335.50 L:25324.25 C:25326.50 V:1228.0
+2025-11-06 19:59:00,548 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 19:59:00.504918 | O:25327.00 H:25335.25 L:25326.25 C:25330.75 V:622.0
+2025-11-06 20:00:00,640 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:00:00.602735 | O:25330.75 H:25331.75 L:25318.50 C:25323.25 V:845.0
+2025-11-06 20:01:00,693 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:01:00.655559 | O:25323.75 H:25328.25 L:25310.75 C:25312.25 V:1833.0
+2025-11-06 20:02:00,639 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:02:00.599391 | O:25312.25 H:25330.75 L:25311.00 C:25328.00 V:1125.0
+2025-11-06 20:03:00,557 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:03:00.520998 | O:25327.75 H:25328.50 L:25318.25 C:25323.75 V:821.0
+2025-11-06 20:04:00,588 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:04:00.549971 | O:25324.25 H:25334.00 L:25323.75 C:25328.75 V:621.0
+2025-11-06 20:05:00,393 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:05:00.358702 | O:25328.75 H:25332.25 L:25323.00 C:25332.25 V:412.0
+2025-11-06 20:06:00,483 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:06:00.454812 | O:25331.25 H:25332.00 L:25311.75 C:25316.25 V:865.0
+2025-11-06 20:07:00,438 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:07:00.411428 | O:25315.25 H:25315.50 L:25297.75 C:25303.75 V:2006.0
+2025-11-06 20:08:00,499 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:08:00.460642 | O:25303.50 H:25303.50 L:25280.75 C:25283.50 V:2125.0
+2025-11-06 20:09:00,596 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:09:00.557793 | O:25283.00 H:25298.00 L:25271.25 C:25291.00 V:2506.0
+2025-11-06 20:10:00,509 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:10:00.475643 | O:25290.25 H:25294.25 L:25275.50 C:25279.00 V:1218.0
+2025-11-06 20:11:00,411 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:11:00.354798 | O:25278.75 H:25291.50 L:25277.00 C:25289.50 V:1129.0
+2025-11-06 20:12:00,358 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:12:00.322968 | O:25289.50 H:25308.00 L:25288.00 C:25307.50 V:1391.0
+2025-11-06 20:13:00,570 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:13:00.539134 | O:25307.25 H:25307.50 L:25298.75 C:25304.25 V:750.0
+2025-11-06 20:14:00,489 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:14:00.454024 | O:25304.00 H:25308.25 L:25297.25 C:25301.25 V:730.0
+2025-11-06 20:15:02,633 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:15:02.584637 | O:25301.00 H:25309.00 L:25300.25 C:25304.75 V:689.0
+2025-11-06 20:16:00,671 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:16:00.644784 | O:25305.00 H:25306.25 L:25291.75 C:25296.00 V:990.0
+2025-11-06 20:17:00,889 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:17:00.865581 | O:25296.00 H:25305.75 L:25294.75 C:25300.25 V:712.0
+2025-11-06 20:18:00,461 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:18:00.438463 | O:25300.25 H:25306.50 L:25296.50 C:25305.75 V:506.0
+2025-11-06 20:19:00,527 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:19:00.505745 | O:25305.75 H:25306.50 L:25287.50 C:25288.75 V:1101.0
+2025-11-06 20:20:00,395 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:20:00.373503 | O:25288.00 H:25294.75 L:25284.00 C:25285.75 V:796.0
+2025-11-06 20:21:00,504 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:21:00.474163 | O:25286.00 H:25291.50 L:25272.00 C:25272.75 V:1494.0
+2025-11-06 20:22:00,514 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:22:00.492824 | O:25272.25 H:25274.75 L:25262.25 C:25264.00 V:2211.0
+2025-11-06 20:23:00,634 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:23:00.610863 | O:25263.75 H:25268.25 L:25256.75 C:25267.25 V:1322.0
+2025-11-06 20:24:00,641 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:24:00.607920 | O:25266.75 H:25282.50 L:25266.50 C:25280.75 V:1131.0
+2025-11-06 20:25:00,453 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:25:00.422246 | O:25281.25 H:25282.25 L:25273.50 C:25281.50 V:774.0
+2025-11-06 20:26:00,749 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:26:00.726079 | O:25282.00 H:25282.00 L:25268.50 C:25278.00 V:766.0
+2025-11-06 20:27:00,741 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:27:00.709111 | O:25277.25 H:25278.00 L:25262.75 C:25265.75 V:694.0
+2025-11-06 20:28:00,660 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:28:00.637877 | O:25266.75 H:25271.25 L:25262.00 C:25269.00 V:682.0
+2025-11-06 20:29:00,643 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:29:00.622590 | O:25269.50 H:25270.00 L:25261.25 C:25265.75 V:463.0
+2025-11-06 20:30:00,570 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:30:00.548954 | O:25265.50 H:25268.25 L:25245.25 C:25249.75 V:1947.0
+2025-11-06 20:31:00,481 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:31:00.445827 | O:25249.25 H:25255.25 L:25242.75 C:25247.75 V:1628.0
+2025-11-06 20:32:00,419 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:32:00.388488 | O:25248.50 H:25261.75 L:25246.25 C:25257.00 V:1300.0
+2025-11-06 20:33:00,404 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:33:00.377162 | O:25257.25 H:25259.25 L:25247.75 C:25253.50 V:881.0
+2025-11-06 20:34:00,484 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:34:00.464073 | O:25253.75 H:25256.00 L:25239.75 C:25242.75 V:1114.0
+2025-11-06 20:35:00,432 - webhook - INFO - receive_webhook - Bar received: 2025-11-06 20:35:00.410774 | O:25243.25 H:25245.00 L:25217.25 C:25223.75 V:3302.0

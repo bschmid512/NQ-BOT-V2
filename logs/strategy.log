@@ -3378,3 +3378,7 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^
 AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
 2025-11-06 09:32:01,133 - strategy - INFO - log_signal - SIGNAL | Strategy: breakout | SHORT | Confidence: 40.00% | Price: 25637.75
+2025-11-06 18:08:23,101 - strategy - INFO - __init__ - ORB Strategy initialized: 15min period, 50.0% target
+2025-11-06 18:08:23,105 - strategy - INFO - __init__ - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-06 18:08:23,113 - strategy - INFO - __init__ - Strategy Engine initialized
+2025-11-06 18:08:23,114 - strategy - INFO - __init__ - Active strategies: ['orb', 'mean_reversion', 'trend_following', 'breakout']
