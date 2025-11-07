@@ -11,8 +11,8 @@ from strategies.momentum_continuation_strategy import MomentumContinuationStrate
 from strategies.pullback_entry_strategy import PullbackEntryStrategy
 
 # Import fusion systems
-from market_context_fusion import market_context_fusion
-from signal_fusion_engine import signal_fusion_engine
+from core.market_context_fusion import market_context_fusion
+from core.signal_fusion_engine import signal_fusion_engine
 
 
 class EnhancedStrategyEngine:

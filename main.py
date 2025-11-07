@@ -1,6 +1,7 @@
 """
-Main Application Entry Point for NQ Trading Bot - COMPLETE VERSION
-Integrates: Flask webhook + Dash dashboard + Strategy engine + Position manager
+Main Application Entry Point for NQ Trading Bot
+*** FUSION ARCHITECTURE - V3 ***
+Integrates: Flask webhook + Dash dashboard + Enhanced Strategy Engine + Fusion Engine
 """
 import sys
 from pathlib import Path
@@ -11,20 +12,28 @@ from datetime import datetime
 import dash
 from dash import html, dcc
 import dash_bootstrap_components as dbc
+import io
 
-from config import WEBHOOK_PORT, WEBHOOK_PASSPHRASE
+# --- Core Component Imports ---
+from config import WEBHOOK_PORT, WEBHOOK_PASSPHHRASE
 from utils.data_handler import data_handler
 from utils.logger import trading_logger
 from dashboard.trading_dashboard import TradingDashboard
-from strategy_engine import strategy_engine
-from position_manager import position_manager
-from utils.context_manager import context_manager # <-- 1. IMPORT IT
-import io
-# Add these lines with your other strategy imports
-from strategies.trend_following_strategy import TrendFollowingStrategy
-from strategies.breakout_strategy import BreakoutStrategy
+
+# --- NEW FUSION IMPORTS ---
+# We now import the components that make the decisions
+from core.market_context_fusion import market_context_fusion
+from core.enhanced_strategy_engine import enhanced_strategy_engine
+from core.position_manager import position_manager
+# from core.signal_fusion_engine import signal_fusion_engine # Imported by enhanced_strategy_engine
+# from utils.context_manager import context_manager # This is now replaced by market_context_fusion
+
+# --- END FUSION IMPORTS ---
+
+# UTF-8 encoding for stdout/stderr
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
+
 # Create Flask server first
 server = Flask(__name__)
 logger = trading_logger.webhook_logger
@@ -33,20 +42,17 @@ logger = trading_logger.webhook_logger
 def receive_webhook():
     """
     Handle incoming webhook from TradingView
-    NOW WITH STRATEGY EXECUTION!
+    *** NOW WITH FUSION ENGINE LOGIC ***
     """
     try:
-        # Validate content type (allow charset parameter)
+        # ... (Validation for content type, empty data, passphrase is the same) ...
         if not request.content_type or not request.content_type.startswith('application/json'):
             logger.warning(f"Invalid content type: {request.content_type}")
             return jsonify({'status': 'error', 'message': 'Content-Type must be application/json'}), 400
-        
         data = request.json
         if not data:
             logger.warning("Empty request body")
             return jsonify({'status': 'error', 'message': 'Empty request body'}), 400
-        
-        # Verify passphrase for security
         if data.get('passphrase') != WEBHOOK_PASSPHRASE:
             logger.warning(f"Invalid passphrase attempt from {request.remote_addr}")
             return jsonify({'status': 'error', 'message': 'Invalid passphrase'}), 401
@@ -61,8 +67,7 @@ def receive_webhook():
             'volume': float(data.get('volume', 0))
         }
         
-        # Validate data
-        if bar_data['close'] == 0:
+        if bar_data['close'] == 0: # Validate data
             logger.warning("Invalid bar data: close price is 0")
             return jsonify({'status': 'error', 'message': 'Invalid price data'}), 400
         
@@ -78,41 +83,62 @@ def receive_webhook():
             f"L:{bar_data['low']:.2f} C:{current_price:.2f} V:{bar_data['volume']}"
         )
         
-        # ⭐⭐⭐ THIS IS THE KEY ADDITION ⭐⭐⭐
-        # Update existing positions first (check stops/targets)
+        # === NEW FUSION LOGIC PIPELINE ===
+
+        # 1. Update existing positions first (check stops/targets)
         position_manager.update_positions(current_price, current_time)
         
-        # <-- 2. GET CONTEXT from our new manager
-        current_context = context_manager.get_market_context()
-        logger.debug(f"Current Context: {current_context}")
+        # 2. Get historical data for context and strategy analysis
+        df = data_handler.get_latest_bars(200)
         
-        # Run strategy engine to generate new signals
-        # <-- 3. PASS CONTEXT to the engine
-        signals = strategy_engine.process_new_bar(bar_data, current_context)
+        # 3. Process data through the Enhanced Strategy Engine
+        # This single call will:
+        #   - Update market_context_fusion
+        #   - Get the unified context
+        #   - Run all strategies (pullback, momentum, etc.)
+        #   - Send all signals to signal_fusion_engine
+        #   - Return ONE final, approved signal (or None)
         
-        # If we got signals and can open positions, do it
-        if signals:
-            for signal in signals:
-                # Check if we can open a new position
-                can_open, reason = position_manager.can_open_position()
+        # Note: We pass vision_data=None because the vision loop isn't connected here yet.
+        fused_signal = enhanced_strategy_engine.process_new_bar(
+            bar_data=bar_data,
+            df=df,
+            vision_data=None 
+        )
+        
+        # 4. If we get a final, high-conviction signal, take action
+        if fused_signal:
+            # Check if we can open a new position
+            can_open, reason = position_manager.can_open_position()
+            
+            if can_open:
+                # --- IMPLEMENTS "SCALE IN/OUT" ---
+                # The fusion engine adds a 'size' key based on conviction
+                trade_size = fused_signal.get('size', 1) 
                 
-                if can_open:
-                    # Open position at current market price
-                    position = position_manager.open_position(signal, current_price)
-                    
-                    if position:
-                        logger.info(f"✅ Opened position from {signal['strategy']} signal")
-                else:
-                    logger.info(f"Signal from {signal['strategy']} rejected: {reason}")
+                position = position_manager.open_position(
+                    signal=fused_signal,
+                    entry_price=current_price,
+                    size=trade_size
+                )
+                
+                if position:
+                    logger.info(f"✅ FUSION TRADE OPENED ({trade_size} contracts) from {fused_signal['strategy']} signal")
+            else:
+                # Log the *rejection* from position_manager (e.g., max trades)
+                # The fusion engine's rejections are logged by the comprehensive_logger
+                logger.info(f"Fusion signal from {fused_signal['strategy']} rejected: {reason}")
+        
+        # === END FUSION LOGIC PIPELINE ===
         
         # Get daily stats for response
         daily_stats = position_manager.get_daily_stats()
         
         return jsonify({
             'status': 'success',
-            'message': 'Bar data received and processed',
+            'message': 'Bar data processed by Fusion Engine',
             'timestamp': bar_data['timestamp'],
-            'signals_generated': len(signals),
+            'signal_approved': 1 if fused_signal else 0,
             'open_positions': len(position_manager.get_open_positions()),
             'daily_pnl': daily_stats['pnl'],
             'daily_trades': daily_stats['trades']
@@ -125,33 +151,26 @@ def receive_webhook():
         logger.error(f"Error processing webhook: {e}", exc_info=True)
         return jsonify({'status': 'error', 'message': 'Internal server error'}), 500
 
+# ... (All other routes: /health, /stats, /positions, /close-all, / are IDENTICAL) ...
+
 @server.route('/health', methods=['GET'])
 def health_check():
-    """Health check endpoint with system status"""
     daily_stats = position_manager.get_daily_stats()
-    
     return jsonify({
-        'status': 'healthy',
-        'timestamp': datetime.now().isoformat(),
-        'service': 'NQ Trading Bot',
-        'open_positions': len(position_manager.get_open_positions()),
-        'daily_pnl': daily_stats['pnl'],
-        'daily_trades': daily_stats['trades'],
+        'status': 'healthy', 'timestamp': datetime.now().isoformat(),
+        'service': 'NQ Trading Bot (Fusion)', 'open_positions': len(position_manager.get_open_positions()),
+        'daily_pnl': daily_stats['pnl'], 'daily_trades': daily_stats['trades'],
         'daily_win_rate': daily_stats['win_rate']
     }), 200
 
 @server.route('/stats', methods=['GET'])
 def get_stats():
-    """Return detailed system statistics"""
     try:
         metrics = data_handler.calculate_performance_metrics()
         daily_stats = position_manager.get_daily_stats()
-        
         return jsonify({
-            'status': 'success',
-            'timestamp': datetime.now().isoformat(),
-            'overall': metrics,
-            'today': daily_stats,
+            'status': 'success', 'timestamp': datetime.now().isoformat(),
+            'overall': metrics, 'today': daily_stats,
             'open_positions': len(position_manager.get_open_positions())
         }), 200
     except Exception as e:
@@ -159,27 +178,11 @@ def get_stats():
 
 @server.route('/positions', methods=['GET'])
 def get_positions():
-    """Get current open positions"""
     try:
         open_positions = position_manager.get_open_positions()
-        
-        positions_data = [
-            {
-                'id': p.id,
-                'strategy': p.strategy,
-                'direction': p.direction,
-                'entry_price': p.entry_price,
-                'entry_time': p.entry_time.isoformat(),
-                'stop_loss': p.stop_loss,
-                'take_profit': p.take_profit,
-                'current_pnl_points': p.mfe if p.direction == 'LONG' else -p.mae
-            }
-            for p in open_positions
-        ]
-        
+        positions_data = [p.to_dict() for p in open_positions] # Simplified using to_dict()
         return jsonify({
-            'status': 'success',
-            'count': len(positions_data),
+            'status': 'success', 'count': len(positions_data),
             'positions': positions_data
         }), 200
     except Exception as e:
@@ -187,19 +190,14 @@ def get_positions():
 
 @server.route('/close-all', methods=['POST'])
 def force_close_all():
-    """Emergency endpoint to close all positions"""
     try:
-        # Get current market price from latest bar
         df = data_handler.get_latest_bars(1)
         if df.empty:
             return jsonify({'status': 'error', 'message': 'No market data available'}), 400
-        
         current_price = df['close'].iloc[-1]
         position_manager.force_close_all(current_price, reason="MANUAL_CLOSE")
-        
         return jsonify({
-            'status': 'success',
-            'message': 'All positions closed',
+            'status': 'success', 'message': 'All positions closed',
             'timestamp': datetime.now().isoformat()
         }), 200
     except Exception as e:
@@ -207,7 +205,6 @@ def force_close_all():
 
 @server.route('/')
 def redirect_to_dashboard():
-    """Redirect root to dashboard"""
     return redirect('/dashboard/')
 
 
@@ -221,49 +218,39 @@ class NQTradingBot:
         # Initialize Dash app with the Flask server
         self.dashboard = TradingDashboard(server=self.server)
         
-        # <-- 4. START THE CONTEXT MANAGER THREAD
-        try:
-            context_manager.start()
-            self.logger.info("✅ Market Context Manager thread: ACTIVE")
-        except Exception as e:
-            self.logger.error(f"Failed to start Context Manager: {e}")
+        # --- REMOVED OLD CONTEXT MANAGER ---
+        # The new fusion engine is passive and doesn't need a separate thread
+        # for yfinance data, simplifying the application.
         
         self.logger.info("=" * 60)
-        self.logger.info("NQ FUTURES TRADING BOT - COMPLETE VERSION")
+        self.logger.info("NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM")
         self.logger.info("=" * 60)
         self.logger.info(f"Webhook endpoint: http://0.0.0.0:{WEBHOOK_PORT}/webhook")
         self.logger.info(f"Dashboard URL: http://0.0.0.0:{WEBHOOK_PORT}/dashboard/")
         self.logger.info(f"Health check: http://0.0.0.0:{WEBHOOK_PORT}/health")
-        self.logger.info(f"Positions API: http://0.0.0.0:{WEBHOOK_PORT}/positions")
-        self.logger.info(f"Stats API: http://0.0.0.0:{WEBHOOK_PORT}/stats")
         self.logger.info("=" * 60)
-        self.logger.info("✅ Strategy engine: ACTIVE")
-        self.logger.info("✅ Position manager: ACTIVE")
+        self.logger.info("✅ Enhanced Strategy Engine: ACTIVE")
+        self.logger.info("✅ Signal Fusion Engine: ACTIVE")
+        self.logger.info("✅ Position Manager: ACTIVE")
+        self.logger.info("✅ Comprehensive Logger: ACTIVE")
         self.logger.info("✅ Paper trading: ENABLED")
         self.logger.info("=" * 60)
     
     def run(self, host='0.0.0.0', port=WEBHOOK_PORT, debug=False):
         """Start the trading bot application"""
         try:
-            self.logger.info("Starting NQ Trading Bot...")
-            
-            self.logger.info(f"Bot is running on http://{host}:{port}")
-            self.logger.info(f"Access dashboard at: http://{host}:{port}/dashboard/")
-            self.logger.info(f"Webhook ready at: http://{host}:{port}/webhook")
+            self.logger.info("Starting NQ Trading Bot (Fusion Mode)...")
             
             print("\n" + "=" * 60)
-            print("🚀 SUCCESS! NQ Trading Bot is FULLY OPERATIONAL")
+            print("🚀 SUCCESS! NQ Trading Bot is FULLY OPERATIONAL (FUSION MODE)")
             print("=" * 60)
             print(f"Dashboard:   http://localhost:{port}/dashboard/")
             print(f"Webhook:     http://localhost:{port}/webhook")
             print(f"Health:      http://localhost:{port}/health")
-            print(f"Positions:   http://localhost:{port}/positions")
-            print(f"Stats:       http://localhost:{port}/stats")
             print("=" * 60)
-            print("✅ Strategies ACTIVE and will execute on incoming data")
-            print("✅ Position management ENABLED")
+            print("✅ Enhanced Strategy Engine ACTIVE")
+            print("✅ Signal Fusion Engine will make all final decisions")
             print("✅ Paper trading mode: ON")
-            print("✅ Market Context (ES/VIX): ACTIVE") # <-- New status
             print("=" * 60)
             print("Press CTRL+C to stop\n")
             
@@ -272,7 +259,7 @@ class NQTradingBot:
                 host=host,
                 port=port,
                 debug=debug,
-                threaded=True, # Must be True for context manager
+                threaded=True, # Still need threaded for Dash and concurrent requests
                 use_reloader=False
             )
             
@@ -286,19 +273,10 @@ class NQTradingBot:
             except:
                 pass
             
-            # <-- 5. STOP THE CONTEXT MANAGER
-            self.logger.info("Stopping Context Manager...")
-            context_manager.stop()
-            
             self.logger.info("\nShutting down NQ Trading Bot...")
             sys.exit(0)
         except Exception as e:
             self.logger.error(f"Error starting bot: {e}", exc_info=True)
-            
-            # <-- 5. STOP THE CONTEXT MANAGER
-            self.logger.info("Stopping Context Manager...")
-            context_manager.stop()
-            
             sys.exit(1)
 
 

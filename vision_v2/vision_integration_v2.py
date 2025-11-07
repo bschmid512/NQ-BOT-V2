@@ -26,12 +26,12 @@ if str(bot_dir) not in sys.path:
     sys.path.insert(0, str(bot_dir))
 
 # Import enhanced vision modules
-from screen_capture_v2 import TradingViewCaptureV2
-from pattern_recognition_v2 import TradingViewAIV2
+from vision_v2.screen_capture_v2 import TradingViewCaptureV2
+from vision_v2.pattern_recognition_v2 import TradingViewAIV2
 
 # Try to import bot components
 try:
-    from position_manager import position_manager
+    from core.position_manager import position_manager
     from utils.data_handler import data_handler
     from utils.logger import trading_logger
     BOT_AVAILABLE = True

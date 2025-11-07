@@ -15,7 +15,7 @@ from utils.data_handler import data_handler
 from strategies.opening_range import orb_strategy
 from strategies.mean_reversion import mean_reversion_strategy
 from utils.context_manager import context_manager
-from position_manager import position_manager
+from core.position_manager import position_manager
 
 
 def print_section(title):

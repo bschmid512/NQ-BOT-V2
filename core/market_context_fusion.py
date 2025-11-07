@@ -8,7 +8,7 @@ from datetime import datetime
 import numpy as np
 import pandas as pd
 from config import ATR_PERIOD
-
+from core.comprehensive_logger import comprehensive_logger # <-- ADD THIS
 
 class MarketContextFusion:
     """
@@ -40,7 +40,17 @@ class MarketContextFusion:
         # Extract key visual elements
         if vision_analysis:
             print(f"👁️ Vision Update: {vision_analysis.get('statistics', {}).get('sentiment', 'unknown')}")
-    
+        try:
+            if self.price_data and not self.price_data['df'].empty:
+                df = self.price_data['df']
+                price_action = {
+                    'close': self.price_data['current_price'],
+                    'direction': 'bullish' if df.iloc[-1]['close'] > df.iloc[-1]['open'] else 'bearish',
+                    'change_pct': (df.iloc[-1]['close'] - df.iloc[-10]['close']) / df.iloc[-10]['close'] if len(df) > 10 else 0
+                }
+                self.logger.log_vision_analysis(vision_analysis, price_action)
+        except Exception as e:
+            print(f"Error logging vision analysis: {e}")
     def update_price_data(self, df: pd.DataFrame, current_price: float):
         """
         Update with latest price data from webhook

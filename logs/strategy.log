@@ -3382,3 +3382,20 @@ AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
 2025-11-06 18:08:23,105 - strategy - INFO - __init__ - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
 2025-11-06 18:08:23,113 - strategy - INFO - __init__ - Strategy Engine initialized
 2025-11-06 18:08:23,114 - strategy - INFO - __init__ - Active strategies: ['orb', 'mean_reversion', 'trend_following', 'breakout']
+2025-11-07 06:00:00,784 - strategy - INFO - process_new_bar - Processing bar at 2025-11-07 06:00:00.727997 | Close: 25218.75 | Bars: 200
+2025-11-07 06:00:00,785 - strategy - INFO - reset_daily_state - ORB state reset for 2025-11-07
+2025-11-07 06:00:00,817 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-07 06:01:01,327 - strategy - INFO - process_new_bar - Processing bar at 2025-11-07 06:01:01.292979 | Close: 25212.00 | Bars: 200
+2025-11-07 06:01:01,341 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-07 06:02:00,945 - strategy - INFO - process_new_bar - Processing bar at 2025-11-07 06:02:00.912109 | Close: 25202.25 | Bars: 200
+2025-11-07 06:02:00,959 - strategy - ERROR - process_new_bar - Error running trend_following strategy: 'TrendFollowingStrategy' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\strategy_engine.py", line 126, in process_new_bar
+AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
+2025-11-07 06:02:01,019 - strategy - INFO - log_signal - SIGNAL | Strategy: breakout | SHORT | Confidence: 40.00% | Price: 25202.25
