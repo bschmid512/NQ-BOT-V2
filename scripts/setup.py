@@ -93,7 +93,8 @@ def initialize_data_files():
     if not TRADES_FILE.exists():
         df = pd.DataFrame(columns=[
             'timestamp', 'ticker', 'action', 'price', 'size',
-            'signal', 'stop_loss', 'take_profit', 'pnl', 'status'
+            'signal', 'stop_loss', 'take_profit', 'pnl', 'status',
+            'entry_price','exit_price','entry_time','exit_time','r_multiple'
         ])
         df.to_csv(TRADES_FILE, index=False)
         print(f"✅ Created: {TRADES_FILE}")

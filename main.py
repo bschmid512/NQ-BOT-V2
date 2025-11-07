@@ -13,6 +13,7 @@ import dash
 from dash import html, dcc
 import dash_bootstrap_components as dbc
 import io
+import threading, time
 
 # --- Core Component Imports (with correct new paths) ---
 from config import WEBHOOK_PORT, WEBHOOK_PASSPHRASE
@@ -34,6 +35,25 @@ sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
 # Create Flask server first
 server = Flask(__name__)
+
+# --- Vision inbox (for fusion) ---
+LATEST_VISION = {"data": None, "ts": 0.0}
+_VISION_LOCK = threading.Lock()
+
+@server.route('/vision', methods=['POST'])
+def vision_ingest():
+    payload = request.get_json(force=True, silent=True) or {}
+    with _VISION_LOCK:
+        LATEST_VISION["data"] = payload
+        LATEST_VISION["ts"] = time.time()
+    return jsonify({"status": "ok"}), 200
+
+def _get_latest_vision(max_age_sec: float = 10.0):
+    with _VISION_LOCK:
+        if time.time() - LATEST_VISION["ts"] <= max_age_sec:
+            return LATEST_VISION["data"]
+    return None
+
 logger = trading_logger.webhook_logger
 
 @server.route('/webhook', methods=['POST'])
@@ -101,11 +121,19 @@ def receive_webhook():
         fused_signal = enhanced_strategy_engine.process_new_bar(
             bar_data=bar_data,
             df=df,
-            vision_data=None 
+            vision_data=_get_latest_vision()
         )
         
         # 4. If we get a final, high-conviction signal, take action
         if fused_signal:
+            # Log fused signal for dashboard
+            data_handler.append_signal({
+                'timestamp': datetime.now().isoformat(),
+                'strategy': fused_signal.get('strategy','fusion'),
+                'signal': fused_signal.get('direction'),
+                'price': current_price,
+                'confidence': fused_signal.get('confidence', 0.0)
+            })
             # Check if we can open a new position
             can_open, reason = position_manager.can_open_position()
             
@@ -121,7 +149,20 @@ def receive_webhook():
                 )
                 
                 if position:
-                    logger.info(f" FUSION TRADE OPENED ({trade_size} contracts) from {fused_signal['strategy']} signal")
+                    # Append OPEN trade row for dashboard
+                    data_handler.append_trade({
+                        'timestamp': datetime.now().isoformat(),
+                        'ticker': 'NQ',
+                        'action': 'BUY' if position.direction == 'LONG' else 'SELL',
+                        'price': current_price,
+                        'size': position.size,
+                        'signal': position.strategy,
+                        'stop_loss': position.stop_loss,
+                        'take_profit': position.take_profit,
+                        'pnl': 0.0,
+                        'status': 'OPEN'
+                    })
+                    logger.info(f"✅ FUSION TRADE OPENED ({trade_size} contracts) from {fused_signal['strategy']} signal")
             else:
                 # Log the *rejection* from position_manager (e.g., max trades)
                 # The fusion engine's rejections are logged by the comprehensive_logger

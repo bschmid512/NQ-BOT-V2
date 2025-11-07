@@ -1441,3 +1441,255 @@ FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDr
 2025-11-07 10:24:00,922 - system - DEBUG - Added bar: 2025-11-07 10:24:00.797086 | Close: 24959.0
 2025-11-07 10:25:01,659 - system - DEBUG - Added bar: 2025-11-07 10:25:01.619700 | Close: 24958.5
 2025-11-07 10:26:01,177 - system - DEBUG - Added bar: 2025-11-07 10:26:01.133649 | Close: 24995.0
+2025-11-07 10:27:00,968 - system - DEBUG - Added bar: 2025-11-07 10:27:00.588053 | Close: 24998.0
+2025-11-07 10:28:00,979 - system - DEBUG - Added bar: 2025-11-07 10:28:00.547894 | Close: 25006.5
+2025-11-07 10:29:00,968 - system - DEBUG - Added bar: 2025-11-07 10:29:00.700629 | Close: 24983.25
+2025-11-07 10:30:01,177 - system - DEBUG - Added bar: 2025-11-07 10:30:00.764672 | Close: 24969.5
+2025-11-07 10:31:00,844 - system - DEBUG - Added bar: 2025-11-07 10:31:00.682496 | Close: 24972.25
+2025-11-07 10:32:00,791 - system - DEBUG - Added bar: 2025-11-07 10:32:00.759520 | Close: 24969.25
+2025-11-07 10:33:01,055 - system - DEBUG - Added bar: 2025-11-07 10:33:00.720823 | Close: 24952.5
+2025-11-07 10:34:01,030 - system - DEBUG - Added bar: 2025-11-07 10:34:00.684152 | Close: 24928.75
+2025-11-07 10:35:00,510 - system - DEBUG - Added bar: 2025-11-07 10:35:00.483279 | Close: 24919.25
+2025-11-07 10:36:01,365 - system - DEBUG - Added bar: 2025-11-07 10:36:00.793978 | Close: 24927.75
+2025-11-07 10:37:00,976 - system - DEBUG - Added bar: 2025-11-07 10:37:00.736802 | Close: 24945.0
+2025-11-07 10:38:00,854 - system - DEBUG - Added bar: 2025-11-07 10:38:00.818313 | Close: 24924.5
+2025-11-07 10:39:00,975 - system - DEBUG - Added bar: 2025-11-07 10:39:00.719736 | Close: 24911.5
+2025-11-07 10:40:00,891 - system - DEBUG - Added bar: 2025-11-07 10:40:00.850624 | Close: 24891.25
+2025-11-07 10:41:00,808 - system - DEBUG - Added bar: 2025-11-07 10:41:00.693880 | Close: 24906.5
+2025-11-07 10:42:01,027 - system - DEBUG - Added bar: 2025-11-07 10:42:00.564433 | Close: 24882.75
+2025-11-07 10:43:00,938 - system - DEBUG - Added bar: 2025-11-07 10:43:00.747686 | Close: 24880.0
+2025-11-07 10:44:00,903 - system - DEBUG - Added bar: 2025-11-07 10:44:00.698073 | Close: 24879.75
+2025-11-07 10:45:24,891 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-07 10:45:25,558 - system - INFO - Dashboard attached to Flask server
+2025-11-07 10:45:25,561 - system - INFO - Trading Dashboard initialized successfully
+2025-11-07 10:45:25,561 - system - INFO - ============================================================
+2025-11-07 10:45:25,561 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-07 10:45:25,561 - system - INFO - ============================================================
+2025-11-07 10:45:25,562 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-07 10:45:25,562 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-07 10:45:25,562 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-07 10:45:25,562 - system - INFO - ============================================================
+2025-11-07 10:45:25,563 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-07 10:45:25,563 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-07 10:45:25,563 - system - INFO -  Position Manager: ACTIVE
+2025-11-07 10:45:25,563 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-07 10:45:25,564 - system - INFO -  Paper trading: ENABLED
+2025-11-07 10:45:25,564 - system - INFO - ============================================================
+2025-11-07 10:45:25,564 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-07 10:46:00,874 - system - DEBUG - Added bar: 2025-11-07 10:46:00.827620 | Close: 24864.0
+2025-11-07 10:47:00,859 - system - DEBUG - Added bar: 2025-11-07 10:47:00.639244 | Close: 24864.5
+2025-11-07 10:48:00,958 - system - DEBUG - Added bar: 2025-11-07 10:48:00.699085 | Close: 24878.0
+2025-11-07 10:48:11,191 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-07 10:49:00,907 - system - DEBUG - Added bar: 2025-11-07 10:49:00.874297 | Close: 24856.25
+2025-11-07 10:50:00,821 - system - DEBUG - Added bar: 2025-11-07 10:50:00.779855 | Close: 24859.75
+2025-11-07 10:51:00,853 - system - DEBUG - Added bar: 2025-11-07 10:51:00.822342 | Close: 24879.0
+2025-11-07 10:52:01,078 - system - DEBUG - Added bar: 2025-11-07 10:52:01.051712 | Close: 24859.5
+2025-11-07 10:53:00,769 - system - DEBUG - Added bar: 2025-11-07 10:53:00.738497 | Close: 24854.25
+2025-11-07 10:54:00,724 - system - DEBUG - Added bar: 2025-11-07 10:54:00.695295 | Close: 24853.25
+2025-11-07 10:55:00,856 - system - DEBUG - Added bar: 2025-11-07 10:55:00.828683 | Close: 24854.25
+2025-11-07 10:56:00,869 - system - DEBUG - Added bar: 2025-11-07 10:56:00.834074 | Close: 24848.0
+2025-11-07 10:57:00,550 - system - DEBUG - Added bar: 2025-11-07 10:57:00.511796 | Close: 24838.5
+2025-11-07 10:58:00,704 - system - DEBUG - Added bar: 2025-11-07 10:58:00.658007 | Close: 24845.0
+2025-11-07 10:59:00,614 - system - DEBUG - Added bar: 2025-11-07 10:59:00.579181 | Close: 24831.5
+2025-11-07 11:00:00,805 - system - DEBUG - Added bar: 2025-11-07 11:00:00.764255 | Close: 24823.5
+2025-11-07 11:01:00,828 - system - DEBUG - Added bar: 2025-11-07 11:01:00.798516 | Close: 24849.0
+2025-11-07 11:02:00,589 - system - DEBUG - Added bar: 2025-11-07 11:02:00.550821 | Close: 24851.5
+2025-11-07 11:03:00,717 - system - DEBUG - Added bar: 2025-11-07 11:03:00.676549 | Close: 24833.25
+2025-11-07 11:04:00,776 - system - DEBUG - Added bar: 2025-11-07 11:04:00.732432 | Close: 24838.0
+2025-11-07 11:05:00,736 - system - DEBUG - Added bar: 2025-11-07 11:05:00.695748 | Close: 24844.5
+2025-11-07 11:05:54,975 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-07 11:05:55,417 - system - INFO - Dashboard attached to Flask server
+2025-11-07 11:05:55,419 - system - INFO - Trading Dashboard initialized successfully
+2025-11-07 11:05:55,419 - system - INFO - ============================================================
+2025-11-07 11:05:55,420 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-07 11:05:55,420 - system - INFO - ============================================================
+2025-11-07 11:05:55,420 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-07 11:05:55,420 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-07 11:05:55,421 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-07 11:05:55,421 - system - INFO - ============================================================
+2025-11-07 11:05:55,421 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-07 11:05:55,421 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-07 11:05:55,422 - system - INFO -  Position Manager: ACTIVE
+2025-11-07 11:05:55,422 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-07 11:05:55,422 - system - INFO -  Paper trading: ENABLED
+2025-11-07 11:05:55,422 - system - INFO - ============================================================
+2025-11-07 11:05:55,422 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-07 11:06:01,798 - system - DEBUG - Added bar: 2025-11-07 11:06:00.794023 | Close: 24848.75
+2025-11-07 11:07:00,831 - system - DEBUG - Added bar: 2025-11-07 11:07:00.795197 | Close: 24816.5
+2025-11-07 11:08:00,542 - system - DEBUG - Added bar: 2025-11-07 11:08:00.505800 | Close: 24830.25
+2025-11-07 11:09:00,637 - system - DEBUG - Added bar: 2025-11-07 11:09:00.604383 | Close: 24812.5
+2025-11-07 11:10:00,797 - system - DEBUG - Added bar: 2025-11-07 11:10:00.759140 | Close: 24813.0
+2025-11-07 11:11:00,823 - system - DEBUG - Added bar: 2025-11-07 11:11:00.732531 | Close: 24810.75
+2025-11-07 11:12:00,987 - system - DEBUG - Added bar: 2025-11-07 11:12:00.550608 | Close: 24789.25
+2025-11-07 11:13:00,901 - system - DEBUG - Added bar: 2025-11-07 11:13:00.708994 | Close: 24784.0
+2025-11-07 11:14:00,576 - system - DEBUG - Added bar: 2025-11-07 11:14:00.526549 | Close: 24793.5
+2025-11-07 11:15:01,221 - system - DEBUG - Added bar: 2025-11-07 11:15:00.501392 | Close: 24787.5
+2025-11-07 11:16:00,801 - system - DEBUG - Added bar: 2025-11-07 11:16:00.741064 | Close: 24779.5
+2025-11-07 11:17:01,203 - system - DEBUG - Added bar: 2025-11-07 11:17:00.719228 | Close: 24776.75
+2025-11-07 11:18:01,167 - system - DEBUG - Added bar: 2025-11-07 11:18:01.139961 | Close: 24789.75
+2025-11-07 11:19:01,524 - system - DEBUG - Added bar: 2025-11-07 11:19:00.558579 | Close: 24804.0
+2025-11-07 11:20:01,149 - system - DEBUG - Added bar: 2025-11-07 11:20:00.622823 | Close: 24820.25
+2025-11-07 11:21:01,256 - system - DEBUG - Added bar: 2025-11-07 11:21:00.622648 | Close: 24827.0
+2025-11-07 11:22:01,315 - system - DEBUG - Added bar: 2025-11-07 11:22:00.798001 | Close: 24830.75
+2025-11-07 11:23:01,146 - system - DEBUG - Added bar: 2025-11-07 11:23:00.685175 | Close: 24820.5
+2025-11-07 11:24:00,924 - system - DEBUG - Added bar: 2025-11-07 11:24:00.676080 | Close: 24825.25
+2025-11-07 11:25:00,670 - system - DEBUG - Added bar: 2025-11-07 11:25:00.639075 | Close: 24813.75
+2025-11-07 11:25:38,805 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-07 11:25:39,290 - system - INFO - Dashboard attached to Flask server
+2025-11-07 11:25:39,293 - system - INFO - Trading Dashboard initialized successfully
+2025-11-07 11:25:39,293 - system - INFO - ============================================================
+2025-11-07 11:25:39,293 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-07 11:25:39,294 - system - INFO - ============================================================
+2025-11-07 11:25:39,294 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-07 11:25:39,294 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-07 11:25:39,294 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-07 11:25:39,295 - system - INFO - ============================================================
+2025-11-07 11:25:39,295 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-07 11:25:39,295 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-07 11:25:39,296 - system - INFO -  Position Manager: ACTIVE
+2025-11-07 11:25:39,296 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-07 11:25:39,296 - system - INFO -  Paper trading: ENABLED
+2025-11-07 11:25:39,297 - system - INFO - ============================================================
+2025-11-07 11:25:39,297 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-07 11:26:01,590 - system - DEBUG - Added bar: 2025-11-07 11:26:00.829092 | Close: 24814.75
+2025-11-07 11:27:01,555 - system - DEBUG - Added bar: 2025-11-07 11:27:00.547469 | Close: 24804.75
+2025-11-07 11:27:05,332 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:27:10,318 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:27:15,311 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:27:20,316 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:27:22,386 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:27:27,395 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:27:32,410 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:27:37,415 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:27:42,394 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:27:47,398 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:27:53,741 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:27:58,740 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:28:00,613 - system - DEBUG - Added bar: 2025-11-07 11:28:00.569200 | Close: 24800.75
+2025-11-07 11:28:03,731 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:28:07,731 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:28:13,729 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:28:18,725 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:28:23,744 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:28:28,745 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:28:33,728 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:28:37,731 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:28:43,726 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:28:49,732 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:28:53,719 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:28:58,723 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:29:00,564 - system - DEBUG - Added bar: 2025-11-07 11:29:00.534525 | Close: 24796.75
+2025-11-07 11:29:03,728 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:29:08,748 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:29:13,733 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:29:18,738 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:29:23,740 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:29:28,736 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:29:33,739 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:29:38,736 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:29:43,732 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:29:48,730 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:29:53,722 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:29:58,727 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:30:00,602 - system - DEBUG - Added bar: 2025-11-07 11:30:00.567134 | Close: 24795.5
+2025-11-07 11:30:03,733 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:30:08,739 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:30:13,731 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:30:18,725 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:30:23,730 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:30:28,726 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:30:33,727 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:30:38,726 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:30:43,742 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:30:48,731 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:30:53,739 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:30:58,728 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:31:00,947 - system - DEBUG - Added bar: 2025-11-07 11:31:00.911155 | Close: 24799.25
+2025-11-07 11:31:03,739 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:31:07,447 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:31:12,486 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:31:17,470 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:31:22,465 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:31:27,484 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:31:32,470 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:31:37,477 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:31:42,476 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:31:47,493 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:31:52,470 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:31:57,476 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:32:00,534 - system - DEBUG - Added bar: 2025-11-07 11:32:00.508081 | Close: 24804.5
+2025-11-07 11:32:02,479 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:32:07,478 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:32:12,481 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:32:17,480 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:32:22,485 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:32:27,469 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:32:32,471 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:32:37,477 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:32:42,461 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:32:47,482 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:32:52,472 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:32:57,477 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:33:00,651 - system - DEBUG - Added bar: 2025-11-07 11:33:00.619499 | Close: 24786.25
+2025-11-07 11:33:02,486 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:33:07,482 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:33:12,486 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:33:17,478 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:33:22,477 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:33:27,482 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:33:32,475 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:33:37,480 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:33:42,481 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:33:47,468 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:33:52,481 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:33:57,478 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:34:00,814 - system - DEBUG - Added bar: 2025-11-07 11:34:00.777056 | Close: 24789.0
+2025-11-07 11:34:02,473 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:34:07,480 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:34:12,470 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:34:17,467 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:34:22,469 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:34:27,472 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:34:32,486 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:34:37,490 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:34:42,479 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:34:47,482 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:34:52,469 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:34:57,512 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:35:00,467 - system - DEBUG - Added bar: 2025-11-07 11:35:00.431081 | Close: 24817.75
+2025-11-07 11:35:02,472 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:35:07,479 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:35:12,493 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:35:17,463 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:35:23,739 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:35:28,733 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:35:33,736 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:35:37,742 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:35:43,756 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:35:48,728 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:35:53,730 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:35:58,740 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:36:00,524 - system - DEBUG - Added bar: 2025-11-07 11:36:00.479500 | Close: 24791.5
+2025-11-07 11:36:03,742 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:36:08,731 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:36:13,732 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:36:18,745 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:36:22,732 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:36:50,739 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:36:54,737 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:36:58,734 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:37:00,736 - system - DEBUG - Added bar: 2025-11-07 11:37:00.692067 | Close: 24788.0
+2025-11-07 11:37:03,726 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:37:08,727 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:37:13,743 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:37:18,731 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:37:23,735 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:37:28,737 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:37:33,731 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:37:38,742 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:37:42,072 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:37:47,066 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:37:52,075 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:37:57,076 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%
+2025-11-07 11:38:00,679 - system - DEBUG - Added bar: 2025-11-07 11:38:00.637124 | Close: 24783.0
+2025-11-07 11:38:02,074 - system - INFO - PERFORMANCE | Win Rate: 40.00% | Profit Factor: 1.79 | Sharpe: 0.00 | Max DD: -1.74%

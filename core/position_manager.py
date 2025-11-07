@@ -204,6 +204,31 @@ class PositionManager:
         """Close a position and record the trade"""
         position.close(exit_price, exit_time, reason)
         
+        # Append CLOSED trade to dashboard CSV
+        try:
+            from utils.data_handler import data_handler
+            data_handler.append_trade({
+                'timestamp': exit_time.isoformat(),
+                'ticker': 'NQ',
+                'action': 'SELL' if position.direction == 'LONG' else 'BUY',
+                'price': exit_price,
+                'size': position.size,
+                'signal': position.strategy,
+                'stop_loss': position.stop_loss,
+                'take_profit': position.take_profit,
+                'pnl': position.pnl,
+                'status': 'CLOSED',
+                'r_multiple': round((
+                    ((exit_price - position.entry_price) if position.direction == 'LONG' else (position.entry_price - exit_price))
+                    / max(1e-9, (
+                        (position.entry_price - position.stop_loss) if (position.stop_loss is not None and position.direction == 'LONG')
+                        else ((position.stop_loss - position.entry_price) if (position.stop_loss is not None and position.direction == 'SHORT') else 0.0)
+                    ))
+                ), 2) if position.stop_loss is not None else None
+            })
+        except Exception:
+            pass
+
         # Update daily P&L
         self.daily_pnl += position.pnl
         

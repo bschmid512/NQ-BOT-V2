@@ -382,12 +382,33 @@ class TradingDashboard:
                     data=recent_trades.to_dict('records'),
                     columns=[
                         {'name': 'Time', 'id': 'timestamp'},
+                        {'name': 'Entry Time', 'id': 'entry_time'},
+                        {'name': 'Exit Time', 'id': 'exit_time'},
                         {'name': 'Action', 'id': 'action'},
-                        {'name': 'Price', 'id': 'price'},
+                        {'name': 'Entry', 'id': 'entry_price'},
+                        {'name': 'Exit', 'id': 'exit_price'},
                         {'name': 'Size', 'id': 'size'},
                         {'name': 'Signal', 'id': 'signal'},
                         {'name': 'P&L', 'id': 'pnl'},
                         {'name': 'Status', 'id': 'status'}
+                    ],
+                    style_data_conditional=[
+                        {
+                            'if': {'filter_query': '{action} contains "BUY"', 'column_id': 'entry_price'},
+                            'color': '#26a69a'
+                        },
+                        {
+                            'if': {'filter_query': '{action} contains "SELL"', 'column_id': 'exit_price'},
+                            'color': '#ef5350'
+                        },
+                        {
+                            'if': {'column_id': 'r_multiple', 'filter_query': '{r_multiple} >= 1'},
+                            'color': '#26a69a', 'fontWeight': '600'
+                        },
+                        {
+                            'if': {'column_id': 'r_multiple', 'filter_query': '{r_multiple} < 1 && {r_multiple} != blank'},
+                            'color': '#ef5350'
+                        }
                     ],
                     style_cell={
                         'backgroundColor': '#2e2e2e',

@@ -6,6 +6,8 @@ from typing import List, Dict, Optional
 from datetime import datetime
 import pandas as pd
 
+from core.strategy_adapter import call_generate_signal
+
 # --- 1. IMPORT ALL STRATEGIES ---
 from strategies.momentum_continuation_strategy import MomentumContinuationStrategy
 from strategies.pullback_entry_strategy import PullbackEntryStrategy
@@ -24,6 +26,18 @@ class EnhancedStrategyEngine:
     Orchestrates multiple strategies and uses fusion for final decisions
     This is the BRAIN of the trading system
     """
+    def _ensure_common_indicators(self, df: pd.DataFrame) -> pd.DataFrame:
+        """Ensure commonly used EMAs exist to prevent KeyErrors (ema_8, ema_9, ema_21, ema_50)."""
+        if df is None or df.empty:
+            return df
+        if 'close' not in df.columns:
+            return df
+        for n in (8, 9, 21, 50):
+            col = f'ema_{n}'
+            if col not in df.columns:
+                df[col] = df['close'].ewm(span=n, adjust=False).mean()
+        return df
+
     
     def __init__(self):
         # --- 3. BUILD STRATEGY LIST DYNAMICALLY ---
@@ -57,6 +71,8 @@ class EnhancedStrategyEngine:
         Process new bar and generate trading signals using fusion
         """
         current_price = bar_data['close']
+        # Ensure common EMAs exist so strategies referencing ema_8/9/21/50 won't error
+        df = self._ensure_common_indicators(df)
         
         # Update market context fusion with latest data
         market_context_fusion.update_price_data(df, current_price)
@@ -104,7 +120,7 @@ class EnhancedStrategyEngine:
                 # We'll assume you update your old strategies
                 # (mean_reversion, etc.) to accept `current_price` as well.
                 
-                signal = strategy.generate_signal(df, current_price, context)
+                signal = call_generate_signal(strategy, df=df, current_price=current_price, context=context)
                 
                 if signal:
                     strategy_signals.append(signal)

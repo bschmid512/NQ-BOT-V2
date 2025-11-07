@@ -194,7 +194,14 @@ class DataHandler:
             df = pd.read_csv(TRADES_FILE)
             if not df.empty:
                 df['timestamp'] = pd.to_datetime(df['timestamp'], format='mixed')
+                # Ensure new columns exist for display
+                for col in ['entry_price','exit_price','entry_time','exit_time','r_multiple']:
+                    if col not in df.columns:
+                        df[col] = None
             return df
+        except Exception as e:
+            self.logger.error(f"Error getting trades: {e}")
+            return pd.DataFrame()
         except Exception as e:
             self.logger.error(f"Error getting trades: {e}")
             return pd.DataFrame()
@@ -302,5 +309,58 @@ class DataHandler:
             self.logger.error(f"Error exporting CSV: {e}")
 
 
+
+    def append_signal(self, row: Dict):
+        """Append a single signal row to SIGNALS_FILE safely."""
+        try:
+            cols = ['timestamp','strategy','signal','price','confidence']
+            rec = {
+                'timestamp': row.get('timestamp') or datetime.now().isoformat(),
+                'strategy': row.get('strategy', 'unknown'),
+                'signal': row.get('direction') or row.get('signal', ''),
+                'price': float(row.get('price', 0.0)),
+                'confidence': float(row.get('confidence', 0.0)),
+            }
+            import os, csv
+            header_needed = not SIGNALS_FILE.exists() or os.path.getsize(SIGNALS_FILE) == 0
+            with open(SIGNALS_FILE, 'a', newline='') as f:
+                writer = csv.DictWriter(f, fieldnames=cols)
+                if header_needed:
+                    writer.writeheader()
+                writer.writerow(rec)
+        except Exception as e:
+            self.logger.error(f"Error appending signal: {e}")
+
+    def append_trade(self, row: Dict):
+        """Append a single trade row to TRADES_FILE safely (for dashboard)."""
+        try:
+            cols = ['timestamp','ticker','action','price','size','signal','stop_loss','take_profit','pnl','status',
+                    'entry_price','exit_price','entry_time','exit_time','r_multiple']
+            rec = {
+                'timestamp': row.get('timestamp') or datetime.now().isoformat(),
+                'ticker': row.get('ticker', 'NQ'),
+                'action': row.get('action', ''),
+                'price': float(row.get('price', 0.0)),
+                'size': int(row.get('size', 1)),
+                'signal': row.get('signal', ''),
+                'stop_loss': row.get('stop_loss', ''),
+                'take_profit': row.get('take_profit', ''),
+                'pnl': float(row.get('pnl', 0.0)),
+                'status': row.get('status', ''),
+                'entry_price': row.get('entry_price'),
+                'exit_price': row.get('exit_price'),
+                'entry_time': row.get('entry_time'),
+                'exit_time': row.get('exit_time'),
+                'r_multiple': row.get('r_multiple'),
+            }
+            import os, csv
+            header_needed = not TRADES_FILE.exists() or os.path.getsize(TRADES_FILE) == 0
+            with open(TRADES_FILE, 'a', newline='') as f:
+                writer = csv.DictWriter(f, fieldnames=cols)
+                if header_needed:
+                    writer.writeheader()
+                writer.writerow(rec)
+        except Exception as e:
+            self.logger.error(f"Error appending trade: {e}")
 # Create global data handler instance
 data_handler = DataHandler()

@@ -9,3 +9,4 @@ timestamp,strategy,signal,confidence,price,target,stop,or_high,or_low,or_size,rs
 07:00:01,breakout,SHORT,0.4,25747.25,,,,,,,,,40.0,High volume breakdown below BB lower (25749.75)
 09:32:01,breakout,SHORT,0.4,25637.75,,,,,,,,,40.0,High volume breakdown below BB lower (25643.08)
 06:02:00,breakout,SHORT,0.4,25202.25,,,,,,,,,40.0,High volume breakdown below BB lower (25206.52)
+2025-11-07T11:26:01.645298,fusion,,24814.75,0.65180815355116
