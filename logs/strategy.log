@@ -3478,3 +3478,9 @@ AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
 2025-11-07 11:05:55,364 - strategy - INFO - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
 2025-11-07 11:25:39,224 - strategy - INFO - ORB Strategy initialized: 15min period, 150.0% target
 2025-11-07 11:25:39,225 - strategy - INFO - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-07 11:45:28,888 - strategy - INFO - ORB Strategy initialized: 15min period, 150.0% target
+2025-11-07 11:45:28,889 - strategy - INFO - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-07 12:19:00,647 - strategy - DEBUG - Confidence breakdown: RSI=0.01, BB=0.03, Vol=0.10, Rev=0.03, ADX=0.01 | Total=0.18
+2025-11-07 12:19:00,647 - strategy - DEBUG - Mean Reversion SHORT: Low confidence (18%), skipping
+2025-11-07 12:30:43,826 - strategy - INFO - ORB Strategy initialized: 15min period, 150.0% target
+2025-11-07 12:30:43,827 - strategy - INFO - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)

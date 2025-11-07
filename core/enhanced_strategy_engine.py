@@ -120,7 +120,8 @@ class EnhancedStrategyEngine:
                 # We'll assume you update your old strategies
                 # (mean_reversion, etc.) to accept `current_price` as well.
                 
-                signal = call_generate_signal(strategy, df=df, current_price=current_price, context=context)
+                signal = call_generate_signal(strategy, df=df, current_price=current_price, context=context,
+    current_bar=bar_data)
                 
                 if signal:
                     strategy_signals.append(signal)

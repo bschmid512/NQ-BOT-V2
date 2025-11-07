@@ -389,47 +389,35 @@ class TradingDashboard:
                         {'name': 'Exit', 'id': 'exit_price'},
                         {'name': 'Size', 'id': 'size'},
                         {'name': 'Signal', 'id': 'signal'},
+                        {'name': 'R', 'id': 'r_multiple'},
                         {'name': 'P&L', 'id': 'pnl'},
-                        {'name': 'Status', 'id': 'status'}
+                        {'name': 'Status', 'id': 'status'},
                     ],
+                    # ✅ Only one style_data_conditional block
                     style_data_conditional=[
-                        {
-                            'if': {'filter_query': '{action} contains "BUY"', 'column_id': 'entry_price'},
-                            'color': '#26a69a'
-                        },
-                        {
-                            'if': {'filter_query': '{action} contains "SELL"', 'column_id': 'exit_price'},
-                            'color': '#ef5350'
-                        },
-                        {
-                            'if': {'column_id': 'r_multiple', 'filter_query': '{r_multiple} >= 1'},
-                            'color': '#26a69a', 'fontWeight': '600'
-                        },
-                        {
-                            'if': {'column_id': 'r_multiple', 'filter_query': '{r_multiple} < 1 && {r_multiple} != blank'},
-                            'color': '#ef5350'
-                        }
+                        # P&L colors
+                        {'if': {'column_id': 'pnl', 'filter_query': '{pnl} >= 0'}, 'color': '#26a69a'},
+                        {'if': {'column_id': 'pnl', 'filter_query': '{pnl} < 0'},  'color': '#ef5350'},
+
+                        # Entry/Exit colors based on action
+                        {'if': {'column_id': 'entry_price', 'filter_query': '{action} contains "BUY"'},  'color': '#26a69a'},
+                        {'if': {'column_id': 'exit_price',  'filter_query': '{action} contains "SELL"'}, 'color': '#ef5350'},
+
+                        # R-multiple highlight
+                        {'if': {'column_id': 'r_multiple', 'filter_query': '{r_multiple} >= 1'}, 'color': '#26a69a', 'fontWeight': '600'},
+                        {'if': {'column_id': 'r_multiple', 'filter_query': '{r_multiple} < 1 && {r_multiple} != blank'}, 'color': '#ef5350'},
                     ],
                     style_cell={
                         'backgroundColor': '#2e2e2e',
                         'color': 'white',
-                        'textAlign': 'center'
+                        'textAlign': 'center',
+                        'minWidth': '80px', 'width': '90px', 'maxWidth': '160px',
+                        'whiteSpace': 'nowrap', 'overflow': 'hidden', 'textOverflow': 'ellipsis',
                     },
-                    style_header={
-                        'backgroundColor': '#1e1e1e',
-                        'fontWeight': 'bold'
-                    },
-                    style_data_conditional=[
-                        {
-                            'if': {'filter_query': '{pnl} > 0'},
-                            'color': '#26a69a'
-                        },
-                        {
-                            'if': {'filter_query': '{pnl} < 0'},
-                            'color': '#ef5350'
-                        }
-                    ]
+                    style_header={'backgroundColor': '#1f1f1f', 'fontWeight': '600'},
+                    page_size=10,
                 )
+
                 
             except Exception as e:
                 self.logger.error(f"Error updating trades table: {e}")
