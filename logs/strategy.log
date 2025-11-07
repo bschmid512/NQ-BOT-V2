@@ -3422,3 +3422,35 @@ AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
 2025-11-07 09:54:01,424 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
 2025-11-07 09:55:01,715 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
 2025-11-07 09:56:01,758 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 09:57:00,553 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 09:58:00,766 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 09:59:00,766 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 10:00:02,124 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 10:01:00,790 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 10:02:00,753 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 10:03:00,904 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 10:03:44,638 - strategy - INFO - ORB Strategy initialized: 15min period, 150.0% target
+2025-11-07 10:03:44,639 - strategy - INFO - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-07 10:04:01,196 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 10:05:00,875 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 10:06:00,696 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 10:07:00,562 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 10:08:00,565 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 10:09:00,673 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 10:10:02,034 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 10:11:02,071 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 10:12:00,583 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 10:13:00,509 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 10:14:00,697 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 10:15:01,382 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 10:16:00,879 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 10:17:00,622 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 10:18:01,220 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 10:19:00,904 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 10:20:00,952 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 10:21:00,942 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 10:22:01,335 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 10:23:01,051 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 10:24:00,959 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 10:25:01,690 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable
+2025-11-07 10:26:01,201 - strategy - ERROR - Error generating ORB signal: 'float' object is not subscriptable

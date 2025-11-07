@@ -1393,3 +1393,51 @@ FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDr
 2025-11-07 09:54:00,946 - system - DEBUG - Added bar: 2025-11-07 09:54:00.713620 | Close: 24985.5
 2025-11-07 09:55:01,461 - system - DEBUG - Added bar: 2025-11-07 09:55:01.025508 | Close: 24997.75
 2025-11-07 09:56:01,586 - system - DEBUG - Added bar: 2025-11-07 09:56:00.683533 | Close: 25005.75
+2025-11-07 09:57:00,525 - system - DEBUG - Added bar: 2025-11-07 09:57:00.488227 | Close: 25022.5
+2025-11-07 09:58:00,736 - system - DEBUG - Added bar: 2025-11-07 09:58:00.703938 | Close: 25029.0
+2025-11-07 09:59:00,730 - system - DEBUG - Added bar: 2025-11-07 09:59:00.680126 | Close: 25033.75
+2025-11-07 10:00:01,776 - system - DEBUG - Added bar: 2025-11-07 10:00:01.705372 | Close: 25025.0
+2025-11-07 10:01:00,757 - system - DEBUG - Added bar: 2025-11-07 10:01:00.730786 | Close: 24973.5
+2025-11-07 10:02:00,720 - system - DEBUG - Added bar: 2025-11-07 10:02:00.680482 | Close: 24970.75
+2025-11-07 10:03:00,873 - system - DEBUG - Added bar: 2025-11-07 10:03:00.832880 | Close: 24974.0
+2025-11-07 10:03:44,231 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-07 10:03:44,721 - system - INFO - Dashboard attached to Flask server
+2025-11-07 10:03:44,726 - system - INFO - Trading Dashboard initialized successfully
+2025-11-07 10:03:44,727 - system - INFO - ============================================================
+2025-11-07 10:03:44,727 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-07 10:03:44,727 - system - INFO - ============================================================
+2025-11-07 10:03:44,727 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-07 10:03:44,728 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-07 10:03:44,728 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-07 10:03:44,728 - system - INFO - ============================================================
+2025-11-07 10:03:44,728 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-07 10:03:44,728 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-07 10:03:44,729 - system - INFO -  Position Manager: ACTIVE
+2025-11-07 10:03:44,729 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-07 10:03:44,729 - system - INFO -  Paper trading: ENABLED
+2025-11-07 10:03:44,729 - system - INFO - ============================================================
+2025-11-07 10:03:44,730 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-07 10:04:01,160 - system - DEBUG - Added bar: 2025-11-07 10:04:00.756344 | Close: 24950.0
+2025-11-07 10:05:00,852 - system - DEBUG - Added bar: 2025-11-07 10:05:00.579432 | Close: 24941.0
+2025-11-07 10:06:00,665 - system - DEBUG - Added bar: 2025-11-07 10:06:00.636652 | Close: 24945.75
+2025-11-07 10:07:00,532 - system - DEBUG - Added bar: 2025-11-07 10:07:00.496303 | Close: 24894.25
+2025-11-07 10:08:00,542 - system - DEBUG - Added bar: 2025-11-07 10:08:00.512678 | Close: 24896.25
+2025-11-07 10:09:00,649 - system - DEBUG - Added bar: 2025-11-07 10:09:00.610027 | Close: 24931.75
+2025-11-07 10:10:01,929 - system - DEBUG - Added bar: 2025-11-07 10:10:00.963331 | Close: 24970.25
+2025-11-07 10:10:58,598 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-07 10:11:02,040 - system - DEBUG - Added bar: 2025-11-07 10:11:01.458418 | Close: 24995.5
+2025-11-07 10:12:00,562 - system - DEBUG - Added bar: 2025-11-07 10:12:00.536229 | Close: 25005.25
+2025-11-07 10:13:00,484 - system - DEBUG - Added bar: 2025-11-07 10:13:00.457298 | Close: 24993.25
+2025-11-07 10:14:00,658 - system - DEBUG - Added bar: 2025-11-07 10:14:00.616425 | Close: 25011.25
+2025-11-07 10:15:01,355 - system - DEBUG - Added bar: 2025-11-07 10:15:01.319023 | Close: 25013.5
+2025-11-07 10:16:00,852 - system - DEBUG - Added bar: 2025-11-07 10:16:00.748831 | Close: 25034.75
+2025-11-07 10:17:00,593 - system - DEBUG - Added bar: 2025-11-07 10:17:00.553009 | Close: 25026.75
+2025-11-07 10:18:01,189 - system - DEBUG - Added bar: 2025-11-07 10:18:00.613006 | Close: 25013.75
+2025-11-07 10:19:00,866 - system - DEBUG - Added bar: 2025-11-07 10:19:00.833759 | Close: 25003.75
+2025-11-07 10:20:00,908 - system - DEBUG - Added bar: 2025-11-07 10:20:00.863088 | Close: 25007.0
+2025-11-07 10:21:00,909 - system - DEBUG - Added bar: 2025-11-07 10:21:00.870874 | Close: 25004.0
+2025-11-07 10:22:01,301 - system - DEBUG - Added bar: 2025-11-07 10:22:01.262113 | Close: 25006.75
+2025-11-07 10:23:01,018 - system - DEBUG - Added bar: 2025-11-07 10:23:00.735359 | Close: 25025.5
+2025-11-07 10:24:00,922 - system - DEBUG - Added bar: 2025-11-07 10:24:00.797086 | Close: 24959.0
+2025-11-07 10:25:01,659 - system - DEBUG - Added bar: 2025-11-07 10:25:01.619700 | Close: 24958.5
+2025-11-07 10:26:01,177 - system - DEBUG - Added bar: 2025-11-07 10:26:01.133649 | Close: 24995.0

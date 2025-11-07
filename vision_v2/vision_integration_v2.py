@@ -21,13 +21,15 @@ import json
 import cv2
 
 # Add parent directory for imports
-bot_dir = Path(__file__).parent
+script_path = Path(__file__).resolve()
+bot_dir = script_path.parent.parent  # Go up two levels (from .../vision_v2/file.py to .../NQ-BOT-V2)
 if str(bot_dir) not in sys.path:
     sys.path.insert(0, str(bot_dir))
 
 # Import enhanced vision modules
 from vision_v2.screen_capture_v2 import TradingViewCaptureV2
 from vision_v2.pattern_recognition_v2 import TradingViewAIV2
+from core.market_context_fusion import market_context_fusion # <-- This will also be found now
 
 # Try to import bot components
 try:

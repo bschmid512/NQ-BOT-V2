@@ -121,7 +121,7 @@ def receive_webhook():
                 )
                 
                 if position:
-                    logger.info(f"✅ FUSION TRADE OPENED ({trade_size} contracts) from {fused_signal['strategy']} signal")
+                    logger.info(f" FUSION TRADE OPENED ({trade_size} contracts) from {fused_signal['strategy']} signal")
             else:
                 # Log the *rejection* from position_manager (e.g., max trades)
                 # The fusion engine's rejections are logged by the comprehensive_logger

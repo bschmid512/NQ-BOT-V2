@@ -1,0 +1,115 @@
+2025-11-07 10:11:53,433 - VisionTradingV2 - INFO - Vision Trading V2.0 initialized
+2025-11-07 10:11:53,433 - VisionTradingV2 - INFO - Trading mode: ANALYSIS ONLY
+2025-11-07 10:11:53,433 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:11:53,434 - VisionTradingV2 - INFO - VISION TRADING V2.0 - STARTING
+2025-11-07 10:11:53,434 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:11:53,434 - VisionTradingV2 - INFO - Capture interval: 2.0s
+2025-11-07 10:11:53,434 - VisionTradingV2 - INFO - Min confidence: 75%
+2025-11-07 10:11:53,435 - VisionTradingV2 - INFO - Trading: ANALYSIS ONLY
+2025-11-07 10:11:53,435 - VisionTradingV2 - INFO - Duration: Unlimited (press Ctrl+C to stop)
+2025-11-07 10:11:53,435 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:11:53,921 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:11:53,921 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 10:11:53,921 - VisionTradingV2 - INFO -   Pattern: bullish_engulfing
+2025-11-07 10:11:53,921 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 10:11:53,922 - VisionTradingV2 - INFO -   Confidence: 85.8%
+2025-11-07 10:11:53,922 - VisionTradingV2 - INFO -   Reason: Bullish engulfing (size ratio: 3.38)
+2025-11-07 10:11:53,922 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:12:54,831 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:12:54,831 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 10:12:54,832 - VisionTradingV2 - INFO -   Pattern: bullish_engulfing
+2025-11-07 10:12:54,832 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 10:12:54,832 - VisionTradingV2 - INFO -   Confidence: 87.1%
+2025-11-07 10:12:54,833 - VisionTradingV2 - INFO -   Reason: Bullish engulfing (size ratio: 3.51)
+2025-11-07 10:12:54,833 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:13:56,101 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:13:56,101 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 10:13:56,101 - VisionTradingV2 - INFO -   Pattern: bullish_engulfing
+2025-11-07 10:13:56,101 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 10:13:56,102 - VisionTradingV2 - INFO -   Confidence: 87.1%
+2025-11-07 10:13:56,102 - VisionTradingV2 - INFO -   Reason: Bullish engulfing (size ratio: 3.51)
+2025-11-07 10:13:56,102 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:14:57,289 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:14:57,290 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 10:14:57,290 - VisionTradingV2 - INFO -   Pattern: bullish_engulfing
+2025-11-07 10:14:57,290 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 10:14:57,290 - VisionTradingV2 - INFO -   Confidence: 87.1%
+2025-11-07 10:14:57,290 - VisionTradingV2 - INFO -   Reason: Bullish engulfing (size ratio: 3.51)
+2025-11-07 10:14:57,291 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:15:58,126 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:15:58,126 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 10:15:58,127 - VisionTradingV2 - INFO -   Pattern: bullish_engulfing
+2025-11-07 10:15:58,127 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 10:15:58,127 - VisionTradingV2 - INFO -   Confidence: 87.1%
+2025-11-07 10:15:58,127 - VisionTradingV2 - INFO -   Reason: Bullish engulfing (size ratio: 3.51)
+2025-11-07 10:15:58,127 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:16:59,973 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:16:59,973 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 10:16:59,974 - VisionTradingV2 - INFO -   Pattern: bullish_engulfing
+2025-11-07 10:16:59,974 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 10:16:59,974 - VisionTradingV2 - INFO -   Confidence: 87.1%
+2025-11-07 10:16:59,974 - VisionTradingV2 - INFO -   Reason: Bullish engulfing (size ratio: 3.51)
+2025-11-07 10:16:59,975 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:18:01,461 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:18:01,461 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 10:18:01,462 - VisionTradingV2 - INFO -   Pattern: bullish_engulfing
+2025-11-07 10:18:01,462 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 10:18:01,462 - VisionTradingV2 - INFO -   Confidence: 87.1%
+2025-11-07 10:18:01,462 - VisionTradingV2 - INFO -   Reason: Bullish engulfing (size ratio: 3.51)
+2025-11-07 10:18:01,462 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:19:02,528 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:19:02,528 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 10:19:02,528 - VisionTradingV2 - INFO -   Pattern: bullish_engulfing
+2025-11-07 10:19:02,528 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 10:19:02,529 - VisionTradingV2 - INFO -   Confidence: 87.1%
+2025-11-07 10:19:02,529 - VisionTradingV2 - INFO -   Reason: Bullish engulfing (size ratio: 3.51)
+2025-11-07 10:19:02,529 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:20:03,868 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:20:03,869 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 10:20:03,869 - VisionTradingV2 - INFO -   Pattern: bullish_engulfing
+2025-11-07 10:20:03,869 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 10:20:03,870 - VisionTradingV2 - INFO -   Confidence: 87.1%
+2025-11-07 10:20:03,870 - VisionTradingV2 - INFO -   Reason: Bullish engulfing (size ratio: 3.51)
+2025-11-07 10:20:03,870 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:21:05,984 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:21:05,985 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 10:21:05,985 - VisionTradingV2 - INFO -   Pattern: bullish_engulfing
+2025-11-07 10:21:05,985 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 10:21:05,986 - VisionTradingV2 - INFO -   Confidence: 87.1%
+2025-11-07 10:21:05,986 - VisionTradingV2 - INFO -   Reason: Bullish engulfing (size ratio: 3.51)
+2025-11-07 10:21:05,986 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:22:08,225 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:22:08,226 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 10:22:08,226 - VisionTradingV2 - INFO -   Pattern: bullish_engulfing
+2025-11-07 10:22:08,226 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 10:22:08,227 - VisionTradingV2 - INFO -   Confidence: 87.1%
+2025-11-07 10:22:08,227 - VisionTradingV2 - INFO -   Reason: Bullish engulfing (size ratio: 3.51)
+2025-11-07 10:22:08,227 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:23:10,429 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:23:10,429 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 10:23:10,429 - VisionTradingV2 - INFO -   Pattern: bullish_engulfing
+2025-11-07 10:23:10,430 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 10:23:10,430 - VisionTradingV2 - INFO -   Confidence: 87.1%
+2025-11-07 10:23:10,430 - VisionTradingV2 - INFO -   Reason: Bullish engulfing (size ratio: 3.51)
+2025-11-07 10:23:10,430 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:24:12,519 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:24:12,519 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 10:24:12,520 - VisionTradingV2 - INFO -   Pattern: bullish_engulfing
+2025-11-07 10:24:12,520 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 10:24:12,520 - VisionTradingV2 - INFO -   Confidence: 87.1%
+2025-11-07 10:24:12,520 - VisionTradingV2 - INFO -   Reason: Bullish engulfing (size ratio: 3.51)
+2025-11-07 10:24:12,521 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:25:14,278 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:25:14,278 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 10:25:14,279 - VisionTradingV2 - INFO -   Pattern: bullish_engulfing
+2025-11-07 10:25:14,279 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 10:25:14,279 - VisionTradingV2 - INFO -   Confidence: 87.1%
+2025-11-07 10:25:14,279 - VisionTradingV2 - INFO -   Reason: Bullish engulfing (size ratio: 3.51)
+2025-11-07 10:25:14,280 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:26:15,964 - VisionTradingV2 - INFO - ======================================================================
+2025-11-07 10:26:15,964 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-07 10:26:15,965 - VisionTradingV2 - INFO -   Pattern: bullish_engulfing
+2025-11-07 10:26:15,965 - VisionTradingV2 - INFO -   Direction: LONG
+2025-11-07 10:26:15,965 - VisionTradingV2 - INFO -   Confidence: 87.1%
+2025-11-07 10:26:15,965 - VisionTradingV2 - INFO -   Reason: Bullish engulfing (size ratio: 3.51)
+2025-11-07 10:26:15,965 - VisionTradingV2 - INFO - ======================================================================
