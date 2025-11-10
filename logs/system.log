@@ -7045,3 +7045,32 @@ FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDr
 2025-11-10 14:03:00,728 - system - DEBUG - Added bar: 2025-11-10 14:03:00.727788+00:00 | Close: 25649.25
 2025-11-10 14:04:00,649 - system - DEBUG - Added bar: 2025-11-10 14:04:00.648504+00:00 | Close: 25655.75
 2025-11-10 14:05:00,637 - system - DEBUG - Added bar: 2025-11-10 14:05:00.636696+00:00 | Close: 25663.0
+2025-11-10 14:06:00,727 - system - DEBUG - Added bar: 2025-11-10 14:06:00.725918+00:00 | Close: 25663.5
+2025-11-10 14:07:00,795 - system - DEBUG - Added bar: 2025-11-10 14:07:00.793895+00:00 | Close: 25675.0
+2025-11-10 14:08:00,848 - system - DEBUG - Added bar: 2025-11-10 14:08:00.847396+00:00 | Close: 25670.75
+2025-11-10 14:09:00,999 - system - DEBUG - Added bar: 2025-11-10 14:09:00.998435+00:00 | Close: 25672.0
+2025-11-10 14:10:00,757 - system - DEBUG - Added bar: 2025-11-10 14:10:00.756609+00:00 | Close: 25673.0
+2025-11-10 14:11:00,699 - system - DEBUG - Added bar: 2025-11-10 14:11:00.698260+00:00 | Close: 25665.75
+2025-11-10 14:12:00,684 - system - DEBUG - Added bar: 2025-11-10 14:12:00.682840+00:00 | Close: 25673.5
+2025-11-10 14:17:15,925 - system - INFO - Dashboard attached to Flask server
+2025-11-10 14:17:15,928 - system - INFO - Trading Dashboard initialized successfully
+2025-11-10 14:17:15,928 - system - INFO - ============================================================
+2025-11-10 14:17:15,929 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-10 14:17:15,929 - system - INFO - ============================================================
+2025-11-10 14:17:15,929 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-10 14:17:15,930 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-10 14:17:15,930 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-10 14:17:15,930 - system - INFO - ============================================================
+2025-11-10 14:17:15,930 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-10 14:17:15,931 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-10 14:17:15,931 - system - INFO -  Position Manager: ACTIVE
+2025-11-10 14:17:15,931 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-10 14:17:15,932 - system - INFO -  Paper trading: ENABLED
+2025-11-10 14:17:15,932 - system - INFO - ============================================================
+2025-11-10 14:17:15,932 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-10 14:17:16,086 - system - DEBUG - Added bar: 2025-11-10 14:17:16.084495+00:00 | Close: 25672.25 | rows=32
+2025-11-10 14:17:48,277 - system - INFO - Imported 6 rows from CSV into SQLite.
+2025-11-10 14:18:00,869 - system - DEBUG - Added bar: 2025-11-10 14:18:00.867799+00:00 | Close: 25674.0 | rows=33
+2025-11-10 14:19:00,945 - system - DEBUG - Added bar: 2025-11-10 14:19:00.944481+00:00 | Close: 25675.25 | rows=34
+2025-11-10 14:20:00,871 - system - DEBUG - Added bar: 2025-11-10 14:20:00.870774+00:00 | Close: 25673.0 | rows=35
+2025-11-10 14:21:00,685 - system - DEBUG - Added bar: 2025-11-10 14:21:00.684126+00:00 | Close: 25675.75 | rows=36

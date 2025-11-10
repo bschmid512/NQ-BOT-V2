@@ -15,10 +15,10 @@ class SQLiteStore:
     def __init__(self, db_path: str = "data/nq_live.db"):
         Path(db_path).parent.mkdir(parents=True, exist_ok=True)
         self.conn = sqlite3.connect(db_path, check_same_thread=False, isolation_level=None)
-        # WAL supports concurrent readers/writers much better
+        # Better concurrency for readers while webhook writes
         self.conn.execute("PRAGMA journal_mode=WAL;")
         self.conn.execute("PRAGMA synchronous=NORMAL;")
-        # IMPORTANT: executescript for multi-statement schema
+        # IMPORTANT: multi-statement schema must use executescript
         self.conn.executescript(SCHEMA)
 
     def upsert_bar(self, bar: Mapping[str, float | str]) -> None:
@@ -51,4 +51,5 @@ class SQLiteStore:
 
     def count(self) -> int:
         cur = self.conn.execute("SELECT COUNT(1) FROM bars")
-        return int(cur.fetchone()[0] or 0)
+        r = cur.fetchone()
+        return int(r[0]) if r and r[0] is not None else 0

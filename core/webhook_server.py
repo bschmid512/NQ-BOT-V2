@@ -59,7 +59,8 @@ class WebhookServer:
                 
                 # Store the bar
                 data_handler.add_bar(bar_data)
-                
+                df = data_handler.get_latest_bars(500)  # this is what you pass into the engine/dashboard
+
                 self.logger.info(
                     f"Bar received: {bar_data['timestamp']} | "
                     f"O:{bar_data['open']:.2f} H:{bar_data['high']:.2f} "

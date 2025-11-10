@@ -1252,3 +1252,13 @@
 2025-11-10 11:06:58,826 - VisionTradingV2 - INFO -   Confidence: 75.0%
 2025-11-10 11:06:58,826 - VisionTradingV2 - INFO -   Reason: Strong bearish momentum (80.0% bearish candles)
 2025-11-10 11:06:58,826 - VisionTradingV2 - INFO - ======================================================================
+2025-11-10 14:18:09,968 - VisionTradingV2 - INFO - Vision Trading V2.0 initialized
+2025-11-10 14:18:09,968 - VisionTradingV2 - INFO - Trading mode: ANALYSIS ONLY
+2025-11-10 14:18:09,969 - VisionTradingV2 - INFO - ======================================================================
+2025-11-10 14:18:09,969 - VisionTradingV2 - INFO - VISION TRADING V2.0 - STARTING
+2025-11-10 14:18:09,969 - VisionTradingV2 - INFO - ======================================================================
+2025-11-10 14:18:09,969 - VisionTradingV2 - INFO - Capture interval: 2.0s
+2025-11-10 14:18:09,970 - VisionTradingV2 - INFO - Min confidence: 75%
+2025-11-10 14:18:09,970 - VisionTradingV2 - INFO - Trading: ANALYSIS ONLY
+2025-11-10 14:18:09,970 - VisionTradingV2 - INFO - Duration: Unlimited (press Ctrl+C to stop)
+2025-11-10 14:18:09,970 - VisionTradingV2 - INFO - ======================================================================

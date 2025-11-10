@@ -21,6 +21,10 @@ from dash import html, dcc
 import dash_bootstrap_components as dbc
 import io
 import threading, time
+from utils.data_handler import data_handler
+
+def get_live_df(n: int = 500):
+    return data_handler.get_latest_bars(n)
 
 # --- Core Component Imports (with correct new paths) ---
 from config import WEBHOOK_PORT, WEBHOOK_PASSPHRASE
@@ -253,6 +257,14 @@ def force_close_all():
 def redirect_to_dashboard():
     return redirect('/dashboard/')
 
+@server.route('/debug/db')
+def debug_db():
+    df = data_handler.get_latest_bars(5)
+    if df is None or df.empty:
+        return 'rows=0'
+    last_ts = df.index.max()
+    last_close = df['close'].iloc[-1]
+    return f'rows={len(df)}, last_ts={last_ts}, last_close={last_close}'
 
 class NQTradingBot:
     """Main trading bot application"""
