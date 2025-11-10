@@ -7320,3 +7320,346 @@ FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDr
 2025-11-10 15:03:00,671 - system - DEBUG - Added bar: 2025-11-10 15:03:00 | Close: 25711.50 | Total rows: 83
 2025-11-10 15:04:00,742 - system - DEBUG - Added bar: 2025-11-10 15:04:00 | Close: 25707.50 | Total rows: 84
 2025-11-10 15:04:39,694 - system - INFO - Database already has 84 bars, skipping CSV import
+2025-11-10 15:24:28,506 - system - INFO - Database already has 84 bars, skipping CSV import
+2025-11-10 15:27:44,113 - system - INFO - Database already has 84 bars, skipping CSV import
+2025-11-10 15:27:44,626 - system - INFO - Dashboard attached to Flask server
+2025-11-10 15:27:44,629 - system - INFO - Trading Dashboard initialized successfully
+2025-11-10 15:27:44,629 - system - INFO - ============================================================
+2025-11-10 15:27:44,629 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-10 15:27:44,629 - system - INFO - ============================================================
+2025-11-10 15:27:44,630 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-10 15:27:44,630 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-10 15:27:44,631 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-10 15:27:44,631 - system - INFO - ============================================================
+2025-11-10 15:27:44,631 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-10 15:27:44,631 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-10 15:27:44,632 - system - INFO -  Position Manager: ACTIVE
+2025-11-10 15:27:44,632 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-10 15:27:44,632 - system - INFO -  Paper trading: ENABLED
+2025-11-10 15:27:44,632 - system - INFO - ============================================================
+2025-11-10 15:27:44,633 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-10 15:28:00,639 - system - DEBUG - Added bar: 2025-11-10 15:28:00 | Close: 25712.50 | Total rows: 85
+2025-11-10 15:28:05,851 - system - DEBUG - Added bar: 2025-11-10 15:28:05 | Close: 25712.50 | Total rows: 86
+2025-11-10 15:29:00,939 - system - DEBUG - Added bar: 2025-11-10 15:29:00 | Close: 25712.00 | Total rows: 87
+2025-11-10 15:30:00,804 - system - DEBUG - Added bar: 2025-11-10 15:30:00 | Close: 25710.25 | Total rows: 88
+2025-11-10 15:31:01,332 - system - DEBUG - Added bar: 2025-11-10 15:31:01 | Close: 25703.75 | Total rows: 89
+2025-11-10 15:32:00,660 - system - DEBUG - Added bar: 2025-11-10 15:32:00 | Close: 25707.75 | Total rows: 90
+2025-11-10 15:33:00,592 - system - DEBUG - Added bar: 2025-11-10 15:33:00 | Close: 25706.25 | Total rows: 91
+2025-11-10 15:34:00,570 - system - DEBUG - Added bar: 2025-11-10 15:34:00 | Close: 25705.50 | Total rows: 92
+2025-11-10 15:35:00,632 - system - DEBUG - Added bar: 2025-11-10 15:35:00 | Close: 25708.50 | Total rows: 93
+2025-11-10 15:36:00,940 - system - DEBUG - Added bar: 2025-11-10 15:36:00 | Close: 25706.25 | Total rows: 94
+2025-11-10 15:37:00,613 - system - DEBUG - Added bar: 2025-11-10 15:37:00 | Close: 25723.00 | Total rows: 95
+2025-11-10 15:37:05,846 - system - DEBUG - Added bar: 2025-11-10 15:37:05 | Close: 25723.00 | Total rows: 96
+2025-11-10 15:38:00,629 - system - DEBUG - Added bar: 2025-11-10 15:38:00 | Close: 25730.50 | Total rows: 97
+2025-11-10 15:38:12,194 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 15:38:37,215 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 15:39:00,817 - system - DEBUG - Added bar: 2025-11-10 15:39:00 | Close: 25730.00 | Total rows: 98
+2025-11-10 15:40:00,702 - system - DEBUG - Added bar: 2025-11-10 15:40:00 | Close: 25731.50 | Total rows: 99
+2025-11-10 15:41:00,607 - system - DEBUG - Added bar: 2025-11-10 15:41:00 | Close: 25723.75 | Total rows: 100
+2025-11-10 15:42:01,365 - system - DEBUG - Added bar: 2025-11-10 15:42:01 | Close: 25725.00 | Total rows: 101
+2025-11-10 15:42:52,719 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 15:43:00,748 - system - DEBUG - Added bar: 2025-11-10 15:43:00 | Close: 25736.75 | Total rows: 102
+2025-11-10 15:43:50,715 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 15:44:00,645 - system - DEBUG - Added bar: 2025-11-10 15:44:00 | Close: 25727.00 | Total rows: 103
+2025-11-10 15:45:00,590 - system - DEBUG - Added bar: 2025-11-10 15:45:00 | Close: 25735.25 | Total rows: 104
+2025-11-10 15:46:00,747 - system - DEBUG - Added bar: 2025-11-10 15:46:00 | Close: 25732.00 | Total rows: 105
+2025-11-10 15:46:05,976 - system - DEBUG - Added bar: 2025-11-10 15:46:05 | Close: 25732.00 | Total rows: 106
+2025-11-10 15:47:00,618 - system - DEBUG - Added bar: 2025-11-10 15:47:00 | Close: 25743.50 | Total rows: 107
+2025-11-10 15:48:00,681 - system - DEBUG - Added bar: 2025-11-10 15:48:00 | Close: 25743.75 | Total rows: 108
+2025-11-10 15:49:00,790 - system - DEBUG - Added bar: 2025-11-10 15:49:00 | Close: 25750.25 | Total rows: 109
+2025-11-10 15:49:41,155 - system - INFO - Database already has 109 bars, skipping CSV import
+2025-11-10 15:49:41,646 - system - INFO - Dashboard attached to Flask server
+2025-11-10 15:49:41,648 - system - INFO - Trading Dashboard initialized successfully
+2025-11-10 15:49:41,648 - system - INFO - ============================================================
+2025-11-10 15:49:41,649 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-10 15:49:41,649 - system - INFO - ============================================================
+2025-11-10 15:49:41,649 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-10 15:49:41,650 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-10 15:49:41,650 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-10 15:49:41,650 - system - INFO - ============================================================
+2025-11-10 15:49:41,650 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-10 15:49:41,651 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-10 15:49:41,651 - system - INFO -  Position Manager: ACTIVE
+2025-11-10 15:49:41,651 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-10 15:49:41,651 - system - INFO -  Paper trading: ENABLED
+2025-11-10 15:49:41,651 - system - INFO - ============================================================
+2025-11-10 15:49:41,652 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-10 15:50:00,885 - system - DEBUG - Added bar: 2025-11-10 15:50:00 | Close: 25755.25 | Total rows: 110
+2025-11-10 15:50:06,596 - system - DEBUG - Added bar: 2025-11-10 15:50:06 | Close: 25755.25 | Total rows: 111
+2025-11-10 15:51:00,657 - system - DEBUG - Added bar: 2025-11-10 15:51:00 | Close: 25739.00 | Total rows: 112
+2025-11-10 15:52:00,662 - system - DEBUG - Added bar: 2025-11-10 15:52:00 | Close: 25737.25 | Total rows: 113
+2025-11-10 15:53:00,629 - system - DEBUG - Added bar: 2025-11-10 15:53:00 | Close: 25743.25 | Total rows: 114
+2025-11-10 15:54:00,598 - system - DEBUG - Added bar: 2025-11-10 15:54:00 | Close: 25750.00 | Total rows: 115
+2025-11-10 15:55:00,855 - system - DEBUG - Added bar: 2025-11-10 15:55:00 | Close: 25748.25 | Total rows: 116
+2025-11-10 15:56:00,662 - system - DEBUG - Added bar: 2025-11-10 15:56:00 | Close: 25718.50 | Total rows: 117
+2025-11-10 15:56:55,948 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 15:57:00,719 - system - DEBUG - Added bar: 2025-11-10 15:57:00 | Close: 25718.75 | Total rows: 118
+2025-11-10 15:58:00,634 - system - DEBUG - Added bar: 2025-11-10 15:58:00 | Close: 25725.00 | Total rows: 119
+2025-11-10 15:59:00,709 - system - DEBUG - Added bar: 2025-11-10 15:59:00 | Close: 25721.50 | Total rows: 120
+2025-11-10 16:00:00,965 - system - DEBUG - Added bar: 2025-11-10 16:00:00 | Close: 25713.00 | Total rows: 121
+2025-11-10 16:01:03,584 - system - DEBUG - Added bar: 2025-11-10 16:01:03 | Close: 25714.25 | Total rows: 122
+2025-11-10 16:02:00,597 - system - DEBUG - Added bar: 2025-11-10 16:02:00 | Close: 25713.75 | Total rows: 123
+2025-11-10 16:02:05,875 - system - DEBUG - Added bar: 2025-11-10 16:02:05 | Close: 25713.75 | Total rows: 124
+2025-11-10 16:03:00,542 - system - DEBUG - Added bar: 2025-11-10 16:03:00 | Close: 25729.00 | Total rows: 125
+2025-11-10 16:04:00,605 - system - DEBUG - Added bar: 2025-11-10 16:04:00 | Close: 25731.50 | Total rows: 126
+2025-11-10 16:05:00,661 - system - DEBUG - Added bar: 2025-11-10 16:05:00 | Close: 25731.25 | Total rows: 127
+2025-11-10 16:05:13,387 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 16:05:34,898 - system - INFO - Database already has 127 bars, skipping CSV import
+2025-11-10 16:05:35,459 - system - INFO - Dashboard attached to Flask server
+2025-11-10 16:05:35,462 - system - INFO - Trading Dashboard initialized successfully
+2025-11-10 16:05:35,462 - system - INFO - ============================================================
+2025-11-10 16:05:35,462 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-10 16:05:35,462 - system - INFO - ============================================================
+2025-11-10 16:05:35,463 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-10 16:05:35,463 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-10 16:05:35,463 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-10 16:05:35,463 - system - INFO - ============================================================
+2025-11-10 16:05:35,463 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-10 16:05:35,463 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-10 16:05:35,464 - system - INFO -  Position Manager: ACTIVE
+2025-11-10 16:05:35,464 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-10 16:05:35,464 - system - INFO -  Paper trading: ENABLED
+2025-11-10 16:05:35,465 - system - INFO - ============================================================
+2025-11-10 16:05:35,465 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-10 16:06:01,106 - system - DEBUG - Added bar: 2025-11-10 16:06:01 | Close: 25734.50 | Total rows: 128
+2025-11-10 16:06:06,304 - system - DEBUG - Added bar: 2025-11-10 16:06:06 | Close: 25734.50 | Total rows: 129
+2025-11-10 16:06:15,401 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 16:07:00,662 - system - DEBUG - Added bar: 2025-11-10 16:07:00 | Close: 25740.00 | Total rows: 130
+2025-11-10 16:07:41,346 - system - INFO - Database already has 130 bars, skipping CSV import
+2025-11-10 16:07:41,828 - system - INFO - Dashboard attached to Flask server
+2025-11-10 16:07:41,830 - system - INFO - Trading Dashboard initialized successfully
+2025-11-10 16:07:41,831 - system - INFO - ============================================================
+2025-11-10 16:07:41,831 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-10 16:07:41,832 - system - INFO - ============================================================
+2025-11-10 16:07:41,832 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-10 16:07:41,832 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-10 16:07:41,832 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-10 16:07:41,833 - system - INFO - ============================================================
+2025-11-10 16:07:41,833 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-10 16:07:41,833 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-10 16:07:41,834 - system - INFO -  Position Manager: ACTIVE
+2025-11-10 16:07:41,834 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-10 16:07:41,834 - system - INFO -  Paper trading: ENABLED
+2025-11-10 16:07:41,835 - system - INFO - ============================================================
+2025-11-10 16:07:41,835 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-10 16:08:00,685 - system - DEBUG - Added bar: 2025-11-10 16:08:00 | Close: 25737.75 | Total rows: 131
+2025-11-10 16:08:05,942 - system - DEBUG - Added bar: 2025-11-10 16:08:05 | Close: 25737.75 | Total rows: 132
+2025-11-10 16:09:00,578 - system - DEBUG - Added bar: 2025-11-10 16:09:00 | Close: 25738.00 | Total rows: 133
+2025-11-10 16:10:00,668 - system - DEBUG - Added bar: 2025-11-10 16:10:00 | Close: 25740.25 | Total rows: 134
+2025-11-10 16:11:02,653 - system - INFO - Database already has 134 bars, skipping CSV import
+2025-11-10 16:11:03,110 - system - INFO - Dashboard attached to Flask server
+2025-11-10 16:11:03,112 - system - INFO - Trading Dashboard initialized successfully
+2025-11-10 16:11:03,113 - system - INFO - ============================================================
+2025-11-10 16:11:03,113 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-10 16:11:03,113 - system - INFO - ============================================================
+2025-11-10 16:11:03,114 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-10 16:11:03,114 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-10 16:11:03,115 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-10 16:11:03,115 - system - INFO - ============================================================
+2025-11-10 16:11:03,115 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-10 16:11:03,116 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-10 16:11:03,116 - system - INFO -  Position Manager: ACTIVE
+2025-11-10 16:11:03,116 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-10 16:11:03,117 - system - INFO -  Paper trading: ENABLED
+2025-11-10 16:11:03,117 - system - INFO - ============================================================
+2025-11-10 16:11:03,117 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-10 16:11:05,830 - system - DEBUG - Added bar: 2025-11-10 16:11:05 | Close: 25734.25 | Total rows: 135
+2025-11-10 16:12:00,793 - system - DEBUG - Added bar: 2025-11-10 16:12:00 | Close: 25730.75 | Total rows: 136
+2025-11-10 16:13:00,703 - system - DEBUG - Added bar: 2025-11-10 16:13:00 | Close: 25728.50 | Total rows: 137
+2025-11-10 16:14:00,716 - system - DEBUG - Added bar: 2025-11-10 16:14:00 | Close: 25735.50 | Total rows: 138
+2025-11-10 16:15:00,588 - system - DEBUG - Added bar: 2025-11-10 16:15:00 | Close: 25734.75 | Total rows: 139
+2025-11-10 16:16:01,025 - system - DEBUG - Added bar: 2025-11-10 16:16:01 | Close: 25743.50 | Total rows: 140
+2025-11-10 16:17:01,939 - system - DEBUG - Added bar: 2025-11-10 16:17:01 | Close: 25737.75 | Total rows: 141
+2025-11-10 16:17:07,190 - system - DEBUG - Added bar: 2025-11-10 16:17:07 | Close: 25737.75 | Total rows: 142
+2025-11-10 16:18:00,678 - system - DEBUG - Added bar: 2025-11-10 16:18:00 | Close: 25740.75 | Total rows: 143
+2025-11-10 16:19:00,583 - system - DEBUG - Added bar: 2025-11-10 16:19:00 | Close: 25736.25 | Total rows: 144
+2025-11-10 16:20:00,815 - system - DEBUG - Added bar: 2025-11-10 16:20:00 | Close: 25734.50 | Total rows: 145
+2025-11-10 16:21:00,583 - system - DEBUG - Added bar: 2025-11-10 16:21:00 | Close: 25736.25 | Total rows: 146
+2025-11-10 16:22:02,283 - system - DEBUG - Added bar: 2025-11-10 16:22:02 | Close: 25735.75 | Total rows: 147
+2025-11-10 16:23:00,733 - system - DEBUG - Added bar: 2025-11-10 16:23:00 | Close: 25736.75 | Total rows: 148
+2025-11-10 16:24:01,674 - system - DEBUG - Added bar: 2025-11-10 16:24:01 | Close: 25737.75 | Total rows: 149
+2025-11-10 16:25:02,987 - system - DEBUG - Added bar: 2025-11-10 16:25:02 | Close: 25737.00 | Total rows: 150
+2025-11-10 16:25:08,244 - system - DEBUG - Added bar: 2025-11-10 16:25:08 | Close: 25737.00 | Total rows: 151
+2025-11-10 16:26:01,585 - system - DEBUG - Added bar: 2025-11-10 16:26:01 | Close: 25738.25 | Total rows: 152
+2025-11-10 16:27:00,769 - system - DEBUG - Added bar: 2025-11-10 16:27:00 | Close: 25739.50 | Total rows: 153
+2025-11-10 16:28:00,729 - system - DEBUG - Added bar: 2025-11-10 16:28:00 | Close: 25735.75 | Total rows: 154
+2025-11-10 16:29:01,104 - system - DEBUG - Added bar: 2025-11-10 16:29:01 | Close: 25734.00 | Total rows: 155
+2025-11-10 16:30:01,444 - system - DEBUG - Added bar: 2025-11-10 16:30:01 | Close: 25729.50 | Total rows: 156
+2025-11-10 16:31:01,682 - system - DEBUG - Added bar: 2025-11-10 16:31:01 | Close: 25729.00 | Total rows: 157
+2025-11-10 16:32:00,838 - system - DEBUG - Added bar: 2025-11-10 16:32:00 | Close: 25727.50 | Total rows: 158
+2025-11-10 16:33:00,687 - system - DEBUG - Added bar: 2025-11-10 16:33:00 | Close: 25731.00 | Total rows: 159
+2025-11-10 16:34:01,556 - system - DEBUG - Added bar: 2025-11-10 16:34:01 | Close: 25724.50 | Total rows: 160
+2025-11-10 16:34:06,776 - system - DEBUG - Added bar: 2025-11-10 16:34:06 | Close: 25724.50 | Total rows: 161
+2025-11-10 16:35:02,049 - system - DEBUG - Added bar: 2025-11-10 16:35:02 | Close: 25725.25 | Total rows: 162
+2025-11-10 16:36:00,870 - system - DEBUG - Added bar: 2025-11-10 16:36:00 | Close: 25729.25 | Total rows: 163
+2025-11-10 16:37:00,993 - system - DEBUG - Added bar: 2025-11-10 16:37:00 | Close: 25726.50 | Total rows: 164
+2025-11-10 16:38:00,635 - system - DEBUG - Added bar: 2025-11-10 16:38:00 | Close: 25726.25 | Total rows: 165
+2025-11-10 16:38:55,232 - system - INFO - Database already has 165 bars, skipping CSV import
+2025-11-10 16:38:55,754 - system - INFO - Dashboard attached to Flask server
+2025-11-10 16:38:55,757 - system - INFO - Trading Dashboard initialized successfully
+2025-11-10 16:38:55,757 - system - INFO - ============================================================
+2025-11-10 16:38:55,758 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-10 16:38:55,758 - system - INFO - ============================================================
+2025-11-10 16:38:55,758 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-10 16:38:55,758 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-10 16:38:55,759 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-10 16:38:55,759 - system - INFO - ============================================================
+2025-11-10 16:38:55,759 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-10 16:38:55,760 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-10 16:38:55,760 - system - INFO -  Position Manager: ACTIVE
+2025-11-10 16:38:55,760 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-10 16:38:55,760 - system - INFO -  Paper trading: ENABLED
+2025-11-10 16:38:55,761 - system - INFO - ============================================================
+2025-11-10 16:38:55,761 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-10 16:39:01,364 - system - DEBUG - Added bar: 2025-11-10 16:39:01 | Close: 25729.25 | Total rows: 166
+2025-11-10 16:40:01,091 - system - DEBUG - Added bar: 2025-11-10 16:40:01 | Close: 25730.25 | Total rows: 167
+2025-11-10 16:40:32,533 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 16:41:01,970 - system - DEBUG - Added bar: 2025-11-10 16:41:01 | Close: 25730.00 | Total rows: 168
+2025-11-10 16:41:06,339 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 16:42:01,542 - system - DEBUG - Added bar: 2025-11-10 16:42:01 | Close: 25733.25 | Total rows: 169
+2025-11-10 16:42:06,117 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 16:42:46,120 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 16:43:00,557 - system - DEBUG - Added bar: 2025-11-10 16:43:00 | Close: 25739.25 | Total rows: 170
+2025-11-10 16:44:00,844 - system - DEBUG - Added bar: 2025-11-10 16:44:00 | Close: 25734.25 | Total rows: 171
+2025-11-10 16:45:00,690 - system - DEBUG - Added bar: 2025-11-10 16:45:00 | Close: 25735.50 | Total rows: 172
+2025-11-10 16:46:00,701 - system - DEBUG - Added bar: 2025-11-10 16:46:00 | Close: 25732.00 | Total rows: 173
+2025-11-10 16:47:01,864 - system - DEBUG - Added bar: 2025-11-10 16:47:01 | Close: 25736.75 | Total rows: 174
+2025-11-10 16:48:01,522 - system - DEBUG - Added bar: 2025-11-10 16:48:01 | Close: 25733.75 | Total rows: 175
+2025-11-10 16:49:00,688 - system - DEBUG - Added bar: 2025-11-10 16:49:00 | Close: 25736.25 | Total rows: 176
+2025-11-10 16:50:00,650 - system - DEBUG - Added bar: 2025-11-10 16:50:00 | Close: 25732.75 | Total rows: 177
+2025-11-10 16:51:00,788 - system - DEBUG - Added bar: 2025-11-10 16:51:00 | Close: 25723.25 | Total rows: 178
+2025-11-10 16:52:01,113 - system - DEBUG - Added bar: 2025-11-10 16:52:01 | Close: 25719.00 | Total rows: 179
+2025-11-10 16:53:00,588 - system - DEBUG - Added bar: 2025-11-10 16:53:00 | Close: 25719.25 | Total rows: 180
+2025-11-10 16:54:00,833 - system - DEBUG - Added bar: 2025-11-10 16:54:00 | Close: 25722.50 | Total rows: 181
+2025-11-10 16:55:00,623 - system - DEBUG - Added bar: 2025-11-10 16:55:00 | Close: 25721.00 | Total rows: 182
+2025-11-10 16:56:01,217 - system - DEBUG - Added bar: 2025-11-10 16:56:01 | Close: 25719.75 | Total rows: 183
+2025-11-10 16:57:00,671 - system - DEBUG - Added bar: 2025-11-10 16:57:00 | Close: 25720.00 | Total rows: 184
+2025-11-10 16:58:00,625 - system - DEBUG - Added bar: 2025-11-10 16:58:00 | Close: 25719.50 | Total rows: 185
+2025-11-10 16:59:00,512 - system - DEBUG - Added bar: 2025-11-10 16:59:00 | Close: 25720.25 | Total rows: 186
+2025-11-10 17:01:02,712 - system - DEBUG - Added bar: 2025-11-10 17:01:02 | Close: 25721.00 | Total rows: 187
+2025-11-10 17:14:13,241 - system - INFO - Database already has 187 bars, skipping CSV import
+2025-11-10 17:19:52,798 - system - INFO - Database already has 187 bars, skipping CSV import
+2025-11-10 17:20:21,836 - system - INFO - Database already has 187 bars, skipping CSV import
+2025-11-10 17:30:56,904 - system - INFO - Database already has 187 bars, skipping CSV import
+2025-11-10 17:30:57,302 - system - INFO - Dashboard attached to Flask server
+2025-11-10 17:30:57,304 - system - INFO - Trading Dashboard initialized successfully
+2025-11-10 17:30:57,304 - system - INFO - ============================================================
+2025-11-10 17:30:57,304 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-10 17:30:57,305 - system - INFO - ============================================================
+2025-11-10 17:30:57,305 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-10 17:30:57,305 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-10 17:30:57,306 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-10 17:30:57,306 - system - INFO - ============================================================
+2025-11-10 17:30:57,306 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-10 17:30:57,307 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-10 17:30:57,307 - system - INFO -  Position Manager: ACTIVE
+2025-11-10 17:30:57,307 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-10 17:30:57,307 - system - INFO -  Paper trading: ENABLED
+2025-11-10 17:30:57,307 - system - INFO - ============================================================
+2025-11-10 17:30:57,308 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-10 17:34:32,485 - system - INFO - Database already has 187 bars, skipping CSV import
+2025-11-10 17:34:32,876 - system - INFO - Dashboard attached to Flask server
+2025-11-10 17:34:32,878 - system - INFO - Trading Dashboard initialized successfully
+2025-11-10 17:34:32,879 - system - INFO - ============================================================
+2025-11-10 17:34:32,879 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-10 17:34:32,879 - system - INFO - ============================================================
+2025-11-10 17:34:32,879 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-10 17:34:32,880 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-10 17:34:32,880 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-10 17:34:32,880 - system - INFO - ============================================================
+2025-11-10 17:34:32,880 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-10 17:34:32,881 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-10 17:34:32,881 - system - INFO -  Position Manager: ACTIVE
+2025-11-10 17:34:32,881 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-10 17:34:32,881 - system - INFO -  Paper trading: ENABLED
+2025-11-10 17:34:32,882 - system - INFO - ============================================================
+2025-11-10 17:34:32,882 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-10 17:45:51,785 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 18:03:36,139 - system - INFO - Database already has 187 bars, skipping CSV import
+2025-11-10 18:03:36,571 - system - INFO - Dashboard attached to Flask server
+2025-11-10 18:03:36,574 - system - INFO - Trading Dashboard initialized successfully
+2025-11-10 18:03:36,574 - system - INFO - ============================================================
+2025-11-10 18:03:36,574 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-10 18:03:36,575 - system - INFO - ============================================================
+2025-11-10 18:03:36,575 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-10 18:03:36,575 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-10 18:03:36,576 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-10 18:03:36,576 - system - INFO - ============================================================
+2025-11-10 18:03:36,576 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-10 18:03:36,577 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-10 18:03:36,577 - system - INFO -  Position Manager: ACTIVE
+2025-11-10 18:03:36,577 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-10 18:03:36,578 - system - INFO -  Paper trading: ENABLED
+2025-11-10 18:03:36,578 - system - INFO - ============================================================
+2025-11-10 18:03:36,578 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-10 18:03:51,794 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 18:05:00,644 - system - DEBUG - Added bar: 2025-11-10 18:05:00 | Close: 25709.75 | Total rows: 188
+2025-11-10 18:05:05,877 - system - DEBUG - Added bar: 2025-11-10 18:05:05 | Close: 25709.75 | Total rows: 189
+2025-11-10 18:05:11,052 - system - DEBUG - Added bar: 2025-11-10 18:05:11 | Close: 25709.75 | Total rows: 190
+2025-11-10 18:05:16,222 - system - DEBUG - Added bar: 2025-11-10 18:05:16 | Close: 25709.75 | Total rows: 191
+2025-11-10 18:06:00,755 - system - DEBUG - Added bar: 2025-11-10 18:06:00 | Close: 25709.50 | Total rows: 192
+2025-11-10 18:06:06,096 - system - DEBUG - Added bar: 2025-11-10 18:06:06 | Close: 25709.50 | Total rows: 193
+2025-11-10 18:06:11,288 - system - DEBUG - Added bar: 2025-11-10 18:06:11 | Close: 25709.50 | Total rows: 194
+2025-11-10 18:06:16,458 - system - DEBUG - Added bar: 2025-11-10 18:06:16 | Close: 25709.50 | Total rows: 195
+2025-11-10 18:07:00,509 - system - DEBUG - Added bar: 2025-11-10 18:07:00 | Close: 25707.50 | Total rows: 196
+2025-11-10 18:07:05,700 - system - DEBUG - Added bar: 2025-11-10 18:07:05 | Close: 25707.50 | Total rows: 197
+2025-11-10 18:07:10,886 - system - DEBUG - Added bar: 2025-11-10 18:07:10 | Close: 25707.50 | Total rows: 198
+2025-11-10 18:07:16,230 - system - DEBUG - Added bar: 2025-11-10 18:07:16 | Close: 25707.50 | Total rows: 199
+2025-11-10 18:08:00,727 - system - DEBUG - Added bar: 2025-11-10 18:08:00 | Close: 25704.75 | Total rows: 200
+2025-11-10 18:08:05,902 - system - DEBUG - Added bar: 2025-11-10 18:08:05 | Close: 25704.75 | Total rows: 201
+2025-11-10 18:08:11,074 - system - DEBUG - Added bar: 2025-11-10 18:08:11 | Close: 25704.75 | Total rows: 202
+2025-11-10 18:08:16,365 - system - DEBUG - Added bar: 2025-11-10 18:08:16 | Close: 25704.75 | Total rows: 203
+2025-11-10 18:09:00,553 - system - DEBUG - Added bar: 2025-11-10 18:09:00 | Close: 25703.75 | Total rows: 204
+2025-11-10 18:09:05,720 - system - DEBUG - Added bar: 2025-11-10 18:09:05 | Close: 25703.75 | Total rows: 205
+2025-11-10 18:09:10,907 - system - DEBUG - Added bar: 2025-11-10 18:09:10 | Close: 25703.75 | Total rows: 206
+2025-11-10 18:09:16,080 - system - DEBUG - Added bar: 2025-11-10 18:09:16 | Close: 25703.75 | Total rows: 207
+2025-11-10 18:09:51,804 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 18:10:00,553 - system - DEBUG - Added bar: 2025-11-10 18:10:00 | Close: 25709.50 | Total rows: 208
+2025-11-10 18:10:05,780 - system - DEBUG - Added bar: 2025-11-10 18:10:05 | Close: 25709.50 | Total rows: 209
+2025-11-10 18:10:10,943 - system - DEBUG - Added bar: 2025-11-10 18:10:10 | Close: 25709.50 | Total rows: 210
+2025-11-10 18:10:16,165 - system - DEBUG - Added bar: 2025-11-10 18:10:16 | Close: 25709.50 | Total rows: 211
+2025-11-10 18:11:00,767 - system - DEBUG - Added bar: 2025-11-10 18:11:00 | Close: 25713.25 | Total rows: 212
+2025-11-10 18:11:05,967 - system - DEBUG - Added bar: 2025-11-10 18:11:05 | Close: 25713.25 | Total rows: 213
+2025-11-10 18:11:11,139 - system - DEBUG - Added bar: 2025-11-10 18:11:11 | Close: 25713.25 | Total rows: 214
+2025-11-10 18:11:16,392 - system - DEBUG - Added bar: 2025-11-10 18:11:16 | Close: 25713.25 | Total rows: 215
+2025-11-10 18:11:51,792 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 18:12:00,588 - system - DEBUG - Added bar: 2025-11-10 18:12:00 | Close: 25713.00 | Total rows: 216
+2025-11-10 18:12:05,985 - system - DEBUG - Added bar: 2025-11-10 18:12:05 | Close: 25713.00 | Total rows: 217
+2025-11-10 18:12:11,173 - system - DEBUG - Added bar: 2025-11-10 18:12:11 | Close: 25713.00 | Total rows: 218
+2025-11-10 18:12:16,339 - system - DEBUG - Added bar: 2025-11-10 18:12:16 | Close: 25713.00 | Total rows: 219
+2025-11-10 18:13:00,595 - system - DEBUG - Added bar: 2025-11-10 18:13:00 | Close: 25710.25 | Total rows: 220
+2025-11-10 18:13:05,794 - system - DEBUG - Added bar: 2025-11-10 18:13:05 | Close: 25710.25 | Total rows: 221
+2025-11-10 18:13:11,006 - system - DEBUG - Added bar: 2025-11-10 18:13:11 | Close: 25710.25 | Total rows: 222
+2025-11-10 18:13:16,228 - system - DEBUG - Added bar: 2025-11-10 18:13:16 | Close: 25710.25 | Total rows: 223
+2025-11-10 18:14:01,686 - system - DEBUG - Added bar: 2025-11-10 18:14:01 | Close: 25716.00 | Total rows: 224
+2025-11-10 18:14:06,907 - system - DEBUG - Added bar: 2025-11-10 18:14:06 | Close: 25716.00 | Total rows: 225
+2025-11-10 18:14:12,082 - system - DEBUG - Added bar: 2025-11-10 18:14:12 | Close: 25716.00 | Total rows: 226
+2025-11-10 18:14:17,269 - system - DEBUG - Added bar: 2025-11-10 18:14:17 | Close: 25716.00 | Total rows: 227
+2025-11-10 18:15:01,232 - system - DEBUG - Added bar: 2025-11-10 18:15:01 | Close: 25715.25 | Total rows: 228
+2025-11-10 18:15:06,648 - system - DEBUG - Added bar: 2025-11-10 18:15:06 | Close: 25715.25 | Total rows: 229
+2025-11-10 18:15:11,825 - system - DEBUG - Added bar: 2025-11-10 18:15:11 | Close: 25715.25 | Total rows: 230
+2025-11-10 18:15:17,035 - system - DEBUG - Added bar: 2025-11-10 18:15:17 | Close: 25715.25 | Total rows: 231
+2025-11-10 18:16:00,811 - system - DEBUG - Added bar: 2025-11-10 18:16:00 | Close: 25716.75 | Total rows: 232
+2025-11-10 18:16:06,042 - system - DEBUG - Added bar: 2025-11-10 18:16:06 | Close: 25716.75 | Total rows: 233
+2025-11-10 18:16:11,226 - system - DEBUG - Added bar: 2025-11-10 18:16:11 | Close: 25716.75 | Total rows: 234
+2025-11-10 18:16:16,411 - system - DEBUG - Added bar: 2025-11-10 18:16:16 | Close: 25716.75 | Total rows: 235
+2025-11-10 18:17:00,772 - system - DEBUG - Added bar: 2025-11-10 18:17:00 | Close: 25713.25 | Total rows: 236
+2025-11-10 18:17:14,691 - system - INFO - Database already has 236 bars, skipping CSV import
+2025-11-10 18:17:15,103 - system - INFO - Dashboard attached to Flask server
+2025-11-10 18:17:15,106 - system - INFO - Trading Dashboard initialized successfully
+2025-11-10 18:17:15,106 - system - INFO - ============================================================
+2025-11-10 18:17:15,106 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-10 18:17:15,107 - system - INFO - ============================================================
+2025-11-10 18:17:15,107 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-10 18:17:15,107 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-10 18:17:15,107 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-10 18:17:15,108 - system - INFO - ============================================================
+2025-11-10 18:17:15,108 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-10 18:17:15,108 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-10 18:17:15,109 - system - INFO -  Position Manager: ACTIVE
+2025-11-10 18:17:15,109 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-10 18:17:15,109 - system - INFO -  Paper trading: ENABLED
+2025-11-10 18:17:15,109 - system - INFO - ============================================================
+2025-11-10 18:17:15,110 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-10 18:17:16,507 - system - DEBUG - Added bar: 2025-11-10 18:17:16 | Close: 25713.25 | Total rows: 237
+2025-11-10 18:17:40,398 - system - ERROR - Error getting latest bars: bad parameter or other API misuse

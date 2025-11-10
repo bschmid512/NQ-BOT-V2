@@ -38428,3 +38428,576 @@ TypeError: unsupported operand type(s) for -: 'NoneType' and 'int'
 2025-11-10 15:02:00,681 - webhook - INFO - Bar received: 2025-11-10T15:02:00.680611 | O:25710.25 H:25713.00 L:25708.00 C:25709.25 V:1130.0
 2025-11-10 15:03:00,671 - webhook - INFO - Bar received: 2025-11-10T15:03:00.670359 | O:25709.75 H:25711.75 L:25703.00 C:25711.50 V:1423.0
 2025-11-10 15:04:00,742 - webhook - INFO - Bar received: 2025-11-10T15:04:00.741289 | O:25711.25 H:25712.50 L:25704.00 C:25707.50 V:1008.0
+2025-11-10 15:28:00,639 - webhook - INFO - Bar received: 2025-11-10T15:28:00.636498 | O:25720.25 H:25721.25 L:25712.00 C:25712.50 V:1473.0
+2025-11-10 15:28:00,674 - webhook - ERROR - Error processing webhook: unsupported operand type(s) for -: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+        bar_data=bar_data,
+        df=df,
+        vision_data=_get_latest_vision()
+    )
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\core\enhanced_strategy_engine.py", line 96, in process_new_bar
+    fused_signal = signal_fusion_engine.evaluate_trade_setup(context, strategy_signals)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\core\signal_fusion_engine.py", line 135, in evaluate_trade_setup
+    "stop": market_context.get("stop") or (price - 40 if fused_direction == "LONG" else price + 40),
+                                           ~~~~~~^~~~
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'int'
+2025-11-10 15:28:05,852 - webhook - INFO - Bar received: 2025-11-10T15:28:05.850385 | O:25720.25 H:25721.25 L:25712.00 C:25712.50 V:1473.0
+2025-11-10 15:29:00,940 - webhook - INFO - Bar received: 2025-11-10T15:29:00.938825 | O:25712.50 H:25714.75 L:25709.25 C:25712.00 V:1289.0
+2025-11-10 15:30:00,805 - webhook - INFO - Bar received: 2025-11-10T15:30:00.803666 | O:25711.75 H:25717.25 L:25709.25 C:25710.25 V:1200.0
+2025-11-10 15:31:01,333 - webhook - INFO - Bar received: 2025-11-10T15:31:01.331740 | O:25710.00 H:25710.00 L:25698.25 C:25703.75 V:3412.0
+2025-11-10 15:32:00,661 - webhook - INFO - Bar received: 2025-11-10T15:32:00.659854 | O:25704.00 H:25709.75 L:25703.25 C:25707.75 V:1642.0
+2025-11-10 15:33:00,592 - webhook - INFO - Bar received: 2025-11-10T15:33:00.591431 | O:25707.50 H:25708.75 L:25703.00 C:25706.25 V:1010.0
+2025-11-10 15:34:00,571 - webhook - INFO - Bar received: 2025-11-10T15:34:00.570216 | O:25706.25 H:25708.50 L:25702.75 C:25705.50 V:952.0
+2025-11-10 15:35:00,632 - webhook - INFO - Bar received: 2025-11-10T15:35:00.631653 | O:25705.50 H:25712.00 L:25703.00 C:25708.50 V:1410.0
+2025-11-10 15:36:00,941 - webhook - INFO - Bar received: 2025-11-10T15:36:00.939180 | O:25708.25 H:25712.00 L:25704.25 C:25706.25 V:1063.0
+2025-11-10 15:37:00,614 - webhook - INFO - Bar received: 2025-11-10T15:37:00.612131 | O:25706.75 H:25724.50 L:25706.75 C:25723.00 V:2810.0
+2025-11-10 15:37:00,642 - webhook - ERROR - Error processing webhook: unsupported operand type(s) for -: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+        bar_data=bar_data,
+        df=df,
+        vision_data=_get_latest_vision()
+    )
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\core\enhanced_strategy_engine.py", line 96, in process_new_bar
+    fused_signal = signal_fusion_engine.evaluate_trade_setup(context, strategy_signals)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\core\signal_fusion_engine.py", line 135, in evaluate_trade_setup
+    "stop": market_context.get("stop") or (price - 40 if fused_direction == "LONG" else price + 40),
+                                           ~~~~~~^~~~
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'int'
+2025-11-10 15:37:05,846 - webhook - INFO - Bar received: 2025-11-10T15:37:05.845770 | O:25706.75 H:25724.50 L:25706.75 C:25723.00 V:2810.0
+2025-11-10 15:38:00,629 - webhook - INFO - Bar received: 2025-11-10T15:38:00.628336 | O:25722.75 H:25733.50 L:25719.50 C:25730.50 V:3921.0
+2025-11-10 15:39:00,818 - webhook - INFO - Bar received: 2025-11-10T15:39:00.817184 | O:25730.25 H:25732.50 L:25729.00 C:25730.00 V:1465.0
+2025-11-10 15:40:00,702 - webhook - INFO - Bar received: 2025-11-10T15:40:00.700906 | O:25730.25 H:25737.25 L:25729.25 C:25731.50 V:2930.0
+2025-11-10 15:41:00,608 - webhook - INFO - Bar received: 2025-11-10T15:41:00.606835 | O:25731.00 H:25731.00 L:25721.00 C:25723.75 V:2383.0
+2025-11-10 15:42:01,365 - webhook - INFO - Bar received: 2025-11-10T15:42:01.364520 | O:25723.75 H:25727.50 L:25722.50 C:25725.00 V:1219.0
+2025-11-10 15:43:00,749 - webhook - INFO - Bar received: 2025-11-10T15:43:00.747916 | O:25724.75 H:25738.00 L:25724.25 C:25736.75 V:1879.0
+2025-11-10 15:44:00,645 - webhook - INFO - Bar received: 2025-11-10T15:44:00.644563 | O:25736.50 H:25736.50 L:25726.75 C:25727.00 V:1577.0
+2025-11-10 15:45:00,591 - webhook - INFO - Bar received: 2025-11-10T15:45:00.589882 | O:25727.25 H:25736.00 L:25726.00 C:25735.25 V:1225.0
+2025-11-10 15:46:00,748 - webhook - INFO - Bar received: 2025-11-10T15:46:00.745041 | O:25735.50 H:25735.50 L:25728.25 C:25732.00 V:1282.0
+2025-11-10 15:46:00,785 - webhook - ERROR - Error processing webhook: unsupported operand type(s) for -: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+        bar_data=bar_data,
+        df=df,
+        vision_data=_get_latest_vision()
+    )
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\core\enhanced_strategy_engine.py", line 96, in process_new_bar
+    fused_signal = signal_fusion_engine.evaluate_trade_setup(context, strategy_signals)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\core\signal_fusion_engine.py", line 135, in evaluate_trade_setup
+    "stop": market_context.get("stop") or (price - 40 if fused_direction == "LONG" else price + 40),
+                                           ~~~~~~^~~~
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'int'
+2025-11-10 15:46:05,977 - webhook - INFO - Bar received: 2025-11-10T15:46:05.975785 | O:25735.50 H:25735.50 L:25728.25 C:25732.00 V:1282.0
+2025-11-10 15:47:00,619 - webhook - INFO - Bar received: 2025-11-10T15:47:00.617964 | O:25732.50 H:25744.50 L:25732.25 C:25743.50 V:3573.0
+2025-11-10 15:48:00,682 - webhook - INFO - Bar received: 2025-11-10T15:48:00.680865 | O:25743.25 H:25747.50 L:25739.25 C:25743.75 V:2503.0
+2025-11-10 15:49:00,790 - webhook - INFO - Bar received: 2025-11-10T15:49:00.788973 | O:25743.50 H:25754.75 L:25742.50 C:25750.25 V:3501.0
+2025-11-10 15:50:00,885 - webhook - INFO - Bar received: 2025-11-10T15:50:00.884275 | O:25750.00 H:25758.75 L:25748.75 C:25755.25 V:2412.0
+2025-11-10 15:50:00,927 - webhook - ERROR - Error processing webhook: 'Logger' object has no attribute 'log_trade_taken'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+        bar_data=bar_data,
+        df=df,
+        vision_data=_get_latest_vision()
+    )
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\core\enhanced_strategy_engine.py", line 96, in process_new_bar
+    fused_signal = signal_fusion_engine.evaluate_trade_setup(context, strategy_signals)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\core\signal_fusion_engine.py", line 188, in evaluate_trade_setup
+    self.logger.log_trade_taken(fused_result, position={}, context=market_context)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Logger' object has no attribute 'log_trade_taken'
+2025-11-10 15:50:06,597 - webhook - INFO - Bar received: 2025-11-10T15:50:06.594461 | O:25750.00 H:25758.75 L:25748.75 C:25755.25 V:2412.0
+2025-11-10 15:51:00,658 - webhook - INFO - Bar received: 2025-11-10T15:51:00.655816 | O:25755.25 H:25759.25 L:25730.25 C:25739.00 V:6296.0
+2025-11-10 15:52:00,662 - webhook - INFO - Bar received: 2025-11-10T15:52:00.661205 | O:25739.25 H:25742.00 L:25734.25 C:25737.25 V:3405.0
+2025-11-10 15:53:00,629 - webhook - INFO - Bar received: 2025-11-10T15:53:00.628455 | O:25737.50 H:25747.50 L:25736.00 C:25743.25 V:3266.0
+2025-11-10 15:54:00,599 - webhook - INFO - Bar received: 2025-11-10T15:54:00.597792 | O:25743.00 H:25750.50 L:25741.50 C:25750.00 V:2126.0
+2025-11-10 15:55:00,855 - webhook - INFO - Bar received: 2025-11-10T15:55:00.853856 | O:25749.75 H:25760.00 L:25747.00 C:25748.25 V:6018.0
+2025-11-10 15:56:00,662 - webhook - INFO - Bar received: 2025-11-10T15:56:00.661236 | O:25748.50 H:25750.00 L:25714.50 C:25718.50 V:7781.0
+2025-11-10 15:57:00,720 - webhook - INFO - Bar received: 2025-11-10T15:57:00.718841 | O:25718.50 H:25722.00 L:25713.50 C:25718.75 V:3300.0
+2025-11-10 15:58:00,635 - webhook - INFO - Bar received: 2025-11-10T15:58:00.633388 | O:25718.75 H:25730.50 L:25716.25 C:25725.00 V:3454.0
+2025-11-10 15:59:00,709 - webhook - INFO - Bar received: 2025-11-10T15:59:00.708459 | O:25725.00 H:25726.00 L:25717.75 C:25721.50 V:3172.0
+2025-11-10 16:00:00,966 - webhook - INFO - Bar received: 2025-11-10T16:00:00.964887 | O:25721.50 H:25732.25 L:25709.00 C:25713.00 V:12967.0
+2025-11-10 16:01:03,584 - webhook - INFO - Bar received: 2025-11-10T16:01:03.583666 | O:25713.25 H:25722.00 L:25711.25 C:25714.25 V:5850.0
+2025-11-10 16:02:00,598 - webhook - INFO - Bar received: 2025-11-10T16:02:00.596701 | O:25714.25 H:25718.00 L:25707.75 C:25713.75 V:2870.0
+2025-11-10 16:02:00,636 - webhook - ERROR - Error processing webhook: 'Logger' object has no attribute 'log_trade_taken'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+        bar_data=bar_data,
+        df=df,
+        vision_data=_get_latest_vision()
+    )
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\core\enhanced_strategy_engine.py", line 96, in process_new_bar
+    fused_signal = signal_fusion_engine.evaluate_trade_setup(context, strategy_signals)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\core\signal_fusion_engine.py", line 188, in evaluate_trade_setup
+    self.logger.log_trade_taken(fused_result, position={}, context=market_context)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Logger' object has no attribute 'log_trade_taken'
+2025-11-10 16:02:05,875 - webhook - INFO - Bar received: 2025-11-10T16:02:05.874004 | O:25714.25 H:25718.00 L:25707.75 C:25713.75 V:2870.0
+2025-11-10 16:03:00,543 - webhook - INFO - Bar received: 2025-11-10T16:03:00.541779 | O:25714.25 H:25733.25 L:25713.25 C:25729.00 V:2359.0
+2025-11-10 16:04:00,605 - webhook - INFO - Bar received: 2025-11-10T16:04:00.604515 | O:25729.25 H:25734.75 L:25727.00 C:25731.50 V:1434.0
+2025-11-10 16:05:00,661 - webhook - INFO - Bar received: 2025-11-10T16:05:00.660829 | O:25731.75 H:25734.75 L:25729.75 C:25731.25 V:763.0
+2025-11-10 16:06:01,106 - webhook - INFO - Bar received: 2025-11-10T16:06:01.104851 | O:25731.50 H:25736.75 L:25730.75 C:25734.50 V:1208.0
+2025-11-10 16:06:01,145 - webhook - ERROR - Error processing webhook: 'TradingLogger' object has no attribute 'log_trade_taken'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+        bar_data=bar_data,
+        df=df,
+        vision_data=_get_latest_vision()
+    )
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\core\enhanced_strategy_engine.py", line 96, in process_new_bar
+    fused_signal = signal_fusion_engine.evaluate_trade_setup(context, strategy_signals)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\core\signal_fusion_engine.py", line 188, in evaluate_trade_setup
+    self.logger.log_trade_taken(fused_result, position={}, context=market_context)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TradingLogger' object has no attribute 'log_trade_taken'
+2025-11-10 16:06:06,304 - webhook - INFO - Bar received: 2025-11-10T16:06:06.303318 | O:25731.50 H:25736.75 L:25730.75 C:25734.50 V:1208.0
+2025-11-10 16:07:00,662 - webhook - INFO - Bar received: 2025-11-10T16:07:00.661549 | O:25734.25 H:25743.00 L:25734.00 C:25740.00 V:1363.0
+2025-11-10 16:08:00,686 - webhook - INFO - Bar received: 2025-11-10T16:08:00.684564 | O:25739.25 H:25740.75 L:25732.75 C:25737.75 V:1215.0
+2025-11-10 16:08:00,717 - webhook - ERROR - Error processing webhook: 'TradingLogger' object has no attribute 'info'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+        bar_data=bar_data,
+        df=df,
+        vision_data=_get_latest_vision()
+    )
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\core\enhanced_strategy_engine.py", line 96, in process_new_bar
+    fused_signal = signal_fusion_engine.evaluate_trade_setup(context, strategy_signals)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\core\signal_fusion_engine.py", line 188, in evaluate_trade_setup
+    self.logger.log_trade_taken(fused_result, position={}, context=market_context)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\utils\logger.py", line 131, in log_trade_taken
+    self.info(
+    ^^^^^^^^^
+AttributeError: 'TradingLogger' object has no attribute 'info'
+2025-11-10 16:08:05,943 - webhook - INFO - Bar received: 2025-11-10T16:08:05.941967 | O:25739.25 H:25740.75 L:25732.75 C:25737.75 V:1215.0
+2025-11-10 16:09:00,578 - webhook - INFO - Bar received: 2025-11-10T16:09:00.569814 | O:25738.00 H:25740.75 L:25735.75 C:25738.00 V:732.0
+2025-11-10 16:10:00,669 - webhook - INFO - Bar received: 2025-11-10T16:10:00.667842 | O:25738.50 H:25742.75 L:25737.25 C:25740.25 V:710.0
+2025-11-10 16:11:05,830 - webhook - INFO - Bar received: 2025-11-10T16:11:05.828288 | O:25740.50 H:25740.75 L:25733.25 C:25734.25 V:945.0
+2025-11-10 16:12:00,793 - webhook - INFO - Bar received: 2025-11-10T16:12:00.792258 | O:25734.50 H:25735.50 L:25730.25 C:25730.75 V:864.0
+2025-11-10 16:13:00,703 - webhook - INFO - Bar received: 2025-11-10T16:13:00.702016 | O:25730.75 H:25732.25 L:25726.75 C:25728.50 V:989.0
+2025-11-10 16:14:00,717 - webhook - INFO - Bar received: 2025-11-10T16:14:00.715860 | O:25728.50 H:25736.75 L:25728.50 C:25735.50 V:803.0
+2025-11-10 16:15:00,588 - webhook - INFO - Bar received: 2025-11-10T16:15:00.587643 | O:25735.50 H:25737.25 L:25733.00 C:25734.75 V:556.0
+2025-11-10 16:16:01,026 - webhook - INFO - Bar received: 2025-11-10T16:16:01.024634 | O:25734.75 H:25744.50 L:25731.50 C:25743.50 V:1304.0
+2025-11-10 16:17:01,939 - webhook - INFO - Bar received: 2025-11-10T16:17:01.938442 | O:25743.75 H:25746.00 L:25737.75 C:25737.75 V:672.0
+2025-11-10 16:17:02,010 - webhook - ERROR - Error processing webhook: 'strategy'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 180, in receive_webhook
+    logger.info(f"Fusion signal from {fused_signal['strategy']} rejected: {reason}")
+                                      ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'strategy'
+2025-11-10 16:17:07,191 - webhook - INFO - Bar received: 2025-11-10T16:17:07.190077 | O:25743.75 H:25746.00 L:25737.75 C:25737.75 V:672.0
+2025-11-10 16:18:00,678 - webhook - INFO - Bar received: 2025-11-10T16:18:00.677708 | O:25738.00 H:25740.75 L:25737.75 C:25740.75 V:310.0
+2025-11-10 16:19:00,583 - webhook - INFO - Bar received: 2025-11-10T16:19:00.582263 | O:25740.75 H:25742.75 L:25736.25 C:25736.25 V:372.0
+2025-11-10 16:20:00,816 - webhook - INFO - Bar received: 2025-11-10T16:20:00.814847 | O:25736.25 H:25737.00 L:25734.00 C:25734.50 V:288.0
+2025-11-10 16:21:00,583 - webhook - INFO - Bar received: 2025-11-10T16:21:00.582071 | O:25734.75 H:25742.25 L:25734.25 C:25736.25 V:465.0
+2025-11-10 16:22:02,283 - webhook - INFO - Bar received: 2025-11-10T16:22:02.282815 | O:25736.50 H:25737.25 L:25732.75 C:25735.75 V:526.0
+2025-11-10 16:23:00,734 - webhook - INFO - Bar received: 2025-11-10T16:23:00.732465 | O:25736.25 H:25739.25 L:25734.50 C:25736.75 V:307.0
+2025-11-10 16:24:01,674 - webhook - INFO - Bar received: 2025-11-10T16:24:01.673513 | O:25736.50 H:25738.50 L:25735.00 C:25737.75 V:358.0
+2025-11-10 16:25:02,988 - webhook - INFO - Bar received: 2025-11-10T16:25:02.986954 | O:25737.50 H:25739.75 L:25736.25 C:25737.00 V:295.0
+2025-11-10 16:25:03,017 - webhook - ERROR - Error processing webhook: 'strategy'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 180, in receive_webhook
+    logger.info(f"Fusion signal from {fused_signal['strategy']} rejected: {reason}")
+                                      ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'strategy'
+2025-11-10 16:25:08,245 - webhook - INFO - Bar received: 2025-11-10T16:25:08.243894 | O:25737.50 H:25739.75 L:25736.25 C:25737.00 V:295.0
+2025-11-10 16:26:01,585 - webhook - INFO - Bar received: 2025-11-10T16:26:01.584013 | O:25737.25 H:25739.50 L:25736.25 C:25738.25 V:232.0
+2025-11-10 16:27:00,770 - webhook - INFO - Bar received: 2025-11-10T16:27:00.768599 | O:25738.25 H:25739.50 L:25734.50 C:25739.50 V:319.0
+2025-11-10 16:28:00,730 - webhook - INFO - Bar received: 2025-11-10T16:28:00.728212 | O:25739.00 H:25740.50 L:25735.75 C:25735.75 V:259.0
+2025-11-10 16:29:01,104 - webhook - INFO - Bar received: 2025-11-10T16:29:01.103615 | O:25735.50 H:25736.75 L:25733.75 C:25734.00 V:253.0
+2025-11-10 16:30:01,444 - webhook - INFO - Bar received: 2025-11-10T16:30:01.442891 | O:25733.50 H:25733.50 L:25729.25 C:25729.50 V:345.0
+2025-11-10 16:31:01,682 - webhook - INFO - Bar received: 2025-11-10T16:31:01.681204 | O:25730.00 H:25731.50 L:25728.50 C:25729.00 V:246.0
+2025-11-10 16:32:00,839 - webhook - INFO - Bar received: 2025-11-10T16:32:00.836949 | O:25728.50 H:25728.50 L:25726.00 C:25727.50 V:367.0
+2025-11-10 16:33:00,687 - webhook - INFO - Bar received: 2025-11-10T16:33:00.686235 | O:25727.25 H:25732.00 L:25727.25 C:25731.00 V:316.0
+2025-11-10 16:34:01,556 - webhook - INFO - Bar received: 2025-11-10T16:34:01.555427 | O:25730.75 H:25730.75 L:25722.25 C:25724.50 V:697.0
+2025-11-10 16:34:01,592 - webhook - ERROR - Error processing webhook: 'strategy'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 180, in receive_webhook
+    logger.info(f"Fusion signal from {fused_signal['strategy']} rejected: {reason}")
+                                      ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'strategy'
+2025-11-10 16:34:06,776 - webhook - INFO - Bar received: 2025-11-10T16:34:06.775335 | O:25730.75 H:25730.75 L:25722.25 C:25724.50 V:697.0
+2025-11-10 16:35:02,049 - webhook - INFO - Bar received: 2025-11-10T16:35:02.048291 | O:25724.25 H:25725.75 L:25723.50 C:25725.25 V:219.0
+2025-11-10 16:36:00,870 - webhook - INFO - Bar received: 2025-11-10T16:36:00.869725 | O:25725.25 H:25729.75 L:25725.00 C:25729.25 V:456.0
+2025-11-10 16:37:00,993 - webhook - INFO - Bar received: 2025-11-10T16:37:00.991925 | O:25729.25 H:25729.25 L:25725.25 C:25726.50 V:387.0
+2025-11-10 16:38:00,636 - webhook - INFO - Bar received: 2025-11-10T16:38:00.634884 | O:25726.50 H:25728.25 L:25725.25 C:25726.25 V:206.0
+2025-11-10 16:39:01,364 - webhook - INFO - Bar received: 2025-11-10T16:39:01.362987 | O:25726.75 H:25729.75 L:25726.75 C:25729.25 V:160.0
+2025-11-10 16:40:01,091 - webhook - INFO - Bar received: 2025-11-10T16:40:01.090364 | O:25729.00 H:25731.00 L:25728.25 C:25730.25 V:290.0
+2025-11-10 16:41:01,971 - webhook - INFO - Bar received: 2025-11-10T16:41:01.970083 | O:25730.75 H:25730.75 L:25729.00 C:25730.00 V:258.0
+2025-11-10 16:42:01,543 - webhook - INFO - Bar received: 2025-11-10T16:42:01.542030 | O:25729.75 H:25734.50 L:25728.50 C:25733.25 V:397.0
+2025-11-10 16:43:00,557 - webhook - INFO - Bar received: 2025-11-10T16:43:00.556391 | O:25733.50 H:25740.00 L:25733.50 C:25739.25 V:598.0
+2025-11-10 16:43:00,595 - webhook - INFO - Fusion signal from fusion rejected: Daily loss limit hit ($0.00)
+2025-11-10 16:44:00,844 - webhook - INFO - Bar received: 2025-11-10T16:44:00.843704 | O:25739.25 H:25739.75 L:25734.25 C:25734.25 V:424.0
+2025-11-10 16:45:00,691 - webhook - INFO - Bar received: 2025-11-10T16:45:00.689900 | O:25734.75 H:25736.25 L:25734.25 C:25735.50 V:190.0
+2025-11-10 16:46:00,702 - webhook - INFO - Bar received: 2025-11-10T16:46:00.700842 | O:25735.00 H:25735.25 L:25729.00 C:25732.00 V:480.0
+2025-11-10 16:47:01,864 - webhook - INFO - Bar received: 2025-11-10T16:47:01.862742 | O:25732.00 H:25738.00 L:25731.75 C:25736.75 V:344.0
+2025-11-10 16:48:01,523 - webhook - INFO - Bar received: 2025-11-10T16:48:01.521856 | O:25736.50 H:25736.75 L:25733.50 C:25733.75 V:143.0
+2025-11-10 16:49:00,689 - webhook - INFO - Bar received: 2025-11-10T16:49:00.687840 | O:25734.25 H:25736.25 L:25732.75 C:25736.25 V:152.0
+2025-11-10 16:50:00,651 - webhook - INFO - Bar received: 2025-11-10T16:50:00.649852 | O:25736.25 H:25736.25 L:25731.75 C:25732.75 V:184.0
+2025-11-10 16:51:00,788 - webhook - INFO - Bar received: 2025-11-10T16:51:00.787503 | O:25733.00 H:25733.50 L:25722.75 C:25723.25 V:543.0
+2025-11-10 16:52:01,113 - webhook - INFO - Bar received: 2025-11-10T16:52:01.111858 | O:25723.25 H:25723.25 L:25714.50 C:25719.00 V:833.0
+2025-11-10 16:52:01,147 - webhook - INFO - Fusion signal from fusion rejected: Daily loss limit hit ($0.00)
+2025-11-10 16:53:00,588 - webhook - INFO - Bar received: 2025-11-10T16:53:00.587375 | O:25718.75 H:25721.00 L:25717.75 C:25719.25 V:201.0
+2025-11-10 16:54:00,834 - webhook - INFO - Bar received: 2025-11-10T16:54:00.832373 | O:25719.25 H:25723.25 L:25717.75 C:25722.50 V:178.0
+2025-11-10 16:55:00,623 - webhook - INFO - Bar received: 2025-11-10T16:55:00.622174 | O:25722.50 H:25723.00 L:25719.50 C:25721.00 V:162.0
+2025-11-10 16:56:01,218 - webhook - INFO - Bar received: 2025-11-10T16:56:01.216731 | O:25721.25 H:25722.75 L:25719.25 C:25719.75 V:344.0
+2025-11-10 16:57:00,672 - webhook - INFO - Bar received: 2025-11-10T16:57:00.670772 | O:25719.75 H:25720.50 L:25718.25 C:25720.00 V:122.0
+2025-11-10 16:58:00,626 - webhook - INFO - Bar received: 2025-11-10T16:58:00.624950 | O:25720.25 H:25722.00 L:25718.00 C:25719.50 V:179.0
+2025-11-10 16:59:00,512 - webhook - INFO - Bar received: 2025-11-10T16:59:00.511830 | O:25719.50 H:25721.00 L:25718.00 C:25720.25 V:224.0
+2025-11-10 17:01:02,713 - webhook - INFO - Bar received: 2025-11-10T17:01:02.711811 | O:25720.25 H:25722.25 L:25718.75 C:25721.00 V:466.0
+2025-11-10 17:01:02,743 - webhook - INFO - Fusion signal from fusion rejected: Daily loss limit hit ($0.00)
+2025-11-10 18:05:00,645 - webhook - INFO - Bar received: 2025-11-10T18:05:00.609102 | O:25715.00 H:25716.75 L:25709.25 C:25709.75 V:331.0
+2025-11-10 18:05:00,649 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:05:05,878 - webhook - INFO - Bar received: 2025-11-10T18:05:05.876790 | O:25715.00 H:25716.75 L:25709.25 C:25709.75 V:331.0
+2025-11-10 18:05:05,883 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:05:11,052 - webhook - INFO - Bar received: 2025-11-10T18:05:11.051429 | O:25715.00 H:25716.75 L:25709.25 C:25709.75 V:331.0
+2025-11-10 18:05:11,056 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:05:16,223 - webhook - INFO - Bar received: 2025-11-10T18:05:16.221756 | O:25715.00 H:25716.75 L:25709.25 C:25709.75 V:331.0
+2025-11-10 18:05:16,226 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:06:00,755 - webhook - INFO - Bar received: 2025-11-10T18:06:00.754750 | O:25710.25 H:25711.25 L:25707.75 C:25709.50 V:410.0
+2025-11-10 18:06:00,758 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:06:06,097 - webhook - INFO - Bar received: 2025-11-10T18:06:06.095970 | O:25710.25 H:25711.25 L:25707.75 C:25709.50 V:410.0
+2025-11-10 18:06:06,100 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:06:11,288 - webhook - INFO - Bar received: 2025-11-10T18:06:11.287356 | O:25710.25 H:25711.25 L:25707.75 C:25709.50 V:410.0
+2025-11-10 18:06:11,292 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:06:16,458 - webhook - INFO - Bar received: 2025-11-10T18:06:16.457211 | O:25710.25 H:25711.25 L:25707.75 C:25709.50 V:410.0
+2025-11-10 18:06:16,461 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:07:00,509 - webhook - INFO - Bar received: 2025-11-10T18:07:00.508119 | O:25709.75 H:25710.00 L:25707.25 C:25707.50 V:202.0
+2025-11-10 18:07:00,514 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:07:05,700 - webhook - INFO - Bar received: 2025-11-10T18:07:05.698816 | O:25709.75 H:25710.00 L:25707.25 C:25707.50 V:202.0
+2025-11-10 18:07:05,705 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:07:10,887 - webhook - INFO - Bar received: 2025-11-10T18:07:10.885831 | O:25709.75 H:25710.00 L:25707.25 C:25707.50 V:202.0
+2025-11-10 18:07:10,889 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:07:16,231 - webhook - INFO - Bar received: 2025-11-10T18:07:16.229531 | O:25709.75 H:25710.00 L:25707.25 C:25707.50 V:202.0
+2025-11-10 18:07:16,234 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:08:00,727 - webhook - INFO - Bar received: 2025-11-10T18:08:00.726663 | O:25709.00 H:25710.50 L:25702.25 C:25704.75 V:542.0
+2025-11-10 18:08:00,731 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:08:05,902 - webhook - INFO - Bar received: 2025-11-10T18:08:05.901708 | O:25709.00 H:25710.50 L:25702.25 C:25704.75 V:542.0
+2025-11-10 18:08:05,905 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:08:11,075 - webhook - INFO - Bar received: 2025-11-10T18:08:11.073808 | O:25709.00 H:25710.50 L:25702.25 C:25704.75 V:542.0
+2025-11-10 18:08:11,077 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:08:16,365 - webhook - INFO - Bar received: 2025-11-10T18:08:16.364229 | O:25709.00 H:25710.50 L:25702.25 C:25704.75 V:542.0
+2025-11-10 18:08:16,368 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:09:00,554 - webhook - INFO - Bar received: 2025-11-10T18:09:00.553016 | O:25705.00 H:25707.00 L:25703.00 C:25703.75 V:231.0
+2025-11-10 18:09:00,557 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:09:05,721 - webhook - INFO - Bar received: 2025-11-10T18:09:05.719962 | O:25705.00 H:25707.00 L:25703.00 C:25703.75 V:231.0
+2025-11-10 18:09:05,723 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:09:10,908 - webhook - INFO - Bar received: 2025-11-10T18:09:10.907039 | O:25705.00 H:25707.00 L:25703.00 C:25703.75 V:231.0
+2025-11-10 18:09:10,911 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:09:16,080 - webhook - INFO - Bar received: 2025-11-10T18:09:16.079781 | O:25705.00 H:25707.00 L:25703.00 C:25703.75 V:231.0
+2025-11-10 18:09:16,083 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:10:00,554 - webhook - INFO - Bar received: 2025-11-10T18:10:00.552770 | O:25704.50 H:25709.75 L:25703.50 C:25709.50 V:310.0
+2025-11-10 18:10:00,556 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:10:05,781 - webhook - INFO - Bar received: 2025-11-10T18:10:05.779647 | O:25704.50 H:25709.75 L:25703.50 C:25709.50 V:310.0
+2025-11-10 18:10:05,784 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:10:10,943 - webhook - INFO - Bar received: 2025-11-10T18:10:10.941841 | O:25704.50 H:25709.75 L:25703.50 C:25709.50 V:310.0
+2025-11-10 18:10:10,946 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:10:16,166 - webhook - INFO - Bar received: 2025-11-10T18:10:16.164373 | O:25704.50 H:25709.75 L:25703.50 C:25709.50 V:310.0
+2025-11-10 18:10:16,169 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:11:00,767 - webhook - INFO - Bar received: 2025-11-10T18:11:00.766731 | O:25708.75 H:25714.25 L:25708.75 C:25713.25 V:441.0
+2025-11-10 18:11:00,771 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:11:05,967 - webhook - INFO - Bar received: 2025-11-10T18:11:05.965992 | O:25708.75 H:25714.25 L:25708.75 C:25713.25 V:441.0
+2025-11-10 18:11:05,971 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:11:11,140 - webhook - INFO - Bar received: 2025-11-10T18:11:11.138657 | O:25708.75 H:25714.25 L:25708.75 C:25713.25 V:441.0
+2025-11-10 18:11:11,143 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:11:16,392 - webhook - INFO - Bar received: 2025-11-10T18:11:16.391433 | O:25708.75 H:25714.25 L:25708.75 C:25713.25 V:441.0
+2025-11-10 18:11:16,395 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:12:00,589 - webhook - INFO - Bar received: 2025-11-10T18:12:00.587930 | O:25713.25 H:25714.50 L:25710.75 C:25713.00 V:302.0
+2025-11-10 18:12:00,592 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:12:05,985 - webhook - INFO - Bar received: 2025-11-10T18:12:05.984303 | O:25713.25 H:25714.50 L:25710.75 C:25713.00 V:302.0
+2025-11-10 18:12:05,989 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:12:11,173 - webhook - INFO - Bar received: 2025-11-10T18:12:11.172634 | O:25713.25 H:25714.50 L:25710.75 C:25713.00 V:302.0
+2025-11-10 18:12:11,177 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:12:16,339 - webhook - INFO - Bar received: 2025-11-10T18:12:16.338558 | O:25713.25 H:25714.50 L:25710.75 C:25713.00 V:302.0
+2025-11-10 18:12:16,342 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:13:00,595 - webhook - INFO - Bar received: 2025-11-10T18:13:00.593496 | O:25713.00 H:25714.75 L:25708.75 C:25710.25 V:307.0
+2025-11-10 18:13:00,599 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:13:05,795 - webhook - INFO - Bar received: 2025-11-10T18:13:05.793848 | O:25713.00 H:25714.75 L:25708.75 C:25710.25 V:307.0
+2025-11-10 18:13:05,799 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:13:11,007 - webhook - INFO - Bar received: 2025-11-10T18:13:11.006015 | O:25713.00 H:25714.75 L:25708.75 C:25710.25 V:307.0
+2025-11-10 18:13:11,010 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:13:16,228 - webhook - INFO - Bar received: 2025-11-10T18:13:16.227185 | O:25713.00 H:25714.75 L:25708.75 C:25710.25 V:307.0
+2025-11-10 18:13:16,231 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:14:01,686 - webhook - INFO - Bar received: 2025-11-10T18:14:01.685182 | O:25711.00 H:25716.50 L:25710.50 C:25716.00 V:363.0
+2025-11-10 18:14:01,689 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:14:06,908 - webhook - INFO - Bar received: 2025-11-10T18:14:06.906887 | O:25711.00 H:25716.50 L:25710.50 C:25716.00 V:363.0
+2025-11-10 18:14:06,910 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:14:12,083 - webhook - INFO - Bar received: 2025-11-10T18:14:12.081609 | O:25711.00 H:25716.50 L:25710.50 C:25716.00 V:363.0
+2025-11-10 18:14:12,086 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:14:17,269 - webhook - INFO - Bar received: 2025-11-10T18:14:17.268431 | O:25711.00 H:25716.50 L:25710.50 C:25716.00 V:363.0
+2025-11-10 18:14:17,272 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:15:01,233 - webhook - INFO - Bar received: 2025-11-10T18:15:01.231909 | O:25715.50 H:25717.50 L:25714.25 C:25715.25 V:283.0
+2025-11-10 18:15:01,236 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:15:06,648 - webhook - INFO - Bar received: 2025-11-10T18:15:06.646848 | O:25715.50 H:25717.50 L:25714.25 C:25715.25 V:283.0
+2025-11-10 18:15:06,651 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:15:11,826 - webhook - INFO - Bar received: 2025-11-10T18:15:11.824884 | O:25715.50 H:25717.50 L:25714.25 C:25715.25 V:283.0
+2025-11-10 18:15:11,831 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:15:17,035 - webhook - INFO - Bar received: 2025-11-10T18:15:17.034834 | O:25715.50 H:25717.50 L:25714.25 C:25715.25 V:283.0
+2025-11-10 18:15:17,038 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:16:00,812 - webhook - INFO - Bar received: 2025-11-10T18:16:00.810879 | O:25716.00 H:25717.25 L:25712.25 C:25716.75 V:286.0
+2025-11-10 18:16:00,814 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:16:06,043 - webhook - INFO - Bar received: 2025-11-10T18:16:06.041936 | O:25716.00 H:25717.25 L:25712.25 C:25716.75 V:286.0
+2025-11-10 18:16:06,045 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:16:11,226 - webhook - INFO - Bar received: 2025-11-10T18:16:11.225632 | O:25716.00 H:25717.25 L:25712.25 C:25716.75 V:286.0
+2025-11-10 18:16:11,229 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:16:16,412 - webhook - INFO - Bar received: 2025-11-10T18:16:16.410991 | O:25716.00 H:25717.25 L:25712.25 C:25716.75 V:286.0
+2025-11-10 18:16:16,415 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:17:00,772 - webhook - INFO - Bar received: 2025-11-10T18:17:00.770862 | O:25717.25 H:25718.00 L:25713.00 C:25713.25 V:309.0
+2025-11-10 18:17:00,777 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:17:16,507 - webhook - INFO - Bar received: 2025-11-10T18:17:16.504777 | O:25717.25 H:25718.00 L:25713.00 C:25713.25 V:309.0
+2025-11-10 18:17:16,512 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?

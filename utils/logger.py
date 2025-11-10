@@ -73,6 +73,27 @@ class TradingLogger:
         self.ml_logger = setup_logger('ml', 'ml.log')
         self.webhook_logger = setup_logger('webhook', 'webhook.log')
     
+    # Add wrapper methods for standard logging levels
+    def info(self, message: str):
+        """Log info level message"""
+        self.system_logger.info(message)
+    
+    def debug(self, message: str):
+        """Log debug level message"""
+        self.system_logger.debug(message)
+    
+    def warning(self, message: str):
+        """Log warning level message"""
+        self.system_logger.warning(message)
+    
+    def error(self, message: str, exc_info: bool = False):
+        """Log error level message"""
+        self.system_logger.error(message, exc_info=exc_info)
+    
+    def critical(self, message: str):
+        """Log critical level message"""
+        self.system_logger.critical(message)
+    
     def log_trade(self, trade_dict: dict):
         """Log trade execution details"""
         self.trade_logger.info(
@@ -111,6 +132,28 @@ class TradingLogger:
             f"Sharpe: {metrics['sharpe_ratio']:.2f} | "
             f"Max DD: {metrics['max_drawdown']:.2%}"
         )
+    
+    def log_trade_taken(self, trade_data: dict, position: dict, context: dict):
+        """Log when a trade is taken with full context"""
+        signal = trade_data.get('signal', 'NONE')
+        price = trade_data.get('price', 0)
+        weight = trade_data.get('weight', 0)
+        reason = trade_data.get('reason', 'N/A')
+        
+        # Extract context info
+        trend = context.get('trend', 'UNKNOWN')
+        volatility = context.get('volatility', 0)
+        
+        # FIXED: Removed emoji that causes Windows encoding errors
+        self.trade_logger.info(
+            f"TRADE TAKEN: {signal} @ ${price:.2f} | "
+            f"Weight: {weight:.2f} | Trend: {trend} | "
+            f"Volatility: {volatility:.4f} | Reason: {reason}"
+        )
+        
+        # Log position details if provided
+        if position:
+            self.trade_logger.info(f"   Position: {position}")
 
 
 # Create global logger instance

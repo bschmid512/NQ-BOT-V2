@@ -3585,3 +3585,19 @@ AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
 2025-11-10 14:56:26,759 - strategy - INFO - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
 2025-11-10 15:04:40,109 - strategy - INFO - ORB Strategy initialized: period=15m, target_pct=1.50, max_sl=40.0
 2025-11-10 15:04:40,110 - strategy - INFO - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-10 15:24:28,961 - strategy - INFO - ORB Strategy initialized: period=15m, target_pct=1.50, max_sl=40.0
+2025-11-10 15:24:28,963 - strategy - INFO - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-10 15:27:44,558 - strategy - INFO - ORB Strategy initialized: period=15m, target_pct=1.50, max_sl=40.0
+2025-11-10 15:27:44,560 - strategy - INFO - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-10 15:39:00,844 - strategy - DEBUG - Confidence breakdown: RSI=0.02, BB=0.25, Vol=0.10, Rev=0.01, ADX=0.05 | Total=0.44
+2025-11-10 15:39:00,845 - strategy - INFO - Mean Reversion SHORT: Entry=25730.00, Target=25711.62, Stop=25740.00, RSI=72.5, Confidence=44%
+2025-11-10 15:49:41,566 - strategy - INFO - ORB Strategy initialized: period=15m, target_pct=1.50, max_sl=40.0
+2025-11-10 15:49:41,568 - strategy - INFO - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-10 16:05:35,388 - strategy - INFO - ORB Strategy initialized: period=15m, target_pct=1.50, max_sl=40.0
+2025-11-10 16:05:35,390 - strategy - INFO - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-10 16:07:41,759 - strategy - INFO - ORB Strategy initialized: period=15m, target_pct=1.50, max_sl=40.0
+2025-11-10 16:07:41,760 - strategy - INFO - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-10 16:11:03,055 - strategy - INFO - ORB Strategy initialized: period=15m, target_pct=1.50, max_sl=40.0
+2025-11-10 16:11:03,056 - strategy - INFO - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-10 16:38:55,694 - strategy - INFO - ORB Strategy initialized: period=15m, target_pct=1.50, max_sl=40.0
+2025-11-10 16:38:55,695 - strategy - INFO - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)

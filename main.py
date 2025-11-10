@@ -35,7 +35,7 @@ from dashboard.trading_dashboard import TradingDashboard
 # --- NEW FUSION IMPORTS ---
 # We now import the components that make the decisions
 from core.market_context_fusion import market_context_fusion
-from core.enhanced_strategy_engine import enhanced_strategy_engine
+from core.enhanced_strategy_engine import EnhancedStrategyEngine
 from core.position_manager import position_manager
 # from core.signal_fusion_engine import signal_fusion_engine # Imported by enhanced_strategy_engine
 # --- END FUSION IMPORTS ---
@@ -73,6 +73,8 @@ def receive_webhook():
     Handle incoming webhook from TradingView
     *** NOW WITH FUSION ENGINE LOGIC ***
     """
+    
+    global enhanced_strategy_engine
     try:
         # ... (Validation for content type, empty data, passphrase is the same) ...
         if not request.content_type or not request.content_type.startswith('application/json'):

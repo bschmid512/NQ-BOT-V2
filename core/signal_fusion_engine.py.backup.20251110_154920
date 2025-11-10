@@ -87,14 +87,8 @@ class SignalFusionEngine:
         """
         # --- 0) freshness & session gates
         ts = market_context.get("timestamp")
-        # Get price - handle both 'price' and 'current_price' keys
-        price = market_context.get("price") or market_context.get("current_price")
+        price = market_context.get("price")
         bar_age = market_context.get("bar_age_sec")
-
-        # Reject if price is None
-        if price is None:
-            self._reject("price", "No price in market_context")
-            return None
 
         if bar_age is not None and bar_age > 180:
             self._reject("freshness", f"bar_age={bar_age:.1f}s > 180s")
@@ -208,8 +202,5 @@ def signal_fusion_engine(logger, cfg=None):
     return SignalFusionEngine(logger=logger, cfg=merged)
 
 
-
-
-# NEW (correct):
-from utils.logger import trading_logger
-signal_fusion_engine = SignalFusionEngine(logger=trading_logger)
+# Create global instance
+signal_fusion_engine = SignalFusionEngine(logger=logging.getLogger('signal_fusion'))

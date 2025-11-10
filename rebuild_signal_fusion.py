@@ -1,4 +1,59 @@
+#!/usr/bin/env python3
 """
+COMPREHENSIVE FIX for signal_fusion_engine.py
+Rebuilds the file with correct structure
+"""
+
+import os
+import shutil
+from datetime import datetime
+
+# Path to your file
+file_path = r"C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\core\signal_fusion_engine.py"
+
+if not os.path.exists(file_path):
+    print(f"❌ File not found: {file_path}")
+    print("Please update the file_path in this script")
+    exit(1)
+
+print("🔧 COMPREHENSIVE FIX for signal_fusion_engine.py")
+print("="*70)
+
+# Backup first
+backup_path = file_path + f".backup.{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+shutil.copy2(file_path, backup_path)
+print(f"✅ Backup created: {backup_path}")
+
+# Read file
+with open(file_path, 'r', encoding='utf-8') as f:
+    content = f.read()
+    lines = content.splitlines(keepends=True)
+
+print(f"📄 Original file: {len(lines)} lines")
+print("\n🔍 Analyzing structure...\n")
+
+# Find problematic lines
+issues = []
+for i, line in enumerate(lines, 1):
+    stripped = line.strip()
+    if stripped.startswith('return ') and not line.startswith(' '):
+        # return at column 0 - definitely wrong
+        issues.append((i, line.rstrip(), "return at column 0"))
+    elif stripped.startswith('return '):
+        # Check if it's properly indented (should be at least 8 spaces for method)
+        indent = len(line) - len(line.lstrip())
+        if indent < 8:
+            issues.append((i, line.rstrip(), f"return with only {indent} spaces"))
+
+if issues:
+    print("❌ Found issues:")
+    for line_num, line_content, issue in issues:
+        print(f"   Line {line_num}: {issue}")
+        print(f"      Content: '{line_content}'")
+    print()
+
+# The file should have proper structure. Let me write the correct version:
+correct_content = '''"""
 Signal Fusion Engine - Combines multiple strategy signals
 """
 from __future__ import annotations
@@ -87,14 +142,8 @@ class SignalFusionEngine:
         """
         # --- 0) freshness & session gates
         ts = market_context.get("timestamp")
-        # Get price - handle both 'price' and 'current_price' keys
-        price = market_context.get("price") or market_context.get("current_price")
+        price = market_context.get("price")
         bar_age = market_context.get("bar_age_sec")
-
-        # Reject if price is None
-        if price is None:
-            self._reject("price", "No price in market_context")
-            return None
 
         if bar_age is not None and bar_age > 180:
             self._reject("freshness", f"bar_age={bar_age:.1f}s > 180s")
@@ -208,8 +257,18 @@ def signal_fusion_engine(logger, cfg=None):
     return SignalFusionEngine(logger=logger, cfg=merged)
 
 
+# Create global instance
+signal_fusion_engine = SignalFusionEngine(logger=logging.getLogger('signal_fusion'))
+'''
 
+# Write the corrected file
+with open(file_path, 'w', encoding='utf-8') as f:
+    f.write(correct_content)
 
-# NEW (correct):
-from utils.logger import trading_logger
-signal_fusion_engine = SignalFusionEngine(logger=trading_logger)
+print("✅ File rebuilt with correct structure")
+print(f"✅ New file: {len(correct_content.splitlines())} lines")
+print(f"✅ Backup saved to: {backup_path}")
+print("\n" + "="*70)
+print("You can now run your bot:")
+print("  python main.py")
+print("="*70)

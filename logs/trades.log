@@ -59,3 +59,6 @@
 2025-11-06 16:20:37,574 - trades - INFO - __init__ - Position Manager initialized: Max positions=1, Max daily loss=$-1000
 2025-11-06 18:08:23,115 - trades - INFO - __init__ - Position Manager initialized: Max positions=1, Max daily loss=$-1000
 2025-11-07 00:00:00,506 - trades - INFO - reset_daily_counters - Daily reset: Previous P&L=$0.00, Trades=0
+2025-11-10 16:43:00,593 - trades - INFO -  TRADE TAKEN: LONG @ $25739.25 | Weight: 70.00 | Trend: UNKNOWN | Volatility: 4.3750 | Reason: fusion_approved
+2025-11-10 16:52:01,145 - trades - INFO -  TRADE TAKEN: SHORT @ $25719.00 | Weight: 115.00 | Trend: UNKNOWN | Volatility: 5.0536 | Reason: fusion_approved
+2025-11-10 17:01:02,741 - trades - INFO -  TRADE TAKEN: SHORT @ $25721.00 | Weight: 70.00 | Trend: UNKNOWN | Volatility: 4.6786 | Reason: fusion_approved
