@@ -3575,3 +3575,13 @@ AttributeError: 'TrendFollowingStrategy' object has no attribute 'config'
 2025-11-10 13:44:09,924 - strategy - INFO - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
 2025-11-10 14:17:15,855 - strategy - INFO - ORB Strategy initialized: period=15m, target_pct=1.50, max_sl=40.0
 2025-11-10 14:17:15,856 - strategy - INFO - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-10 14:33:11,016 - strategy - INFO - ORB Strategy initialized: period=15m, target_pct=1.50, max_sl=40.0
+2025-11-10 14:33:11,017 - strategy - INFO - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-10 14:45:04,124 - strategy - INFO - ORB Strategy initialized: period=15m, target_pct=1.50, max_sl=40.0
+2025-11-10 14:45:04,126 - strategy - INFO - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-10 14:52:20,877 - strategy - INFO - ORB Strategy initialized: period=15m, target_pct=1.50, max_sl=40.0
+2025-11-10 14:52:20,878 - strategy - INFO - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-10 14:56:26,758 - strategy - INFO - ORB Strategy initialized: period=15m, target_pct=1.50, max_sl=40.0
+2025-11-10 14:56:26,759 - strategy - INFO - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)
+2025-11-10 15:04:40,109 - strategy - INFO - ORB Strategy initialized: period=15m, target_pct=1.50, max_sl=40.0
+2025-11-10 15:04:40,110 - strategy - INFO - Mean Reversion Strategy initialized: BB(20,2.0), RSI(14)

@@ -7074,3 +7074,249 @@ FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDr
 2025-11-10 14:19:00,945 - system - DEBUG - Added bar: 2025-11-10 14:19:00.944481+00:00 | Close: 25675.25 | rows=34
 2025-11-10 14:20:00,871 - system - DEBUG - Added bar: 2025-11-10 14:20:00.870774+00:00 | Close: 25673.0 | rows=35
 2025-11-10 14:21:00,685 - system - DEBUG - Added bar: 2025-11-10 14:21:00.684126+00:00 | Close: 25675.75 | rows=36
+2025-11-10 14:22:00,682 - system - DEBUG - Added bar: 2025-11-10 14:22:00.681789+00:00 | Close: 25672.25 | rows=37
+2025-11-10 14:23:01,094 - system - DEBUG - Added bar: 2025-11-10 14:23:01.094074+00:00 | Close: 25669.5 | rows=38
+2025-11-10 14:24:01,252 - system - DEBUG - Added bar: 2025-11-10 14:24:01.251310+00:00 | Close: 25674.5 | rows=39
+2025-11-10 14:25:00,612 - system - DEBUG - Added bar: 2025-11-10 14:25:00.611162+00:00 | Close: 25675.25 | rows=40
+2025-11-10 14:26:00,830 - system - DEBUG - Added bar: 2025-11-10 14:26:00.829704+00:00 | Close: 25677.75 | rows=41
+2025-11-10 14:27:00,870 - system - DEBUG - Added bar: 2025-11-10 14:27:00.869958+00:00 | Close: 25686.25 | rows=42
+2025-11-10 14:27:06,119 - system - DEBUG - Added bar: 2025-11-10 14:27:06.118806+00:00 | Close: 25686.25 | rows=43
+2025-11-10 14:28:00,639 - system - DEBUG - Added bar: 2025-11-10 14:28:00.638254+00:00 | Close: 25689.5 | rows=44
+2025-11-10 14:29:00,574 - system - DEBUG - Added bar: 2025-11-10 14:29:00.573619+00:00 | Close: 25694.0 | rows=45
+2025-11-10 14:30:00,710 - system - DEBUG - Added bar: 2025-11-10 14:30:00.709840+00:00 | Close: 25687.0 | rows=46
+2025-11-10 14:31:00,944 - system - DEBUG - Added bar: 2025-11-10 14:31:00.943227+00:00 | Close: 25687.25 | rows=47
+2025-11-10 14:32:00,901 - system - DEBUG - Added bar: 2025-11-10 14:32:00.900325+00:00 | Close: 25684.0 | rows=48
+2025-11-10 14:33:10,565 - system - INFO - Database already has 48 bars, skipping CSV import
+2025-11-10 14:33:11,077 - system - INFO - Dashboard attached to Flask server
+2025-11-10 14:33:11,080 - system - INFO - Trading Dashboard initialized successfully
+2025-11-10 14:33:11,080 - system - INFO - ============================================================
+2025-11-10 14:33:11,080 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-10 14:33:11,081 - system - INFO - ============================================================
+2025-11-10 14:33:11,081 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-10 14:33:11,081 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-10 14:33:11,082 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-10 14:33:11,082 - system - INFO - ============================================================
+2025-11-10 14:33:11,082 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-10 14:33:11,083 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-10 14:33:11,083 - system - INFO -  Position Manager: ACTIVE
+2025-11-10 14:33:11,083 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-10 14:33:11,083 - system - INFO -  Paper trading: ENABLED
+2025-11-10 14:33:11,084 - system - INFO - ============================================================
+2025-11-10 14:33:11,084 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-10 14:33:16,266 - system - DEBUG - Added bar: 2025-11-10 14:33:16 | Close: 25683.75 | Total rows: 49
+2025-11-10 14:34:00,611 - system - DEBUG - Added bar: 2025-11-10 14:34:00 | Close: 25682.50 | Total rows: 50
+2025-11-10 14:35:00,714 - system - DEBUG - Added bar: 2025-11-10 14:35:00 | Close: 25679.50 | Total rows: 51
+2025-11-10 14:35:25,733 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:35:25,736 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:35:25,766 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:35:30,735 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:35:30,736 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:35:30,740 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:35:35,737 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:35:35,738 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:35:35,739 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:35:40,752 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:35:40,753 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:35:40,757 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:35:46,662 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:35:46,666 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:35:46,686 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:35:51,672 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:35:51,673 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:35:51,676 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:35:57,672 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:35:57,673 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:35:57,677 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:36:00,850 - system - DEBUG - Added bar: 2025-11-10 14:36:00 | Close: 25682.25 | Total rows: 52
+2025-11-10 14:36:02,673 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:36:02,674 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:36:02,676 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:36:07,674 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:36:07,675 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:36:07,678 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:36:12,679 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:36:12,679 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:36:12,681 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:36:17,671 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:36:17,673 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:36:17,675 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:36:22,670 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:36:22,673 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:36:22,676 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:36:27,673 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:36:27,674 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:36:27,677 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:36:32,682 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:36:32,683 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:36:32,685 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:36:37,672 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:36:37,674 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:36:37,676 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:36:42,677 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:36:42,678 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:36:42,679 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:36:51,671 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:36:51,672 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:36:51,672 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:37:00,793 - system - DEBUG - Added bar: 2025-11-10 14:37:00 | Close: 25682.00 | Total rows: 53
+2025-11-10 14:37:51,683 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:37:51,684 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:37:51,686 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:38:00,815 - system - DEBUG - Added bar: 2025-11-10 14:38:00 | Close: 25686.50 | Total rows: 54
+2025-11-10 14:38:51,672 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:38:51,672 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:38:51,675 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:39:00,870 - system - DEBUG - Added bar: 2025-11-10 14:39:00 | Close: 25688.75 | Total rows: 55
+2025-11-10 14:39:21,120 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:39:21,120 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:39:21,126 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:39:25,743 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:39:25,745 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:39:25,747 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:39:30,750 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:39:30,752 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:39:30,773 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:39:35,749 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:39:35,750 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:39:35,751 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:39:40,746 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:39:40,748 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:39:40,749 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:39:45,760 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:39:45,762 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:39:45,762 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:39:45,763 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 14:39:50,753 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:39:50,755 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:39:50,758 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:39:57,685 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:39:57,686 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:39:57,688 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:40:00,703 - system - DEBUG - Added bar: 2025-11-10 14:40:00 | Close: 25694.00 | Total rows: 56
+2025-11-10 14:40:05,215 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:40:05,218 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:40:05,219 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:40:09,227 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:40:09,229 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:40:09,230 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:40:12,681 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:40:12,682 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:40:12,685 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:40:17,675 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:40:17,677 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:40:17,677 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:40:22,681 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:40:22,682 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:40:22,682 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:40:27,668 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:40:27,669 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:40:27,671 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:40:32,682 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:40:32,683 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:40:32,684 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:40:37,672 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:40:37,674 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:40:37,674 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:40:42,686 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:40:42,687 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:40:42,690 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:40:47,679 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:40:47,680 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:40:47,681 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:40:52,680 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:40:52,681 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:40:52,686 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:41:01,223 - system - DEBUG - Added bar: 2025-11-10 14:41:01 | Close: 25689.50 | Total rows: 57
+2025-11-10 14:41:51,681 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:41:51,681 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:41:51,683 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:42:00,761 - system - DEBUG - Added bar: 2025-11-10 14:42:00 | Close: 25696.50 | Total rows: 58
+2025-11-10 14:42:51,670 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:42:51,671 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:42:51,673 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:43:00,815 - system - DEBUG - Added bar: 2025-11-10 14:43:00 | Close: 25697.75 | Total rows: 59
+2025-11-10 14:43:51,684 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:43:51,685 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:43:51,687 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:44:00,631 - system - DEBUG - Added bar: 2025-11-10 14:44:00 | Close: 25696.75 | Total rows: 60
+2025-11-10 14:44:05,853 - system - DEBUG - Added bar: 2025-11-10 14:44:05 | Close: 25696.75 | Total rows: 61
+2025-11-10 14:44:51,681 - system - ERROR - Error updating signals: 'DataHandler' object has no attribute 'get_all_signals'
+2025-11-10 14:44:51,683 - system - ERROR - Error updating metrics: 'DataHandler' object has no attribute 'calculate_performance_metrics'
+2025-11-10 14:44:51,686 - system - ERROR - Error updating trades table: 'DataHandler' object has no attribute 'get_all_trades'
+2025-11-10 14:45:03,675 - system - INFO - Database already has 61 bars, skipping CSV import
+2025-11-10 14:45:04,191 - system - INFO - Dashboard attached to Flask server
+2025-11-10 14:45:04,194 - system - INFO - Trading Dashboard initialized successfully
+2025-11-10 14:45:04,194 - system - INFO - ============================================================
+2025-11-10 14:45:04,195 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-10 14:45:04,195 - system - INFO - ============================================================
+2025-11-10 14:45:04,195 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-10 14:45:04,195 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-10 14:45:04,195 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-10 14:45:04,195 - system - INFO - ============================================================
+2025-11-10 14:45:04,196 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-10 14:45:04,196 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-10 14:45:04,196 - system - INFO -  Position Manager: ACTIVE
+2025-11-10 14:45:04,197 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-10 14:45:04,197 - system - INFO -  Paper trading: ENABLED
+2025-11-10 14:45:04,197 - system - INFO - ============================================================
+2025-11-10 14:45:04,197 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-10 14:45:08,495 - system - DEBUG - Added bar: 2025-11-10 14:45:08 | Close: 25698.50 | Total rows: 62
+2025-11-10 14:45:13,757 - system - DEBUG - Added bar: 2025-11-10 14:45:13 | Close: 25698.50 | Total rows: 63
+2025-11-10 14:46:00,976 - system - DEBUG - Added bar: 2025-11-10 14:46:00 | Close: 25696.50 | Total rows: 64
+2025-11-10 14:47:00,596 - system - DEBUG - Added bar: 2025-11-10 14:47:00 | Close: 25699.50 | Total rows: 65
+2025-11-10 14:48:00,775 - system - DEBUG - Added bar: 2025-11-10 14:48:00 | Close: 25702.75 | Total rows: 66
+2025-11-10 14:49:00,619 - system - DEBUG - Added bar: 2025-11-10 14:49:00 | Close: 25695.75 | Total rows: 67
+2025-11-10 14:50:00,703 - system - DEBUG - Added bar: 2025-11-10 14:50:00 | Close: 25699.75 | Total rows: 68
+2025-11-10 14:51:00,657 - system - DEBUG - Added bar: 2025-11-10 14:51:00 | Close: 25696.50 | Total rows: 69
+2025-11-10 14:51:44,681 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 14:52:00,611 - system - DEBUG - Added bar: 2025-11-10 14:52:00 | Close: 25707.00 | Total rows: 70
+2025-11-10 14:52:20,463 - system - INFO - Database already has 70 bars, skipping CSV import
+2025-11-10 14:52:20,933 - system - INFO - Dashboard attached to Flask server
+2025-11-10 14:52:20,936 - system - INFO - Trading Dashboard initialized successfully
+2025-11-10 14:52:20,936 - system - INFO - ============================================================
+2025-11-10 14:52:20,937 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-10 14:52:20,937 - system - INFO - ============================================================
+2025-11-10 14:52:20,937 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-10 14:52:20,937 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-10 14:52:20,938 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-10 14:52:20,938 - system - INFO - ============================================================
+2025-11-10 14:52:20,938 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-10 14:52:20,938 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-10 14:52:20,939 - system - INFO -  Position Manager: ACTIVE
+2025-11-10 14:52:20,939 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-10 14:52:20,939 - system - INFO -  Paper trading: ENABLED
+2025-11-10 14:52:20,940 - system - INFO - ============================================================
+2025-11-10 14:52:20,940 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-10 14:53:00,630 - system - DEBUG - Added bar: 2025-11-10 14:53:00 | Close: 25709.00 | Total rows: 71
+2025-11-10 14:53:05,999 - system - DEBUG - Added bar: 2025-11-10 14:53:05 | Close: 25709.00 | Total rows: 72
+2025-11-10 14:54:00,569 - system - DEBUG - Added bar: 2025-11-10 14:54:00 | Close: 25713.50 | Total rows: 73
+2025-11-10 14:55:00,563 - system - DEBUG - Added bar: 2025-11-10 14:55:00 | Close: 25711.00 | Total rows: 74
+2025-11-10 14:56:00,609 - system - DEBUG - Added bar: 2025-11-10 14:56:00 | Close: 25713.00 | Total rows: 75
+2025-11-10 14:56:08,690 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 14:56:26,345 - system - INFO - Database already has 75 bars, skipping CSV import
+2025-11-10 14:56:26,815 - system - INFO - Dashboard attached to Flask server
+2025-11-10 14:56:26,818 - system - INFO - Trading Dashboard initialized successfully
+2025-11-10 14:56:26,819 - system - INFO - ============================================================
+2025-11-10 14:56:26,819 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-10 14:56:26,819 - system - INFO - ============================================================
+2025-11-10 14:56:26,819 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-10 14:56:26,820 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-10 14:56:26,820 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-10 14:56:26,820 - system - INFO - ============================================================
+2025-11-10 14:56:26,820 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-10 14:56:26,820 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-10 14:56:26,820 - system - INFO -  Position Manager: ACTIVE
+2025-11-10 14:56:26,821 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-10 14:56:26,821 - system - INFO -  Paper trading: ENABLED
+2025-11-10 14:56:26,821 - system - INFO - ============================================================
+2025-11-10 14:56:26,821 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-10 14:57:00,642 - system - DEBUG - Added bar: 2025-11-10 14:57:00 | Close: 25711.50 | Total rows: 76
+2025-11-10 14:57:05,985 - system - DEBUG - Added bar: 2025-11-10 14:57:05 | Close: 25711.50 | Total rows: 77
+2025-11-10 14:58:00,590 - system - DEBUG - Added bar: 2025-11-10 14:58:00 | Close: 25706.00 | Total rows: 78
+2025-11-10 14:59:00,655 - system - DEBUG - Added bar: 2025-11-10 14:59:00 | Close: 25699.50 | Total rows: 79
+2025-11-10 15:00:00,909 - system - DEBUG - Added bar: 2025-11-10 15:00:00 | Close: 25702.50 | Total rows: 80
+2025-11-10 15:01:01,169 - system - DEBUG - Added bar: 2025-11-10 15:01:01 | Close: 25710.50 | Total rows: 81
+2025-11-10 15:02:00,681 - system - DEBUG - Added bar: 2025-11-10 15:02:00 | Close: 25709.25 | Total rows: 82
+2025-11-10 15:03:00,671 - system - DEBUG - Added bar: 2025-11-10 15:03:00 | Close: 25711.50 | Total rows: 83
+2025-11-10 15:04:00,742 - system - DEBUG - Added bar: 2025-11-10 15:04:00 | Close: 25707.50 | Total rows: 84
+2025-11-10 15:04:39,694 - system - INFO - Database already has 84 bars, skipping CSV import

@@ -24,15 +24,6 @@ LOG_FORMAT = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 LOG_MAX_BYTES = 5 * 1024 * 1024  # 5 MB per log file
 LOG_BACKUP_COUNT = 3
 
-
-# -----------------------------------------------------------------
-# --- CONSOLE OUTPUT VERBOSITY ---
-# -----------------------------------------------------------------
-SHOW_CONTEXT_UPDATES = False  # Set to True to see market context on every bar
-SHOW_ONLY_SIGNALS = True      # Only print when signals are generated
-VERBOSE_STARTUP = False       # Show detailed startup information
-
-
 # --- DATA FILES ---
 LIVE_DATA_FILE = DATA_DIR / 'nq_live_data.csv'
 HISTORICAL_DATA_FILE = DATA_DIR / 'nq_historical.csv'

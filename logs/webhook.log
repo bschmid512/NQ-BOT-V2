@@ -38313,3 +38313,118 @@ AttributeError: 'DataHandler' object has no attribute 'add_bar'
 2025-11-10 14:22:00,683 - webhook - INFO - Bar received: 2025-11-10T14:22:00.681789 | O:25675.50 H:25675.50 L:25669.50 C:25672.25 V:627.0
 2025-11-10 14:23:01,095 - webhook - INFO - Bar received: 2025-11-10T14:23:01.094074 | O:25672.00 H:25673.75 L:25668.00 C:25669.50 V:880.0
 2025-11-10 14:24:01,252 - webhook - INFO - Bar received: 2025-11-10T14:24:01.251310 | O:25669.25 H:25675.25 L:25667.75 C:25674.50 V:894.0
+2025-11-10 14:25:00,612 - webhook - INFO - Bar received: 2025-11-10T14:25:00.611162 | O:25674.50 H:25676.00 L:25672.00 C:25675.25 V:833.0
+2025-11-10 14:26:00,831 - webhook - INFO - Bar received: 2025-11-10T14:26:00.829704 | O:25674.50 H:25680.25 L:25674.00 C:25677.75 V:1523.0
+2025-11-10 14:27:00,871 - webhook - INFO - Bar received: 2025-11-10T14:27:00.869958 | O:25677.50 H:25694.75 L:25677.00 C:25686.25 V:4102.0
+2025-11-10 14:27:00,893 - webhook - ERROR - Error processing webhook: 'list' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+        bar_data=bar_data,
+        df=df,
+        vision_data=_get_latest_vision()
+    )
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\core\enhanced_strategy_engine.py", line 96, in process_new_bar
+    fused_signal = signal_fusion_engine.evaluate_trade_setup(strategy_signals, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\core\signal_fusion_engine.py", line 95, in evaluate_trade_setup
+    ts = market_context.get("timestamp")            # should be timezone-aware UTC
+         ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
+2025-11-10 14:27:06,120 - webhook - INFO - Bar received: 2025-11-10T14:27:06.118806 | O:25677.50 H:25694.75 L:25677.00 C:25686.25 V:4102.0
+2025-11-10 14:28:00,639 - webhook - INFO - Bar received: 2025-11-10T14:28:00.638254 | O:25685.75 H:25692.25 L:25685.25 C:25689.50 V:3036.0
+2025-11-10 14:29:00,575 - webhook - INFO - Bar received: 2025-11-10T14:29:00.573619 | O:25689.75 H:25697.00 L:25689.50 C:25694.00 V:2454.0
+2025-11-10 14:30:00,710 - webhook - INFO - Bar received: 2025-11-10T14:30:00.709840 | O:25694.50 H:25695.50 L:25686.25 C:25687.00 V:1815.0
+2025-11-10 14:31:00,945 - webhook - INFO - Bar received: 2025-11-10T14:31:00.943227 | O:25687.00 H:25691.75 L:25685.25 C:25687.25 V:1817.0
+2025-11-10 14:32:00,901 - webhook - INFO - Bar received: 2025-11-10T14:32:00.900325 | O:25687.50 H:25690.50 L:25682.25 C:25684.00 V:1560.0
+2025-11-10 14:33:16,266 - webhook - INFO - Bar received: 2025-11-10T14:33:16.262216 | O:25684.00 H:25688.25 L:25682.00 C:25683.75 V:1262.0
+2025-11-10 14:34:00,611 - webhook - INFO - Bar received: 2025-11-10T14:34:00.609923 | O:25683.75 H:25684.75 L:25680.25 C:25682.50 V:1251.0
+2025-11-10 14:35:00,715 - webhook - INFO - Bar received: 2025-11-10T14:35:00.713323 | O:25683.00 H:25687.25 L:25678.75 C:25679.50 V:1286.0
+2025-11-10 14:36:00,850 - webhook - INFO - Bar received: 2025-11-10T14:36:00.849330 | O:25678.75 H:25684.50 L:25676.75 C:25682.25 V:1395.0
+2025-11-10 14:37:00,794 - webhook - INFO - Bar received: 2025-11-10T14:37:00.792240 | O:25682.50 H:25685.25 L:25678.00 C:25682.00 V:1126.0
+2025-11-10 14:38:00,815 - webhook - INFO - Bar received: 2025-11-10T14:38:00.814299 | O:25681.50 H:25688.50 L:25681.50 C:25686.50 V:1300.0
+2025-11-10 14:39:00,870 - webhook - INFO - Bar received: 2025-11-10T14:39:00.869340 | O:25686.25 H:25690.25 L:25685.00 C:25688.75 V:992.0
+2025-11-10 14:40:00,704 - webhook - INFO - Bar received: 2025-11-10T14:40:00.702125 | O:25688.75 H:25695.75 L:25688.25 C:25694.00 V:1541.0
+2025-11-10 14:41:01,224 - webhook - INFO - Bar received: 2025-11-10T14:41:01.223140 | O:25694.00 H:25694.00 L:25688.00 C:25689.50 V:1946.0
+2025-11-10 14:42:00,761 - webhook - INFO - Bar received: 2025-11-10T14:42:00.760242 | O:25689.50 H:25699.00 L:25689.00 C:25696.50 V:1837.0
+2025-11-10 14:43:00,816 - webhook - INFO - Bar received: 2025-11-10T14:43:00.813866 | O:25696.50 H:25699.75 L:25695.75 C:25697.75 V:1396.0
+2025-11-10 14:44:00,632 - webhook - INFO - Bar received: 2025-11-10T14:44:00.631151 | O:25698.00 H:25698.25 L:25692.75 C:25696.75 V:1263.0
+2025-11-10 14:44:00,672 - webhook - ERROR - Error processing webhook: 'list' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+        bar_data=bar_data,
+        df=df,
+        vision_data=_get_latest_vision()
+    )
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\core\enhanced_strategy_engine.py", line 96, in process_new_bar
+    fused_signal = signal_fusion_engine.evaluate_trade_setup(strategy_signals, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\core\signal_fusion_engine.py", line 95, in evaluate_trade_setup
+    ts = market_context.get("timestamp")            # should be timezone-aware UTC
+         ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
+2025-11-10 14:44:05,853 - webhook - INFO - Bar received: 2025-11-10T14:44:05.852402 | O:25698.00 H:25698.25 L:25692.75 C:25696.75 V:1263.0
+2025-11-10 14:45:08,495 - webhook - INFO - Bar received: 2025-11-10T14:45:08.493180 | O:25697.00 H:25702.25 L:25695.00 C:25698.50 V:2078.0
+2025-11-10 14:45:08,531 - webhook - ERROR - Error processing webhook: 'list' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+        bar_data=bar_data,
+        df=df,
+        vision_data=_get_latest_vision()
+    )
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\core\enhanced_strategy_engine.py", line 96, in process_new_bar
+    fused_signal = signal_fusion_engine.evaluate_trade_setup(strategy_signals, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\core\signal_fusion_engine.py", line 95, in evaluate_trade_setup
+    ts = market_context.get("timestamp")            # should be timezone-aware UTC
+         ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
+2025-11-10 14:45:13,758 - webhook - INFO - Bar received: 2025-11-10T14:45:13.756910 | O:25697.00 H:25702.25 L:25695.00 C:25698.50 V:2078.0
+2025-11-10 14:46:00,976 - webhook - INFO - Bar received: 2025-11-10T14:46:00.975407 | O:25698.75 H:25699.00 L:25694.00 C:25696.50 V:1523.0
+2025-11-10 14:47:00,597 - webhook - INFO - Bar received: 2025-11-10T14:47:00.595971 | O:25696.50 H:25701.75 L:25695.25 C:25699.50 V:1235.0
+2025-11-10 14:48:00,775 - webhook - INFO - Bar received: 2025-11-10T14:48:00.773950 | O:25699.50 H:25707.75 L:25698.00 C:25702.75 V:3303.0
+2025-11-10 14:49:00,619 - webhook - INFO - Bar received: 2025-11-10T14:49:00.617899 | O:25702.75 H:25703.50 L:25694.75 C:25695.75 V:1422.0
+2025-11-10 14:50:00,703 - webhook - INFO - Bar received: 2025-11-10T14:50:00.702250 | O:25695.75 H:25700.00 L:25695.75 C:25699.75 V:698.0
+2025-11-10 14:51:00,658 - webhook - INFO - Bar received: 2025-11-10T14:51:00.657087 | O:25699.75 H:25701.75 L:25695.75 C:25696.50 V:1010.0
+2025-11-10 14:52:00,611 - webhook - INFO - Bar received: 2025-11-10T14:52:00.610537 | O:25696.50 H:25707.75 L:25696.00 C:25707.00 V:1589.0
+2025-11-10 14:53:00,630 - webhook - INFO - Bar received: 2025-11-10T14:53:00.629271 | O:25707.00 H:25711.75 L:25704.25 C:25709.00 V:2572.0
+2025-11-10 14:53:00,661 - webhook - ERROR - Error processing webhook: 'list' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+        bar_data=bar_data,
+        df=df,
+        vision_data=_get_latest_vision()
+    )
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\core\enhanced_strategy_engine.py", line 96, in process_new_bar
+    fused_signal = signal_fusion_engine.evaluate_trade_setup(strategy_signals, context)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\core\signal_fusion_engine.py", line 95, in evaluate_trade_setup
+    ts = market_context.get("timestamp")            # should be timezone-aware UTC
+         ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
+2025-11-10 14:53:05,999 - webhook - INFO - Bar received: 2025-11-10T14:53:05.998710 | O:25707.00 H:25711.75 L:25704.25 C:25709.00 V:2572.0
+2025-11-10 14:54:00,569 - webhook - INFO - Bar received: 2025-11-10T14:54:00.568271 | O:25708.75 H:25716.25 L:25708.50 C:25713.50 V:2070.0
+2025-11-10 14:55:00,564 - webhook - INFO - Bar received: 2025-11-10T14:55:00.563053 | O:25713.25 H:25716.75 L:25710.25 C:25711.00 V:1399.0
+2025-11-10 14:56:00,609 - webhook - INFO - Bar received: 2025-11-10T14:56:00.608379 | O:25711.00 H:25715.00 L:25708.50 C:25713.00 V:1648.0
+2025-11-10 14:57:00,642 - webhook - INFO - Bar received: 2025-11-10T14:57:00.641398 | O:25713.00 H:25718.00 L:25710.75 C:25711.50 V:2166.0
+2025-11-10 14:57:00,676 - webhook - ERROR - Error processing webhook: unsupported operand type(s) for -: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 132, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+        bar_data=bar_data,
+        df=df,
+        vision_data=_get_latest_vision()
+    )
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\core\enhanced_strategy_engine.py", line 96, in process_new_bar
+    fused_signal = signal_fusion_engine.evaluate_trade_setup(context, strategy_signals)
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\core\signal_fusion_engine.py", line 142, in evaluate_trade_setup
+    "stop": market_context.get("stop") or (price - 40 if fused_direction == "LONG" else price + 40),
+                                           ~~~~~~^~~~
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'int'
+2025-11-10 14:57:05,985 - webhook - INFO - Bar received: 2025-11-10T14:57:05.984426 | O:25713.00 H:25718.00 L:25710.75 C:25711.50 V:2166.0
+2025-11-10 14:58:00,590 - webhook - INFO - Bar received: 2025-11-10T14:58:00.589223 | O:25711.50 H:25712.25 L:25704.75 C:25706.00 V:1711.0
+2025-11-10 14:59:00,655 - webhook - INFO - Bar received: 2025-11-10T14:59:00.654636 | O:25705.75 H:25707.25 L:25699.00 C:25699.50 V:1814.0
+2025-11-10 15:00:00,909 - webhook - INFO - Bar received: 2025-11-10T15:00:00.908247 | O:25699.50 H:25704.00 L:25699.00 C:25702.50 V:1192.0
+2025-11-10 15:01:01,170 - webhook - INFO - Bar received: 2025-11-10T15:01:01.168301 | O:25702.00 H:25711.25 L:25700.50 C:25710.50 V:2245.0
+2025-11-10 15:02:00,681 - webhook - INFO - Bar received: 2025-11-10T15:02:00.680611 | O:25710.25 H:25713.00 L:25708.00 C:25709.25 V:1130.0
+2025-11-10 15:03:00,671 - webhook - INFO - Bar received: 2025-11-10T15:03:00.670359 | O:25709.75 H:25711.75 L:25703.00 C:25711.50 V:1423.0
+2025-11-10 15:04:00,742 - webhook - INFO - Bar received: 2025-11-10T15:04:00.741289 | O:25711.25 H:25712.50 L:25704.00 C:25707.50 V:1008.0

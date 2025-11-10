@@ -93,7 +93,7 @@ class EnhancedStrategyEngine:
             return None
 
         # Use fusion engine to evaluate signals
-        fused_signal = signal_fusion_engine.evaluate_trade_setup(context, strategy_signals)
+        fused_signal = signal_fusion_engine.evaluate_trade_setup(strategy_signals, context)
         return fused_signal
 
     def _log_context(self, context: Dict):
