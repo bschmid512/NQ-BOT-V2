@@ -1,79 +1,64 @@
 """
 Market Context Fusion Layer
-Combines visual analysis from screen capture with real-time webhook data
-This is the KEY integration that makes the hybrid system work
+Combines vision analysis with real-time webhook data into a single context
 """
-from typing import Dict, Optional, List
+from __future__ import annotations
+
+from typing import Dict, Optional, List, Tuple
 from datetime import datetime
 import numpy as np
 import pandas as pd
-from config import ATR_PERIOD
-from core.comprehensive_logger import comprehensive_logger # <-- ADD THIS
+
+from config import ATR_PERIOD, CONTEXT_THRESHOLDS
 from indicators.divergence import analyze_divergence
+
+# Lightweight EMA without external deps
+def _ema(series: pd.Series, span: int) -> pd.Series:
+    return series.ewm(span=span, adjust=False, min_periods=span).mean()
+
+def _pct_change(series: pd.Series, periods: int) -> float:
+    if len(series) <= periods:
+        return np.nan
+    a = float(series.iloc[-periods-1])
+    b = float(series.iloc[-1])
+    if a == 0:
+        return np.nan
+    return (b - a) / a
 
 class MarketContextFusion:
     """
     Fuses vision system analysis with webhook price data
-    Creates unified market context for intelligent decision-making
+    Creates unified market context for strategies and the fusion engine
     """
-    
+
     def __init__(self):
-        self.vision_data = None
-        self.price_data = None
-        self.last_update = None
-        
-        # Track market regime
-        self.current_regime = 'unknown'
-        self.regime_confidence = 0.0
-        
+        self.vision_data: Optional[Dict] = None
+        self.price_data: Optional[Dict] = None
+        self.last_update: Optional[datetime] = None
         print("✅ Market Context Fusion initialized")
-    
+
+    # ------------------- updaters -------------------
+
     def update_vision_data(self, vision_analysis: Dict):
-        """
-        Update with latest vision system analysis
-        
-        Args:
-            vision_analysis: Dict from vision system with patterns, levels, sentiment
-        """
-        self.vision_data = vision_analysis
+        self.vision_data = vision_analysis or {}
         self.last_update = datetime.now()
-        
-        # Extract key visual elements
-        if vision_analysis:
-            print(f"👁️ Vision Update: {vision_analysis.get('statistics', {}).get('sentiment', 'unknown')}")
-        try:
-            if self.price_data and not self.price_data['df'].empty:
-                df = self.price_data['df']
-                price_action = {
-                    'close': self.price_data['current_price'],
-                    'direction': 'bullish' if df.iloc[-1]['close'] > df.iloc[-1]['open'] else 'bearish',
-                    'change_pct': (df.iloc[-1]['close'] - df.iloc[-10]['close']) / df.iloc[-10]['close'] if len(df) > 10 else 0
-                }
-                self.logger.log_vision_analysis(vision_analysis, price_action)
-        except Exception as e:
-            print(f"Error logging vision analysis: {e}")
+
     def update_price_data(self, df: pd.DataFrame, current_price: float):
-        """
-        Update with latest price data from webhook
-        
-        Args:
-            df: DataFrame with recent bars
-            current_price: Current market price
-        """
         self.price_data = {
-            'current_price': current_price,
-            'df': df,
-            'bars_available': len(df)
+            'current_price': float(current_price),
+            'df': df.copy() if isinstance(df, pd.DataFrame) else pd.DataFrame(),
+            'bars_available': 0 if df is None else int(len(df))
         }
-    
+
+    # ------------------- core context -------------------
+
     def get_unified_context(self) -> Dict:
         """
-        Create unified market context combining ALL available data
-        This is what strategies will use for decision-making
-        
-        Returns:
-            Comprehensive market context dictionary
+        Returns a comprehensive, robust market context dict.
+        Keys consumed by the rest of your system are preserved.
+        New key 'diagnostics' explains the label decision.
         """
+        th = CONTEXT_THRESHOLDS
         context = {
             'timestamp': datetime.now().isoformat(),
             'current_price': None,
@@ -88,187 +73,136 @@ class MarketContextFusion:
             'trend_strength': 0.0,
             'vision_sentiment': 'neutral',
             'vision_available': False,
-            'price_data_available': False
+            'price_data_available': False,
+            'diagnostics': ''
         }
-        
-        # Add price data if available
-        if self.price_data and not self.price_data['df'].empty:
+
+        reasons: List[str] = []
+
+        # ----- PRICE DATA -----
+        df = None
+        if self.price_data and isinstance(self.price_data.get('df'), pd.DataFrame) and not self.price_data['df'].empty:
             context['price_data_available'] = True
-            context['current_price'] = self.price_data['current_price']
-            
-            df = self.price_data['df']
-            
-            # Calculate momentum
-            if len(df) >= 20:
-                momentum_pct = (df['close'].iloc[-1] - df['close'].iloc[-20]) / df['close'].iloc[-20]
-                if momentum_pct > 0.003:
-                    context['momentum'] = 'strong_bullish'
-                elif momentum_pct > 0.001:
-                    context['momentum'] = 'bullish'
-                elif momentum_pct < -0.003:
-                    context['momentum'] = 'strong_bearish'
-                elif momentum_pct < -0.001:
-                    context['momentum'] = 'bearish'
-            
-            # Calculate volatility (ATR-based)
-            if len(df) >= ATR_PERIOD:
-                high_low = df['high'] - df['low']
-                context['volatility'] = high_low.tail(ATR_PERIOD).mean()
-            
-            # Determine trend
-            if len(df) >= 50:
-                sma_50 = df['close'].tail(50).mean()
-                current = df['close'].iloc[-1]
-                
-                if current > sma_50:
-                    context['trend_direction'] = 'bullish'
-                    context['trend_strength'] = (current - sma_50) / sma_50
+            context['current_price'] = float(self.price_data['current_price'])
+            df = self.price_data['df'].sort_index()
+            # ensure numeric & clean
+            close = pd.to_numeric(df['close'], errors='coerce').ffill().bfill()
+            high = pd.to_numeric(df['high'], errors='coerce').ffill().bfill()
+            low  = pd.to_numeric(df['low'],  errors='coerce').ffill().bfill()
+
+            bars = len(close)
+            reasons.append(f"bars={bars}")
+            if bars >= 3:
+                hl = (high - low).tail(ATR_PERIOD)
+                context['volatility'] = float(hl.mean())
+
+            # Momentum: 1m & 5m pct change
+            mom1 = _pct_change(close, 1)
+            mom5 = _pct_change(close, 5)
+            mom10 = _pct_change(close, 10)
+
+            mom_label = "neutral"
+            if not np.isnan(mom5) and mom5 >= th["mom_5m_bull"]:
+                mom_label = "bullish"; reasons.append(f"mom5={mom5:.3%}≥{th['mom_5m_bull']:.2%}")
+            elif not np.isnan(mom5) and mom5 <= th["mom_5m_bear"]:
+                mom_label = "bearish"; reasons.append(f"mom5={mom5:.3%}≤{th['mom_5m_bear']:.2%}")
+            elif not np.isnan(mom1) and mom1 >= th["mom_1m_bull"]:
+                mom_label = "bullish"; reasons.append(f"mom1={mom1:.3%}≥{th['mom_1m_bull']:.2%}")
+            elif not np.isnan(mom1) and mom1 <= th["mom_1m_bear"]:
+                mom_label = "bearish"; reasons.append(f"mom1={mom1:.3%}≤{th['mom_1m_bear']:.2%}")
+            else:
+                reasons.append(f"mom1={mom1 if not np.isnan(mom1) else 'NaN'}, mom5={mom5 if not np.isnan(mom5) else 'NaN'}")
+            context['momentum'] = mom_label
+
+            # Trend: EMA20 vs EMA50 + slope; ADX proxy via return std
+            ema20 = _ema(close, 20)
+            ema50 = _ema(close, 50)
+            ema_ok = bars >= 50 and not (np.isnan(ema20.iloc[-1]) or np.isnan(ema50.iloc[-1]))
+            ema20_slope = float(ema20.diff().iloc[-1]) if ema_ok else np.nan
+
+            ret = close.pct_change()
+            vol14 = ret.rolling(14, min_periods=14).std()
+            adx_proxy = float((vol14.iloc[-1] or 0.0) * 100) if len(vol14.dropna()) else 0.0
+
+            trend_label = "neutral"
+            trend_strength = 0.0
+            if ema_ok:
+                if (ema20.iloc[-1] > ema50.iloc[-1]) and (ema20_slope > th["ema_slope_min"]) and (adx_proxy >= th["adx_trend_min"]):
+                    trend_label = "uptrend"
+                    trend_strength = float((ema20.iloc[-1] - ema50.iloc[-1]) / ema50.iloc[-1])
+                    reasons.append(f"ema20>ema50 slope={ema20_slope:.4f} adx≈{adx_proxy:.1f}")
+                elif (ema20.iloc[-1] < ema50.iloc[-1]) and (ema20_slope < -th["ema_slope_min"]) and (adx_proxy >= th["adx_trend_min"]):
+                    trend_label = "downtrend"
+                    trend_strength = float((ema50.iloc[-1] - ema20.iloc[-1]) / ema50.iloc[-1])
+                    reasons.append(f"ema20<ema50 slope={ema20_slope:.4f} adx≈{adx_proxy:.1f}")
                 else:
-                    context['trend_direction'] = 'bearish'
-                    context['trend_strength'] = (sma_50 - current) / sma_50
-        
-        # Add vision data if available
+                    reasons.append(f"trend-neutral (ema20={ema20.iloc[-1]:.2f}, ema50={ema50.iloc[-1]:.2f}, slope={ema20_slope:.4f}, adx≈{adx_proxy:.1f})")
+            else:
+                reasons.append("not-enough-bars-for-EMA")
+
+            context['trend_direction'] = trend_label
+            context['trend_strength'] = float(trend_strength)
+
+            # Regime: default by adx proxy
+            regime = "ranging" if adx_proxy < th["adx_trend_min"] else "trending"
+            conf = 0.40 if regime == "ranging" else min(0.90, 0.60 + abs(trend_strength) * 4)
+
+            # Regime override: big 10-bar move
+            if not np.isnan(mom10) and abs(mom10) >= th["mom_10m_trending"]:
+                regime = "trending"
+                conf = max(conf, 0.85)
+                reasons.append(f"mom10 override: {mom10:.2%}")
+
+            context['market_regime'] = regime
+            context['regime_confidence'] = float(conf)
+
+        # ----- VISION DATA -----
         if self.vision_data:
             context['vision_available'] = True
-            
-            # Get visual sentiment
             stats = self.vision_data.get('statistics', {})
             context['vision_sentiment'] = stats.get('sentiment', 'neutral')
-            
-            # Extract detected patterns
             if 'patterns' in self.vision_data:
                 context['visual_patterns'] = self.vision_data['patterns']
-            
-            # Extract key levels from vision
             if 'support_resistance' in self.vision_data:
-                sr_levels = self.vision_data['support_resistance']
-                context['key_levels'] = sr_levels
-        
-        # FUSION: Determine market regime using BOTH sources
-        context['market_regime'], context['regime_confidence'] = self._determine_market_regime(context)
-        # --- divergence analysis (safe) ---
+                context['key_levels'] = self.vision_data['support_resistance']
+
+        # ----- DIVERGENCE (safe) -----
         try:
-            _div = analyze_divergence(df)
+            _div = analyze_divergence(df) if isinstance(df, pd.DataFrame) else {}
         except Exception:
-            _div = {'bullish_rsi': False, 'bearish_rsi': False,
-                    'bullish_macd': False, 'bearish_macd': False,
-                    'score': 0.0, 'details': {}}
-        context['divergence'] = _div
-        context['divergence_score'] = float(_div.get('score', 0.0))
+            _div = {}
+        context['divergence'] = _div or {'score': 0.0}
+        context['divergence_score'] = float((context['divergence'] or {}).get('score', 0.0))
+
+        # ----- DIAGNOSTICS -----
+        price = context['current_price']
+        mom5 = 'n/a' if not context['price_data_available'] else f"{_pct_change(self.price_data['df']['close'].sort_index().ffill().bfill(), 5):.3%}"
+        context['diagnostics'] = f"p={price} | regime={context['market_regime']}({context['regime_confidence']:.2f}) | mom={context['momentum']} (5m={mom5}) | trend={context['trend_direction']} | {'vision✓' if context['vision_available'] else 'vision✗'} | " + "; ".join(reasons)
 
         return context
-    
-    def _determine_market_regime(self, context: Dict) -> tuple[str, float]:
-        """
-        Use AI-like logic to determine market regime from multiple signals
-        
-        Returns:
-            (regime, confidence) where:
-            - regime: 'strong_trend', 'weak_trend', 'ranging', 'breakout_pending', 'choppy'
-            - confidence: 0.0 to 1.0
-        """
-        signals = []
-        
-        # Signal 1: Price momentum
-        if context['momentum'] in ['strong_bullish', 'strong_bearish']:
-            signals.append(('trending', 0.8))
-        elif context['momentum'] in ['bullish', 'bearish']:
-            signals.append(('weak_trend', 0.6))
-        else:
-            signals.append(('ranging', 0.5))
-        
-        # Signal 2: Vision sentiment
-        if context['vision_sentiment'] in ['bullish', 'bearish']:
-            # Vision confirms directional bias
-            if context['vision_sentiment'] == context['momentum'].replace('strong_', ''):
-                signals.append(('trending', 0.9))  # High confidence when aligned
-            else:
-                signals.append(('ranging', 0.4))  # Conflicting signals = ranging
-        
-        # Signal 3: Trend strength
-        if context['trend_strength'] > 0.015:  # 1.5% from mean
-            signals.append(('strong_trend', 0.85))
-        elif context['trend_strength'] > 0.007:  # 0.7% from mean
-            signals.append(('weak_trend', 0.65))
-        
-        # Signal 4: Visual patterns
-        if len(context['visual_patterns']) > 0:
-            # If we see consolidation patterns = breakout pending
-            consolidation_patterns = ['triangle', 'wedge', 'rectangle']
-            has_consolidation = any(p in str(context['visual_patterns']).lower() 
-                                   for p in consolidation_patterns)
-            if has_consolidation:
-                signals.append(('breakout_pending', 0.75))
-        
-        # FUSION: Weight and combine signals
-        regime_scores = {}
-        for regime, confidence in signals:
-            if regime not in regime_scores:
-                regime_scores[regime] = []
-            regime_scores[regime].append(confidence)
-        
-        # Average confidences for each regime
-        regime_avg = {r: np.mean(scores) for r, scores in regime_scores.items()}
-        
-        if not regime_avg:
-            return 'unknown', 0.0
-        
-        # Pick regime with highest confidence
-        best_regime = max(regime_avg, key=regime_avg.get)
-        best_confidence = regime_avg[best_regime]
-        
-        return best_regime, best_confidence
-    
+
+    # ------------------- helpers used elsewhere -------------------
+
     def check_vision_confirmation(self, signal_direction: str) -> tuple[bool, float]:
-        """
-        Check if vision system confirms a trading signal
-        
-        Args:
-            signal_direction: 'LONG' or 'SHORT'
-            
-        Returns:
-            (confirmed, confidence_boost)
-        """
         if not self.vision_data:
             return False, 0.0
-        
         sentiment = self.vision_data.get('statistics', {}).get('sentiment', 'neutral')
-        
-        # Check alignment
         if signal_direction == 'LONG' and sentiment == 'bullish':
-            return True, 0.15  # 15% confidence boost
-        elif signal_direction == 'SHORT' and sentiment == 'bearish':
             return True, 0.15
-        
+        if signal_direction == 'SHORT' and sentiment == 'bearish':
+            return True, 0.15
         return False, 0.0
-    
+
     def get_nearest_support_resistance(self, current_price: float) -> Dict:
-        """
-        Find nearest S/R levels from vision system
-        
-        Returns:
-            {'nearest_support': price, 'nearest_resistance': price, 'distance': points}
-        """
         if not self.vision_data or 'support_resistance' not in self.vision_data:
             return {'nearest_support': None, 'nearest_resistance': None}
-        
         levels = self.vision_data['support_resistance']
-        
-        # Find nearest support (below current price)
         supports = [l for l in levels.get('support', []) if l < current_price]
-        nearest_support = max(supports) if supports else None
-        
-        # Find nearest resistance (above current price)
         resistances = [l for l in levels.get('resistance', []) if l > current_price]
-        nearest_resistance = min(resistances) if resistances else None
-        
         return {
-            'nearest_support': nearest_support,
-            'nearest_resistance': nearest_resistance,
-            'support_distance': (current_price - nearest_support) if nearest_support else None,
-            'resistance_distance': (nearest_resistance - current_price) if nearest_resistance else None
+            'nearest_support': max(supports) if supports else None,
+            'nearest_resistance': min(resistances) if resistances else None
         }
 
-
-# Create global instance
+# Global singleton
 market_context_fusion = MarketContextFusion()

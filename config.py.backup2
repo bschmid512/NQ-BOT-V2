@@ -17,12 +17,12 @@ MODEL_DIR = BASE_DIR / 'models'
 LOG_DIR = BASE_DIR / 'logs'
 
 # -----------------------------------------------------------------
-# --- LOGGING CONFIGURATION ---
+# --- LOGGING CONFIGURATION (Fixes 'LOG_LEVEL' error) ---
 # -----------------------------------------------------------------
-LOG_LEVEL = logging.DEBUG
+LOG_LEVEL = logging.DEBUG  # Level for the log files (DEBUG, INFO, WARNING, ERROR)
 LOG_FORMAT = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 LOG_MAX_BYTES = 5 * 1024 * 1024  # 5 MB per log file
-LOG_BACKUP_COUNT = 3
+LOG_BACKUP_COUNT = 3  # Keep 3 old log files
 
 # --- DATA FILES ---
 LIVE_DATA_FILE = DATA_DIR / 'nq_live_data.csv'
@@ -36,15 +36,16 @@ WEBHOOK_PASSPHRASE = os.getenv('WEBHOOK_PASSPHRASE', 'change_this_secure_passphr
 
 # --- TRADING PARAMETERS (NQ) ---
 TICKER = 'NQ'
-POINT_VALUE = 20
-TICK_SIZE = 0.25
-TICK_VALUE = 5.00
+POINT_VALUE = 20  # $20 per point for NQ futures
+TICK_SIZE = 0.25  # NQ tick size in points (0.25 points = 1 tick)
+TICK_VALUE = 5.00  # $20/point × 0.25 = $5 per tick
 
 # -----------------------------------------------------------------
-# --- COSTS ---
+# --- COSTS (Fixes 'COMMISSION_PER_SIDE' error) ---
 # -----------------------------------------------------------------
-COMMISSION_PER_SIDE = 3.00  # $3 per side
-SLIPPAGE_TICKS = 3
+# This must be PER_SIDE because position_manager multiplies by 2
+COMMISSION_PER_SIDE = 3.00  # $3.00 per side ($6.00 round-trip)
+SLIPPAGE_TICKS = 3  # Average slippage in NQ
 TOTAL_COST_PER_RT = (COMMISSION_PER_SIDE * 2) + (SLIPPAGE_TICKS * TICK_VALUE)
 REALISTIC_COSTS = True
 SLIPPAGE_BY_SESSION = {
@@ -55,12 +56,12 @@ SLIPPAGE_BY_SESSION = {
 }
 
 # --- RISK & POSITION SIZING ---
-CONTRACT_SIZE = 1
-MAX_POSITION_SIZE = 3
-MAX_OPEN_POSITIONS = 1
-MAX_DAILY_LOSS = -500.0
-MAX_DAILY_TRADES = 10
-MIN_TIME_BETWEEN_TRADES = 300  # 5 minutes
+CONTRACT_SIZE = 1  # Default number of contracts to trade
+MAX_POSITION_SIZE = 3  # Max contracts at any time
+MAX_OPEN_POSITIONS = 1  # Only allow one position at a time
+MAX_DAILY_LOSS = -500.0  # Daily stop: -$500
+MAX_DAILY_TRADES = 10     # Max trades per day
+MIN_TIME_BETWEEN_TRADES = 300 # 5 minutes
 
 # --- TRADING SESSIONS (US/Eastern) ---
 SESSION_START = '09:30'
@@ -68,51 +69,31 @@ SESSION_END = '16:00'
 ALLOW_PREMARKET = True
 ALLOW_AFTERHOURS = False
 
-# --- ECONOMIC EVENTS ---
+# --- ECONOMIC EVENTS (Bot will NOT trade on these dates) ---
 HIGH_IMPACT_DATES = [
     # November 2024
-    '2024-11-07',
-    '2024-11-13',
-    '2024-11-15',
+    '2024-11-07',  # FOMC Decision
+    '2024-11-13',  # CPI Report
+    '2024-11-15',  # Retail Sales
     # December 2024
-    '2024-12-06',
-    '2024-12-11',
-    '2024-12-18',
+    '2024-12-06',  # NFP (Non-Farm Payroll)
+    '2024-12-11',  # CPI Report
+    '2024-12-18',  # FOMC Decision
 ]
 
 # -----------------------------------------------------------------
 # --- FUSION ENGINE CONFIGURATION ---
 # -----------------------------------------------------------------
 FUSION_CONFIG = {
-    'min_signals_required': 2,
-    'min_total_weight': 65,
-    'max_weight': 100,
-    'vision_weight_multiplier': 1.3,
-    'convergence_bonus': 15
+    'min_signals_required': 2,      # How many strategies must agree (1 = at least one)
+    'min_total_weight': 65,         # The combined "score" needed to approve a trade
+    'max_weight': 100,              # The maximum possible weight
+    'vision_weight_multiplier': 1.3,   # 20% boost if vision confirms
+    'convergence_bonus': 15         # 10 point bonus if 2+ strategies agree
 }
 
 # -----------------------------------------------------------------
-# --- CONTEXT THRESHOLDS (new) ---
-# -----------------------------------------------------------------
-# Tuned so a real intraday push reads as bullish/uptrend quickly,
-# but not on micro-noise.
-CONTEXT_THRESHOLDS = {
-    # momentum uses pct change over 1m & 5m; whichever is stronger wins
-    "mom_1m_bull": 0.0015,   # +0.15%
-    "mom_1m_bear": -0.0015,  # -0.15%
-    "mom_5m_bull": 0.0040,   # +0.40%
-    "mom_5m_bear": -0.0040,  # -0.40%
-
-    # trend uses EMA(20) vs EMA(50) + slope proxy
-    "adx_trend_min": 16.0,   # below this => likely ranging
-    "ema_slope_min": 0.0,    # >0 uptrend, <0 downtrend (per-bar slope of EMA20)
-
-    # regime override: if 10 bars move >1% → trending
-    "mom_10m_trending": 0.010
-}
-
-# -----------------------------------------------------------------
-# --- STRATEGY CONFIGURATIONS ---
+# --- STRATEGY CONFIGURATIONS (FINAL, ALL KEYS) ---
 # -----------------------------------------------------------------
 STRATEGIES = {
     'orb': {
@@ -129,22 +110,22 @@ STRATEGIES = {
         'max_time': '12:00:00',
         'sl_to_be_pct': 0.5
     },
-
+    
     'mean_reversion': {
         'enabled': True,
         'weight': 50,
-        'rsi_overbought': 70,
-        'rsi_oversold': 30,
+        'rsi_overbought': 70,   # Correct key
+        'rsi_oversold': 30,   # Correct key
         'adx_max': 25,
         'bb_period': 20,
-        'bb_std': 2.0,
+        'bb_std': 2.0,            # Correct key
         'rsi_period': 14,
         'adx_period': 14,
         'atr_multiplier': 1.5,
         'use_adx_filter': True,
         'use_context_filter': True
     },
-
+    
     'trend_following': {
         'enabled': True,
         'weight': 60,
@@ -154,7 +135,7 @@ STRATEGIES = {
         'adx_period': 14,
         'atr_multiplier': 2.0
     },
-
+    
     'breakout': {
         'enabled': True,
         'weight': 45,
@@ -163,7 +144,7 @@ STRATEGIES = {
         'min_volume_spike': 1.5,
         'use_context_filter': True
     },
-
+    
     'pullback': {
         'enabled': True,
         'weight': 70,
@@ -173,7 +154,7 @@ STRATEGIES = {
         'atr_multiplier': 1.5,
         'adx_min': 20
     },
-
+    
     'momentum': {
         'enabled': True,
         'weight': 45,

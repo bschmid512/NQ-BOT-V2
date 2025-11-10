@@ -1,3 +1,10 @@
+import warnings
+warnings.filterwarnings(
+    "ignore",
+    message="Parsing dates involving a day of month without a year specified",
+    category=DeprecationWarning,
+)
+
 """
 Main Application Entry Point for NQ Trading Bot
 *** FUSION ARCHITECTURE - V3 ***

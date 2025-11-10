@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import logging
+
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta
 from typing import Dict, Any, List, Optional
@@ -211,3 +213,6 @@ def signal_fusion_engine(logger, cfg=None):
     if cfg:
         merged.update(cfg)
     return SignalFusionEngine(logger=logger, cfg=merged)
+
+# Create global instance
+signal_fusion_engine = SignalFusionEngine(logger=logging.getLogger('signal_fusion'))

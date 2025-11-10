@@ -1228,3 +1228,27 @@
 2025-11-10 09:27:43,073 - VisionTradingV2 - INFO - Trading: ANALYSIS ONLY
 2025-11-10 09:27:43,073 - VisionTradingV2 - INFO - Duration: Unlimited (press Ctrl+C to stop)
 2025-11-10 09:27:43,074 - VisionTradingV2 - INFO - ======================================================================
+2025-11-10 10:55:18,218 - VisionTradingV2 - INFO - Vision Trading V2.0 initialized
+2025-11-10 10:55:18,218 - VisionTradingV2 - INFO - Trading mode: ANALYSIS ONLY
+2025-11-10 10:55:18,218 - VisionTradingV2 - INFO - ======================================================================
+2025-11-10 10:55:18,219 - VisionTradingV2 - INFO - VISION TRADING V2.0 - STARTING
+2025-11-10 10:55:18,219 - VisionTradingV2 - INFO - ======================================================================
+2025-11-10 10:55:18,219 - VisionTradingV2 - INFO - Capture interval: 2.0s
+2025-11-10 10:55:18,219 - VisionTradingV2 - INFO - Min confidence: 75%
+2025-11-10 10:55:18,220 - VisionTradingV2 - INFO - Trading: ANALYSIS ONLY
+2025-11-10 10:55:18,220 - VisionTradingV2 - INFO - Duration: Unlimited (press Ctrl+C to stop)
+2025-11-10 10:55:18,220 - VisionTradingV2 - INFO - ======================================================================
+2025-11-10 11:05:35,719 - VisionTradingV2 - INFO - ======================================================================
+2025-11-10 11:05:35,719 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-10 11:05:35,720 - VisionTradingV2 - INFO -   Pattern: bearish_engulfing
+2025-11-10 11:05:35,720 - VisionTradingV2 - INFO -   Direction: SHORT
+2025-11-10 11:05:35,720 - VisionTradingV2 - INFO -   Confidence: 87.4%
+2025-11-10 11:05:35,720 - VisionTradingV2 - INFO -   Reason: Bearish engulfing (size ratio: 3.54)
+2025-11-10 11:05:35,720 - VisionTradingV2 - INFO - ======================================================================
+2025-11-10 11:06:58,826 - VisionTradingV2 - INFO - ======================================================================
+2025-11-10 11:06:58,826 - VisionTradingV2 - INFO - HIGH CONFIDENCE SIGNAL DETECTED:
+2025-11-10 11:06:58,826 - VisionTradingV2 - INFO -   Pattern: strong_bearish_sentiment
+2025-11-10 11:06:58,826 - VisionTradingV2 - INFO -   Direction: SHORT
+2025-11-10 11:06:58,826 - VisionTradingV2 - INFO -   Confidence: 75.0%
+2025-11-10 11:06:58,826 - VisionTradingV2 - INFO -   Reason: Strong bearish momentum (80.0% bearish candles)
+2025-11-10 11:06:58,826 - VisionTradingV2 - INFO - ======================================================================

@@ -7,7 +7,6 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
-from config import COMMISSION_PER_SIDE, CONTRACT_SIZE, MAX_POSITION_SIZE
 from typing import Dict, List, Optional
 
 from config import (
