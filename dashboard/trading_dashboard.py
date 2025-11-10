@@ -17,12 +17,12 @@ from utils.logger import trading_logger
 
 class TradingDashboard:
     """Dash-based trading dashboard"""
-    
+
     def __init__(self, server=None):
         """Initialize dashboard with Flask server"""
         self.logger = trading_logger.system_logger
         self.server = server
-        
+
         # Initialize Dash app
         if server is not None:
             self.app = Dash(
@@ -41,126 +41,94 @@ class TradingDashboard:
                 suppress_callback_exceptions=True
             )
             self.logger.info("Dashboard running standalone")
-        
-        # Setup layout and callbacks
+
+        # Layout + callbacks
         self._setup_layout()
         self._setup_callbacks()
-        
         self.logger.info("Trading Dashboard initialized successfully")
-    
+
     def _setup_layout(self):
         """Define dashboard layout"""
         self.app.layout = dbc.Container([
             # Header
             dbc.Row([
                 dbc.Col([
-                    html.H1("NQ Futures Trading Bot", className="text-center mb-4"),
+                    html.H1("NQ Futures Trading Bot", className="text-center mb-2"),
                     html.H5(id='current-time', className="text-center text-muted")
                 ])
             ]),
-            
+
             # Performance Metrics Cards
             dbc.Row([
-                dbc.Col([
-                    dbc.Card([
-                        dbc.CardBody([
-                            html.H5("Total P&L", className="card-title"),
-                            html.H2(id='total-pnl', className="text-success")
-                        ])
-                    ])
-                ], width=3),
-                
-                dbc.Col([
-                    dbc.Card([
-                        dbc.CardBody([
-                            html.H5("Win Rate", className="card-title"),
-                            html.H2(id='win-rate', className="text-info")
-                        ])
-                    ])
-                ], width=3),
-                
-                dbc.Col([
-                    dbc.Card([
-                        dbc.CardBody([
-                            html.H5("Profit Factor", className="card-title"),
-                            html.H2(id='profit-factor', className="text-warning")
-                        ])
-                    ])
-                ], width=3),
-                
-                dbc.Col([
-                    dbc.Card([
-                        dbc.CardBody([
-                            html.H5("Max Drawdown", className="card-title"),
-                            html.H2(id='max-drawdown', className="text-danger")
-                        ])
-                    ])
-                ], width=3),
+                dbc.Col(dbc.Card(dbc.CardBody([
+                    html.H5("Total P&L", className="card-title"),
+                    html.H2(id='total-pnl', className="text-success")
+                ])), width=3),
+
+                dbc.Col(dbc.Card(dbc.CardBody([
+                    html.H5("Win Rate", className="card-title"),
+                    html.H2(id='win-rate', className="text-info")
+                ])), width=3),
+
+                dbc.Col(dbc.Card(dbc.CardBody([
+                    html.H5("Profit Factor", className="card-title"),
+                    html.H2(id='profit-factor', className="text-warning")
+                ])), width=3),
+
+                dbc.Col(dbc.Card(dbc.CardBody([
+                    html.H5("Max Drawdown", className="card-title"),
+                    # Drawdown is a $ amount from backend (not %)
+                    html.H2(id='max-drawdown', className="text-danger")
+                ])), width=3),
             ], className="mb-4"),
-            
+
             # Main Chart
             dbc.Row([
-                dbc.Col([
-                    dbc.Card([
-                        dbc.CardBody([
-                            dcc.Graph(id='price-chart', style={'height': '600px'})
-                        ])
-                    ])
-                ], width=12)
+                dbc.Col(dbc.Card(dbc.CardBody([
+                    dcc.Graph(id='price-chart', style={'height': '600px'})
+                ])), width=12)
             ], className="mb-4"),
-            
-            # Signal Indicators
+
+            # Signals + System status
             dbc.Row([
-                dbc.Col([
-                    dbc.Card([
-                        dbc.CardHeader(html.H5("Current Signals")),
-                        dbc.CardBody([
-                            html.Div(id='signal-indicators')
-                        ])
-                    ])
-                ], width=6),
-                
-                dbc.Col([
-                    dbc.Card([
-                        dbc.CardHeader(html.H5("System Status")),
-                        dbc.CardBody([
-                            html.Div(id='system-status')
-                        ])
-                    ])
-                ], width=6),
+                dbc.Col(dbc.Card([
+                    dbc.CardHeader(html.H5("Current Signals")),
+                    dbc.CardBody([html.Div(id='signal-indicators')])
+                ]), width=6),
+
+                dbc.Col(dbc.Card([
+                    dbc.CardHeader(html.H5("System Status")),
+                    dbc.CardBody([html.Div(id='system-status')])
+                ]), width=6),
             ], className="mb-4"),
-            
+
             # Recent Trades Table
             dbc.Row([
-                dbc.Col([
-                    dbc.Card([
-                        dbc.CardHeader(html.H5("Recent Trades")),
-                        dbc.CardBody([
-                            html.Div(id='trades-table')
-                        ])
-                    ])
-                ], width=12)
+                dbc.Col(dbc.Card([
+                    dbc.CardHeader(html.H5("Recent Trades")),
+                    dbc.CardBody([html.Div(id='trades-table')])
+                ]), width=12)
             ], className="mb-4"),
-            
-            # Update Interval Component
+
+            # Interval
             dcc.Interval(
                 id='interval-component',
                 interval=DASHBOARD_UPDATE_INTERVAL,
                 n_intervals=0
             )
-            
+
         ], fluid=True, style={'backgroundColor': '#1e1e1e'})
-    
+
     def _setup_callbacks(self):
         """Setup all dashboard callbacks"""
-        
+
         @self.app.callback(
             Output('current-time', 'children'),
             Input('interval-component', 'n_intervals')
         )
-        def update_time(n):
+        def update_time(_):
             return f"Last Updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
-        
+
         @self.app.callback(
             [Output('total-pnl', 'children'),
              Output('win-rate', 'children'),
@@ -168,116 +136,85 @@ class TradingDashboard:
              Output('max-drawdown', 'children')],
             Input('interval-component', 'n_intervals')
         )
-        def update_metrics(n):
+        def update_metrics(_):
             """Update performance metrics"""
             try:
                 metrics = data_handler.calculate_performance_metrics()
-                
+
                 total_pnl = f"${metrics.get('total_pnl', 0):,.2f}"
                 win_rate = f"{metrics.get('win_rate', 0)*100:.1f}%"
                 profit_factor = f"{metrics.get('profit_factor', 0):.2f}"
-                max_dd = f"{metrics.get('max_drawdown', 0)*100:.1f}%"
-                
+                # drawdown is dollars coming from backend
+                max_dd = f"${metrics.get('max_drawdown', 0):,.2f}"
+
                 return total_pnl, win_rate, profit_factor, max_dd
             except Exception as e:
                 self.logger.error(f"Error updating metrics: {e}")
-                return "$0.00", "0%", "0.00", "0%"
-        
+                return "$0.00", "0%", "0.00", "$0.00"
+
         @self.app.callback(
             Output('price-chart', 'figure'),
             Input('interval-component', 'n_intervals')
         )
-        def update_chart(n):
+        def update_chart(_):
             """Update main price chart"""
             try:
                 df = data_handler.get_latest_bars(10000)
-                
                 if df.empty:
                     return self._create_empty_chart()
-                
+
+                # add indicators (safe if columns missing)
                 df = TechnicalIndicators.add_all_indicators(df)
-                
+
                 fig = make_subplots(
-                    rows=3, cols=1,
-                    shared_xaxes=True,
-                    vertical_spacing=0.03,
+                    rows=3, cols=1, shared_xaxes=True, vertical_spacing=0.03,
                     row_heights=[0.6, 0.2, 0.2],
                     subplot_titles=('NQ Futures Price', 'RSI', 'Volume')
                 )
-                
+
                 # Candlestick
                 fig.add_trace(
                     go.Candlestick(
-                        x=df.index,
-                        open=df['open'],
-                        high=df['high'],
-                        low=df['low'],
-                        close=df['close'],
+                        x=df.index, open=df['open'], high=df['high'],
+                        low=df['low'], close=df['close'],
                         name='NQ',
                         increasing_line_color='#26a69a',
                         decreasing_line_color='#ef5350'
-                    ),
-                    row=1, col=1
+                    ), row=1, col=1
                 )
-                
-                # VWAP
+
+                # VWAP / EMA / BB if present
                 if 'vwap' in df.columns:
-                    fig.add_trace(
-                        go.Scatter(
-                            x=df.index, y=df['vwap'],
-                            name='VWAP', line=dict(color='yellow', width=2)
-                        ),
-                        row=1, col=1
-                    )
-                
-                # EMAs
+                    fig.add_trace(go.Scatter(x=df.index, y=df['vwap'], name='VWAP',
+                                             line=dict(color='yellow', width=2)),
+                                  row=1, col=1)
                 if 'ema_21' in df.columns:
-                    fig.add_trace(
-                        go.Scatter(
-                            x=df.index, y=df['ema_21'],
-                            name='EMA 21', line=dict(color='orange', width=1.5)
-                        ),
-                        row=1, col=1
-                    )
-                
-                # Bollinger Bands
-                if 'bb_upper' in df.columns:
-                    fig.add_trace(
-                        go.Scatter(
-                            x=df.index, y=df['bb_upper'],
-                            name='BB Upper', line=dict(color='gray', width=1, dash='dash')
-                        ),
-                        row=1, col=1
-                    )
-                    fig.add_trace(
-                        go.Scatter(
-                            x=df.index, y=df['bb_lower'],
-                            name='BB Lower', line=dict(color='gray', width=1, dash='dash'),
-                            fill='tonexty', fillcolor='rgba(128,128,128,0.1)'
-                        ),
-                        row=1, col=1
-                    )
-                
+                    fig.add_trace(go.Scatter(x=df.index, y=df['ema_21'], name='EMA 21',
+                                             line=dict(color='orange', width=1.5)),
+                                  row=1, col=1)
+                if {'bb_upper', 'bb_lower'}.issubset(df.columns):
+                    fig.add_trace(go.Scatter(x=df.index, y=df['bb_upper'], name='BB Upper',
+                                             line=dict(color='gray', width=1, dash='dash')),
+                                  row=1, col=1)
+                    fig.add_trace(go.Scatter(x=df.index, y=df['bb_lower'], name='BB Lower',
+                                             line=dict(color='gray', width=1, dash='dash'),
+                                             fill='tonexty', fillcolor='rgba(128,128,128,0.1)'),
+                                  row=1, col=1)
+
                 # RSI
                 if 'rsi' in df.columns:
-                    fig.add_trace(
-                        go.Scatter(
-                            x=df.index, y=df['rsi'],
-                            name='RSI', line=dict(color='purple', width=2)
-                        ),
-                        row=2, col=1
-                    )
+                    fig.add_trace(go.Scatter(x=df.index, y=df['rsi'], name='RSI',
+                                             line=dict(color='purple', width=2)),
+                                  row=2, col=1)
                     fig.add_hline(y=70, line_dash="dash", line_color="red", row=2, col=1)
                     fig.add_hline(y=30, line_dash="dash", line_color="green", row=2, col=1)
-                
+
                 # Volume
-                colors = ['red' if df['close'].iloc[i] < df['open'].iloc[i] else 'green' 
-                         for i in range(len(df))]
-                fig.add_trace(
-                    go.Bar(x=df.index, y=df['volume'], name='Volume', marker_color=colors),
-                    row=3, col=1
-                )
-                
+                colors = np.where(df['close'] < df['open'], 'red', 'green')
+                fig.add_trace(go.Bar(x=df.index, y=df['volume'], name='Volume',
+                                     marker_color=colors),
+                              row=3, col=1)
+
                 fig.update_layout(
                     title='NQ Futures - 1 Minute Chart',
                     xaxis_rangeslider_visible=False,
@@ -286,32 +223,27 @@ class TradingDashboard:
                     showlegend=True,
                     legend=dict(x=0, y=1, bgcolor='rgba(0,0,0,0.5)')
                 )
-                
+
                 fig.update_xaxes(title_text="Time", row=3, col=1)
                 fig.update_yaxes(title_text="Price", row=1, col=1)
                 fig.update_yaxes(title_text="RSI", row=2, col=1, range=[0, 100])
                 fig.update_yaxes(title_text="Volume", row=3, col=1)
-                
+
                 return fig
-                
+
             except Exception as e:
                 self.logger.error(f"Error updating chart: {e}")
                 return self._create_empty_chart()
-        
+
         @self.app.callback(
             Output('signal-indicators', 'children'),
             Input('interval-component', 'n_intervals')
         )
-        @self.app.callback(
-            Output('signal-indicators', 'children'),
-            Input('interval-component', 'n_intervals')
-        )
-        def update_signals(n):
+        def update_signals(_):
             """Update current signal indicators"""
             try:
-                # Let the data handler filter the last 15 minutes (UTC-safe)
+                # Filter last 15 minutes (UTC-safe)
                 signals = data_handler.get_all_signals(minutes=15)
-
                 if signals.empty:
                     return html.Div("No signals generated in the last 15 minutes", className="text-muted")
 
@@ -319,18 +251,20 @@ class TradingDashboard:
 
                 cards = []
                 for _, s in latest.iterrows():
-                    color = "success" if s['signal'] == 'LONG' else "danger"
-                    ts_val = pd.Timestamp(s["timestamp"])
+                    color = "success" if (s.get('signal') == 'LONG') else "danger"
+                    ts_val = pd.Timestamp(s.get("timestamp"))
                     if ts_val.tzinfo is None:
                         ts_val = ts_val.tz_localize("UTC")
                     ts = ts_val.tz_convert("UTC").strftime("%H:%M:%S")
+                    price = pd.to_numeric(s.get('price'), errors='coerce')
+                    conf = pd.to_numeric(s.get('confidence'), errors='coerce')
                     cards.append(
                         dbc.Card(
                             dbc.CardBody([
-                                html.H6(f"{(s['strategy'] or '').upper()}: {s['signal']}", className=f"text-{color}"),
+                                html.H6(f"{str(s.get('strategy') or '').upper()}: {s.get('signal')}", className=f"text-{color}"),
                                 html.P([
-                                    f"Price: {s['price']:.2f} | ",
-                                    f"Confidence: {int((s['confidence'] or 0)*100)}%"
+                                    f"Price: {price:.2f} | " if pd.notna(price) else "Price: — | ",
+                                    f"Confidence: {int(conf*100)}%" if pd.notna(conf) else "Confidence: —"
                                 ], className="mb-0 small"),
                                 html.P(ts, className="text-muted small mb-0")
                             ]),
@@ -347,11 +281,10 @@ class TradingDashboard:
             Output('system-status', 'children'),
             Input('interval-component', 'n_intervals')
         )
-        def update_system_status(n):
+        def update_system_status(_):
             """Update system status"""
             try:
                 df = data_handler.get_latest_bars(1)
-                
                 if df.empty:
                     status_color = "warning"
                     status_text = "Waiting for data..."
@@ -360,30 +293,29 @@ class TradingDashboard:
                     status_color = "success"
                     status_text = "Receiving data"
                     last_update = df.index[-1].strftime('%H:%M:%S')
-                
+
                 return html.Div([
                     dbc.Badge(status_text, color=status_color, className="mb-2"),
                     html.P(f"Last data: {last_update}", className="mb-0")
                 ])
-            except Exception as e:
+            except Exception:
                 return html.Div("Error", className="text-danger")
-        
+
         @self.app.callback(
             Output('trades-table', 'children'),
             Input('interval-component', 'n_intervals')
         )
-        def update_trades_table(n):
+        def update_trades_table(_):
             """Update recent trades table"""
             try:
                 trades = data_handler.get_all_trades()
-                
                 if trades.empty:
                     return html.Div("No trades executed yet", className="text-muted")
-                
-                recent_trades = trades.tail(10).sort_values('timestamp', ascending=False)
-                
+
+                recent = trades.tail(10).sort_values('timestamp', ascending=False)
+
                 return dash_table.DataTable(
-                    data=recent_trades.to_dict('records'),
+                    data=recent.to_dict('records'),
                     columns=[
                         {'name': 'Time', 'id': 'timestamp'},
                         {'name': 'Entry Time', 'id': 'entry_time'},
@@ -397,17 +329,11 @@ class TradingDashboard:
                         {'name': 'P&L', 'id': 'pnl'},
                         {'name': 'Status', 'id': 'status'},
                     ],
-                    # ✅ Only one style_data_conditional block
                     style_data_conditional=[
-                        # P&L colors
                         {'if': {'column_id': 'pnl', 'filter_query': '{pnl} >= 0'}, 'color': '#26a69a'},
                         {'if': {'column_id': 'pnl', 'filter_query': '{pnl} < 0'},  'color': '#ef5350'},
-
-                        # Entry/Exit colors based on action
                         {'if': {'column_id': 'entry_price', 'filter_query': '{action} contains "BUY"'},  'color': '#26a69a'},
                         {'if': {'column_id': 'exit_price',  'filter_query': '{action} contains "SELL"'}, 'color': '#ef5350'},
-
-                        # R-multiple highlight
                         {'if': {'column_id': 'r_multiple', 'filter_query': '{r_multiple} >= 1'}, 'color': '#26a69a', 'fontWeight': '600'},
                         {'if': {'column_id': 'r_multiple', 'filter_query': '{r_multiple} < 1 && {r_multiple} != blank'}, 'color': '#ef5350'},
                     ],
@@ -422,16 +348,15 @@ class TradingDashboard:
                     page_size=10,
                 )
 
-                
             except Exception as e:
                 self.logger.error(f"Error updating trades table: {e}")
                 return html.Div("Error loading trades", className="text-danger")
-    
+
     def _create_empty_chart(self):
         """Create empty chart placeholder"""
         fig = go.Figure()
         fig.add_annotation(
-            text="Waiting for data...<br>Run 'python quick_test.py' to send test data",
+            text="Waiting for data...<br>Is your webhook sending bars?",
             xref="paper", yref="paper",
             x=0.5, y=0.5, showarrow=False,
             font=dict(size=20, color="gray")
