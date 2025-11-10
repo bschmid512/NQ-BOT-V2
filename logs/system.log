@@ -4962,3 +4962,1762 @@ FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDr
 2025-11-07 15:32:54,012 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
 2025-11-07 15:32:59,009 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
 2025-11-07 15:33:00,942 - system - DEBUG - Added bar: 2025-11-07 15:33:00.905796 | Close: 25093.25
+2025-11-07 15:33:04,015 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:33:09,012 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:33:14,022 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:33:18,580 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:33:22,240 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:33:27,236 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:33:32,240 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:33:37,247 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:33:42,239 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:33:47,230 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:33:52,238 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:33:57,224 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:34:00,584 - system - DEBUG - Added bar: 2025-11-07 15:34:00.558116 | Close: 25087.75
+2025-11-07 15:34:02,235 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:34:07,228 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:34:14,009 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:34:19,009 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:34:24,001 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:34:29,002 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:34:34,009 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:34:39,007 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:34:43,999 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:34:48,002 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:34:54,011 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:34:59,002 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:35:00,889 - system - DEBUG - Added bar: 2025-11-07 15:35:00.847398 | Close: 25079.0
+2025-11-07 15:35:03,817 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:35:07,016 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:35:12,018 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:35:18,026 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:35:23,018 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:35:28,001 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:35:33,021 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:35:39,007 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:35:44,011 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:35:49,004 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:35:54,016 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:35:59,015 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:36:00,970 - system - DEBUG - Added bar: 2025-11-07 15:36:00.938688 | Close: 25089.5
+2025-11-07 15:36:02,017 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:36:07,022 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:36:12,044 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:36:19,018 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:36:24,015 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:36:29,025 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:36:33,012 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:36:39,013 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:36:43,002 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:36:49,004 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:36:54,009 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:36:59,016 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:37:00,798 - system - DEBUG - Added bar: 2025-11-07 15:37:00.757082 | Close: 25098.75
+2025-11-07 15:37:03,024 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:37:09,016 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:37:13,019 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:37:51,003 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:37:55,056 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:37:59,007 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:38:00,938 - system - DEBUG - Added bar: 2025-11-07 15:38:00.900560 | Close: 25091.25
+2025-11-07 15:38:04,000 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:38:09,019 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:38:14,028 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:38:19,003 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:38:24,010 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:38:29,004 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:38:34,006 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:38:39,001 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:38:44,001 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:38:49,020 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:38:52,145 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:38:57,045 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:39:01,254 - system - DEBUG - Added bar: 2025-11-07 15:39:01.202133 | Close: 25091.5
+2025-11-07 15:39:02,037 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:39:07,025 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:39:12,031 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:39:17,028 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:39:22,040 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:39:27,025 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:39:32,032 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:39:37,038 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:39:44,009 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:39:49,013 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:39:53,207 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:39:59,012 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:40:00,579 - system - DEBUG - Added bar: 2025-11-07 15:40:00.530733 | Close: 25103.75
+2025-11-07 15:40:04,009 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:40:09,012 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:40:14,012 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:40:19,019 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:40:24,003 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:40:29,016 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:40:34,011 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:40:39,012 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:40:43,016 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:40:49,006 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:40:53,009 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:41:00,783 - system - DEBUG - Added bar: 2025-11-07 15:41:00.754578 | Close: 25101.75
+2025-11-07 15:41:51,017 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:41:56,009 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:42:00,024 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:42:01,256 - system - DEBUG - Added bar: 2025-11-07 15:42:00.653175 | Close: 25083.75
+2025-11-07 15:42:05,027 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:42:09,017 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:42:14,022 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:42:19,010 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:42:24,008 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:42:29,034 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:42:34,028 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:42:39,013 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:42:44,011 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:42:49,008 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:42:54,016 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:42:59,004 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:43:00,568 - system - DEBUG - Added bar: 2025-11-07 15:43:00.542556 | Close: 25110.25
+2025-11-07 15:43:04,019 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:43:09,024 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:43:14,019 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:43:19,013 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:43:24,034 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:43:29,020 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:43:34,002 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:43:39,030 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:43:44,018 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:43:49,011 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:43:54,028 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:43:59,019 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:44:00,816 - system - DEBUG - Added bar: 2025-11-07 15:44:00.777038 | Close: 25119.25
+2025-11-07 15:44:04,011 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:44:09,017 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:44:14,017 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:44:19,009 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:44:24,018 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:44:29,016 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:44:34,028 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:44:39,012 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:44:44,011 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:44:49,018 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:44:54,019 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:44:59,017 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:45:02,072 - system - DEBUG - Added bar: 2025-11-07 15:45:02.040359 | Close: 25131.5
+2025-11-07 15:45:04,020 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:45:09,016 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:45:14,030 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:45:19,011 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:45:24,032 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:45:29,017 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:45:34,008 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:45:39,011 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:45:44,024 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:45:49,020 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:45:54,019 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:45:59,021 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:46:00,753 - system - DEBUG - Added bar: 2025-11-07 15:46:00.717846 | Close: 25118.5
+2025-11-07 15:46:04,014 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:46:09,014 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:46:14,025 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:46:19,027 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:46:24,012 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:46:29,014 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:46:34,016 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:46:38,096 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:46:42,044 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:46:49,012 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:46:54,023 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:46:59,021 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:47:00,550 - system - DEBUG - Added bar: 2025-11-07 15:47:00.518930 | Close: 25107.75
+2025-11-07 15:47:04,019 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:47:09,013 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:47:14,012 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:47:17,039 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:47:24,012 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:47:29,011 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:47:34,019 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:47:39,015 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:47:43,011 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:47:49,015 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:47:53,014 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:47:59,013 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:48:00,610 - system - DEBUG - Added bar: 2025-11-07 15:48:00.575871 | Close: 25103.5
+2025-11-07 15:48:04,026 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:48:09,008 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:48:14,006 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:48:51,020 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:48:55,026 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:48:59,011 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:49:00,609 - system - DEBUG - Added bar: 2025-11-07 15:49:00.568232 | Close: 25100.75
+2025-11-07 15:49:04,011 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:49:09,022 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:49:14,018 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:49:18,031 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:49:22,059 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:49:27,034 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:49:34,020 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:49:39,024 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:49:43,017 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:49:49,013 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:49:54,019 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:49:59,030 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:50:00,816 - system - DEBUG - Added bar: 2025-11-07 15:50:00.779634 | Close: 25067.75
+2025-11-07 15:50:03,026 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:50:09,012 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:50:13,020 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:50:19,016 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:50:24,017 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:50:29,016 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:50:33,024 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:50:51,038 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:50:55,026 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:51:00,031 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:51:01,384 - system - DEBUG - Added bar: 2025-11-07 15:51:00.856102 | Close: 25108.75
+2025-11-07 15:51:04,012 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:51:09,015 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:51:14,025 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:51:17,158 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:51:22,152 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:51:27,177 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:51:32,169 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:51:37,165 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:51:42,167 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:51:47,168 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:51:52,187 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:51:57,180 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:52:00,758 - system - DEBUG - Added bar: 2025-11-07 15:52:00.713402 | Close: 25108.75
+2025-11-07 15:52:04,027 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:52:09,016 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:52:14,021 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:52:19,035 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:52:24,031 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:52:29,011 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:52:34,020 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:52:39,037 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:52:44,027 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:52:49,023 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:52:54,022 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:52:58,049 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:53:00,575 - system - DEBUG - Added bar: 2025-11-07 15:53:00.531964 | Close: 25117.25
+2025-11-07 15:53:51,036 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:53:56,023 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:54:00,054 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:54:01,412 - system - DEBUG - Added bar: 2025-11-07 15:54:00.790141 | Close: 25115.0
+2025-11-07 15:54:05,023 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:54:09,030 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:54:14,035 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:54:19,022 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:54:24,034 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:54:29,019 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:54:34,022 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:54:39,030 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:54:44,030 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:54:49,012 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:54:54,031 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:54:59,032 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:55:00,783 - system - DEBUG - Added bar: 2025-11-07 15:55:00.743006 | Close: 25105.5
+2025-11-07 15:55:04,027 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:55:09,024 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:55:14,024 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:55:19,010 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:55:24,024 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:55:29,026 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:55:34,024 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:55:39,021 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:55:44,014 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:55:49,016 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:55:54,017 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:55:59,020 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:56:00,599 - system - DEBUG - Added bar: 2025-11-07 15:56:00.572337 | Close: 25139.5
+2025-11-07 15:56:04,032 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:56:09,024 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:56:14,030 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:56:19,028 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:56:24,017 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:56:29,016 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:56:34,189 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:56:39,031 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:56:44,013 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:56:49,035 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:56:54,023 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:56:59,028 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:57:01,523 - system - DEBUG - Added bar: 2025-11-07 15:57:01.486775 | Close: 25146.75
+2025-11-07 15:57:02,611 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:57:07,633 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:57:13,045 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:57:18,040 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:57:23,018 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:57:28,045 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:57:34,038 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:57:39,025 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:57:44,024 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:57:49,027 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:57:54,017 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:57:59,020 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:58:00,587 - system - DEBUG - Added bar: 2025-11-07 15:58:00.550130 | Close: 25152.75
+2025-11-07 15:58:04,030 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:58:09,024 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:58:14,019 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:58:19,028 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:58:24,017 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:58:29,036 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:58:34,013 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:58:39,042 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:58:44,020 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:58:49,020 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:58:54,037 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:58:59,025 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:59:00,590 - system - DEBUG - Added bar: 2025-11-07 15:59:00.552933 | Close: 25166.25
+2025-11-07 15:59:04,024 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:59:09,070 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:59:14,038 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:59:19,032 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:59:24,034 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:59:29,033 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:59:34,023 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:59:39,031 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:59:44,020 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:59:49,019 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:59:54,033 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 15:59:59,032 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:00:00,695 - system - DEBUG - Added bar: 2025-11-07 16:00:00.650798 | Close: 25164.0
+2025-11-07 16:00:04,022 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:00:09,034 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:00:14,026 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:00:19,023 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:00:24,026 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:00:29,030 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:00:34,025 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:00:39,014 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:00:44,024 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:00:49,021 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:00:54,027 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:00:59,024 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:01:04,027 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:01:08,615 - system - DEBUG - Added bar: 2025-11-07 16:01:08.588561 | Close: 25181.0
+2025-11-07 16:01:09,034 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:01:14,039 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:01:19,030 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:01:24,020 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:01:29,021 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:01:34,024 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:01:39,023 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:01:44,039 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:01:49,028 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:01:54,034 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:01:59,033 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:02:00,859 - system - DEBUG - Added bar: 2025-11-07 16:02:00.807081 | Close: 25184.5
+2025-11-07 16:02:04,020 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:02:09,024 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:02:14,022 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:02:19,032 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:02:24,026 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:02:29,027 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:02:34,027 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:02:39,025 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:02:44,021 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:02:49,027 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:02:54,035 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:02:59,036 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:03:00,742 - system - DEBUG - Added bar: 2025-11-07 16:03:00.695306 | Close: 25189.0
+2025-11-07 16:03:04,018 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:03:09,023 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:03:14,026 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:03:19,024 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:03:24,021 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:03:29,023 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:03:34,031 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:03:39,020 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:03:44,038 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:03:49,032 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:03:54,034 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:03:59,025 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:04:00,590 - system - DEBUG - Added bar: 2025-11-07 16:04:00.555541 | Close: 25195.75
+2025-11-07 16:04:04,028 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:04:09,047 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:04:14,020 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:04:19,024 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:04:24,037 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:04:29,027 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:04:34,032 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:04:39,028 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:04:44,025 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:04:49,020 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:04:54,042 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:04:59,026 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:05:00,733 - system - DEBUG - Added bar: 2025-11-07 16:05:00.692395 | Close: 25192.25
+2025-11-07 16:05:04,027 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:05:09,030 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:05:14,030 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:05:19,034 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:05:24,035 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:05:29,034 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:05:34,033 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:05:39,027 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:05:44,025 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:05:49,018 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:05:54,033 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:05:59,032 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:06:00,584 - system - DEBUG - Added bar: 2025-11-07 16:06:00.537319 | Close: 25200.75
+2025-11-07 16:06:04,028 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:06:09,026 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:06:14,034 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:06:19,035 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:06:24,023 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:06:29,024 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:06:34,031 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:06:39,034 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:06:44,021 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:06:49,016 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:06:54,029 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:06:59,036 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:07:00,675 - system - DEBUG - Added bar: 2025-11-07 16:07:00.642542 | Close: 25198.75
+2025-11-07 16:07:04,041 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:07:09,040 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:07:14,023 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:07:19,048 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:07:24,033 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:07:29,034 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:07:34,032 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:07:39,030 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:07:44,027 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:07:49,035 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:07:54,036 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:07:59,030 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:08:01,014 - system - DEBUG - Added bar: 2025-11-07 16:08:00.973412 | Close: 25191.0
+2025-11-07 16:08:04,028 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:08:09,031 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:08:14,040 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:08:19,036 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:08:24,035 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:08:29,035 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:08:34,037 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:08:39,032 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:08:44,032 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:08:49,028 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:08:54,032 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:08:59,040 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:09:00,626 - system - DEBUG - Added bar: 2025-11-07 16:09:00.577424 | Close: 25186.5
+2025-11-07 16:09:04,033 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:09:09,031 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:09:14,025 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:09:19,034 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:09:24,028 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:09:29,034 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:09:34,039 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:09:39,029 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:09:44,034 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:09:49,021 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:09:54,038 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:09:59,061 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:10:00,623 - system - DEBUG - Added bar: 2025-11-07 16:10:00.581404 | Close: 25191.5
+2025-11-07 16:10:04,039 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:10:09,030 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:10:14,034 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:10:19,034 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:10:24,036 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:10:29,030 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:10:34,031 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-11-07 16:11:00,622 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-07 16:11:01,080 - system - INFO - Dashboard attached to Flask server
+2025-11-07 16:11:01,085 - system - INFO - Trading Dashboard initialized successfully
+2025-11-07 16:11:01,085 - system - INFO - ============================================================
+2025-11-07 16:11:01,086 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-07 16:11:01,086 - system - INFO - ============================================================
+2025-11-07 16:11:01,086 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-07 16:11:01,087 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-07 16:11:01,087 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-07 16:11:01,087 - system - INFO - ============================================================
+2025-11-07 16:11:01,088 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-07 16:11:01,088 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-07 16:11:01,088 - system - INFO -  Position Manager: ACTIVE
+2025-11-07 16:11:01,089 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-07 16:11:01,089 - system - INFO -  Paper trading: ENABLED
+2025-11-07 16:11:01,089 - system - INFO - ============================================================
+2025-11-07 16:11:01,089 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-07 16:11:04,041 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:11:05,888 - system - DEBUG - Added bar: 2025-11-07 16:11:05.859738 | Close: 25192.25
+2025-11-07 16:11:09,037 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:11:14,026 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:11:19,033 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:11:24,026 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:11:29,036 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:11:34,041 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:11:39,033 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:11:44,043 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:11:49,035 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:11:54,037 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:11:59,032 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:12:00,640 - system - DEBUG - Added bar: 2025-11-07 16:12:00.612690 | Close: 25190.75
+2025-11-07 16:12:04,043 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:12:09,043 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:12:14,043 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:12:19,042 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:12:24,038 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:12:29,043 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:12:34,028 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:12:39,025 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:12:44,029 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:12:49,038 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:12:54,049 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:12:59,034 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:13:00,748 - system - DEBUG - Added bar: 2025-11-07 16:13:00.721407 | Close: 25190.0
+2025-11-07 16:13:04,034 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:13:09,039 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:13:14,034 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:13:19,042 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:13:24,077 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:13:29,043 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:13:34,035 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:13:39,037 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:13:44,041 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:13:49,035 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:13:54,055 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:13:59,043 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:14:00,945 - system - DEBUG - Added bar: 2025-11-07 16:14:00.893735 | Close: 25192.5
+2025-11-07 16:14:04,031 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:14:09,035 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:14:14,046 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:14:19,035 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:14:24,044 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:14:29,040 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:14:34,040 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:14:39,037 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:14:44,032 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:14:49,033 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:14:54,027 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:14:59,034 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:15:00,788 - system - DEBUG - Added bar: 2025-11-07 16:15:00.754764 | Close: 25198.5
+2025-11-07 16:15:04,035 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:15:09,038 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:15:14,040 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:15:19,041 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:15:24,038 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:15:29,040 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:15:34,042 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:15:39,039 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:15:44,030 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:15:49,048 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:15:54,048 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:15:59,064 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:16:01,590 - system - DEBUG - Added bar: 2025-11-07 16:16:01.558952 | Close: 25201.75
+2025-11-07 16:16:04,047 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:16:09,047 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:16:14,047 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:16:19,037 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:16:24,038 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:16:29,042 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:16:34,036 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:16:39,055 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:16:44,031 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:16:49,037 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:16:54,052 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:16:59,035 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:17:00,661 - system - DEBUG - Added bar: 2025-11-07 16:17:00.621449 | Close: 25213.5
+2025-11-07 16:17:04,037 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:17:09,048 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:17:14,046 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:17:19,045 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:17:24,025 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:17:29,042 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:17:34,042 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:17:39,032 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:17:44,053 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:17:49,038 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:17:54,040 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:17:59,044 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:18:00,758 - system - DEBUG - Added bar: 2025-11-07 16:18:00.712446 | Close: 25212.5
+2025-11-07 16:18:04,033 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:18:09,060 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:18:14,033 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:18:19,050 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:18:24,044 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:18:29,048 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:18:34,035 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:18:39,040 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:18:44,045 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:18:49,032 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:18:54,041 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:18:59,037 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:19:00,782 - system - DEBUG - Added bar: 2025-11-07 16:19:00.739692 | Close: 25217.25
+2025-11-07 16:19:04,038 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:19:09,039 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:19:14,043 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:19:19,030 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:19:24,036 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:19:29,047 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:19:34,047 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:19:39,038 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:19:43,445 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:19:47,650 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:19:52,645 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:19:57,636 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:20:02,299 - system - DEBUG - Added bar: 2025-11-07 16:20:02.263179 | Close: 25204.75
+2025-11-07 16:20:04,041 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:20:09,050 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:20:14,035 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:20:19,045 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:20:24,038 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:20:29,036 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:20:34,046 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:20:39,042 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:20:44,033 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:20:49,047 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:20:54,060 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:21:00,949 - system - DEBUG - Added bar: 2025-11-07 16:21:00.908657 | Close: 25203.5
+2025-11-07 16:21:50,064 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:21:50,727 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:21:56,048 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:22:00,032 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:22:01,273 - system - DEBUG - Added bar: 2025-11-07 16:22:00.989703 | Close: 25204.75
+2025-11-07 16:22:04,037 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:22:09,053 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:22:14,053 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:22:19,049 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:22:24,052 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:22:29,047 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:22:34,043 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:22:39,052 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:22:44,046 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:22:49,047 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:22:54,046 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:22:59,043 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:23:00,792 - system - DEBUG - Added bar: 2025-11-07 16:23:00.752656 | Close: 25214.0
+2025-11-07 16:23:04,057 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:23:09,040 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:23:14,045 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:23:19,038 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:23:24,048 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:23:29,044 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:23:34,039 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:23:39,050 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:23:44,042 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:23:49,052 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:23:54,051 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:23:59,039 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:24:01,671 - system - DEBUG - Added bar: 2025-11-07 16:24:01.619116 | Close: 25213.75
+2025-11-07 16:24:04,046 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:24:09,051 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:24:14,057 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:24:19,054 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:24:24,047 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:24:29,055 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:24:34,043 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:24:39,055 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:24:44,042 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:24:49,053 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:24:54,057 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:24:59,055 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:25:00,844 - system - DEBUG - Added bar: 2025-11-07 16:25:00.797620 | Close: 25208.75
+2025-11-07 16:25:04,047 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:25:09,048 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:25:14,053 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:25:19,049 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:25:24,054 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:25:29,041 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:25:34,039 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:25:39,073 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:25:42,638 - system - ERROR - Error updating signals: Invalid comparison between dtype=datetime64[ns] and Timestamp
+2025-11-07 16:26:00,977 - system - DEBUG - Added bar: 2025-11-07 16:26:00.932495 | Close: 25202.25
+2025-11-07 16:27:00,600 - system - DEBUG - Added bar: 2025-11-07 16:27:00.572883 | Close: 25200.25
+2025-11-07 16:28:00,589 - system - DEBUG - Added bar: 2025-11-07 16:28:00.558821 | Close: 25197.5
+2025-11-07 16:29:00,604 - system - DEBUG - Added bar: 2025-11-07 16:29:00.565911 | Close: 25201.0
+2025-11-07 16:30:00,744 - system - DEBUG - Added bar: 2025-11-07 16:30:00.707577 | Close: 25201.0
+2025-11-07 16:31:01,466 - system - DEBUG - Added bar: 2025-11-07 16:31:01.437049 | Close: 25203.0
+2025-11-07 16:32:01,320 - system - DEBUG - Added bar: 2025-11-07 16:32:01.282824 | Close: 25209.25
+2025-11-07 16:33:01,316 - system - DEBUG - Added bar: 2025-11-07 16:33:01.289120 | Close: 25211.5
+2025-11-07 16:34:00,759 - system - DEBUG - Added bar: 2025-11-07 16:34:00.725759 | Close: 25211.75
+2025-11-07 16:35:00,831 - system - DEBUG - Added bar: 2025-11-07 16:35:00.797704 | Close: 25215.5
+2025-11-07 16:36:00,850 - system - DEBUG - Added bar: 2025-11-07 16:36:00.816874 | Close: 25217.0
+2025-11-07 16:37:00,823 - system - DEBUG - Added bar: 2025-11-07 16:37:00.776177 | Close: 25216.25
+2025-11-07 16:38:00,622 - system - DEBUG - Added bar: 2025-11-07 16:38:00.591310 | Close: 25215.0
+2025-11-07 16:38:09,683 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-07 16:38:10,126 - system - INFO - Dashboard attached to Flask server
+2025-11-07 16:38:10,128 - system - INFO - Trading Dashboard initialized successfully
+2025-11-07 16:38:10,128 - system - INFO - ============================================================
+2025-11-07 16:38:10,129 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-07 16:38:10,129 - system - INFO - ============================================================
+2025-11-07 16:38:10,129 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-07 16:38:10,130 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-07 16:38:10,130 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-07 16:38:10,130 - system - INFO - ============================================================
+2025-11-07 16:38:10,130 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-07 16:38:10,131 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-07 16:38:10,131 - system - INFO -  Position Manager: ACTIVE
+2025-11-07 16:38:10,131 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-07 16:38:10,132 - system - INFO -  Paper trading: ENABLED
+2025-11-07 16:38:10,132 - system - INFO - ============================================================
+2025-11-07 16:38:10,132 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-07 16:39:00,866 - system - DEBUG - Added bar: 2025-11-07 16:39:00.835380 | Close: 25213.5
+2025-11-07 16:40:01,650 - system - DEBUG - Added bar: 2025-11-07 16:40:01.621348 | Close: 25215.25
+2025-11-07 16:41:00,781 - system - DEBUG - Added bar: 2025-11-07 16:41:00.745616 | Close: 25215.25
+2025-11-07 16:42:02,378 - system - DEBUG - Added bar: 2025-11-07 16:42:02.351085 | Close: 25212.5
+2025-11-07 16:43:00,593 - system - DEBUG - Added bar: 2025-11-07 16:43:00.559697 | Close: 25210.75
+2025-11-07 16:44:00,986 - system - DEBUG - Added bar: 2025-11-07 16:44:00.959469 | Close: 25210.25
+2025-11-07 16:45:00,753 - system - DEBUG - Added bar: 2025-11-07 16:45:00.723920 | Close: 25209.75
+2025-11-07 16:46:01,382 - system - DEBUG - Added bar: 2025-11-07 16:46:01.341167 | Close: 25212.25
+2025-11-07 16:47:00,779 - system - DEBUG - Added bar: 2025-11-07 16:47:00.744410 | Close: 25214.75
+2025-11-07 16:48:00,810 - system - DEBUG - Added bar: 2025-11-07 16:48:00.771988 | Close: 25215.25
+2025-11-07 16:49:00,663 - system - DEBUG - Added bar: 2025-11-07 16:49:00.633852 | Close: 25212.5
+2025-11-07 16:50:00,735 - system - DEBUG - Added bar: 2025-11-07 16:50:00.708941 | Close: 25217.5
+2025-11-07 16:51:01,286 - system - DEBUG - Added bar: 2025-11-07 16:51:01.260059 | Close: 25220.5
+2025-11-07 16:52:00,965 - system - DEBUG - Added bar: 2025-11-07 16:52:00.929667 | Close: 25219.5
+2025-11-07 16:53:00,547 - system - DEBUG - Added bar: 2025-11-07 16:53:00.513304 | Close: 25216.5
+2025-11-07 16:54:01,049 - system - DEBUG - Added bar: 2025-11-07 16:54:01.020378 | Close: 25216.0
+2025-11-07 16:55:00,722 - system - DEBUG - Added bar: 2025-11-07 16:55:00.695797 | Close: 25221.5
+2025-11-07 16:55:49,209 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-07 16:55:49,632 - system - INFO - Dashboard attached to Flask server
+2025-11-07 16:55:49,634 - system - INFO - Trading Dashboard initialized successfully
+2025-11-07 16:55:49,635 - system - INFO - ============================================================
+2025-11-07 16:55:49,635 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-07 16:55:49,635 - system - INFO - ============================================================
+2025-11-07 16:55:49,636 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-07 16:55:49,636 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-07 16:55:49,636 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-07 16:55:49,636 - system - INFO - ============================================================
+2025-11-07 16:55:49,636 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-07 16:55:49,637 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-07 16:55:49,637 - system - INFO -  Position Manager: ACTIVE
+2025-11-07 16:55:49,637 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-07 16:55:49,638 - system - INFO -  Paper trading: ENABLED
+2025-11-07 16:55:49,638 - system - INFO - ============================================================
+2025-11-07 16:55:49,638 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-07 17:02:30,932 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-07 17:02:31,335 - system - INFO - Dashboard attached to Flask server
+2025-11-07 17:02:31,338 - system - INFO - Trading Dashboard initialized successfully
+2025-11-07 17:02:31,338 - system - INFO - ============================================================
+2025-11-07 17:02:31,339 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-07 17:02:31,339 - system - INFO - ============================================================
+2025-11-07 17:02:31,339 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-07 17:02:31,339 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-07 17:02:31,339 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-07 17:02:31,339 - system - INFO - ============================================================
+2025-11-07 17:02:31,340 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-07 17:02:31,340 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-07 17:02:31,340 - system - INFO -  Position Manager: ACTIVE
+2025-11-07 17:02:31,340 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-07 17:02:31,340 - system - INFO -  Paper trading: ENABLED
+2025-11-07 17:02:31,341 - system - INFO - ============================================================
+2025-11-07 17:02:31,341 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-09 18:12:28,388 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-09 18:12:31,347 - system - INFO - Dashboard attached to Flask server
+2025-11-09 18:12:31,352 - system - INFO - Trading Dashboard initialized successfully
+2025-11-09 18:12:31,353 - system - INFO - ============================================================
+2025-11-09 18:12:31,353 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-09 18:12:31,354 - system - INFO - ============================================================
+2025-11-09 18:12:31,354 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-09 18:12:31,354 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-09 18:12:31,355 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-09 18:12:31,355 - system - INFO - ============================================================
+2025-11-09 18:12:31,356 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-09 18:12:31,356 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-09 18:12:31,356 - system - INFO -  Position Manager: ACTIVE
+2025-11-09 18:12:31,357 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-09 18:12:31,357 - system - INFO -  Paper trading: ENABLED
+2025-11-09 18:12:31,357 - system - INFO - ============================================================
+2025-11-09 18:12:31,358 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-09 18:17:58,428 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-09 18:17:59,229 - system - INFO - Dashboard attached to Flask server
+2025-11-09 18:17:59,232 - system - INFO - Trading Dashboard initialized successfully
+2025-11-09 18:17:59,232 - system - INFO - ============================================================
+2025-11-09 18:17:59,232 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-09 18:17:59,233 - system - INFO - ============================================================
+2025-11-09 18:17:59,233 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-09 18:17:59,233 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-09 18:17:59,234 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-09 18:17:59,234 - system - INFO - ============================================================
+2025-11-09 18:17:59,234 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-09 18:17:59,234 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-09 18:17:59,235 - system - INFO -  Position Manager: ACTIVE
+2025-11-09 18:17:59,235 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-09 18:17:59,235 - system - INFO -  Paper trading: ENABLED
+2025-11-09 18:17:59,235 - system - INFO - ============================================================
+2025-11-09 18:17:59,236 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-09 18:18:01,038 - system - DEBUG - Added bar: 2025-11-09 18:18:00.976518+00:00 | Close: 25333.5
+2025-11-09 18:19:01,019 - system - DEBUG - Added bar: 2025-11-09 18:19:01.013076+00:00 | Close: 25335.5
+2025-11-09 18:20:01,010 - system - DEBUG - Added bar: 2025-11-09 18:20:01.004526+00:00 | Close: 25315.75
+2025-11-09 18:21:01,199 - system - DEBUG - Added bar: 2025-11-09 18:21:01.193857+00:00 | Close: 25308.0
+2025-11-09 18:22:01,424 - system - DEBUG - Added bar: 2025-11-09 18:22:01.418609+00:00 | Close: 25317.0
+2025-11-09 18:23:01,107 - system - DEBUG - Added bar: 2025-11-09 18:23:01.100255+00:00 | Close: 25321.5
+2025-11-09 18:24:00,987 - system - DEBUG - Added bar: 2025-11-09 18:24:00.981826+00:00 | Close: 25320.25
+2025-11-09 18:25:01,146 - system - DEBUG - Added bar: 2025-11-09 18:25:01.139943+00:00 | Close: 25313.25
+2025-11-09 18:26:01,456 - system - DEBUG - Added bar: 2025-11-09 18:26:01.448399+00:00 | Close: 25315.75
+2025-11-09 18:27:01,649 - system - DEBUG - Added bar: 2025-11-09 18:27:01.642539+00:00 | Close: 25314.75
+2025-11-09 18:28:01,989 - system - DEBUG - Added bar: 2025-11-09 18:28:01.984055+00:00 | Close: 25317.0
+2025-11-09 18:29:01,041 - system - DEBUG - Added bar: 2025-11-09 18:29:01.033337+00:00 | Close: 25305.5
+2025-11-09 18:30:00,976 - system - DEBUG - Added bar: 2025-11-09 18:30:00.970925+00:00 | Close: 25305.5
+2025-11-09 18:31:01,029 - system - DEBUG - Added bar: 2025-11-09 18:31:01.022017+00:00 | Close: 25303.5
+2025-11-09 18:32:01,131 - system - DEBUG - Added bar: 2025-11-09 18:32:01.126149+00:00 | Close: 25310.75
+2025-11-09 18:33:00,958 - system - DEBUG - Added bar: 2025-11-09 18:33:00.953718+00:00 | Close: 25322.5
+2025-11-09 18:34:01,787 - system - DEBUG - Added bar: 2025-11-09 18:34:01.778867+00:00 | Close: 25323.5
+2025-11-09 18:35:01,018 - system - DEBUG - Added bar: 2025-11-09 18:35:01.013712+00:00 | Close: 25324.75
+2025-11-09 18:36:01,160 - system - DEBUG - Added bar: 2025-11-09 18:36:01.151206+00:00 | Close: 25318.0
+2025-11-09 18:37:01,457 - system - DEBUG - Added bar: 2025-11-09 18:37:01.445458+00:00 | Close: 25325.25
+2025-11-09 18:38:01,330 - system - DEBUG - Added bar: 2025-11-09 18:38:01.325192+00:00 | Close: 25326.75
+2025-11-09 18:39:01,224 - system - DEBUG - Added bar: 2025-11-09 18:39:01.217165+00:00 | Close: 25322.25
+2025-11-09 18:40:03,429 - system - DEBUG - Added bar: 2025-11-09 18:40:03.422771+00:00 | Close: 25316.5
+2025-11-09 18:41:00,935 - system - DEBUG - Added bar: 2025-11-09 18:41:00.928342+00:00 | Close: 25320.5
+2025-11-09 18:42:01,239 - system - DEBUG - Added bar: 2025-11-09 18:42:01.231346+00:00 | Close: 25322.5
+2025-11-09 18:43:01,858 - system - DEBUG - Added bar: 2025-11-09 18:43:01.851811+00:00 | Close: 25321.75
+2025-11-09 18:44:00,970 - system - DEBUG - Added bar: 2025-11-09 18:44:00.963726+00:00 | Close: 25324.75
+2025-11-09 18:45:01,141 - system - DEBUG - Added bar: 2025-11-09 18:45:01.134531+00:00 | Close: 25322.25
+2025-11-09 18:46:01,394 - system - DEBUG - Added bar: 2025-11-09 18:46:01.385752+00:00 | Close: 25317.75
+2025-11-09 18:47:01,638 - system - DEBUG - Added bar: 2025-11-09 18:47:01.632948+00:00 | Close: 25320.75
+2025-11-09 18:48:00,886 - system - DEBUG - Added bar: 2025-11-09 18:48:00.881021+00:00 | Close: 25324.0
+2025-11-09 18:49:01,884 - system - DEBUG - Added bar: 2025-11-09 18:49:01.878121+00:00 | Close: 25322.75
+2025-11-09 18:50:02,007 - system - DEBUG - Added bar: 2025-11-09 18:50:02.002208+00:00 | Close: 25326.75
+2025-11-09 18:51:00,880 - system - DEBUG - Added bar: 2025-11-09 18:51:00.874016+00:00 | Close: 25330.5
+2025-11-09 18:52:01,346 - system - DEBUG - Added bar: 2025-11-09 18:52:01.339687+00:00 | Close: 25330.75
+2025-11-09 18:53:01,719 - system - DEBUG - Added bar: 2025-11-09 18:53:01.713896+00:00 | Close: 25330.25
+2025-11-09 18:54:01,194 - system - DEBUG - Added bar: 2025-11-09 18:54:01.187786+00:00 | Close: 25337.75
+2025-11-09 18:55:00,788 - system - DEBUG - Added bar: 2025-11-09 18:55:00.782978+00:00 | Close: 25343.75
+2025-11-09 18:56:00,951 - system - DEBUG - Added bar: 2025-11-09 18:56:00.945510+00:00 | Close: 25351.0
+2025-11-09 18:57:01,778 - system - DEBUG - Added bar: 2025-11-09 18:57:01.773211+00:00 | Close: 25346.5
+2025-11-09 18:58:01,114 - system - DEBUG - Added bar: 2025-11-09 18:58:01.109351+00:00 | Close: 25353.0
+2025-11-09 18:59:01,177 - system - DEBUG - Added bar: 2025-11-09 18:59:01.173065+00:00 | Close: 25340.75
+2025-11-09 19:00:00,917 - system - DEBUG - Added bar: 2025-11-09 19:00:00.911915+00:00 | Close: 25336.0
+2025-11-09 19:01:02,076 - system - DEBUG - Added bar: 2025-11-09 19:01:02.071414+00:00 | Close: 25313.0
+2025-11-09 19:02:00,829 - system - DEBUG - Added bar: 2025-11-09 19:02:00.822701+00:00 | Close: 25313.5
+2025-11-09 19:03:15,674 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-09 19:03:16,223 - system - INFO - Dashboard attached to Flask server
+2025-11-09 19:03:16,227 - system - INFO - Trading Dashboard initialized successfully
+2025-11-09 19:03:16,228 - system - INFO - ============================================================
+2025-11-09 19:03:16,228 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-09 19:03:16,228 - system - INFO - ============================================================
+2025-11-09 19:03:16,228 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-09 19:03:16,229 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-09 19:03:16,229 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-09 19:03:16,229 - system - INFO - ============================================================
+2025-11-09 19:03:16,229 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-09 19:03:16,229 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-09 19:03:16,229 - system - INFO -  Position Manager: ACTIVE
+2025-11-09 19:03:16,230 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-09 19:03:16,230 - system - INFO -  Paper trading: ENABLED
+2025-11-09 19:03:16,230 - system - INFO - ============================================================
+2025-11-09 19:03:16,230 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-09 19:03:16,339 - system - DEBUG - Added bar: 2025-11-09 19:03:16.332126+00:00 | Close: 25316.75
+2025-11-09 19:04:00,957 - system - DEBUG - Added bar: 2025-11-09 19:04:00.952909+00:00 | Close: 25301.0
+2025-11-09 19:05:00,827 - system - DEBUG - Added bar: 2025-11-09 19:05:00.822401+00:00 | Close: 25294.5
+2025-11-09 19:06:00,901 - system - DEBUG - Added bar: 2025-11-09 19:06:00.896606+00:00 | Close: 25278.5
+2025-11-09 19:07:00,973 - system - DEBUG - Added bar: 2025-11-09 19:07:00.968051+00:00 | Close: 25281.75
+2025-11-09 19:08:00,897 - system - DEBUG - Added bar: 2025-11-09 19:08:00.891341+00:00 | Close: 25289.25
+2025-11-09 19:09:01,489 - system - DEBUG - Added bar: 2025-11-09 19:09:01.484482+00:00 | Close: 25293.25
+2025-11-09 19:10:01,072 - system - DEBUG - Added bar: 2025-11-09 19:10:01.067920+00:00 | Close: 25313.25
+2025-11-09 19:11:01,405 - system - DEBUG - Added bar: 2025-11-09 19:11:01.398839+00:00 | Close: 25307.25
+2025-11-09 19:12:00,803 - system - DEBUG - Added bar: 2025-11-09 19:12:00.797751+00:00 | Close: 25316.5
+2025-11-09 19:13:00,783 - system - DEBUG - Added bar: 2025-11-09 19:13:00.778482+00:00 | Close: 25319.5
+2025-11-09 19:14:01,104 - system - DEBUG - Added bar: 2025-11-09 19:14:01.098695+00:00 | Close: 25306.25
+2025-11-09 19:15:00,862 - system - DEBUG - Added bar: 2025-11-09 19:15:00.857460+00:00 | Close: 25313.25
+2025-11-09 19:16:00,864 - system - DEBUG - Added bar: 2025-11-09 19:16:00.858788+00:00 | Close: 25321.75
+2025-11-09 19:17:01,654 - system - DEBUG - Added bar: 2025-11-09 19:17:01.649971+00:00 | Close: 25311.0
+2025-11-09 19:18:00,994 - system - DEBUG - Added bar: 2025-11-09 19:18:00.988973+00:00 | Close: 25308.5
+2025-11-09 19:19:01,304 - system - DEBUG - Added bar: 2025-11-09 19:19:01.299427+00:00 | Close: 25313.75
+2025-11-09 19:20:00,899 - system - DEBUG - Added bar: 2025-11-09 19:20:00.894748+00:00 | Close: 25320.75
+2025-11-09 19:20:04,192 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-09 19:21:00,879 - system - DEBUG - Added bar: 2025-11-09 19:21:00.874864+00:00 | Close: 25330.75
+2025-11-09 19:22:00,727 - system - DEBUG - Added bar: 2025-11-09 19:22:00.721746+00:00 | Close: 25322.75
+2025-11-09 19:23:00,687 - system - DEBUG - Added bar: 2025-11-09 19:23:00.682211+00:00 | Close: 25323.5
+2025-11-09 19:24:00,871 - system - DEBUG - Added bar: 2025-11-09 19:24:00.866415+00:00 | Close: 25330.75
+2025-11-09 19:25:00,800 - system - DEBUG - Added bar: 2025-11-09 19:25:00.795488+00:00 | Close: 25324.0
+2025-11-09 19:26:00,928 - system - DEBUG - Added bar: 2025-11-09 19:26:00.921828+00:00 | Close: 25307.25
+2025-11-09 19:27:00,707 - system - DEBUG - Added bar: 2025-11-09 19:27:00.697898+00:00 | Close: 25308.25
+2025-11-09 19:28:01,253 - system - DEBUG - Added bar: 2025-11-09 19:28:01.244334+00:00 | Close: 25309.25
+2025-11-09 19:29:00,793 - system - DEBUG - Added bar: 2025-11-09 19:29:00.787604+00:00 | Close: 25312.75
+2025-11-09 19:30:01,115 - system - DEBUG - Added bar: 2025-11-09 19:30:01.107886+00:00 | Close: 25315.25
+2025-11-09 19:31:01,270 - system - DEBUG - Added bar: 2025-11-09 19:31:01.265713+00:00 | Close: 25309.75
+2025-11-09 19:32:00,666 - system - DEBUG - Added bar: 2025-11-09 19:32:00.660428+00:00 | Close: 25328.25
+2025-11-09 19:33:00,632 - system - DEBUG - Added bar: 2025-11-09 19:33:00.627350+00:00 | Close: 25331.0
+2025-11-09 19:34:00,810 - system - DEBUG - Added bar: 2025-11-09 19:34:00.804426+00:00 | Close: 25319.0
+2025-11-09 19:35:00,695 - system - DEBUG - Added bar: 2025-11-09 19:35:00.689708+00:00 | Close: 25315.75
+2025-11-09 19:36:00,707 - system - DEBUG - Added bar: 2025-11-09 19:36:00.702497+00:00 | Close: 25323.75
+2025-11-09 19:37:00,612 - system - DEBUG - Added bar: 2025-11-09 19:37:00.607927+00:00 | Close: 25320.0
+2025-11-09 19:38:00,772 - system - DEBUG - Added bar: 2025-11-09 19:38:00.767289+00:00 | Close: 25319.25
+2025-11-09 19:39:01,419 - system - DEBUG - Added bar: 2025-11-09 19:39:01.414562+00:00 | Close: 25314.75
+2025-11-09 19:40:00,843 - system - DEBUG - Added bar: 2025-11-09 19:40:00.838192+00:00 | Close: 25319.0
+2025-11-09 19:41:00,596 - system - DEBUG - Added bar: 2025-11-09 19:41:00.591635+00:00 | Close: 25322.75
+2025-11-09 19:42:00,818 - system - DEBUG - Added bar: 2025-11-09 19:42:00.813128+00:00 | Close: 25318.0
+2025-11-09 19:43:01,049 - system - DEBUG - Added bar: 2025-11-09 19:43:01.044131+00:00 | Close: 25312.25
+2025-11-09 19:44:00,816 - system - DEBUG - Added bar: 2025-11-09 19:44:00.811721+00:00 | Close: 25312.25
+2025-11-09 19:45:01,472 - system - DEBUG - Added bar: 2025-11-09 19:45:01.467184+00:00 | Close: 25314.75
+2025-11-09 19:46:00,882 - system - DEBUG - Added bar: 2025-11-09 19:46:00.877634+00:00 | Close: 25310.25
+2025-11-09 19:47:00,628 - system - DEBUG - Added bar: 2025-11-09 19:47:00.622628+00:00 | Close: 25307.5
+2025-11-09 19:48:00,685 - system - DEBUG - Added bar: 2025-11-09 19:48:00.680795+00:00 | Close: 25312.0
+2025-11-09 19:49:01,103 - system - DEBUG - Added bar: 2025-11-09 19:49:01.098029+00:00 | Close: 25320.75
+2025-11-09 19:50:00,740 - system - DEBUG - Added bar: 2025-11-09 19:50:00.735266+00:00 | Close: 25319.75
+2025-11-09 19:51:00,842 - system - DEBUG - Added bar: 2025-11-09 19:51:00.837884+00:00 | Close: 25315.75
+2025-11-09 19:52:00,743 - system - DEBUG - Added bar: 2025-11-09 19:52:00.737990+00:00 | Close: 25324.75
+2025-11-09 19:53:00,591 - system - DEBUG - Added bar: 2025-11-09 19:53:00.586609+00:00 | Close: 25326.5
+2025-11-09 19:54:00,639 - system - DEBUG - Added bar: 2025-11-09 19:54:00.633893+00:00 | Close: 25330.0
+2025-11-09 19:55:00,955 - system - DEBUG - Added bar: 2025-11-09 19:55:00.950712+00:00 | Close: 25331.0
+2025-11-09 19:56:00,811 - system - DEBUG - Added bar: 2025-11-09 19:56:00.806342+00:00 | Close: 25327.0
+2025-11-09 19:57:00,650 - system - DEBUG - Added bar: 2025-11-09 19:57:00.645138+00:00 | Close: 25341.25
+2025-11-09 19:58:00,618 - system - DEBUG - Added bar: 2025-11-09 19:58:00.613807+00:00 | Close: 25343.75
+2025-11-09 19:59:00,882 - system - DEBUG - Added bar: 2025-11-09 19:59:00.877859+00:00 | Close: 25337.25
+2025-11-09 20:00:00,722 - system - DEBUG - Added bar: 2025-11-09 20:00:00.717104+00:00 | Close: 25330.0
+2025-11-09 20:01:01,001 - system - DEBUG - Added bar: 2025-11-09 20:01:00.995284+00:00 | Close: 25339.5
+2025-11-09 20:02:00,670 - system - DEBUG - Added bar: 2025-11-09 20:02:00.665003+00:00 | Close: 25351.25
+2025-11-09 20:03:00,759 - system - DEBUG - Added bar: 2025-11-09 20:03:00.753709+00:00 | Close: 25372.5
+2025-11-09 20:04:00,635 - system - DEBUG - Added bar: 2025-11-09 20:04:00.629833+00:00 | Close: 25368.0
+2025-11-09 20:05:00,797 - system - DEBUG - Added bar: 2025-11-09 20:05:00.792305+00:00 | Close: 25363.75
+2025-11-09 20:06:00,878 - system - DEBUG - Added bar: 2025-11-09 20:06:00.873451+00:00 | Close: 25367.5
+2025-11-09 20:07:00,730 - system - DEBUG - Added bar: 2025-11-09 20:07:00.725015+00:00 | Close: 25369.5
+2025-11-09 20:08:00,692 - system - DEBUG - Added bar: 2025-11-09 20:08:00.685391+00:00 | Close: 25369.0
+2025-11-09 20:09:00,562 - system - DEBUG - Added bar: 2025-11-09 20:09:00.555790+00:00 | Close: 25370.25
+2025-11-09 20:10:00,762 - system - DEBUG - Added bar: 2025-11-09 20:10:00.758040+00:00 | Close: 25367.75
+2025-11-09 20:11:01,094 - system - DEBUG - Added bar: 2025-11-09 20:11:01.088928+00:00 | Close: 25376.25
+2025-11-09 20:12:00,634 - system - DEBUG - Added bar: 2025-11-09 20:12:00.627942+00:00 | Close: 25374.5
+2025-11-09 20:13:01,030 - system - DEBUG - Added bar: 2025-11-09 20:13:01.021921+00:00 | Close: 25375.5
+2025-11-09 20:14:00,850 - system - DEBUG - Added bar: 2025-11-09 20:14:00.844723+00:00 | Close: 25381.25
+2025-11-09 20:15:01,182 - system - DEBUG - Added bar: 2025-11-09 20:15:01.177710+00:00 | Close: 25379.5
+2025-11-09 20:16:00,790 - system - DEBUG - Added bar: 2025-11-09 20:16:00.783571+00:00 | Close: 25381.0
+2025-11-09 20:17:00,566 - system - DEBUG - Added bar: 2025-11-09 20:17:00.559254+00:00 | Close: 25382.0
+2025-11-09 20:18:01,578 - system - DEBUG - Added bar: 2025-11-09 20:18:01.570015+00:00 | Close: 25382.5
+2025-11-09 20:19:01,021 - system - DEBUG - Added bar: 2025-11-09 20:19:01.016768+00:00 | Close: 25377.25
+2025-11-09 20:20:01,017 - system - DEBUG - Added bar: 2025-11-09 20:20:01.012442+00:00 | Close: 25377.5
+2025-11-09 20:21:01,265 - system - DEBUG - Added bar: 2025-11-09 20:21:01.261024+00:00 | Close: 25383.0
+2025-11-09 20:22:00,712 - system - DEBUG - Added bar: 2025-11-09 20:22:00.700357+00:00 | Close: 25374.75
+2025-11-09 20:23:00,790 - system - DEBUG - Added bar: 2025-11-09 20:23:00.786070+00:00 | Close: 25381.25
+2025-11-09 20:24:00,687 - system - DEBUG - Added bar: 2025-11-09 20:24:00.682780+00:00 | Close: 25387.75
+2025-11-09 20:25:00,746 - system - DEBUG - Added bar: 2025-11-09 20:25:00.726547+00:00 | Close: 25385.75
+2025-11-09 20:26:01,464 - system - DEBUG - Added bar: 2025-11-09 20:26:01.459714+00:00 | Close: 25388.5
+2025-11-09 20:27:00,659 - system - DEBUG - Added bar: 2025-11-09 20:27:00.652825+00:00 | Close: 25397.25
+2025-11-09 20:28:00,709 - system - DEBUG - Added bar: 2025-11-09 20:28:00.704419+00:00 | Close: 25402.0
+2025-11-09 20:29:00,546 - system - DEBUG - Added bar: 2025-11-09 20:29:00.541633+00:00 | Close: 25393.5
+2025-11-09 20:30:00,579 - system - DEBUG - Added bar: 2025-11-09 20:30:00.573871+00:00 | Close: 25386.75
+2025-11-09 20:31:00,755 - system - DEBUG - Added bar: 2025-11-09 20:31:00.748708+00:00 | Close: 25382.0
+2025-11-09 20:32:00,525 - system - DEBUG - Added bar: 2025-11-09 20:32:00.519370+00:00 | Close: 25379.5
+2025-11-09 20:33:00,690 - system - DEBUG - Added bar: 2025-11-09 20:33:00.682491+00:00 | Close: 25378.25
+2025-11-09 20:34:00,704 - system - DEBUG - Added bar: 2025-11-09 20:34:00.699540+00:00 | Close: 25379.5
+2025-11-09 20:35:00,601 - system - DEBUG - Added bar: 2025-11-09 20:35:00.595744+00:00 | Close: 25378.75
+2025-11-09 20:36:00,485 - system - DEBUG - Added bar: 2025-11-09 20:36:00.480832+00:00 | Close: 25381.0
+2025-11-09 20:37:00,574 - system - DEBUG - Added bar: 2025-11-09 20:37:00.568996+00:00 | Close: 25381.5
+2025-11-09 20:38:00,717 - system - DEBUG - Added bar: 2025-11-09 20:38:00.712082+00:00 | Close: 25377.0
+2025-11-09 20:39:00,726 - system - DEBUG - Added bar: 2025-11-09 20:39:00.719859+00:00 | Close: 25384.5
+2025-11-09 20:40:00,619 - system - DEBUG - Added bar: 2025-11-09 20:40:00.614274+00:00 | Close: 25392.5
+2025-11-09 20:41:00,648 - system - DEBUG - Added bar: 2025-11-09 20:41:00.640911+00:00 | Close: 25391.0
+2025-11-09 20:42:00,583 - system - DEBUG - Added bar: 2025-11-09 20:42:00.579018+00:00 | Close: 25384.25
+2025-11-09 20:43:00,769 - system - DEBUG - Added bar: 2025-11-09 20:43:00.763236+00:00 | Close: 25387.25
+2025-11-09 20:44:00,598 - system - DEBUG - Added bar: 2025-11-09 20:44:00.593494+00:00 | Close: 25385.0
+2025-11-09 20:45:00,921 - system - DEBUG - Added bar: 2025-11-09 20:45:00.916913+00:00 | Close: 25378.75
+2025-11-09 20:46:00,577 - system - DEBUG - Added bar: 2025-11-09 20:46:00.572488+00:00 | Close: 25386.25
+2025-11-09 20:47:00,683 - system - DEBUG - Added bar: 2025-11-09 20:47:00.678373+00:00 | Close: 25391.0
+2025-11-09 20:48:00,555 - system - DEBUG - Added bar: 2025-11-09 20:48:00.549164+00:00 | Close: 25393.0
+2025-11-09 20:49:01,063 - system - DEBUG - Added bar: 2025-11-09 20:49:01.056848+00:00 | Close: 25402.5
+2025-11-09 20:50:01,102 - system - DEBUG - Added bar: 2025-11-09 20:50:01.097198+00:00 | Close: 25410.0
+2025-11-09 20:51:00,805 - system - DEBUG - Added bar: 2025-11-09 20:51:00.800504+00:00 | Close: 25413.5
+2025-11-09 20:52:01,347 - system - DEBUG - Added bar: 2025-11-09 20:52:01.342554+00:00 | Close: 25420.5
+2025-11-09 20:53:00,507 - system - DEBUG - Added bar: 2025-11-09 20:53:00.502075+00:00 | Close: 25431.25
+2025-11-09 20:54:00,657 - system - DEBUG - Added bar: 2025-11-09 20:54:00.651979+00:00 | Close: 25433.75
+2025-11-09 20:55:00,697 - system - DEBUG - Added bar: 2025-11-09 20:55:00.691278+00:00 | Close: 25429.5
+2025-11-09 20:56:00,509 - system - DEBUG - Added bar: 2025-11-09 20:56:00.504389+00:00 | Close: 25434.5
+2025-11-09 20:57:00,963 - system - DEBUG - Added bar: 2025-11-09 20:57:00.955600+00:00 | Close: 25432.25
+2025-11-09 20:58:00,550 - system - DEBUG - Added bar: 2025-11-09 20:58:00.545271+00:00 | Close: 25430.25
+2025-11-09 20:59:00,539 - system - DEBUG - Added bar: 2025-11-09 20:59:00.534792+00:00 | Close: 25430.25
+2025-11-09 21:00:00,973 - system - DEBUG - Added bar: 2025-11-09 21:00:00.965466+00:00 | Close: 25428.5
+2025-11-09 21:01:01,297 - system - DEBUG - Added bar: 2025-11-09 21:01:01.290776+00:00 | Close: 25429.5
+2025-11-09 21:02:00,528 - system - DEBUG - Added bar: 2025-11-09 21:02:00.523378+00:00 | Close: 25430.75
+2025-11-09 21:03:00,544 - system - DEBUG - Added bar: 2025-11-09 21:03:00.538376+00:00 | Close: 25425.0
+2025-11-09 21:04:01,939 - system - DEBUG - Added bar: 2025-11-09 21:04:01.933972+00:00 | Close: 25428.5
+2025-11-09 21:05:01,500 - system - DEBUG - Added bar: 2025-11-09 21:05:01.495531+00:00 | Close: 25427.25
+2025-11-09 21:06:00,562 - system - DEBUG - Added bar: 2025-11-09 21:06:00.557008+00:00 | Close: 25430.5
+2025-11-09 21:07:00,726 - system - DEBUG - Added bar: 2025-11-09 21:07:00.716034+00:00 | Close: 25427.75
+2025-11-09 21:08:00,470 - system - DEBUG - Added bar: 2025-11-09 21:08:00.465714+00:00 | Close: 25412.25
+2025-11-09 21:09:00,698 - system - DEBUG - Added bar: 2025-11-09 21:09:00.694014+00:00 | Close: 25416.75
+2025-11-09 21:10:00,904 - system - DEBUG - Added bar: 2025-11-09 21:10:00.899779+00:00 | Close: 25417.0
+2025-11-09 21:11:00,586 - system - DEBUG - Added bar: 2025-11-09 21:11:00.579331+00:00 | Close: 25420.25
+2025-11-09 21:12:00,705 - system - DEBUG - Added bar: 2025-11-09 21:12:00.699183+00:00 | Close: 25421.0
+2025-11-09 21:13:00,567 - system - DEBUG - Added bar: 2025-11-09 21:13:00.561688+00:00 | Close: 25423.5
+2025-11-09 21:14:00,664 - system - DEBUG - Added bar: 2025-11-09 21:14:00.658245+00:00 | Close: 25425.0
+2025-11-09 21:15:00,871 - system - DEBUG - Added bar: 2025-11-09 21:15:00.865568+00:00 | Close: 25421.25
+2025-11-09 21:16:00,637 - system - DEBUG - Added bar: 2025-11-09 21:16:00.629749+00:00 | Close: 25428.0
+2025-11-09 21:17:00,886 - system - DEBUG - Added bar: 2025-11-09 21:17:00.881355+00:00 | Close: 25426.75
+2025-11-09 21:18:00,629 - system - DEBUG - Added bar: 2025-11-09 21:18:00.624301+00:00 | Close: 25424.25
+2025-11-09 21:19:00,479 - system - DEBUG - Added bar: 2025-11-09 21:19:00.474967+00:00 | Close: 25419.5
+2025-11-09 21:20:00,762 - system - DEBUG - Added bar: 2025-11-09 21:20:00.757905+00:00 | Close: 25420.75
+2025-11-09 21:21:00,556 - system - DEBUG - Added bar: 2025-11-09 21:21:00.551380+00:00 | Close: 25420.75
+2025-11-09 21:22:00,901 - system - DEBUG - Added bar: 2025-11-09 21:22:00.895106+00:00 | Close: 25422.75
+2025-11-09 21:23:01,511 - system - DEBUG - Added bar: 2025-11-09 21:23:01.506863+00:00 | Close: 25425.75
+2025-11-09 21:24:00,826 - system - DEBUG - Added bar: 2025-11-09 21:24:00.821151+00:00 | Close: 25428.5
+2025-11-09 21:25:01,470 - system - DEBUG - Added bar: 2025-11-09 21:25:01.465109+00:00 | Close: 25423.5
+2025-11-09 21:26:01,326 - system - DEBUG - Added bar: 2025-11-09 21:26:01.321711+00:00 | Close: 25422.25
+2025-11-09 21:27:02,826 - system - DEBUG - Added bar: 2025-11-09 21:27:02.821727+00:00 | Close: 25424.0
+2025-11-09 21:28:01,284 - system - DEBUG - Added bar: 2025-11-09 21:28:01.277417+00:00 | Close: 25423.25
+2025-11-09 21:29:00,725 - system - DEBUG - Added bar: 2025-11-09 21:29:00.718578+00:00 | Close: 25420.5
+2025-11-09 21:30:01,124 - system - DEBUG - Added bar: 2025-11-09 21:30:01.119962+00:00 | Close: 25423.0
+2025-11-09 21:31:00,911 - system - DEBUG - Added bar: 2025-11-09 21:31:00.905744+00:00 | Close: 25434.25
+2025-11-09 21:32:01,402 - system - DEBUG - Added bar: 2025-11-09 21:32:01.395123+00:00 | Close: 25431.0
+2025-11-09 21:33:00,777 - system - DEBUG - Added bar: 2025-11-09 21:33:00.772898+00:00 | Close: 25431.75
+2025-11-09 21:34:01,260 - system - DEBUG - Added bar: 2025-11-09 21:34:01.255653+00:00 | Close: 25433.25
+2025-11-09 21:35:02,117 - system - DEBUG - Added bar: 2025-11-09 21:35:02.111816+00:00 | Close: 25428.0
+2025-11-09 21:36:01,699 - system - DEBUG - Added bar: 2025-11-09 21:36:01.691590+00:00 | Close: 25428.5
+2025-11-09 21:37:01,424 - system - DEBUG - Added bar: 2025-11-09 21:37:01.419265+00:00 | Close: 25434.0
+2025-11-09 21:38:01,044 - system - DEBUG - Added bar: 2025-11-09 21:38:01.039977+00:00 | Close: 25431.25
+2025-11-09 21:39:00,879 - system - DEBUG - Added bar: 2025-11-09 21:39:00.872953+00:00 | Close: 25432.25
+2025-11-09 21:40:00,667 - system - DEBUG - Added bar: 2025-11-09 21:40:00.662904+00:00 | Close: 25436.75
+2025-11-09 21:41:01,038 - system - DEBUG - Added bar: 2025-11-09 21:41:01.033365+00:00 | Close: 25439.25
+2025-11-09 21:42:01,426 - system - DEBUG - Added bar: 2025-11-09 21:42:01.419535+00:00 | Close: 25437.75
+2025-11-09 21:43:00,507 - system - DEBUG - Added bar: 2025-11-09 21:43:00.501866+00:00 | Close: 25437.25
+2025-11-09 21:44:00,862 - system - DEBUG - Added bar: 2025-11-09 21:44:00.857987+00:00 | Close: 25435.75
+2025-11-09 21:45:02,669 - system - DEBUG - Added bar: 2025-11-09 21:45:02.663638+00:00 | Close: 25435.25
+2025-11-09 21:46:00,534 - system - DEBUG - Added bar: 2025-11-09 21:46:00.528438+00:00 | Close: 25443.75
+2025-11-09 21:47:00,833 - system - DEBUG - Added bar: 2025-11-09 21:47:00.826358+00:00 | Close: 25440.5
+2025-11-09 21:48:00,630 - system - DEBUG - Added bar: 2025-11-09 21:48:00.625706+00:00 | Close: 25441.5
+2025-11-09 21:49:00,825 - system - DEBUG - Added bar: 2025-11-09 21:49:00.820814+00:00 | Close: 25444.5
+2025-11-09 21:50:00,584 - system - DEBUG - Added bar: 2025-11-09 21:50:00.580136+00:00 | Close: 25445.25
+2025-11-09 21:51:00,751 - system - DEBUG - Added bar: 2025-11-09 21:51:00.746715+00:00 | Close: 25446.0
+2025-11-09 21:52:00,567 - system - DEBUG - Added bar: 2025-11-09 21:52:00.560705+00:00 | Close: 25444.25
+2025-11-09 21:53:00,457 - system - DEBUG - Added bar: 2025-11-09 21:53:00.452244+00:00 | Close: 25440.5
+2025-11-09 21:54:01,297 - system - DEBUG - Added bar: 2025-11-09 21:54:01.292280+00:00 | Close: 25437.0
+2025-11-09 21:55:04,027 - system - DEBUG - Added bar: 2025-11-09 21:55:04.022853+00:00 | Close: 25439.0
+2025-11-09 21:56:00,572 - system - DEBUG - Added bar: 2025-11-09 21:56:00.565506+00:00 | Close: 25439.5
+2025-11-09 21:57:01,764 - system - DEBUG - Added bar: 2025-11-09 21:57:01.757865+00:00 | Close: 25437.75
+2025-11-09 21:58:00,678 - system - DEBUG - Added bar: 2025-11-09 21:58:00.670364+00:00 | Close: 25437.75
+2025-11-09 21:59:01,693 - system - DEBUG - Added bar: 2025-11-09 21:59:01.688347+00:00 | Close: 25433.5
+2025-11-09 22:00:02,521 - system - DEBUG - Added bar: 2025-11-09 22:00:02.515919+00:00 | Close: 25431.75
+2025-11-09 22:01:01,032 - system - DEBUG - Added bar: 2025-11-09 22:01:01.027497+00:00 | Close: 25449.0
+2025-11-09 22:02:00,899 - system - DEBUG - Added bar: 2025-11-09 22:02:00.894389+00:00 | Close: 25446.25
+2025-11-09 22:03:00,858 - system - DEBUG - Added bar: 2025-11-09 22:03:00.851700+00:00 | Close: 25456.75
+2025-11-09 22:04:00,941 - system - DEBUG - Added bar: 2025-11-09 22:04:00.936972+00:00 | Close: 25457.5
+2025-11-09 22:05:00,891 - system - DEBUG - Added bar: 2025-11-09 22:05:00.887087+00:00 | Close: 25453.0
+2025-11-09 22:06:00,445 - system - DEBUG - Added bar: 2025-11-09 22:06:00.440035+00:00 | Close: 25456.75
+2025-11-09 22:07:01,416 - system - DEBUG - Added bar: 2025-11-09 22:07:01.411524+00:00 | Close: 25455.25
+2025-11-09 22:08:01,365 - system - DEBUG - Added bar: 2025-11-09 22:08:01.360341+00:00 | Close: 25448.75
+2025-11-09 22:09:01,399 - system - DEBUG - Added bar: 2025-11-09 22:09:01.394240+00:00 | Close: 25448.25
+2025-11-09 22:10:00,543 - system - DEBUG - Added bar: 2025-11-09 22:10:00.537978+00:00 | Close: 25452.75
+2025-11-09 22:11:02,325 - system - DEBUG - Added bar: 2025-11-09 22:11:02.318433+00:00 | Close: 25453.0
+2025-11-09 22:12:01,144 - system - DEBUG - Added bar: 2025-11-09 22:12:01.138186+00:00 | Close: 25459.25
+2025-11-09 22:13:00,510 - system - DEBUG - Added bar: 2025-11-09 22:13:00.504874+00:00 | Close: 25454.5
+2025-11-09 22:14:01,043 - system - DEBUG - Added bar: 2025-11-09 22:14:01.038218+00:00 | Close: 25453.5
+2025-11-09 22:15:00,439 - system - DEBUG - Added bar: 2025-11-09 22:15:00.432557+00:00 | Close: 25456.25
+2025-11-09 22:16:00,699 - system - DEBUG - Added bar: 2025-11-09 22:16:00.692681+00:00 | Close: 25461.0
+2025-11-09 22:17:00,663 - system - DEBUG - Added bar: 2025-11-09 22:17:00.658183+00:00 | Close: 25466.0
+2025-11-09 22:18:00,668 - system - DEBUG - Added bar: 2025-11-09 22:18:00.662338+00:00 | Close: 25473.0
+2025-11-09 22:19:00,655 - system - DEBUG - Added bar: 2025-11-09 22:19:00.650730+00:00 | Close: 25474.0
+2025-11-09 22:20:01,898 - system - DEBUG - Added bar: 2025-11-09 22:20:01.893974+00:00 | Close: 25467.0
+2025-11-09 22:21:00,682 - system - DEBUG - Added bar: 2025-11-09 22:21:00.676654+00:00 | Close: 25462.5
+2025-11-09 22:22:01,239 - system - DEBUG - Added bar: 2025-11-09 22:22:01.233962+00:00 | Close: 25467.0
+2025-11-09 22:23:03,906 - system - DEBUG - Added bar: 2025-11-09 22:23:03.900850+00:00 | Close: 25465.0
+2025-11-09 22:24:00,937 - system - DEBUG - Added bar: 2025-11-09 22:24:00.930815+00:00 | Close: 25465.5
+2025-11-09 22:25:00,735 - system - DEBUG - Added bar: 2025-11-09 22:25:00.730566+00:00 | Close: 25468.5
+2025-11-09 22:26:00,479 - system - DEBUG - Added bar: 2025-11-09 22:26:00.474620+00:00 | Close: 25471.25
+2025-11-09 22:27:00,691 - system - DEBUG - Added bar: 2025-11-09 22:27:00.686525+00:00 | Close: 25474.5
+2025-11-09 22:28:00,501 - system - DEBUG - Added bar: 2025-11-09 22:28:00.496036+00:00 | Close: 25478.75
+2025-11-09 22:29:00,732 - system - DEBUG - Added bar: 2025-11-09 22:29:00.727162+00:00 | Close: 25478.25
+2025-11-09 22:30:00,829 - system - DEBUG - Added bar: 2025-11-09 22:30:00.824622+00:00 | Close: 25479.25
+2025-11-09 22:31:00,678 - system - DEBUG - Added bar: 2025-11-09 22:31:00.673748+00:00 | Close: 25482.5
+2025-11-09 22:32:00,709 - system - DEBUG - Added bar: 2025-11-09 22:32:00.704439+00:00 | Close: 25484.0
+2025-11-09 22:33:00,754 - system - DEBUG - Added bar: 2025-11-09 22:33:00.747880+00:00 | Close: 25483.0
+2025-11-09 22:34:00,464 - system - DEBUG - Added bar: 2025-11-09 22:34:00.457705+00:00 | Close: 25486.0
+2025-11-09 22:35:00,484 - system - DEBUG - Added bar: 2025-11-09 22:35:00.478556+00:00 | Close: 25485.5
+2025-11-09 22:36:01,085 - system - DEBUG - Added bar: 2025-11-09 22:36:01.079644+00:00 | Close: 25487.25
+2025-11-09 22:37:00,731 - system - DEBUG - Added bar: 2025-11-09 22:37:00.724623+00:00 | Close: 25484.25
+2025-11-09 22:38:00,393 - system - DEBUG - Added bar: 2025-11-09 22:38:00.387847+00:00 | Close: 25473.5
+2025-11-09 22:39:00,488 - system - DEBUG - Added bar: 2025-11-09 22:39:00.483709+00:00 | Close: 25472.5
+2025-11-09 22:40:00,628 - system - DEBUG - Added bar: 2025-11-09 22:40:00.610551+00:00 | Close: 25473.0
+2025-11-09 22:41:01,307 - system - DEBUG - Added bar: 2025-11-09 22:41:01.299234+00:00 | Close: 25479.5
+2025-11-09 22:42:01,417 - system - DEBUG - Added bar: 2025-11-09 22:42:01.411508+00:00 | Close: 25475.75
+2025-11-09 22:43:00,866 - system - DEBUG - Added bar: 2025-11-09 22:43:00.861380+00:00 | Close: 25467.5
+2025-11-09 22:44:00,687 - system - DEBUG - Added bar: 2025-11-09 22:44:00.680652+00:00 | Close: 25469.0
+2025-11-09 22:45:00,503 - system - DEBUG - Added bar: 2025-11-09 22:45:00.497872+00:00 | Close: 25472.75
+2025-11-09 22:46:00,609 - system - DEBUG - Added bar: 2025-11-09 22:46:00.604501+00:00 | Close: 25470.75
+2025-11-09 22:47:00,986 - system - DEBUG - Added bar: 2025-11-09 22:47:00.982202+00:00 | Close: 25469.25
+2025-11-09 22:48:00,984 - system - DEBUG - Added bar: 2025-11-09 22:48:00.978030+00:00 | Close: 25468.25
+2025-11-09 22:49:00,519 - system - DEBUG - Added bar: 2025-11-09 22:49:00.514827+00:00 | Close: 25470.75
+2025-11-09 22:50:02,670 - system - DEBUG - Added bar: 2025-11-09 22:50:02.663290+00:00 | Close: 25468.25
+2025-11-09 22:51:00,448 - system - DEBUG - Added bar: 2025-11-09 22:51:00.443573+00:00 | Close: 25470.0
+2025-11-09 22:52:01,099 - system - DEBUG - Added bar: 2025-11-09 22:52:01.093881+00:00 | Close: 25468.5
+2025-11-09 22:53:01,458 - system - DEBUG - Added bar: 2025-11-09 22:53:01.451937+00:00 | Close: 25471.25
+2025-11-09 22:54:01,095 - system - DEBUG - Added bar: 2025-11-09 22:54:01.090286+00:00 | Close: 25470.5
+2025-11-09 22:55:02,114 - system - DEBUG - Added bar: 2025-11-09 22:55:02.108744+00:00 | Close: 25469.0
+2025-11-09 22:56:00,492 - system - DEBUG - Added bar: 2025-11-09 22:56:00.487942+00:00 | Close: 25468.5
+2025-11-09 22:57:00,842 - system - DEBUG - Added bar: 2025-11-09 22:57:00.836943+00:00 | Close: 25465.0
+2025-11-09 22:58:00,425 - system - DEBUG - Added bar: 2025-11-09 22:58:00.420975+00:00 | Close: 25463.5
+2025-11-09 22:59:00,435 - system - DEBUG - Added bar: 2025-11-09 22:59:00.430216+00:00 | Close: 25463.5
+2025-11-09 23:00:01,035 - system - DEBUG - Added bar: 2025-11-09 23:00:01.028971+00:00 | Close: 25460.25
+2025-11-09 23:01:01,570 - system - DEBUG - Added bar: 2025-11-09 23:01:01.561506+00:00 | Close: 25465.25
+2025-11-09 23:02:01,423 - system - DEBUG - Added bar: 2025-11-09 23:02:01.418795+00:00 | Close: 25463.0
+2025-11-09 23:03:00,857 - system - DEBUG - Added bar: 2025-11-09 23:03:00.852714+00:00 | Close: 25462.25
+2025-11-09 23:04:01,976 - system - DEBUG - Added bar: 2025-11-09 23:04:01.971492+00:00 | Close: 25467.0
+2025-11-09 23:05:02,081 - system - DEBUG - Added bar: 2025-11-09 23:05:02.076838+00:00 | Close: 25464.0
+2025-11-09 23:06:01,385 - system - DEBUG - Added bar: 2025-11-09 23:06:01.379847+00:00 | Close: 25468.25
+2025-11-09 23:07:00,680 - system - DEBUG - Added bar: 2025-11-09 23:07:00.675006+00:00 | Close: 25471.75
+2025-11-09 23:08:00,432 - system - DEBUG - Added bar: 2025-11-09 23:08:00.426884+00:00 | Close: 25472.5
+2025-11-09 23:09:00,580 - system - DEBUG - Added bar: 2025-11-09 23:09:00.572501+00:00 | Close: 25477.25
+2025-11-09 23:10:00,459 - system - DEBUG - Added bar: 2025-11-09 23:10:00.454769+00:00 | Close: 25476.75
+2025-11-09 23:11:00,433 - system - DEBUG - Added bar: 2025-11-09 23:11:00.428595+00:00 | Close: 25481.0
+2025-11-09 23:12:00,423 - system - DEBUG - Added bar: 2025-11-09 23:12:00.418839+00:00 | Close: 25484.5
+2025-11-09 23:13:01,940 - system - DEBUG - Added bar: 2025-11-09 23:13:01.930773+00:00 | Close: 25482.75
+2025-11-09 23:14:01,468 - system - DEBUG - Added bar: 2025-11-09 23:14:01.463182+00:00 | Close: 25477.0
+2025-11-09 23:15:01,118 - system - DEBUG - Added bar: 2025-11-09 23:15:01.112959+00:00 | Close: 25469.25
+2025-11-09 23:16:00,501 - system - DEBUG - Added bar: 2025-11-09 23:16:00.495710+00:00 | Close: 25468.75
+2025-11-09 23:17:00,657 - system - DEBUG - Added bar: 2025-11-09 23:17:00.652626+00:00 | Close: 25464.25
+2025-11-09 23:18:00,770 - system - DEBUG - Added bar: 2025-11-09 23:18:00.765593+00:00 | Close: 25462.75
+2025-11-09 23:19:00,410 - system - DEBUG - Added bar: 2025-11-09 23:19:00.403975+00:00 | Close: 25457.75
+2025-11-09 23:20:00,888 - system - DEBUG - Added bar: 2025-11-09 23:20:00.883703+00:00 | Close: 25467.0
+2025-11-09 23:21:00,634 - system - DEBUG - Added bar: 2025-11-09 23:21:00.628843+00:00 | Close: 25465.0
+2025-11-09 23:22:01,848 - system - DEBUG - Added bar: 2025-11-09 23:22:01.841898+00:00 | Close: 25462.5
+2025-11-09 23:23:01,170 - system - DEBUG - Added bar: 2025-11-09 23:23:01.163750+00:00 | Close: 25466.25
+2025-11-09 23:24:00,782 - system - DEBUG - Added bar: 2025-11-09 23:24:00.777308+00:00 | Close: 25462.5
+2025-11-09 23:25:02,729 - system - DEBUG - Added bar: 2025-11-09 23:25:02.724662+00:00 | Close: 25464.5
+2025-11-09 23:26:00,424 - system - DEBUG - Added bar: 2025-11-09 23:26:00.416540+00:00 | Close: 25465.0
+2025-11-09 23:27:00,862 - system - DEBUG - Added bar: 2025-11-09 23:27:00.856994+00:00 | Close: 25463.5
+2025-11-09 23:28:01,101 - system - DEBUG - Added bar: 2025-11-09 23:28:01.096527+00:00 | Close: 25463.5
+2025-11-09 23:29:00,637 - system - DEBUG - Added bar: 2025-11-09 23:29:00.630450+00:00 | Close: 25464.0
+2025-11-09 23:30:03,015 - system - DEBUG - Added bar: 2025-11-09 23:30:03.007749+00:00 | Close: 25466.25
+2025-11-09 23:31:00,821 - system - DEBUG - Added bar: 2025-11-09 23:31:00.816917+00:00 | Close: 25466.75
+2025-11-09 23:32:00,809 - system - DEBUG - Added bar: 2025-11-09 23:32:00.803407+00:00 | Close: 25468.75
+2025-11-09 23:33:00,479 - system - DEBUG - Added bar: 2025-11-09 23:33:00.473851+00:00 | Close: 25455.75
+2025-11-09 23:34:00,653 - system - DEBUG - Added bar: 2025-11-09 23:34:00.648957+00:00 | Close: 25461.75
+2025-11-09 23:35:02,161 - system - DEBUG - Added bar: 2025-11-09 23:35:02.156578+00:00 | Close: 25465.25
+2025-11-09 23:36:01,196 - system - DEBUG - Added bar: 2025-11-09 23:36:01.191683+00:00 | Close: 25460.5
+2025-11-09 23:37:00,778 - system - DEBUG - Added bar: 2025-11-09 23:37:00.773523+00:00 | Close: 25464.5
+2025-11-09 23:38:00,770 - system - DEBUG - Added bar: 2025-11-09 23:38:00.764931+00:00 | Close: 25465.25
+2025-11-09 23:39:00,434 - system - DEBUG - Added bar: 2025-11-09 23:39:00.427605+00:00 | Close: 25466.5
+2025-11-09 23:40:00,354 - system - DEBUG - Added bar: 2025-11-09 23:40:00.349154+00:00 | Close: 25465.5
+2025-11-09 23:41:03,085 - system - DEBUG - Added bar: 2025-11-09 23:41:03.076335+00:00 | Close: 25462.25
+2025-11-09 23:42:03,619 - system - DEBUG - Added bar: 2025-11-09 23:42:03.614947+00:00 | Close: 25462.0
+2025-11-09 23:43:00,505 - system - DEBUG - Added bar: 2025-11-09 23:43:00.500477+00:00 | Close: 25466.25
+2025-11-09 23:44:00,372 - system - DEBUG - Added bar: 2025-11-09 23:44:00.367751+00:00 | Close: 25465.5
+2025-11-09 23:45:00,418 - system - DEBUG - Added bar: 2025-11-09 23:45:00.412552+00:00 | Close: 25468.25
+2025-11-09 23:46:00,623 - system - DEBUG - Added bar: 2025-11-09 23:46:00.619102+00:00 | Close: 25467.25
+2025-11-09 23:47:01,476 - system - DEBUG - Added bar: 2025-11-09 23:47:01.472203+00:00 | Close: 25461.5
+2025-11-09 23:48:00,766 - system - DEBUG - Added bar: 2025-11-09 23:48:00.761372+00:00 | Close: 25464.5
+2025-11-09 23:49:00,404 - system - DEBUG - Added bar: 2025-11-09 23:49:00.400247+00:00 | Close: 25467.0
+2025-11-09 23:50:00,655 - system - DEBUG - Added bar: 2025-11-09 23:50:00.651093+00:00 | Close: 25472.75
+2025-11-09 23:51:00,388 - system - DEBUG - Added bar: 2025-11-09 23:51:00.381820+00:00 | Close: 25475.0
+2025-11-09 23:52:00,358 - system - DEBUG - Added bar: 2025-11-09 23:52:00.353433+00:00 | Close: 25467.75
+2025-11-09 23:53:00,588 - system - DEBUG - Added bar: 2025-11-09 23:53:00.583798+00:00 | Close: 25459.5
+2025-11-09 23:54:00,547 - system - DEBUG - Added bar: 2025-11-09 23:54:00.540996+00:00 | Close: 25468.0
+2025-11-09 23:55:00,407 - system - DEBUG - Added bar: 2025-11-09 23:55:00.402456+00:00 | Close: 25466.25
+2025-11-09 23:56:00,395 - system - DEBUG - Added bar: 2025-11-09 23:56:00.390954+00:00 | Close: 25465.75
+2025-11-09 23:57:00,370 - system - DEBUG - Added bar: 2025-11-09 23:57:00.365688+00:00 | Close: 25466.5
+2025-11-09 23:58:00,459 - system - DEBUG - Added bar: 2025-11-09 23:58:00.454598+00:00 | Close: 25468.0
+2025-11-09 23:59:00,440 - system - DEBUG - Added bar: 2025-11-09 23:59:00.435961+00:00 | Close: 25470.75
+2025-11-10 00:00:00,727 - system - DEBUG - Added bar: 2025-11-10 00:00:00.722096+00:00 | Close: 25466.25
+2025-11-10 00:01:00,945 - system - DEBUG - Added bar: 2025-11-10 00:01:00.939230+00:00 | Close: 25469.0
+2025-11-10 00:02:00,363 - system - DEBUG - Added bar: 2025-11-10 00:02:00.358708+00:00 | Close: 25468.75
+2025-11-10 00:03:00,366 - system - DEBUG - Added bar: 2025-11-10 00:03:00.360755+00:00 | Close: 25471.75
+2025-11-10 00:04:00,576 - system - DEBUG - Added bar: 2025-11-10 00:04:00.572003+00:00 | Close: 25473.0
+2025-11-10 00:05:00,394 - system - DEBUG - Added bar: 2025-11-10 00:05:00.389269+00:00 | Close: 25477.0
+2025-11-10 00:06:00,358 - system - DEBUG - Added bar: 2025-11-10 00:06:00.352442+00:00 | Close: 25477.25
+2025-11-10 00:07:00,417 - system - DEBUG - Added bar: 2025-11-10 00:07:00.412882+00:00 | Close: 25477.0
+2025-11-10 00:08:00,358 - system - DEBUG - Added bar: 2025-11-10 00:08:00.353459+00:00 | Close: 25474.0
+2025-11-10 00:09:00,519 - system - DEBUG - Added bar: 2025-11-10 00:09:00.513508+00:00 | Close: 25474.75
+2025-11-10 00:10:00,423 - system - DEBUG - Added bar: 2025-11-10 00:10:00.418715+00:00 | Close: 25481.25
+2025-11-10 00:11:00,451 - system - DEBUG - Added bar: 2025-11-10 00:11:00.446605+00:00 | Close: 25479.0
+2025-11-10 00:12:00,571 - system - DEBUG - Added bar: 2025-11-10 00:12:00.566617+00:00 | Close: 25484.0
+2025-11-10 00:13:00,639 - system - DEBUG - Added bar: 2025-11-10 00:13:00.634508+00:00 | Close: 25487.5
+2025-11-10 00:14:00,339 - system - DEBUG - Added bar: 2025-11-10 00:14:00.334674+00:00 | Close: 25488.0
+2025-11-10 00:15:00,437 - system - DEBUG - Added bar: 2025-11-10 00:15:00.432476+00:00 | Close: 25486.25
+2025-11-10 00:16:00,462 - system - DEBUG - Added bar: 2025-11-10 00:16:00.457608+00:00 | Close: 25488.0
+2025-11-10 00:17:00,848 - system - DEBUG - Added bar: 2025-11-10 00:17:00.843584+00:00 | Close: 25486.75
+2025-11-10 00:18:00,617 - system - DEBUG - Added bar: 2025-11-10 00:18:00.612962+00:00 | Close: 25491.5
+2025-11-10 00:19:02,144 - system - DEBUG - Added bar: 2025-11-10 00:19:02.139546+00:00 | Close: 25491.5
+2025-11-10 00:20:00,431 - system - DEBUG - Added bar: 2025-11-10 00:20:00.426433+00:00 | Close: 25491.0
+2025-11-10 00:21:00,621 - system - DEBUG - Added bar: 2025-11-10 00:21:00.615386+00:00 | Close: 25495.0
+2025-11-10 00:22:01,252 - system - DEBUG - Added bar: 2025-11-10 00:22:01.243766+00:00 | Close: 25490.25
+2025-11-10 00:23:00,832 - system - DEBUG - Added bar: 2025-11-10 00:23:00.827728+00:00 | Close: 25488.5
+2025-11-10 00:24:02,012 - system - DEBUG - Added bar: 2025-11-10 00:24:02.006844+00:00 | Close: 25491.0
+2025-11-10 00:25:01,401 - system - DEBUG - Added bar: 2025-11-10 00:25:01.395817+00:00 | Close: 25491.75
+2025-11-10 00:26:00,706 - system - DEBUG - Added bar: 2025-11-10 00:26:00.700748+00:00 | Close: 25491.75
+2025-11-10 00:27:00,930 - system - DEBUG - Added bar: 2025-11-10 00:27:00.922388+00:00 | Close: 25490.75
+2025-11-10 00:28:02,944 - system - DEBUG - Added bar: 2025-11-10 00:28:02.938549+00:00 | Close: 25491.25
+2025-11-10 00:29:00,449 - system - DEBUG - Added bar: 2025-11-10 00:29:00.442210+00:00 | Close: 25491.25
+2025-11-10 00:30:02,012 - system - DEBUG - Added bar: 2025-11-10 00:30:02.007662+00:00 | Close: 25491.25
+2025-11-10 00:31:01,935 - system - DEBUG - Added bar: 2025-11-10 00:31:01.927919+00:00 | Close: 25488.5
+2025-11-10 00:32:00,420 - system - DEBUG - Added bar: 2025-11-10 00:32:00.415122+00:00 | Close: 25484.0
+2025-11-10 00:33:00,709 - system - DEBUG - Added bar: 2025-11-10 00:33:00.704845+00:00 | Close: 25475.75
+2025-11-10 00:34:00,429 - system - DEBUG - Added bar: 2025-11-10 00:34:00.423802+00:00 | Close: 25484.0
+2025-11-10 00:35:01,588 - system - DEBUG - Added bar: 2025-11-10 00:35:01.582410+00:00 | Close: 25479.25
+2025-11-10 00:36:01,641 - system - DEBUG - Added bar: 2025-11-10 00:36:01.636804+00:00 | Close: 25479.0
+2025-11-10 00:37:00,631 - system - DEBUG - Added bar: 2025-11-10 00:37:00.625580+00:00 | Close: 25472.75
+2025-11-10 00:38:00,858 - system - DEBUG - Added bar: 2025-11-10 00:38:00.853873+00:00 | Close: 25473.25
+2025-11-10 00:39:00,390 - system - DEBUG - Added bar: 2025-11-10 00:39:00.385062+00:00 | Close: 25473.5
+2025-11-10 00:40:02,164 - system - DEBUG - Added bar: 2025-11-10 00:40:02.159542+00:00 | Close: 25474.0
+2025-11-10 00:41:00,366 - system - DEBUG - Added bar: 2025-11-10 00:41:00.361150+00:00 | Close: 25477.5
+2025-11-10 00:42:00,327 - system - DEBUG - Added bar: 2025-11-10 00:42:00.322421+00:00 | Close: 25479.5
+2025-11-10 00:43:00,362 - system - DEBUG - Added bar: 2025-11-10 00:43:00.356321+00:00 | Close: 25478.25
+2025-11-10 00:44:00,795 - system - DEBUG - Added bar: 2025-11-10 00:44:00.788922+00:00 | Close: 25482.75
+2025-11-10 00:45:00,469 - system - DEBUG - Added bar: 2025-11-10 00:45:00.463166+00:00 | Close: 25483.25
+2025-11-10 00:46:00,413 - system - DEBUG - Added bar: 2025-11-10 00:46:00.408628+00:00 | Close: 25479.75
+2025-11-10 00:47:00,316 - system - DEBUG - Added bar: 2025-11-10 00:47:00.310856+00:00 | Close: 25480.75
+2025-11-10 00:48:01,101 - system - DEBUG - Added bar: 2025-11-10 00:48:01.094506+00:00 | Close: 25481.25
+2025-11-10 00:49:05,745 - system - DEBUG - Added bar: 2025-11-10 00:49:05.740702+00:00 | Close: 25480.75
+2025-11-10 00:50:00,555 - system - DEBUG - Added bar: 2025-11-10 00:50:00.550513+00:00 | Close: 25473.75
+2025-11-10 00:51:00,358 - system - DEBUG - Added bar: 2025-11-10 00:51:00.353577+00:00 | Close: 25473.25
+2025-11-10 00:52:00,580 - system - DEBUG - Added bar: 2025-11-10 00:52:00.575747+00:00 | Close: 25476.5
+2025-11-10 00:53:01,607 - system - DEBUG - Added bar: 2025-11-10 00:53:01.602495+00:00 | Close: 25478.5
+2025-11-10 00:54:00,274 - system - DEBUG - Added bar: 2025-11-10 00:54:00.269980+00:00 | Close: 25485.75
+2025-11-10 00:55:00,259 - system - DEBUG - Added bar: 2025-11-10 00:55:00.252998+00:00 | Close: 25484.75
+2025-11-10 00:56:02,837 - system - DEBUG - Added bar: 2025-11-10 00:56:02.831053+00:00 | Close: 25485.5
+2025-11-10 00:57:01,198 - system - DEBUG - Added bar: 2025-11-10 00:57:01.190715+00:00 | Close: 25482.25
+2025-11-10 00:58:01,348 - system - DEBUG - Added bar: 2025-11-10 00:58:01.344123+00:00 | Close: 25484.75
+2025-11-10 00:59:00,510 - system - DEBUG - Added bar: 2025-11-10 00:59:00.505467+00:00 | Close: 25481.5
+2025-11-10 01:00:02,708 - system - DEBUG - Added bar: 2025-11-10 01:00:02.703959+00:00 | Close: 25483.5
+2025-11-10 01:01:00,698 - system - DEBUG - Added bar: 2025-11-10 01:01:00.693782+00:00 | Close: 25479.5
+2025-11-10 01:02:00,355 - system - DEBUG - Added bar: 2025-11-10 01:02:00.348948+00:00 | Close: 25477.0
+2025-11-10 01:03:00,405 - system - DEBUG - Added bar: 2025-11-10 01:03:00.400265+00:00 | Close: 25475.5
+2025-11-10 01:04:00,617 - system - DEBUG - Added bar: 2025-11-10 01:04:00.612398+00:00 | Close: 25476.25
+2025-11-10 01:05:00,393 - system - DEBUG - Added bar: 2025-11-10 01:05:00.386540+00:00 | Close: 25482.5
+2025-11-10 01:06:01,771 - system - DEBUG - Added bar: 2025-11-10 01:06:01.764013+00:00 | Close: 25484.25
+2025-11-10 01:07:00,636 - system - DEBUG - Added bar: 2025-11-10 01:07:00.630226+00:00 | Close: 25489.75
+2025-11-10 01:08:00,796 - system - DEBUG - Added bar: 2025-11-10 01:08:00.789201+00:00 | Close: 25488.0
+2025-11-10 01:09:01,197 - system - DEBUG - Added bar: 2025-11-10 01:09:01.191039+00:00 | Close: 25486.0
+2025-11-10 01:10:00,484 - system - DEBUG - Added bar: 2025-11-10 01:10:00.479163+00:00 | Close: 25480.25
+2025-11-10 01:11:01,196 - system - DEBUG - Added bar: 2025-11-10 01:11:01.189310+00:00 | Close: 25486.5
+2025-11-10 01:12:01,127 - system - DEBUG - Added bar: 2025-11-10 01:12:01.121071+00:00 | Close: 25485.0
+2025-11-10 01:13:00,418 - system - DEBUG - Added bar: 2025-11-10 01:13:00.414204+00:00 | Close: 25483.75
+2025-11-10 01:14:00,713 - system - DEBUG - Added bar: 2025-11-10 01:14:00.708948+00:00 | Close: 25479.75
+2025-11-10 01:15:00,842 - system - DEBUG - Added bar: 2025-11-10 01:15:00.837164+00:00 | Close: 25481.75
+2025-11-10 01:16:01,221 - system - DEBUG - Added bar: 2025-11-10 01:16:01.214870+00:00 | Close: 25486.25
+2025-11-10 01:17:01,854 - system - DEBUG - Added bar: 2025-11-10 01:17:01.849194+00:00 | Close: 25486.5
+2025-11-10 01:18:02,561 - system - DEBUG - Added bar: 2025-11-10 01:18:02.557315+00:00 | Close: 25484.25
+2025-11-10 01:19:00,307 - system - DEBUG - Added bar: 2025-11-10 01:19:00.302510+00:00 | Close: 25490.75
+2025-11-10 01:20:01,300 - system - DEBUG - Added bar: 2025-11-10 01:20:01.295429+00:00 | Close: 25486.25
+2025-11-10 01:21:02,173 - system - DEBUG - Added bar: 2025-11-10 01:21:02.166490+00:00 | Close: 25482.5
+2025-11-10 01:22:01,665 - system - DEBUG - Added bar: 2025-11-10 01:22:01.660285+00:00 | Close: 25485.75
+2025-11-10 01:23:00,997 - system - DEBUG - Added bar: 2025-11-10 01:23:00.992357+00:00 | Close: 25485.75
+2025-11-10 01:24:00,546 - system - DEBUG - Added bar: 2025-11-10 01:24:00.539710+00:00 | Close: 25489.0
+2025-11-10 01:25:00,771 - system - DEBUG - Added bar: 2025-11-10 01:25:00.766243+00:00 | Close: 25482.25
+2025-11-10 01:26:01,055 - system - DEBUG - Added bar: 2025-11-10 01:26:01.051182+00:00 | Close: 25484.75
+2025-11-10 01:27:00,319 - system - DEBUG - Added bar: 2025-11-10 01:27:00.312284+00:00 | Close: 25473.75
+2025-11-10 01:28:00,971 - system - DEBUG - Added bar: 2025-11-10 01:28:00.966906+00:00 | Close: 25470.5
+2025-11-10 01:29:00,614 - system - DEBUG - Added bar: 2025-11-10 01:29:00.609413+00:00 | Close: 25471.75
+2025-11-10 01:30:00,446 - system - DEBUG - Added bar: 2025-11-10 01:30:00.442071+00:00 | Close: 25473.25
+2025-11-10 01:31:00,623 - system - DEBUG - Added bar: 2025-11-10 01:31:00.619086+00:00 | Close: 25471.25
+2025-11-10 01:32:00,902 - system - DEBUG - Added bar: 2025-11-10 01:32:00.896360+00:00 | Close: 25474.25
+2025-11-10 01:33:00,828 - system - DEBUG - Added bar: 2025-11-10 01:33:00.823298+00:00 | Close: 25477.0
+2025-11-10 01:34:01,581 - system - DEBUG - Added bar: 2025-11-10 01:34:01.576609+00:00 | Close: 25476.0
+2025-11-10 01:35:00,299 - system - DEBUG - Added bar: 2025-11-10 01:35:00.294787+00:00 | Close: 25485.25
+2025-11-10 01:36:00,326 - system - DEBUG - Added bar: 2025-11-10 01:36:00.322192+00:00 | Close: 25487.5
+2025-11-10 01:37:00,325 - system - DEBUG - Added bar: 2025-11-10 01:37:00.320766+00:00 | Close: 25485.0
+2025-11-10 01:38:00,272 - system - DEBUG - Added bar: 2025-11-10 01:38:00.267296+00:00 | Close: 25484.75
+2025-11-10 01:39:00,712 - system - DEBUG - Added bar: 2025-11-10 01:39:00.707291+00:00 | Close: 25478.75
+2025-11-10 01:40:01,648 - system - DEBUG - Added bar: 2025-11-10 01:40:01.640855+00:00 | Close: 25481.75
+2025-11-10 01:41:00,390 - system - DEBUG - Added bar: 2025-11-10 01:41:00.385204+00:00 | Close: 25478.5
+2025-11-10 01:42:03,003 - system - DEBUG - Added bar: 2025-11-10 01:42:02.997895+00:00 | Close: 25478.5
+2025-11-10 01:43:01,111 - system - DEBUG - Added bar: 2025-11-10 01:43:01.092734+00:00 | Close: 25478.5
+2025-11-10 01:44:00,451 - system - DEBUG - Added bar: 2025-11-10 01:44:00.446304+00:00 | Close: 25482.25
+2025-11-10 01:45:00,580 - system - DEBUG - Added bar: 2025-11-10 01:45:00.573058+00:00 | Close: 25485.0
+2025-11-10 01:46:00,733 - system - DEBUG - Added bar: 2025-11-10 01:46:00.727421+00:00 | Close: 25489.75
+2025-11-10 01:47:00,358 - system - DEBUG - Added bar: 2025-11-10 01:47:00.353295+00:00 | Close: 25491.0
+2025-11-10 01:48:00,446 - system - DEBUG - Added bar: 2025-11-10 01:48:00.439736+00:00 | Close: 25493.25
+2025-11-10 01:49:00,288 - system - DEBUG - Added bar: 2025-11-10 01:49:00.281470+00:00 | Close: 25496.75
+2025-11-10 01:50:00,498 - system - DEBUG - Added bar: 2025-11-10 01:50:00.492954+00:00 | Close: 25499.0
+2025-11-10 01:51:00,365 - system - DEBUG - Added bar: 2025-11-10 01:51:00.360142+00:00 | Close: 25499.75
+2025-11-10 01:52:00,525 - system - DEBUG - Added bar: 2025-11-10 01:52:00.520392+00:00 | Close: 25495.5
+2025-11-10 01:53:00,259 - system - DEBUG - Added bar: 2025-11-10 01:53:00.254800+00:00 | Close: 25498.0
+2025-11-10 01:54:00,460 - system - DEBUG - Added bar: 2025-11-10 01:54:00.455833+00:00 | Close: 25489.25
+2025-11-10 01:55:00,624 - system - DEBUG - Added bar: 2025-11-10 01:55:00.619148+00:00 | Close: 25483.25
+2025-11-10 01:56:00,382 - system - DEBUG - Added bar: 2025-11-10 01:56:00.361328+00:00 | Close: 25481.5
+2025-11-10 01:57:00,273 - system - DEBUG - Added bar: 2025-11-10 01:57:00.266834+00:00 | Close: 25480.25
+2025-11-10 01:58:00,481 - system - DEBUG - Added bar: 2025-11-10 01:58:00.476689+00:00 | Close: 25473.75
+2025-11-10 01:59:00,439 - system - DEBUG - Added bar: 2025-11-10 01:59:00.434694+00:00 | Close: 25474.0
+2025-11-10 02:00:01,625 - system - DEBUG - Added bar: 2025-11-10 02:00:01.619736+00:00 | Close: 25470.5
+2025-11-10 02:01:01,046 - system - DEBUG - Added bar: 2025-11-10 02:01:01.041289+00:00 | Close: 25476.5
+2025-11-10 02:02:00,470 - system - DEBUG - Added bar: 2025-11-10 02:02:00.464690+00:00 | Close: 25470.25
+2025-11-10 02:03:01,294 - system - DEBUG - Added bar: 2025-11-10 02:03:01.287389+00:00 | Close: 25468.75
+2025-11-10 02:04:00,275 - system - DEBUG - Added bar: 2025-11-10 02:04:00.270279+00:00 | Close: 25469.0
+2025-11-10 02:05:00,816 - system - DEBUG - Added bar: 2025-11-10 02:05:00.809384+00:00 | Close: 25474.5
+2025-11-10 02:06:01,609 - system - DEBUG - Added bar: 2025-11-10 02:06:01.604771+00:00 | Close: 25471.75
+2025-11-10 02:07:00,393 - system - DEBUG - Added bar: 2025-11-10 02:07:00.388398+00:00 | Close: 25469.5
+2025-11-10 02:08:00,565 - system - DEBUG - Added bar: 2025-11-10 02:08:00.560405+00:00 | Close: 25476.75
+2025-11-10 02:09:00,650 - system - DEBUG - Added bar: 2025-11-10 02:09:00.644537+00:00 | Close: 25480.0
+2025-11-10 02:10:00,914 - system - DEBUG - Added bar: 2025-11-10 02:10:00.908919+00:00 | Close: 25473.25
+2025-11-10 02:11:00,281 - system - DEBUG - Added bar: 2025-11-10 02:11:00.274432+00:00 | Close: 25476.5
+2025-11-10 02:12:02,740 - system - DEBUG - Added bar: 2025-11-10 02:12:02.735751+00:00 | Close: 25474.0
+2025-11-10 02:13:02,395 - system - DEBUG - Added bar: 2025-11-10 02:13:02.388452+00:00 | Close: 25477.0
+2025-11-10 02:14:02,872 - system - DEBUG - Added bar: 2025-11-10 02:14:02.865236+00:00 | Close: 25479.5
+2025-11-10 02:15:00,903 - system - DEBUG - Added bar: 2025-11-10 02:15:00.898394+00:00 | Close: 25481.75
+2025-11-10 02:16:01,577 - system - DEBUG - Added bar: 2025-11-10 02:16:01.571771+00:00 | Close: 25480.0
+2025-11-10 02:17:01,381 - system - DEBUG - Added bar: 2025-11-10 02:17:01.374258+00:00 | Close: 25478.0
+2025-11-10 02:18:00,383 - system - DEBUG - Added bar: 2025-11-10 02:18:00.379089+00:00 | Close: 25479.0
+2025-11-10 02:19:01,044 - system - DEBUG - Added bar: 2025-11-10 02:19:01.038985+00:00 | Close: 25475.5
+2025-11-10 02:20:00,599 - system - DEBUG - Added bar: 2025-11-10 02:20:00.594112+00:00 | Close: 25476.25
+2025-11-10 02:21:00,698 - system - DEBUG - Added bar: 2025-11-10 02:21:00.693754+00:00 | Close: 25473.5
+2025-11-10 02:22:00,724 - system - DEBUG - Added bar: 2025-11-10 02:22:00.713595+00:00 | Close: 25483.0
+2025-11-10 02:23:00,408 - system - DEBUG - Added bar: 2025-11-10 02:23:00.403934+00:00 | Close: 25480.5
+2025-11-10 02:24:00,807 - system - DEBUG - Added bar: 2025-11-10 02:24:00.802206+00:00 | Close: 25475.25
+2025-11-10 02:25:00,626 - system - DEBUG - Added bar: 2025-11-10 02:25:00.621777+00:00 | Close: 25481.75
+2025-11-10 02:26:00,506 - system - DEBUG - Added bar: 2025-11-10 02:26:00.501010+00:00 | Close: 25484.5
+2025-11-10 02:27:00,320 - system - DEBUG - Added bar: 2025-11-10 02:27:00.315864+00:00 | Close: 25484.5
+2025-11-10 02:28:00,261 - system - DEBUG - Added bar: 2025-11-10 02:28:00.256322+00:00 | Close: 25477.75
+2025-11-10 02:29:00,885 - system - DEBUG - Added bar: 2025-11-10 02:29:00.879990+00:00 | Close: 25473.75
+2025-11-10 02:30:00,534 - system - DEBUG - Added bar: 2025-11-10 02:30:00.529770+00:00 | Close: 25480.0
+2025-11-10 02:31:00,856 - system - DEBUG - Added bar: 2025-11-10 02:31:00.850784+00:00 | Close: 25477.5
+2025-11-10 02:32:00,302 - system - DEBUG - Added bar: 2025-11-10 02:32:00.296254+00:00 | Close: 25488.0
+2025-11-10 02:33:00,519 - system - DEBUG - Added bar: 2025-11-10 02:33:00.513004+00:00 | Close: 25492.25
+2025-11-10 02:34:00,263 - system - DEBUG - Added bar: 2025-11-10 02:34:00.257766+00:00 | Close: 25492.0
+2025-11-10 02:35:00,619 - system - DEBUG - Added bar: 2025-11-10 02:35:00.613059+00:00 | Close: 25492.25
+2025-11-10 02:36:00,310 - system - DEBUG - Added bar: 2025-11-10 02:36:00.303832+00:00 | Close: 25489.0
+2025-11-10 02:37:00,531 - system - DEBUG - Added bar: 2025-11-10 02:37:00.526110+00:00 | Close: 25482.75
+2025-11-10 02:38:00,444 - system - DEBUG - Added bar: 2025-11-10 02:38:00.439112+00:00 | Close: 25479.75
+2025-11-10 02:39:02,085 - system - DEBUG - Added bar: 2025-11-10 02:39:02.080420+00:00 | Close: 25479.0
+2025-11-10 02:40:00,734 - system - DEBUG - Added bar: 2025-11-10 02:40:00.724577+00:00 | Close: 25476.75
+2025-11-10 02:41:00,439 - system - DEBUG - Added bar: 2025-11-10 02:41:00.435235+00:00 | Close: 25487.25
+2025-11-10 02:42:00,264 - system - DEBUG - Added bar: 2025-11-10 02:42:00.259592+00:00 | Close: 25493.75
+2025-11-10 02:43:00,478 - system - DEBUG - Added bar: 2025-11-10 02:43:00.473351+00:00 | Close: 25491.5
+2025-11-10 02:44:00,233 - system - DEBUG - Added bar: 2025-11-10 02:44:00.226327+00:00 | Close: 25492.75
+2025-11-10 02:45:00,455 - system - DEBUG - Added bar: 2025-11-10 02:45:00.451115+00:00 | Close: 25493.75
+2025-11-10 02:46:00,384 - system - DEBUG - Added bar: 2025-11-10 02:46:00.378841+00:00 | Close: 25489.25
+2025-11-10 02:47:00,289 - system - DEBUG - Added bar: 2025-11-10 02:47:00.284959+00:00 | Close: 25491.25
+2025-11-10 02:48:00,292 - system - DEBUG - Added bar: 2025-11-10 02:48:00.287914+00:00 | Close: 25496.0
+2025-11-10 02:49:00,218 - system - DEBUG - Added bar: 2025-11-10 02:49:00.212136+00:00 | Close: 25496.0
+2025-11-10 02:50:00,248 - system - DEBUG - Added bar: 2025-11-10 02:50:00.242570+00:00 | Close: 25498.25
+2025-11-10 02:51:00,579 - system - DEBUG - Added bar: 2025-11-10 02:51:00.574563+00:00 | Close: 25491.25
+2025-11-10 02:52:00,927 - system - DEBUG - Added bar: 2025-11-10 02:52:00.921170+00:00 | Close: 25489.25
+2025-11-10 02:53:00,269 - system - DEBUG - Added bar: 2025-11-10 02:53:00.264539+00:00 | Close: 25490.25
+2025-11-10 02:54:02,339 - system - DEBUG - Added bar: 2025-11-10 02:54:02.333590+00:00 | Close: 25492.25
+2025-11-10 02:55:00,385 - system - DEBUG - Added bar: 2025-11-10 02:55:00.379490+00:00 | Close: 25493.75
+2025-11-10 02:56:00,833 - system - DEBUG - Added bar: 2025-11-10 02:56:00.828706+00:00 | Close: 25494.0
+2025-11-10 02:57:02,165 - system - DEBUG - Added bar: 2025-11-10 02:57:02.159076+00:00 | Close: 25495.25
+2025-11-10 02:58:00,668 - system - DEBUG - Added bar: 2025-11-10 02:58:00.661017+00:00 | Close: 25492.25
+2025-11-10 02:59:00,247 - system - DEBUG - Added bar: 2025-11-10 02:59:00.241107+00:00 | Close: 25489.5
+2025-11-10 03:00:00,502 - system - DEBUG - Added bar: 2025-11-10 03:00:00.497837+00:00 | Close: 25489.5
+2025-11-10 03:01:01,478 - system - DEBUG - Added bar: 2025-11-10 03:01:01.473422+00:00 | Close: 25486.0
+2025-11-10 03:02:00,793 - system - DEBUG - Added bar: 2025-11-10 03:02:00.780243+00:00 | Close: 25486.25
+2025-11-10 03:03:00,964 - system - DEBUG - Added bar: 2025-11-10 03:03:00.958301+00:00 | Close: 25485.5
+2025-11-10 03:04:00,499 - system - DEBUG - Added bar: 2025-11-10 03:04:00.492412+00:00 | Close: 25482.25
+2025-11-10 03:05:00,937 - system - DEBUG - Added bar: 2025-11-10 03:05:00.933192+00:00 | Close: 25485.0
+2025-11-10 03:06:00,470 - system - DEBUG - Added bar: 2025-11-10 03:06:00.465383+00:00 | Close: 25485.0
+2025-11-10 03:07:00,273 - system - DEBUG - Added bar: 2025-11-10 03:07:00.268846+00:00 | Close: 25485.25
+2025-11-10 03:08:00,666 - system - DEBUG - Added bar: 2025-11-10 03:08:00.661544+00:00 | Close: 25487.0
+2025-11-10 03:09:00,270 - system - DEBUG - Added bar: 2025-11-10 03:09:00.265197+00:00 | Close: 25481.0
+2025-11-10 03:10:00,492 - system - DEBUG - Added bar: 2025-11-10 03:10:00.487687+00:00 | Close: 25477.75
+2025-11-10 03:11:00,280 - system - DEBUG - Added bar: 2025-11-10 03:11:00.275867+00:00 | Close: 25476.5
+2025-11-10 03:12:00,379 - system - DEBUG - Added bar: 2025-11-10 03:12:00.373822+00:00 | Close: 25473.5
+2025-11-10 03:13:00,353 - system - DEBUG - Added bar: 2025-11-10 03:13:00.345830+00:00 | Close: 25463.5
+2025-11-10 03:14:01,112 - system - DEBUG - Added bar: 2025-11-10 03:14:01.107629+00:00 | Close: 25462.0
+2025-11-10 03:15:00,753 - system - DEBUG - Added bar: 2025-11-10 03:15:00.748853+00:00 | Close: 25462.0
+2025-11-10 03:16:01,945 - system - DEBUG - Added bar: 2025-11-10 03:16:01.940725+00:00 | Close: 25467.75
+2025-11-10 03:17:00,513 - system - DEBUG - Added bar: 2025-11-10 03:17:00.506635+00:00 | Close: 25458.75
+2025-11-10 03:18:02,395 - system - DEBUG - Added bar: 2025-11-10 03:18:02.387582+00:00 | Close: 25465.25
+2025-11-10 03:19:00,649 - system - DEBUG - Added bar: 2025-11-10 03:19:00.641858+00:00 | Close: 25463.25
+2025-11-10 03:20:02,481 - system - DEBUG - Added bar: 2025-11-10 03:20:02.476613+00:00 | Close: 25465.25
+2025-11-10 03:21:02,072 - system - DEBUG - Added bar: 2025-11-10 03:21:02.065408+00:00 | Close: 25460.25
+2025-11-10 03:22:01,107 - system - DEBUG - Added bar: 2025-11-10 03:22:01.101880+00:00 | Close: 25466.75
+2025-11-10 03:23:00,667 - system - DEBUG - Added bar: 2025-11-10 03:23:00.663083+00:00 | Close: 25469.75
+2025-11-10 03:24:00,314 - system - DEBUG - Added bar: 2025-11-10 03:24:00.309822+00:00 | Close: 25475.25
+2025-11-10 03:25:00,377 - system - DEBUG - Added bar: 2025-11-10 03:25:00.370784+00:00 | Close: 25481.75
+2025-11-10 03:26:00,362 - system - DEBUG - Added bar: 2025-11-10 03:26:00.356410+00:00 | Close: 25486.25
+2025-11-10 03:27:00,249 - system - DEBUG - Added bar: 2025-11-10 03:27:00.241975+00:00 | Close: 25491.0
+2025-11-10 03:28:00,550 - system - DEBUG - Added bar: 2025-11-10 03:28:00.544998+00:00 | Close: 25489.75
+2025-11-10 03:29:00,575 - system - DEBUG - Added bar: 2025-11-10 03:29:00.570457+00:00 | Close: 25484.5
+2025-11-10 03:30:08,575 - system - DEBUG - Added bar: 2025-11-10 03:30:08.571022+00:00 | Close: 25489.25
+2025-11-10 03:31:00,775 - system - DEBUG - Added bar: 2025-11-10 03:31:00.770048+00:00 | Close: 25489.5
+2025-11-10 03:32:00,371 - system - DEBUG - Added bar: 2025-11-10 03:32:00.366560+00:00 | Close: 25488.25
+2025-11-10 03:33:00,683 - system - DEBUG - Added bar: 2025-11-10 03:33:00.677909+00:00 | Close: 25486.25
+2025-11-10 03:34:00,987 - system - DEBUG - Added bar: 2025-11-10 03:34:00.982146+00:00 | Close: 25492.75
+2025-11-10 03:35:00,758 - system - DEBUG - Added bar: 2025-11-10 03:35:00.753763+00:00 | Close: 25510.25
+2025-11-10 03:36:00,608 - system - DEBUG - Added bar: 2025-11-10 03:36:00.603688+00:00 | Close: 25506.0
+2025-11-10 03:37:00,922 - system - DEBUG - Added bar: 2025-11-10 03:37:00.916563+00:00 | Close: 25511.0
+2025-11-10 03:38:00,575 - system - DEBUG - Added bar: 2025-11-10 03:38:00.570750+00:00 | Close: 25512.5
+2025-11-10 03:39:00,446 - system - DEBUG - Added bar: 2025-11-10 03:39:00.441909+00:00 | Close: 25503.25
+2025-11-10 03:40:00,600 - system - DEBUG - Added bar: 2025-11-10 03:40:00.595590+00:00 | Close: 25504.25
+2025-11-10 03:41:00,349 - system - DEBUG - Added bar: 2025-11-10 03:41:00.344714+00:00 | Close: 25513.25
+2025-11-10 03:42:00,698 - system - DEBUG - Added bar: 2025-11-10 03:42:00.691659+00:00 | Close: 25510.75
+2025-11-10 03:43:00,396 - system - DEBUG - Added bar: 2025-11-10 03:43:00.391591+00:00 | Close: 25513.75
+2025-11-10 03:44:01,292 - system - DEBUG - Added bar: 2025-11-10 03:44:01.284399+00:00 | Close: 25510.75
+2025-11-10 03:45:00,411 - system - DEBUG - Added bar: 2025-11-10 03:45:00.406023+00:00 | Close: 25513.25
+2025-11-10 03:46:00,622 - system - DEBUG - Added bar: 2025-11-10 03:46:00.618210+00:00 | Close: 25511.5
+2025-11-10 03:47:00,809 - system - DEBUG - Added bar: 2025-11-10 03:47:00.802281+00:00 | Close: 25509.5
+2025-11-10 03:48:00,806 - system - DEBUG - Added bar: 2025-11-10 03:48:00.800873+00:00 | Close: 25510.75
+2025-11-10 03:49:00,434 - system - DEBUG - Added bar: 2025-11-10 03:49:00.429912+00:00 | Close: 25515.5
+2025-11-10 03:50:00,432 - system - DEBUG - Added bar: 2025-11-10 03:50:00.427842+00:00 | Close: 25512.75
+2025-11-10 03:51:00,373 - system - DEBUG - Added bar: 2025-11-10 03:51:00.368802+00:00 | Close: 25518.75
+2025-11-10 03:52:01,030 - system - DEBUG - Added bar: 2025-11-10 03:52:01.025724+00:00 | Close: 25520.5
+2025-11-10 03:53:00,398 - system - DEBUG - Added bar: 2025-11-10 03:53:00.393360+00:00 | Close: 25516.75
+2025-11-10 03:54:00,566 - system - DEBUG - Added bar: 2025-11-10 03:54:00.561297+00:00 | Close: 25517.5
+2025-11-10 03:55:00,484 - system - DEBUG - Added bar: 2025-11-10 03:55:00.479513+00:00 | Close: 25514.5
+2025-11-10 03:56:00,615 - system - DEBUG - Added bar: 2025-11-10 03:56:00.609639+00:00 | Close: 25517.5
+2025-11-10 03:57:00,379 - system - DEBUG - Added bar: 2025-11-10 03:57:00.374427+00:00 | Close: 25518.0
+2025-11-10 03:58:00,509 - system - DEBUG - Added bar: 2025-11-10 03:58:00.503657+00:00 | Close: 25520.0
+2025-11-10 03:59:00,593 - system - DEBUG - Added bar: 2025-11-10 03:59:00.588018+00:00 | Close: 25525.0
+2025-11-10 04:00:00,782 - system - DEBUG - Added bar: 2025-11-10 04:00:00.772776+00:00 | Close: 25532.0
+2025-11-10 04:01:01,051 - system - DEBUG - Added bar: 2025-11-10 04:01:01.047249+00:00 | Close: 25527.25
+2025-11-10 04:02:00,534 - system - DEBUG - Added bar: 2025-11-10 04:02:00.529662+00:00 | Close: 25531.0
+2025-11-10 04:03:00,491 - system - DEBUG - Added bar: 2025-11-10 04:03:00.486126+00:00 | Close: 25522.5
+2025-11-10 04:04:00,612 - system - DEBUG - Added bar: 2025-11-10 04:04:00.604994+00:00 | Close: 25529.0
+2025-11-10 04:05:00,715 - system - DEBUG - Added bar: 2025-11-10 04:05:00.711254+00:00 | Close: 25533.0
+2025-11-10 04:06:00,476 - system - DEBUG - Added bar: 2025-11-10 04:06:00.469828+00:00 | Close: 25540.25
+2025-11-10 04:07:00,611 - system - DEBUG - Added bar: 2025-11-10 04:07:00.606791+00:00 | Close: 25538.25
+2025-11-10 04:08:00,506 - system - DEBUG - Added bar: 2025-11-10 04:08:00.501385+00:00 | Close: 25533.5
+2025-11-10 04:09:00,662 - system - DEBUG - Added bar: 2025-11-10 04:09:00.658159+00:00 | Close: 25532.25
+2025-11-10 04:10:00,520 - system - DEBUG - Added bar: 2025-11-10 04:10:00.515776+00:00 | Close: 25533.0
+2025-11-10 04:11:00,740 - system - DEBUG - Added bar: 2025-11-10 04:11:00.735409+00:00 | Close: 25536.25
+2025-11-10 04:12:00,484 - system - DEBUG - Added bar: 2025-11-10 04:12:00.479352+00:00 | Close: 25533.5
+2025-11-10 04:13:00,800 - system - DEBUG - Added bar: 2025-11-10 04:13:00.794034+00:00 | Close: 25542.25
+2025-11-10 04:14:00,669 - system - DEBUG - Added bar: 2025-11-10 04:14:00.663780+00:00 | Close: 25543.25
+2025-11-10 04:15:00,789 - system - DEBUG - Added bar: 2025-11-10 04:15:00.784406+00:00 | Close: 25543.5
+2025-11-10 04:16:01,145 - system - DEBUG - Added bar: 2025-11-10 04:16:01.140289+00:00 | Close: 25549.25
+2025-11-10 04:17:00,495 - system - DEBUG - Added bar: 2025-11-10 04:17:00.490871+00:00 | Close: 25558.5
+2025-11-10 04:18:01,401 - system - DEBUG - Added bar: 2025-11-10 04:18:01.395897+00:00 | Close: 25563.25
+2025-11-10 04:19:00,544 - system - DEBUG - Added bar: 2025-11-10 04:19:00.536694+00:00 | Close: 25559.75
+2025-11-10 04:20:03,124 - system - DEBUG - Added bar: 2025-11-10 04:20:03.117939+00:00 | Close: 25561.0
+2025-11-10 04:21:00,840 - system - DEBUG - Added bar: 2025-11-10 04:21:00.835685+00:00 | Close: 25558.75
+2025-11-10 04:22:00,515 - system - DEBUG - Added bar: 2025-11-10 04:22:00.510760+00:00 | Close: 25554.75
+2025-11-10 04:23:00,450 - system - DEBUG - Added bar: 2025-11-10 04:23:00.444760+00:00 | Close: 25550.75
+2025-11-10 04:24:00,626 - system - DEBUG - Added bar: 2025-11-10 04:24:00.621983+00:00 | Close: 25539.0
+2025-11-10 04:25:00,975 - system - DEBUG - Added bar: 2025-11-10 04:25:00.970711+00:00 | Close: 25546.25
+2025-11-10 04:26:00,897 - system - DEBUG - Added bar: 2025-11-10 04:26:00.892305+00:00 | Close: 25546.5
+2025-11-10 04:27:01,330 - system - DEBUG - Added bar: 2025-11-10 04:27:01.323841+00:00 | Close: 25540.25
+2025-11-10 04:28:00,815 - system - DEBUG - Added bar: 2025-11-10 04:28:00.810508+00:00 | Close: 25539.0
+2025-11-10 04:29:00,670 - system - DEBUG - Added bar: 2025-11-10 04:29:00.665819+00:00 | Close: 25536.25
+2025-11-10 04:30:02,699 - system - DEBUG - Added bar: 2025-11-10 04:30:02.692835+00:00 | Close: 25539.75
+2025-11-10 04:31:03,130 - system - DEBUG - Added bar: 2025-11-10 04:31:03.125406+00:00 | Close: 25540.25
+2025-11-10 04:32:00,500 - system - DEBUG - Added bar: 2025-11-10 04:32:00.495118+00:00 | Close: 25535.25
+2025-11-10 04:33:00,749 - system - DEBUG - Added bar: 2025-11-10 04:33:00.744670+00:00 | Close: 25539.25
+2025-11-10 04:34:00,481 - system - DEBUG - Added bar: 2025-11-10 04:34:00.476936+00:00 | Close: 25533.0
+2025-11-10 04:35:02,551 - system - DEBUG - Added bar: 2025-11-10 04:35:02.546490+00:00 | Close: 25531.25
+2025-11-10 04:36:00,530 - system - DEBUG - Added bar: 2025-11-10 04:36:00.526068+00:00 | Close: 25535.0
+2025-11-10 04:37:00,711 - system - DEBUG - Added bar: 2025-11-10 04:37:00.705329+00:00 | Close: 25530.75
+2025-11-10 04:38:00,623 - system - DEBUG - Added bar: 2025-11-10 04:38:00.618394+00:00 | Close: 25533.25
+2025-11-10 04:39:01,394 - system - DEBUG - Added bar: 2025-11-10 04:39:01.388325+00:00 | Close: 25532.5
+2025-11-10 04:40:01,316 - system - DEBUG - Added bar: 2025-11-10 04:40:01.311711+00:00 | Close: 25541.75
+2025-11-10 04:41:00,760 - system - DEBUG - Added bar: 2025-11-10 04:41:00.755284+00:00 | Close: 25542.25
+2025-11-10 04:42:01,169 - system - DEBUG - Added bar: 2025-11-10 04:42:01.163031+00:00 | Close: 25545.0
+2025-11-10 04:43:03,365 - system - DEBUG - Added bar: 2025-11-10 04:43:03.360902+00:00 | Close: 25544.5
+2025-11-10 04:44:00,497 - system - DEBUG - Added bar: 2025-11-10 04:44:00.492434+00:00 | Close: 25542.75
+2025-11-10 04:45:00,885 - system - DEBUG - Added bar: 2025-11-10 04:45:00.879100+00:00 | Close: 25540.0
+2025-11-10 04:46:00,790 - system - DEBUG - Added bar: 2025-11-10 04:46:00.785337+00:00 | Close: 25539.75
+2025-11-10 04:47:01,811 - system - DEBUG - Added bar: 2025-11-10 04:47:01.804564+00:00 | Close: 25542.25
+2025-11-10 04:48:02,240 - system - DEBUG - Added bar: 2025-11-10 04:48:02.235490+00:00 | Close: 25542.5
+2025-11-10 04:49:00,647 - system - DEBUG - Added bar: 2025-11-10 04:49:00.642310+00:00 | Close: 25546.0
+2025-11-10 04:50:00,955 - system - DEBUG - Added bar: 2025-11-10 04:50:00.950438+00:00 | Close: 25553.0
+2025-11-10 04:51:00,655 - system - DEBUG - Added bar: 2025-11-10 04:51:00.650154+00:00 | Close: 25552.5
+2025-11-10 04:52:00,660 - system - DEBUG - Added bar: 2025-11-10 04:52:00.656135+00:00 | Close: 25558.25
+2025-11-10 04:53:01,269 - system - DEBUG - Added bar: 2025-11-10 04:53:01.264435+00:00 | Close: 25553.0
+2025-11-10 04:54:01,971 - system - DEBUG - Added bar: 2025-11-10 04:54:01.967208+00:00 | Close: 25555.75
+2025-11-10 04:55:02,332 - system - DEBUG - Added bar: 2025-11-10 04:55:02.324933+00:00 | Close: 25552.25
+2025-11-10 04:56:00,749 - system - DEBUG - Added bar: 2025-11-10 04:56:00.744926+00:00 | Close: 25552.75
+2025-11-10 04:57:00,696 - system - DEBUG - Added bar: 2025-11-10 04:57:00.689439+00:00 | Close: 25547.0
+2025-11-10 04:58:00,612 - system - DEBUG - Added bar: 2025-11-10 04:58:00.605122+00:00 | Close: 25546.5
+2025-11-10 04:59:00,972 - system - DEBUG - Added bar: 2025-11-10 04:59:00.967685+00:00 | Close: 25551.25
+2025-11-10 05:00:02,650 - system - DEBUG - Added bar: 2025-11-10 05:00:02.643220+00:00 | Close: 25552.75
+2025-11-10 05:01:03,102 - system - DEBUG - Added bar: 2025-11-10 05:01:03.097666+00:00 | Close: 25549.25
+2025-11-10 05:02:00,829 - system - DEBUG - Added bar: 2025-11-10 05:02:00.823698+00:00 | Close: 25539.5
+2025-11-10 05:03:00,676 - system - DEBUG - Added bar: 2025-11-10 05:03:00.671234+00:00 | Close: 25542.75
+2025-11-10 05:04:00,552 - system - DEBUG - Added bar: 2025-11-10 05:04:00.547216+00:00 | Close: 25542.5
+2025-11-10 05:05:01,483 - system - DEBUG - Added bar: 2025-11-10 05:05:01.478523+00:00 | Close: 25549.75
+2025-11-10 05:06:01,275 - system - DEBUG - Added bar: 2025-11-10 05:06:01.269154+00:00 | Close: 25549.75
+2025-11-10 05:07:01,504 - system - DEBUG - Added bar: 2025-11-10 05:07:01.499791+00:00 | Close: 25545.75
+2025-11-10 05:08:00,793 - system - DEBUG - Added bar: 2025-11-10 05:08:00.787842+00:00 | Close: 25543.5
+2025-11-10 05:09:01,899 - system - DEBUG - Added bar: 2025-11-10 05:09:01.894456+00:00 | Close: 25546.0
+2025-11-10 05:10:00,599 - system - DEBUG - Added bar: 2025-11-10 05:10:00.593211+00:00 | Close: 25540.5
+2025-11-10 05:11:00,810 - system - DEBUG - Added bar: 2025-11-10 05:11:00.806081+00:00 | Close: 25547.25
+2025-11-10 05:12:01,571 - system - DEBUG - Added bar: 2025-11-10 05:12:01.566557+00:00 | Close: 25547.25
+2025-11-10 05:13:00,778 - system - DEBUG - Added bar: 2025-11-10 05:13:00.773483+00:00 | Close: 25547.75
+2025-11-10 05:14:01,188 - system - DEBUG - Added bar: 2025-11-10 05:14:01.183269+00:00 | Close: 25549.0
+2025-11-10 05:15:01,555 - system - DEBUG - Added bar: 2025-11-10 05:15:01.550801+00:00 | Close: 25541.25
+2025-11-10 05:16:01,326 - system - DEBUG - Added bar: 2025-11-10 05:16:01.321978+00:00 | Close: 25545.5
+2025-11-10 05:17:02,019 - system - DEBUG - Added bar: 2025-11-10 05:17:02.015014+00:00 | Close: 25547.0
+2025-11-10 05:18:01,116 - system - DEBUG - Added bar: 2025-11-10 05:18:01.110984+00:00 | Close: 25548.75
+2025-11-10 05:19:00,740 - system - DEBUG - Added bar: 2025-11-10 05:19:00.735382+00:00 | Close: 25546.25
+2025-11-10 05:20:00,573 - system - DEBUG - Added bar: 2025-11-10 05:20:00.568236+00:00 | Close: 25547.25
+2025-11-10 05:21:03,497 - system - DEBUG - Added bar: 2025-11-10 05:21:03.492719+00:00 | Close: 25547.5
+2025-11-10 05:22:00,638 - system - DEBUG - Added bar: 2025-11-10 05:22:00.633482+00:00 | Close: 25542.5
+2025-11-10 05:23:01,426 - system - DEBUG - Added bar: 2025-11-10 05:23:01.421784+00:00 | Close: 25545.75
+2025-11-10 05:24:01,670 - system - DEBUG - Added bar: 2025-11-10 05:24:01.664035+00:00 | Close: 25546.0
+2025-11-10 05:25:01,651 - system - DEBUG - Added bar: 2025-11-10 05:25:01.645572+00:00 | Close: 25542.5
+2025-11-10 05:26:01,074 - system - DEBUG - Added bar: 2025-11-10 05:26:01.070018+00:00 | Close: 25536.5
+2025-11-10 05:27:01,766 - system - DEBUG - Added bar: 2025-11-10 05:27:01.761576+00:00 | Close: 25540.75
+2025-11-10 05:28:00,579 - system - DEBUG - Added bar: 2025-11-10 05:28:00.574287+00:00 | Close: 25538.5
+2025-11-10 05:29:02,144 - system - DEBUG - Added bar: 2025-11-10 05:29:02.139494+00:00 | Close: 25535.75
+2025-11-10 05:30:01,716 - system - DEBUG - Added bar: 2025-11-10 05:30:01.709723+00:00 | Close: 25537.5
+2025-11-10 05:31:01,001 - system - DEBUG - Added bar: 2025-11-10 05:31:00.994655+00:00 | Close: 25543.0
+2025-11-10 05:32:01,399 - system - DEBUG - Added bar: 2025-11-10 05:32:01.394815+00:00 | Close: 25545.25
+2025-11-10 05:33:01,630 - system - DEBUG - Added bar: 2025-11-10 05:33:01.624201+00:00 | Close: 25545.0
+2025-11-10 05:34:00,717 - system - DEBUG - Added bar: 2025-11-10 05:34:00.712535+00:00 | Close: 25543.5
+2025-11-10 05:35:00,895 - system - DEBUG - Added bar: 2025-11-10 05:35:00.888747+00:00 | Close: 25542.75
+2025-11-10 05:36:01,145 - system - DEBUG - Added bar: 2025-11-10 05:36:01.139514+00:00 | Close: 25550.75
+2025-11-10 05:37:00,938 - system - DEBUG - Added bar: 2025-11-10 05:37:00.933102+00:00 | Close: 25554.5
+2025-11-10 05:38:00,773 - system - DEBUG - Added bar: 2025-11-10 05:38:00.768194+00:00 | Close: 25549.5
+2025-11-10 05:39:00,692 - system - DEBUG - Added bar: 2025-11-10 05:39:00.687525+00:00 | Close: 25550.0
+2025-11-10 05:40:00,723 - system - DEBUG - Added bar: 2025-11-10 05:40:00.718184+00:00 | Close: 25552.5
+2025-11-10 05:41:03,525 - system - DEBUG - Added bar: 2025-11-10 05:41:03.517172+00:00 | Close: 25550.75
+2025-11-10 05:42:01,162 - system - DEBUG - Added bar: 2025-11-10 05:42:01.157476+00:00 | Close: 25552.5
+2025-11-10 05:43:01,368 - system - DEBUG - Added bar: 2025-11-10 05:43:01.363756+00:00 | Close: 25550.5
+2025-11-10 05:44:01,068 - system - DEBUG - Added bar: 2025-11-10 05:44:01.064341+00:00 | Close: 25551.0
+2025-11-10 05:45:00,960 - system - DEBUG - Added bar: 2025-11-10 05:45:00.955497+00:00 | Close: 25549.0
+2025-11-10 05:46:01,320 - system - DEBUG - Added bar: 2025-11-10 05:46:01.310189+00:00 | Close: 25547.0
+2025-11-10 05:47:00,709 - system - DEBUG - Added bar: 2025-11-10 05:47:00.702102+00:00 | Close: 25550.0
+2025-11-10 05:48:04,589 - system - DEBUG - Added bar: 2025-11-10 05:48:04.585043+00:00 | Close: 25548.5
+2025-11-10 05:49:01,135 - system - DEBUG - Added bar: 2025-11-10 05:49:01.130750+00:00 | Close: 25546.75
+2025-11-10 05:50:00,803 - system - DEBUG - Added bar: 2025-11-10 05:50:00.795144+00:00 | Close: 25539.0
+2025-11-10 05:51:01,021 - system - DEBUG - Added bar: 2025-11-10 05:51:01.016704+00:00 | Close: 25532.25
+2025-11-10 05:52:01,590 - system - DEBUG - Added bar: 2025-11-10 05:52:01.585067+00:00 | Close: 25529.75
+2025-11-10 05:53:02,145 - system - DEBUG - Added bar: 2025-11-10 05:53:02.140153+00:00 | Close: 25538.0
+2025-11-10 05:54:01,115 - system - DEBUG - Added bar: 2025-11-10 05:54:01.106782+00:00 | Close: 25538.0
+2025-11-10 05:55:00,745 - system - DEBUG - Added bar: 2025-11-10 05:55:00.740862+00:00 | Close: 25539.75
+2025-11-10 05:56:00,592 - system - DEBUG - Added bar: 2025-11-10 05:56:00.588130+00:00 | Close: 25536.5
+2025-11-10 05:57:00,741 - system - DEBUG - Added bar: 2025-11-10 05:57:00.734417+00:00 | Close: 25528.5
+2025-11-10 05:58:00,540 - system - DEBUG - Added bar: 2025-11-10 05:58:00.535946+00:00 | Close: 25531.25
+2025-11-10 05:59:00,511 - system - DEBUG - Added bar: 2025-11-10 05:59:00.504975+00:00 | Close: 25535.5
+2025-11-10 06:00:01,217 - system - DEBUG - Added bar: 2025-11-10 06:00:01.210214+00:00 | Close: 25530.0
+2025-11-10 06:01:00,949 - system - DEBUG - Added bar: 2025-11-10 06:01:00.943583+00:00 | Close: 25527.0
+2025-11-10 06:02:01,657 - system - DEBUG - Added bar: 2025-11-10 06:02:01.652199+00:00 | Close: 25535.0
+2025-11-10 06:03:00,703 - system - DEBUG - Added bar: 2025-11-10 06:03:00.698769+00:00 | Close: 25540.25
+2025-11-10 06:04:00,535 - system - DEBUG - Added bar: 2025-11-10 06:04:00.530063+00:00 | Close: 25543.25
+2025-11-10 06:05:00,535 - system - DEBUG - Added bar: 2025-11-10 06:05:00.530458+00:00 | Close: 25538.25
+2025-11-10 06:06:00,542 - system - DEBUG - Added bar: 2025-11-10 06:06:00.537506+00:00 | Close: 25526.5
+2025-11-10 06:07:00,548 - system - DEBUG - Added bar: 2025-11-10 06:07:00.542985+00:00 | Close: 25526.0
+2025-11-10 06:08:00,710 - system - DEBUG - Added bar: 2025-11-10 06:08:00.703731+00:00 | Close: 25520.5
+2025-11-10 06:09:00,575 - system - DEBUG - Added bar: 2025-11-10 06:09:00.569404+00:00 | Close: 25517.75
+2025-11-10 06:10:01,031 - system - DEBUG - Added bar: 2025-11-10 06:10:01.013142+00:00 | Close: 25515.75
+2025-11-10 06:11:00,530 - system - DEBUG - Added bar: 2025-11-10 06:11:00.525902+00:00 | Close: 25522.0
+2025-11-10 06:12:00,520 - system - DEBUG - Added bar: 2025-11-10 06:12:00.515192+00:00 | Close: 25525.25
+2025-11-10 06:13:00,529 - system - DEBUG - Added bar: 2025-11-10 06:13:00.524934+00:00 | Close: 25520.75
+2025-11-10 06:14:00,501 - system - DEBUG - Added bar: 2025-11-10 06:14:00.494399+00:00 | Close: 25515.75
+2025-11-10 06:15:01,480 - system - DEBUG - Added bar: 2025-11-10 06:15:01.475576+00:00 | Close: 25517.25
+2025-11-10 06:16:00,751 - system - DEBUG - Added bar: 2025-11-10 06:16:00.745727+00:00 | Close: 25520.5
+2025-11-10 06:17:00,688 - system - DEBUG - Added bar: 2025-11-10 06:17:00.683101+00:00 | Close: 25521.0
+2025-11-10 06:18:00,539 - system - DEBUG - Added bar: 2025-11-10 06:18:00.534321+00:00 | Close: 25515.5
+2025-11-10 06:19:00,711 - system - DEBUG - Added bar: 2025-11-10 06:19:00.707218+00:00 | Close: 25513.0
+2025-11-10 06:20:00,534 - system - DEBUG - Added bar: 2025-11-10 06:20:00.526712+00:00 | Close: 25508.25
+2025-11-10 06:21:00,860 - system - DEBUG - Added bar: 2025-11-10 06:21:00.856024+00:00 | Close: 25516.5
+2025-11-10 06:22:00,539 - system - DEBUG - Added bar: 2025-11-10 06:22:00.534721+00:00 | Close: 25522.5
+2025-11-10 06:23:00,497 - system - DEBUG - Added bar: 2025-11-10 06:23:00.491731+00:00 | Close: 25514.75
+2025-11-10 06:24:00,737 - system - DEBUG - Added bar: 2025-11-10 06:24:00.731681+00:00 | Close: 25511.5
+2025-11-10 06:25:00,541 - system - DEBUG - Added bar: 2025-11-10 06:25:00.536758+00:00 | Close: 25508.75
+2025-11-10 06:26:00,736 - system - DEBUG - Added bar: 2025-11-10 06:26:00.731665+00:00 | Close: 25509.0
+2025-11-10 06:27:00,505 - system - DEBUG - Added bar: 2025-11-10 06:27:00.501041+00:00 | Close: 25508.5
+2025-11-10 06:28:02,156 - system - DEBUG - Added bar: 2025-11-10 06:28:02.151616+00:00 | Close: 25518.0
+2025-11-10 06:29:01,010 - system - DEBUG - Added bar: 2025-11-10 06:29:01.005525+00:00 | Close: 25516.75
+2025-11-10 06:30:00,563 - system - DEBUG - Added bar: 2025-11-10 06:30:00.532275+00:00 | Close: 25511.25
+2025-11-10 06:31:01,916 - system - DEBUG - Added bar: 2025-11-10 06:31:01.911503+00:00 | Close: 25511.75
+2025-11-10 06:32:00,971 - system - DEBUG - Added bar: 2025-11-10 06:32:00.966826+00:00 | Close: 25513.5
+2025-11-10 06:33:00,819 - system - DEBUG - Added bar: 2025-11-10 06:33:00.814621+00:00 | Close: 25514.25
+2025-11-10 06:34:01,053 - system - DEBUG - Added bar: 2025-11-10 06:34:01.048664+00:00 | Close: 25509.5
+2025-11-10 06:35:00,722 - system - DEBUG - Added bar: 2025-11-10 06:35:00.717951+00:00 | Close: 25507.5
+2025-11-10 06:36:00,769 - system - DEBUG - Added bar: 2025-11-10 06:36:00.765146+00:00 | Close: 25508.0
+2025-11-10 06:37:00,597 - system - DEBUG - Added bar: 2025-11-10 06:37:00.591173+00:00 | Close: 25509.5
+2025-11-10 06:38:01,246 - system - DEBUG - Added bar: 2025-11-10 06:38:01.241688+00:00 | Close: 25514.5
+2025-11-10 06:39:00,765 - system - DEBUG - Added bar: 2025-11-10 06:39:00.760945+00:00 | Close: 25519.25
+2025-11-10 06:40:00,858 - system - DEBUG - Added bar: 2025-11-10 06:40:00.854027+00:00 | Close: 25521.25
+2025-11-10 06:41:00,597 - system - DEBUG - Added bar: 2025-11-10 06:41:00.591650+00:00 | Close: 25529.25
+2025-11-10 06:42:00,550 - system - DEBUG - Added bar: 2025-11-10 06:42:00.545352+00:00 | Close: 25525.25
+2025-11-10 06:43:00,832 - system - DEBUG - Added bar: 2025-11-10 06:43:00.825315+00:00 | Close: 25523.0
+2025-11-10 06:44:00,744 - system - DEBUG - Added bar: 2025-11-10 06:44:00.735783+00:00 | Close: 25523.75
+2025-11-10 06:45:01,256 - system - DEBUG - Added bar: 2025-11-10 06:45:01.250992+00:00 | Close: 25529.0
+2025-11-10 06:46:00,815 - system - DEBUG - Added bar: 2025-11-10 06:46:00.810857+00:00 | Close: 25533.25
+2025-11-10 06:47:00,534 - system - DEBUG - Added bar: 2025-11-10 06:47:00.527529+00:00 | Close: 25535.0
+2025-11-10 06:48:00,791 - system - DEBUG - Added bar: 2025-11-10 06:48:00.786139+00:00 | Close: 25535.0
+2025-11-10 06:49:00,494 - system - DEBUG - Added bar: 2025-11-10 06:49:00.489369+00:00 | Close: 25531.5
+2025-11-10 06:50:00,551 - system - DEBUG - Added bar: 2025-11-10 06:50:00.544382+00:00 | Close: 25531.25
+2025-11-10 06:51:01,119 - system - DEBUG - Added bar: 2025-11-10 06:51:01.114236+00:00 | Close: 25528.5
+2025-11-10 06:52:00,547 - system - DEBUG - Added bar: 2025-11-10 06:52:00.540586+00:00 | Close: 25532.5
+2025-11-10 06:53:00,822 - system - DEBUG - Added bar: 2025-11-10 06:53:00.815387+00:00 | Close: 25538.0
+2025-11-10 06:54:00,581 - system - DEBUG - Added bar: 2025-11-10 06:54:00.576285+00:00 | Close: 25539.0
+2025-11-10 06:55:00,649 - system - DEBUG - Added bar: 2025-11-10 06:55:00.643001+00:00 | Close: 25541.0
+2025-11-10 06:56:00,714 - system - DEBUG - Added bar: 2025-11-10 06:56:00.709488+00:00 | Close: 25537.75
+2025-11-10 06:57:00,562 - system - DEBUG - Added bar: 2025-11-10 06:57:00.557292+00:00 | Close: 25535.5
+2025-11-10 06:58:00,531 - system - DEBUG - Added bar: 2025-11-10 06:58:00.526702+00:00 | Close: 25538.25
+2025-11-10 06:59:00,731 - system - DEBUG - Added bar: 2025-11-10 06:59:00.725936+00:00 | Close: 25544.5
+2025-11-10 07:00:01,122 - system - DEBUG - Added bar: 2025-11-10 07:00:01.116988+00:00 | Close: 25545.75
+2025-11-10 07:01:00,844 - system - DEBUG - Added bar: 2025-11-10 07:01:00.840091+00:00 | Close: 25545.5
+2025-11-10 07:02:00,522 - system - DEBUG - Added bar: 2025-11-10 07:02:00.515533+00:00 | Close: 25549.5
+2025-11-10 07:03:00,835 - system - DEBUG - Added bar: 2025-11-10 07:03:00.829810+00:00 | Close: 25541.75
+2025-11-10 07:04:00,583 - system - DEBUG - Added bar: 2025-11-10 07:04:00.578085+00:00 | Close: 25536.75
+2025-11-10 07:05:00,694 - system - DEBUG - Added bar: 2025-11-10 07:05:00.689989+00:00 | Close: 25539.5
+2025-11-10 07:06:02,332 - system - DEBUG - Added bar: 2025-11-10 07:06:02.327614+00:00 | Close: 25542.75
+2025-11-10 07:07:00,603 - system - DEBUG - Added bar: 2025-11-10 07:07:00.594840+00:00 | Close: 25528.25
+2025-11-10 07:08:00,891 - system - DEBUG - Added bar: 2025-11-10 07:08:00.883936+00:00 | Close: 25522.0
+2025-11-10 07:09:05,512 - system - DEBUG - Added bar: 2025-11-10 07:09:05.507899+00:00 | Close: 25518.75
+2025-11-10 07:10:00,762 - system - DEBUG - Added bar: 2025-11-10 07:10:00.756192+00:00 | Close: 25525.75
+2025-11-10 07:11:00,861 - system - DEBUG - Added bar: 2025-11-10 07:11:00.856941+00:00 | Close: 25529.25
+2025-11-10 07:12:00,665 - system - DEBUG - Added bar: 2025-11-10 07:12:00.657348+00:00 | Close: 25526.5
+2025-11-10 07:13:00,527 - system - DEBUG - Added bar: 2025-11-10 07:13:00.522551+00:00 | Close: 25529.0
+2025-11-10 07:14:00,434 - system - DEBUG - Added bar: 2025-11-10 07:14:00.429856+00:00 | Close: 25521.5
+2025-11-10 07:15:00,744 - system - DEBUG - Added bar: 2025-11-10 07:15:00.737982+00:00 | Close: 25524.75
+2025-11-10 07:16:01,054 - system - DEBUG - Added bar: 2025-11-10 07:16:01.049103+00:00 | Close: 25517.75
+2025-11-10 07:17:00,554 - system - DEBUG - Added bar: 2025-11-10 07:17:00.549550+00:00 | Close: 25522.0
+2025-11-10 07:18:00,545 - system - DEBUG - Added bar: 2025-11-10 07:18:00.539536+00:00 | Close: 25523.0
+2025-11-10 07:19:00,686 - system - DEBUG - Added bar: 2025-11-10 07:19:00.679812+00:00 | Close: 25518.0
+2025-11-10 07:20:01,114 - system - DEBUG - Added bar: 2025-11-10 07:20:01.109523+00:00 | Close: 25520.25
+2025-11-10 07:21:00,830 - system - DEBUG - Added bar: 2025-11-10 07:21:00.825268+00:00 | Close: 25524.25
+2025-11-10 07:22:02,993 - system - DEBUG - Added bar: 2025-11-10 07:22:02.988475+00:00 | Close: 25527.0
+2025-11-10 07:23:00,689 - system - DEBUG - Added bar: 2025-11-10 07:23:00.684488+00:00 | Close: 25521.5
+2025-11-10 07:24:00,663 - system - DEBUG - Added bar: 2025-11-10 07:24:00.656202+00:00 | Close: 25520.25
+2025-11-10 07:25:00,809 - system - DEBUG - Added bar: 2025-11-10 07:25:00.802725+00:00 | Close: 25523.5
+2025-11-10 07:26:00,552 - system - DEBUG - Added bar: 2025-11-10 07:26:00.547757+00:00 | Close: 25525.5
+2025-11-10 07:27:00,876 - system - DEBUG - Added bar: 2025-11-10 07:27:00.871127+00:00 | Close: 25521.0
+2025-11-10 07:28:01,229 - system - DEBUG - Added bar: 2025-11-10 07:28:01.224791+00:00 | Close: 25517.25
+2025-11-10 07:29:01,316 - system - DEBUG - Added bar: 2025-11-10 07:29:01.311591+00:00 | Close: 25516.5
+2025-11-10 07:30:01,380 - system - DEBUG - Added bar: 2025-11-10 07:30:01.375093+00:00 | Close: 25517.0
+2025-11-10 07:31:01,411 - system - DEBUG - Added bar: 2025-11-10 07:31:01.406577+00:00 | Close: 25518.25
+2025-11-10 07:32:00,733 - system - DEBUG - Added bar: 2025-11-10 07:32:00.727042+00:00 | Close: 25520.25
+2025-11-10 07:33:01,793 - system - DEBUG - Added bar: 2025-11-10 07:33:01.788829+00:00 | Close: 25520.25
+2025-11-10 07:34:01,058 - system - DEBUG - Added bar: 2025-11-10 07:34:01.053909+00:00 | Close: 25522.0
+2025-11-10 07:35:00,679 - system - DEBUG - Added bar: 2025-11-10 07:35:00.674470+00:00 | Close: 25518.25
+2025-11-10 07:36:00,550 - system - DEBUG - Added bar: 2025-11-10 07:36:00.545314+00:00 | Close: 25529.5
+2025-11-10 07:37:00,471 - system - DEBUG - Added bar: 2025-11-10 07:37:00.462430+00:00 | Close: 25524.0
+2025-11-10 07:38:00,825 - system - DEBUG - Added bar: 2025-11-10 07:38:00.818869+00:00 | Close: 25525.25
+2025-11-10 07:39:01,340 - system - DEBUG - Added bar: 2025-11-10 07:39:01.333419+00:00 | Close: 25524.5
+2025-11-10 07:40:01,487 - system - DEBUG - Added bar: 2025-11-10 07:40:01.481419+00:00 | Close: 25521.25
+2025-11-10 07:41:00,773 - system - DEBUG - Added bar: 2025-11-10 07:41:00.768219+00:00 | Close: 25520.25
+2025-11-10 07:42:00,792 - system - DEBUG - Added bar: 2025-11-10 07:42:00.785432+00:00 | Close: 25517.5
+2025-11-10 07:43:00,994 - system - DEBUG - Added bar: 2025-11-10 07:43:00.987424+00:00 | Close: 25523.75
+2025-11-10 07:44:00,721 - system - DEBUG - Added bar: 2025-11-10 07:44:00.716545+00:00 | Close: 25525.25
+2025-11-10 07:45:00,654 - system - DEBUG - Added bar: 2025-11-10 07:45:00.649641+00:00 | Close: 25532.0
+2025-11-10 07:46:00,957 - system - DEBUG - Added bar: 2025-11-10 07:46:00.952493+00:00 | Close: 25529.25
+2025-11-10 07:47:03,208 - system - DEBUG - Added bar: 2025-11-10 07:47:03.203317+00:00 | Close: 25529.0
+2025-11-10 07:48:00,490 - system - DEBUG - Added bar: 2025-11-10 07:48:00.484341+00:00 | Close: 25530.0
+2025-11-10 07:49:00,758 - system - DEBUG - Added bar: 2025-11-10 07:49:00.752291+00:00 | Close: 25522.0
+2025-11-10 07:50:01,214 - system - DEBUG - Added bar: 2025-11-10 07:50:01.209011+00:00 | Close: 25527.0
+2025-11-10 07:51:00,580 - system - DEBUG - Added bar: 2025-11-10 07:51:00.574720+00:00 | Close: 25535.75
+2025-11-10 07:52:01,033 - system - DEBUG - Added bar: 2025-11-10 07:52:01.029069+00:00 | Close: 25535.25
+2025-11-10 07:53:01,074 - system - DEBUG - Added bar: 2025-11-10 07:53:01.069209+00:00 | Close: 25537.0
+2025-11-10 07:54:00,919 - system - DEBUG - Added bar: 2025-11-10 07:54:00.914544+00:00 | Close: 25544.0
+2025-11-10 07:55:01,466 - system - DEBUG - Added bar: 2025-11-10 07:55:01.461594+00:00 | Close: 25542.0
+2025-11-10 07:56:00,665 - system - DEBUG - Added bar: 2025-11-10 07:56:00.660878+00:00 | Close: 25539.25
+2025-11-10 07:57:01,000 - system - DEBUG - Added bar: 2025-11-10 07:57:00.992418+00:00 | Close: 25539.0
+2025-11-10 07:58:00,729 - system - DEBUG - Added bar: 2025-11-10 07:58:00.723918+00:00 | Close: 25543.0
+2025-11-10 07:59:01,046 - system - DEBUG - Added bar: 2025-11-10 07:59:01.041541+00:00 | Close: 25540.25
+2025-11-10 08:00:00,793 - system - DEBUG - Added bar: 2025-11-10 08:00:00.787191+00:00 | Close: 25538.5
+2025-11-10 08:01:00,986 - system - DEBUG - Added bar: 2025-11-10 08:01:00.979873+00:00 | Close: 25545.25
+2025-11-10 08:02:00,980 - system - DEBUG - Added bar: 2025-11-10 08:02:00.974006+00:00 | Close: 25540.0
+2025-11-10 08:03:00,751 - system - DEBUG - Added bar: 2025-11-10 08:03:00.746193+00:00 | Close: 25538.5
+2025-11-10 08:04:00,745 - system - DEBUG - Added bar: 2025-11-10 08:04:00.739455+00:00 | Close: 25539.25
+2025-11-10 08:05:02,566 - system - DEBUG - Added bar: 2025-11-10 08:05:02.560378+00:00 | Close: 25535.5
+2025-11-10 08:06:00,601 - system - DEBUG - Added bar: 2025-11-10 08:06:00.595984+00:00 | Close: 25533.75
+2025-11-10 08:07:01,869 - system - DEBUG - Added bar: 2025-11-10 08:07:01.863394+00:00 | Close: 25540.5
+2025-11-10 08:08:01,471 - system - DEBUG - Added bar: 2025-11-10 08:08:01.465215+00:00 | Close: 25542.5
+2025-11-10 08:09:00,565 - system - DEBUG - Added bar: 2025-11-10 08:09:00.560533+00:00 | Close: 25541.75
+2025-11-10 08:10:00,760 - system - DEBUG - Added bar: 2025-11-10 08:10:00.753904+00:00 | Close: 25543.0
+2025-11-10 08:11:01,679 - system - DEBUG - Added bar: 2025-11-10 08:11:01.674244+00:00 | Close: 25535.5
+2025-11-10 08:12:00,861 - system - DEBUG - Added bar: 2025-11-10 08:12:00.854580+00:00 | Close: 25533.0
+2025-11-10 08:13:00,702 - system - DEBUG - Added bar: 2025-11-10 08:13:00.697485+00:00 | Close: 25526.25
+2025-11-10 08:14:00,697 - system - DEBUG - Added bar: 2025-11-10 08:14:00.692383+00:00 | Close: 25523.5
+2025-11-10 08:15:00,745 - system - DEBUG - Added bar: 2025-11-10 08:15:00.740420+00:00 | Close: 25526.25
+2025-11-10 08:16:00,933 - system - DEBUG - Added bar: 2025-11-10 08:16:00.929094+00:00 | Close: 25529.5
+2025-11-10 08:17:00,777 - system - DEBUG - Added bar: 2025-11-10 08:17:00.769895+00:00 | Close: 25528.5
+2025-11-10 08:18:02,041 - system - DEBUG - Added bar: 2025-11-10 08:18:02.035781+00:00 | Close: 25523.75
+2025-11-10 08:19:02,145 - system - DEBUG - Added bar: 2025-11-10 08:19:02.139706+00:00 | Close: 25525.0
+2025-11-10 08:20:01,316 - system - DEBUG - Added bar: 2025-11-10 08:20:01.310614+00:00 | Close: 25521.75
+2025-11-10 08:21:00,838 - system - DEBUG - Added bar: 2025-11-10 08:21:00.830754+00:00 | Close: 25521.25
+2025-11-10 08:22:00,634 - system - DEBUG - Added bar: 2025-11-10 08:22:00.629687+00:00 | Close: 25524.0
+2025-11-10 08:23:01,249 - system - DEBUG - Added bar: 2025-11-10 08:23:01.243114+00:00 | Close: 25532.0
+2025-11-10 08:24:00,839 - system - DEBUG - Added bar: 2025-11-10 08:24:00.820207+00:00 | Close: 25537.25
+2025-11-10 08:25:01,393 - system - DEBUG - Added bar: 2025-11-10 08:25:01.386878+00:00 | Close: 25534.75
+2025-11-10 08:26:01,725 - system - DEBUG - Added bar: 2025-11-10 08:26:01.720262+00:00 | Close: 25533.5
+2025-11-10 08:27:00,897 - system - DEBUG - Added bar: 2025-11-10 08:27:00.890400+00:00 | Close: 25539.0
+2025-11-10 08:28:00,581 - system - DEBUG - Added bar: 2025-11-10 08:28:00.576052+00:00 | Close: 25543.25
+2025-11-10 08:29:00,542 - system - DEBUG - Added bar: 2025-11-10 08:29:00.535687+00:00 | Close: 25548.25
+2025-11-10 08:30:00,653 - system - DEBUG - Added bar: 2025-11-10 08:30:00.648425+00:00 | Close: 25548.25
+2025-11-10 08:31:00,550 - system - DEBUG - Added bar: 2025-11-10 08:31:00.545591+00:00 | Close: 25547.0
+2025-11-10 08:32:18,902 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-10 08:32:20,903 - system - INFO - Dashboard attached to Flask server
+2025-11-10 08:32:20,911 - system - INFO - Trading Dashboard initialized successfully
+2025-11-10 08:32:20,912 - system - INFO - ============================================================
+2025-11-10 08:32:20,912 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-10 08:32:20,912 - system - INFO - ============================================================
+2025-11-10 08:32:20,913 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-10 08:32:20,914 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-10 08:32:20,914 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-10 08:32:20,914 - system - INFO - ============================================================
+2025-11-10 08:32:20,914 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-10 08:32:20,915 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-10 08:32:20,915 - system - INFO -  Position Manager: ACTIVE
+2025-11-10 08:32:20,915 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-10 08:32:20,916 - system - INFO -  Paper trading: ENABLED
+2025-11-10 08:32:20,916 - system - INFO - ============================================================
+2025-11-10 08:32:20,916 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-10 08:32:44,868 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-10 08:33:00,578 - system - DEBUG - Added bar: 2025-11-10 08:33:00.560247+00:00 | Close: 25552.5
+2025-11-10 08:34:00,718 - system - DEBUG - Added bar: 2025-11-10 08:34:00.713526+00:00 | Close: 25556.5
+2025-11-10 08:35:02,373 - system - DEBUG - Added bar: 2025-11-10 08:35:02.367827+00:00 | Close: 25551.75
+2025-11-10 08:36:00,669 - system - DEBUG - Added bar: 2025-11-10 08:36:00.664041+00:00 | Close: 25557.5
+2025-11-10 08:37:00,591 - system - DEBUG - Added bar: 2025-11-10 08:37:00.584438+00:00 | Close: 25555.75
+2025-11-10 08:38:00,712 - system - DEBUG - Added bar: 2025-11-10 08:38:00.707233+00:00 | Close: 25554.0
+2025-11-10 08:39:00,796 - system - DEBUG - Added bar: 2025-11-10 08:39:00.791582+00:00 | Close: 25554.5
+2025-11-10 08:40:00,805 - system - DEBUG - Added bar: 2025-11-10 08:40:00.798081+00:00 | Close: 25548.0
+2025-11-10 08:41:00,710 - system - DEBUG - Added bar: 2025-11-10 08:41:00.705670+00:00 | Close: 25546.25
+2025-11-10 08:42:00,596 - system - DEBUG - Added bar: 2025-11-10 08:42:00.586319+00:00 | Close: 25541.5
+2025-11-10 08:43:00,664 - system - DEBUG - Added bar: 2025-11-10 08:43:00.658519+00:00 | Close: 25536.5
+2025-11-10 08:44:00,549 - system - DEBUG - Added bar: 2025-11-10 08:44:00.542994+00:00 | Close: 25540.0
+2025-11-10 08:45:00,647 - system - DEBUG - Added bar: 2025-11-10 08:45:00.640475+00:00 | Close: 25541.25
+2025-11-10 08:46:00,761 - system - DEBUG - Added bar: 2025-11-10 08:46:00.756111+00:00 | Close: 25530.75
+2025-11-10 08:47:00,485 - system - DEBUG - Added bar: 2025-11-10 08:47:00.479955+00:00 | Close: 25534.5
+2025-11-10 08:48:00,487 - system - DEBUG - Added bar: 2025-11-10 08:48:00.482085+00:00 | Close: 25532.25
+2025-11-10 08:49:00,507 - system - DEBUG - Added bar: 2025-11-10 08:49:00.500794+00:00 | Close: 25530.75
+2025-11-10 08:50:00,812 - system - DEBUG - Added bar: 2025-11-10 08:50:00.805824+00:00 | Close: 25530.75
+2025-11-10 08:51:00,624 - system - DEBUG - Added bar: 2025-11-10 08:51:00.614651+00:00 | Close: 25533.0
+2025-11-10 08:52:00,647 - system - DEBUG - Added bar: 2025-11-10 08:52:00.642380+00:00 | Close: 25538.75
+2025-11-10 08:53:00,515 - system - DEBUG - Added bar: 2025-11-10 08:53:00.507968+00:00 | Close: 25545.5
+2025-11-10 08:54:00,651 - system - DEBUG - Added bar: 2025-11-10 08:54:00.643737+00:00 | Close: 25546.5
+2025-11-10 08:55:01,181 - system - DEBUG - Added bar: 2025-11-10 08:55:01.174053+00:00 | Close: 25542.75
+2025-11-10 08:55:48,763 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-10 08:56:00,892 - system - DEBUG - Added bar: 2025-11-10 08:56:00.887985+00:00 | Close: 25542.25
+2025-11-10 08:57:00,641 - system - DEBUG - Added bar: 2025-11-10 08:57:00.635525+00:00 | Close: 25552.75
+2025-11-10 08:58:00,631 - system - DEBUG - Added bar: 2025-11-10 08:58:00.626394+00:00 | Close: 25555.5
+2025-11-10 08:59:00,540 - system - DEBUG - Added bar: 2025-11-10 08:59:00.535921+00:00 | Close: 25556.0
+2025-11-10 09:00:00,956 - system - DEBUG - Added bar: 2025-11-10 09:00:00.951072+00:00 | Close: 25555.25
+2025-11-10 09:01:01,349 - system - DEBUG - Added bar: 2025-11-10 09:01:01.341171+00:00 | Close: 25544.0
+2025-11-10 09:02:00,688 - system - DEBUG - Added bar: 2025-11-10 09:02:00.682593+00:00 | Close: 25550.0
+2025-11-10 09:03:00,468 - system - DEBUG - Added bar: 2025-11-10 09:03:00.463758+00:00 | Close: 25550.0
+2025-11-10 09:04:00,522 - system - DEBUG - Added bar: 2025-11-10 09:04:00.516820+00:00 | Close: 25542.75
+2025-11-10 09:05:00,726 - system - DEBUG - Added bar: 2025-11-10 09:05:00.721546+00:00 | Close: 25539.75
+2025-11-10 09:06:00,786 - system - DEBUG - Added bar: 2025-11-10 09:06:00.779944+00:00 | Close: 25540.25
+2025-11-10 09:07:00,566 - system - DEBUG - Added bar: 2025-11-10 09:07:00.561193+00:00 | Close: 25530.0
+2025-11-10 09:08:00,534 - system - DEBUG - Added bar: 2025-11-10 09:08:00.529790+00:00 | Close: 25532.0
+2025-11-10 09:09:01,244 - system - DEBUG - Added bar: 2025-11-10 09:09:01.238470+00:00 | Close: 25538.0
+2025-11-10 09:10:00,751 - system - DEBUG - Added bar: 2025-11-10 09:10:00.745332+00:00 | Close: 25541.0
+2025-11-10 09:11:00,985 - system - DEBUG - Added bar: 2025-11-10 09:11:00.980399+00:00 | Close: 25545.5
+2025-11-10 09:12:01,225 - system - DEBUG - Added bar: 2025-11-10 09:12:01.220451+00:00 | Close: 25540.75
+2025-11-10 09:13:00,618 - system - DEBUG - Added bar: 2025-11-10 09:13:00.614022+00:00 | Close: 25533.25
+2025-11-10 09:14:00,508 - system - DEBUG - Added bar: 2025-11-10 09:14:00.503607+00:00 | Close: 25534.5
+2025-11-10 09:15:00,979 - system - DEBUG - Added bar: 2025-11-10 09:15:00.974259+00:00 | Close: 25532.25
+2025-11-10 09:16:01,091 - system - DEBUG - Added bar: 2025-11-10 09:16:01.086328+00:00 | Close: 25531.25
+2025-11-10 09:17:00,957 - system - DEBUG - Added bar: 2025-11-10 09:17:00.950406+00:00 | Close: 25532.0
+2025-11-10 09:18:00,521 - system - DEBUG - Added bar: 2025-11-10 09:18:00.515523+00:00 | Close: 25531.0
+2025-11-10 09:19:00,569 - system - DEBUG - Added bar: 2025-11-10 09:19:00.562680+00:00 | Close: 25522.0
+2025-11-10 09:20:00,691 - system - DEBUG - Added bar: 2025-11-10 09:20:00.684707+00:00 | Close: 25533.5
+2025-11-10 09:21:00,512 - system - DEBUG - Added bar: 2025-11-10 09:21:00.507010+00:00 | Close: 25536.5
+2025-11-10 09:22:00,477 - system - DEBUG - Added bar: 2025-11-10 09:22:00.471098+00:00 | Close: 25543.75
+2025-11-10 09:23:00,447 - system - DEBUG - Added bar: 2025-11-10 09:23:00.441958+00:00 | Close: 25543.0
+2025-11-10 09:24:00,493 - system - DEBUG - Added bar: 2025-11-10 09:24:00.486734+00:00 | Close: 25543.5
+2025-11-10 09:24:30,846 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-10 09:26:42,387 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-10 09:26:42,855 - system - INFO - Dashboard attached to Flask server
+2025-11-10 09:26:42,860 - system - INFO - Trading Dashboard initialized successfully
+2025-11-10 09:26:42,860 - system - INFO - ============================================================
+2025-11-10 09:26:42,861 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-10 09:26:42,861 - system - INFO - ============================================================
+2025-11-10 09:26:42,861 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-10 09:26:42,861 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-10 09:26:42,862 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-10 09:26:42,862 - system - INFO - ============================================================
+2025-11-10 09:26:42,862 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-10 09:26:42,862 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-10 09:26:42,863 - system - INFO -  Position Manager: ACTIVE
+2025-11-10 09:26:42,863 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-10 09:26:42,863 - system - INFO -  Paper trading: ENABLED
+2025-11-10 09:26:42,863 - system - INFO - ============================================================
+2025-11-10 09:26:42,864 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-10 09:27:00,473 - system - DEBUG - Added bar: 2025-11-10 09:27:00.464207+00:00 | Close: 25547.5
+2025-11-10 09:27:18,576 - system - INFO - Data directory initialized: C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\data
+2025-11-10 09:28:00,606 - system - DEBUG - Added bar: 2025-11-10 09:28:00.600882+00:00 | Close: 25535.25
+2025-11-10 09:29:00,737 - system - DEBUG - Added bar: 2025-11-10 09:29:00.732404+00:00 | Close: 25539.25
+2025-11-10 09:30:01,865 - system - DEBUG - Added bar: 2025-11-10 09:30:01.859266+00:00 | Close: 25538.5
+2025-11-10 09:31:08,260 - system - DEBUG - Added bar: 2025-11-10 09:31:08.256240+00:00 | Close: 25564.0
+2025-11-10 09:32:00,598 - system - DEBUG - Added bar: 2025-11-10 09:32:00.590127+00:00 | Close: 25575.0
+2025-11-10 09:33:00,538 - system - DEBUG - Added bar: 2025-11-10 09:33:00.533616+00:00 | Close: 25577.0
+2025-11-10 09:34:00,639 - system - DEBUG - Added bar: 2025-11-10 09:34:00.634599+00:00 | Close: 25584.0
+2025-11-10 09:35:00,661 - system - DEBUG - Added bar: 2025-11-10 09:35:00.657043+00:00 | Close: 25570.0
+2025-11-10 09:36:00,809 - system - DEBUG - Added bar: 2025-11-10 09:36:00.805086+00:00 | Close: 25600.25
+2025-11-10 09:37:00,781 - system - DEBUG - Added bar: 2025-11-10 09:37:00.773017+00:00 | Close: 25598.25
+2025-11-10 09:38:00,779 - system - DEBUG - Added bar: 2025-11-10 09:38:00.775314+00:00 | Close: 25596.0
+2025-11-10 09:39:00,464 - system - DEBUG - Added bar: 2025-11-10 09:39:00.459681+00:00 | Close: 25605.75
+2025-11-10 09:40:00,501 - system - DEBUG - Added bar: 2025-11-10 09:40:00.497276+00:00 | Close: 25611.5
+2025-11-10 09:41:00,799 - system - DEBUG - Added bar: 2025-11-10 09:41:00.794874+00:00 | Close: 25614.0
+2025-11-10 09:42:00,601 - system - DEBUG - Added bar: 2025-11-10 09:42:00.596344+00:00 | Close: 25617.25
+2025-11-10 09:43:01,755 - system - DEBUG - Added bar: 2025-11-10 09:43:01.750140+00:00 | Close: 25621.0
+2025-11-10 09:44:00,546 - system - DEBUG - Added bar: 2025-11-10 09:44:00.541462+00:00 | Close: 25623.25
+2025-11-10 09:45:00,589 - system - DEBUG - Added bar: 2025-11-10 09:45:00.583914+00:00 | Close: 25629.5
+2025-11-10 09:46:00,680 - system - DEBUG - Added bar: 2025-11-10 09:46:00.675053+00:00 | Close: 25633.5
+2025-11-10 09:47:00,561 - system - DEBUG - Added bar: 2025-11-10 09:47:00.556320+00:00 | Close: 25641.25
+2025-11-10 09:48:00,647 - system - DEBUG - Added bar: 2025-11-10 09:48:00.641645+00:00 | Close: 25630.25
+2025-11-10 09:49:00,523 - system - DEBUG - Added bar: 2025-11-10 09:49:00.518350+00:00 | Close: 25622.75
+2025-11-10 09:50:00,500 - system - DEBUG - Added bar: 2025-11-10 09:50:00.495714+00:00 | Close: 25616.5
+2025-11-10 09:51:00,855 - system - DEBUG - Added bar: 2025-11-10 09:51:00.850189+00:00 | Close: 25597.25
+2025-11-10 09:52:00,601 - system - DEBUG - Added bar: 2025-11-10 09:52:00.595558+00:00 | Close: 25614.25
+2025-11-10 09:53:00,608 - system - DEBUG - Added bar: 2025-11-10 09:53:00.600378+00:00 | Close: 25594.75

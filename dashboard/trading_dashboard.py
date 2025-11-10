@@ -302,43 +302,47 @@ class TradingDashboard:
             Output('signal-indicators', 'children'),
             Input('interval-component', 'n_intervals')
         )
+        @self.app.callback(
+            Output('signal-indicators', 'children'),
+            Input('interval-component', 'n_intervals')
+        )
         def update_signals(n):
             """Update current signal indicators"""
             try:
-                signals = data_handler.get_all_signals()
-                
+                # Let the data handler filter the last 15 minutes (UTC-safe)
+                signals = data_handler.get_all_signals(minutes=15)
+
                 if signals.empty:
-                    return html.Div("No signals generated yet", className="text-muted")
-                
-                # Only show signals from last 15 minutes
-                from datetime import timedelta
-                cutoff_time = datetime.now() - timedelta(minutes=15)
-                recent_signals = signals[signals['timestamp'] > cutoff_time]
-                latest_signals = recent_signals.tail(5) if not recent_signals.empty else signals.tail(5)
-                signal_cards = []
-                
-                for _, signal in latest_signals.iterrows():
-                    color = "success" if signal['signal'] == 'LONG' else "danger"
-                    card = dbc.Card([
-                        dbc.CardBody([
-                            html.H6(f"{signal['strategy'].upper()}: {signal['signal']}", 
-                                   className=f"text-{color}"),
-                            html.P([
-                                f"Price: {signal['price']:.2f} | ",
-                                f"Confidence: {signal['confidence']*100:.0f}%"
-                            ], className="mb-0 small"),
-                            html.P(f"{signal['timestamp'].strftime('%H:%M:%S')}", 
-                                  className="text-muted small mb-0")
-                        ])
-                    ], className="mb-2")
-                    signal_cards.append(card)
-                
-                return html.Div(signal_cards)
-                
+                    return html.Div("No signals generated in the last 15 minutes", className="text-muted")
+
+                latest = signals.tail(5)
+
+                cards = []
+                for _, s in latest.iterrows():
+                    color = "success" if s['signal'] == 'LONG' else "danger"
+                    ts_val = pd.Timestamp(s["timestamp"])
+                    if ts_val.tzinfo is None:
+                        ts_val = ts_val.tz_localize("UTC")
+                    ts = ts_val.tz_convert("UTC").strftime("%H:%M:%S")
+                    cards.append(
+                        dbc.Card(
+                            dbc.CardBody([
+                                html.H6(f"{(s['strategy'] or '').upper()}: {s['signal']}", className=f"text-{color}"),
+                                html.P([
+                                    f"Price: {s['price']:.2f} | ",
+                                    f"Confidence: {int((s['confidence'] or 0)*100)}%"
+                                ], className="mb-0 small"),
+                                html.P(ts, className="text-muted small mb-0")
+                            ]),
+                            className="mb-2"
+                        )
+                    )
+                return html.Div(cards)
+
             except Exception as e:
                 self.logger.error(f"Error updating signals: {e}")
                 return html.Div("Error loading signals", className="text-danger")
-        
+
         @self.app.callback(
             Output('system-status', 'children'),
             Input('interval-component', 'n_intervals')

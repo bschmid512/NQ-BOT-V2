@@ -276,13 +276,17 @@ class TradingViewCaptureV2:
             List of detected candlesticks with properties
         """
         # Convert to HSV for better color detection
+
         hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
-        
-        # Define color ranges for green (bullish) candles - wider range
-        green_lower = np.array([35, 30, 30])
-        green_upper = np.array([90, 255, 255])
-        green_mask = cv2.inRange(hsv, green_lower, green_upper)
-        
+
+        # Green (bullish) – classic + teal band (dark theme)
+        green_lower1 = np.array([35,  30, 30])
+        green_upper1 = np.array([100, 255, 255])
+        green_lower2 = np.array([85,  20, 30])
+        green_upper2 = np.array([125, 255, 255])
+        green_mask  = cv2.inRange(hsv, green_lower1, green_upper1)
+        green_mask |= cv2.inRange(hsv, green_lower2, green_upper2)
+
         # Define color ranges for red (bearish) candles - wider range
         red_lower1 = np.array([0, 30, 30])
         red_upper1 = np.array([15, 255, 255])
@@ -471,22 +475,27 @@ class TradingViewCaptureV2:
         bullish_count = sum(1 for c in candlesticks if c['type'] == 'bullish')
         bearish_count = sum(1 for c in candlesticks if c['type'] == 'bearish')
         total_candles = len(candlesticks)
-        
-        if total_candles > 0:
-            bullish_pct = (bullish_count / total_candles) * 100
-            bearish_pct = (bearish_count / total_candles) * 100
-            
-            # Determine sentiment (requires >60% for strong signal)
-            if bullish_pct > 60:
-                sentiment = 'bullish'
-            elif bearish_pct > 60:
-                sentiment = 'bearish'
-            else:
-                sentiment = 'neutral'
+
+        bullish_pct = (bullish_count / total_candles) * 100 if total_candles else 0.0
+        bearish_pct = (bearish_count / total_candles) * 100 if total_candles else 0.0
+
+        # Uptrend override guard (dark-theme color misread)
+        N = min(30, total_candles)
+        if N >= 12:
+            xs = np.array([c['x'] for c in candlesticks[-N:]])
+            ys = np.array([c['y'] for c in candlesticks[-N:]])  # lower y = higher price on screen
+            slope = np.polyfit(xs, ys, 1)[0]                    # uptrend → negative slope in pixel space
+            if bearish_pct > 70 and slope < -0.03:
+                bullish_pct, bearish_pct = bearish_pct, bullish_pct
+
+        # Softer threshold → fewer false "neutral"
+        if bullish_pct > 55:
+            sentiment = 'bullish'
+        elif bearish_pct > 55:
+            sentiment = 'bearish'
         else:
-            bullish_pct = 0
-            bearish_pct = 0
             sentiment = 'neutral'
+
         
         # Count line types
         horizontal_lines = sum(1 for l in trend_lines if l['type'] == 'horizontal')

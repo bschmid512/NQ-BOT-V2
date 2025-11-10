@@ -1,12 +1,8 @@
-"""
-Opening Range Breakout Strategy — hardened & engine-compatible
-- Computes an opening range dict safely
-- Accepts df/current_bar/or_data/context
-- Returns a consistent signal dict for the fusion engine
-"""
-from datetime import datetime, time
-from typing import Optional, Dict
+from __future__ import annotations
+from datetime import datetime, time, timezone, timedelta
+from typing import Optional, Dict, Any
 
+import numpy as np
 import pandas as pd
 import pytz
 
@@ -19,9 +15,10 @@ class OpeningRangeBreakout:
     Opening Range Breakout Strategy (realistic assumptions)
 
     OR window: first `or_period` minutes after the session start.
-    By default this uses the *calendar day start* as a proxy for session start.
-    If you want explicit 9:30–9:45 ET, tell me and I’ll switch the window to that clock.
+    This version uses 9:30 ET + `or_period` by default.
     """
+
+    name = "orb"
 
     def __init__(self, config: Dict = None):
         cfg = (config or STRATEGIES.get('orb', {})) or {}
@@ -32,7 +29,7 @@ class OpeningRangeBreakout:
         self.min_range_pct = float(cfg.get('min_range_pct', 0.0015))   # 0.15%
         self.max_range_pct = float(cfg.get('max_range_pct', 0.0040))   # 0.40%
         self.weight = float(cfg.get('weight', 0.6))
-        self.optimal_days = cfg.get('optimal_days', [0, 2, 4])         # Mon/Wed/Fri by default
+        self.optimal_days = cfg.get('optimal_days', [0, 2, 4])         # Mon/Wed/Fri
 
         self.logger = trading_logger.strategy_logger
 
@@ -43,82 +40,88 @@ class OpeningRangeBreakout:
         self.current_date = None
         self.trade_taken_today = False
 
+        self._et = pytz.timezone("US/Eastern")
         self.logger.info(
             f"ORB Strategy initialized: period={self.or_period}m, "
             f"target_pct={self.target_pct:.2f}, max_sl={self.max_sl_points}"
         )
 
-    # ---------- helpers ----------
+    # ---------- helpers (NOW inside the class) ----------
 
     def _latest_ts(self, df: Optional[pd.DataFrame], current_bar: Optional[dict]):
         try:
-            if isinstance(current_bar, dict) and current_bar.get("timestamp"):
-                return pd.to_datetime(current_bar["timestamp"])
+            if isinstance(current_bar, dict) and current_bar.get("timestamp") is not None:
+                ts = pd.to_datetime(current_bar["timestamp"], errors="coerce", utc=True)
+                if pd.notna(ts):
+                    return ts
             if df is not None and not df.empty:
-                return df.index[-1]
+                idx = df.index if isinstance(df.index, pd.DatetimeIndex) else pd.to_datetime(
+                    df.get("timestamp"), errors="coerce", utc=True
+                )
+                idx = idx[~idx.isna()]
+                if len(idx):
+                    return idx.max()
         except Exception:
             pass
-        return pd.Timestamp.utcnow()
+        return pd.Timestamp.now(tz="UTC")
 
-    def _compute_opening_range(self, df: Optional[pd.DataFrame]) -> Optional[Dict]:
-        """
-        Build OR dict: {'high','low','size','start','end'} or None if not ready.
-
-        Current implementation uses the first `or_period` minutes of the *day* (00:00 – 00:15 as proxy).
-        If your feed is RTH (9:30) only, I can switch this to 9:30–9:30+or_period ET explicitly.
-        """
+    def _compute_opening_range(self, df: Optional[pd.DataFrame]) -> Optional[Dict[str, Any]]:
         try:
             if df is None or df.empty:
                 return None
 
-            # Ensure we have a DatetimeIndex
-            idx = df.index
-            if not isinstance(idx, pd.DatetimeIndex):
-                if "timestamp" in df.columns:
-                    df = df.copy()
-                    df.index = pd.to_datetime(df["timestamp"])
-                else:
-                    return None
-
-            last_ts = df.index[-1]
-            # Window: first `or_period` minutes of the current day (proxy for session)
-            day_start = last_ts.normalize()
-            or_end = day_start + pd.Timedelta(minutes=self.or_period)
-            or_window = df[(df.index >= day_start) & (df.index < or_end)]
-
-            if or_window.empty or len(or_window) < 2:
+            # Ensure tz-aware index
+            if isinstance(df.index, pd.DatetimeIndex):
+                idx = pd.to_datetime(df.index, errors="coerce", utc=True)
+            elif "timestamp" in df.columns:
+                idx = pd.to_datetime(df["timestamp"], errors="coerce", utc=True)
+            else:
                 return None
 
-            or_high = float(or_window["high"].max())
-            or_low = float(or_window["low"].min())
-            size = max(or_high - or_low, 0.0)
+            mask = ~idx.isna()
+            if not mask.any():
+                return None
+            df = df.loc[mask].copy()
+            df.index = idx[mask]
 
-            # Sanity range filters (by close %)
+            last_ts = df.index.max()
+            if pd.isna(last_ts):
+                return None
+
+            # 9:30 ET -> 9:30 + or_period ET
+            day_et = last_ts.tz_convert(self._et).replace(hour=9, minute=30, second=0, microsecond=0)
+            or_end_et = day_et + pd.Timedelta(minutes=self.or_period)
+            start_utc = day_et.tz_convert("UTC")
+            end_utc = or_end_et.tz_convert("UTC")
+
+            window = df[(df.index >= start_utc) & (df.index < end_utc)]
+            if window.empty or len(window) < 2:
+                return None
+
+            or_high = float(window["high"].max())
+            or_low  = float(window["low"].min())
+            size    = max(or_high - or_low, 0.0)
+
+            # sanity: keep ranges within expected pct of last close
             close_ref = float(df["close"].iloc[-1])
             rng_pct = size / max(1e-9, close_ref)
             if rng_pct < self.min_range_pct or rng_pct > self.max_range_pct:
                 return None
 
-            return {
-                "high": or_high,
-                "low": or_low,
-                "size": size,
-                "start": day_start,
-                "end": or_end,
-            }
+            return {"high": or_high, "low": or_low, "size": size, "start": start_utc, "end": end_utc}
+
         except Exception as e:
             try:
-                self.logger.error(f"ORB: compute range failed: {e}")
+                self.logger.error(f"ORB: compute range failed (guarded): {e}")
             except Exception:
                 pass
             return None
 
     def _is_after_or_window(self, when: pd.Timestamp) -> bool:
-        """Require signals only after OR window completes."""
         try:
-            day_start = when.normalize()
-            or_end = day_start + pd.Timedelta(minutes=self.or_period)
-            return when >= or_end
+            when_et = when.tz_convert(self._et)
+            or_end = when_et.replace(hour=9, minute=30, second=0, microsecond=0) + pd.Timedelta(minutes=self.or_period)
+            return when_et >= or_end
         except Exception:
             return True
 
@@ -134,59 +137,36 @@ class OpeningRangeBreakout:
         return day_of_week in self.optimal_days
 
     def is_within_trading_hours(self, timestamp: datetime) -> bool:
-        """Example RTH check: after OR window up to 16:00 ET."""
-        et = pytz.timezone("US/Eastern")
-        ts_et = timestamp.astimezone(et) if timestamp.tzinfo else et.localize(timestamp)
-        or_end_hour = 9
-        or_end_minute = 30 + self.or_period
-        if or_end_minute >= 60:
-            or_end_hour += 1
-            or_end_minute -= 60
-        or_end_time = time(or_end_hour, or_end_minute)
+        et = self._et
+        ts_et = timestamp.tz_convert(et) if isinstance(timestamp, pd.Timestamp) else et.localize(timestamp)
+        or_end_time = (datetime(2000, 1, 1, 9, 30) + timedelta(minutes=self.or_period)).time()
         return (ts_et.time() >= or_end_time) and (ts_et.time() < time(16, 0))
 
-    def generate_signal(
-        self,
-        df: Optional[pd.DataFrame] = None,
-        current_bar: Optional[dict] = None,
-        or_data: Optional[Dict] = None,
-        context: Optional[Dict] = None,
-    ) -> Optional[Dict]:
+    def generate_signal(self, *args, **kwargs) -> Optional[Dict[str, Any]]:
         """
-        Generate an ORB signal dict or None.
-
-        Returns (example):
-        {
-            "strategy": "orb",
-            "direction": "LONG" | "SHORT",
-            "signal": "LONG" | "SHORT",   # duplicate for backward-compat
-            "price": 12345.0,
-            "stop": 12325.0,
-            "stop_loss": 12325.0,
-            "target": 12395.0,
-            "take_profit": 12395.0,
-            "confidence": 0.6,
-            "reason": "ORB breakout above ...",
-            "timestamp": pd.Timestamp(...),
-            "or_high": ..., "or_low": ..., "or_size": ...
-        }
+        Flexible signature so different engines can call it.
+        Accepts df/current_bar/or_data/context via kwargs or a context dict in args[0].
         """
         try:
+            ctx = args[0] if args and isinstance(args[0], dict) else {}
+            df = kwargs.get("df") or kwargs.get("bars") or ctx.get("df") or ctx.get("bars")
+            current_bar = kwargs.get("current_bar") or ctx.get("current_bar")
+
             ts = self._latest_ts(df, current_bar)
-            # Optional “day filter”
+
+            # Optional day filter & post-OR enforcement
             if not self.should_trade_today(ts.weekday()):
                 return None
-            # Require after OR window ends
             if not self._is_after_or_window(ts):
                 return None
 
-            # Build or_data if not provided/invalid
+            or_data = kwargs.get("or_data") or ctx.get("or_data")
             if not isinstance(or_data, dict) or not {"high", "low", "size"} <= set(or_data.keys()):
                 or_data = self._compute_opening_range(df)
             if not or_data:
                 return None
 
-            # Price from current_bar or last close
+            # price from current_bar or last close
             price = None
             if isinstance(current_bar, dict):
                 price = current_bar.get("close") or current_bar.get("price")
@@ -212,38 +192,23 @@ class OpeningRangeBreakout:
                 stop_price = price - min(size, max_sl)
                 target_dist = max(size * tgt_pct, rr_min * (price - stop_price))
                 target_price = price + target_dist
-                return {
-                    "strategy": self.config.get("name", "orb"),
-                    "direction": "LONG",
-                    "signal": "LONG",
-                    "price": float(price),
-                    "stop": float(stop_price),
-                    "stop_loss": float(stop_price),
-                    "target": float(target_price),
-                    "take_profit": float(target_price),
-                    "confidence": self.weight,
-                    "reason": f"ORB breakout above {or_high:.2f} (size {size:.2f})",
-                    "timestamp": ts,
-                    "or_high": or_high,
-                    "or_low": or_low,
-                    "or_size": size,
-                }
+                direction = "LONG"
+            else:
+                stop_price = price + min(size, max_sl)
+                target_dist = max(size * tgt_pct, rr_min * (stop_price - price))
+                target_price = price - target_dist
+                direction = "SHORT"
 
-            # broke_dn
-            stop_price = price + min(size, max_sl)
-            target_dist = max(size * tgt_pct, rr_min * (stop_price - price))
-            target_price = price - target_dist
             return {
-                "strategy": self.config.get("name", "orb"),
-                "direction": "SHORT",
-                "signal": "SHORT",
+                "strategy": self.name,
+                "direction": direction,              # for engines using 'direction'
+                "signal": direction,                 # for engines using 'signal'
                 "price": float(price),
                 "stop": float(stop_price),
-                "stop_loss": float(stop_price),
+                "stop_loss": float(stop_price),      # dashboard compatibility
                 "target": float(target_price),
-                "take_profit": float(target_price),
-                "confidence": self.weight,
-                "reason": f"ORB breakdown below {or_low:.2f} (size {size:.2f})",
+                "take_profit": float(target_price),  # dashboard compatibility
+                "confidence": float(self.weight),
                 "timestamp": ts,
                 "or_high": or_high,
                 "or_low": or_low,

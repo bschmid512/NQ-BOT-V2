@@ -36852,3 +36852,1242 @@ AttributeError: 'DataHandler' object has no attribute 'append_signal'. Did you m
 2025-11-07 15:32:00,867 - webhook - INFO -  FUSION TRADE OPENED (1 contracts) from fusion signal
 2025-11-07 15:33:00,942 - webhook - INFO - Bar received: 2025-11-07 15:33:00.905796 | O:25083.25 H:25094.50 L:25079.00 C:25093.25 V:2305.0
 2025-11-07 15:33:01,001 - webhook - INFO -  FUSION TRADE OPENED (1 contracts) from fusion signal
+2025-11-07 15:34:00,585 - webhook - INFO - Bar received: 2025-11-07 15:34:00.558116 | O:25092.75 H:25098.00 L:25083.25 C:25087.75 V:2955.0
+2025-11-07 15:35:00,890 - webhook - INFO - Bar received: 2025-11-07 15:35:00.847398 | O:25088.00 H:25091.00 L:25075.50 C:25079.00 V:2224.0
+2025-11-07 15:36:00,971 - webhook - INFO - Bar received: 2025-11-07 15:36:00.938688 | O:25079.50 H:25094.75 L:25078.00 C:25089.50 V:2255.0
+2025-11-07 15:37:00,799 - webhook - INFO - Bar received: 2025-11-07 15:37:00.757082 | O:25089.75 H:25106.25 L:25089.00 C:25098.75 V:3063.0
+2025-11-07 15:38:00,939 - webhook - INFO - Bar received: 2025-11-07 15:38:00.900560 | O:25099.00 H:25099.00 L:25084.50 C:25091.25 V:2911.0
+2025-11-07 15:39:01,254 - webhook - INFO - Bar received: 2025-11-07 15:39:01.202133 | O:25091.00 H:25095.75 L:25086.50 C:25091.50 V:1713.0
+2025-11-07 15:40:00,580 - webhook - INFO - Bar received: 2025-11-07 15:40:00.530733 | O:25091.25 H:25107.25 L:25091.25 C:25103.75 V:2191.0
+2025-11-07 15:41:00,784 - webhook - INFO - Bar received: 2025-11-07 15:41:00.754578 | O:25104.25 H:25112.50 L:25101.50 C:25101.75 V:3233.0
+2025-11-07 15:42:01,257 - webhook - INFO - Bar received: 2025-11-07 15:42:00.653175 | O:25102.25 H:25106.00 L:25081.25 C:25083.75 V:3029.0
+2025-11-07 15:43:00,569 - webhook - INFO - Bar received: 2025-11-07 15:43:00.542556 | O:25083.75 H:25110.25 L:25081.00 C:25110.25 V:3487.0
+2025-11-07 15:43:00,607 - webhook - INFO - Fusion signal from fusion rejected: Max positions reached (1)
+2025-11-07 15:44:00,816 - webhook - INFO - Bar received: 2025-11-07 15:44:00.777038 | O:25110.00 H:25119.25 L:25104.25 C:25119.25 V:3374.0
+2025-11-07 15:45:02,073 - webhook - INFO - Bar received: 2025-11-07 15:45:02.040359 | O:25119.50 H:25136.75 L:25118.25 C:25131.50 V:4805.0
+2025-11-07 15:46:00,754 - webhook - INFO - Bar received: 2025-11-07 15:46:00.717846 | O:25131.25 H:25132.25 L:25116.25 C:25118.50 V:3585.0
+2025-11-07 15:47:00,550 - webhook - INFO - Bar received: 2025-11-07 15:47:00.518930 | O:25117.75 H:25127.25 L:25106.50 C:25107.75 V:3725.0
+2025-11-07 15:48:00,612 - webhook - INFO - Bar received: 2025-11-07 15:48:00.575871 | O:25107.75 H:25119.75 L:25100.00 C:25103.50 V:2825.0
+2025-11-07 15:49:00,610 - webhook - INFO - Bar received: 2025-11-07 15:49:00.568232 | O:25103.00 H:25110.25 L:25097.25 C:25100.75 V:2529.0
+2025-11-07 15:50:00,817 - webhook - INFO - Bar received: 2025-11-07 15:50:00.779634 | O:25100.25 H:25105.00 L:25065.50 C:25067.75 V:4048.0
+2025-11-07 15:51:01,385 - webhook - INFO - Bar received: 2025-11-07 15:51:00.856102 | O:25067.50 H:25112.25 L:25065.00 C:25108.75 V:7431.0
+2025-11-07 15:51:01,427 - webhook - INFO - Fusion signal from fusion rejected: Max positions reached (1)
+2025-11-07 15:52:00,759 - webhook - INFO - Bar received: 2025-11-07 15:52:00.713402 | O:25109.00 H:25114.25 L:25099.25 C:25108.75 V:3458.0
+2025-11-07 15:53:00,575 - webhook - INFO - Bar received: 2025-11-07 15:53:00.531964 | O:25108.50 H:25120.00 L:25106.25 C:25117.25 V:3235.0
+2025-11-07 15:54:01,414 - webhook - INFO - Bar received: 2025-11-07 15:54:00.790141 | O:25117.00 H:25124.50 L:25114.00 C:25115.00 V:2896.0
+2025-11-07 15:55:00,784 - webhook - INFO - Bar received: 2025-11-07 15:55:00.743006 | O:25115.50 H:25126.75 L:25104.50 C:25105.50 V:4620.0
+2025-11-07 15:56:00,600 - webhook - INFO - Bar received: 2025-11-07 15:56:00.572337 | O:25105.00 H:25144.50 L:25095.75 C:25139.50 V:5843.0
+2025-11-07 15:57:01,524 - webhook - INFO - Bar received: 2025-11-07 15:57:01.486775 | O:25139.25 H:25151.00 L:25136.25 C:25146.75 V:3535.0
+2025-11-07 15:58:00,588 - webhook - INFO - Bar received: 2025-11-07 15:58:00.550130 | O:25147.00 H:25153.75 L:25143.25 C:25152.75 V:3109.0
+2025-11-07 15:59:00,591 - webhook - INFO - Bar received: 2025-11-07 15:59:00.552933 | O:25152.75 H:25167.25 L:25149.50 C:25166.25 V:3694.0
+2025-11-07 16:00:00,696 - webhook - INFO - Bar received: 2025-11-07 16:00:00.650798 | O:25167.00 H:25173.00 L:25153.75 C:25164.00 V:8834.0
+2025-11-07 16:01:08,616 - webhook - INFO - Bar received: 2025-11-07 16:01:08.588561 | O:25164.00 H:25185.25 L:25160.75 C:25181.00 V:5547.0
+2025-11-07 16:01:08,648 - webhook - INFO -  FUSION TRADE OPENED (1 contracts) from fusion signal
+2025-11-07 16:02:00,860 - webhook - INFO - Bar received: 2025-11-07 16:02:00.807081 | O:25181.25 H:25186.25 L:25170.25 C:25184.50 V:3153.0
+2025-11-07 16:03:00,743 - webhook - INFO - Bar received: 2025-11-07 16:03:00.695306 | O:25184.75 H:25196.50 L:25184.50 C:25189.00 V:3125.0
+2025-11-07 16:04:00,591 - webhook - INFO - Bar received: 2025-11-07 16:04:00.555541 | O:25188.50 H:25196.00 L:25179.50 C:25195.75 V:2430.0
+2025-11-07 16:05:00,734 - webhook - INFO - Bar received: 2025-11-07 16:05:00.692395 | O:25196.00 H:25205.00 L:25192.25 C:25192.25 V:2510.0
+2025-11-07 16:06:00,585 - webhook - INFO - Bar received: 2025-11-07 16:06:00.537319 | O:25192.00 H:25206.50 L:25189.75 C:25200.75 V:2022.0
+2025-11-07 16:07:00,676 - webhook - INFO - Bar received: 2025-11-07 16:07:00.642542 | O:25199.75 H:25201.00 L:25192.75 C:25198.75 V:1151.0
+2025-11-07 16:08:01,015 - webhook - INFO - Bar received: 2025-11-07 16:08:00.973412 | O:25198.25 H:25199.00 L:25185.50 C:25191.00 V:1783.0
+2025-11-07 16:09:00,627 - webhook - INFO - Bar received: 2025-11-07 16:09:00.577424 | O:25190.75 H:25191.50 L:25184.50 C:25186.50 V:782.0
+2025-11-07 16:10:00,624 - webhook - INFO - Bar received: 2025-11-07 16:10:00.581404 | O:25186.50 H:25198.00 L:25185.50 C:25191.50 V:1230.0
+2025-11-07 16:10:00,678 - webhook - INFO - Fusion signal from fusion rejected: Max positions reached (1)
+2025-11-07 16:11:05,889 - webhook - INFO - Bar received: 2025-11-07 16:11:05.859738 | O:25191.25 H:25197.00 L:25191.00 C:25192.25 V:847.0
+2025-11-07 16:11:05,927 - webhook - INFO - Fusion signal from fusion rejected: Daily loss limit hit ($0.00)
+2025-11-07 16:12:00,641 - webhook - INFO - Bar received: 2025-11-07 16:12:00.612690 | O:25193.00 H:25193.50 L:25185.75 C:25190.75 V:772.0
+2025-11-07 16:13:00,749 - webhook - INFO - Bar received: 2025-11-07 16:13:00.721407 | O:25190.75 H:25193.75 L:25186.75 C:25190.00 V:817.0
+2025-11-07 16:14:00,946 - webhook - INFO - Bar received: 2025-11-07 16:14:00.893735 | O:25190.50 H:25193.00 L:25188.25 C:25192.50 V:465.0
+2025-11-07 16:15:00,788 - webhook - INFO - Bar received: 2025-11-07 16:15:00.754764 | O:25192.75 H:25201.50 L:25192.75 C:25198.50 V:1030.0
+2025-11-07 16:16:01,591 - webhook - INFO - Bar received: 2025-11-07 16:16:01.558952 | O:25198.50 H:25203.75 L:25194.50 C:25201.75 V:1109.0
+2025-11-07 16:17:00,661 - webhook - INFO - Bar received: 2025-11-07 16:17:00.621449 | O:25201.50 H:25215.25 L:25201.50 C:25213.50 V:1405.0
+2025-11-07 16:18:00,759 - webhook - INFO - Bar received: 2025-11-07 16:18:00.712446 | O:25213.75 H:25219.50 L:25211.25 C:25212.50 V:1310.0
+2025-11-07 16:19:00,783 - webhook - INFO - Bar received: 2025-11-07 16:19:00.739692 | O:25212.25 H:25218.75 L:25211.25 C:25217.25 V:838.0
+2025-11-07 16:20:02,299 - webhook - INFO - Bar received: 2025-11-07 16:20:02.263179 | O:25216.75 H:25217.00 L:25204.00 C:25204.75 V:924.0
+2025-11-07 16:21:00,949 - webhook - INFO - Bar received: 2025-11-07 16:21:00.908657 | O:25205.25 H:25210.50 L:25202.25 C:25203.50 V:874.0
+2025-11-07 16:22:01,274 - webhook - INFO - Bar received: 2025-11-07 16:22:00.989703 | O:25204.00 H:25207.75 L:25195.00 C:25204.75 V:1129.0
+2025-11-07 16:22:01,328 - webhook - INFO - Fusion signal from fusion rejected: Daily loss limit hit ($0.00)
+2025-11-07 16:23:00,792 - webhook - INFO - Bar received: 2025-11-07 16:23:00.752656 | O:25205.75 H:25215.00 L:25205.25 C:25214.00 V:783.0
+2025-11-07 16:24:01,672 - webhook - INFO - Bar received: 2025-11-07 16:24:01.619116 | O:25214.00 H:25215.50 L:25211.50 C:25213.75 V:480.0
+2025-11-07 16:25:00,844 - webhook - INFO - Bar received: 2025-11-07 16:25:00.797620 | O:25214.25 H:25214.25 L:25207.25 C:25208.75 V:538.0
+2025-11-07 16:26:00,978 - webhook - INFO - Bar received: 2025-11-07 16:26:00.932495 | O:25209.25 H:25209.50 L:25199.00 C:25202.25 V:802.0
+2025-11-07 16:27:00,601 - webhook - INFO - Bar received: 2025-11-07 16:27:00.572883 | O:25202.00 H:25202.50 L:25199.75 C:25200.25 V:305.0
+2025-11-07 16:28:00,590 - webhook - INFO - Bar received: 2025-11-07 16:28:00.558821 | O:25200.00 H:25201.00 L:25196.75 C:25197.50 V:394.0
+2025-11-07 16:29:00,605 - webhook - INFO - Bar received: 2025-11-07 16:29:00.565911 | O:25198.00 H:25202.00 L:25196.00 C:25201.00 V:549.0
+2025-11-07 16:30:00,744 - webhook - INFO - Bar received: 2025-11-07 16:30:00.707577 | O:25201.50 H:25201.75 L:25197.00 C:25201.00 V:364.0
+2025-11-07 16:31:01,466 - webhook - INFO - Bar received: 2025-11-07 16:31:01.437049 | O:25201.00 H:25206.50 L:25200.75 C:25203.00 V:464.0
+2025-11-07 16:31:01,501 - webhook - INFO - Fusion signal from fusion rejected: Daily loss limit hit ($0.00)
+2025-11-07 16:32:01,320 - webhook - INFO - Bar received: 2025-11-07 16:32:01.282824 | O:25203.00 H:25210.00 L:25202.00 C:25209.25 V:510.0
+2025-11-07 16:33:01,317 - webhook - INFO - Bar received: 2025-11-07 16:33:01.289120 | O:25209.75 H:25213.75 L:25208.50 C:25211.50 V:617.0
+2025-11-07 16:34:00,760 - webhook - INFO - Bar received: 2025-11-07 16:34:00.725759 | O:25211.00 H:25213.50 L:25205.00 C:25211.75 V:526.0
+2025-11-07 16:35:00,832 - webhook - INFO - Bar received: 2025-11-07 16:35:00.797704 | O:25211.75 H:25215.75 L:25211.50 C:25215.50 V:531.0
+2025-11-07 16:36:00,851 - webhook - INFO - Bar received: 2025-11-07 16:36:00.816874 | O:25215.00 H:25217.00 L:25212.75 C:25217.00 V:477.0
+2025-11-07 16:37:00,823 - webhook - INFO - Bar received: 2025-11-07 16:37:00.776177 | O:25216.75 H:25219.50 L:25215.75 C:25216.25 V:711.0
+2025-11-07 16:38:00,622 - webhook - INFO - Bar received: 2025-11-07 16:38:00.591310 | O:25216.00 H:25216.25 L:25214.25 C:25215.00 V:232.0
+2025-11-07 16:39:00,866 - webhook - INFO - Bar received: 2025-11-07 16:39:00.835380 | O:25215.25 H:25216.00 L:25212.75 C:25213.50 V:335.0
+2025-11-07 16:40:01,651 - webhook - INFO - Bar received: 2025-11-07 16:40:01.621348 | O:25214.00 H:25216.75 L:25213.00 C:25215.25 V:356.0
+2025-11-07 16:41:00,781 - webhook - INFO - Bar received: 2025-11-07 16:41:00.745616 | O:25215.00 H:25216.00 L:25211.25 C:25215.25 V:409.0
+2025-11-07 16:42:02,378 - webhook - INFO - Bar received: 2025-11-07 16:42:02.351085 | O:25215.00 H:25216.00 L:25212.25 C:25212.50 V:244.0
+2025-11-07 16:43:00,593 - webhook - INFO - Bar received: 2025-11-07 16:43:00.559697 | O:25213.00 H:25213.25 L:25209.75 C:25210.75 V:429.0
+2025-11-07 16:44:00,986 - webhook - INFO - Bar received: 2025-11-07 16:44:00.959469 | O:25210.75 H:25212.00 L:25208.75 C:25210.25 V:309.0
+2025-11-07 16:45:00,754 - webhook - INFO - Bar received: 2025-11-07 16:45:00.723920 | O:25210.00 H:25211.00 L:25209.00 C:25209.75 V:361.0
+2025-11-07 16:46:01,382 - webhook - INFO - Bar received: 2025-11-07 16:46:01.341167 | O:25210.25 H:25215.00 L:25208.75 C:25212.25 V:444.0
+2025-11-07 16:47:00,779 - webhook - INFO - Bar received: 2025-11-07 16:47:00.744410 | O:25212.00 H:25217.00 L:25211.75 C:25214.75 V:280.0
+2025-11-07 16:48:00,811 - webhook - INFO - Bar received: 2025-11-07 16:48:00.771988 | O:25214.50 H:25216.75 L:25214.00 C:25215.25 V:178.0
+2025-11-07 16:49:00,663 - webhook - INFO - Bar received: 2025-11-07 16:49:00.633852 | O:25215.25 H:25215.25 L:25211.00 C:25212.50 V:379.0
+2025-11-07 16:50:00,736 - webhook - INFO - Bar received: 2025-11-07 16:50:00.708941 | O:25212.25 H:25220.00 L:25212.25 C:25217.50 V:879.0
+2025-11-07 16:51:01,286 - webhook - INFO - Bar received: 2025-11-07 16:51:01.260059 | O:25217.25 H:25221.25 L:25217.00 C:25220.50 V:350.0
+2025-11-07 16:52:00,966 - webhook - INFO - Bar received: 2025-11-07 16:52:00.929667 | O:25220.75 H:25221.75 L:25219.50 C:25219.50 V:302.0
+2025-11-07 16:52:01,035 - webhook - INFO - Fusion signal from fusion rejected: Daily loss limit hit ($0.00)
+2025-11-07 16:53:00,548 - webhook - INFO - Bar received: 2025-11-07 16:53:00.513304 | O:25219.75 H:25219.75 L:25216.00 C:25216.50 V:256.0
+2025-11-07 16:54:01,049 - webhook - INFO - Bar received: 2025-11-07 16:54:01.020378 | O:25216.50 H:25218.25 L:25215.75 C:25216.00 V:161.0
+2025-11-07 16:55:00,723 - webhook - INFO - Bar received: 2025-11-07 16:55:00.695797 | O:25215.50 H:25222.25 L:25215.50 C:25221.50 V:301.0
+2025-11-07 16:56:00,677 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-07 16:56:05,901 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-07 16:56:11,138 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-07 16:56:16,302 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-07 16:57:02,243 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-07 16:57:07,418 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-07 16:57:12,582 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-07 16:57:17,777 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-07 16:58:01,179 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-07 16:58:06,426 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-07 16:58:11,597 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-07 16:58:16,813 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-07 16:59:00,573 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-07 16:59:05,912 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-07 16:59:11,099 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-07 16:59:16,262 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-07 17:01:03,781 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-07 17:01:09,221 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-07 17:01:14,377 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-07 17:01:19,542 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-09 18:14:01,458 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-09 18:14:06,773 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-09 18:14:12,197 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-09 18:14:17,392 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-09 18:15:01,985 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-09 18:15:07,165 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-09 18:15:12,321 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-09 18:15:17,492 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-09 18:16:01,346 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-09 18:16:06,663 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-09 18:16:11,826 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-09 18:16:17,008 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-09 18:17:01,230 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-09 18:17:06,430 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-09 18:17:11,595 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-09 18:17:16,792 - webhook - ERROR - Error processing webhook: 'DataHandler' object has no attribute 'add_bar'
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 93, in receive_webhook
+    data_handler.add_bar(bar_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataHandler' object has no attribute 'add_bar'
+2025-11-09 18:18:01,038 - webhook - INFO - Bar received: 2025-11-09T18:18:00.976518 | O:25334.00 H:25336.00 L:25332.00 C:25333.50 V:422.0
+2025-11-09 18:19:01,019 - webhook - INFO - Bar received: 2025-11-09T18:19:01.013076 | O:25333.50 H:25338.00 L:25330.75 C:25335.50 V:491.0
+2025-11-09 18:20:01,010 - webhook - INFO - Bar received: 2025-11-09T18:20:01.004526 | O:25335.50 H:25335.50 L:25310.50 C:25315.75 V:1487.0
+2025-11-09 18:21:01,199 - webhook - INFO - Bar received: 2025-11-09T18:21:01.193857 | O:25316.50 H:25318.50 L:25302.25 C:25308.00 V:1460.0
+2025-11-09 18:22:01,424 - webhook - INFO - Bar received: 2025-11-09T18:22:01.418609 | O:25307.75 H:25319.50 L:25307.00 C:25317.00 V:660.0
+2025-11-09 18:23:01,107 - webhook - INFO - Bar received: 2025-11-09T18:23:01.100255 | O:25316.75 H:25322.00 L:25312.25 C:25321.50 V:555.0
+2025-11-09 18:24:00,987 - webhook - INFO - Bar received: 2025-11-09T18:24:00.981826 | O:25321.50 H:25326.25 L:25319.00 C:25320.25 V:554.0
+2025-11-09 18:25:01,147 - webhook - INFO - Bar received: 2025-11-09T18:25:01.139943 | O:25321.50 H:25321.50 L:25311.50 C:25313.25 V:591.0
+2025-11-09 18:26:01,456 - webhook - INFO - Bar received: 2025-11-09T18:26:01.448399 | O:25312.50 H:25318.25 L:25312.25 C:25315.75 V:442.0
+2025-11-09 18:27:01,650 - webhook - INFO - Bar received: 2025-11-09T18:27:01.642539 | O:25316.25 H:25317.75 L:25313.50 C:25314.75 V:244.0
+2025-11-09 18:28:01,989 - webhook - INFO - Bar received: 2025-11-09T18:28:01.984055 | O:25314.50 H:25318.50 L:25313.75 C:25317.00 V:246.0
+2025-11-09 18:29:01,042 - webhook - INFO - Bar received: 2025-11-09T18:29:01.033337 | O:25317.25 H:25317.75 L:25304.25 C:25305.50 V:602.0
+2025-11-09 18:30:00,976 - webhook - INFO - Bar received: 2025-11-09T18:30:00.970925 | O:25306.25 H:25308.75 L:25300.00 C:25305.50 V:1036.0
+2025-11-09 18:31:01,029 - webhook - INFO - Bar received: 2025-11-09T18:31:01.022017 | O:25305.50 H:25311.25 L:25293.00 C:25303.50 V:1725.0
+2025-11-09 18:32:01,131 - webhook - INFO - Bar received: 2025-11-09T18:32:01.126149 | O:25303.75 H:25310.75 L:25301.50 C:25310.75 V:837.0
+2025-11-09 18:33:00,959 - webhook - INFO - Bar received: 2025-11-09T18:33:00.953718 | O:25311.00 H:25323.25 L:25311.00 C:25322.50 V:1158.0
+2025-11-09 18:34:01,788 - webhook - INFO - Bar received: 2025-11-09T18:34:01.778867 | O:25321.75 H:25325.00 L:25317.75 C:25323.50 V:655.0
+2025-11-09 18:35:01,019 - webhook - INFO - Bar received: 2025-11-09T18:35:01.013712 | O:25324.50 H:25327.25 L:25321.50 C:25324.75 V:457.0
+2025-11-09 18:36:01,161 - webhook - INFO - Bar received: 2025-11-09T18:36:01.151206 | O:25325.00 H:25325.50 L:25316.75 C:25318.00 V:521.0
+2025-11-09 18:37:01,458 - webhook - INFO - Bar received: 2025-11-09T18:37:01.445458 | O:25318.50 H:25328.00 L:25315.25 C:25325.25 V:698.0
+2025-11-09 18:38:01,330 - webhook - INFO - Bar received: 2025-11-09T18:38:01.325192 | O:25325.50 H:25329.00 L:25322.75 C:25326.75 V:482.0
+2025-11-09 18:39:01,225 - webhook - INFO - Bar received: 2025-11-09T18:39:01.217165 | O:25326.75 H:25327.25 L:25316.75 C:25322.25 V:487.0
+2025-11-09 18:40:03,430 - webhook - INFO - Bar received: 2025-11-09T18:40:03.422771 | O:25321.25 H:25321.25 L:25315.75 C:25316.50 V:304.0
+2025-11-09 18:41:00,936 - webhook - INFO - Bar received: 2025-11-09T18:41:00.928342 | O:25316.25 H:25324.75 L:25316.25 C:25320.50 V:388.0
+2025-11-09 18:42:01,239 - webhook - INFO - Bar received: 2025-11-09T18:42:01.231346 | O:25320.50 H:25325.00 L:25319.75 C:25322.50 V:300.0
+2025-11-09 18:43:01,859 - webhook - INFO - Bar received: 2025-11-09T18:43:01.851811 | O:25323.00 H:25323.50 L:25318.75 C:25321.75 V:211.0
+2025-11-09 18:44:00,971 - webhook - INFO - Bar received: 2025-11-09T18:44:00.963726 | O:25322.25 H:25328.50 L:25321.50 C:25324.75 V:443.0
+2025-11-09 18:45:01,141 - webhook - INFO - Bar received: 2025-11-09T18:45:01.134531 | O:25325.25 H:25325.25 L:25320.75 C:25322.25 V:216.0
+2025-11-09 18:46:01,394 - webhook - INFO - Bar received: 2025-11-09T18:46:01.385752 | O:25322.25 H:25322.25 L:25314.75 C:25317.75 V:470.0
+2025-11-09 18:47:01,638 - webhook - INFO - Bar received: 2025-11-09T18:47:01.632948 | O:25317.75 H:25320.75 L:25316.50 C:25320.75 V:227.0
+2025-11-09 18:48:00,886 - webhook - INFO - Bar received: 2025-11-09T18:48:00.881021 | O:25320.00 H:25327.00 L:25319.25 C:25324.00 V:369.0
+2025-11-09 18:49:01,884 - webhook - INFO - Bar received: 2025-11-09T18:49:01.878121 | O:25323.25 H:25323.75 L:25320.25 C:25322.75 V:224.0
+2025-11-09 18:50:02,007 - webhook - INFO - Bar received: 2025-11-09T18:50:02.002208 | O:25322.00 H:25327.00 L:25322.00 C:25326.75 V:241.0
+2025-11-09 18:51:00,880 - webhook - INFO - Bar received: 2025-11-09T18:51:00.874016 | O:25326.25 H:25330.75 L:25323.50 C:25330.50 V:516.0
+2025-11-09 18:52:01,347 - webhook - INFO - Bar received: 2025-11-09T18:52:01.339687 | O:25330.25 H:25333.75 L:25320.50 C:25330.75 V:856.0
+2025-11-09 18:53:01,719 - webhook - INFO - Bar received: 2025-11-09T18:53:01.713896 | O:25331.50 H:25334.00 L:25329.25 C:25330.25 V:286.0
+2025-11-09 18:54:01,194 - webhook - INFO - Bar received: 2025-11-09T18:54:01.187786 | O:25330.75 H:25338.25 L:25330.75 C:25337.75 V:508.0
+2025-11-09 18:55:00,788 - webhook - INFO - Bar received: 2025-11-09T18:55:00.782978 | O:25337.25 H:25344.00 L:25334.50 C:25343.75 V:699.0
+2025-11-09 18:56:00,952 - webhook - INFO - Bar received: 2025-11-09T18:56:00.945510 | O:25343.50 H:25352.00 L:25339.50 C:25351.00 V:1005.0
+2025-11-09 18:57:01,778 - webhook - INFO - Bar received: 2025-11-09T18:57:01.773211 | O:25351.00 H:25353.50 L:25345.50 C:25346.50 V:772.0
+2025-11-09 18:58:01,114 - webhook - INFO - Bar received: 2025-11-09T18:58:01.109351 | O:25346.25 H:25356.75 L:25346.25 C:25353.00 V:800.0
+2025-11-09 18:59:01,178 - webhook - INFO - Bar received: 2025-11-09T18:59:01.173065 | O:25352.25 H:25352.25 L:25338.25 C:25340.75 V:1055.0
+2025-11-09 19:00:00,918 - webhook - INFO - Bar received: 2025-11-09T19:00:00.911915 | O:25339.75 H:25343.75 L:25335.50 C:25336.00 V:530.0
+2025-11-09 19:01:02,076 - webhook - INFO - Bar received: 2025-11-09T19:01:02.071414 | O:25335.25 H:25335.75 L:25312.50 C:25313.00 V:1797.0
+2025-11-09 19:02:00,829 - webhook - INFO - Bar received: 2025-11-09T19:02:00.822701 | O:25313.50 H:25324.75 L:25309.75 C:25313.50 V:1214.0
+2025-11-09 19:03:16,339 - webhook - INFO - Bar received: 2025-11-09T19:03:16.332126 | O:25314.50 H:25320.75 L:25298.00 C:25316.75 V:1972.0
+2025-11-09 19:04:00,958 - webhook - INFO - Bar received: 2025-11-09T19:04:00.952909 | O:25316.50 H:25317.50 L:25298.50 C:25301.00 V:1211.0
+2025-11-09 19:05:00,828 - webhook - INFO - Bar received: 2025-11-09T19:05:00.822401 | O:25301.50 H:25302.50 L:25282.75 C:25294.50 V:2341.0
+2025-11-09 19:06:00,901 - webhook - INFO - Bar received: 2025-11-09T19:06:00.896606 | O:25294.50 H:25298.25 L:25274.25 C:25278.50 V:1760.0
+2025-11-09 19:07:00,973 - webhook - INFO - Bar received: 2025-11-09T19:07:00.968051 | O:25278.50 H:25282.00 L:25268.75 C:25281.75 V:1349.0
+2025-11-09 19:08:00,898 - webhook - INFO - Bar received: 2025-11-09T19:08:00.891341 | O:25281.50 H:25296.50 L:25281.50 C:25289.25 V:1421.0
+2025-11-09 19:09:01,490 - webhook - INFO - Bar received: 2025-11-09T19:09:01.484482 | O:25289.75 H:25293.25 L:25276.25 C:25293.25 V:916.0
+2025-11-09 19:10:01,073 - webhook - INFO - Bar received: 2025-11-09T19:10:01.067920 | O:25293.00 H:25313.50 L:25293.00 C:25313.25 V:1279.0
+2025-11-09 19:11:01,405 - webhook - INFO - Bar received: 2025-11-09T19:11:01.398839 | O:25312.75 H:25314.50 L:25301.50 C:25307.25 V:1098.0
+2025-11-09 19:12:00,803 - webhook - INFO - Bar received: 2025-11-09T19:12:00.797751 | O:25307.00 H:25316.50 L:25305.50 C:25316.50 V:859.0
+2025-11-09 19:13:00,784 - webhook - INFO - Bar received: 2025-11-09T19:13:00.778482 | O:25316.00 H:25323.25 L:25307.00 C:25319.50 V:1139.0
+2025-11-09 19:14:01,104 - webhook - INFO - Bar received: 2025-11-09T19:14:01.098695 | O:25319.75 H:25319.75 L:25303.50 C:25306.25 V:955.0
+2025-11-09 19:15:00,863 - webhook - INFO - Bar received: 2025-11-09T19:15:00.857460 | O:25306.25 H:25319.50 L:25305.25 C:25313.25 V:668.0
+2025-11-09 19:16:00,864 - webhook - INFO - Bar received: 2025-11-09T19:16:00.858788 | O:25312.75 H:25322.75 L:25309.00 C:25321.75 V:892.0
+2025-11-09 19:17:01,655 - webhook - INFO - Bar received: 2025-11-09T19:17:01.649971 | O:25321.00 H:25323.00 L:25306.00 C:25311.00 V:811.0
+2025-11-09 19:18:00,994 - webhook - INFO - Bar received: 2025-11-09T19:18:00.988973 | O:25311.00 H:25315.00 L:25302.75 C:25308.50 V:814.0
+2025-11-09 19:19:01,305 - webhook - INFO - Bar received: 2025-11-09T19:19:01.299427 | O:25309.25 H:25315.75 L:25308.00 C:25313.75 V:479.0
+2025-11-09 19:20:00,899 - webhook - INFO - Bar received: 2025-11-09T19:20:00.894748 | O:25314.25 H:25320.75 L:25312.00 C:25320.75 V:726.0
+2025-11-09 19:21:00,880 - webhook - INFO - Bar received: 2025-11-09T19:21:00.874864 | O:25321.00 H:25331.50 L:25320.25 C:25330.75 V:1248.0
+2025-11-09 19:22:00,728 - webhook - INFO - Bar received: 2025-11-09T19:22:00.721746 | O:25330.75 H:25334.50 L:25320.00 C:25322.75 V:1232.0
+2025-11-09 19:23:00,687 - webhook - INFO - Bar received: 2025-11-09T19:23:00.682211 | O:25322.50 H:25329.00 L:25316.50 C:25323.50 V:1005.0
+2025-11-09 19:24:00,871 - webhook - INFO - Bar received: 2025-11-09T19:24:00.866415 | O:25322.50 H:25331.50 L:25322.50 C:25330.75 V:574.0
+2025-11-09 19:25:00,800 - webhook - INFO - Bar received: 2025-11-09T19:25:00.795488 | O:25331.50 H:25336.00 L:25318.75 C:25324.00 V:879.0
+2025-11-09 19:26:00,928 - webhook - INFO - Bar received: 2025-11-09T19:26:00.921828 | O:25323.75 H:25327.25 L:25307.25 C:25307.25 V:905.0
+2025-11-09 19:27:00,707 - webhook - INFO - Bar received: 2025-11-09T19:27:00.697898 | O:25308.75 H:25321.75 L:25307.75 C:25308.25 V:951.0
+2025-11-09 19:28:01,254 - webhook - INFO - Bar received: 2025-11-09T19:28:01.244334 | O:25308.50 H:25312.75 L:25306.25 C:25309.25 V:496.0
+2025-11-09 19:29:00,793 - webhook - INFO - Bar received: 2025-11-09T19:29:00.787604 | O:25308.75 H:25316.00 L:25308.75 C:25312.75 V:453.0
+2025-11-09 19:30:01,115 - webhook - INFO - Bar received: 2025-11-09T19:30:01.107886 | O:25313.50 H:25320.00 L:25312.50 C:25315.25 V:419.0
+2025-11-09 19:31:01,270 - webhook - INFO - Bar received: 2025-11-09T19:31:01.265713 | O:25315.50 H:25324.50 L:25308.75 C:25309.75 V:751.0
+2025-11-09 19:32:00,666 - webhook - INFO - Bar received: 2025-11-09T19:32:00.660428 | O:25310.25 H:25332.00 L:25309.75 C:25328.25 V:1179.0
+2025-11-09 19:33:00,633 - webhook - INFO - Bar received: 2025-11-09T19:33:00.627350 | O:25329.00 H:25331.00 L:25319.00 C:25331.00 V:780.0
+2025-11-09 19:34:00,810 - webhook - INFO - Bar received: 2025-11-09T19:34:00.804426 | O:25331.00 H:25336.25 L:25316.75 C:25319.00 V:777.0
+2025-11-09 19:35:00,696 - webhook - INFO - Bar received: 2025-11-09T19:35:00.689708 | O:25319.50 H:25323.50 L:25308.50 C:25315.75 V:831.0
+2025-11-09 19:36:00,707 - webhook - INFO - Bar received: 2025-11-09T19:36:00.702497 | O:25316.75 H:25325.50 L:25315.00 C:25323.75 V:548.0
+2025-11-09 19:37:00,613 - webhook - INFO - Bar received: 2025-11-09T19:37:00.607927 | O:25323.50 H:25325.00 L:25316.50 C:25320.00 V:411.0
+2025-11-09 19:38:00,772 - webhook - INFO - Bar received: 2025-11-09T19:38:00.767289 | O:25320.25 H:25321.75 L:25316.50 C:25319.25 V:449.0
+2025-11-09 19:39:01,420 - webhook - INFO - Bar received: 2025-11-09T19:39:01.414562 | O:25319.25 H:25322.25 L:25312.00 C:25314.75 V:468.0
+2025-11-09 19:40:00,843 - webhook - INFO - Bar received: 2025-11-09T19:40:00.838192 | O:25313.75 H:25319.50 L:25310.75 C:25319.00 V:350.0
+2025-11-09 19:41:00,596 - webhook - INFO - Bar received: 2025-11-09T19:41:00.591635 | O:25318.75 H:25324.25 L:25315.25 C:25322.75 V:289.0
+2025-11-09 19:42:00,818 - webhook - INFO - Bar received: 2025-11-09T19:42:00.813128 | O:25323.25 H:25327.25 L:25314.00 C:25318.00 V:540.0
+2025-11-09 19:43:01,049 - webhook - INFO - Bar received: 2025-11-09T19:43:01.044131 | O:25318.00 H:25318.00 L:25310.75 C:25312.25 V:488.0
+2025-11-09 19:44:00,817 - webhook - INFO - Bar received: 2025-11-09T19:44:00.811721 | O:25312.50 H:25316.00 L:25308.25 C:25312.25 V:571.0
+2025-11-09 19:45:01,473 - webhook - INFO - Bar received: 2025-11-09T19:45:01.467184 | O:25312.50 H:25315.50 L:25306.25 C:25314.75 V:568.0
+2025-11-09 19:46:00,882 - webhook - INFO - Bar received: 2025-11-09T19:46:00.877634 | O:25316.50 H:25317.00 L:25309.25 C:25310.25 V:409.0
+2025-11-09 19:47:00,628 - webhook - INFO - Bar received: 2025-11-09T19:47:00.622628 | O:25309.50 H:25312.00 L:25301.50 C:25307.50 V:928.0
+2025-11-09 19:48:00,686 - webhook - INFO - Bar received: 2025-11-09T19:48:00.680795 | O:25306.75 H:25312.75 L:25305.75 C:25312.00 V:403.0
+2025-11-09 19:49:01,103 - webhook - INFO - Bar received: 2025-11-09T19:49:01.098029 | O:25312.50 H:25322.50 L:25310.75 C:25320.75 V:779.0
+2025-11-09 19:50:00,741 - webhook - INFO - Bar received: 2025-11-09T19:50:00.735266 | O:25321.50 H:25326.75 L:25316.75 C:25319.75 V:758.0
+2025-11-09 19:51:00,843 - webhook - INFO - Bar received: 2025-11-09T19:51:00.837884 | O:25320.25 H:25322.75 L:25311.00 C:25315.75 V:494.0
+2025-11-09 19:52:00,743 - webhook - INFO - Bar received: 2025-11-09T19:52:00.737990 | O:25315.25 H:25326.00 L:25314.75 C:25324.75 V:498.0
+2025-11-09 19:53:00,592 - webhook - INFO - Bar received: 2025-11-09T19:53:00.586609 | O:25324.00 H:25330.00 L:25323.50 C:25326.50 V:746.0
+2025-11-09 19:54:00,639 - webhook - INFO - Bar received: 2025-11-09T19:54:00.633893 | O:25326.50 H:25332.25 L:25325.75 C:25330.00 V:735.0
+2025-11-09 19:55:00,955 - webhook - INFO - Bar received: 2025-11-09T19:55:00.950712 | O:25329.75 H:25331.75 L:25323.25 C:25331.00 V:523.0
+2025-11-09 19:56:00,811 - webhook - INFO - Bar received: 2025-11-09T19:56:00.806342 | O:25330.50 H:25332.00 L:25324.75 C:25327.00 V:276.0
+2025-11-09 19:57:00,650 - webhook - INFO - Bar received: 2025-11-09T19:57:00.645138 | O:25327.50 H:25342.75 L:25325.50 C:25341.25 V:886.0
+2025-11-09 19:58:00,619 - webhook - INFO - Bar received: 2025-11-09T19:58:00.613807 | O:25341.25 H:25346.00 L:25335.75 C:25343.75 V:1480.0
+2025-11-09 19:59:00,883 - webhook - INFO - Bar received: 2025-11-09T19:59:00.877859 | O:25343.75 H:25343.75 L:25334.50 C:25337.25 V:660.0
+2025-11-09 20:00:00,723 - webhook - INFO - Bar received: 2025-11-09T20:00:00.717104 | O:25337.75 H:25341.50 L:25328.75 C:25330.00 V:603.0
+2025-11-09 20:01:01,002 - webhook - INFO - Bar received: 2025-11-09T20:01:00.995284 | O:25329.75 H:25347.00 L:25326.50 C:25339.50 V:1681.0
+2025-11-09 20:02:00,670 - webhook - INFO - Bar received: 2025-11-09T20:02:00.665003 | O:25339.25 H:25353.50 L:25338.25 C:25351.25 V:1700.0
+2025-11-09 20:03:00,760 - webhook - INFO - Bar received: 2025-11-09T20:03:00.753709 | O:25351.00 H:25374.00 L:25347.75 C:25372.50 V:2666.0
+2025-11-09 20:04:00,635 - webhook - INFO - Bar received: 2025-11-09T20:04:00.629833 | O:25373.00 H:25374.00 L:25366.75 C:25368.00 V:1276.0
+2025-11-09 20:05:00,797 - webhook - INFO - Bar received: 2025-11-09T20:05:00.792305 | O:25368.50 H:25371.25 L:25360.75 C:25363.75 V:1178.0
+2025-11-09 20:06:00,878 - webhook - INFO - Bar received: 2025-11-09T20:06:00.873451 | O:25363.00 H:25370.75 L:25362.00 C:25367.50 V:866.0
+2025-11-09 20:07:00,730 - webhook - INFO - Bar received: 2025-11-09T20:07:00.725015 | O:25367.75 H:25373.00 L:25364.75 C:25369.50 V:828.0
+2025-11-09 20:08:00,693 - webhook - INFO - Bar received: 2025-11-09T20:08:00.685391 | O:25370.00 H:25370.25 L:25364.75 C:25369.00 V:614.0
+2025-11-09 20:09:00,563 - webhook - INFO - Bar received: 2025-11-09T20:09:00.555790 | O:25368.50 H:25372.00 L:25364.75 C:25370.25 V:698.0
+2025-11-09 20:10:00,763 - webhook - INFO - Bar received: 2025-11-09T20:10:00.758040 | O:25370.50 H:25373.25 L:25365.00 C:25367.75 V:707.0
+2025-11-09 20:11:01,094 - webhook - INFO - Bar received: 2025-11-09T20:11:01.088928 | O:25368.25 H:25376.50 L:25367.50 C:25376.25 V:994.0
+2025-11-09 20:12:00,635 - webhook - INFO - Bar received: 2025-11-09T20:12:00.627942 | O:25375.75 H:25379.50 L:25373.50 C:25374.50 V:1396.0
+2025-11-09 20:13:01,030 - webhook - INFO - Bar received: 2025-11-09T20:13:01.021921 | O:25374.00 H:25376.00 L:25372.00 C:25375.50 V:425.0
+2025-11-09 20:14:00,850 - webhook - INFO - Bar received: 2025-11-09T20:14:00.844723 | O:25376.00 H:25382.75 L:25376.00 C:25381.25 V:1039.0
+2025-11-09 20:15:01,183 - webhook - INFO - Bar received: 2025-11-09T20:15:01.177710 | O:25381.50 H:25382.50 L:25378.00 C:25379.50 V:539.0
+2025-11-09 20:16:00,791 - webhook - INFO - Bar received: 2025-11-09T20:16:00.783571 | O:25379.50 H:25382.50 L:25375.00 C:25381.00 V:749.0
+2025-11-09 20:17:00,566 - webhook - INFO - Bar received: 2025-11-09T20:17:00.559254 | O:25381.00 H:25382.75 L:25374.75 C:25382.00 V:687.0
+2025-11-09 20:18:01,578 - webhook - INFO - Bar received: 2025-11-09T20:18:01.570015 | O:25382.25 H:25384.25 L:25378.75 C:25382.50 V:592.0
+2025-11-09 20:19:01,022 - webhook - INFO - Bar received: 2025-11-09T20:19:01.016768 | O:25383.50 H:25386.75 L:25376.00 C:25377.25 V:1014.0
+2025-11-09 20:20:01,017 - webhook - INFO - Bar received: 2025-11-09T20:20:01.012442 | O:25376.50 H:25380.00 L:25372.50 C:25377.50 V:683.0
+2025-11-09 20:21:01,266 - webhook - INFO - Bar received: 2025-11-09T20:21:01.261024 | O:25377.75 H:25384.50 L:25377.50 C:25383.00 V:593.0
+2025-11-09 20:22:00,712 - webhook - INFO - Bar received: 2025-11-09T20:22:00.700357 | O:25383.75 H:25389.00 L:25371.75 C:25374.75 V:1038.0
+2025-11-09 20:23:00,791 - webhook - INFO - Bar received: 2025-11-09T20:23:00.786070 | O:25375.00 H:25382.25 L:25374.00 C:25381.25 V:607.0
+2025-11-09 20:24:00,688 - webhook - INFO - Bar received: 2025-11-09T20:24:00.682780 | O:25381.75 H:25389.00 L:25380.75 C:25387.75 V:764.0
+2025-11-09 20:25:00,747 - webhook - INFO - Bar received: 2025-11-09T20:25:00.726547 | O:25387.25 H:25388.50 L:25382.75 C:25385.75 V:428.0
+2025-11-09 20:26:01,464 - webhook - INFO - Bar received: 2025-11-09T20:26:01.459714 | O:25385.50 H:25389.00 L:25385.00 C:25388.50 V:375.0
+2025-11-09 20:27:00,659 - webhook - INFO - Bar received: 2025-11-09T20:27:00.652825 | O:25388.75 H:25400.00 L:25386.00 C:25397.25 V:1774.0
+2025-11-09 20:28:00,709 - webhook - INFO - Bar received: 2025-11-09T20:28:00.704419 | O:25397.50 H:25403.75 L:25393.50 C:25402.00 V:1372.0
+2025-11-09 20:29:00,546 - webhook - INFO - Bar received: 2025-11-09T20:29:00.541633 | O:25401.50 H:25402.75 L:25392.00 C:25393.50 V:997.0
+2025-11-09 20:30:00,580 - webhook - INFO - Bar received: 2025-11-09T20:30:00.573871 | O:25393.00 H:25395.00 L:25382.75 C:25386.75 V:845.0
+2025-11-09 20:31:00,755 - webhook - INFO - Bar received: 2025-11-09T20:31:00.748708 | O:25386.25 H:25386.50 L:25377.75 C:25382.00 V:1115.0
+2025-11-09 20:32:00,525 - webhook - INFO - Bar received: 2025-11-09T20:32:00.519370 | O:25381.50 H:25383.25 L:25377.25 C:25379.50 V:608.0
+2025-11-09 20:33:00,690 - webhook - INFO - Bar received: 2025-11-09T20:33:00.682491 | O:25379.75 H:25382.50 L:25376.50 C:25378.25 V:549.0
+2025-11-09 20:34:00,705 - webhook - INFO - Bar received: 2025-11-09T20:34:00.699540 | O:25378.00 H:25381.50 L:25374.50 C:25379.50 V:522.0
+2025-11-09 20:35:00,601 - webhook - INFO - Bar received: 2025-11-09T20:35:00.595744 | O:25380.25 H:25384.75 L:25376.50 C:25378.75 V:669.0
+2025-11-09 20:36:00,486 - webhook - INFO - Bar received: 2025-11-09T20:36:00.480832 | O:25378.25 H:25384.75 L:25375.25 C:25381.00 V:618.0
+2025-11-09 20:37:00,574 - webhook - INFO - Bar received: 2025-11-09T20:37:00.568996 | O:25380.75 H:25383.00 L:25378.50 C:25381.50 V:340.0
+2025-11-09 20:38:00,717 - webhook - INFO - Bar received: 2025-11-09T20:38:00.712082 | O:25381.00 H:25383.25 L:25374.75 C:25377.00 V:385.0
+2025-11-09 20:39:00,727 - webhook - INFO - Bar received: 2025-11-09T20:39:00.719859 | O:25377.00 H:25384.75 L:25376.25 C:25384.50 V:456.0
+2025-11-09 20:40:00,619 - webhook - INFO - Bar received: 2025-11-09T20:40:00.614274 | O:25384.25 H:25392.75 L:25381.75 C:25392.50 V:792.0
+2025-11-09 20:41:00,648 - webhook - INFO - Bar received: 2025-11-09T20:41:00.640911 | O:25392.50 H:25394.25 L:25388.00 C:25391.00 V:960.0
+2025-11-09 20:42:00,584 - webhook - INFO - Bar received: 2025-11-09T20:42:00.579018 | O:25391.00 H:25391.25 L:25383.75 C:25384.25 V:586.0
+2025-11-09 20:43:00,769 - webhook - INFO - Bar received: 2025-11-09T20:43:00.763236 | O:25384.25 H:25389.25 L:25383.75 C:25387.25 V:379.0
+2025-11-09 20:44:00,598 - webhook - INFO - Bar received: 2025-11-09T20:44:00.593494 | O:25386.75 H:25387.00 L:25383.00 C:25385.00 V:249.0
+2025-11-09 20:45:00,921 - webhook - INFO - Bar received: 2025-11-09T20:45:00.916913 | O:25385.00 H:25385.50 L:25377.75 C:25378.75 V:551.0
+2025-11-09 20:46:00,577 - webhook - INFO - Bar received: 2025-11-09T20:46:00.572488 | O:25378.50 H:25386.75 L:25377.75 C:25386.25 V:587.0
+2025-11-09 20:47:00,683 - webhook - INFO - Bar received: 2025-11-09T20:47:00.678373 | O:25386.25 H:25392.75 L:25383.75 C:25391.00 V:708.0
+2025-11-09 20:48:00,556 - webhook - INFO - Bar received: 2025-11-09T20:48:00.549164 | O:25390.25 H:25394.75 L:25388.00 C:25393.00 V:461.0
+2025-11-09 20:49:01,064 - webhook - INFO - Bar received: 2025-11-09T20:49:01.056848 | O:25393.00 H:25403.25 L:25392.75 C:25402.50 V:1096.0
+2025-11-09 20:50:01,102 - webhook - INFO - Bar received: 2025-11-09T20:50:01.097198 | O:25402.75 H:25411.75 L:25402.00 C:25410.00 V:1456.0
+2025-11-09 20:51:00,805 - webhook - INFO - Bar received: 2025-11-09T20:51:00.800504 | O:25410.50 H:25415.00 L:25409.25 C:25413.50 V:1013.0
+2025-11-09 20:52:01,348 - webhook - INFO - Bar received: 2025-11-09T20:52:01.342554 | O:25413.00 H:25423.50 L:25412.25 C:25420.50 V:1579.0
+2025-11-09 20:53:00,507 - webhook - INFO - Bar received: 2025-11-09T20:53:00.502075 | O:25420.75 H:25436.50 L:25418.00 C:25431.25 V:2215.0
+2025-11-09 20:54:00,657 - webhook - INFO - Bar received: 2025-11-09T20:54:00.651979 | O:25431.25 H:25437.50 L:25429.00 C:25433.75 V:1164.0
+2025-11-09 20:55:00,697 - webhook - INFO - Bar received: 2025-11-09T20:55:00.691278 | O:25434.00 H:25436.25 L:25427.75 C:25429.50 V:597.0
+2025-11-09 20:56:00,510 - webhook - INFO - Bar received: 2025-11-09T20:56:00.504389 | O:25430.25 H:25434.75 L:25430.00 C:25434.50 V:568.0
+2025-11-09 20:57:00,964 - webhook - INFO - Bar received: 2025-11-09T20:57:00.955600 | O:25434.75 H:25436.00 L:25429.75 C:25432.25 V:570.0
+2025-11-09 20:58:00,550 - webhook - INFO - Bar received: 2025-11-09T20:58:00.545271 | O:25431.25 H:25432.75 L:25427.50 C:25430.25 V:449.0
+2025-11-09 20:59:00,540 - webhook - INFO - Bar received: 2025-11-09T20:59:00.534792 | O:25430.50 H:25432.75 L:25428.50 C:25430.25 V:404.0
+2025-11-09 21:00:00,973 - webhook - INFO - Bar received: 2025-11-09T21:00:00.965466 | O:25430.75 H:25431.50 L:25427.00 C:25428.50 V:391.0
+2025-11-09 21:01:01,297 - webhook - INFO - Bar received: 2025-11-09T21:01:01.290776 | O:25428.50 H:25430.25 L:25425.00 C:25429.50 V:717.0
+2025-11-09 21:02:00,528 - webhook - INFO - Bar received: 2025-11-09T21:02:00.523378 | O:25429.25 H:25432.00 L:25425.75 C:25430.75 V:412.0
+2025-11-09 21:03:00,545 - webhook - INFO - Bar received: 2025-11-09T21:03:00.538376 | O:25430.75 H:25432.00 L:25425.00 C:25425.00 V:376.0
+2025-11-09 21:04:01,939 - webhook - INFO - Bar received: 2025-11-09T21:04:01.933972 | O:25425.50 H:25430.50 L:25424.25 C:25428.50 V:278.0
+2025-11-09 21:05:01,500 - webhook - INFO - Bar received: 2025-11-09T21:05:01.495531 | O:25428.50 H:25429.00 L:25425.75 C:25427.25 V:397.0
+2025-11-09 21:06:00,562 - webhook - INFO - Bar received: 2025-11-09T21:06:00.557008 | O:25426.75 H:25432.75 L:25426.50 C:25430.50 V:291.0
+2025-11-09 21:07:00,726 - webhook - INFO - Bar received: 2025-11-09T21:07:00.716034 | O:25430.50 H:25431.00 L:25427.25 C:25427.75 V:358.0
+2025-11-09 21:08:00,471 - webhook - INFO - Bar received: 2025-11-09T21:08:00.465714 | O:25427.25 H:25428.00 L:25410.25 C:25412.25 V:1411.0
+2025-11-09 21:09:00,699 - webhook - INFO - Bar received: 2025-11-09T21:09:00.694014 | O:25411.75 H:25419.75 L:25409.50 C:25416.75 V:758.0
+2025-11-09 21:10:00,905 - webhook - INFO - Bar received: 2025-11-09T21:10:00.899779 | O:25416.75 H:25419.00 L:25412.00 C:25417.00 V:597.0
+2025-11-09 21:11:00,587 - webhook - INFO - Bar received: 2025-11-09T21:11:00.579331 | O:25416.50 H:25423.25 L:25414.75 C:25420.25 V:451.0
+2025-11-09 21:12:00,706 - webhook - INFO - Bar received: 2025-11-09T21:12:00.699183 | O:25420.50 H:25422.25 L:25417.75 C:25421.00 V:258.0
+2025-11-09 21:13:00,567 - webhook - INFO - Bar received: 2025-11-09T21:13:00.561688 | O:25421.00 H:25425.75 L:25417.50 C:25423.50 V:514.0
+2025-11-09 21:14:00,664 - webhook - INFO - Bar received: 2025-11-09T21:14:00.658245 | O:25423.00 H:25427.75 L:25422.00 C:25425.00 V:390.0
+2025-11-09 21:15:00,871 - webhook - INFO - Bar received: 2025-11-09T21:15:00.865568 | O:25424.25 H:25425.25 L:25418.25 C:25421.25 V:542.0
+2025-11-09 21:16:00,638 - webhook - INFO - Bar received: 2025-11-09T21:16:00.629749 | O:25421.25 H:25428.75 L:25420.75 C:25428.00 V:432.0
+2025-11-09 21:17:00,886 - webhook - INFO - Bar received: 2025-11-09T21:17:00.881355 | O:25427.25 H:25428.00 L:25422.50 C:25426.75 V:416.0
+2025-11-09 21:18:00,629 - webhook - INFO - Bar received: 2025-11-09T21:18:00.624301 | O:25426.00 H:25427.00 L:25422.50 C:25424.25 V:289.0
+2025-11-09 21:19:00,480 - webhook - INFO - Bar received: 2025-11-09T21:19:00.474967 | O:25424.00 H:25425.75 L:25418.25 C:25419.50 V:355.0
+2025-11-09 21:20:00,763 - webhook - INFO - Bar received: 2025-11-09T21:20:00.757905 | O:25419.25 H:25422.00 L:25416.75 C:25420.75 V:506.0
+2025-11-09 21:21:00,556 - webhook - INFO - Bar received: 2025-11-09T21:21:00.551380 | O:25420.50 H:25423.50 L:25416.75 C:25420.75 V:369.0
+2025-11-09 21:22:00,902 - webhook - INFO - Bar received: 2025-11-09T21:22:00.895106 | O:25420.25 H:25424.25 L:25419.25 C:25422.75 V:275.0
+2025-11-09 21:23:01,512 - webhook - INFO - Bar received: 2025-11-09T21:23:01.506863 | O:25422.00 H:25426.75 L:25421.50 C:25425.75 V:468.0
+2025-11-09 21:24:00,826 - webhook - INFO - Bar received: 2025-11-09T21:24:00.821151 | O:25425.25 H:25430.75 L:25425.00 C:25428.50 V:472.0
+2025-11-09 21:25:01,470 - webhook - INFO - Bar received: 2025-11-09T21:25:01.465109 | O:25428.50 H:25428.50 L:25422.50 C:25423.50 V:283.0
+2025-11-09 21:26:01,326 - webhook - INFO - Bar received: 2025-11-09T21:26:01.321711 | O:25423.75 H:25425.75 L:25422.25 C:25422.25 V:176.0
+2025-11-09 21:27:02,827 - webhook - INFO - Bar received: 2025-11-09T21:27:02.821727 | O:25422.25 H:25424.25 L:25420.25 C:25424.00 V:223.0
+2025-11-09 21:28:01,284 - webhook - INFO - Bar received: 2025-11-09T21:28:01.277417 | O:25422.50 H:25424.75 L:25420.00 C:25423.25 V:175.0
+2025-11-09 21:29:00,725 - webhook - INFO - Bar received: 2025-11-09T21:29:00.718578 | O:25422.00 H:25422.75 L:25419.00 C:25420.50 V:203.0
+2025-11-09 21:30:01,125 - webhook - INFO - Bar received: 2025-11-09T21:30:01.119962 | O:25420.00 H:25423.50 L:25420.00 C:25423.00 V:231.0
+2025-11-09 21:31:00,911 - webhook - INFO - Bar received: 2025-11-09T21:31:00.905744 | O:25423.25 H:25434.25 L:25423.25 C:25434.25 V:543.0
+2025-11-09 21:32:01,403 - webhook - INFO - Bar received: 2025-11-09T21:32:01.395123 | O:25434.00 H:25435.50 L:25429.50 C:25431.00 V:525.0
+2025-11-09 21:33:00,778 - webhook - INFO - Bar received: 2025-11-09T21:33:00.772898 | O:25431.00 H:25432.75 L:25424.25 C:25431.75 V:405.0
+2025-11-09 21:34:01,260 - webhook - INFO - Bar received: 2025-11-09T21:34:01.255653 | O:25431.25 H:25434.75 L:25431.25 C:25433.25 V:286.0
+2025-11-09 21:35:02,117 - webhook - INFO - Bar received: 2025-11-09T21:35:02.111816 | O:25433.50 H:25434.50 L:25426.25 C:25428.00 V:341.0
+2025-11-09 21:36:01,699 - webhook - INFO - Bar received: 2025-11-09T21:36:01.691590 | O:25427.75 H:25432.00 L:25427.00 C:25428.50 V:209.0
+2025-11-09 21:37:01,424 - webhook - INFO - Bar received: 2025-11-09T21:37:01.419265 | O:25428.00 H:25434.00 L:25426.25 C:25434.00 V:292.0
+2025-11-09 21:38:01,045 - webhook - INFO - Bar received: 2025-11-09T21:38:01.039977 | O:25433.00 H:25433.50 L:25431.00 C:25431.25 V:150.0
+2025-11-09 21:39:00,880 - webhook - INFO - Bar received: 2025-11-09T21:39:00.872953 | O:25431.75 H:25432.75 L:25430.50 C:25432.25 V:112.0
+2025-11-09 21:40:00,668 - webhook - INFO - Bar received: 2025-11-09T21:40:00.662904 | O:25432.25 H:25438.00 L:25430.50 C:25436.75 V:432.0
+2025-11-09 21:41:01,038 - webhook - INFO - Bar received: 2025-11-09T21:41:01.033365 | O:25437.00 H:25441.00 L:25435.25 C:25439.25 V:889.0
+2025-11-09 21:42:01,427 - webhook - INFO - Bar received: 2025-11-09T21:42:01.419535 | O:25440.00 H:25440.00 L:25433.50 C:25437.75 V:593.0
+2025-11-09 21:43:00,507 - webhook - INFO - Bar received: 2025-11-09T21:43:00.501866 | O:25437.75 H:25438.50 L:25433.00 C:25437.25 V:380.0
+2025-11-09 21:44:00,863 - webhook - INFO - Bar received: 2025-11-09T21:44:00.857987 | O:25437.00 H:25439.75 L:25433.75 C:25435.75 V:500.0
+2025-11-09 21:45:02,669 - webhook - INFO - Bar received: 2025-11-09T21:45:02.663638 | O:25435.75 H:25436.50 L:25433.75 C:25435.25 V:213.0
+2025-11-09 21:46:00,535 - webhook - INFO - Bar received: 2025-11-09T21:46:00.528438 | O:25435.75 H:25443.75 L:25435.75 C:25443.75 V:719.0
+2025-11-09 21:47:00,834 - webhook - INFO - Bar received: 2025-11-09T21:47:00.826358 | O:25443.75 H:25445.75 L:25439.25 C:25440.50 V:855.0
+2025-11-09 21:48:00,631 - webhook - INFO - Bar received: 2025-11-09T21:48:00.625706 | O:25441.25 H:25443.00 L:25439.00 C:25441.50 V:331.0
+2025-11-09 21:49:00,826 - webhook - INFO - Bar received: 2025-11-09T21:49:00.820814 | O:25441.50 H:25446.25 L:25441.50 C:25444.50 V:478.0
+2025-11-09 21:50:00,585 - webhook - INFO - Bar received: 2025-11-09T21:50:00.580136 | O:25444.25 H:25447.75 L:25443.75 C:25445.25 V:564.0
+2025-11-09 21:51:00,751 - webhook - INFO - Bar received: 2025-11-09T21:51:00.746715 | O:25445.50 H:25449.00 L:25444.50 C:25446.00 V:516.0
+2025-11-09 21:52:00,568 - webhook - INFO - Bar received: 2025-11-09T21:52:00.560705 | O:25445.50 H:25448.25 L:25443.25 C:25444.25 V:372.0
+2025-11-09 21:53:00,458 - webhook - INFO - Bar received: 2025-11-09T21:53:00.452244 | O:25444.25 H:25444.75 L:25440.25 C:25440.50 V:482.0
+2025-11-09 21:54:01,297 - webhook - INFO - Bar received: 2025-11-09T21:54:01.292280 | O:25440.50 H:25442.25 L:25435.50 C:25437.00 V:756.0
+2025-11-09 21:55:04,028 - webhook - INFO - Bar received: 2025-11-09T21:55:04.022853 | O:25437.00 H:25439.25 L:25436.75 C:25439.00 V:268.0
+2025-11-09 21:56:00,573 - webhook - INFO - Bar received: 2025-11-09T21:56:00.565506 | O:25438.50 H:25440.75 L:25435.00 C:25439.50 V:413.0
+2025-11-09 21:57:01,764 - webhook - INFO - Bar received: 2025-11-09T21:57:01.757865 | O:25439.75 H:25443.75 L:25436.25 C:25437.75 V:327.0
+2025-11-09 21:58:00,679 - webhook - INFO - Bar received: 2025-11-09T21:58:00.670364 | O:25437.50 H:25441.50 L:25436.00 C:25437.75 V:261.0
+2025-11-09 21:59:01,693 - webhook - INFO - Bar received: 2025-11-09T21:59:01.688347 | O:25437.75 H:25439.00 L:25432.25 C:25433.50 V:618.0
+2025-11-09 22:00:02,522 - webhook - INFO - Bar received: 2025-11-09T22:00:02.515919 | O:25433.00 H:25435.75 L:25431.00 C:25431.75 V:323.0
+2025-11-09 22:01:01,032 - webhook - INFO - Bar received: 2025-11-09T22:01:01.027497 | O:25432.00 H:25450.00 L:25431.25 C:25449.00 V:918.0
+2025-11-09 22:02:00,899 - webhook - INFO - Bar received: 2025-11-09T22:02:00.894389 | O:25448.25 H:25449.00 L:25442.75 C:25446.25 V:637.0
+2025-11-09 22:03:00,858 - webhook - INFO - Bar received: 2025-11-09T22:03:00.851700 | O:25446.00 H:25460.50 L:25445.50 C:25456.75 V:1951.0
+2025-11-09 22:04:00,942 - webhook - INFO - Bar received: 2025-11-09T22:04:00.936972 | O:25457.25 H:25462.00 L:25456.50 C:25457.50 V:793.0
+2025-11-09 22:05:00,892 - webhook - INFO - Bar received: 2025-11-09T22:05:00.887087 | O:25458.00 H:25459.75 L:25452.75 C:25453.00 V:550.0
+2025-11-09 22:06:00,445 - webhook - INFO - Bar received: 2025-11-09T22:06:00.440035 | O:25452.50 H:25458.75 L:25450.75 C:25456.75 V:552.0
+2025-11-09 22:07:01,416 - webhook - INFO - Bar received: 2025-11-09T22:07:01.411524 | O:25456.75 H:25457.50 L:25452.75 C:25455.25 V:205.0
+2025-11-09 22:08:01,365 - webhook - INFO - Bar received: 2025-11-09T22:08:01.360341 | O:25455.00 H:25455.00 L:25448.00 C:25448.75 V:494.0
+2025-11-09 22:09:01,399 - webhook - INFO - Bar received: 2025-11-09T22:09:01.394240 | O:25448.25 H:25452.25 L:25445.50 C:25448.25 V:512.0
+2025-11-09 22:10:00,543 - webhook - INFO - Bar received: 2025-11-09T22:10:00.537978 | O:25447.25 H:25454.75 L:25447.25 C:25452.75 V:359.0
+2025-11-09 22:11:02,326 - webhook - INFO - Bar received: 2025-11-09T22:11:02.318433 | O:25452.75 H:25454.50 L:25450.00 C:25453.00 V:359.0
+2025-11-09 22:12:01,144 - webhook - INFO - Bar received: 2025-11-09T22:12:01.138186 | O:25452.25 H:25459.25 L:25451.75 C:25459.25 V:466.0
+2025-11-09 22:13:00,510 - webhook - INFO - Bar received: 2025-11-09T22:13:00.504874 | O:25458.50 H:25459.50 L:25453.50 C:25454.50 V:515.0
+2025-11-09 22:14:01,044 - webhook - INFO - Bar received: 2025-11-09T22:14:01.038218 | O:25454.00 H:25455.75 L:25449.25 C:25453.50 V:335.0
+2025-11-09 22:15:00,440 - webhook - INFO - Bar received: 2025-11-09T22:15:00.432557 | O:25453.75 H:25458.25 L:25453.00 C:25456.25 V:185.0
+2025-11-09 22:16:00,699 - webhook - INFO - Bar received: 2025-11-09T22:16:00.692681 | O:25456.00 H:25461.75 L:25454.25 C:25461.00 V:294.0
+2025-11-09 22:17:00,663 - webhook - INFO - Bar received: 2025-11-09T22:17:00.658183 | O:25461.50 H:25468.00 L:25460.75 C:25466.00 V:816.0
+2025-11-09 22:18:00,668 - webhook - INFO - Bar received: 2025-11-09T22:18:00.662338 | O:25466.25 H:25473.75 L:25465.75 C:25473.00 V:921.0
+2025-11-09 22:19:00,656 - webhook - INFO - Bar received: 2025-11-09T22:19:00.650730 | O:25473.50 H:25474.25 L:25471.25 C:25474.00 V:778.0
+2025-11-09 22:20:01,899 - webhook - INFO - Bar received: 2025-11-09T22:20:01.893974 | O:25473.75 H:25473.75 L:25465.75 C:25467.00 V:770.0
+2025-11-09 22:21:00,682 - webhook - INFO - Bar received: 2025-11-09T22:21:00.676654 | O:25467.25 H:25467.50 L:25461.25 C:25462.50 V:520.0
+2025-11-09 22:22:01,240 - webhook - INFO - Bar received: 2025-11-09T22:22:01.233962 | O:25463.50 H:25467.25 L:25463.25 C:25467.00 V:439.0
+2025-11-09 22:23:03,906 - webhook - INFO - Bar received: 2025-11-09T22:23:03.900850 | O:25466.50 H:25468.75 L:25463.25 C:25465.00 V:345.0
+2025-11-09 22:24:00,937 - webhook - INFO - Bar received: 2025-11-09T22:24:00.930815 | O:25465.00 H:25466.25 L:25460.50 C:25465.50 V:247.0
+2025-11-09 22:25:00,735 - webhook - INFO - Bar received: 2025-11-09T22:25:00.730566 | O:25464.75 H:25468.50 L:25464.25 C:25468.50 V:291.0
+2025-11-09 22:26:00,479 - webhook - INFO - Bar received: 2025-11-09T22:26:00.474620 | O:25468.75 H:25472.00 L:25465.75 C:25471.25 V:263.0
+2025-11-09 22:27:00,691 - webhook - INFO - Bar received: 2025-11-09T22:27:00.686525 | O:25471.25 H:25475.75 L:25468.25 C:25474.50 V:490.0
+2025-11-09 22:28:00,501 - webhook - INFO - Bar received: 2025-11-09T22:28:00.496036 | O:25475.00 H:25479.75 L:25472.50 C:25478.75 V:997.0
+2025-11-09 22:29:00,732 - webhook - INFO - Bar received: 2025-11-09T22:29:00.727162 | O:25478.75 H:25479.00 L:25474.50 C:25478.25 V:512.0
+2025-11-09 22:30:00,829 - webhook - INFO - Bar received: 2025-11-09T22:30:00.824622 | O:25478.25 H:25481.25 L:25476.25 C:25479.25 V:647.0
+2025-11-09 22:31:00,678 - webhook - INFO - Bar received: 2025-11-09T22:31:00.673748 | O:25479.00 H:25482.75 L:25477.75 C:25482.50 V:621.0
+2025-11-09 22:32:00,709 - webhook - INFO - Bar received: 2025-11-09T22:32:00.704439 | O:25482.00 H:25485.50 L:25479.25 C:25484.00 V:568.0
+2025-11-09 22:33:00,754 - webhook - INFO - Bar received: 2025-11-09T22:33:00.747880 | O:25484.50 H:25486.00 L:25482.25 C:25483.00 V:500.0
+2025-11-09 22:34:00,464 - webhook - INFO - Bar received: 2025-11-09T22:34:00.457705 | O:25484.00 H:25487.25 L:25480.75 C:25486.00 V:406.0
+2025-11-09 22:35:00,484 - webhook - INFO - Bar received: 2025-11-09T22:35:00.478556 | O:25486.00 H:25487.50 L:25485.00 C:25485.50 V:317.0
+2025-11-09 22:36:01,086 - webhook - INFO - Bar received: 2025-11-09T22:36:01.079644 | O:25485.50 H:25488.50 L:25485.00 C:25487.25 V:274.0
+2025-11-09 22:37:00,732 - webhook - INFO - Bar received: 2025-11-09T22:37:00.724623 | O:25487.50 H:25487.50 L:25482.00 C:25484.25 V:411.0
+2025-11-09 22:38:00,394 - webhook - INFO - Bar received: 2025-11-09T22:38:00.387847 | O:25484.25 H:25485.25 L:25472.75 C:25473.50 V:1123.0
+2025-11-09 22:39:00,488 - webhook - INFO - Bar received: 2025-11-09T22:39:00.483709 | O:25473.25 H:25478.25 L:25471.75 C:25472.50 V:564.0
+2025-11-09 22:40:00,629 - webhook - INFO - Bar received: 2025-11-09T22:40:00.610551 | O:25472.25 H:25477.25 L:25471.50 C:25473.00 V:543.0
+2025-11-09 22:41:01,307 - webhook - INFO - Bar received: 2025-11-09T22:41:01.299234 | O:25472.75 H:25480.00 L:25470.75 C:25479.50 V:559.0
+2025-11-09 22:42:01,418 - webhook - INFO - Bar received: 2025-11-09T22:42:01.411508 | O:25479.25 H:25479.75 L:25475.75 C:25475.75 V:237.0
+2025-11-09 22:43:00,866 - webhook - INFO - Bar received: 2025-11-09T22:43:00.861380 | O:25475.50 H:25475.50 L:25466.50 C:25467.50 V:595.0
+2025-11-09 22:44:00,687 - webhook - INFO - Bar received: 2025-11-09T22:44:00.680652 | O:25467.25 H:25470.50 L:25466.50 C:25469.00 V:372.0
+2025-11-09 22:45:00,504 - webhook - INFO - Bar received: 2025-11-09T22:45:00.497872 | O:25469.25 H:25473.50 L:25467.75 C:25472.75 V:288.0
+2025-11-09 22:46:00,609 - webhook - INFO - Bar received: 2025-11-09T22:46:00.604501 | O:25472.00 H:25472.75 L:25469.50 C:25470.75 V:231.0
+2025-11-09 22:47:00,987 - webhook - INFO - Bar received: 2025-11-09T22:47:00.982202 | O:25470.75 H:25471.00 L:25468.00 C:25469.25 V:244.0
+2025-11-09 22:48:00,985 - webhook - INFO - Bar received: 2025-11-09T22:48:00.978030 | O:25469.25 H:25469.50 L:25466.75 C:25468.25 V:244.0
+2025-11-09 22:49:00,519 - webhook - INFO - Bar received: 2025-11-09T22:49:00.514827 | O:25468.75 H:25471.75 L:25468.25 C:25470.75 V:235.0
+2025-11-09 22:50:02,670 - webhook - INFO - Bar received: 2025-11-09T22:50:02.663290 | O:25470.25 H:25471.75 L:25467.25 C:25468.25 V:154.0
+2025-11-09 22:51:00,448 - webhook - INFO - Bar received: 2025-11-09T22:51:00.443573 | O:25468.25 H:25470.00 L:25464.00 C:25470.00 V:640.0
+2025-11-09 22:52:01,100 - webhook - INFO - Bar received: 2025-11-09T22:52:01.093881 | O:25469.25 H:25470.25 L:25466.50 C:25468.50 V:223.0
+2025-11-09 22:53:01,458 - webhook - INFO - Bar received: 2025-11-09T22:53:01.451937 | O:25467.75 H:25472.50 L:25467.25 C:25471.25 V:242.0
+2025-11-09 22:54:01,096 - webhook - INFO - Bar received: 2025-11-09T22:54:01.090286 | O:25471.00 H:25472.75 L:25469.00 C:25470.50 V:351.0
+2025-11-09 22:55:02,114 - webhook - INFO - Bar received: 2025-11-09T22:55:02.108744 | O:25470.50 H:25472.75 L:25468.25 C:25469.00 V:216.0
+2025-11-09 22:56:00,493 - webhook - INFO - Bar received: 2025-11-09T22:56:00.487942 | O:25468.75 H:25470.00 L:25465.25 C:25468.50 V:295.0
+2025-11-09 22:57:00,843 - webhook - INFO - Bar received: 2025-11-09T22:57:00.836943 | O:25467.75 H:25468.00 L:25462.00 C:25465.00 V:438.0
+2025-11-09 22:58:00,426 - webhook - INFO - Bar received: 2025-11-09T22:58:00.420975 | O:25465.50 H:25467.50 L:25463.00 C:25463.50 V:364.0
+2025-11-09 22:59:00,435 - webhook - INFO - Bar received: 2025-11-09T22:59:00.430216 | O:25463.00 H:25466.25 L:25462.00 C:25463.50 V:366.0
+2025-11-09 23:00:01,036 - webhook - INFO - Bar received: 2025-11-09T23:00:01.028971 | O:25463.25 H:25464.75 L:25459.75 C:25460.25 V:427.0
+2025-11-09 23:01:01,571 - webhook - INFO - Bar received: 2025-11-09T23:01:01.561506 | O:25460.25 H:25466.25 L:25459.75 C:25465.25 V:455.0
+2025-11-09 23:02:01,424 - webhook - INFO - Bar received: 2025-11-09T23:02:01.418795 | O:25464.75 H:25467.75 L:25461.50 C:25463.00 V:425.0
+2025-11-09 23:03:00,858 - webhook - INFO - Bar received: 2025-11-09T23:03:00.852714 | O:25463.00 H:25464.00 L:25460.75 C:25462.25 V:251.0
+2025-11-09 23:04:01,976 - webhook - INFO - Bar received: 2025-11-09T23:04:01.971492 | O:25462.75 H:25467.50 L:25462.00 C:25467.00 V:241.0
+2025-11-09 23:05:02,082 - webhook - INFO - Bar received: 2025-11-09T23:05:02.076838 | O:25466.75 H:25467.50 L:25463.50 C:25464.00 V:182.0
+2025-11-09 23:06:01,385 - webhook - INFO - Bar received: 2025-11-09T23:06:01.379847 | O:25465.25 H:25468.75 L:25463.25 C:25468.25 V:274.0
+2025-11-09 23:07:00,680 - webhook - INFO - Bar received: 2025-11-09T23:07:00.675006 | O:25468.25 H:25472.00 L:25468.00 C:25471.75 V:537.0
+2025-11-09 23:08:00,432 - webhook - INFO - Bar received: 2025-11-09T23:08:00.426884 | O:25471.75 H:25473.75 L:25468.75 C:25472.50 V:431.0
+2025-11-09 23:09:00,580 - webhook - INFO - Bar received: 2025-11-09T23:09:00.572501 | O:25472.50 H:25480.00 L:25472.50 C:25477.25 V:869.0
+2025-11-09 23:10:00,460 - webhook - INFO - Bar received: 2025-11-09T23:10:00.454769 | O:25477.00 H:25479.00 L:25473.75 C:25476.75 V:570.0
+2025-11-09 23:11:00,433 - webhook - INFO - Bar received: 2025-11-09T23:11:00.428595 | O:25477.25 H:25482.50 L:25476.50 C:25481.00 V:416.0
+2025-11-09 23:12:00,423 - webhook - INFO - Bar received: 2025-11-09T23:12:00.418839 | O:25480.75 H:25486.25 L:25480.50 C:25484.50 V:734.0
+2025-11-09 23:13:01,940 - webhook - INFO - Bar received: 2025-11-09T23:13:01.930773 | O:25484.75 H:25485.50 L:25481.75 C:25482.75 V:374.0
+2025-11-09 23:14:01,468 - webhook - INFO - Bar received: 2025-11-09T23:14:01.463182 | O:25483.25 H:25483.75 L:25472.25 C:25477.00 V:699.0
+2025-11-09 23:15:01,118 - webhook - INFO - Bar received: 2025-11-09T23:15:01.112959 | O:25477.25 H:25477.75 L:25469.00 C:25469.25 V:533.0
+2025-11-09 23:16:00,502 - webhook - INFO - Bar received: 2025-11-09T23:16:00.495710 | O:25469.25 H:25470.25 L:25461.00 C:25468.75 V:788.0
+2025-11-09 23:17:00,658 - webhook - INFO - Bar received: 2025-11-09T23:17:00.652626 | O:25468.25 H:25470.00 L:25462.50 C:25464.25 V:326.0
+2025-11-09 23:18:00,770 - webhook - INFO - Bar received: 2025-11-09T23:18:00.765593 | O:25464.00 H:25464.50 L:25461.00 C:25462.75 V:291.0
+2025-11-09 23:19:00,410 - webhook - INFO - Bar received: 2025-11-09T23:19:00.403975 | O:25463.00 H:25467.00 L:25456.25 C:25457.75 V:783.0
+2025-11-09 23:20:00,889 - webhook - INFO - Bar received: 2025-11-09T23:20:00.883703 | O:25457.75 H:25468.25 L:25456.00 C:25467.00 V:736.0
+2025-11-09 23:21:00,635 - webhook - INFO - Bar received: 2025-11-09T23:21:00.628843 | O:25466.75 H:25468.75 L:25463.00 C:25465.00 V:349.0
+2025-11-09 23:22:01,849 - webhook - INFO - Bar received: 2025-11-09T23:22:01.841898 | O:25464.75 H:25468.25 L:25462.25 C:25462.50 V:359.0
+2025-11-09 23:23:01,170 - webhook - INFO - Bar received: 2025-11-09T23:23:01.163750 | O:25462.25 H:25466.50 L:25461.50 C:25466.25 V:202.0
+2025-11-09 23:24:00,782 - webhook - INFO - Bar received: 2025-11-09T23:24:00.777308 | O:25465.50 H:25465.50 L:25460.75 C:25462.50 V:190.0
+2025-11-09 23:25:02,730 - webhook - INFO - Bar received: 2025-11-09T23:25:02.724662 | O:25462.75 H:25466.50 L:25462.75 C:25464.50 V:152.0
+2025-11-09 23:26:00,425 - webhook - INFO - Bar received: 2025-11-09T23:26:00.416540 | O:25464.50 H:25465.75 L:25461.00 C:25465.00 V:191.0
+2025-11-09 23:27:00,863 - webhook - INFO - Bar received: 2025-11-09T23:27:00.856994 | O:25464.50 H:25466.50 L:25463.00 C:25463.50 V:191.0
+2025-11-09 23:28:01,101 - webhook - INFO - Bar received: 2025-11-09T23:28:01.096527 | O:25462.75 H:25464.25 L:25461.25 C:25463.50 V:136.0
+2025-11-09 23:29:00,637 - webhook - INFO - Bar received: 2025-11-09T23:29:00.630450 | O:25462.75 H:25467.25 L:25462.75 C:25464.00 V:197.0
+2025-11-09 23:30:03,015 - webhook - INFO - Bar received: 2025-11-09T23:30:03.007749 | O:25464.00 H:25467.50 L:25462.50 C:25466.25 V:228.0
+2025-11-09 23:31:00,822 - webhook - INFO - Bar received: 2025-11-09T23:31:00.816917 | O:25466.25 H:25470.25 L:25466.25 C:25466.75 V:458.0
+2025-11-09 23:32:00,810 - webhook - INFO - Bar received: 2025-11-09T23:32:00.803407 | O:25467.00 H:25469.50 L:25465.50 C:25468.75 V:187.0
+2025-11-09 23:33:00,479 - webhook - INFO - Bar received: 2025-11-09T23:33:00.473851 | O:25468.50 H:25468.50 L:25455.75 C:25455.75 V:690.0
+2025-11-09 23:34:00,654 - webhook - INFO - Bar received: 2025-11-09T23:34:00.648957 | O:25456.00 H:25464.00 L:25456.00 C:25461.75 V:425.0
+2025-11-09 23:35:02,161 - webhook - INFO - Bar received: 2025-11-09T23:35:02.156578 | O:25462.50 H:25469.50 L:25462.50 C:25465.25 V:380.0
+2025-11-09 23:36:01,196 - webhook - INFO - Bar received: 2025-11-09T23:36:01.191683 | O:25464.75 H:25464.75 L:25458.50 C:25460.50 V:383.0
+2025-11-09 23:37:00,779 - webhook - INFO - Bar received: 2025-11-09T23:37:00.773523 | O:25461.00 H:25465.75 L:25459.00 C:25464.50 V:281.0
+2025-11-09 23:38:00,770 - webhook - INFO - Bar received: 2025-11-09T23:38:00.764931 | O:25465.25 H:25465.50 L:25461.50 C:25465.25 V:188.0
+2025-11-09 23:39:00,434 - webhook - INFO - Bar received: 2025-11-09T23:39:00.427605 | O:25466.00 H:25469.00 L:25464.75 C:25466.50 V:161.0
+2025-11-09 23:40:00,354 - webhook - INFO - Bar received: 2025-11-09T23:40:00.349154 | O:25467.25 H:25467.75 L:25463.75 C:25465.50 V:159.0
+2025-11-09 23:41:03,085 - webhook - INFO - Bar received: 2025-11-09T23:41:03.076335 | O:25465.75 H:25466.75 L:25461.25 C:25462.25 V:205.0
+2025-11-09 23:42:03,620 - webhook - INFO - Bar received: 2025-11-09T23:42:03.614947 | O:25461.75 H:25462.75 L:25459.75 C:25462.00 V:208.0
+2025-11-09 23:43:00,506 - webhook - INFO - Bar received: 2025-11-09T23:43:00.500477 | O:25463.25 H:25467.50 L:25462.25 C:25466.25 V:122.0
+2025-11-09 23:44:00,372 - webhook - INFO - Bar received: 2025-11-09T23:44:00.367751 | O:25467.00 H:25469.00 L:25464.50 C:25465.50 V:312.0
+2025-11-09 23:45:00,419 - webhook - INFO - Bar received: 2025-11-09T23:45:00.412552 | O:25466.00 H:25471.50 L:25465.50 C:25468.25 V:315.0
+2025-11-09 23:46:00,624 - webhook - INFO - Bar received: 2025-11-09T23:46:00.619102 | O:25468.25 H:25472.25 L:25467.25 C:25467.25 V:491.0
+2025-11-09 23:47:01,477 - webhook - INFO - Bar received: 2025-11-09T23:47:01.472203 | O:25467.50 H:25468.00 L:25461.50 C:25461.50 V:392.0
+2025-11-09 23:48:00,766 - webhook - INFO - Bar received: 2025-11-09T23:48:00.761372 | O:25461.75 H:25465.25 L:25461.50 C:25464.50 V:209.0
+2025-11-09 23:49:00,405 - webhook - INFO - Bar received: 2025-11-09T23:49:00.400247 | O:25464.50 H:25468.00 L:25463.00 C:25467.00 V:208.0
+2025-11-09 23:50:00,656 - webhook - INFO - Bar received: 2025-11-09T23:50:00.651093 | O:25467.50 H:25474.00 L:25467.25 C:25472.75 V:307.0
+2025-11-09 23:51:00,388 - webhook - INFO - Bar received: 2025-11-09T23:51:00.381820 | O:25473.00 H:25476.75 L:25472.00 C:25475.00 V:750.0
+2025-11-09 23:52:00,358 - webhook - INFO - Bar received: 2025-11-09T23:52:00.353433 | O:25475.00 H:25475.50 L:25466.50 C:25467.75 V:444.0
+2025-11-09 23:53:00,589 - webhook - INFO - Bar received: 2025-11-09T23:53:00.583798 | O:25468.25 H:25468.75 L:25458.00 C:25459.50 V:636.0
+2025-11-09 23:54:00,547 - webhook - INFO - Bar received: 2025-11-09T23:54:00.540996 | O:25460.00 H:25468.00 L:25459.00 C:25468.00 V:261.0
+2025-11-09 23:55:00,407 - webhook - INFO - Bar received: 2025-11-09T23:55:00.402456 | O:25467.75 H:25467.75 L:25463.25 C:25466.25 V:145.0
+2025-11-09 23:56:00,396 - webhook - INFO - Bar received: 2025-11-09T23:56:00.390954 | O:25466.25 H:25467.25 L:25462.00 C:25465.75 V:285.0
+2025-11-09 23:57:00,371 - webhook - INFO - Bar received: 2025-11-09T23:57:00.365688 | O:25466.50 H:25470.75 L:25464.50 C:25466.50 V:288.0
+2025-11-09 23:58:00,459 - webhook - INFO - Bar received: 2025-11-09T23:58:00.454598 | O:25466.50 H:25469.00 L:25466.25 C:25468.00 V:189.0
+2025-11-09 23:59:00,441 - webhook - INFO - Bar received: 2025-11-09T23:59:00.435961 | O:25468.00 H:25471.75 L:25468.00 C:25470.75 V:211.0
+2025-11-10 00:00:00,727 - webhook - INFO - Bar received: 2025-11-10T00:00:00.722096 | O:25471.00 H:25471.25 L:25465.75 C:25466.25 V:125.0
+2025-11-10 00:01:00,945 - webhook - INFO - Bar received: 2025-11-10T00:01:00.939230 | O:25466.75 H:25471.75 L:25466.25 C:25469.00 V:176.0
+2025-11-10 00:02:00,364 - webhook - INFO - Bar received: 2025-11-10T00:02:00.358708 | O:25469.50 H:25471.75 L:25467.00 C:25468.75 V:181.0
+2025-11-10 00:03:00,367 - webhook - INFO - Bar received: 2025-11-10T00:03:00.360755 | O:25469.00 H:25472.00 L:25468.00 C:25471.75 V:141.0
+2025-11-10 00:04:00,577 - webhook - INFO - Bar received: 2025-11-10T00:04:00.572003 | O:25471.75 H:25475.50 L:25471.50 C:25473.00 V:322.0
+2025-11-10 00:05:00,394 - webhook - INFO - Bar received: 2025-11-10T00:05:00.389269 | O:25473.25 H:25477.50 L:25472.75 C:25477.00 V:378.0
+2025-11-10 00:06:00,358 - webhook - INFO - Bar received: 2025-11-10T00:06:00.352442 | O:25477.00 H:25478.00 L:25475.75 C:25477.25 V:266.0
+2025-11-10 00:07:00,418 - webhook - INFO - Bar received: 2025-11-10T00:07:00.412882 | O:25477.25 H:25479.50 L:25475.25 C:25477.00 V:529.0
+2025-11-10 00:08:00,358 - webhook - INFO - Bar received: 2025-11-10T00:08:00.353459 | O:25477.50 H:25478.00 L:25473.50 C:25474.00 V:205.0
+2025-11-10 00:09:00,519 - webhook - INFO - Bar received: 2025-11-10T00:09:00.513508 | O:25474.00 H:25475.75 L:25472.25 C:25474.75 V:227.0
+2025-11-10 00:10:00,423 - webhook - INFO - Bar received: 2025-11-10T00:10:00.418715 | O:25475.00 H:25481.75 L:25474.50 C:25481.25 V:399.0
+2025-11-10 00:11:00,451 - webhook - INFO - Bar received: 2025-11-10T00:11:00.446605 | O:25481.75 H:25482.00 L:25477.00 C:25479.00 V:348.0
+2025-11-10 00:12:00,572 - webhook - INFO - Bar received: 2025-11-10T00:12:00.566617 | O:25479.50 H:25484.00 L:25478.75 C:25484.00 V:303.0
+2025-11-10 00:13:00,639 - webhook - INFO - Bar received: 2025-11-10T00:13:00.634508 | O:25483.50 H:25490.50 L:25483.25 C:25487.50 V:1115.0
+2025-11-10 00:14:00,339 - webhook - INFO - Bar received: 2025-11-10T00:14:00.334674 | O:25487.75 H:25489.00 L:25485.75 C:25488.00 V:367.0
+2025-11-10 00:15:00,437 - webhook - INFO - Bar received: 2025-11-10T00:15:00.432476 | O:25488.25 H:25488.75 L:25484.50 C:25486.25 V:276.0
+2025-11-10 00:16:00,462 - webhook - INFO - Bar received: 2025-11-10T00:16:00.457608 | O:25486.50 H:25489.75 L:25485.75 C:25488.00 V:273.0
+2025-11-10 00:17:00,848 - webhook - INFO - Bar received: 2025-11-10T00:17:00.843584 | O:25488.25 H:25489.25 L:25485.25 C:25486.75 V:179.0
+2025-11-10 00:18:00,617 - webhook - INFO - Bar received: 2025-11-10T00:18:00.612962 | O:25487.25 H:25492.00 L:25487.25 C:25491.50 V:309.0
+2025-11-10 00:19:02,144 - webhook - INFO - Bar received: 2025-11-10T00:19:02.139546 | O:25491.75 H:25494.25 L:25488.00 C:25491.50 V:542.0
+2025-11-10 00:20:00,431 - webhook - INFO - Bar received: 2025-11-10T00:20:00.426433 | O:25491.25 H:25491.50 L:25488.25 C:25491.00 V:214.0
+2025-11-10 00:21:00,621 - webhook - INFO - Bar received: 2025-11-10T00:21:00.615386 | O:25491.50 H:25495.50 L:25491.50 C:25495.00 V:421.0
+2025-11-10 00:22:01,253 - webhook - INFO - Bar received: 2025-11-10T00:22:01.243766 | O:25494.50 H:25494.75 L:25486.75 C:25490.25 V:404.0
+2025-11-10 00:23:00,833 - webhook - INFO - Bar received: 2025-11-10T00:23:00.827728 | O:25489.50 H:25492.50 L:25488.50 C:25488.50 V:201.0
+2025-11-10 00:24:02,012 - webhook - INFO - Bar received: 2025-11-10T00:24:02.006844 | O:25489.00 H:25491.00 L:25488.00 C:25491.00 V:104.0
+2025-11-10 00:25:01,401 - webhook - INFO - Bar received: 2025-11-10T00:25:01.395817 | O:25491.25 H:25493.00 L:25490.25 C:25491.75 V:130.0
+2025-11-10 00:26:00,707 - webhook - INFO - Bar received: 2025-11-10T00:26:00.700748 | O:25492.00 H:25494.75 L:25491.00 C:25491.75 V:279.0
+2025-11-10 00:27:00,931 - webhook - INFO - Bar received: 2025-11-10T00:27:00.922388 | O:25491.75 H:25494.00 L:25490.00 C:25490.75 V:244.0
+2025-11-10 00:28:02,958 - webhook - INFO - Bar received: 2025-11-10T00:28:02.938549 | O:25490.75 H:25493.25 L:25489.25 C:25491.25 V:158.0
+2025-11-10 00:29:00,449 - webhook - INFO - Bar received: 2025-11-10T00:29:00.442210 | O:25490.75 H:25496.00 L:25489.50 C:25491.25 V:501.0
+2025-11-10 00:30:02,013 - webhook - INFO - Bar received: 2025-11-10T00:30:02.007662 | O:25491.75 H:25492.75 L:25490.50 C:25491.25 V:110.0
+2025-11-10 00:31:01,935 - webhook - INFO - Bar received: 2025-11-10T00:31:01.927919 | O:25491.25 H:25493.00 L:25481.50 C:25488.50 V:1016.0
+2025-11-10 00:32:00,420 - webhook - INFO - Bar received: 2025-11-10T00:32:00.415122 | O:25488.50 H:25490.25 L:25483.25 C:25484.00 V:436.0
+2025-11-10 00:33:00,709 - webhook - INFO - Bar received: 2025-11-10T00:33:00.704845 | O:25483.75 H:25483.75 L:25473.00 C:25475.75 V:809.0
+2025-11-10 00:34:00,430 - webhook - INFO - Bar received: 2025-11-10T00:34:00.423802 | O:25476.50 H:25485.75 L:25475.25 C:25484.00 V:566.0
+2025-11-10 00:35:01,589 - webhook - INFO - Bar received: 2025-11-10T00:35:01.582410 | O:25484.00 H:25485.00 L:25477.25 C:25479.25 V:388.0
+2025-11-10 00:36:01,641 - webhook - INFO - Bar received: 2025-11-10T00:36:01.636804 | O:25478.75 H:25481.25 L:25476.50 C:25479.00 V:199.0
+2025-11-10 00:37:00,631 - webhook - INFO - Bar received: 2025-11-10T00:37:00.625580 | O:25480.00 H:25480.00 L:25472.00 C:25472.75 V:422.0
+2025-11-10 00:38:00,858 - webhook - INFO - Bar received: 2025-11-10T00:38:00.853873 | O:25472.50 H:25476.00 L:25472.00 C:25473.25 V:310.0
+2025-11-10 00:39:00,390 - webhook - INFO - Bar received: 2025-11-10T00:39:00.385062 | O:25473.25 H:25477.25 L:25471.25 C:25473.50 V:295.0
+2025-11-10 00:40:02,164 - webhook - INFO - Bar received: 2025-11-10T00:40:02.159542 | O:25473.75 H:25478.00 L:25471.50 C:25474.00 V:414.0
+2025-11-10 00:41:00,367 - webhook - INFO - Bar received: 2025-11-10T00:41:00.361150 | O:25474.50 H:25477.50 L:25472.00 C:25477.50 V:372.0
+2025-11-10 00:42:00,327 - webhook - INFO - Bar received: 2025-11-10T00:42:00.322421 | O:25477.00 H:25482.50 L:25476.25 C:25479.50 V:378.0
+2025-11-10 00:43:00,363 - webhook - INFO - Bar received: 2025-11-10T00:43:00.356321 | O:25479.50 H:25480.00 L:25477.00 C:25478.25 V:299.0
+2025-11-10 00:44:00,795 - webhook - INFO - Bar received: 2025-11-10T00:44:00.788922 | O:25478.25 H:25483.25 L:25477.75 C:25482.75 V:327.0
+2025-11-10 00:45:00,470 - webhook - INFO - Bar received: 2025-11-10T00:45:00.463166 | O:25482.75 H:25484.75 L:25480.25 C:25483.25 V:309.0
+2025-11-10 00:46:00,413 - webhook - INFO - Bar received: 2025-11-10T00:46:00.408628 | O:25483.00 H:25483.75 L:25478.25 C:25479.75 V:178.0
+2025-11-10 00:47:00,316 - webhook - INFO - Bar received: 2025-11-10T00:47:00.310856 | O:25479.75 H:25481.25 L:25476.00 C:25480.75 V:244.0
+2025-11-10 00:48:01,101 - webhook - INFO - Bar received: 2025-11-10T00:48:01.094506 | O:25480.75 H:25486.25 L:25480.00 C:25481.25 V:577.0
+2025-11-10 00:49:05,745 - webhook - INFO - Bar received: 2025-11-10T00:49:05.740702 | O:25481.25 H:25482.50 L:25480.75 C:25480.75 V:122.0
+2025-11-10 00:50:00,555 - webhook - INFO - Bar received: 2025-11-10T00:50:00.550513 | O:25480.75 H:25481.00 L:25473.50 C:25473.75 V:278.0
+2025-11-10 00:51:00,358 - webhook - INFO - Bar received: 2025-11-10T00:51:00.353577 | O:25473.50 H:25477.25 L:25472.75 C:25473.25 V:260.0
+2025-11-10 00:52:00,581 - webhook - INFO - Bar received: 2025-11-10T00:52:00.575747 | O:25473.50 H:25478.50 L:25473.25 C:25476.50 V:243.0
+2025-11-10 00:53:01,607 - webhook - INFO - Bar received: 2025-11-10T00:53:01.602495 | O:25476.25 H:25479.00 L:25474.75 C:25478.50 V:188.0
+2025-11-10 00:54:00,275 - webhook - INFO - Bar received: 2025-11-10T00:54:00.269980 | O:25479.00 H:25486.00 L:25478.75 C:25485.75 V:358.0
+2025-11-10 00:55:00,259 - webhook - INFO - Bar received: 2025-11-10T00:55:00.252998 | O:25485.25 H:25489.00 L:25484.00 C:25484.75 V:414.0
+2025-11-10 00:56:02,837 - webhook - INFO - Bar received: 2025-11-10T00:56:02.831053 | O:25484.25 H:25487.50 L:25484.00 C:25485.50 V:192.0
+2025-11-10 00:57:01,198 - webhook - INFO - Bar received: 2025-11-10T00:57:01.190715 | O:25485.50 H:25486.00 L:25481.00 C:25482.25 V:221.0
+2025-11-10 00:58:01,349 - webhook - INFO - Bar received: 2025-11-10T00:58:01.344123 | O:25482.75 H:25486.00 L:25482.00 C:25484.75 V:154.0
+2025-11-10 00:59:00,511 - webhook - INFO - Bar received: 2025-11-10T00:59:00.505467 | O:25483.75 H:25484.25 L:25480.75 C:25481.50 V:110.0
+2025-11-10 01:00:02,708 - webhook - INFO - Bar received: 2025-11-10T01:00:02.703959 | O:25481.50 H:25485.00 L:25478.75 C:25483.50 V:195.0
+2025-11-10 01:01:00,698 - webhook - INFO - Bar received: 2025-11-10T01:01:00.693782 | O:25483.00 H:25484.00 L:25473.75 C:25479.50 V:637.0
+2025-11-10 01:02:00,355 - webhook - INFO - Bar received: 2025-11-10T01:02:00.348948 | O:25479.25 H:25480.50 L:25474.75 C:25477.00 V:273.0
+2025-11-10 01:03:00,405 - webhook - INFO - Bar received: 2025-11-10T01:03:00.400265 | O:25476.25 H:25477.75 L:25472.75 C:25475.50 V:262.0
+2025-11-10 01:04:00,617 - webhook - INFO - Bar received: 2025-11-10T01:04:00.612398 | O:25475.25 H:25479.75 L:25473.50 C:25476.25 V:308.0
+2025-11-10 01:05:00,393 - webhook - INFO - Bar received: 2025-11-10T01:05:00.386540 | O:25476.50 H:25482.50 L:25476.25 C:25482.50 V:224.0
+2025-11-10 01:06:01,771 - webhook - INFO - Bar received: 2025-11-10T01:06:01.764013 | O:25483.00 H:25488.25 L:25481.50 C:25484.25 V:639.0
+2025-11-10 01:07:00,637 - webhook - INFO - Bar received: 2025-11-10T01:07:00.630226 | O:25484.25 H:25490.00 L:25482.00 C:25489.75 V:297.0
+2025-11-10 01:08:00,796 - webhook - INFO - Bar received: 2025-11-10T01:08:00.789201 | O:25489.25 H:25490.00 L:25487.75 C:25488.00 V:251.0
+2025-11-10 01:09:01,197 - webhook - INFO - Bar received: 2025-11-10T01:09:01.191039 | O:25487.75 H:25488.25 L:25483.00 C:25486.00 V:185.0
+2025-11-10 01:10:00,484 - webhook - INFO - Bar received: 2025-11-10T01:10:00.479163 | O:25485.50 H:25485.50 L:25477.50 C:25480.25 V:395.0
+2025-11-10 01:11:01,196 - webhook - INFO - Bar received: 2025-11-10T01:11:01.189310 | O:25480.75 H:25487.75 L:25478.50 C:25486.50 V:295.0
+2025-11-10 01:12:01,127 - webhook - INFO - Bar received: 2025-11-10T01:12:01.121071 | O:25486.00 H:25486.50 L:25482.50 C:25485.00 V:131.0
+2025-11-10 01:13:00,419 - webhook - INFO - Bar received: 2025-11-10T01:13:00.414204 | O:25484.75 H:25487.00 L:25482.50 C:25483.75 V:198.0
+2025-11-10 01:14:00,714 - webhook - INFO - Bar received: 2025-11-10T01:14:00.708948 | O:25483.75 H:25483.75 L:25479.25 C:25479.75 V:143.0
+2025-11-10 01:15:00,843 - webhook - INFO - Bar received: 2025-11-10T01:15:00.837164 | O:25480.00 H:25483.00 L:25478.50 C:25481.75 V:157.0
+2025-11-10 01:16:01,221 - webhook - INFO - Bar received: 2025-11-10T01:16:01.214870 | O:25481.50 H:25486.50 L:25480.50 C:25486.25 V:350.0
+2025-11-10 01:17:01,854 - webhook - INFO - Bar received: 2025-11-10T01:17:01.849194 | O:25485.75 H:25487.50 L:25484.50 C:25486.50 V:97.0
+2025-11-10 01:18:02,562 - webhook - INFO - Bar received: 2025-11-10T01:18:02.557315 | O:25485.00 H:25485.00 L:25480.75 C:25484.25 V:237.0
+2025-11-10 01:19:00,307 - webhook - INFO - Bar received: 2025-11-10T01:19:00.302510 | O:25483.00 H:25491.25 L:25482.00 C:25490.75 V:336.0
+2025-11-10 01:20:01,300 - webhook - INFO - Bar received: 2025-11-10T01:20:01.295429 | O:25490.75 H:25491.25 L:25486.00 C:25486.25 V:241.0
+2025-11-10 01:21:02,173 - webhook - INFO - Bar received: 2025-11-10T01:21:02.166490 | O:25486.25 H:25487.50 L:25481.75 C:25482.50 V:219.0
+2025-11-10 01:22:01,665 - webhook - INFO - Bar received: 2025-11-10T01:22:01.660285 | O:25484.00 H:25487.00 L:25482.00 C:25485.75 V:172.0
+2025-11-10 01:23:00,997 - webhook - INFO - Bar received: 2025-11-10T01:23:00.992357 | O:25485.50 H:25485.75 L:25482.50 C:25485.75 V:99.0
+2025-11-10 01:24:00,546 - webhook - INFO - Bar received: 2025-11-10T01:24:00.539710 | O:25486.25 H:25489.50 L:25484.25 C:25489.00 V:174.0
+2025-11-10 01:25:00,771 - webhook - INFO - Bar received: 2025-11-10T01:25:00.766243 | O:25489.50 H:25489.50 L:25482.00 C:25482.25 V:168.0
+2025-11-10 01:26:01,056 - webhook - INFO - Bar received: 2025-11-10T01:26:01.051182 | O:25482.25 H:25485.75 L:25480.75 C:25484.75 V:170.0
+2025-11-10 01:27:00,320 - webhook - INFO - Bar received: 2025-11-10T01:27:00.312284 | O:25485.00 H:25485.00 L:25471.50 C:25473.75 V:456.0
+2025-11-10 01:28:00,972 - webhook - INFO - Bar received: 2025-11-10T01:28:00.966906 | O:25473.00 H:25473.75 L:25467.50 C:25470.50 V:759.0
+2025-11-10 01:29:00,614 - webhook - INFO - Bar received: 2025-11-10T01:29:00.609413 | O:25471.25 H:25475.25 L:25469.75 C:25471.75 V:393.0
+2025-11-10 01:30:00,447 - webhook - INFO - Bar received: 2025-11-10T01:30:00.442071 | O:25471.75 H:25474.50 L:25468.00 C:25473.25 V:457.0
+2025-11-10 01:31:00,624 - webhook - INFO - Bar received: 2025-11-10T01:31:00.619086 | O:25473.25 H:25476.00 L:25469.25 C:25471.25 V:354.0
+2025-11-10 01:32:00,902 - webhook - INFO - Bar received: 2025-11-10T01:32:00.896360 | O:25472.00 H:25475.75 L:25471.00 C:25474.25 V:280.0
+2025-11-10 01:33:00,829 - webhook - INFO - Bar received: 2025-11-10T01:33:00.823298 | O:25473.75 H:25477.50 L:25473.75 C:25477.00 V:336.0
+2025-11-10 01:34:01,581 - webhook - INFO - Bar received: 2025-11-10T01:34:01.576609 | O:25477.50 H:25479.00 L:25474.75 C:25476.00 V:253.0
+2025-11-10 01:35:00,299 - webhook - INFO - Bar received: 2025-11-10T01:35:00.294787 | O:25475.25 H:25485.50 L:25475.00 C:25485.25 V:319.0
+2025-11-10 01:36:00,327 - webhook - INFO - Bar received: 2025-11-10T01:36:00.322192 | O:25485.25 H:25490.00 L:25484.00 C:25487.50 V:549.0
+2025-11-10 01:37:00,326 - webhook - INFO - Bar received: 2025-11-10T01:37:00.320766 | O:25487.25 H:25487.75 L:25481.00 C:25485.00 V:337.0
+2025-11-10 01:38:00,272 - webhook - INFO - Bar received: 2025-11-10T01:38:00.267296 | O:25486.00 H:25488.25 L:25483.25 C:25484.75 V:287.0
+2025-11-10 01:39:00,712 - webhook - INFO - Bar received: 2025-11-10T01:39:00.707291 | O:25484.25 H:25485.50 L:25474.75 C:25478.75 V:378.0
+2025-11-10 01:40:01,648 - webhook - INFO - Bar received: 2025-11-10T01:40:01.640855 | O:25479.50 H:25482.00 L:25477.25 C:25481.75 V:234.0
+2025-11-10 01:41:00,391 - webhook - INFO - Bar received: 2025-11-10T01:41:00.385204 | O:25481.50 H:25482.25 L:25478.00 C:25478.50 V:128.0
+2025-11-10 01:42:03,004 - webhook - INFO - Bar received: 2025-11-10T01:42:02.997895 | O:25478.50 H:25480.25 L:25477.75 C:25478.50 V:152.0
+2025-11-10 01:43:01,112 - webhook - INFO - Bar received: 2025-11-10T01:43:01.092734 | O:25479.00 H:25482.75 L:25478.50 C:25478.50 V:198.0
+2025-11-10 01:44:00,451 - webhook - INFO - Bar received: 2025-11-10T01:44:00.446304 | O:25479.00 H:25484.00 L:25479.00 C:25482.25 V:208.0
+2025-11-10 01:45:00,580 - webhook - INFO - Bar received: 2025-11-10T01:45:00.573058 | O:25482.50 H:25486.00 L:25482.00 C:25485.00 V:237.0
+2025-11-10 01:46:00,733 - webhook - INFO - Bar received: 2025-11-10T01:46:00.727421 | O:25485.25 H:25490.00 L:25482.25 C:25489.75 V:249.0
+2025-11-10 01:47:00,358 - webhook - INFO - Bar received: 2025-11-10T01:47:00.353295 | O:25490.25 H:25497.25 L:25489.75 C:25491.00 V:640.0
+2025-11-10 01:48:00,446 - webhook - INFO - Bar received: 2025-11-10T01:48:00.439736 | O:25491.50 H:25495.00 L:25489.75 C:25493.25 V:282.0
+2025-11-10 01:49:00,288 - webhook - INFO - Bar received: 2025-11-10T01:49:00.281470 | O:25493.25 H:25498.00 L:25492.75 C:25496.75 V:486.0
+2025-11-10 01:50:00,498 - webhook - INFO - Bar received: 2025-11-10T01:50:00.492954 | O:25497.50 H:25499.75 L:25494.00 C:25499.00 V:383.0
+2025-11-10 01:51:00,366 - webhook - INFO - Bar received: 2025-11-10T01:51:00.360142 | O:25498.75 H:25502.75 L:25497.25 C:25499.75 V:805.0
+2025-11-10 01:52:00,525 - webhook - INFO - Bar received: 2025-11-10T01:52:00.520392 | O:25500.25 H:25501.75 L:25492.00 C:25495.50 V:594.0
+2025-11-10 01:53:00,260 - webhook - INFO - Bar received: 2025-11-10T01:53:00.254800 | O:25495.75 H:25501.00 L:25495.50 C:25498.00 V:266.0
+2025-11-10 01:54:00,460 - webhook - INFO - Bar received: 2025-11-10T01:54:00.455833 | O:25498.75 H:25498.75 L:25487.50 C:25489.25 V:370.0
+2025-11-10 01:55:00,625 - webhook - INFO - Bar received: 2025-11-10T01:55:00.619148 | O:25488.75 H:25490.75 L:25482.75 C:25483.25 V:393.0
+2025-11-10 01:56:00,382 - webhook - INFO - Bar received: 2025-11-10T01:56:00.361328 | O:25483.25 H:25483.75 L:25479.00 C:25481.50 V:492.0
+2025-11-10 01:57:00,273 - webhook - INFO - Bar received: 2025-11-10T01:57:00.266834 | O:25481.25 H:25483.50 L:25476.00 C:25480.25 V:438.0
+2025-11-10 01:58:00,481 - webhook - INFO - Bar received: 2025-11-10T01:58:00.476689 | O:25479.75 H:25479.75 L:25473.25 C:25473.75 V:448.0
+2025-11-10 01:59:00,439 - webhook - INFO - Bar received: 2025-11-10T01:59:00.434694 | O:25473.75 H:25476.50 L:25473.25 C:25474.00 V:187.0
+2025-11-10 02:00:01,626 - webhook - INFO - Bar received: 2025-11-10T02:00:01.619736 | O:25473.75 H:25475.50 L:25466.25 C:25470.50 V:583.0
+2025-11-10 02:01:01,046 - webhook - INFO - Bar received: 2025-11-10T02:01:01.041289 | O:25470.00 H:25481.00 L:25469.25 C:25476.50 V:955.0
+2025-11-10 02:02:00,470 - webhook - INFO - Bar received: 2025-11-10T02:02:00.464690 | O:25476.00 H:25478.00 L:25463.25 C:25470.25 V:930.0
+2025-11-10 02:03:01,295 - webhook - INFO - Bar received: 2025-11-10T02:03:01.287389 | O:25470.75 H:25474.50 L:25467.75 C:25468.75 V:545.0
+2025-11-10 02:04:00,275 - webhook - INFO - Bar received: 2025-11-10T02:04:00.270279 | O:25468.50 H:25471.50 L:25463.25 C:25469.00 V:601.0
+2025-11-10 02:05:00,816 - webhook - INFO - Bar received: 2025-11-10T02:05:00.809384 | O:25468.75 H:25480.25 L:25468.25 C:25474.50 V:747.0
+2025-11-10 02:06:01,609 - webhook - INFO - Bar received: 2025-11-10T02:06:01.604771 | O:25474.00 H:25477.50 L:25469.50 C:25471.75 V:381.0
+2025-11-10 02:07:00,393 - webhook - INFO - Bar received: 2025-11-10T02:07:00.388398 | O:25471.75 H:25477.75 L:25469.00 C:25469.50 V:293.0
+2025-11-10 02:08:00,565 - webhook - INFO - Bar received: 2025-11-10T02:08:00.560405 | O:25468.75 H:25477.00 L:25463.75 C:25476.75 V:651.0
+2025-11-10 02:09:00,651 - webhook - INFO - Bar received: 2025-11-10T02:09:00.644537 | O:25475.50 H:25483.75 L:25474.00 C:25480.00 V:615.0
+2025-11-10 02:10:00,914 - webhook - INFO - Bar received: 2025-11-10T02:10:00.908919 | O:25479.25 H:25481.00 L:25473.25 C:25473.25 V:299.0
+2025-11-10 02:11:00,281 - webhook - INFO - Bar received: 2025-11-10T02:11:00.274432 | O:25473.50 H:25478.75 L:25471.75 C:25476.50 V:290.0
+2025-11-10 02:12:02,740 - webhook - INFO - Bar received: 2025-11-10T02:12:02.735751 | O:25477.25 H:25477.75 L:25469.00 C:25474.00 V:396.0
+2025-11-10 02:13:02,396 - webhook - INFO - Bar received: 2025-11-10T02:13:02.388452 | O:25474.25 H:25477.25 L:25471.50 C:25477.00 V:251.0
+2025-11-10 02:14:02,872 - webhook - INFO - Bar received: 2025-11-10T02:14:02.865236 | O:25475.75 H:25481.50 L:25475.00 C:25479.50 V:320.0
+2025-11-10 02:15:00,903 - webhook - INFO - Bar received: 2025-11-10T02:15:00.898394 | O:25481.50 H:25486.00 L:25480.50 C:25481.75 V:387.0
+2025-11-10 02:16:01,577 - webhook - INFO - Bar received: 2025-11-10T02:16:01.571771 | O:25481.25 H:25482.00 L:25476.75 C:25480.00 V:210.0
+2025-11-10 02:17:01,381 - webhook - INFO - Bar received: 2025-11-10T02:17:01.374258 | O:25480.00 H:25482.75 L:25473.75 C:25478.00 V:340.0
+2025-11-10 02:18:00,384 - webhook - INFO - Bar received: 2025-11-10T02:18:00.379089 | O:25478.25 H:25480.75 L:25476.00 C:25479.00 V:228.0
+2025-11-10 02:19:01,044 - webhook - INFO - Bar received: 2025-11-10T02:19:01.038985 | O:25478.50 H:25478.50 L:25475.25 C:25475.50 V:127.0
+2025-11-10 02:20:00,600 - webhook - INFO - Bar received: 2025-11-10T02:20:00.594112 | O:25475.50 H:25481.75 L:25474.75 C:25476.25 V:231.0
+2025-11-10 02:21:00,698 - webhook - INFO - Bar received: 2025-11-10T02:21:00.693754 | O:25476.25 H:25476.75 L:25471.50 C:25473.50 V:240.0
+2025-11-10 02:22:00,724 - webhook - INFO - Bar received: 2025-11-10T02:22:00.713595 | O:25473.25 H:25484.50 L:25472.75 C:25483.00 V:348.0
+2025-11-10 02:23:00,409 - webhook - INFO - Bar received: 2025-11-10T02:23:00.403934 | O:25483.00 H:25484.25 L:25480.25 C:25480.50 V:310.0
+2025-11-10 02:24:00,807 - webhook - INFO - Bar received: 2025-11-10T02:24:00.802206 | O:25480.75 H:25482.25 L:25474.50 C:25475.25 V:257.0
+2025-11-10 02:25:00,627 - webhook - INFO - Bar received: 2025-11-10T02:25:00.621777 | O:25475.00 H:25482.25 L:25474.50 C:25481.75 V:146.0
+2025-11-10 02:26:00,506 - webhook - INFO - Bar received: 2025-11-10T02:26:00.501010 | O:25482.25 H:25485.00 L:25477.75 C:25484.50 V:290.0
+2025-11-10 02:27:00,321 - webhook - INFO - Bar received: 2025-11-10T02:27:00.315864 | O:25484.75 H:25486.00 L:25482.75 C:25484.50 V:150.0
+2025-11-10 02:28:00,261 - webhook - INFO - Bar received: 2025-11-10T02:28:00.256322 | O:25484.50 H:25485.50 L:25477.75 C:25477.75 V:261.0
+2025-11-10 02:29:00,885 - webhook - INFO - Bar received: 2025-11-10T02:29:00.879990 | O:25478.50 H:25481.25 L:25473.25 C:25473.75 V:401.0
+2025-11-10 02:30:00,535 - webhook - INFO - Bar received: 2025-11-10T02:30:00.529770 | O:25474.00 H:25480.00 L:25474.00 C:25480.00 V:153.0
+2025-11-10 02:31:00,856 - webhook - INFO - Bar received: 2025-11-10T02:31:00.850784 | O:25480.00 H:25483.00 L:25477.25 C:25477.50 V:267.0
+2025-11-10 02:32:00,302 - webhook - INFO - Bar received: 2025-11-10T02:32:00.296254 | O:25477.75 H:25489.00 L:25477.00 C:25488.00 V:357.0
+2025-11-10 02:33:00,520 - webhook - INFO - Bar received: 2025-11-10T02:33:00.513004 | O:25488.75 H:25493.25 L:25487.50 C:25492.25 V:678.0
+2025-11-10 02:34:00,263 - webhook - INFO - Bar received: 2025-11-10T02:34:00.257766 | O:25492.75 H:25493.25 L:25489.00 C:25492.00 V:309.0
+2025-11-10 02:35:00,619 - webhook - INFO - Bar received: 2025-11-10T02:35:00.613059 | O:25492.00 H:25493.00 L:25488.25 C:25492.25 V:382.0
+2025-11-10 02:36:00,310 - webhook - INFO - Bar received: 2025-11-10T02:36:00.303832 | O:25492.75 H:25495.00 L:25488.25 C:25489.00 V:543.0
+2025-11-10 02:37:00,531 - webhook - INFO - Bar received: 2025-11-10T02:37:00.526110 | O:25489.25 H:25491.75 L:25480.25 C:25482.75 V:518.0
+2025-11-10 02:38:00,444 - webhook - INFO - Bar received: 2025-11-10T02:38:00.439112 | O:25483.75 H:25484.50 L:25478.25 C:25479.75 V:430.0
+2025-11-10 02:39:02,085 - webhook - INFO - Bar received: 2025-11-10T02:39:02.080420 | O:25479.50 H:25480.25 L:25476.75 C:25479.00 V:277.0
+2025-11-10 02:40:00,734 - webhook - INFO - Bar received: 2025-11-10T02:40:00.724577 | O:25479.00 H:25481.25 L:25475.50 C:25476.75 V:359.0
+2025-11-10 02:41:00,440 - webhook - INFO - Bar received: 2025-11-10T02:41:00.435235 | O:25477.25 H:25488.50 L:25476.50 C:25487.25 V:467.0
+2025-11-10 02:42:00,264 - webhook - INFO - Bar received: 2025-11-10T02:42:00.259592 | O:25487.25 H:25494.25 L:25486.75 C:25493.75 V:495.0
+2025-11-10 02:43:00,478 - webhook - INFO - Bar received: 2025-11-10T02:43:00.473351 | O:25493.50 H:25494.00 L:25490.75 C:25491.50 V:175.0
+2025-11-10 02:44:00,233 - webhook - INFO - Bar received: 2025-11-10T02:44:00.226327 | O:25491.75 H:25494.00 L:25488.25 C:25492.75 V:261.0
+2025-11-10 02:45:00,456 - webhook - INFO - Bar received: 2025-11-10T02:45:00.451115 | O:25493.50 H:25494.25 L:25489.25 C:25493.75 V:217.0
+2025-11-10 02:46:00,384 - webhook - INFO - Bar received: 2025-11-10T02:46:00.378841 | O:25493.75 H:25494.50 L:25489.00 C:25489.25 V:193.0
+2025-11-10 02:47:00,290 - webhook - INFO - Bar received: 2025-11-10T02:47:00.284959 | O:25490.25 H:25492.00 L:25487.25 C:25491.25 V:201.0
+2025-11-10 02:48:00,293 - webhook - INFO - Bar received: 2025-11-10T02:48:00.287914 | O:25491.00 H:25497.25 L:25490.75 C:25496.00 V:501.0
+2025-11-10 02:49:00,218 - webhook - INFO - Bar received: 2025-11-10T02:49:00.212136 | O:25496.50 H:25499.00 L:25495.50 C:25496.00 V:375.0
+2025-11-10 02:50:00,248 - webhook - INFO - Bar received: 2025-11-10T02:50:00.242570 | O:25496.50 H:25499.75 L:25495.50 C:25498.25 V:340.0
+2025-11-10 02:51:00,579 - webhook - INFO - Bar received: 2025-11-10T02:51:00.574563 | O:25498.25 H:25499.25 L:25490.50 C:25491.25 V:341.0
+2025-11-10 02:52:00,928 - webhook - INFO - Bar received: 2025-11-10T02:52:00.921170 | O:25491.50 H:25493.75 L:25488.00 C:25489.25 V:208.0
+2025-11-10 02:53:00,269 - webhook - INFO - Bar received: 2025-11-10T02:53:00.264539 | O:25489.00 H:25490.25 L:25484.50 C:25490.25 V:300.0
+2025-11-10 02:54:02,340 - webhook - INFO - Bar received: 2025-11-10T02:54:02.333590 | O:25490.00 H:25494.50 L:25487.50 C:25492.25 V:251.0
+2025-11-10 02:55:00,386 - webhook - INFO - Bar received: 2025-11-10T02:55:00.379490 | O:25492.25 H:25494.25 L:25489.00 C:25493.75 V:152.0
+2025-11-10 02:56:00,834 - webhook - INFO - Bar received: 2025-11-10T02:56:00.828706 | O:25494.00 H:25495.25 L:25492.75 C:25494.00 V:178.0
+2025-11-10 02:57:02,165 - webhook - INFO - Bar received: 2025-11-10T02:57:02.159076 | O:25494.50 H:25496.75 L:25492.25 C:25495.25 V:185.0
+2025-11-10 02:58:00,669 - webhook - INFO - Bar received: 2025-11-10T02:58:00.661017 | O:25495.00 H:25498.25 L:25491.75 C:25492.25 V:321.0
+2025-11-10 02:59:00,248 - webhook - INFO - Bar received: 2025-11-10T02:59:00.241107 | O:25491.75 H:25495.00 L:25488.25 C:25489.50 V:265.0
+2025-11-10 03:00:00,503 - webhook - INFO - Bar received: 2025-11-10T03:00:00.497837 | O:25489.00 H:25490.00 L:25487.00 C:25489.50 V:196.0
+2025-11-10 03:01:01,478 - webhook - INFO - Bar received: 2025-11-10T03:01:01.473422 | O:25490.00 H:25490.75 L:25485.00 C:25486.00 V:648.0
+2025-11-10 03:02:00,794 - webhook - INFO - Bar received: 2025-11-10T03:02:00.780243 | O:25485.75 H:25493.50 L:25485.50 C:25486.25 V:428.0
+2025-11-10 03:03:00,964 - webhook - INFO - Bar received: 2025-11-10T03:03:00.958301 | O:25487.00 H:25490.25 L:25483.00 C:25485.50 V:447.0
+2025-11-10 03:04:00,499 - webhook - INFO - Bar received: 2025-11-10T03:04:00.492412 | O:25485.75 H:25491.00 L:25480.50 C:25482.25 V:521.0
+2025-11-10 03:05:00,938 - webhook - INFO - Bar received: 2025-11-10T03:05:00.933192 | O:25482.25 H:25490.00 L:25481.25 C:25485.00 V:502.0
+2025-11-10 03:06:00,470 - webhook - INFO - Bar received: 2025-11-10T03:06:00.465383 | O:25485.00 H:25491.50 L:25483.75 C:25485.00 V:453.0
+2025-11-10 03:07:00,273 - webhook - INFO - Bar received: 2025-11-10T03:07:00.268846 | O:25485.75 H:25487.75 L:25481.75 C:25485.25 V:402.0
+2025-11-10 03:08:00,666 - webhook - INFO - Bar received: 2025-11-10T03:08:00.661544 | O:25485.75 H:25488.25 L:25485.25 C:25487.00 V:307.0
+2025-11-10 03:09:00,270 - webhook - INFO - Bar received: 2025-11-10T03:09:00.265197 | O:25487.50 H:25489.25 L:25480.25 C:25481.00 V:365.0
+2025-11-10 03:10:00,492 - webhook - INFO - Bar received: 2025-11-10T03:10:00.487687 | O:25480.25 H:25484.00 L:25476.50 C:25477.75 V:509.0
+2025-11-10 03:11:00,281 - webhook - INFO - Bar received: 2025-11-10T03:11:00.275867 | O:25477.25 H:25478.25 L:25472.50 C:25476.50 V:605.0
+2025-11-10 03:12:00,380 - webhook - INFO - Bar received: 2025-11-10T03:12:00.373822 | O:25476.25 H:25479.25 L:25470.50 C:25473.50 V:520.0
+2025-11-10 03:13:00,353 - webhook - INFO - Bar received: 2025-11-10T03:13:00.345830 | O:25473.00 H:25475.25 L:25461.00 C:25463.50 V:995.0
+2025-11-10 03:14:01,112 - webhook - INFO - Bar received: 2025-11-10T03:14:01.107629 | O:25462.75 H:25465.00 L:25458.50 C:25462.00 V:913.0
+2025-11-10 03:15:00,754 - webhook - INFO - Bar received: 2025-11-10T03:15:00.748853 | O:25462.25 H:25466.00 L:25460.25 C:25462.00 V:406.0
+2025-11-10 03:16:01,946 - webhook - INFO - Bar received: 2025-11-10T03:16:01.940725 | O:25462.25 H:25468.50 L:25462.25 C:25467.75 V:513.0
+2025-11-10 03:17:00,513 - webhook - INFO - Bar received: 2025-11-10T03:17:00.506635 | O:25467.75 H:25468.25 L:25456.00 C:25458.75 V:754.0
+2025-11-10 03:18:02,395 - webhook - INFO - Bar received: 2025-11-10T03:18:02.387582 | O:25458.75 H:25466.75 L:25458.50 C:25465.25 V:502.0
+2025-11-10 03:19:00,649 - webhook - INFO - Bar received: 2025-11-10T03:19:00.641858 | O:25465.00 H:25471.50 L:25462.75 C:25463.25 V:682.0
+2025-11-10 03:20:02,481 - webhook - INFO - Bar received: 2025-11-10T03:20:02.476613 | O:25462.75 H:25468.50 L:25460.75 C:25465.25 V:247.0
+2025-11-10 03:21:02,073 - webhook - INFO - Bar received: 2025-11-10T03:21:02.065408 | O:25464.00 H:25464.00 L:25457.50 C:25460.25 V:393.0
+2025-11-10 03:22:01,107 - webhook - INFO - Bar received: 2025-11-10T03:22:01.101880 | O:25461.00 H:25467.25 L:25457.75 C:25466.75 V:776.0
+2025-11-10 03:23:00,668 - webhook - INFO - Bar received: 2025-11-10T03:23:00.663083 | O:25466.25 H:25470.75 L:25461.50 C:25469.75 V:353.0
+2025-11-10 03:24:00,315 - webhook - INFO - Bar received: 2025-11-10T03:24:00.309822 | O:25470.50 H:25479.00 L:25469.75 C:25475.25 V:721.0
+2025-11-10 03:25:00,377 - webhook - INFO - Bar received: 2025-11-10T03:25:00.370784 | O:25474.75 H:25482.00 L:25472.50 C:25481.75 V:540.0
+2025-11-10 03:26:00,362 - webhook - INFO - Bar received: 2025-11-10T03:26:00.356410 | O:25481.50 H:25487.25 L:25481.25 C:25486.25 V:577.0
+2025-11-10 03:27:00,250 - webhook - INFO - Bar received: 2025-11-10T03:27:00.241975 | O:25487.00 H:25492.25 L:25485.00 C:25491.00 V:572.0
+2025-11-10 03:28:00,550 - webhook - INFO - Bar received: 2025-11-10T03:28:00.544998 | O:25491.00 H:25492.25 L:25488.50 C:25489.75 V:378.0
+2025-11-10 03:29:00,575 - webhook - INFO - Bar received: 2025-11-10T03:29:00.570457 | O:25488.75 H:25489.00 L:25481.75 C:25484.50 V:634.0
+2025-11-10 03:30:08,576 - webhook - INFO - Bar received: 2025-11-10T03:30:08.571022 | O:25485.25 H:25490.50 L:25484.75 C:25489.25 V:371.0
+2025-11-10 03:31:00,775 - webhook - INFO - Bar received: 2025-11-10T03:31:00.770048 | O:25489.00 H:25491.50 L:25487.00 C:25489.50 V:375.0
+2025-11-10 03:32:00,371 - webhook - INFO - Bar received: 2025-11-10T03:32:00.366560 | O:25488.75 H:25490.00 L:25485.75 C:25488.25 V:397.0
+2025-11-10 03:33:00,684 - webhook - INFO - Bar received: 2025-11-10T03:33:00.677909 | O:25488.00 H:25489.25 L:25484.25 C:25486.25 V:378.0
+2025-11-10 03:34:00,988 - webhook - INFO - Bar received: 2025-11-10T03:34:00.982146 | O:25486.50 H:25493.75 L:25485.50 C:25492.75 V:675.0
+2025-11-10 03:35:00,759 - webhook - INFO - Bar received: 2025-11-10T03:35:00.753763 | O:25493.00 H:25514.50 L:25491.75 C:25510.25 V:2478.0
+2025-11-10 03:36:00,608 - webhook - INFO - Bar received: 2025-11-10T03:36:00.603688 | O:25510.25 H:25512.50 L:25505.50 C:25506.00 V:940.0
+2025-11-10 03:37:00,922 - webhook - INFO - Bar received: 2025-11-10T03:37:00.916563 | O:25506.75 H:25511.50 L:25501.75 C:25511.00 V:526.0
+2025-11-10 03:38:00,575 - webhook - INFO - Bar received: 2025-11-10T03:38:00.570750 | O:25511.00 H:25515.00 L:25509.75 C:25512.50 V:650.0
+2025-11-10 03:39:00,447 - webhook - INFO - Bar received: 2025-11-10T03:39:00.441909 | O:25512.25 H:25513.25 L:25502.25 C:25503.25 V:495.0
+2025-11-10 03:40:00,600 - webhook - INFO - Bar received: 2025-11-10T03:40:00.595590 | O:25502.50 H:25508.25 L:25502.25 C:25504.25 V:424.0
+2025-11-10 03:41:00,349 - webhook - INFO - Bar received: 2025-11-10T03:41:00.344714 | O:25503.00 H:25513.25 L:25503.00 C:25513.25 V:389.0
+2025-11-10 03:42:00,699 - webhook - INFO - Bar received: 2025-11-10T03:42:00.691659 | O:25512.25 H:25513.00 L:25509.75 C:25510.75 V:343.0
+2025-11-10 03:43:00,396 - webhook - INFO - Bar received: 2025-11-10T03:43:00.391591 | O:25511.50 H:25515.25 L:25509.50 C:25513.75 V:435.0
+2025-11-10 03:44:01,292 - webhook - INFO - Bar received: 2025-11-10T03:44:01.284399 | O:25513.75 H:25513.75 L:25507.75 C:25510.75 V:274.0
+2025-11-10 03:45:00,411 - webhook - INFO - Bar received: 2025-11-10T03:45:00.406023 | O:25511.00 H:25515.25 L:25509.75 C:25513.25 V:273.0
+2025-11-10 03:46:00,623 - webhook - INFO - Bar received: 2025-11-10T03:46:00.618210 | O:25512.75 H:25514.25 L:25508.50 C:25511.50 V:331.0
+2025-11-10 03:47:00,810 - webhook - INFO - Bar received: 2025-11-10T03:47:00.802281 | O:25511.25 H:25512.50 L:25508.25 C:25509.50 V:193.0
+2025-11-10 03:48:00,806 - webhook - INFO - Bar received: 2025-11-10T03:48:00.800873 | O:25510.00 H:25512.00 L:25508.25 C:25510.75 V:266.0
+2025-11-10 03:49:00,435 - webhook - INFO - Bar received: 2025-11-10T03:49:00.429912 | O:25510.25 H:25519.75 L:25508.25 C:25515.50 V:888.0
+2025-11-10 03:50:00,432 - webhook - INFO - Bar received: 2025-11-10T03:50:00.427842 | O:25516.00 H:25521.25 L:25512.00 C:25512.75 V:640.0
+2025-11-10 03:51:00,373 - webhook - INFO - Bar received: 2025-11-10T03:51:00.368802 | O:25512.75 H:25520.25 L:25511.50 C:25518.75 V:397.0
+2025-11-10 03:52:01,031 - webhook - INFO - Bar received: 2025-11-10T03:52:01.025724 | O:25518.25 H:25521.25 L:25517.00 C:25520.50 V:324.0
+2025-11-10 03:53:00,399 - webhook - INFO - Bar received: 2025-11-10T03:53:00.393360 | O:25519.75 H:25520.75 L:25514.75 C:25516.75 V:268.0
+2025-11-10 03:54:00,567 - webhook - INFO - Bar received: 2025-11-10T03:54:00.561297 | O:25515.75 H:25522.00 L:25515.50 C:25517.50 V:382.0
+2025-11-10 03:55:00,484 - webhook - INFO - Bar received: 2025-11-10T03:55:00.479513 | O:25517.25 H:25519.00 L:25512.75 C:25514.50 V:309.0
+2025-11-10 03:56:00,615 - webhook - INFO - Bar received: 2025-11-10T03:56:00.609639 | O:25514.25 H:25518.25 L:25513.00 C:25517.50 V:315.0
+2025-11-10 03:57:00,379 - webhook - INFO - Bar received: 2025-11-10T03:57:00.374427 | O:25516.50 H:25519.00 L:25515.00 C:25518.00 V:197.0
+2025-11-10 03:58:00,509 - webhook - INFO - Bar received: 2025-11-10T03:58:00.503657 | O:25517.75 H:25520.75 L:25517.00 C:25520.00 V:258.0
+2025-11-10 03:59:00,593 - webhook - INFO - Bar received: 2025-11-10T03:59:00.588018 | O:25520.50 H:25527.00 L:25520.25 C:25525.00 V:692.0
+2025-11-10 04:00:00,782 - webhook - INFO - Bar received: 2025-11-10T04:00:00.772776 | O:25524.50 H:25536.50 L:25523.50 C:25532.00 V:1176.0
+2025-11-10 04:01:01,052 - webhook - INFO - Bar received: 2025-11-10T04:01:01.047249 | O:25532.50 H:25532.50 L:25523.25 C:25527.25 V:1416.0
+2025-11-10 04:02:00,534 - webhook - INFO - Bar received: 2025-11-10T04:02:00.529662 | O:25527.00 H:25531.75 L:25523.75 C:25531.00 V:618.0
+2025-11-10 04:03:00,491 - webhook - INFO - Bar received: 2025-11-10T04:03:00.486126 | O:25531.00 H:25531.00 L:25517.25 C:25522.50 V:900.0
+2025-11-10 04:04:00,612 - webhook - INFO - Bar received: 2025-11-10T04:04:00.604994 | O:25522.75 H:25533.00 L:25521.75 C:25529.00 V:638.0
+2025-11-10 04:05:00,716 - webhook - INFO - Bar received: 2025-11-10T04:05:00.711254 | O:25528.50 H:25536.00 L:25527.00 C:25533.00 V:837.0
+2025-11-10 04:06:00,476 - webhook - INFO - Bar received: 2025-11-10T04:06:00.469828 | O:25532.75 H:25540.25 L:25529.50 C:25540.25 V:735.0
+2025-11-10 04:07:00,612 - webhook - INFO - Bar received: 2025-11-10T04:07:00.606791 | O:25539.75 H:25543.00 L:25535.00 C:25538.25 V:1045.0
+2025-11-10 04:08:00,506 - webhook - INFO - Bar received: 2025-11-10T04:08:00.501385 | O:25538.00 H:25538.25 L:25532.25 C:25533.50 V:522.0
+2025-11-10 04:09:00,663 - webhook - INFO - Bar received: 2025-11-10T04:09:00.658159 | O:25533.50 H:25536.50 L:25530.50 C:25532.25 V:415.0
+2025-11-10 04:10:00,520 - webhook - INFO - Bar received: 2025-11-10T04:10:00.515776 | O:25532.00 H:25536.00 L:25531.50 C:25533.00 V:300.0
+2025-11-10 04:11:00,740 - webhook - INFO - Bar received: 2025-11-10T04:11:00.735409 | O:25532.75 H:25536.25 L:25527.75 C:25536.25 V:435.0
+2025-11-10 04:12:00,484 - webhook - INFO - Bar received: 2025-11-10T04:12:00.479352 | O:25536.00 H:25536.00 L:25529.00 C:25533.50 V:300.0
+2025-11-10 04:13:00,800 - webhook - INFO - Bar received: 2025-11-10T04:13:00.794034 | O:25533.25 H:25542.75 L:25531.00 C:25542.25 V:580.0
+2025-11-10 04:14:00,669 - webhook - INFO - Bar received: 2025-11-10T04:14:00.663780 | O:25542.50 H:25545.00 L:25541.50 C:25543.25 V:557.0
+2025-11-10 04:15:00,789 - webhook - INFO - Bar received: 2025-11-10T04:15:00.784406 | O:25543.50 H:25545.75 L:25541.50 C:25543.50 V:327.0
+2025-11-10 04:16:01,145 - webhook - INFO - Bar received: 2025-11-10T04:16:01.140289 | O:25543.25 H:25551.00 L:25538.25 C:25549.25 V:1222.0
+2025-11-10 04:17:00,496 - webhook - INFO - Bar received: 2025-11-10T04:17:00.490871 | O:25549.25 H:25563.00 L:25548.75 C:25558.50 V:1765.0
+2025-11-10 04:18:01,401 - webhook - INFO - Bar received: 2025-11-10T04:18:01.395897 | O:25558.50 H:25566.00 L:25557.50 C:25563.25 V:1577.0
+2025-11-10 04:19:00,544 - webhook - INFO - Bar received: 2025-11-10T04:19:00.536694 | O:25563.00 H:25564.75 L:25558.00 C:25559.75 V:888.0
+2025-11-10 04:20:03,124 - webhook - INFO - Bar received: 2025-11-10T04:20:03.117939 | O:25559.25 H:25561.25 L:25554.25 C:25561.00 V:658.0
+2025-11-10 04:21:00,841 - webhook - INFO - Bar received: 2025-11-10T04:21:00.835685 | O:25560.50 H:25569.50 L:25557.50 C:25558.75 V:1878.0
+2025-11-10 04:22:00,515 - webhook - INFO - Bar received: 2025-11-10T04:22:00.510760 | O:25558.75 H:25559.25 L:25553.75 C:25554.75 V:786.0
+2025-11-10 04:23:00,451 - webhook - INFO - Bar received: 2025-11-10T04:23:00.444760 | O:25555.25 H:25556.50 L:25547.50 C:25550.75 V:653.0
+2025-11-10 04:24:00,627 - webhook - INFO - Bar received: 2025-11-10T04:24:00.621983 | O:25550.25 H:25550.25 L:25537.75 C:25539.00 V:993.0
+2025-11-10 04:25:00,975 - webhook - INFO - Bar received: 2025-11-10T04:25:00.970711 | O:25538.00 H:25546.75 L:25536.50 C:25546.25 V:915.0
+2025-11-10 04:26:00,897 - webhook - INFO - Bar received: 2025-11-10T04:26:00.892305 | O:25546.50 H:25550.25 L:25545.50 C:25546.50 V:458.0
+2025-11-10 04:27:01,330 - webhook - INFO - Bar received: 2025-11-10T04:27:01.323841 | O:25546.25 H:25548.75 L:25538.25 C:25540.25 V:571.0
+2025-11-10 04:28:00,815 - webhook - INFO - Bar received: 2025-11-10T04:28:00.810508 | O:25540.75 H:25547.50 L:25538.75 C:25539.00 V:521.0
+2025-11-10 04:29:00,671 - webhook - INFO - Bar received: 2025-11-10T04:29:00.665819 | O:25539.75 H:25542.75 L:25535.25 C:25536.25 V:455.0
+2025-11-10 04:30:02,700 - webhook - INFO - Bar received: 2025-11-10T04:30:02.692835 | O:25536.00 H:25541.50 L:25534.75 C:25539.75 V:482.0
+2025-11-10 04:31:03,130 - webhook - INFO - Bar received: 2025-11-10T04:31:03.125406 | O:25540.25 H:25543.00 L:25539.50 C:25540.25 V:517.0
+2025-11-10 04:32:00,500 - webhook - INFO - Bar received: 2025-11-10T04:32:00.495118 | O:25541.00 H:25541.00 L:25532.00 C:25535.25 V:440.0
+2025-11-10 04:33:00,750 - webhook - INFO - Bar received: 2025-11-10T04:33:00.744670 | O:25534.50 H:25542.50 L:25532.75 C:25539.25 V:678.0
+2025-11-10 04:34:00,482 - webhook - INFO - Bar received: 2025-11-10T04:34:00.476936 | O:25539.25 H:25541.75 L:25531.25 C:25533.00 V:609.0
+2025-11-10 04:35:02,551 - webhook - INFO - Bar received: 2025-11-10T04:35:02.546490 | O:25533.25 H:25535.75 L:25531.00 C:25531.25 V:336.0
+2025-11-10 04:36:00,531 - webhook - INFO - Bar received: 2025-11-10T04:36:00.526068 | O:25532.00 H:25536.50 L:25532.00 C:25535.00 V:288.0
+2025-11-10 04:37:00,712 - webhook - INFO - Bar received: 2025-11-10T04:37:00.705329 | O:25535.00 H:25536.00 L:25529.25 C:25530.75 V:403.0
+2025-11-10 04:38:00,624 - webhook - INFO - Bar received: 2025-11-10T04:38:00.618394 | O:25531.00 H:25539.50 L:25530.25 C:25533.25 V:496.0
+2025-11-10 04:39:01,395 - webhook - INFO - Bar received: 2025-11-10T04:39:01.388325 | O:25532.50 H:25535.50 L:25530.00 C:25532.50 V:401.0
+2025-11-10 04:40:01,317 - webhook - INFO - Bar received: 2025-11-10T04:40:01.311711 | O:25533.00 H:25541.75 L:25532.00 C:25541.75 V:506.0
+2025-11-10 04:41:00,761 - webhook - INFO - Bar received: 2025-11-10T04:41:00.755284 | O:25541.75 H:25543.50 L:25540.75 C:25542.25 V:295.0
+2025-11-10 04:42:01,170 - webhook - INFO - Bar received: 2025-11-10T04:42:01.163031 | O:25542.75 H:25546.75 L:25538.75 C:25545.00 V:372.0
+2025-11-10 04:43:03,366 - webhook - INFO - Bar received: 2025-11-10T04:43:03.360902 | O:25544.25 H:25549.25 L:25544.25 C:25544.50 V:446.0
+2025-11-10 04:44:00,497 - webhook - INFO - Bar received: 2025-11-10T04:44:00.492434 | O:25544.50 H:25544.50 L:25540.00 C:25542.75 V:385.0
+2025-11-10 04:45:00,886 - webhook - INFO - Bar received: 2025-11-10T04:45:00.879100 | O:25542.00 H:25542.75 L:25539.00 C:25540.00 V:238.0
+2025-11-10 04:46:00,791 - webhook - INFO - Bar received: 2025-11-10T04:46:00.785337 | O:25539.75 H:25540.25 L:25535.50 C:25539.75 V:391.0
+2025-11-10 04:47:01,811 - webhook - INFO - Bar received: 2025-11-10T04:47:01.804564 | O:25539.50 H:25545.50 L:25537.00 C:25542.25 V:451.0
+2025-11-10 04:48:02,240 - webhook - INFO - Bar received: 2025-11-10T04:48:02.235490 | O:25542.50 H:25545.00 L:25541.25 C:25542.50 V:228.0
+2025-11-10 04:49:00,648 - webhook - INFO - Bar received: 2025-11-10T04:49:00.642310 | O:25542.25 H:25548.00 L:25540.00 C:25546.00 V:248.0
+2025-11-10 04:50:00,955 - webhook - INFO - Bar received: 2025-11-10T04:50:00.950438 | O:25546.00 H:25554.25 L:25543.25 C:25553.00 V:614.0
+2025-11-10 04:51:00,655 - webhook - INFO - Bar received: 2025-11-10T04:51:00.650154 | O:25553.00 H:25558.00 L:25552.25 C:25552.50 V:490.0
+2025-11-10 04:52:00,661 - webhook - INFO - Bar received: 2025-11-10T04:52:00.656135 | O:25552.50 H:25559.50 L:25552.00 C:25558.25 V:631.0
+2025-11-10 04:53:01,269 - webhook - INFO - Bar received: 2025-11-10T04:53:01.264435 | O:25557.75 H:25557.75 L:25551.50 C:25553.00 V:333.0
+2025-11-10 04:54:01,972 - webhook - INFO - Bar received: 2025-11-10T04:54:01.967208 | O:25552.75 H:25557.50 L:25552.75 C:25555.75 V:179.0
+2025-11-10 04:55:02,332 - webhook - INFO - Bar received: 2025-11-10T04:55:02.324933 | O:25554.25 H:25555.25 L:25552.25 C:25552.25 V:232.0
+2025-11-10 04:56:00,750 - webhook - INFO - Bar received: 2025-11-10T04:56:00.744926 | O:25552.50 H:25556.50 L:25552.00 C:25552.75 V:153.0
+2025-11-10 04:57:00,696 - webhook - INFO - Bar received: 2025-11-10T04:57:00.689439 | O:25552.25 H:25553.75 L:25544.50 C:25547.00 V:446.0
+2025-11-10 04:58:00,612 - webhook - INFO - Bar received: 2025-11-10T04:58:00.605122 | O:25547.00 H:25548.00 L:25543.50 C:25546.50 V:360.0
+2025-11-10 04:59:00,972 - webhook - INFO - Bar received: 2025-11-10T04:59:00.967685 | O:25546.50 H:25552.25 L:25546.50 C:25551.25 V:286.0
+2025-11-10 05:00:02,650 - webhook - INFO - Bar received: 2025-11-10T05:00:02.643220 | O:25551.25 H:25553.50 L:25549.50 C:25552.75 V:270.0
+2025-11-10 05:01:03,102 - webhook - INFO - Bar received: 2025-11-10T05:01:03.097666 | O:25553.00 H:25555.75 L:25546.50 C:25549.25 V:759.0
+2025-11-10 05:02:00,829 - webhook - INFO - Bar received: 2025-11-10T05:02:00.823698 | O:25549.00 H:25549.00 L:25539.00 C:25539.50 V:477.0
+2025-11-10 05:03:00,676 - webhook - INFO - Bar received: 2025-11-10T05:03:00.671234 | O:25539.75 H:25545.00 L:25539.00 C:25542.75 V:344.0
+2025-11-10 05:04:00,552 - webhook - INFO - Bar received: 2025-11-10T05:04:00.547216 | O:25542.75 H:25547.00 L:25541.75 C:25542.50 V:299.0
+2025-11-10 05:05:01,483 - webhook - INFO - Bar received: 2025-11-10T05:05:01.478523 | O:25542.00 H:25550.50 L:25540.00 C:25549.75 V:281.0
+2025-11-10 05:06:01,275 - webhook - INFO - Bar received: 2025-11-10T05:06:01.269154 | O:25550.00 H:25552.75 L:25546.25 C:25549.75 V:418.0
+2025-11-10 05:07:01,505 - webhook - INFO - Bar received: 2025-11-10T05:07:01.499791 | O:25549.75 H:25550.00 L:25542.50 C:25545.75 V:220.0
+2025-11-10 05:08:00,793 - webhook - INFO - Bar received: 2025-11-10T05:08:00.787842 | O:25546.00 H:25546.25 L:25539.50 C:25543.50 V:237.0
+2025-11-10 05:09:01,899 - webhook - INFO - Bar received: 2025-11-10T05:09:01.894456 | O:25543.25 H:25546.00 L:25539.75 C:25546.00 V:249.0
+2025-11-10 05:10:00,599 - webhook - INFO - Bar received: 2025-11-10T05:10:00.593211 | O:25546.00 H:25546.00 L:25539.75 C:25540.50 V:247.0
+2025-11-10 05:11:00,811 - webhook - INFO - Bar received: 2025-11-10T05:11:00.806081 | O:25541.00 H:25550.50 L:25538.50 C:25547.25 V:362.0
+2025-11-10 05:12:01,571 - webhook - INFO - Bar received: 2025-11-10T05:12:01.566557 | O:25547.00 H:25550.00 L:25545.50 C:25547.25 V:216.0
+2025-11-10 05:13:00,778 - webhook - INFO - Bar received: 2025-11-10T05:13:00.773483 | O:25547.25 H:25551.50 L:25547.25 C:25547.75 V:270.0
+2025-11-10 05:14:01,188 - webhook - INFO - Bar received: 2025-11-10T05:14:01.183269 | O:25546.75 H:25549.25 L:25546.25 C:25549.00 V:130.0
+2025-11-10 05:15:01,556 - webhook - INFO - Bar received: 2025-11-10T05:15:01.550801 | O:25548.75 H:25549.50 L:25539.00 C:25541.25 V:549.0
+2025-11-10 05:16:01,327 - webhook - INFO - Bar received: 2025-11-10T05:16:01.321978 | O:25541.00 H:25546.00 L:25539.75 C:25545.50 V:408.0
+2025-11-10 05:17:02,020 - webhook - INFO - Bar received: 2025-11-10T05:17:02.015014 | O:25545.50 H:25547.25 L:25543.00 C:25547.00 V:102.0
+2025-11-10 05:18:01,116 - webhook - INFO - Bar received: 2025-11-10T05:18:01.110984 | O:25547.00 H:25549.75 L:25545.00 C:25548.75 V:225.0
+2025-11-10 05:19:00,740 - webhook - INFO - Bar received: 2025-11-10T05:19:00.735382 | O:25548.75 H:25551.00 L:25544.50 C:25546.25 V:276.0
+2025-11-10 05:20:00,573 - webhook - INFO - Bar received: 2025-11-10T05:20:00.568236 | O:25546.00 H:25550.25 L:25544.00 C:25547.25 V:287.0
+2025-11-10 05:21:03,498 - webhook - INFO - Bar received: 2025-11-10T05:21:03.492719 | O:25547.50 H:25551.50 L:25546.00 C:25547.50 V:426.0
+2025-11-10 05:22:00,638 - webhook - INFO - Bar received: 2025-11-10T05:22:00.633482 | O:25547.25 H:25547.75 L:25537.50 C:25542.50 V:446.0
+2025-11-10 05:23:01,427 - webhook - INFO - Bar received: 2025-11-10T05:23:01.421784 | O:25542.75 H:25546.25 L:25542.00 C:25545.75 V:164.0
+2025-11-10 05:24:01,671 - webhook - INFO - Bar received: 2025-11-10T05:24:01.664035 | O:25546.75 H:25548.75 L:25545.00 C:25546.00 V:168.0
+2025-11-10 05:25:01,651 - webhook - INFO - Bar received: 2025-11-10T05:25:01.645572 | O:25545.75 H:25546.50 L:25542.50 C:25542.50 V:204.0
+2025-11-10 05:26:01,075 - webhook - INFO - Bar received: 2025-11-10T05:26:01.070018 | O:25542.25 H:25543.00 L:25535.50 C:25536.50 V:220.0
+2025-11-10 05:27:01,767 - webhook - INFO - Bar received: 2025-11-10T05:27:01.761576 | O:25536.75 H:25541.25 L:25535.00 C:25540.75 V:368.0
+2025-11-10 05:28:00,579 - webhook - INFO - Bar received: 2025-11-10T05:28:00.574287 | O:25540.25 H:25541.00 L:25538.25 C:25538.50 V:162.0
+2025-11-10 05:29:02,144 - webhook - INFO - Bar received: 2025-11-10T05:29:02.139494 | O:25538.75 H:25541.75 L:25535.25 C:25535.75 V:262.0
+2025-11-10 05:30:01,716 - webhook - INFO - Bar received: 2025-11-10T05:30:01.709723 | O:25535.50 H:25540.25 L:25535.00 C:25537.50 V:238.0
+2025-11-10 05:31:01,001 - webhook - INFO - Bar received: 2025-11-10T05:31:00.994655 | O:25538.25 H:25545.00 L:25536.50 C:25543.00 V:340.0
+2025-11-10 05:32:01,399 - webhook - INFO - Bar received: 2025-11-10T05:32:01.394815 | O:25542.25 H:25545.25 L:25541.75 C:25545.25 V:149.0
+2025-11-10 05:33:01,631 - webhook - INFO - Bar received: 2025-11-10T05:33:01.624201 | O:25544.75 H:25546.50 L:25543.75 C:25545.00 V:172.0
+2025-11-10 05:34:00,717 - webhook - INFO - Bar received: 2025-11-10T05:34:00.712535 | O:25545.75 H:25546.75 L:25542.25 C:25543.50 V:164.0
+2025-11-10 05:35:00,896 - webhook - INFO - Bar received: 2025-11-10T05:35:00.888747 | O:25543.50 H:25544.25 L:25540.50 C:25542.75 V:135.0
+2025-11-10 05:36:01,146 - webhook - INFO - Bar received: 2025-11-10T05:36:01.139514 | O:25542.50 H:25552.00 L:25541.75 C:25550.75 V:658.0
+2025-11-10 05:37:00,938 - webhook - INFO - Bar received: 2025-11-10T05:37:00.933102 | O:25551.50 H:25555.50 L:25546.50 C:25554.50 V:605.0
+2025-11-10 05:38:00,773 - webhook - INFO - Bar received: 2025-11-10T05:38:00.768194 | O:25554.25 H:25554.75 L:25548.75 C:25549.50 V:305.0
+2025-11-10 05:39:00,692 - webhook - INFO - Bar received: 2025-11-10T05:39:00.687525 | O:25550.00 H:25551.00 L:25547.75 C:25550.00 V:256.0
+2025-11-10 05:40:00,724 - webhook - INFO - Bar received: 2025-11-10T05:40:00.718184 | O:25550.50 H:25553.50 L:25549.00 C:25552.50 V:176.0
+2025-11-10 05:41:03,526 - webhook - INFO - Bar received: 2025-11-10T05:41:03.517172 | O:25552.75 H:25558.25 L:25548.00 C:25550.75 V:524.0
+2025-11-10 05:42:01,162 - webhook - INFO - Bar received: 2025-11-10T05:42:01.157476 | O:25549.75 H:25555.00 L:25548.75 C:25552.50 V:269.0
+2025-11-10 05:43:01,369 - webhook - INFO - Bar received: 2025-11-10T05:43:01.363756 | O:25552.50 H:25553.75 L:25548.50 C:25550.50 V:176.0
+2025-11-10 05:44:01,069 - webhook - INFO - Bar received: 2025-11-10T05:44:01.064341 | O:25550.00 H:25551.75 L:25547.50 C:25551.00 V:218.0
+2025-11-10 05:45:00,961 - webhook - INFO - Bar received: 2025-11-10T05:45:00.955497 | O:25551.50 H:25552.00 L:25547.75 C:25549.00 V:129.0
+2025-11-10 05:46:01,320 - webhook - INFO - Bar received: 2025-11-10T05:46:01.310189 | O:25549.00 H:25550.75 L:25546.75 C:25547.00 V:173.0
+2025-11-10 05:47:00,709 - webhook - INFO - Bar received: 2025-11-10T05:47:00.702102 | O:25547.00 H:25550.00 L:25545.25 C:25550.00 V:127.0
+2025-11-10 05:48:04,589 - webhook - INFO - Bar received: 2025-11-10T05:48:04.585043 | O:25549.25 H:25552.50 L:25548.25 C:25548.50 V:237.0
+2025-11-10 05:49:01,136 - webhook - INFO - Bar received: 2025-11-10T05:49:01.130750 | O:25549.25 H:25550.50 L:25545.50 C:25546.75 V:160.0
+2025-11-10 05:50:00,803 - webhook - INFO - Bar received: 2025-11-10T05:50:00.795144 | O:25546.75 H:25548.00 L:25538.25 C:25539.00 V:592.0
+2025-11-10 05:51:01,022 - webhook - INFO - Bar received: 2025-11-10T05:51:01.016704 | O:25539.00 H:25541.25 L:25531.25 C:25532.25 V:684.0
+2025-11-10 05:52:01,591 - webhook - INFO - Bar received: 2025-11-10T05:52:01.585067 | O:25532.50 H:25534.00 L:25529.75 C:25529.75 V:530.0
+2025-11-10 05:53:02,145 - webhook - INFO - Bar received: 2025-11-10T05:53:02.140153 | O:25530.25 H:25540.00 L:25530.25 C:25538.00 V:555.0
+2025-11-10 05:54:01,115 - webhook - INFO - Bar received: 2025-11-10T05:54:01.106782 | O:25538.50 H:25538.75 L:25529.50 C:25538.00 V:781.0
+2025-11-10 05:55:00,746 - webhook - INFO - Bar received: 2025-11-10T05:55:00.740862 | O:25537.75 H:25541.25 L:25533.50 C:25539.75 V:401.0
+2025-11-10 05:56:00,593 - webhook - INFO - Bar received: 2025-11-10T05:56:00.588130 | O:25540.25 H:25541.25 L:25536.50 C:25536.50 V:187.0
+2025-11-10 05:57:00,741 - webhook - INFO - Bar received: 2025-11-10T05:57:00.734417 | O:25536.50 H:25537.50 L:25525.50 C:25528.50 V:692.0
+2025-11-10 05:58:00,540 - webhook - INFO - Bar received: 2025-11-10T05:58:00.535946 | O:25529.00 H:25532.25 L:25526.50 C:25531.25 V:283.0
+2025-11-10 05:59:00,511 - webhook - INFO - Bar received: 2025-11-10T05:59:00.504975 | O:25531.50 H:25535.50 L:25530.25 C:25535.50 V:249.0
+2025-11-10 06:00:01,218 - webhook - INFO - Bar received: 2025-11-10T06:00:01.210214 | O:25535.25 H:25536.00 L:25529.00 C:25530.00 V:507.0
+2025-11-10 06:01:00,949 - webhook - INFO - Bar received: 2025-11-10T06:01:00.943583 | O:25529.75 H:25532.75 L:25526.25 C:25527.00 V:358.0
+2025-11-10 06:02:01,657 - webhook - INFO - Bar received: 2025-11-10T06:02:01.652199 | O:25528.00 H:25536.75 L:25527.50 C:25535.00 V:300.0
+2025-11-10 06:03:00,704 - webhook - INFO - Bar received: 2025-11-10T06:03:00.698769 | O:25535.75 H:25542.00 L:25534.50 C:25540.25 V:443.0
+2025-11-10 06:04:00,535 - webhook - INFO - Bar received: 2025-11-10T06:04:00.530063 | O:25540.50 H:25543.25 L:25539.25 C:25543.25 V:202.0
+2025-11-10 06:05:00,535 - webhook - INFO - Bar received: 2025-11-10T06:05:00.530458 | O:25543.25 H:25543.50 L:25537.25 C:25538.25 V:375.0
+2025-11-10 06:06:00,542 - webhook - INFO - Bar received: 2025-11-10T06:06:00.537506 | O:25538.50 H:25539.50 L:25525.50 C:25526.50 V:584.0
+2025-11-10 06:07:00,548 - webhook - INFO - Bar received: 2025-11-10T06:07:00.542985 | O:25526.75 H:25530.25 L:25525.50 C:25526.00 V:484.0
+2025-11-10 06:08:00,710 - webhook - INFO - Bar received: 2025-11-10T06:08:00.703731 | O:25526.25 H:25527.00 L:25518.50 C:25520.50 V:1043.0
+2025-11-10 06:09:00,575 - webhook - INFO - Bar received: 2025-11-10T06:09:00.569404 | O:25520.75 H:25522.25 L:25516.75 C:25517.75 V:543.0
+2025-11-10 06:10:01,031 - webhook - INFO - Bar received: 2025-11-10T06:10:01.013142 | O:25517.75 H:25520.75 L:25515.50 C:25515.75 V:479.0
+2025-11-10 06:11:00,531 - webhook - INFO - Bar received: 2025-11-10T06:11:00.525902 | O:25516.25 H:25525.00 L:25515.75 C:25522.00 V:608.0
+2025-11-10 06:12:00,521 - webhook - INFO - Bar received: 2025-11-10T06:12:00.515192 | O:25522.50 H:25525.25 L:25520.50 C:25525.25 V:164.0
+2025-11-10 06:13:00,529 - webhook - INFO - Bar received: 2025-11-10T06:13:00.524934 | O:25525.50 H:25525.75 L:25519.25 C:25520.75 V:213.0
+2025-11-10 06:14:00,501 - webhook - INFO - Bar received: 2025-11-10T06:14:00.494399 | O:25520.75 H:25523.25 L:25513.75 C:25515.75 V:428.0
+2025-11-10 06:15:01,480 - webhook - INFO - Bar received: 2025-11-10T06:15:01.475576 | O:25516.25 H:25519.75 L:25516.00 C:25517.25 V:253.0
+2025-11-10 06:16:00,752 - webhook - INFO - Bar received: 2025-11-10T06:16:00.745727 | O:25517.25 H:25520.50 L:25516.00 C:25520.50 V:269.0
+2025-11-10 06:17:00,688 - webhook - INFO - Bar received: 2025-11-10T06:17:00.683101 | O:25520.25 H:25523.75 L:25518.00 C:25521.00 V:274.0
+2025-11-10 06:18:00,540 - webhook - INFO - Bar received: 2025-11-10T06:18:00.534321 | O:25521.00 H:25521.25 L:25513.50 C:25515.50 V:389.0
+2025-11-10 06:19:00,712 - webhook - INFO - Bar received: 2025-11-10T06:19:00.707218 | O:25515.75 H:25517.50 L:25511.50 C:25513.00 V:427.0
+2025-11-10 06:20:00,534 - webhook - INFO - Bar received: 2025-11-10T06:20:00.526712 | O:25513.25 H:25514.75 L:25506.00 C:25508.25 V:679.0
+2025-11-10 06:21:00,861 - webhook - INFO - Bar received: 2025-11-10T06:21:00.856024 | O:25508.50 H:25518.00 L:25506.00 C:25516.50 V:608.0
+2025-11-10 06:22:00,539 - webhook - INFO - Bar received: 2025-11-10T06:22:00.534721 | O:25516.00 H:25522.75 L:25515.75 C:25522.50 V:509.0
+2025-11-10 06:23:00,498 - webhook - INFO - Bar received: 2025-11-10T06:23:00.491731 | O:25522.50 H:25523.50 L:25514.00 C:25514.75 V:684.0
+2025-11-10 06:24:00,737 - webhook - INFO - Bar received: 2025-11-10T06:24:00.731681 | O:25514.75 H:25515.00 L:25510.50 C:25511.50 V:594.0
+2025-11-10 06:25:00,542 - webhook - INFO - Bar received: 2025-11-10T06:25:00.536758 | O:25511.50 H:25514.25 L:25507.75 C:25508.75 V:385.0
+2025-11-10 06:26:00,737 - webhook - INFO - Bar received: 2025-11-10T06:26:00.731665 | O:25508.75 H:25513.00 L:25508.00 C:25509.00 V:263.0
+2025-11-10 06:27:00,506 - webhook - INFO - Bar received: 2025-11-10T06:27:00.501041 | O:25508.50 H:25513.75 L:25508.00 C:25508.50 V:304.0
+2025-11-10 06:28:02,156 - webhook - INFO - Bar received: 2025-11-10T06:28:02.151616 | O:25508.25 H:25518.00 L:25507.75 C:25518.00 V:396.0
+2025-11-10 06:29:01,010 - webhook - INFO - Bar received: 2025-11-10T06:29:01.005525 | O:25518.25 H:25519.00 L:25511.25 C:25516.75 V:341.0
+2025-11-10 06:30:00,564 - webhook - INFO - Bar received: 2025-11-10T06:30:00.532275 | O:25516.75 H:25516.75 L:25510.25 C:25511.25 V:208.0
+2025-11-10 06:31:01,916 - webhook - INFO - Bar received: 2025-11-10T06:31:01.911503 | O:25511.50 H:25512.75 L:25507.75 C:25511.75 V:363.0
+2025-11-10 06:32:00,972 - webhook - INFO - Bar received: 2025-11-10T06:32:00.966826 | O:25511.25 H:25513.50 L:25509.25 C:25513.50 V:187.0
+2025-11-10 06:33:00,820 - webhook - INFO - Bar received: 2025-11-10T06:33:00.814621 | O:25512.75 H:25516.00 L:25510.75 C:25514.25 V:310.0
+2025-11-10 06:34:01,053 - webhook - INFO - Bar received: 2025-11-10T06:34:01.048664 | O:25514.75 H:25516.00 L:25509.50 C:25509.50 V:337.0
+2025-11-10 06:35:00,723 - webhook - INFO - Bar received: 2025-11-10T06:35:00.717951 | O:25509.25 H:25510.50 L:25506.50 C:25507.50 V:247.0
+2025-11-10 06:36:00,770 - webhook - INFO - Bar received: 2025-11-10T06:36:00.765146 | O:25507.50 H:25509.75 L:25506.25 C:25508.00 V:235.0
+2025-11-10 06:37:00,597 - webhook - INFO - Bar received: 2025-11-10T06:37:00.591173 | O:25508.00 H:25510.25 L:25504.75 C:25509.50 V:418.0
+2025-11-10 06:38:01,247 - webhook - INFO - Bar received: 2025-11-10T06:38:01.241688 | O:25509.75 H:25515.50 L:25509.75 C:25514.50 V:520.0
+2025-11-10 06:39:00,766 - webhook - INFO - Bar received: 2025-11-10T06:39:00.760945 | O:25514.50 H:25520.00 L:25514.00 C:25519.25 V:476.0
+2025-11-10 06:40:00,859 - webhook - INFO - Bar received: 2025-11-10T06:40:00.854027 | O:25519.25 H:25523.00 L:25517.25 C:25521.25 V:418.0
+2025-11-10 06:41:00,597 - webhook - INFO - Bar received: 2025-11-10T06:41:00.591650 | O:25520.75 H:25530.50 L:25517.75 C:25529.25 V:986.0
+2025-11-10 06:42:00,550 - webhook - INFO - Bar received: 2025-11-10T06:42:00.545352 | O:25529.00 H:25530.50 L:25525.00 C:25525.25 V:413.0
+2025-11-10 06:43:00,832 - webhook - INFO - Bar received: 2025-11-10T06:43:00.825315 | O:25525.50 H:25528.75 L:25522.75 C:25523.00 V:311.0
+2025-11-10 06:44:00,745 - webhook - INFO - Bar received: 2025-11-10T06:44:00.735783 | O:25522.75 H:25525.75 L:25519.50 C:25523.75 V:387.0
+2025-11-10 06:45:01,257 - webhook - INFO - Bar received: 2025-11-10T06:45:01.250992 | O:25523.25 H:25529.50 L:25523.00 C:25529.00 V:298.0
+2025-11-10 06:46:00,816 - webhook - INFO - Bar received: 2025-11-10T06:46:00.810857 | O:25528.50 H:25533.75 L:25527.75 C:25533.25 V:723.0
+2025-11-10 06:47:00,535 - webhook - INFO - Bar received: 2025-11-10T06:47:00.527529 | O:25533.25 H:25535.25 L:25532.00 C:25535.00 V:523.0
+2025-11-10 06:48:00,791 - webhook - INFO - Bar received: 2025-11-10T06:48:00.786139 | O:25534.75 H:25536.00 L:25532.00 C:25535.00 V:236.0
+2025-11-10 06:49:00,494 - webhook - INFO - Bar received: 2025-11-10T06:49:00.489369 | O:25534.75 H:25536.00 L:25530.75 C:25531.50 V:278.0
+2025-11-10 06:50:00,552 - webhook - INFO - Bar received: 2025-11-10T06:50:00.544382 | O:25531.00 H:25531.50 L:25526.00 C:25531.25 V:357.0
+2025-11-10 06:51:01,119 - webhook - INFO - Bar received: 2025-11-10T06:51:01.114236 | O:25530.50 H:25534.75 L:25528.00 C:25528.50 V:333.0
+2025-11-10 06:52:00,548 - webhook - INFO - Bar received: 2025-11-10T06:52:00.540586 | O:25529.50 H:25533.00 L:25524.25 C:25532.50 V:475.0
+2025-11-10 06:53:00,822 - webhook - INFO - Bar received: 2025-11-10T06:53:00.815387 | O:25532.00 H:25539.25 L:25531.75 C:25538.00 V:719.0
+2025-11-10 06:54:00,581 - webhook - INFO - Bar received: 2025-11-10T06:54:00.576285 | O:25537.75 H:25539.75 L:25535.50 C:25539.00 V:402.0
+2025-11-10 06:55:00,650 - webhook - INFO - Bar received: 2025-11-10T06:55:00.643001 | O:25538.75 H:25541.00 L:25536.00 C:25541.00 V:411.0
+2025-11-10 06:56:00,715 - webhook - INFO - Bar received: 2025-11-10T06:56:00.709488 | O:25540.25 H:25542.50 L:25535.75 C:25537.75 V:358.0
+2025-11-10 06:57:00,562 - webhook - INFO - Bar received: 2025-11-10T06:57:00.557292 | O:25537.00 H:25539.00 L:25534.75 C:25535.50 V:226.0
+2025-11-10 06:58:00,531 - webhook - INFO - Bar received: 2025-11-10T06:58:00.526702 | O:25535.00 H:25539.00 L:25533.75 C:25538.25 V:315.0
+2025-11-10 06:59:00,731 - webhook - INFO - Bar received: 2025-11-10T06:59:00.725936 | O:25537.75 H:25546.25 L:25537.50 C:25544.50 V:705.0
+2025-11-10 07:00:01,122 - webhook - INFO - Bar received: 2025-11-10T07:00:01.116988 | O:25544.00 H:25546.25 L:25542.25 C:25545.75 V:392.0
+2025-11-10 07:01:00,845 - webhook - INFO - Bar received: 2025-11-10T07:01:00.840091 | O:25546.00 H:25547.50 L:25538.50 C:25545.50 V:1017.0
+2025-11-10 07:02:00,523 - webhook - INFO - Bar received: 2025-11-10T07:02:00.515533 | O:25545.00 H:25551.50 L:25544.50 C:25549.50 V:904.0
+2025-11-10 07:03:00,835 - webhook - INFO - Bar received: 2025-11-10T07:03:00.829810 | O:25549.25 H:25551.00 L:25535.00 C:25541.75 V:1128.0
+2025-11-10 07:04:00,583 - webhook - INFO - Bar received: 2025-11-10T07:04:00.578085 | O:25541.25 H:25544.50 L:25536.50 C:25536.75 V:476.0
+2025-11-10 07:05:00,694 - webhook - INFO - Bar received: 2025-11-10T07:05:00.689989 | O:25536.75 H:25541.75 L:25535.00 C:25539.50 V:447.0
+2025-11-10 07:06:02,332 - webhook - INFO - Bar received: 2025-11-10T07:06:02.327614 | O:25539.50 H:25544.00 L:25539.25 C:25542.75 V:378.0
+2025-11-10 07:07:00,603 - webhook - INFO - Bar received: 2025-11-10T07:07:00.594840 | O:25542.25 H:25544.00 L:25528.25 C:25528.25 V:684.0
+2025-11-10 07:08:00,891 - webhook - INFO - Bar received: 2025-11-10T07:08:00.883936 | O:25528.50 H:25529.75 L:25521.75 C:25522.00 V:997.0
+2025-11-10 07:09:05,513 - webhook - INFO - Bar received: 2025-11-10T07:09:05.507899 | O:25521.75 H:25523.00 L:25517.25 C:25518.75 V:856.0
+2025-11-10 07:10:00,762 - webhook - INFO - Bar received: 2025-11-10T07:10:00.756192 | O:25519.50 H:25526.50 L:25515.00 C:25525.75 V:936.0
+2025-11-10 07:11:00,862 - webhook - INFO - Bar received: 2025-11-10T07:11:00.856941 | O:25526.25 H:25531.25 L:25523.00 C:25529.25 V:630.0
+2025-11-10 07:12:00,666 - webhook - INFO - Bar received: 2025-11-10T07:12:00.657348 | O:25529.00 H:25532.00 L:25526.25 C:25526.50 V:334.0
+2025-11-10 07:13:00,528 - webhook - INFO - Bar received: 2025-11-10T07:13:00.522551 | O:25526.75 H:25531.25 L:25526.75 C:25529.00 V:320.0
+2025-11-10 07:14:00,435 - webhook - INFO - Bar received: 2025-11-10T07:14:00.429856 | O:25529.50 H:25529.75 L:25521.25 C:25521.50 V:361.0
+2025-11-10 07:15:00,744 - webhook - INFO - Bar received: 2025-11-10T07:15:00.737982 | O:25521.75 H:25528.75 L:25521.25 C:25524.75 V:327.0
+2025-11-10 07:16:01,054 - webhook - INFO - Bar received: 2025-11-10T07:16:01.049103 | O:25524.75 H:25525.00 L:25517.75 C:25517.75 V:402.0
+2025-11-10 07:17:00,554 - webhook - INFO - Bar received: 2025-11-10T07:17:00.549550 | O:25518.25 H:25522.00 L:25513.25 C:25522.00 V:752.0
+2025-11-10 07:18:00,546 - webhook - INFO - Bar received: 2025-11-10T07:18:00.539536 | O:25521.75 H:25524.25 L:25519.25 C:25523.00 V:309.0
+2025-11-10 07:19:00,686 - webhook - INFO - Bar received: 2025-11-10T07:19:00.679812 | O:25523.50 H:25524.00 L:25517.25 C:25518.00 V:186.0
+2025-11-10 07:20:01,114 - webhook - INFO - Bar received: 2025-11-10T07:20:01.109523 | O:25517.50 H:25522.25 L:25517.50 C:25520.25 V:184.0
+2025-11-10 07:21:00,830 - webhook - INFO - Bar received: 2025-11-10T07:21:00.825268 | O:25520.00 H:25526.75 L:25519.75 C:25524.25 V:313.0
+2025-11-10 07:22:02,993 - webhook - INFO - Bar received: 2025-11-10T07:22:02.988475 | O:25524.50 H:25528.75 L:25523.75 C:25527.00 V:334.0
+2025-11-10 07:23:00,689 - webhook - INFO - Bar received: 2025-11-10T07:23:00.684488 | O:25527.50 H:25527.75 L:25520.25 C:25521.50 V:334.0
+2025-11-10 07:24:00,663 - webhook - INFO - Bar received: 2025-11-10T07:24:00.656202 | O:25521.00 H:25521.75 L:25516.00 C:25520.25 V:392.0
+2025-11-10 07:25:00,810 - webhook - INFO - Bar received: 2025-11-10T07:25:00.802725 | O:25520.50 H:25525.25 L:25518.50 C:25523.50 V:548.0
+2025-11-10 07:26:00,553 - webhook - INFO - Bar received: 2025-11-10T07:26:00.547757 | O:25523.75 H:25528.75 L:25523.50 C:25525.50 V:337.0
+2025-11-10 07:27:00,876 - webhook - INFO - Bar received: 2025-11-10T07:27:00.871127 | O:25525.25 H:25527.00 L:25521.00 C:25521.00 V:264.0
+2025-11-10 07:28:01,230 - webhook - INFO - Bar received: 2025-11-10T07:28:01.224791 | O:25521.00 H:25522.00 L:25513.25 C:25517.25 V:460.0
+2025-11-10 07:29:01,316 - webhook - INFO - Bar received: 2025-11-10T07:29:01.311591 | O:25518.00 H:25520.50 L:25516.25 C:25516.50 V:218.0
+2025-11-10 07:30:01,380 - webhook - INFO - Bar received: 2025-11-10T07:30:01.375093 | O:25516.00 H:25519.50 L:25513.25 C:25517.00 V:491.0
+2025-11-10 07:31:01,411 - webhook - INFO - Bar received: 2025-11-10T07:31:01.406577 | O:25517.00 H:25523.25 L:25516.50 C:25518.25 V:385.0
+2025-11-10 07:32:00,734 - webhook - INFO - Bar received: 2025-11-10T07:32:00.727042 | O:25518.00 H:25522.75 L:25517.75 C:25520.25 V:313.0
+2025-11-10 07:33:01,794 - webhook - INFO - Bar received: 2025-11-10T07:33:01.788829 | O:25520.75 H:25522.00 L:25517.50 C:25520.25 V:142.0
+2025-11-10 07:34:01,059 - webhook - INFO - Bar received: 2025-11-10T07:34:01.053909 | O:25521.00 H:25523.25 L:25520.25 C:25522.00 V:224.0
+2025-11-10 07:35:00,679 - webhook - INFO - Bar received: 2025-11-10T07:35:00.674470 | O:25522.25 H:25523.25 L:25517.50 C:25518.25 V:263.0
+2025-11-10 07:36:00,550 - webhook - INFO - Bar received: 2025-11-10T07:36:00.545314 | O:25518.25 H:25530.25 L:25518.25 C:25529.50 V:632.0
+2025-11-10 07:37:00,471 - webhook - INFO - Bar received: 2025-11-10T07:37:00.462430 | O:25530.00 H:25534.00 L:25522.75 C:25524.00 V:983.0
+2025-11-10 07:38:00,825 - webhook - INFO - Bar received: 2025-11-10T07:38:00.818869 | O:25524.00 H:25528.00 L:25521.25 C:25525.25 V:385.0
+2025-11-10 07:39:01,340 - webhook - INFO - Bar received: 2025-11-10T07:39:01.333419 | O:25525.25 H:25529.25 L:25524.50 C:25524.50 V:397.0
+2025-11-10 07:40:01,487 - webhook - INFO - Bar received: 2025-11-10T07:40:01.481419 | O:25525.00 H:25525.00 L:25519.00 C:25521.25 V:352.0
+2025-11-10 07:41:00,773 - webhook - INFO - Bar received: 2025-11-10T07:41:00.768219 | O:25521.25 H:25523.00 L:25518.25 C:25520.25 V:315.0
+2025-11-10 07:42:00,792 - webhook - INFO - Bar received: 2025-11-10T07:42:00.785432 | O:25520.75 H:25521.75 L:25517.00 C:25517.50 V:429.0
+2025-11-10 07:43:00,994 - webhook - INFO - Bar received: 2025-11-10T07:43:00.987424 | O:25517.25 H:25527.00 L:25517.00 C:25523.75 V:457.0
+2025-11-10 07:44:00,721 - webhook - INFO - Bar received: 2025-11-10T07:44:00.716545 | O:25524.75 H:25525.75 L:25519.50 C:25525.25 V:340.0
+2025-11-10 07:45:00,654 - webhook - INFO - Bar received: 2025-11-10T07:45:00.649641 | O:25525.25 H:25532.75 L:25525.25 C:25532.00 V:602.0
+2025-11-10 07:46:00,957 - webhook - INFO - Bar received: 2025-11-10T07:46:00.952493 | O:25532.25 H:25534.25 L:25525.75 C:25529.25 V:516.0
+2025-11-10 07:47:03,208 - webhook - INFO - Bar received: 2025-11-10T07:47:03.203317 | O:25528.50 H:25533.25 L:25528.00 C:25529.00 V:311.0
+2025-11-10 07:48:00,491 - webhook - INFO - Bar received: 2025-11-10T07:48:00.484341 | O:25528.75 H:25533.00 L:25525.25 C:25530.00 V:435.0
+2025-11-10 07:49:00,758 - webhook - INFO - Bar received: 2025-11-10T07:49:00.752291 | O:25531.00 H:25531.00 L:25521.50 C:25522.00 V:467.0
+2025-11-10 07:50:01,214 - webhook - INFO - Bar received: 2025-11-10T07:50:01.209011 | O:25521.50 H:25528.00 L:25520.25 C:25527.00 V:491.0
+2025-11-10 07:51:00,580 - webhook - INFO - Bar received: 2025-11-10T07:51:00.574720 | O:25527.25 H:25535.75 L:25526.50 C:25535.75 V:507.0
+2025-11-10 07:52:01,034 - webhook - INFO - Bar received: 2025-11-10T07:52:01.029069 | O:25535.75 H:25536.25 L:25532.25 C:25535.25 V:321.0
+2025-11-10 07:53:01,074 - webhook - INFO - Bar received: 2025-11-10T07:53:01.069209 | O:25534.50 H:25538.00 L:25533.25 C:25537.00 V:251.0
+2025-11-10 07:54:00,919 - webhook - INFO - Bar received: 2025-11-10T07:54:00.914544 | O:25537.25 H:25544.75 L:25534.75 C:25544.00 V:760.0
+2025-11-10 07:55:01,466 - webhook - INFO - Bar received: 2025-11-10T07:55:01.461594 | O:25543.50 H:25546.75 L:25540.75 C:25542.00 V:636.0
+2025-11-10 07:56:00,665 - webhook - INFO - Bar received: 2025-11-10T07:56:00.660878 | O:25542.00 H:25545.25 L:25537.25 C:25539.25 V:476.0
+2025-11-10 07:57:01,000 - webhook - INFO - Bar received: 2025-11-10T07:57:00.992418 | O:25539.00 H:25540.50 L:25536.00 C:25539.00 V:279.0
+2025-11-10 07:58:00,729 - webhook - INFO - Bar received: 2025-11-10T07:58:00.723918 | O:25539.75 H:25543.00 L:25537.50 C:25543.00 V:471.0
+2025-11-10 07:59:01,046 - webhook - INFO - Bar received: 2025-11-10T07:59:01.041541 | O:25542.50 H:25546.50 L:25539.00 C:25540.25 V:527.0
+2025-11-10 08:00:00,794 - webhook - INFO - Bar received: 2025-11-10T08:00:00.787191 | O:25539.75 H:25541.50 L:25537.00 C:25538.50 V:291.0
+2025-11-10 08:01:00,986 - webhook - INFO - Bar received: 2025-11-10T08:01:00.979873 | O:25539.50 H:25546.25 L:25539.25 C:25545.25 V:496.0
+2025-11-10 08:02:00,981 - webhook - INFO - Bar received: 2025-11-10T08:02:00.974006 | O:25544.75 H:25545.50 L:25537.25 C:25540.00 V:332.0
+2025-11-10 08:03:00,751 - webhook - INFO - Bar received: 2025-11-10T08:03:00.746193 | O:25539.75 H:25545.00 L:25537.00 C:25538.50 V:420.0
+2025-11-10 08:04:00,745 - webhook - INFO - Bar received: 2025-11-10T08:04:00.739455 | O:25538.50 H:25541.00 L:25537.50 C:25539.25 V:235.0
+2025-11-10 08:05:02,567 - webhook - INFO - Bar received: 2025-11-10T08:05:02.560378 | O:25540.00 H:25541.50 L:25535.00 C:25535.50 V:346.0
+2025-11-10 08:06:00,601 - webhook - INFO - Bar received: 2025-11-10T08:06:00.595984 | O:25535.50 H:25535.75 L:25530.75 C:25533.75 V:472.0
+2025-11-10 08:07:01,869 - webhook - INFO - Bar received: 2025-11-10T08:07:01.863394 | O:25534.75 H:25542.00 L:25534.00 C:25540.50 V:408.0
+2025-11-10 08:08:01,472 - webhook - INFO - Bar received: 2025-11-10T08:08:01.465215 | O:25540.75 H:25546.00 L:25538.50 C:25542.50 V:674.0
+2025-11-10 08:09:00,565 - webhook - INFO - Bar received: 2025-11-10T08:09:00.560533 | O:25543.00 H:25546.25 L:25538.75 C:25541.75 V:475.0
+2025-11-10 08:10:00,761 - webhook - INFO - Bar received: 2025-11-10T08:10:00.753904 | O:25541.50 H:25545.75 L:25540.25 C:25543.00 V:270.0
+2025-11-10 08:11:01,679 - webhook - INFO - Bar received: 2025-11-10T08:11:01.674244 | O:25542.75 H:25543.50 L:25535.00 C:25535.50 V:387.0
+2025-11-10 08:12:00,861 - webhook - INFO - Bar received: 2025-11-10T08:12:00.854580 | O:25535.00 H:25537.75 L:25532.25 C:25533.00 V:390.0
+2025-11-10 08:13:00,702 - webhook - INFO - Bar received: 2025-11-10T08:13:00.697485 | O:25533.00 H:25534.00 L:25519.50 C:25526.25 V:1105.0
+2025-11-10 08:14:00,698 - webhook - INFO - Bar received: 2025-11-10T08:14:00.692383 | O:25525.75 H:25526.75 L:25521.50 C:25523.50 V:450.0
+2025-11-10 08:15:00,745 - webhook - INFO - Bar received: 2025-11-10T08:15:00.740420 | O:25523.50 H:25528.50 L:25523.00 C:25526.25 V:421.0
+2025-11-10 08:16:00,934 - webhook - INFO - Bar received: 2025-11-10T08:16:00.929094 | O:25526.50 H:25531.25 L:25526.00 C:25529.50 V:368.0
+2025-11-10 08:17:00,778 - webhook - INFO - Bar received: 2025-11-10T08:17:00.769895 | O:25529.50 H:25530.75 L:25524.75 C:25528.50 V:348.0
+2025-11-10 08:18:02,041 - webhook - INFO - Bar received: 2025-11-10T08:18:02.035781 | O:25528.25 H:25529.75 L:25520.75 C:25523.75 V:383.0
+2025-11-10 08:19:02,146 - webhook - INFO - Bar received: 2025-11-10T08:19:02.139706 | O:25523.25 H:25528.00 L:25522.50 C:25525.00 V:232.0
+2025-11-10 08:20:01,317 - webhook - INFO - Bar received: 2025-11-10T08:20:01.310614 | O:25524.75 H:25524.75 L:25521.00 C:25521.75 V:383.0
+2025-11-10 08:21:00,838 - webhook - INFO - Bar received: 2025-11-10T08:21:00.830754 | O:25522.25 H:25525.75 L:25519.25 C:25521.25 V:501.0
+2025-11-10 08:22:00,635 - webhook - INFO - Bar received: 2025-11-10T08:22:00.629687 | O:25521.00 H:25526.50 L:25520.00 C:25524.00 V:508.0
+2025-11-10 08:23:01,249 - webhook - INFO - Bar received: 2025-11-10T08:23:01.243114 | O:25524.25 H:25532.75 L:25524.25 C:25532.00 V:616.0
+2025-11-10 08:24:00,858 - webhook - INFO - Bar received: 2025-11-10T08:24:00.820207 | O:25532.00 H:25539.25 L:25531.75 C:25537.25 V:650.0
+2025-11-10 08:25:01,394 - webhook - INFO - Bar received: 2025-11-10T08:25:01.386878 | O:25537.25 H:25540.00 L:25534.00 C:25534.75 V:556.0
+2025-11-10 08:26:01,725 - webhook - INFO - Bar received: 2025-11-10T08:26:01.720262 | O:25534.50 H:25538.00 L:25532.50 C:25533.50 V:363.0
+2025-11-10 08:27:00,897 - webhook - INFO - Bar received: 2025-11-10T08:27:00.890400 | O:25533.25 H:25539.50 L:25532.50 C:25539.00 V:279.0
+2025-11-10 08:28:00,582 - webhook - INFO - Bar received: 2025-11-10T08:28:00.576052 | O:25539.50 H:25544.75 L:25536.75 C:25543.25 V:567.0
+2025-11-10 08:29:00,543 - webhook - INFO - Bar received: 2025-11-10T08:29:00.535687 | O:25543.75 H:25549.25 L:25542.00 C:25548.25 V:832.0
+2025-11-10 08:30:00,653 - webhook - INFO - Bar received: 2025-11-10T08:30:00.648425 | O:25548.75 H:25551.25 L:25547.50 C:25548.25 V:856.0
+2025-11-10 08:31:00,551 - webhook - INFO - Bar received: 2025-11-10T08:31:00.545591 | O:25548.50 H:25549.75 L:25545.50 C:25547.00 V:675.0
+2025-11-10 08:33:00,578 - webhook - INFO - Bar received: 2025-11-10T08:33:00.560247 | O:25545.75 H:25553.00 L:25545.75 C:25552.50 V:752.0
+2025-11-10 08:34:00,718 - webhook - INFO - Bar received: 2025-11-10T08:34:00.713526 | O:25552.50 H:25558.00 L:25551.50 C:25556.50 V:1236.0
+2025-11-10 08:35:02,373 - webhook - INFO - Bar received: 2025-11-10T08:35:02.367827 | O:25556.25 H:25556.25 L:25551.25 C:25551.75 V:593.0
+2025-11-10 08:36:00,669 - webhook - INFO - Bar received: 2025-11-10T08:36:00.664041 | O:25552.00 H:25558.25 L:25551.50 C:25557.50 V:402.0
+2025-11-10 08:37:00,591 - webhook - INFO - Bar received: 2025-11-10T08:37:00.584438 | O:25557.00 H:25558.00 L:25554.50 C:25555.75 V:330.0
+2025-11-10 08:38:00,712 - webhook - INFO - Bar received: 2025-11-10T08:38:00.707233 | O:25555.75 H:25557.25 L:25550.00 C:25554.00 V:477.0
+2025-11-10 08:39:00,796 - webhook - INFO - Bar received: 2025-11-10T08:39:00.791582 | O:25554.25 H:25556.25 L:25553.50 C:25554.50 V:226.0
+2025-11-10 08:40:00,805 - webhook - INFO - Bar received: 2025-11-10T08:40:00.798081 | O:25555.00 H:25555.50 L:25542.25 C:25548.00 V:1148.0
+2025-11-10 08:41:00,711 - webhook - INFO - Bar received: 2025-11-10T08:41:00.705670 | O:25548.00 H:25548.75 L:25542.50 C:25546.25 V:777.0
+2025-11-10 08:42:00,596 - webhook - INFO - Bar received: 2025-11-10T08:42:00.586319 | O:25546.50 H:25546.50 L:25539.50 C:25541.50 V:573.0
+2025-11-10 08:43:00,664 - webhook - INFO - Bar received: 2025-11-10T08:43:00.658519 | O:25540.75 H:25541.75 L:25534.75 C:25536.50 V:824.0
+2025-11-10 08:44:00,549 - webhook - INFO - Bar received: 2025-11-10T08:44:00.542994 | O:25536.25 H:25543.00 L:25535.75 C:25540.00 V:580.0
+2025-11-10 08:45:00,647 - webhook - INFO - Bar received: 2025-11-10T08:45:00.640475 | O:25540.00 H:25544.50 L:25539.75 C:25541.25 V:641.0
+2025-11-10 08:46:00,761 - webhook - INFO - Bar received: 2025-11-10T08:46:00.756111 | O:25540.75 H:25541.75 L:25530.00 C:25530.75 V:976.0
+2025-11-10 08:47:00,486 - webhook - INFO - Bar received: 2025-11-10T08:47:00.479955 | O:25530.75 H:25536.75 L:25530.25 C:25534.50 V:542.0
+2025-11-10 08:48:00,487 - webhook - INFO - Bar received: 2025-11-10T08:48:00.482085 | O:25534.25 H:25537.00 L:25532.00 C:25532.25 V:360.0
+2025-11-10 08:49:00,507 - webhook - INFO - Bar received: 2025-11-10T08:49:00.500794 | O:25532.00 H:25534.25 L:25529.25 C:25530.75 V:564.0
+2025-11-10 08:50:00,812 - webhook - INFO - Bar received: 2025-11-10T08:50:00.805824 | O:25530.25 H:25533.00 L:25528.50 C:25530.75 V:540.0
+2025-11-10 08:51:00,625 - webhook - INFO - Bar received: 2025-11-10T08:51:00.614651 | O:25530.75 H:25535.50 L:25530.25 C:25533.00 V:705.0
+2025-11-10 08:52:00,647 - webhook - INFO - Bar received: 2025-11-10T08:52:00.642380 | O:25533.75 H:25540.75 L:25532.50 C:25538.75 V:790.0
+2025-11-10 08:53:00,515 - webhook - INFO - Bar received: 2025-11-10T08:53:00.507968 | O:25538.75 H:25547.00 L:25538.25 C:25545.50 V:1181.0
+2025-11-10 08:54:00,651 - webhook - INFO - Bar received: 2025-11-10T08:54:00.643737 | O:25545.50 H:25547.00 L:25543.50 C:25546.50 V:491.0
+2025-11-10 08:55:01,182 - webhook - INFO - Bar received: 2025-11-10T08:55:01.174053 | O:25547.00 H:25549.25 L:25541.00 C:25542.75 V:829.0
+2025-11-10 08:56:00,893 - webhook - INFO - Bar received: 2025-11-10T08:56:00.887985 | O:25542.25 H:25545.50 L:25541.00 C:25542.25 V:435.0
+2025-11-10 08:57:00,642 - webhook - INFO - Bar received: 2025-11-10T08:57:00.635525 | O:25542.50 H:25555.50 L:25541.75 C:25552.75 V:1308.0
+2025-11-10 08:58:00,631 - webhook - INFO - Bar received: 2025-11-10T08:58:00.626394 | O:25552.75 H:25560.00 L:25551.75 C:25555.50 V:1058.0
+2025-11-10 08:59:00,540 - webhook - INFO - Bar received: 2025-11-10T08:59:00.535921 | O:25555.75 H:25559.00 L:25554.50 C:25556.00 V:417.0
+2025-11-10 09:00:00,956 - webhook - INFO - Bar received: 2025-11-10T09:00:00.951072 | O:25556.00 H:25557.75 L:25553.75 C:25555.25 V:505.0
+2025-11-10 09:01:01,349 - webhook - INFO - Bar received: 2025-11-10T09:01:01.341171 | O:25555.50 H:25556.75 L:25541.25 C:25544.00 V:1306.0
+2025-11-10 09:02:00,688 - webhook - INFO - Bar received: 2025-11-10T09:02:00.682593 | O:25543.75 H:25550.75 L:25542.50 C:25550.00 V:815.0
+2025-11-10 09:03:00,468 - webhook - INFO - Bar received: 2025-11-10T09:03:00.463758 | O:25550.00 H:25552.25 L:25545.75 C:25550.00 V:718.0
+2025-11-10 09:04:00,522 - webhook - INFO - Bar received: 2025-11-10T09:04:00.516820 | O:25550.75 H:25551.75 L:25542.00 C:25542.75 V:592.0
+2025-11-10 09:05:00,727 - webhook - INFO - Bar received: 2025-11-10T09:05:00.721546 | O:25542.50 H:25545.00 L:25539.25 C:25539.75 V:738.0
+2025-11-10 09:06:00,786 - webhook - INFO - Bar received: 2025-11-10T09:06:00.779944 | O:25539.75 H:25544.00 L:25538.50 C:25540.25 V:694.0
+2025-11-10 09:07:00,566 - webhook - INFO - Bar received: 2025-11-10T09:07:00.561193 | O:25541.00 H:25541.25 L:25529.00 C:25530.00 V:1516.0
+2025-11-10 09:08:00,534 - webhook - INFO - Bar received: 2025-11-10T09:08:00.529790 | O:25530.00 H:25534.50 L:25529.50 C:25532.00 V:853.0
+2025-11-10 09:09:01,244 - webhook - INFO - Bar received: 2025-11-10T09:09:01.238470 | O:25532.00 H:25538.25 L:25531.75 C:25538.00 V:621.0
+2025-11-10 09:10:00,752 - webhook - INFO - Bar received: 2025-11-10T09:10:00.745332 | O:25537.50 H:25543.25 L:25536.50 C:25541.00 V:715.0
+2025-11-10 09:11:00,985 - webhook - INFO - Bar received: 2025-11-10T09:11:00.980399 | O:25541.25 H:25547.50 L:25540.00 C:25545.50 V:772.0
+2025-11-10 09:12:01,225 - webhook - INFO - Bar received: 2025-11-10T09:12:01.220451 | O:25545.50 H:25546.75 L:25539.00 C:25540.75 V:656.0
+2025-11-10 09:13:00,619 - webhook - INFO - Bar received: 2025-11-10T09:13:00.614022 | O:25540.75 H:25540.75 L:25532.50 C:25533.25 V:791.0
+2025-11-10 09:14:00,508 - webhook - INFO - Bar received: 2025-11-10T09:14:00.503607 | O:25533.25 H:25536.75 L:25529.50 C:25534.50 V:1140.0
+2025-11-10 09:15:00,979 - webhook - INFO - Bar received: 2025-11-10T09:15:00.974259 | O:25534.75 H:25537.00 L:25531.25 C:25532.25 V:465.0
+2025-11-10 09:16:01,091 - webhook - INFO - Bar received: 2025-11-10T09:16:01.086328 | O:25531.75 H:25536.00 L:25529.75 C:25531.25 V:741.0
+2025-11-10 09:17:00,958 - webhook - INFO - Bar received: 2025-11-10T09:17:00.950406 | O:25532.00 H:25533.75 L:25529.50 C:25532.00 V:689.0
+2025-11-10 09:18:00,521 - webhook - INFO - Bar received: 2025-11-10T09:18:00.515523 | O:25532.00 H:25532.25 L:25524.75 C:25531.00 V:1381.0
+2025-11-10 09:19:00,569 - webhook - INFO - Bar received: 2025-11-10T09:19:00.562680 | O:25531.00 H:25532.75 L:25521.50 C:25522.00 V:1409.0
+2025-11-10 09:20:00,692 - webhook - INFO - Bar received: 2025-11-10T09:20:00.684707 | O:25521.75 H:25534.50 L:25521.50 C:25533.50 V:984.0
+2025-11-10 09:21:00,512 - webhook - INFO - Bar received: 2025-11-10T09:21:00.507010 | O:25533.00 H:25539.75 L:25533.00 C:25536.50 V:1426.0
+2025-11-10 09:22:00,478 - webhook - INFO - Bar received: 2025-11-10T09:22:00.471098 | O:25536.25 H:25546.50 L:25533.25 C:25543.75 V:1300.0
+2025-11-10 09:23:00,448 - webhook - INFO - Bar received: 2025-11-10T09:23:00.441958 | O:25544.25 H:25545.00 L:25540.75 C:25543.00 V:735.0
+2025-11-10 09:24:00,493 - webhook - INFO - Bar received: 2025-11-10T09:24:00.486734 | O:25542.50 H:25547.50 L:25538.75 C:25543.50 V:1015.0
+2025-11-10 09:27:00,474 - webhook - INFO - Bar received: 2025-11-10T09:27:00.464207 | O:25552.00 H:25553.00 L:25543.25 C:25547.50 V:1064.0
+2025-11-10 09:28:00,606 - webhook - INFO - Bar received: 2025-11-10T09:28:00.600882 | O:25547.50 H:25548.00 L:25534.75 C:25535.25 V:1562.0
+2025-11-10 09:29:00,737 - webhook - INFO - Bar received: 2025-11-10T09:29:00.732404 | O:25535.25 H:25540.00 L:25526.75 C:25539.25 V:2026.0
+2025-11-10 09:30:01,866 - webhook - INFO - Bar received: 2025-11-10T09:30:01.859266 | O:25539.75 H:25547.75 L:25531.75 C:25538.50 V:2321.0
+2025-11-10 09:31:08,261 - webhook - INFO - Bar received: 2025-11-10T09:31:08.256240 | O:25539.00 H:25568.75 L:25524.00 C:25564.00 V:12377.0
+2025-11-10 09:32:00,598 - webhook - INFO - Bar received: 2025-11-10T09:32:00.590127 | O:25563.75 H:25585.00 L:25561.50 C:25575.00 V:10475.0
+2025-11-10 09:33:00,539 - webhook - INFO - Bar received: 2025-11-10T09:33:00.533616 | O:25575.25 H:25583.00 L:25561.50 C:25577.00 V:6818.0
+2025-11-10 09:34:00,639 - webhook - INFO - Bar received: 2025-11-10T09:34:00.634599 | O:25577.25 H:25591.75 L:25573.75 C:25584.00 V:7460.0
+2025-11-10 09:35:00,662 - webhook - INFO - Bar received: 2025-11-10T09:35:00.657043 | O:25584.75 H:25587.50 L:25566.00 C:25570.00 V:5358.0
+2025-11-10 09:36:00,810 - webhook - INFO - Bar received: 2025-11-10T09:36:00.805086 | O:25570.00 H:25602.50 L:25569.00 C:25600.25 V:10006.0
+2025-11-10 09:37:00,781 - webhook - INFO - Bar received: 2025-11-10T09:37:00.773017 | O:25600.25 H:25603.50 L:25586.50 C:25598.25 V:6233.0
+2025-11-10 09:38:00,780 - webhook - INFO - Bar received: 2025-11-10T09:38:00.775314 | O:25598.00 H:25605.00 L:25586.25 C:25596.00 V:4349.0
+2025-11-10 09:39:00,465 - webhook - INFO - Bar received: 2025-11-10T09:39:00.459681 | O:25596.75 H:25608.75 L:25591.50 C:25605.75 V:4654.0
+2025-11-10 09:40:00,502 - webhook - INFO - Bar received: 2025-11-10T09:40:00.497276 | O:25605.00 H:25617.50 L:25604.25 C:25611.50 V:5859.0
+2025-11-10 09:41:00,800 - webhook - INFO - Bar received: 2025-11-10T09:41:00.794874 | O:25611.25 H:25624.00 L:25608.75 C:25614.00 V:7181.0
+2025-11-10 09:42:00,602 - webhook - INFO - Bar received: 2025-11-10T09:42:00.596344 | O:25613.75 H:25623.50 L:25613.75 C:25617.25 V:3817.0
+2025-11-10 09:43:01,755 - webhook - INFO - Bar received: 2025-11-10T09:43:01.750140 | O:25617.00 H:25627.75 L:25611.25 C:25621.00 V:5398.0
+2025-11-10 09:44:00,546 - webhook - INFO - Bar received: 2025-11-10T09:44:00.541462 | O:25621.75 H:25625.00 L:25610.00 C:25623.25 V:4423.0
+2025-11-10 09:45:00,590 - webhook - INFO - Bar received: 2025-11-10T09:45:00.583914 | O:25623.25 H:25639.75 L:25622.50 C:25629.50 V:8144.0
+2025-11-10 09:46:00,680 - webhook - INFO - Bar received: 2025-11-10T09:46:00.675053 | O:25629.50 H:25643.50 L:25628.75 C:25633.50 V:7043.0
+2025-11-10 09:47:00,561 - webhook - INFO - Bar received: 2025-11-10T09:47:00.556320 | O:25633.50 H:25642.75 L:25632.75 C:25641.25 V:3229.0
+2025-11-10 09:48:00,647 - webhook - INFO - Bar received: 2025-11-10T09:48:00.641645 | O:25641.25 H:25647.50 L:25626.00 C:25630.25 V:6102.0
+2025-11-10 09:49:00,524 - webhook - INFO - Bar received: 2025-11-10T09:49:00.518350 | O:25630.75 H:25636.00 L:25611.00 C:25622.75 V:6748.0
+2025-11-10 09:50:00,501 - webhook - INFO - Bar received: 2025-11-10T09:50:00.495714 | O:25623.25 H:25632.75 L:25612.75 C:25616.50 V:5016.0
+2025-11-10 09:51:00,856 - webhook - INFO - Bar received: 2025-11-10T09:51:00.850189 | O:25616.75 H:25619.25 L:25591.75 C:25597.25 V:9116.0
+2025-11-10 09:52:00,602 - webhook - INFO - Bar received: 2025-11-10T09:52:00.595558 | O:25597.00 H:25616.75 L:25596.00 C:25614.25 V:5600.0
+2025-11-10 09:53:00,608 - webhook - INFO - Bar received: 2025-11-10T09:53:00.600378 | O:25614.00 H:25615.25 L:25592.25 C:25594.75 V:3970.0

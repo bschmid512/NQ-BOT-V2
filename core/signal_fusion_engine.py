@@ -1,328 +1,213 @@
-"""
-Signal Fusion Engine - The AI Decision Layer
-"""
-from typing import Dict, List, Optional
+from __future__ import annotations
+
+from dataclasses import dataclass, field
 from datetime import datetime, timedelta
-from config import FUSION_CONFIG
-from core.comprehensive_logger import comprehensive_logger # <-- 1. IMPORT
-from core.market_context_fusion import market_context_fusion # <-- 2. IMPORT FOR STOPS
+from typing import Dict, Any, List, Optional
+from zoneinfo import ZoneInfo
 
+# optional
+try:
+    import numpy as np  # noqa: F401
+except Exception:  # pragma: no cover
+    np = None  # type: ignore
+
+# ---- session filter (make sure this import path matches your repo) ----
+try:
+    from utils.session_filter import SessionFilter
+except Exception:
+    # Minimal inline fallback if path differs (won't be used if import above works)
+    from datetime import time
+    NY = ZoneInfo("America/New_York")
+
+    class SessionFilter:  # type: ignore
+        def __init__(self, allow_globex: bool = True, rth_start: time | None = None, rth_end: time | None = None):
+            self.allow_globex = allow_globex
+            self.rth_start = rth_start or time(9, 30)
+            self.rth_end = rth_end or time(16, 0)
+
+        def in_session(self, ts_utc):
+            if self.allow_globex:
+                return True
+            if ts_utc is None:
+                return False
+            ts_local = ts_utc.astimezone(NY)
+            t = ts_local.time()
+            return self.rth_start <= t <= self.rth_end
+
+
+DEFAULT_FUSION_CONFIG: Dict[str, Any] = {
+    # debug-friendly defaults (loosened so you can verify pipeline)
+    "min_total_weight": 0.35,
+    "min_signals_required": 1,
+    "trade_cooldown_seconds": 5,
+    "require_vision": False,
+    "min_atr": 0.0,
+    "force_once": False,   # set True to force a single trade for pipeline test
+    "allow_globex": True,  # allow trading 24h; set False for RTH-only
+}
+
+
+@dataclass
 class SignalFusionEngine:
-    """
-    Advanced signal fusion system that requires CONFLUENCE
-    """
-    
-    def __init__(self):
-        # ... (all your existing init properties are fine) ...
-        self.min_signals_required = FUSION_CONFIG['min_signals_required']
-        self.min_total_weight = FUSION_CONFIG['min_total_weight']
-        self.max_weight = FUSION_CONFIG['max_weight']
-        self.vision_weight_multiplier = FUSION_CONFIG['vision_weight_multiplier']
-        self.convergence_bonus = FUSION_CONFIG['convergence_bonus']
-        self.recent_signals = []
-        self.signal_cooldown = timedelta(minutes=5)
+    logger: Any
+    cfg: Dict[str, Any] = field(default_factory=lambda: dict(DEFAULT_FUSION_CONFIG))
+    _cooldown_until: Optional[datetime] = None
+    recent_signals: List[Dict[str, Any]] = field(default_factory=list)
 
-        self.logger = comprehensive_logger # <-- 3. SET UP LOGGER
-        
-        print(f"✅ Signal Fusion Engine initialized")
-        print(f"   Requires {self.min_signals_required}+ signals with {self.min_total_weight}+ weight")
-    
-    def evaluate_trade_setup(self, strategy_signals: List[Dict], 
-                                market_context: Dict) -> Optional[Dict]:
-            """
-            Evaluate if we should trade based on multiple signals
-            
-            Args:
-                strategy_signals: List of signals from different strategies
-                market_context: Unified context from MarketContextFusion
-            """
-            
-            # --- 1. Filter by Signal Count ---
-            if len(strategy_signals) < self.min_signals_required:
-                self.logger.log_trade_rejected(
-                    strategy_signals, 
-                    f"Not enough signals. Need {self.min_signals_required}, got {len(strategy_signals)}",
-                    market_context
-                )
-                return None
-            
-            # --- 2. Fuse Signals ---
-            # (This calls your existing _fuse_signals method)
-            fused_result = self._fuse_signals(strategy_signals, market_context)
-            
-            if not fused_result:
-                self.logger.log_trade_rejected(strategy_signals, "Signal fusion failed (e.g., conflicting)", market_context)
-                return None
-            
-            # --- 3. Check Cooldown ---
-            if self._in_cooldown_period(fused_result['direction']):
-                self.logger.log_trade_rejected([fused_result], "Cooldown active", market_context)
-                return None
+    def __post_init__(self):
+        # convert UTC → New York before session check; allow Globex by default
+        self.session = SessionFilter(allow_globex=self.cfg.get("allow_globex", True))
 
-            # --- 4. Final Weight/Confidence Check ---
-            if fused_result['weight'] < self.min_total_weight:
-                self.logger.log_trade_rejected(
-                    [fused_result], 
-                    f"Fused weight {fused_result['weight']} < {self.min_total_weight}",
-                    market_context
-                )
-                return None
-            
-            # --- 5. ROADMAP: Implement Dynamic Stops ---
-            # "Use vision-detected levels for stops, not fixed points."
-            current_price = market_context.get('current_price', fused_result['price'])
-            levels = market_context_fusion.get_nearest_support_resistance(current_price)
-            
-            if fused_result['direction'] == 'LONG' and levels.get('nearest_support'):
-                fused_result['stop'] = levels['nearest_support'] - 2 # 2 pts below vision support
-            elif fused_result['direction'] == 'SHORT' and levels.get('nearest_resistance'):
-                fused_result['stop'] = levels['nearest_resistance'] + 2 # 2 pts above vision resistance
+    # ----------------------------- helpers ----------------------------- #
+    def on_cooldown(self) -> bool:
+        return self._cooldown_until is not None and datetime.utcnow() < self._cooldown_until
 
-            # --- 6. ROADMAP: Implement Scale In/Out ---
-            # "Scale In/Out... When conviction is high... scale to 2-3 contracts"
-            if fused_result['weight'] > (self.min_total_weight * 1.5) and fused_result.get('vision_confirmed', False):
-                fused_result['size'] = 3 # High conviction
-            elif fused_result['weight'] > (self.min_total_weight * 1.2) or fused_result.get('vision_confirmed', False):
-                fused_result['size'] = 2 # Medium conviction
-            else:
-                fused_result['size'] = 1 # Standard conviction
-            
-            # --- 7. LOG APPROVED TRADE & RETURN ---
-            self.logger.log_trade_taken(fused_result, position={}, context=market_context)
-            
-            # --- 8. (THE FIX) Standardize key and return the correct variable ---
-            if 'direction' in fused_result:
-                fused_result['signal'] = fused_result.pop('direction')
+    def start_cooldown(self):
+        secs = float(self.cfg.get("trade_cooldown_seconds", 5))
+        self._cooldown_until = datetime.utcnow() + timedelta(seconds=secs)
 
-            self.recent_signals.append({
-                'timestamp': datetime.now(),
-                'direction': fused_result['signal'],
-                'weight': fused_result['weight']
-            })
-            
-            return fused_result
+    def _audit(self, msg: str):
+        try:
+            self.logger.log_info(msg)
+        except Exception:
+            print(msg)
 
+    def _reject(self, stage: str, reason: str) -> None:
+        self._audit(f"[NO_TRADE] {stage}: {reason}")
 
-# ... (This function goes INSIDE the SignalFusionEngine class)
-
-    def _fuse_signals(self, signals: List[Dict], context: Dict) -> Optional[Dict]:
+    # ------------------------------ API -------------------------------- #
+    def evaluate_trade_setup(
+        self,
+        market_context: Dict[str, Any],
+        component_signals: List[Dict[str, Any]],
+    ) -> Optional[Dict[str, Any]]:
         """
-        Advanced fusion logic.
-        This is the "brain" that combines signals and checks for confluence.
-        """
-        # --- 1. Separate signals by direction ---
-        long_signals = [s for s in signals if s.get('direction', s.get('signal')) == 'LONG']
-        short_signals = [s for s in signals if s.get('direction', s.get('signal')) == 'SHORT']
+        Fuse component signals into one actionable trade dict.
+        Return None if a gate rejects the setup.
 
-        # --- 2. Reject if signals are conflicting ---
-        if long_signals and short_signals:
-            self.logger.log_trade_rejected(signals, "Conflicting signals (LONG and SHORT)", context)
+        Expected output keys (downstream UI/PM expect these):
+          signal, price, stop_loss, take_profit, weight, reason
+        """
+
+        # --- 0) freshness & session gates
+        ts = market_context.get("timestamp")            # should be timezone-aware UTC
+        price = market_context.get("price")
+        bar_age = market_context.get("bar_age_sec")
+
+        if bar_age is not None and bar_age > 180:
+            self._reject("freshness", f"bar_age={bar_age:.1f}s > 180s")
             return None
-        
-        if not long_signals and not short_signals:
-            return None # No signals to fuse
-        
-        target_signals = long_signals if long_signals else short_signals
-        direction = 'LONG' if long_signals else 'SHORT'
-        
-        # --- 3. Calculate fused weight and confidence ---
-        fused_weight = sum(s['weight'] for s in target_signals)
-        fused_confidence = sum(s.get('confidence', 0.5) for s in target_signals) / len(target_signals) # Use 0.5 as default
-        
-        # --- 4. Check for Vision Confirmation ---
-        vision_sentiment = context.get('vision_sentiment', 'neutral')
-        vision_confirmed = False
-        
-        if (direction == 'LONG' and vision_sentiment == 'bullish') or \
-           (direction == 'SHORT' and vision_sentiment == 'bearish'):
-            vision_confirmed = True
-            fused_weight *= self.vision_weight_multiplier # Apply 20% boost
-            fused_weight = min(fused_weight, self.max_weight) # Cap at max
-        
-        # --- 5. Check for Convergence Bonus ---
-        if len(target_signals) > 1:
-            fused_weight += self.convergence_bonus
-            fused_weight = min(fused_weight, self.max_weight) # Cap at max
-        
-        # --- 6. Build the final, approved signal ---
-        # We take the price/stop/target from the *highest confidence* signal
-        best_signal = max(target_signals, key=lambda s: s.get('confidence', 0))
-        
-        return {
-            'strategy': 'fusion',
-            'direction': direction,
-            'price': best_signal.get('price'),
-            'stop': best_signal.get('stop'),   # Will be overwritten by dynamic stops
-            'target': best_signal.get('target'),
-            'weight': fused_weight,
-            'confidence': fused_confidence,
-            'vision_confirmed': vision_confirmed,
-            'source_signals': [s['strategy'] for s in target_signals],
-            'reason': f"Fused {len(target_signals)} signals. Vision: {vision_confirmed}"
-        }
-    # ... (Your _fuse_signals, _in_cooldown_period, get_fusion_stats methods are here) ...
-    # (No changes needed to them)
-    
-    def _calculate_fusion_score(self, signals: List[Dict], context: Dict, 
-                                direction: str) -> Dict:
-        """
-        Calculate fusion score from multiple signals
-        
-        Returns:
-            Dict with total_weight, num_signals, vision_confirmed, etc.
-        """
-        total_weight = 0
-        max_confidence = 0
-        
-        for signal in signals:
-            weight = signal.get('weight', 25)
-            confidence = signal.get('confidence', 0.5)
-            
-            # Boost weight based on confidence
-            adjusted_weight = weight * (0.5 + confidence)
-            
-            total_weight += adjusted_weight
-            max_confidence = max(max_confidence, confidence)
-        
-        # Check vision confirmation
-        vision_confirmed = False
-        if context.get('vision_available'):
-            vision_sentiment = context.get('vision_sentiment', 'neutral')
-            
-            if (direction == 'LONG' and vision_sentiment == 'bullish') or \
-               (direction == 'SHORT' and vision_sentiment == 'bearish'):
-                vision_confirmed = True
-                total_weight *= self.vision_weight_multiplier
-        
-        # Convergence bonus (3+ signals agreeing)
-        if len(signals) >= 3:
-            total_weight += self.convergence_bonus
-        
-        # Cap at max weight
-        total_weight = min(total_weight, self.max_weight)
-        
-        return {
-            'total_weight': total_weight,
-            'num_signals': len(signals),
-            'max_confidence': max_confidence,
-            'vision_confirmed': vision_confirmed
-        }
-    
-    def _create_fused_signal(self, signals: List[Dict], fusion_result: Dict,
-                            context: Dict) -> Dict:
-        """
-        Create final fused signal combining best elements from all signals
-        """
-        direction = signals[0]['direction']
-        
-        # Use weighted average for entry, stop, target
-        weights = [s.get('weight', 25) for s in signals]
-        total_weight = sum(weights)
-        
-        # Entry: Use current price from context
-        entry = context.get('current_price', signals[0].get('price', 0))
-        
-        # Stop: Use tightest stop from high-weight signals
-        stops = [s.get('stop') for s in signals if s.get('stop') is not None]
-        if stops:
-            if direction == 'LONG':
-                stop = max(stops)  # Tightest stop for LONG
-            else:
-                stop = min(stops)  # Tightest stop for SHORT
-        else:
-            # Fallback: 50 points
-            stop = entry - 50 if direction == 'LONG' else entry + 50
-        
-        # Targets: Use weighted average of all targets
-        targets_lists = [s.get('targets', [s.get('target')]) for s in signals 
-                        if s.get('targets') or s.get('target')]
-        
-        if targets_lists:
-            # Flatten and average
-            all_targets = [t for sublist in targets_lists for t in (sublist if isinstance(sublist, list) else [sublist]) if t is not None]
-            if all_targets:
-                avg_target = sum(all_targets) / len(all_targets)
-                
-                # Create multiple targets (T1, T2, T3)
-                target_range = abs(avg_target - entry)
-                targets = [
-                    entry + (target_range * 0.5 * (1 if direction == 'LONG' else -1)),  # T1: 50%
-                    entry + (target_range * 1.0 * (1 if direction == 'LONG' else -1)),  # T2: 100%
-                    entry + (target_range * 1.5 * (1 if direction == 'LONG' else -1)),  # T3: 150%
-                ]
-            else:
-                # Fallback targets
-                target_distance = 75
-                targets = [
-                    entry + (target_distance * (1 if direction == 'LONG' else -1)),
-                ]
-        else:
-            target_distance = 75
-            targets = [
-                entry + (target_distance * (1 if direction == 'LONG' else -1)),
-            ]
-        
-        # Calculate conviction percentage (0-100)
-        conviction = min(int(fusion_result['total_weight']), 100)
-        
-        # Create fusion reason
-        strategy_names = [s.get('strategy', 'unknown') for s in signals]
-        reason = f"Fusion of {len(signals)} strategies: {', '.join(strategy_names)}"
-        
-        if fusion_result['vision_confirmed']:
-            reason += " | Vision CONFIRMED"
-        
-        # Add market regime to reason
-        regime = context.get('market_regime', 'unknown')
-        reason += f" | Regime: {regime}"
-        
-        return {
-            'strategy': 'fusion',
-            'direction': direction,
-            'entry': entry,
-            'stop': stop,
-            'target': targets[0],  # Primary target for compatibility
-            'targets': targets,
-            'conviction': conviction,
-            'confidence': fusion_result['max_confidence'],
-            'weight': fusion_result['total_weight'],
-            'reason': reason,
-            'timestamp': datetime.now().isoformat(),
-            'contributing_signals': len(signals),
-            'vision_confirmed': fusion_result['vision_confirmed'],
-            'market_regime': context.get('market_regime')
-        }
-    
-    def _in_cooldown_period(self, direction: str) -> bool:
-        """Check if we're in cooldown period for this direction"""
-        now = datetime.now()
-        
-        # Clean old signals
-        self.recent_signals = [s for s in self.recent_signals 
-                               if now - s['timestamp'] < timedelta(hours=1)]
-        
-        # Check recent signals for this direction
-        recent_same_direction = [s for s in self.recent_signals 
-                                 if s['direction'] == direction and 
-                                 now - s['timestamp'] < self.signal_cooldown]
-        
-        return len(recent_same_direction) > 0
-    
-    def get_fusion_stats(self) -> Dict:
-        """Get statistics on fusion decisions"""
-        now = datetime.now()
-        
-        # Count signals in last hour
-        recent = [s for s in self.recent_signals 
-                 if now - s['timestamp'] < timedelta(hours=1)]
-        
-        return {
-            'signals_last_hour': len(recent),
-            'avg_weight': sum(s['weight'] for s in recent) / len(recent) if recent else 0,
-            'long_signals': len([s for s in recent if s['direction'] == 'LONG']),
-            'short_signals': len([s for s in recent if s['direction'] == 'SHORT'])
+
+        if not self.session.in_session(ts):
+            self._reject("session", f"outside RTH (ts={ts})")
+            return None
+
+        if self.on_cooldown():
+            self._reject("cooldown", f"until={self._cooldown_until}")
+            return None
+
+        # --- 1) collect/weight component signals
+        approved: List[Dict[str, Any]] = []
+        total_weight = 0.0
+        fused_direction: Optional[str] = None
+
+        for s in component_signals or []:
+            # accept either {'signal': 'LONG'} or {'direction': 'LONG'}
+            sig = s.get("signal") or s.get("direction")
+            if sig not in ("LONG", "SHORT"):
+                continue
+            w = float(s.get("weight", 0.0))
+            if w <= 0:
+                continue
+            s = dict(s)
+            s["signal"] = sig
+            approved.append(s)
+            total_weight += w
+            fused_direction = sig  # simple majority / last-wins
+
+        if len(approved) < self.cfg["min_signals_required"]:
+            self._reject("fusion", f"signals={len(approved)} < {self.cfg['min_signals_required']}")
+            return None
+
+        if total_weight < self.cfg["min_total_weight"]:
+            self._reject("fusion", f"weight={total_weight:.2f} < {self.cfg['min_total_weight']:.2f}")
+            return None
+
+        # --- 2) preliminary trade object
+        fused_result: Dict[str, Any] = {
+            "direction": fused_direction or "LONG",
+            "entry": price,
+            "stop": market_context.get("stop") or (price - 40 if fused_direction == "LONG" else price + 40),
+            "targets": market_context.get("targets") or [
+                price + 60 if fused_direction == "LONG" else price - 60
+            ],
+            "weight": total_weight,
+            "reason": "fusion_approved",
         }
 
+        # --- 3) normalize keys *before* logging/returning
+        # direction → signal
+        fused_result["signal"] = fused_result.pop("direction")
 
-# Create global instance
-signal_fusion_engine = SignalFusionEngine()
+        # entry → price
+        fused_result["price"] = fused_result.get("entry")
+
+        # targets/target → take_profit  (prefer T2 if present)
+        tp = fused_result.get("target")
+        if tp is None:
+            tlist = fused_result.get("targets") or []
+            if isinstance(tlist, list) and tlist:
+                tp = tlist[1] if len(tlist) > 1 else tlist[0]
+        if tp is None and fused_result.get("price") is not None:
+            px = fused_result["price"]
+            tp = px + 50 if fused_result["signal"] == "LONG" else px - 50
+        fused_result["take_profit"] = tp
+
+        # stop → stop_loss
+        fused_result["stop_loss"] = fused_result.get("stop")
+
+        # convenience alias for UI tables
+        fused_result["entry"] = fused_result["price"]
+
+        # --- 4) optional one-off forced trade to verify pipeline
+        if self.cfg.get("force_once") and not getattr(self, "_forced", False):
+            self._forced = True
+            self._audit("[FORCE] Emitting one debug trade to verify pipeline")
+            forced = {
+                "signal": "LONG",
+                "price": price,
+                "stop_loss": price - 40 if price is not None else None,
+                "take_profit": price + 60 if price is not None else None,
+                "weight": 0.99,
+                "reason": "force_once",
+            }
+            try:
+                self.logger.log_trade_taken(forced, position={}, context=market_context)
+            finally:
+                self.start_cooldown()
+            return forced
+
+        # --- 5) log & cooldown
+        try:
+            self.logger.log_trade_taken(fused_result, position={}, context=market_context)
+        finally:
+            self.start_cooldown()
+
+        self.recent_signals.append({
+            "timestamp": datetime.utcnow(),
+            "direction": fused_result["signal"],
+            "weight": fused_result["weight"],
+        })
+        return fused_result
+# ---- compatibility shim for older imports ----
+def signal_fusion_engine(logger, cfg=None):
+    """
+    Backward-compatible factory so code that does:
+        from core.signal_fusion_engine import signal_fusion_engine
+    keeps working.
+    """
+    # start with defaults and overlay user cfg
+    merged = dict(DEFAULT_FUSION_CONFIG)
+    if cfg:
+        merged.update(cfg)
+    return SignalFusionEngine(logger=logger, cfg=merged)

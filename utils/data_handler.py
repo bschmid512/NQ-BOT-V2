@@ -61,32 +61,58 @@ class DataHandler:
 
     # ───────────────────────────── bars I/O ───────────────────────────── #
 
-    def add_bar(self, bar_data: Dict):
-        """Append a new OHLCV bar from the webhook."""
+    def add_bar(self, bar_data: dict) -> None:
+        """
+        Append a single OHLCV bar (from the webhook) into LIVE_DATA_FILE.
+        Ensures UTC tz-aware timestamps and a stable schema.
+        """
+        cols = ["timestamp", "open", "high", "low", "close", "volume"]
+
+        # Load existing or create empty with schema
+        if LIVE_DATA_FILE.exists():
+            try:
+                df = pd.read_csv(LIVE_DATA_FILE)
+            except Exception:
+                df = pd.DataFrame(columns=cols)
+        else:
+            df = pd.DataFrame(columns=cols)
+
+        # Normalize incoming payload
+        ts = pd.to_datetime(bar_data.get("timestamp"), errors="coerce", utc=True)
+
+        row = {
+            "timestamp": ts,
+            "open":   float(bar_data.get("open",   np.nan)),
+            "high":   float(bar_data.get("high",   np.nan)),
+            "low":    float(bar_data.get("low",    np.nan)),
+            "close":  float(bar_data.get("close",  np.nan)),
+            "volume": float(bar_data.get("volume", np.nan)),
+        }
+
+        # Append
+        df = pd.concat([df, pd.DataFrame([row])], ignore_index=True)
+
+        # Clean up & enforce UTC tz-aware timestamps
+        df["timestamp"] = pd.to_datetime(df["timestamp"], errors="coerce", utc=True)
+        df = df.dropna(subset=["timestamp"]).sort_values("timestamp")
+
+        # Trim file size
+        if len(df) > 10000:
+            df = df.tail(10000)
+
+        # Persist
+        df.to_csv(LIVE_DATA_FILE, index=False)
+
+        # Log
         try:
-            df = pd.read_csv(LIVE_DATA_FILE)
-
-            ts = bar_data.get("timestamp")
-            if isinstance(ts, str):
-                bar_data["timestamp"] = pd.to_datetime(ts, format="mixed")
-
-            new_row = pd.DataFrame([bar_data])
-            df = pd.concat([df, new_row], ignore_index=True)
-
-            # keep last N rows to avoid huge file
-            if len(df) > 10000:
-                df = df.tail(10000)
-
-            df.to_csv(LIVE_DATA_FILE, index=False)
-            self.system_logger.debug(f"Added bar: {bar_data['timestamp']} | Close: {bar_data['close']}")
-        except Exception as e:
-            self.system_logger.error(f"Error adding bar: {e}", exc_info=True)
-            trading_logger.log_error("DataHandler.add_bar", e)
+            self.system_logger.debug(f"Added bar: {ts} | Close: {row['close']}")
+        except Exception:
+            pass
 
     def get_latest_bars(self, n: int = 100) -> pd.DataFrame:
         try:
             df = pd.read_csv(LIVE_DATA_FILE)
-            df["timestamp"] = pd.to_datetime(df["timestamp"], format="mixed")
+            df["timestamp"] = pd.to_datetime(df["timestamp"], errors="coerce", utc=True)
             return df.sort_values("timestamp").tail(n).set_index("timestamp")
         except Exception as e:
             self.system_logger.error(f"Error getting latest bars: {e}")
@@ -95,15 +121,15 @@ class DataHandler:
     def get_bars_between(self, start_time: datetime, end_time: datetime) -> pd.DataFrame:
         try:
             df = pd.read_csv(LIVE_DATA_FILE)
-            df["timestamp"] = pd.to_datetime(df["timestamp"], format="mixed")
+            df["timestamp"] = pd.to_datetime(df["timestamp"], errors="coerce", utc=True)
 
-            # compare as naive
-            if start_time.tzinfo is not None:
-                start_time = start_time.replace(tzinfo=None)
-            if end_time.tzinfo is not None:
-                end_time = end_time.replace(tzinfo=None)
+            # normalize inputs to UTC tz-aware
+            start = pd.Timestamp(start_time, tz="UTC") if start_time.tzinfo is None \
+                else pd.Timestamp(start_time).tz_convert("UTC")
+            end = pd.Timestamp(end_time, tz="UTC") if end_time.tzinfo is None \
+                else pd.Timestamp(end_time).tz_convert("UTC")
 
-            m = (df["timestamp"] >= start_time) & (df["timestamp"] <= end_time)
+            m = (df["timestamp"] >= start) & (df["timestamp"] <= end)
             return df.loc[m].set_index("timestamp")
         except Exception as e:
             self.system_logger.error(f"Error getting bars between times: {e}")
@@ -267,7 +293,6 @@ class DataHandler:
             df = df[ts_naive >= cutoff_naive]
 
         return df.reset_index(drop=True)[cols]
-
 
     def get_daily_pnl(self, date: Optional[datetime] = None) -> float:
         date = date or datetime.now()
