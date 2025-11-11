@@ -39001,3 +39001,362 @@ Traceback (most recent call last):
     fused_signal = enhanced_strategy_engine.process_new_bar(
                    ^^^^^^^^^^^^^^^^^^^^^^^^
 NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:18:00,941 - webhook - INFO - Bar received: 2025-11-10T18:18:00.939518 | O:25713.75 H:25718.75 L:25712.25 C:25718.75 V:315.0
+2025-11-10 18:18:00,945 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:18:06,143 - webhook - INFO - Bar received: 2025-11-10T18:18:06.142351 | O:25713.75 H:25718.75 L:25712.25 C:25718.75 V:315.0
+2025-11-10 18:18:06,148 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:18:11,373 - webhook - INFO - Bar received: 2025-11-10T18:18:11.371984 | O:25713.75 H:25718.75 L:25712.25 C:25718.75 V:315.0
+2025-11-10 18:18:11,378 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:18:16,577 - webhook - INFO - Bar received: 2025-11-10T18:18:16.575709 | O:25713.75 H:25718.75 L:25712.25 C:25718.75 V:315.0
+2025-11-10 18:18:16,580 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:19:01,282 - webhook - INFO - Bar received: 2025-11-10T18:19:01.280333 | O:25718.75 H:25729.50 L:25717.00 C:25722.50 V:856.0
+2025-11-10 18:19:01,285 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:19:06,504 - webhook - INFO - Bar received: 2025-11-10T18:19:06.503187 | O:25718.75 H:25729.50 L:25717.00 C:25722.50 V:856.0
+2025-11-10 18:19:06,507 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:19:11,688 - webhook - INFO - Bar received: 2025-11-10T18:19:11.687594 | O:25718.75 H:25729.50 L:25717.00 C:25722.50 V:856.0
+2025-11-10 18:19:11,692 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:19:16,871 - webhook - INFO - Bar received: 2025-11-10T18:19:16.869566 | O:25718.75 H:25729.50 L:25717.00 C:25722.50 V:856.0
+2025-11-10 18:19:16,875 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:20:00,830 - webhook - INFO - Bar received: 2025-11-10T18:20:00.829817 | O:25722.00 H:25724.25 L:25709.00 C:25709.50 V:630.0
+2025-11-10 18:20:00,833 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:20:06,066 - webhook - INFO - Bar received: 2025-11-10T18:20:06.065530 | O:25722.00 H:25724.25 L:25709.00 C:25709.50 V:630.0
+2025-11-10 18:20:06,069 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:20:11,284 - webhook - INFO - Bar received: 2025-11-10T18:20:11.283793 | O:25722.00 H:25724.25 L:25709.00 C:25709.50 V:630.0
+2025-11-10 18:20:11,287 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:20:16,492 - webhook - INFO - Bar received: 2025-11-10T18:20:16.491011 | O:25722.00 H:25724.25 L:25709.00 C:25709.50 V:630.0
+2025-11-10 18:20:16,495 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:21:00,610 - webhook - INFO - Bar received: 2025-11-10T18:21:00.609492 | O:25710.25 H:25710.50 L:25705.50 C:25707.75 V:514.0
+2025-11-10 18:21:00,613 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:21:05,823 - webhook - INFO - Bar received: 2025-11-10T18:21:05.821943 | O:25710.25 H:25710.50 L:25705.50 C:25707.75 V:514.0
+2025-11-10 18:21:05,826 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:21:11,017 - webhook - INFO - Bar received: 2025-11-10T18:21:11.016183 | O:25710.25 H:25710.50 L:25705.50 C:25707.75 V:514.0
+2025-11-10 18:21:11,020 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:21:16,205 - webhook - INFO - Bar received: 2025-11-10T18:21:16.204175 | O:25710.25 H:25710.50 L:25705.50 C:25707.75 V:514.0
+2025-11-10 18:21:16,208 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:22:00,656 - webhook - INFO - Bar received: 2025-11-10T18:22:00.655012 | O:25708.00 H:25718.75 L:25707.50 C:25718.50 V:360.0
+2025-11-10 18:22:00,659 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:22:05,836 - webhook - INFO - Bar received: 2025-11-10T18:22:05.835688 | O:25708.00 H:25718.75 L:25707.50 C:25718.50 V:360.0
+2025-11-10 18:22:05,839 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:22:11,040 - webhook - INFO - Bar received: 2025-11-10T18:22:11.039413 | O:25708.00 H:25718.75 L:25707.50 C:25718.50 V:360.0
+2025-11-10 18:22:11,043 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:22:16,446 - webhook - INFO - Bar received: 2025-11-10T18:22:16.445734 | O:25708.00 H:25718.75 L:25707.50 C:25718.50 V:360.0
+2025-11-10 18:22:16,449 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:23:01,901 - webhook - INFO - Bar received: 2025-11-10T18:23:01.900676 | O:25718.50 H:25723.00 L:25717.50 C:25722.75 V:478.0
+2025-11-10 18:23:01,905 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:23:07,110 - webhook - INFO - Bar received: 2025-11-10T18:23:07.109229 | O:25718.50 H:25723.00 L:25717.50 C:25722.75 V:478.0
+2025-11-10 18:23:07,114 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:23:12,288 - webhook - INFO - Bar received: 2025-11-10T18:23:12.286699 | O:25718.50 H:25723.00 L:25717.50 C:25722.75 V:478.0
+2025-11-10 18:23:12,291 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:23:17,468 - webhook - INFO - Bar received: 2025-11-10T18:23:17.467016 | O:25718.50 H:25723.00 L:25717.50 C:25722.75 V:478.0
+2025-11-10 18:23:17,471 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:24:00,965 - webhook - INFO - Bar received: 2025-11-10T18:24:00.964772 | O:25721.75 H:25723.75 L:25717.50 C:25722.75 V:324.0
+2025-11-10 18:24:00,968 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:24:06,183 - webhook - INFO - Bar received: 2025-11-10T18:24:06.182477 | O:25721.75 H:25723.75 L:25717.50 C:25722.75 V:324.0
+2025-11-10 18:24:06,186 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:24:11,579 - webhook - INFO - Bar received: 2025-11-10T18:24:11.577779 | O:25721.75 H:25723.75 L:25717.50 C:25722.75 V:324.0
+2025-11-10 18:24:11,582 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:24:16,760 - webhook - INFO - Bar received: 2025-11-10T18:24:16.759385 | O:25721.75 H:25723.75 L:25717.50 C:25722.75 V:324.0
+2025-11-10 18:24:16,763 - webhook - ERROR - Error processing webhook: name 'enhanced_strategy_engine' is not defined
+Traceback (most recent call last):
+  File "C:\Users\bschm\OneDrive\Documents\nq_trading_bot\NQ-BOT-V2\main.py", line 134, in receive_webhook
+    fused_signal = enhanced_strategy_engine.process_new_bar(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'enhanced_strategy_engine' is not defined. Did you mean: 'EnhancedStrategyEngine'?
+2025-11-10 18:27:01,864 - webhook - INFO - Bar received: 2025-11-10T18:27:01.860494 | O:25722.50 H:25727.50 L:25718.75 C:25719.75 V:283.0
+2025-11-10 18:28:01,100 - webhook - INFO - Bar received: 2025-11-10T18:28:01.099523 | O:25721.50 H:25726.50 L:25721.50 C:25725.75 V:209.0
+2025-11-10 18:29:00,965 - webhook - INFO - Bar received: 2025-11-10T18:29:00.964309 | O:25726.00 H:25729.50 L:25725.00 C:25727.00 V:330.0
+2025-11-10 18:30:00,647 - webhook - INFO - Bar received: 2025-11-10T18:30:00.646308 | O:25726.50 H:25727.50 L:25721.25 C:25722.00 V:339.0
+2025-11-10 18:31:00,860 - webhook - INFO - Bar received: 2025-11-10T18:31:00.859377 | O:25722.75 H:25726.25 L:25716.25 C:25718.00 V:369.0
+2025-11-10 18:32:00,799 - webhook - INFO - Bar received: 2025-11-10T18:32:00.796808 | O:25718.25 H:25722.75 L:25716.25 C:25721.25 V:363.0
+2025-11-10 18:33:00,833 - webhook - INFO - Bar received: 2025-11-10T18:33:00.832010 | O:25720.75 H:25722.75 L:25717.50 C:25719.50 V:261.0
+2025-11-10 18:34:01,051 - webhook - INFO - Bar received: 2025-11-10T18:34:01.049921 | O:25719.00 H:25719.50 L:25714.00 C:25714.50 V:254.0
+2025-11-10 18:35:00,557 - webhook - INFO - Bar received: 2025-11-10T18:35:00.555964 | O:25715.25 H:25715.25 L:25710.00 C:25713.00 V:411.0
+2025-11-10 18:36:00,885 - webhook - INFO - Bar received: 2025-11-10T18:36:00.884784 | O:25713.25 H:25715.50 L:25711.25 C:25712.00 V:265.0
+2025-11-10 18:37:01,033 - webhook - INFO - Bar received: 2025-11-10T18:37:01.032409 | O:25711.25 H:25711.75 L:25708.50 C:25708.75 V:373.0
+2025-11-10 18:38:02,624 - webhook - INFO - Bar received: 2025-11-10T18:38:02.623513 | O:25708.50 H:25714.75 L:25708.50 C:25710.25 V:308.0
+2025-11-10 18:39:00,770 - webhook - INFO - Bar received: 2025-11-10T18:39:00.768926 | O:25710.25 H:25711.00 L:25706.00 C:25709.25 V:374.0
+2025-11-10 18:40:00,949 - webhook - INFO - Bar received: 2025-11-10T18:40:00.947984 | O:25709.50 H:25713.00 L:25708.75 C:25710.50 V:193.0
+2025-11-10 18:41:00,725 - webhook - INFO - Bar received: 2025-11-10T18:41:00.724636 | O:25710.00 H:25712.25 L:25708.25 C:25708.50 V:178.0
+2025-11-10 18:42:00,767 - webhook - INFO - Bar received: 2025-11-10T18:42:00.766029 | O:25708.25 H:25714.75 L:25707.75 C:25714.25 V:226.0
+2025-11-10 18:43:03,134 - webhook - INFO - Bar received: 2025-11-10T18:43:03.133133 | O:25714.75 H:25715.75 L:25712.25 C:25715.00 V:291.0
+2025-11-10 18:44:00,632 - webhook - INFO - Bar received: 2025-11-10T18:44:00.631590 | O:25715.00 H:25718.00 L:25714.50 C:25716.25 V:184.0
+2025-11-10 18:45:00,846 - webhook - INFO - Bar received: 2025-11-10T18:45:00.845290 | O:25716.00 H:25721.75 L:25710.50 C:25711.25 V:585.0
+2025-11-10 18:46:00,688 - webhook - INFO - Bar received: 2025-11-10T18:46:00.686993 | O:25711.25 H:25715.25 L:25711.25 C:25715.00 V:153.0
+2025-11-10 18:47:01,050 - webhook - INFO - Bar received: 2025-11-10T18:47:01.048942 | O:25715.00 H:25728.25 L:25715.00 C:25726.75 V:644.0
+2025-11-10 18:48:00,702 - webhook - INFO - Bar received: 2025-11-10T18:48:00.701717 | O:25727.00 H:25740.00 L:25724.25 C:25736.25 V:1349.0
+2025-11-10 18:49:00,857 - webhook - INFO - Bar received: 2025-11-10T18:49:00.855458 | O:25736.25 H:25743.50 L:25735.25 C:25742.25 V:656.0
+2025-11-10 18:50:00,607 - webhook - INFO - Bar received: 2025-11-10T18:50:00.606108 | O:25741.75 H:25742.50 L:25733.75 C:25737.50 V:628.0
+2025-11-10 18:51:01,373 - webhook - INFO - Bar received: 2025-11-10T18:51:01.372487 | O:25738.25 H:25740.75 L:25735.00 C:25740.25 V:376.0
+2025-11-10 18:52:00,745 - webhook - INFO - Bar received: 2025-11-10T18:52:00.744128 | O:25739.25 H:25742.00 L:25736.25 C:25740.75 V:331.0
+2025-11-10 18:53:00,530 - webhook - INFO - Bar received: 2025-11-10T18:53:00.529040 | O:25740.25 H:25742.25 L:25735.50 C:25735.75 V:234.0
+2025-11-10 18:54:01,292 - webhook - INFO - Bar received: 2025-11-10T18:54:01.291374 | O:25735.75 H:25739.00 L:25735.50 C:25738.00 V:268.0
+2025-11-10 18:55:00,539 - webhook - INFO - Bar received: 2025-11-10T18:55:00.538000 | O:25737.25 H:25737.75 L:25733.50 C:25734.75 V:274.0
+2025-11-10 18:56:00,887 - webhook - INFO - Bar received: 2025-11-10T18:56:00.885890 | O:25734.50 H:25735.75 L:25729.50 C:25730.50 V:336.0
+2025-11-10 18:57:00,762 - webhook - INFO - Bar received: 2025-11-10T18:57:00.760344 | O:25730.50 H:25739.50 L:25727.50 C:25737.50 V:517.0
+2025-11-10 18:58:00,579 - webhook - INFO - Bar received: 2025-11-10T18:58:00.578713 | O:25737.25 H:25744.50 L:25736.75 C:25743.50 V:668.0
+2025-11-10 18:59:02,219 - webhook - INFO - Bar received: 2025-11-10T18:59:02.217687 | O:25742.75 H:25747.75 L:25742.50 C:25744.00 V:587.0
+2025-11-10 19:00:00,683 - webhook - INFO - Bar received: 2025-11-10T19:00:00.682738 | O:25744.25 H:25745.25 L:25740.25 C:25742.75 V:227.0
+2025-11-10 19:01:01,553 - webhook - INFO - Bar received: 2025-11-10T19:01:01.552435 | O:25742.00 H:25743.75 L:25736.75 C:25742.00 V:624.0
+2025-11-10 19:02:00,638 - webhook - INFO - Bar received: 2025-11-10T19:02:00.637229 | O:25741.75 H:25748.75 L:25741.75 C:25745.00 V:727.0
+2025-11-10 19:03:00,850 - webhook - INFO - Bar received: 2025-11-10T19:03:00.849927 | O:25745.50 H:25754.25 L:25745.00 C:25751.25 V:870.0
+2025-11-10 19:04:00,486 - webhook - INFO - Bar received: 2025-11-10T19:04:00.485373 | O:25751.75 H:25759.50 L:25748.25 C:25754.75 V:1284.0
+2025-11-10 19:05:00,541 - webhook - INFO - Bar received: 2025-11-10T19:05:00.539770 | O:25756.00 H:25768.75 L:25755.00 C:25768.00 V:1526.0
+2025-11-10 19:06:00,605 - webhook - INFO - Bar received: 2025-11-10T19:06:00.604574 | O:25767.50 H:25767.75 L:25757.50 C:25760.50 V:1034.0
+2025-11-10 19:07:00,590 - webhook - INFO - Bar received: 2025-11-10T19:07:00.589815 | O:25760.00 H:25761.50 L:25747.25 C:25751.25 V:1022.0
+2025-11-10 19:08:00,818 - webhook - INFO - Bar received: 2025-11-10T19:08:00.817586 | O:25751.00 H:25755.00 L:25744.25 C:25750.75 V:974.0
+2025-11-10 19:09:00,752 - webhook - INFO - Bar received: 2025-11-10T19:09:00.750885 | O:25751.25 H:25753.75 L:25745.00 C:25745.75 V:445.0
+2025-11-10 19:10:00,519 - webhook - INFO - Bar received: 2025-11-10T19:10:00.518634 | O:25745.25 H:25747.00 L:25740.25 C:25745.75 V:854.0
+2025-11-10 19:11:00,560 - webhook - INFO - Bar received: 2025-11-10T19:11:00.558299 | O:25745.25 H:25746.75 L:25737.25 C:25741.50 V:640.0
+2025-11-10 19:12:00,656 - webhook - INFO - Bar received: 2025-11-10T19:12:00.654833 | O:25741.00 H:25741.00 L:25730.00 C:25737.00 V:889.0
+2025-11-10 19:13:00,524 - webhook - INFO - Bar received: 2025-11-10T19:13:00.523645 | O:25736.25 H:25737.75 L:25733.25 C:25734.50 V:319.0
+2025-11-10 19:14:00,569 - webhook - INFO - Bar received: 2025-11-10T19:14:00.568806 | O:25733.50 H:25738.75 L:25732.00 C:25738.25 V:447.0
+2025-11-10 19:15:00,699 - webhook - INFO - Bar received: 2025-11-10T19:15:00.698055 | O:25737.75 H:25750.00 L:25737.50 C:25747.75 V:1023.0
+2025-11-10 19:16:00,526 - webhook - INFO - Bar received: 2025-11-10T19:16:00.524735 | O:25747.25 H:25749.00 L:25738.00 C:25740.00 V:568.0
+2025-11-10 19:17:01,009 - webhook - INFO - Bar received: 2025-11-10T19:17:01.008623 | O:25740.00 H:25744.00 L:25732.50 C:25736.75 V:620.0
+2025-11-10 19:18:00,780 - webhook - INFO - Bar received: 2025-11-10T19:18:00.778962 | O:25737.75 H:25740.75 L:25736.00 C:25738.25 V:395.0
+2025-11-10 19:19:00,856 - webhook - INFO - Bar received: 2025-11-10T19:19:00.855475 | O:25737.50 H:25745.50 L:25737.50 C:25743.25 V:296.0
+2025-11-10 19:20:00,830 - webhook - INFO - Bar received: 2025-11-10T19:20:00.829374 | O:25742.25 H:25742.25 L:25731.75 C:25732.75 V:473.0
+2025-11-10 19:21:00,937 - webhook - INFO - Bar received: 2025-11-10T19:21:00.936373 | O:25732.25 H:25738.25 L:25729.00 C:25737.00 V:643.0
+2025-11-10 19:22:00,581 - webhook - INFO - Bar received: 2025-11-10T19:22:00.579908 | O:25737.50 H:25737.75 L:25731.25 C:25734.75 V:278.0
+2025-11-10 19:23:02,058 - webhook - INFO - Bar received: 2025-11-10T19:23:02.056994 | O:25734.25 H:25742.25 L:25734.25 C:25738.75 V:295.0
+2025-11-10 19:24:01,328 - webhook - INFO - Bar received: 2025-11-10T19:24:01.327133 | O:25738.25 H:25744.25 L:25735.00 C:25742.25 V:438.0
+2025-11-10 19:25:00,614 - webhook - INFO - Bar received: 2025-11-10T19:25:00.613420 | O:25742.00 H:25744.75 L:25739.50 C:25742.00 V:273.0
+2025-11-10 19:26:01,713 - webhook - INFO - Bar received: 2025-11-10T19:26:01.711903 | O:25742.50 H:25742.50 L:25736.50 C:25738.25 V:268.0
+2025-11-10 19:27:01,200 - webhook - INFO - Bar received: 2025-11-10T19:27:01.199108 | O:25739.00 H:25741.00 L:25738.75 C:25740.50 V:149.0
+2025-11-10 19:28:01,005 - webhook - INFO - Bar received: 2025-11-10T19:28:01.004807 | O:25740.00 H:25743.25 L:25739.00 C:25743.25 V:181.0
+2025-11-10 19:29:00,676 - webhook - INFO - Bar received: 2025-11-10T19:29:00.674892 | O:25743.00 H:25747.50 L:25742.00 C:25742.50 V:423.0
+2025-11-10 19:30:02,008 - webhook - INFO - Bar received: 2025-11-10T19:30:02.007535 | O:25742.75 H:25749.50 L:25739.50 C:25749.50 V:433.0
+2025-11-10 19:31:00,711 - webhook - INFO - Bar received: 2025-11-10T19:31:00.710187 | O:25748.75 H:25749.50 L:25737.50 C:25738.00 V:496.0
+2025-11-10 19:32:00,958 - webhook - INFO - Bar received: 2025-11-10T19:32:00.957413 | O:25738.25 H:25740.25 L:25734.75 C:25737.25 V:397.0
+2025-11-10 19:33:00,919 - webhook - INFO - Bar received: 2025-11-10T19:33:00.917758 | O:25738.00 H:25742.75 L:25736.00 C:25739.50 V:247.0
+2025-11-10 19:34:00,928 - webhook - INFO - Bar received: 2025-11-10T19:34:00.927212 | O:25740.25 H:25743.50 L:25739.50 C:25742.50 V:155.0
+2025-11-10 19:35:01,778 - webhook - INFO - Bar received: 2025-11-10T19:35:01.777560 | O:25743.00 H:25748.00 L:25742.50 C:25746.00 V:276.0
+2025-11-10 19:36:00,905 - webhook - INFO - Bar received: 2025-11-10T19:36:00.904044 | O:25746.00 H:25751.75 L:25745.75 C:25750.75 V:522.0
+2025-11-10 19:37:02,525 - webhook - INFO - Bar received: 2025-11-10T19:37:02.524793 | O:25750.75 H:25753.25 L:25748.00 C:25749.75 V:328.0
+2025-11-10 19:38:00,639 - webhook - INFO - Bar received: 2025-11-10T19:38:00.638505 | O:25749.75 H:25755.75 L:25749.50 C:25751.75 V:417.0
+2025-11-10 19:39:00,809 - webhook - INFO - Bar received: 2025-11-10T19:39:00.808385 | O:25751.75 H:25754.75 L:25751.50 C:25753.75 V:212.0
+2025-11-10 19:40:01,444 - webhook - INFO - Bar received: 2025-11-10T19:40:01.443303 | O:25753.25 H:25755.25 L:25749.75 C:25750.00 V:235.0
+2025-11-10 19:41:00,828 - webhook - INFO - Bar received: 2025-11-10T19:41:00.827511 | O:25750.00 H:25753.75 L:25750.00 C:25753.00 V:180.0
+2025-11-10 19:42:00,940 - webhook - INFO - Bar received: 2025-11-10T19:42:00.939663 | O:25752.75 H:25752.75 L:25745.50 C:25747.25 V:225.0
+2025-11-10 19:43:01,878 - webhook - INFO - Bar received: 2025-11-10T19:43:01.876605 | O:25747.00 H:25752.25 L:25747.00 C:25750.50 V:242.0
+2025-11-10 19:44:00,789 - webhook - INFO - Bar received: 2025-11-10T19:44:00.788273 | O:25750.25 H:25750.75 L:25748.00 C:25748.50 V:163.0
+2025-11-10 19:45:00,655 - webhook - INFO - Bar received: 2025-11-10T19:45:00.653837 | O:25748.75 H:25749.75 L:25741.75 C:25743.00 V:432.0
+2025-11-10 19:46:01,198 - webhook - INFO - Bar received: 2025-11-10T19:46:01.197126 | O:25743.25 H:25746.25 L:25740.25 C:25745.00 V:335.0
+2025-11-10 19:47:00,583 - webhook - INFO - Bar received: 2025-11-10T19:47:00.581894 | O:25744.50 H:25744.50 L:25734.25 C:25735.50 V:483.0
+2025-11-10 19:48:00,741 - webhook - INFO - Bar received: 2025-11-10T19:48:00.740645 | O:25735.00 H:25739.25 L:25734.50 C:25735.75 V:365.0
+2025-11-10 19:49:00,737 - webhook - INFO - Bar received: 2025-11-10T19:49:00.736367 | O:25735.75 H:25740.50 L:25733.75 C:25739.00 V:502.0
+2025-11-10 19:50:00,539 - webhook - INFO - Bar received: 2025-11-10T19:50:00.537828 | O:25739.00 H:25739.25 L:25731.75 C:25732.75 V:431.0
+2025-11-10 19:51:00,803 - webhook - INFO - Bar received: 2025-11-10T19:51:00.802494 | O:25732.25 H:25742.25 L:25731.00 C:25739.75 V:446.0
+2025-11-10 19:52:02,246 - webhook - INFO - Bar received: 2025-11-10T19:52:02.245180 | O:25740.75 H:25741.25 L:25733.00 C:25734.00 V:311.0
+2025-11-10 19:53:00,851 - webhook - INFO - Bar received: 2025-11-10T19:53:00.849947 | O:25735.25 H:25735.75 L:25730.00 C:25733.50 V:429.0
+2025-11-10 19:54:01,359 - webhook - INFO - Bar received: 2025-11-10T19:54:01.358151 | O:25734.25 H:25735.25 L:25730.25 C:25732.25 V:270.0
+2025-11-10 19:55:00,935 - webhook - INFO - Bar received: 2025-11-10T19:55:00.934490 | O:25731.25 H:25735.75 L:25731.25 C:25734.50 V:197.0
+2025-11-10 19:56:00,833 - webhook - INFO - Bar received: 2025-11-10T19:56:00.830803 | O:25733.25 H:25739.00 L:25732.25 C:25738.50 V:327.0
+2025-11-10 19:57:00,835 - webhook - INFO - Bar received: 2025-11-10T19:57:00.834008 | O:25738.50 H:25745.25 L:25736.25 C:25744.25 V:531.0
+2025-11-10 19:58:01,963 - webhook - INFO - Bar received: 2025-11-10T19:58:01.962264 | O:25744.50 H:25745.75 L:25739.75 C:25740.25 V:548.0
+2025-11-10 19:59:00,854 - webhook - INFO - Bar received: 2025-11-10T19:59:00.853024 | O:25739.75 H:25740.00 L:25733.50 C:25738.25 V:456.0
+2025-11-10 20:00:00,538 - webhook - INFO - Bar received: 2025-11-10T20:00:00.537307 | O:25738.00 H:25740.50 L:25734.25 C:25738.50 V:243.0
+2025-11-10 20:01:01,737 - webhook - INFO - Bar received: 2025-11-10T20:01:01.736366 | O:25739.00 H:25748.75 L:25739.00 C:25744.25 V:855.0
+2025-11-10 20:02:00,990 - webhook - INFO - Bar received: 2025-11-10T20:02:00.989226 | O:25744.00 H:25746.75 L:25740.25 C:25743.25 V:352.0
+2025-11-10 20:03:00,911 - webhook - INFO - Bar received: 2025-11-10T20:03:00.910465 | O:25743.00 H:25747.25 L:25740.25 C:25746.25 V:294.0
+2025-11-10 20:04:00,589 - webhook - INFO - Bar received: 2025-11-10T20:04:00.587947 | O:25746.00 H:25747.50 L:25736.00 C:25737.25 V:393.0
+2025-11-10 20:05:00,580 - webhook - INFO - Bar received: 2025-11-10T20:05:00.578979 | O:25737.50 H:25740.25 L:25735.00 C:25739.75 V:318.0
+2025-11-10 20:06:00,964 - webhook - INFO - Bar received: 2025-11-10T20:06:00.963684 | O:25739.50 H:25748.00 L:25739.50 C:25747.00 V:431.0
+2025-11-10 20:07:00,580 - webhook - INFO - Bar received: 2025-11-10T20:07:00.579489 | O:25747.50 H:25747.75 L:25740.25 C:25745.75 V:287.0
+2025-11-10 20:08:00,546 - webhook - INFO - Bar received: 2025-11-10T20:08:00.544959 | O:25746.00 H:25752.00 L:25744.25 C:25745.25 V:715.0
+2025-11-10 20:09:00,545 - webhook - INFO - Bar received: 2025-11-10T20:09:00.543583 | O:25745.50 H:25750.00 L:25741.50 C:25748.00 V:697.0
+2025-11-10 20:10:00,744 - webhook - INFO - Bar received: 2025-11-10T20:10:00.743360 | O:25748.50 H:25752.00 L:25746.00 C:25750.25 V:280.0
+2025-11-10 20:11:00,715 - webhook - INFO - Bar received: 2025-11-10T20:11:00.714381 | O:25751.00 H:25751.50 L:25743.25 C:25745.00 V:237.0
+2025-11-10 20:12:00,510 - webhook - INFO - Bar received: 2025-11-10T20:12:00.509507 | O:25746.00 H:25747.50 L:25744.75 C:25745.00 V:165.0
+2025-11-10 20:13:00,558 - webhook - INFO - Bar received: 2025-11-10T20:13:00.557185 | O:25746.00 H:25748.00 L:25741.50 C:25745.25 V:260.0
+2025-11-10 20:14:00,589 - webhook - INFO - Bar received: 2025-11-10T20:14:00.587846 | O:25745.75 H:25749.00 L:25744.75 C:25746.50 V:143.0
+2025-11-10 20:15:00,639 - webhook - INFO - Bar received: 2025-11-10T20:15:00.638001 | O:25747.00 H:25751.75 L:25745.00 C:25750.25 V:151.0
+2025-11-10 20:16:00,932 - webhook - INFO - Bar received: 2025-11-10T20:16:00.931051 | O:25751.00 H:25752.50 L:25746.00 C:25750.25 V:377.0
+2025-11-10 20:17:00,503 - webhook - INFO - Bar received: 2025-11-10T20:17:00.501981 | O:25750.75 H:25764.00 L:25750.75 C:25758.25 V:965.0
+2025-11-10 20:18:00,870 - webhook - INFO - Bar received: 2025-11-10T20:18:00.869095 | O:25758.75 H:25765.00 L:25757.00 C:25760.50 V:460.0
+2025-11-10 20:19:00,662 - webhook - INFO - Bar received: 2025-11-10T20:19:00.661575 | O:25760.75 H:25764.25 L:25758.75 C:25762.50 V:301.0
+2025-11-10 20:20:00,754 - webhook - INFO - Bar received: 2025-11-10T20:20:00.753791 | O:25762.50 H:25766.75 L:25762.00 C:25764.75 V:614.0
+2025-11-10 20:21:00,770 - webhook - INFO - Bar received: 2025-11-10T20:21:00.769152 | O:25765.25 H:25768.00 L:25764.00 C:25765.50 V:450.0
+2025-11-10 20:22:01,167 - webhook - INFO - Bar received: 2025-11-10T20:22:01.166431 | O:25765.50 H:25767.50 L:25761.25 C:25762.50 V:406.0
+2025-11-10 20:23:01,349 - webhook - INFO - Bar received: 2025-11-10T20:23:01.348200 | O:25762.50 H:25764.00 L:25754.50 C:25756.25 V:713.0
+2025-11-10 20:24:00,506 - webhook - INFO - Bar received: 2025-11-10T20:24:00.505334 | O:25756.25 H:25760.75 L:25754.50 C:25760.50 V:388.0
+2025-11-10 20:25:01,050 - webhook - INFO - Bar received: 2025-11-10T20:25:01.049207 | O:25760.25 H:25762.00 L:25754.75 C:25756.00 V:358.0
+2025-11-10 20:26:00,585 - webhook - INFO - Bar received: 2025-11-10T20:26:00.584289 | O:25755.75 H:25764.00 L:25755.25 C:25764.00 V:315.0
+2025-11-10 20:27:00,752 - webhook - INFO - Bar received: 2025-11-10T20:27:00.751451 | O:25763.50 H:25765.00 L:25757.00 C:25760.50 V:368.0
+2025-11-10 20:28:01,088 - webhook - INFO - Bar received: 2025-11-10T20:28:01.086859 | O:25761.00 H:25761.25 L:25755.75 C:25756.25 V:388.0
+2025-11-10 20:29:00,934 - webhook - INFO - Bar received: 2025-11-10T20:29:00.927082 | O:25756.00 H:25764.00 L:25756.00 C:25760.25 V:463.0
+2025-11-10 20:30:00,732 - webhook - INFO - Bar received: 2025-11-10T20:30:00.731630 | O:25760.25 H:25760.25 L:25757.25 C:25760.25 V:170.0
+2025-11-10 20:31:00,717 - webhook - INFO - Bar received: 2025-11-10T20:31:00.715872 | O:25760.50 H:25760.75 L:25756.00 C:25756.75 V:277.0
+2025-11-10 20:32:00,741 - webhook - INFO - Bar received: 2025-11-10T20:32:00.739497 | O:25758.00 H:25759.25 L:25756.00 C:25758.75 V:126.0
+2025-11-10 20:33:00,559 - webhook - INFO - Bar received: 2025-11-10T20:33:00.558250 | O:25758.75 H:25760.00 L:25756.25 C:25756.50 V:327.0
+2025-11-10 20:34:01,125 - webhook - INFO - Bar received: 2025-11-10T20:34:01.124097 | O:25756.75 H:25763.50 L:25756.50 C:25762.00 V:311.0
+2025-11-10 20:35:00,970 - webhook - INFO - Bar received: 2025-11-10T20:35:00.968745 | O:25761.75 H:25763.25 L:25758.50 C:25760.75 V:258.0
+2025-11-10 20:36:00,801 - webhook - INFO - Bar received: 2025-11-10T20:36:00.799804 | O:25761.00 H:25761.50 L:25757.00 C:25758.75 V:203.0
+2025-11-10 20:37:02,687 - webhook - INFO - Bar received: 2025-11-10T20:37:02.685897 | O:25758.75 H:25760.75 L:25755.50 C:25757.75 V:285.0
+2025-11-10 20:38:01,261 - webhook - INFO - Bar received: 2025-11-10T20:38:01.259958 | O:25758.00 H:25759.25 L:25751.00 C:25752.75 V:588.0
+2025-11-10 20:39:00,784 - webhook - INFO - Bar received: 2025-11-10T20:39:00.783269 | O:25752.25 H:25753.75 L:25735.00 C:25738.25 V:1509.0
+2025-11-10 20:40:00,542 - webhook - INFO - Bar received: 2025-11-10T20:40:00.540763 | O:25740.00 H:25748.25 L:25738.75 C:25745.75 V:661.0
+2025-11-10 20:41:00,814 - webhook - INFO - Bar received: 2025-11-10T20:41:00.812751 | O:25745.25 H:25745.25 L:25734.75 C:25741.50 V:530.0
+2025-11-10 20:42:00,726 - webhook - INFO - Bar received: 2025-11-10T20:42:00.724723 | O:25741.00 H:25747.25 L:25739.00 C:25741.75 V:426.0
+2025-11-10 20:43:00,706 - webhook - INFO - Bar received: 2025-11-10T20:43:00.704893 | O:25741.00 H:25748.25 L:25733.50 C:25745.25 V:818.0
+2025-11-10 20:44:00,802 - webhook - INFO - Bar received: 2025-11-10T20:44:00.801240 | O:25745.00 H:25749.25 L:25739.75 C:25743.00 V:493.0
+2025-11-10 20:45:01,314 - webhook - INFO - Bar received: 2025-11-10T20:45:01.312798 | O:25743.00 H:25749.25 L:25741.50 C:25745.75 V:313.0
+2025-11-10 20:46:01,580 - webhook - INFO - Bar received: 2025-11-10T20:46:01.579264 | O:25745.25 H:25749.75 L:25740.00 C:25744.50 V:470.0
+2025-11-10 20:47:00,519 - webhook - INFO - Bar received: 2025-11-10T20:47:00.517875 | O:25742.75 H:25746.75 L:25741.50 C:25742.00 V:239.0
+2025-11-10 20:48:01,178 - webhook - INFO - Bar received: 2025-11-10T20:48:01.177645 | O:25741.50 H:25743.75 L:25737.25 C:25738.25 V:408.0
+2025-11-10 20:49:00,995 - webhook - INFO - Bar received: 2025-11-10T20:49:00.994075 | O:25738.25 H:25743.75 L:25737.50 C:25742.25 V:277.0
+2025-11-10 20:50:00,946 - webhook - INFO - Bar received: 2025-11-10T20:50:00.945307 | O:25742.25 H:25748.75 L:25740.50 C:25745.00 V:284.0
+2025-11-10 20:51:00,741 - webhook - INFO - Bar received: 2025-11-10T20:51:00.739605 | O:25744.50 H:25749.00 L:25743.25 C:25748.00 V:250.0
+2025-11-10 20:52:01,969 - webhook - INFO - Bar received: 2025-11-10T20:52:01.967805 | O:25747.75 H:25748.50 L:25744.75 C:25747.25 V:142.0
+2025-11-10 20:53:00,822 - webhook - INFO - Bar received: 2025-11-10T20:53:00.820837 | O:25747.00 H:25747.25 L:25741.50 C:25742.25 V:151.0
+2025-11-10 20:54:00,694 - webhook - INFO - Bar received: 2025-11-10T20:54:00.693014 | O:25742.25 H:25748.75 L:25741.50 C:25747.50 V:386.0
+2025-11-10 20:55:03,349 - webhook - INFO - Bar received: 2025-11-10T20:55:03.346955 | O:25747.00 H:25748.00 L:25742.75 C:25743.25 V:146.0
+2025-11-10 20:56:01,768 - webhook - INFO - Bar received: 2025-11-10T20:56:01.766370 | O:25744.00 H:25748.25 L:25744.00 C:25746.00 V:119.0
+2025-11-10 20:57:01,207 - webhook - INFO - Bar received: 2025-11-10T20:57:01.206432 | O:25746.75 H:25749.25 L:25745.50 C:25749.00 V:176.0
+2025-11-10 20:58:01,260 - webhook - INFO - Bar received: 2025-11-10T20:58:01.259073 | O:25749.00 H:25749.50 L:25744.00 C:25747.25 V:233.0
+2025-11-10 20:59:00,742 - webhook - INFO - Bar received: 2025-11-10T20:59:00.739738 | O:25746.75 H:25747.00 L:25740.75 C:25743.50 V:211.0
+2025-11-10 21:00:06,749 - webhook - INFO - Bar received: 2025-11-10T21:00:06.748188 | O:25742.75 H:25744.00 L:25740.50 C:25743.25 V:238.0
+2025-11-10 21:01:02,092 - webhook - INFO - Bar received: 2025-11-10T21:01:02.090647 | O:25743.50 H:25744.25 L:25740.75 C:25740.75 V:170.0
+2025-11-10 21:02:00,861 - webhook - INFO - Bar received: 2025-11-10T21:02:00.859232 | O:25741.00 H:25741.75 L:25733.00 C:25735.25 V:633.0
+2025-11-10 21:03:01,022 - webhook - INFO - Bar received: 2025-11-10T21:03:01.021741 | O:25735.25 H:25736.25 L:25723.25 C:25727.25 V:1143.0
+2025-11-10 21:04:01,054 - webhook - INFO - Bar received: 2025-11-10T21:04:01.052706 | O:25726.50 H:25730.75 L:25724.50 C:25728.75 V:489.0
+2025-11-10 21:05:00,516 - webhook - INFO - Bar received: 2025-11-10T21:05:00.515098 | O:25729.25 H:25733.00 L:25727.50 C:25729.00 V:278.0
+2025-11-10 21:06:00,733 - webhook - INFO - Bar received: 2025-11-10T21:06:00.731380 | O:25729.25 H:25731.25 L:25726.00 C:25726.75 V:349.0
+2025-11-10 21:07:01,875 - webhook - INFO - Bar received: 2025-11-10T21:07:01.874796 | O:25727.25 H:25729.75 L:25722.00 C:25727.25 V:744.0
+2025-11-10 21:08:03,287 - webhook - INFO - Bar received: 2025-11-10T21:08:03.285740 | O:25726.50 H:25728.25 L:25724.75 C:25725.50 V:377.0
+2025-11-10 21:09:00,636 - webhook - INFO - Bar received: 2025-11-10T21:09:00.635007 | O:25724.00 H:25725.75 L:25720.50 C:25722.50 V:439.0

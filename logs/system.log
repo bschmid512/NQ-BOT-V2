@@ -7663,3 +7663,253 @@ FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\bschm\\OneDr
 2025-11-10 18:17:15,110 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
 2025-11-10 18:17:16,507 - system - DEBUG - Added bar: 2025-11-10 18:17:16 | Close: 25713.25 | Total rows: 237
 2025-11-10 18:17:40,398 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 18:18:00,941 - system - DEBUG - Added bar: 2025-11-10 18:18:00 | Close: 25718.75 | Total rows: 238
+2025-11-10 18:18:06,143 - system - DEBUG - Added bar: 2025-11-10 18:18:06 | Close: 25718.75 | Total rows: 239
+2025-11-10 18:18:11,372 - system - DEBUG - Added bar: 2025-11-10 18:18:11 | Close: 25718.75 | Total rows: 240
+2025-11-10 18:18:16,576 - system - DEBUG - Added bar: 2025-11-10 18:18:16 | Close: 25718.75 | Total rows: 241
+2025-11-10 18:19:01,281 - system - DEBUG - Added bar: 2025-11-10 18:19:01 | Close: 25722.50 | Total rows: 242
+2025-11-10 18:19:06,504 - system - DEBUG - Added bar: 2025-11-10 18:19:06 | Close: 25722.50 | Total rows: 243
+2025-11-10 18:19:11,688 - system - DEBUG - Added bar: 2025-11-10 18:19:11 | Close: 25722.50 | Total rows: 244
+2025-11-10 18:19:16,870 - system - DEBUG - Added bar: 2025-11-10 18:19:16 | Close: 25722.50 | Total rows: 245
+2025-11-10 18:20:00,830 - system - DEBUG - Added bar: 2025-11-10 18:20:00 | Close: 25709.50 | Total rows: 246
+2025-11-10 18:20:06,066 - system - DEBUG - Added bar: 2025-11-10 18:20:06 | Close: 25709.50 | Total rows: 247
+2025-11-10 18:20:11,284 - system - DEBUG - Added bar: 2025-11-10 18:20:11 | Close: 25709.50 | Total rows: 248
+2025-11-10 18:20:16,491 - system - DEBUG - Added bar: 2025-11-10 18:20:16 | Close: 25709.50 | Total rows: 249
+2025-11-10 18:21:00,610 - system - DEBUG - Added bar: 2025-11-10 18:21:00 | Close: 25707.75 | Total rows: 250
+2025-11-10 18:21:05,822 - system - DEBUG - Added bar: 2025-11-10 18:21:05 | Close: 25707.75 | Total rows: 251
+2025-11-10 18:21:11,017 - system - DEBUG - Added bar: 2025-11-10 18:21:11 | Close: 25707.75 | Total rows: 252
+2025-11-10 18:21:16,205 - system - DEBUG - Added bar: 2025-11-10 18:21:16 | Close: 25707.75 | Total rows: 253
+2025-11-10 18:22:00,655 - system - DEBUG - Added bar: 2025-11-10 18:22:00 | Close: 25718.50 | Total rows: 254
+2025-11-10 18:22:05,836 - system - DEBUG - Added bar: 2025-11-10 18:22:05 | Close: 25718.50 | Total rows: 255
+2025-11-10 18:22:11,040 - system - DEBUG - Added bar: 2025-11-10 18:22:11 | Close: 25718.50 | Total rows: 256
+2025-11-10 18:22:16,446 - system - DEBUG - Added bar: 2025-11-10 18:22:16 | Close: 25718.50 | Total rows: 257
+2025-11-10 18:23:01,901 - system - DEBUG - Added bar: 2025-11-10 18:23:01 | Close: 25722.75 | Total rows: 258
+2025-11-10 18:23:07,110 - system - DEBUG - Added bar: 2025-11-10 18:23:07 | Close: 25722.75 | Total rows: 259
+2025-11-10 18:23:12,287 - system - DEBUG - Added bar: 2025-11-10 18:23:12 | Close: 25722.75 | Total rows: 260
+2025-11-10 18:23:17,467 - system - DEBUG - Added bar: 2025-11-10 18:23:17 | Close: 25722.75 | Total rows: 261
+2025-11-10 18:24:00,965 - system - DEBUG - Added bar: 2025-11-10 18:24:00 | Close: 25722.75 | Total rows: 262
+2025-11-10 18:24:06,183 - system - DEBUG - Added bar: 2025-11-10 18:24:06 | Close: 25722.75 | Total rows: 263
+2025-11-10 18:24:11,578 - system - DEBUG - Added bar: 2025-11-10 18:24:11 | Close: 25722.75 | Total rows: 264
+2025-11-10 18:24:16,760 - system - DEBUG - Added bar: 2025-11-10 18:24:16 | Close: 25722.75 | Total rows: 265
+2025-11-10 18:25:10,411 - system - INFO - Database already has 265 bars, skipping CSV import
+2025-11-10 18:26:28,884 - system - INFO - Database already has 265 bars, skipping CSV import
+2025-11-10 18:26:29,390 - system - INFO - Dashboard attached to Flask server
+2025-11-10 18:26:29,392 - system - INFO - Trading Dashboard initialized successfully
+2025-11-10 18:26:29,393 - system - INFO - ============================================================
+2025-11-10 18:26:29,393 - system - INFO - NQ FUTURES TRADING BOT - HYBRID FUSION SYSTEM
+2025-11-10 18:26:29,393 - system - INFO - ============================================================
+2025-11-10 18:26:29,393 - system - INFO - Webhook endpoint: http://0.0.0.0:8050/webhook
+2025-11-10 18:26:29,393 - system - INFO - Dashboard URL: http://0.0.0.0:8050/dashboard/
+2025-11-10 18:26:29,394 - system - INFO - Health check: http://0.0.0.0:8050/health
+2025-11-10 18:26:29,394 - system - INFO - ============================================================
+2025-11-10 18:26:29,394 - system - INFO - Enhanced Strategy Engine: ACTIVE
+2025-11-10 18:26:29,394 - system - INFO -  Signal Fusion Engine: ACTIVE
+2025-11-10 18:26:29,395 - system - INFO -  Position Manager: ACTIVE
+2025-11-10 18:26:29,395 - system - INFO -  Comprehensive Logger: ACTIVE
+2025-11-10 18:26:29,395 - system - INFO -  Paper trading: ENABLED
+2025-11-10 18:26:29,395 - system - INFO - ============================================================
+2025-11-10 18:26:29,396 - system - INFO - Starting NQ Trading Bot (Fusion Mode)...
+2025-11-10 18:27:01,864 - system - DEBUG - Added bar: 2025-11-10 18:27:01 | Close: 25719.75 | Total rows: 266
+2025-11-10 18:28:01,100 - system - DEBUG - Added bar: 2025-11-10 18:28:01 | Close: 25725.75 | Total rows: 267
+2025-11-10 18:29:00,965 - system - DEBUG - Added bar: 2025-11-10 18:29:00 | Close: 25727.00 | Total rows: 268
+2025-11-10 18:30:00,647 - system - DEBUG - Added bar: 2025-11-10 18:30:00 | Close: 25722.00 | Total rows: 269
+2025-11-10 18:31:00,860 - system - DEBUG - Added bar: 2025-11-10 18:31:00 | Close: 25718.00 | Total rows: 270
+2025-11-10 18:31:35,408 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 18:32:00,798 - system - DEBUG - Added bar: 2025-11-10 18:32:00 | Close: 25721.25 | Total rows: 271
+2025-11-10 18:33:00,832 - system - DEBUG - Added bar: 2025-11-10 18:33:00 | Close: 25719.50 | Total rows: 272
+2025-11-10 18:34:01,051 - system - DEBUG - Added bar: 2025-11-10 18:34:01 | Close: 25714.50 | Total rows: 273
+2025-11-10 18:35:00,557 - system - DEBUG - Added bar: 2025-11-10 18:35:00 | Close: 25713.00 | Total rows: 274
+2025-11-10 18:36:00,885 - system - DEBUG - Added bar: 2025-11-10 18:36:00 | Close: 25712.00 | Total rows: 275
+2025-11-10 18:37:01,033 - system - DEBUG - Added bar: 2025-11-10 18:37:01 | Close: 25708.75 | Total rows: 276
+2025-11-10 18:38:02,624 - system - DEBUG - Added bar: 2025-11-10 18:38:02 | Close: 25710.25 | Total rows: 277
+2025-11-10 18:39:00,769 - system - DEBUG - Added bar: 2025-11-10 18:39:00 | Close: 25709.25 | Total rows: 278
+2025-11-10 18:40:00,948 - system - DEBUG - Added bar: 2025-11-10 18:40:00 | Close: 25710.50 | Total rows: 279
+2025-11-10 18:41:00,725 - system - DEBUG - Added bar: 2025-11-10 18:41:00 | Close: 25708.50 | Total rows: 280
+2025-11-10 18:42:00,767 - system - DEBUG - Added bar: 2025-11-10 18:42:00 | Close: 25714.25 | Total rows: 281
+2025-11-10 18:42:51,821 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 18:43:03,133 - system - DEBUG - Added bar: 2025-11-10 18:43:03 | Close: 25715.00 | Total rows: 282
+2025-11-10 18:44:00,632 - system - DEBUG - Added bar: 2025-11-10 18:44:00 | Close: 25716.25 | Total rows: 283
+2025-11-10 18:45:00,846 - system - DEBUG - Added bar: 2025-11-10 18:45:00 | Close: 25711.25 | Total rows: 284
+2025-11-10 18:46:00,688 - system - DEBUG - Added bar: 2025-11-10 18:46:00 | Close: 25715.00 | Total rows: 285
+2025-11-10 18:47:01,049 - system - DEBUG - Added bar: 2025-11-10 18:47:01 | Close: 25726.75 | Total rows: 286
+2025-11-10 18:47:11,810 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 18:48:00,702 - system - DEBUG - Added bar: 2025-11-10 18:48:00 | Close: 25736.25 | Total rows: 287
+2025-11-10 18:49:00,856 - system - DEBUG - Added bar: 2025-11-10 18:49:00 | Close: 25742.25 | Total rows: 288
+2025-11-10 18:50:00,606 - system - DEBUG - Added bar: 2025-11-10 18:50:00 | Close: 25737.50 | Total rows: 289
+2025-11-10 18:51:01,373 - system - DEBUG - Added bar: 2025-11-10 18:51:01 | Close: 25740.25 | Total rows: 290
+2025-11-10 18:52:00,745 - system - DEBUG - Added bar: 2025-11-10 18:52:00 | Close: 25740.75 | Total rows: 291
+2025-11-10 18:53:00,529 - system - DEBUG - Added bar: 2025-11-10 18:53:00 | Close: 25735.75 | Total rows: 292
+2025-11-10 18:54:01,292 - system - DEBUG - Added bar: 2025-11-10 18:54:01 | Close: 25738.00 | Total rows: 293
+2025-11-10 18:55:00,538 - system - DEBUG - Added bar: 2025-11-10 18:55:00 | Close: 25734.75 | Total rows: 294
+2025-11-10 18:56:00,886 - system - DEBUG - Added bar: 2025-11-10 18:56:00 | Close: 25730.50 | Total rows: 295
+2025-11-10 18:57:00,762 - system - DEBUG - Added bar: 2025-11-10 18:57:00 | Close: 25737.50 | Total rows: 296
+2025-11-10 18:58:00,579 - system - DEBUG - Added bar: 2025-11-10 18:58:00 | Close: 25743.50 | Total rows: 297
+2025-11-10 18:59:02,219 - system - DEBUG - Added bar: 2025-11-10 18:59:02 | Close: 25744.00 | Total rows: 298
+2025-11-10 19:00:00,683 - system - DEBUG - Added bar: 2025-11-10 19:00:00 | Close: 25742.75 | Total rows: 299
+2025-11-10 19:01:01,553 - system - DEBUG - Added bar: 2025-11-10 19:01:01 | Close: 25742.00 | Total rows: 300
+2025-11-10 19:02:00,638 - system - DEBUG - Added bar: 2025-11-10 19:02:00 | Close: 25745.00 | Total rows: 301
+2025-11-10 19:03:00,850 - system - DEBUG - Added bar: 2025-11-10 19:03:00 | Close: 25751.25 | Total rows: 302
+2025-11-10 19:04:00,486 - system - DEBUG - Added bar: 2025-11-10 19:04:00 | Close: 25754.75 | Total rows: 303
+2025-11-10 19:05:00,540 - system - DEBUG - Added bar: 2025-11-10 19:05:00 | Close: 25768.00 | Total rows: 304
+2025-11-10 19:06:00,605 - system - DEBUG - Added bar: 2025-11-10 19:06:00 | Close: 25760.50 | Total rows: 305
+2025-11-10 19:07:00,590 - system - DEBUG - Added bar: 2025-11-10 19:07:00 | Close: 25751.25 | Total rows: 306
+2025-11-10 19:08:00,818 - system - DEBUG - Added bar: 2025-11-10 19:08:00 | Close: 25750.75 | Total rows: 307
+2025-11-10 19:09:00,751 - system - DEBUG - Added bar: 2025-11-10 19:09:00 | Close: 25745.75 | Total rows: 308
+2025-11-10 19:10:00,519 - system - DEBUG - Added bar: 2025-11-10 19:10:00 | Close: 25745.75 | Total rows: 309
+2025-11-10 19:11:00,559 - system - DEBUG - Added bar: 2025-11-10 19:11:00 | Close: 25741.50 | Total rows: 310
+2025-11-10 19:11:51,837 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 19:12:00,656 - system - DEBUG - Added bar: 2025-11-10 19:12:00 | Close: 25737.00 | Total rows: 311
+2025-11-10 19:12:51,828 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 19:13:00,524 - system - DEBUG - Added bar: 2025-11-10 19:13:00 | Close: 25734.50 | Total rows: 312
+2025-11-10 19:14:00,569 - system - DEBUG - Added bar: 2025-11-10 19:14:00 | Close: 25738.25 | Total rows: 313
+2025-11-10 19:15:00,698 - system - DEBUG - Added bar: 2025-11-10 19:15:00 | Close: 25747.75 | Total rows: 314
+2025-11-10 19:16:00,525 - system - DEBUG - Added bar: 2025-11-10 19:16:00 | Close: 25740.00 | Total rows: 315
+2025-11-10 19:17:01,009 - system - DEBUG - Added bar: 2025-11-10 19:17:01 | Close: 25736.75 | Total rows: 316
+2025-11-10 19:18:00,779 - system - DEBUG - Added bar: 2025-11-10 19:18:00 | Close: 25738.25 | Total rows: 317
+2025-11-10 19:19:00,856 - system - DEBUG - Added bar: 2025-11-10 19:19:00 | Close: 25743.25 | Total rows: 318
+2025-11-10 19:20:00,830 - system - DEBUG - Added bar: 2025-11-10 19:20:00 | Close: 25732.75 | Total rows: 319
+2025-11-10 19:21:00,937 - system - DEBUG - Added bar: 2025-11-10 19:21:00 | Close: 25737.00 | Total rows: 320
+2025-11-10 19:22:00,580 - system - DEBUG - Added bar: 2025-11-10 19:22:00 | Close: 25734.75 | Total rows: 321
+2025-11-10 19:23:02,058 - system - DEBUG - Added bar: 2025-11-10 19:23:02 | Close: 25738.75 | Total rows: 322
+2025-11-10 19:23:13,964 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 19:24:01,328 - system - DEBUG - Added bar: 2025-11-10 19:24:01 | Close: 25742.25 | Total rows: 323
+2025-11-10 19:24:23,967 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 19:25:00,614 - system - DEBUG - Added bar: 2025-11-10 19:25:00 | Close: 25742.00 | Total rows: 324
+2025-11-10 19:26:01,712 - system - DEBUG - Added bar: 2025-11-10 19:26:01 | Close: 25738.25 | Total rows: 325
+2025-11-10 19:27:01,199 - system - DEBUG - Added bar: 2025-11-10 19:27:01 | Close: 25740.50 | Total rows: 326
+2025-11-10 19:27:23,960 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 19:28:01,005 - system - DEBUG - Added bar: 2025-11-10 19:28:01 | Close: 25743.25 | Total rows: 327
+2025-11-10 19:28:43,961 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 19:29:00,675 - system - DEBUG - Added bar: 2025-11-10 19:29:00 | Close: 25742.50 | Total rows: 328
+2025-11-10 19:29:28,971 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 19:30:02,008 - system - DEBUG - Added bar: 2025-11-10 19:30:02 | Close: 25749.50 | Total rows: 329
+2025-11-10 19:30:33,976 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 19:31:00,711 - system - DEBUG - Added bar: 2025-11-10 19:31:00 | Close: 25738.00 | Total rows: 330
+2025-11-10 19:32:00,958 - system - DEBUG - Added bar: 2025-11-10 19:32:00 | Close: 25737.25 | Total rows: 331
+2025-11-10 19:33:00,918 - system - DEBUG - Added bar: 2025-11-10 19:33:00 | Close: 25739.50 | Total rows: 332
+2025-11-10 19:34:00,928 - system - DEBUG - Added bar: 2025-11-10 19:34:00 | Close: 25742.50 | Total rows: 333
+2025-11-10 19:35:01,778 - system - DEBUG - Added bar: 2025-11-10 19:35:01 | Close: 25746.00 | Total rows: 334
+2025-11-10 19:36:00,904 - system - DEBUG - Added bar: 2025-11-10 19:36:00 | Close: 25750.75 | Total rows: 335
+2025-11-10 19:37:02,525 - system - DEBUG - Added bar: 2025-11-10 19:37:02 | Close: 25749.75 | Total rows: 336
+2025-11-10 19:37:33,971 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 19:38:00,639 - system - DEBUG - Added bar: 2025-11-10 19:38:00 | Close: 25751.75 | Total rows: 337
+2025-11-10 19:38:08,975 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 19:39:00,809 - system - DEBUG - Added bar: 2025-11-10 19:39:00 | Close: 25753.75 | Total rows: 338
+2025-11-10 19:39:08,977 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 19:40:01,444 - system - DEBUG - Added bar: 2025-11-10 19:40:01 | Close: 25750.00 | Total rows: 339
+2025-11-10 19:40:23,966 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 19:41:00,828 - system - DEBUG - Added bar: 2025-11-10 19:41:00 | Close: 25753.00 | Total rows: 340
+2025-11-10 19:42:00,940 - system - DEBUG - Added bar: 2025-11-10 19:42:00 | Close: 25747.25 | Total rows: 341
+2025-11-10 19:43:01,877 - system - DEBUG - Added bar: 2025-11-10 19:43:01 | Close: 25750.50 | Total rows: 342
+2025-11-10 19:44:00,789 - system - DEBUG - Added bar: 2025-11-10 19:44:00 | Close: 25748.50 | Total rows: 343
+2025-11-10 19:45:00,654 - system - DEBUG - Added bar: 2025-11-10 19:45:00 | Close: 25743.00 | Total rows: 344
+2025-11-10 19:46:01,198 - system - DEBUG - Added bar: 2025-11-10 19:46:01 | Close: 25745.00 | Total rows: 345
+2025-11-10 19:47:00,582 - system - DEBUG - Added bar: 2025-11-10 19:47:00 | Close: 25735.50 | Total rows: 346
+2025-11-10 19:47:13,978 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 19:48:00,741 - system - DEBUG - Added bar: 2025-11-10 19:48:00 | Close: 25735.75 | Total rows: 347
+2025-11-10 19:49:00,737 - system - DEBUG - Added bar: 2025-11-10 19:49:00 | Close: 25739.00 | Total rows: 348
+2025-11-10 19:50:00,538 - system - DEBUG - Added bar: 2025-11-10 19:50:00 | Close: 25732.75 | Total rows: 349
+2025-11-10 19:50:38,976 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 19:51:00,803 - system - DEBUG - Added bar: 2025-11-10 19:51:00 | Close: 25739.75 | Total rows: 350
+2025-11-10 19:52:02,245 - system - DEBUG - Added bar: 2025-11-10 19:52:02 | Close: 25734.00 | Total rows: 351
+2025-11-10 19:53:00,850 - system - DEBUG - Added bar: 2025-11-10 19:53:00 | Close: 25733.50 | Total rows: 352
+2025-11-10 19:54:01,359 - system - DEBUG - Added bar: 2025-11-10 19:54:01 | Close: 25732.25 | Total rows: 353
+2025-11-10 19:55:00,935 - system - DEBUG - Added bar: 2025-11-10 19:55:00 | Close: 25734.50 | Total rows: 354
+2025-11-10 19:56:00,832 - system - DEBUG - Added bar: 2025-11-10 19:56:00 | Close: 25738.50 | Total rows: 355
+2025-11-10 19:57:00,835 - system - DEBUG - Added bar: 2025-11-10 19:57:00 | Close: 25744.25 | Total rows: 356
+2025-11-10 19:58:01,963 - system - DEBUG - Added bar: 2025-11-10 19:58:01 | Close: 25740.25 | Total rows: 357
+2025-11-10 19:58:13,977 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 19:59:00,853 - system - DEBUG - Added bar: 2025-11-10 19:59:00 | Close: 25738.25 | Total rows: 358
+2025-11-10 19:59:48,991 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 20:00:00,538 - system - DEBUG - Added bar: 2025-11-10 20:00:00 | Close: 25738.50 | Total rows: 359
+2025-11-10 20:00:53,985 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 20:01:01,737 - system - DEBUG - Added bar: 2025-11-10 20:01:01 | Close: 25744.25 | Total rows: 360
+2025-11-10 20:02:00,990 - system - DEBUG - Added bar: 2025-11-10 20:02:00 | Close: 25743.25 | Total rows: 361
+2025-11-10 20:03:00,911 - system - DEBUG - Added bar: 2025-11-10 20:03:00 | Close: 25746.25 | Total rows: 362
+2025-11-10 20:04:00,589 - system - DEBUG - Added bar: 2025-11-10 20:04:00 | Close: 25737.25 | Total rows: 363
+2025-11-10 20:05:00,579 - system - DEBUG - Added bar: 2025-11-10 20:05:00 | Close: 25739.75 | Total rows: 364
+2025-11-10 20:06:00,964 - system - DEBUG - Added bar: 2025-11-10 20:06:00 | Close: 25747.00 | Total rows: 365
+2025-11-10 20:07:00,580 - system - DEBUG - Added bar: 2025-11-10 20:07:00 | Close: 25745.75 | Total rows: 366
+2025-11-10 20:08:00,545 - system - DEBUG - Added bar: 2025-11-10 20:08:00 | Close: 25745.25 | Total rows: 367
+2025-11-10 20:09:00,544 - system - DEBUG - Added bar: 2025-11-10 20:09:00 | Close: 25748.00 | Total rows: 368
+2025-11-10 20:10:00,744 - system - DEBUG - Added bar: 2025-11-10 20:10:00 | Close: 25750.25 | Total rows: 369
+2025-11-10 20:11:00,715 - system - DEBUG - Added bar: 2025-11-10 20:11:00 | Close: 25745.00 | Total rows: 370
+2025-11-10 20:12:00,510 - system - DEBUG - Added bar: 2025-11-10 20:12:00 | Close: 25745.00 | Total rows: 371
+2025-11-10 20:12:03,997 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 20:13:00,557 - system - DEBUG - Added bar: 2025-11-10 20:13:00 | Close: 25745.25 | Total rows: 372
+2025-11-10 20:14:00,588 - system - DEBUG - Added bar: 2025-11-10 20:14:00 | Close: 25746.50 | Total rows: 373
+2025-11-10 20:14:48,991 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 20:14:59,009 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 20:15:00,638 - system - DEBUG - Added bar: 2025-11-10 20:15:00 | Close: 25750.25 | Total rows: 374
+2025-11-10 20:15:13,992 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 20:16:00,931 - system - DEBUG - Added bar: 2025-11-10 20:16:00 | Close: 25750.25 | Total rows: 375
+2025-11-10 20:16:23,992 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 20:17:00,502 - system - DEBUG - Added bar: 2025-11-10 20:17:00 | Close: 25758.25 | Total rows: 376
+2025-11-10 20:17:14,009 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 20:18:00,869 - system - DEBUG - Added bar: 2025-11-10 20:18:00 | Close: 25760.50 | Total rows: 377
+2025-11-10 20:18:28,990 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 20:19:00,662 - system - DEBUG - Added bar: 2025-11-10 20:19:00 | Close: 25762.50 | Total rows: 378
+2025-11-10 20:19:09,004 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 20:19:18,994 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 20:19:48,996 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 20:20:00,754 - system - DEBUG - Added bar: 2025-11-10 20:20:00 | Close: 25764.75 | Total rows: 379
+2025-11-10 20:20:33,995 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 20:21:00,770 - system - DEBUG - Added bar: 2025-11-10 20:21:00 | Close: 25765.50 | Total rows: 380
+2025-11-10 20:22:01,167 - system - DEBUG - Added bar: 2025-11-10 20:22:01 | Close: 25762.50 | Total rows: 381
+2025-11-10 20:22:18,989 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 20:22:33,992 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 20:23:01,349 - system - DEBUG - Added bar: 2025-11-10 20:23:01 | Close: 25756.25 | Total rows: 382
+2025-11-10 20:23:48,999 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 20:23:58,999 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 20:24:00,506 - system - DEBUG - Added bar: 2025-11-10 20:24:00 | Close: 25760.50 | Total rows: 383
+2025-11-10 20:24:18,999 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 20:24:38,994 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 20:25:01,050 - system - DEBUG - Added bar: 2025-11-10 20:25:01 | Close: 25756.00 | Total rows: 384
+2025-11-10 20:25:33,994 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 20:26:00,585 - system - DEBUG - Added bar: 2025-11-10 20:26:00 | Close: 25764.00 | Total rows: 385
+2025-11-10 20:27:00,752 - system - DEBUG - Added bar: 2025-11-10 20:27:00 | Close: 25760.50 | Total rows: 386
+2025-11-10 20:28:01,087 - system - DEBUG - Added bar: 2025-11-10 20:28:01 | Close: 25756.25 | Total rows: 387
+2025-11-10 20:28:14,001 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 20:28:30,869 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 20:29:00,930 - system - DEBUG - Added bar: 2025-11-10 20:29:00 | Close: 25760.25 | Total rows: 388
+2025-11-10 20:30:00,732 - system - DEBUG - Added bar: 2025-11-10 20:30:00 | Close: 25760.25 | Total rows: 389
+2025-11-10 20:31:00,717 - system - DEBUG - Added bar: 2025-11-10 20:31:00 | Close: 25756.75 | Total rows: 390
+2025-11-10 20:32:00,740 - system - DEBUG - Added bar: 2025-11-10 20:32:00 | Close: 25758.75 | Total rows: 391
+2025-11-10 20:33:00,559 - system - DEBUG - Added bar: 2025-11-10 20:33:00 | Close: 25756.50 | Total rows: 392
+2025-11-10 20:34:01,124 - system - DEBUG - Added bar: 2025-11-10 20:34:01 | Close: 25762.00 | Total rows: 393
+2025-11-10 20:35:00,969 - system - DEBUG - Added bar: 2025-11-10 20:35:00 | Close: 25760.75 | Total rows: 394
+2025-11-10 20:36:00,801 - system - DEBUG - Added bar: 2025-11-10 20:36:00 | Close: 25758.75 | Total rows: 395
+2025-11-10 20:37:02,687 - system - DEBUG - Added bar: 2025-11-10 20:37:02 | Close: 25757.75 | Total rows: 396
+2025-11-10 20:38:01,260 - system - DEBUG - Added bar: 2025-11-10 20:38:01 | Close: 25752.75 | Total rows: 397
+2025-11-10 20:39:00,784 - system - DEBUG - Added bar: 2025-11-10 20:39:00 | Close: 25738.25 | Total rows: 398
+2025-11-10 20:40:00,542 - system - DEBUG - Added bar: 2025-11-10 20:40:00 | Close: 25745.75 | Total rows: 399
+2025-11-10 20:41:00,814 - system - DEBUG - Added bar: 2025-11-10 20:41:00 | Close: 25741.50 | Total rows: 400
+2025-11-10 20:42:00,725 - system - DEBUG - Added bar: 2025-11-10 20:42:00 | Close: 25741.75 | Total rows: 401
+2025-11-10 20:43:00,706 - system - DEBUG - Added bar: 2025-11-10 20:43:00 | Close: 25745.25 | Total rows: 402
+2025-11-10 20:44:00,802 - system - DEBUG - Added bar: 2025-11-10 20:44:00 | Close: 25743.00 | Total rows: 403
+2025-11-10 20:45:01,313 - system - DEBUG - Added bar: 2025-11-10 20:45:01 | Close: 25745.75 | Total rows: 404
+2025-11-10 20:46:01,580 - system - DEBUG - Added bar: 2025-11-10 20:46:01 | Close: 25744.50 | Total rows: 405
+2025-11-10 20:47:00,518 - system - DEBUG - Added bar: 2025-11-10 20:47:00 | Close: 25742.00 | Total rows: 406
+2025-11-10 20:48:01,178 - system - DEBUG - Added bar: 2025-11-10 20:48:01 | Close: 25738.25 | Total rows: 407
+2025-11-10 20:49:00,994 - system - DEBUG - Added bar: 2025-11-10 20:49:00 | Close: 25742.25 | Total rows: 408
+2025-11-10 20:50:00,946 - system - DEBUG - Added bar: 2025-11-10 20:50:00 | Close: 25745.00 | Total rows: 409
+2025-11-10 20:51:00,740 - system - DEBUG - Added bar: 2025-11-10 20:51:00 | Close: 25748.00 | Total rows: 410
+2025-11-10 20:52:01,968 - system - DEBUG - Added bar: 2025-11-10 20:52:01 | Close: 25747.25 | Total rows: 411
+2025-11-10 20:53:00,821 - system - DEBUG - Added bar: 2025-11-10 20:53:00 | Close: 25742.25 | Total rows: 412
+2025-11-10 20:53:55,881 - system - ERROR - Error getting latest bars: bad parameter or other API misuse
+2025-11-10 20:54:00,694 - system - DEBUG - Added bar: 2025-11-10 20:54:00 | Close: 25747.50 | Total rows: 413
+2025-11-10 20:55:03,348 - system - DEBUG - Added bar: 2025-11-10 20:55:03 | Close: 25743.25 | Total rows: 414
+2025-11-10 20:56:01,767 - system - DEBUG - Added bar: 2025-11-10 20:56:01 | Close: 25746.00 | Total rows: 415
+2025-11-10 20:57:01,207 - system - DEBUG - Added bar: 2025-11-10 20:57:01 | Close: 25749.00 | Total rows: 416
+2025-11-10 20:58:01,260 - system - DEBUG - Added bar: 2025-11-10 20:58:01 | Close: 25747.25 | Total rows: 417
+2025-11-10 20:59:00,741 - system - DEBUG - Added bar: 2025-11-10 20:59:00 | Close: 25743.50 | Total rows: 418
+2025-11-10 21:00:06,749 - system - DEBUG - Added bar: 2025-11-10 21:00:06 | Close: 25743.25 | Total rows: 419
+2025-11-10 21:01:02,091 - system - DEBUG - Added bar: 2025-11-10 21:01:02 | Close: 25740.75 | Total rows: 420
+2025-11-10 21:02:00,860 - system - DEBUG - Added bar: 2025-11-10 21:02:00 | Close: 25735.25 | Total rows: 421
+2025-11-10 21:03:01,022 - system - DEBUG - Added bar: 2025-11-10 21:03:01 | Close: 25727.25 | Total rows: 422
+2025-11-10 21:04:01,053 - system - DEBUG - Added bar: 2025-11-10 21:04:01 | Close: 25728.75 | Total rows: 423
+2025-11-10 21:05:00,515 - system - DEBUG - Added bar: 2025-11-10 21:05:00 | Close: 25729.00 | Total rows: 424
+2025-11-10 21:06:00,732 - system - DEBUG - Added bar: 2025-11-10 21:06:00 | Close: 25726.75 | Total rows: 425
+2025-11-10 21:07:01,875 - system - DEBUG - Added bar: 2025-11-10 21:07:01 | Close: 25727.25 | Total rows: 426
+2025-11-10 21:08:03,286 - system - DEBUG - Added bar: 2025-11-10 21:08:03 | Close: 25725.50 | Total rows: 427
+2025-11-10 21:09:00,635 - system - DEBUG - Added bar: 2025-11-10 21:09:00 | Close: 25722.50 | Total rows: 428
